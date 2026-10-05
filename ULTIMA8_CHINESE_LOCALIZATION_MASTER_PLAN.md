@@ -47,7 +47,7 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ⏳ 待開始
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ⏳ 待開始
 
 ---
 
@@ -767,7 +767,9 @@ exp/u8-dialog-poc
 | `scummvm-src/` | upstream clone（blobless），尚未改為指向使用者 fork 的 submodule |
 | 基準 | `master` @ `71cb05b1`，working tree clean |
 | 實驗分支 | `exp/u8-p2-identity-spike`（commit `2063e25a89`，本機，未 push）：Phase 2 spike，**僅供參考，不直接合併** |
-| 建置目錄（gitignored） | `build-scummvm/`（P0 原版）、`build-trace/`（`DEBUG_USECODE`）、`build-spike/` |
+| 開發分支 | `ultima8-zh-tw-dev`：P3 commit `96bfc46318`（本機，未 push） |
+| 建置目錄（gitignored） | `build-scummvm/`（P0 原版）、`build-trace/`（`DEBUG_USECODE`）、`build-spike/`、`build-dev/`（開發分支） |
+| 單元測試 | WSL：`~/u8build`，`make VER_REV=… -o test/runner.cpp test`（見 P3 報告 Findings 4） |
 | 工具 | `tools/diagnostics/u8dis.py`（Usecode 反組譯）、`tools/extract/u8extract.py`（依對話流程抽取，示範版） |
 | 本機測試 | `private_test/`：啟動檔、設定檔、字型、POC 翻譯表、抽取示範（不進版控） |
 
@@ -1013,7 +1015,7 @@ P15 Optional Enhancements
 | P0 Baseline | ✅ PASS（2026-10-05） | `docs/reports/P0-baseline.md` |
 | P1 Text Architecture Audit | ✅ PASS（2026-10-05） | `docs/reports/P1-text-architecture-audit.md` |
 | P2 Translation Identity | ✅ PASS → **GO**（2026-10-06） | `docs/reports/P2-translation-identity.md` |
-| P3 UTF-8 / CJK Foundation | ⏳ 待開始（spike 已驗證可行） | |
+| P3 UTF-8 / CJK Foundation | ✅ PASS（2026-10-06） | `docs/reports/P3-cjk-foundation.md` |
 | P4 Localization Manager | ⏳（spike 已驗證可行） | |
 | P5 NPC Bark POC ★ | ⏳（spike 已在遊戲中顯示中文台詞） | |
 | P6 AskGump Choice POC ★ | ⏳（spike 已驗證中文選項進入原始分支） | |
@@ -2891,15 +2893,17 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 1 | CJK 字型載入失敗時自動停用翻譯 | P4 |
 | 2 | 自言自語 bark 的 `TextWidget::_text` 寫入存檔 | P5 |
 | 3 | 顯示時間以 byte 計算（中文停留過久） | P5（不過早消失）/ P11（完整） |
-| 4 | 字集覆蓋檢查工具 | P3 |
-| 5 | `font_antialiasing` 為全域設定 | P3 |
-| 6 | `toUnicode` 修正的英文與日文 regression test | P3 |
+| 4 | ~~字集覆蓋檢查工具~~ ✅ `tools/validate/font_coverage.py` | P3 |
+| 5 | ~~`font_antialiasing` 為全域設定~~ ✅ `font_cjk_antialiasing` 個別設定 | P3 |
+| 6 | ~~`toUnicode` 修正的英文與日文 regression test~~ ✅ 單元測試（日文無實機資料） | P3 |
 | 7 | 句型比對與參數翻譯 | P11 |
 | 8 | 5 個無法自動解析的 bark（PYROS、SORCERER、METHOD） | P10 |
 | 9 | 共用 class（例如 `METHOD 057C`）代為發話時的對話脈絡 | P10 |
 | 10 | BookGump 的 `_TL_()` 書本修正與新翻譯層並存 | P8 |
 | 11 | 建立 ScummVM fork 並改為 submodule | P3 之前或期間 |
 | 12 | HD 文字層 | P15 |
+| 13 | 啟用 CJK 字型後英文外觀也改變（像素字型）；是否只在 localization 開啟時載入 | P4 |
+| 14 | 原版換行在字元比行寬時無限迴圈 → 已在 P3 修正，可考慮回報 upstream | — |
 
 ---
 
