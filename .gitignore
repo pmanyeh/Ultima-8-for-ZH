@@ -1,0 +1,22 @@
+# Original game data (never commit, see Master Plan §14)
+/Ultima 8/
+
+# Local test data: saves, fonts, logs, launchers (private_test/.gitignore ignores contents)
+/private_test/*
+!/private_test/.gitignore
+
+# ScummVM checkout: separate git repo; becomes a submodule once the user's fork exists
+/scummvm-src/
+
+# Scratch
+/scratch/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors / OS
+.vs/
+.vscode/
+Thumbs.db
+desktop.ini
