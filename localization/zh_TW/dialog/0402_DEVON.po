@@ -1,7 +1,7 @@
 # Ultima VIII: Pagan - Traditional Chinese translation
 # DEVON (usecode class 0402)
 #
-# POC catalog (Phase 4-5): a few of Devon's lines, not a full translation.
+# POC catalog (Phase 4-6): a few of Devon's lines, not a full translation.
 # Dynamic barks with the player's name ({name}) are not included yet:
 # 0402:060F, 0402:0964 (Phase 11).
 msgid ""
@@ -100,3 +100,13 @@ msgstr "希望一切都好。"
 msgctxt "bark 0402:3311"
 msgid "Well, I suppose now that you are better, you should consider visiting Tenebrae. Here there is nothing, unless you wish to join me in fishing. But in Tenebrae, there is a wealth of activities and information for a soul such as yourself. Why, I know just the person there who can help you. When you get to town, visit Bentic in the library in east Tenebrae. The good sage knows practically all there is to know about our land and its people. Yes, he can certainly help you. "
 msgstr "嗯，既然你已經好多了，我想你應該考慮去 Tenebrae 看看。這裡什麼都沒有，除非你想跟我一起捕魚。但在 Tenebrae，有許多活動和消息，很適合像你這樣的人。對了，我正好知道那裡有個人能幫你。等你到了城裡，就去 Tenebrae 東邊的圖書館找 Bentic。那位賢者對我們這片土地和人民幾乎無所不知。是的，他一定能幫上你的忙。"
+
+#. greeting answer when the Avatar already knows Devon; leads to 0402:235D / 0402:2398
+msgctxt "ask 0402"
+msgid "Hello, Devon. "
+msgstr "你好，Devon。"
+
+#. answer when the Avatar already knows Devon; leads to 0402:3311
+msgctxt "ask 0402"
+msgid "What should I do? "
+msgstr "我該怎麼做？"

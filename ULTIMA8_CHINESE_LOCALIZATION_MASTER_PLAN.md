@@ -47,7 +47,17 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ⏳ 待開始
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ⏳ 待開始
+
+## v2.3 — 2026-10-06（Phase 6 完成後）
+
+依據：[docs/reports/P6-askgump-choice-poc.md](docs/reports/P6-askgump-choice-poc.md)
+
+| 章節 | 修訂內容 |
+|---|---|
+| §18.1 | P6 PASS |
+| §25 | 驗收打勾；`AskGump::loadData` 不需要掛點（按鈕是存檔中的子 gump，改為存英文），不需在存檔中記錄 class |
+| §49 | #17 完成 |
 
 ## v2.2 — 2026-10-06（Phase 5 完成後）
 
@@ -1039,7 +1049,7 @@ P15 Optional Enhancements
 | P3 UTF-8 / CJK Foundation | ✅ PASS（2026-10-06） | `docs/reports/P3-cjk-foundation.md` |
 | P4 Localization Manager | ✅ PASS（2026-10-06） | `docs/reports/P4-localization-manager.md` |
 | P5 NPC Bark POC ★ | ✅ PASS（2026-10-06） | `docs/reports/P5-npc-bark-poc.md` |
-| P6 AskGump Choice POC ★ | ⏳（spike 已驗證中文選項進入原始分支） | |
+| P6 AskGump Choice POC ★ | ✅ PASS（2026-10-06） | `docs/reports/P6-askgump-choice-poc.md` |
 | P7 First Complete Conversation ★ | ⏳ | |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
@@ -1762,20 +1772,26 @@ Option B
 
 驗證：
 
-- [ ] both Chinese
-- [ ] button dimensions correct
-- [ ] hitboxes correct
-- [ ] Option A triggers original A branch
-- [ ] Option B triggers original B branch
-- [ ] returned string identity unchanged
-- [ ] English mode works
-- [ ] save/load works
+- [x] both Chinese
+- [x] button dimensions correct
+- [x] hitboxes correct
+- [x] Option A triggers original A branch
+- [x] Option B triggers original B branch
+- [x] returned string identity unchanged
+- [x] English mode works
+- [x] save/load works
 
 ## v2：P6 工作項目
 
 1. **掛點**：`AskGump::InitGump` 與 `AskGump::loadData` 組 `"@ " + 文字` 的兩個地方都要替換；`_answers`、`_processResult` 不變（spike 已驗證點擊中文選項會進入原始分支）。
 2. **呼叫的 class**：由 `Item::I_ask` 傳入 AskGump。讀檔重建時需要能取得 class，可存入 AskGump 的存檔資料，或由 owner 推得。注意：對話期間不能存檔，所以這是低頻率的情況。
 3. **按鈕寬度**：選項以 160px 為寬度換行排列，需確認中文選項的寬度與點擊範圍。
+
+**v2.3：P6 結果**（[報告](docs/reports/P6-askgump-choice-poc.md)）
+
+- `Item::I_ask` 查好譯文傳給 `AskGump::_displayAnswers`（不存檔），只用於按鈕文字；`_answers` 與 `ChildNotify` 未修改。
+- `loadData` 不從 string heap 重建按鈕，按鈕本身是存檔中的子 gump → `ButtonWidget::setSaveText()` 存英文即可，不需第二個掛點，也不需記錄 class。
+- 按鈕寬度與點擊範圍依實際文字自動計算，中文正常。
 
 **STOP**
 
@@ -2943,7 +2959,7 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 14 | 原版換行在字元比行寬時無限迴圈 → 已在 P3 修正，可考慮回報 upstream | — |
 | 15 | 遊戲選項 GUI 的語言選單（ScummVM game option 只有勾選框，需要自訂 widget） | P9 或之後 |
 | 16 | 翻譯檔沒有記錄遊戲資料版本；考慮在檔頭加入 `EUSECODE.FLX` 雜湊 | P10 |
-| 17 | 掛點確認目標字型是 UTF-8 字型：BarkGump ✅（`Font::isUTF8`）；AskGump 待做 | P6 |
+| 17 | ~~掛點確認目標字型是 UTF-8 字型~~ ✅ BarkGump（P5）、AskGump（P6） | P5 / P6 |
 | 18 | 有語音的 NPC 在 localization 下的語音與字幕（遊戲只有 9 個語音檔） | P7 |
 
 ---

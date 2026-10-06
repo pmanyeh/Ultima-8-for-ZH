@@ -1,7 +1,7 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
 **更新日期：** 2026-10-06
-**目前進度：** Phase 0–5 ✅ PASS，**下一步：Phase 6（First AskGump Chinese Choice POC），需等使用者明確指示才開始**
+**目前進度：** Phase 0–6 ✅ PASS，**下一步：Phase 7（First Complete Conversation），需等使用者明確指示才開始**
 
 給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（v2，開頭有修訂紀錄與進度表）。
 
@@ -45,7 +45,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main）
 ├── ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md   ← v2
 ├── docs/
 │   ├── HANDOFF.md                        ← 本文件
-│   ├── reports/P0..P5-*.md               ← 各 Phase 報告
+│   ├── reports/P0..P6-*.md               ← 各 Phase 報告
 │   ├── research/u8-text-pipeline.md      ← P1 文字流程研究（最重要的背景資料）
 │   └── architecture/ADR-001, ADR-002
 ├── localization/zh_TW/dialog/*.po       ← 翻譯原始檔（ADR-002）；目前只有 Devon 的 POC
@@ -69,7 +69,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main）
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike（含翻譯查表的完整實驗），**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `a1a2282aae` | **正式開發分支**，P3（`96bfc46318`）、P4（`b0efb70a44`、`d6192426af`）、P5（`a1a2282aae`）已 commit。目前 checkout 的分支 |
+| `ultima8-zh-tw-dev` | `b04657abfb` | **正式開發分支**，P3（`96bfc46318`）、P4（`b0efb70a44`、`d6192426af`）、P5（`a1a2282aae`）、P6（`b04657abfb`）已 commit。目前 checkout 的分支 |
 
 ### 建置目錄（在 `scummvm-src/` 內，gitignored）
 
@@ -129,7 +129,7 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 - 更新翻譯檔：`python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extra/u8_zh_TW.mo`
 - Localization 設定（遊戲設定）：`localization=off|zh_TW`、`localization_file`（預設 `u8_<語言>.mo`）、`font_cjk_file`（預設 `Cubic_11.ttf`）、`font_cjk_size`（12）、`font_cjk_antialiasing`（false）。**CJK 字型只在 localization 啟用時載入**。
 - log 中的 `[U8-L10N]` 訊息需要 `--debugflags=Localization`；主控台 `Localization::info` 顯示目前狀態。
-- 存檔：`private_test/saves/ultima8.001`（`p1-after`，在 Devon 附近，已和 Devon 對話過）；`ultima8.002`（P5 測試：主角正在說 `0402:1A04`）。
+- 存檔：`private_test/saves/ultima8.001`（`p1-after`，在 Devon 附近，已和 Devon 對話過）；`ultima8.002`（P5 測試：主角正在說 `0402:1A04`）；`ultima8.003`（P6 測試：英文模式下與 Devon 對話後）。
 - 存檔檢查：`python tools/validate/save_text_check.py private_test/saves/ultima8.00N`（存檔中有 CJK 文字就失敗）。
 - 主控台 `Localization::bark <class>:<ip>`：主角以 localization 路徑說出翻譯檔中的一句。
 - 遊戲內字型測試：`Ctrl+Alt+D` → `Ultima8Engine::barkTestFile p3_test_strings.txt <n>`（需要 `localization=zh_TW` 才會載入 CJK 字型）。
@@ -162,23 +162,26 @@ SDL 只認帶 scan code 的特殊鍵（Enter、組合鍵），所以要用 `vk`�
 
 ---
 
-## 6. 下一步：Phase 6（First AskGump Chinese Choice POC）
+## 6. 下一步：Phase 7（First Complete Conversation）
 
-### 已完成
+### 已完成的 localization 架構（P4–P6）
 
-- P4（[報告](reports/P4-localization-manager.md)）：`TranslationCatalog`（MO，key = `context + "\x04" + 英文原文`）、`Localization`（設定、啟用條件、`translateBark` / `translateAnswer`）。`Item::I_ask` 目前**只查表寫 log**。
-- P5（[報告](reports/P5-npc-bark-poc.md)）：`I_bark` → `Item::bark(msg, displayText)` → `BarkGump::_displayText`（不存檔）→ TextWidget。`Font::isUTF8()` 檢查字型。`TextWidget::setSaveText()` 讓存檔只有英文。遊戲內與存檔測試由使用者操作通過。
+| Phase | 內容 | 報告 |
+|---|---|---|
+| P4 | `TranslationCatalog`（MO，key = `context + "\x04" + 英文原文`）、`Localization`（設定、啟用條件、`translateBark` / `translateAnswer`） | [P4](reports/P4-localization-manager.md) |
+| P5 | `I_bark` → `Item::bark(msg, displayText)` → `BarkGump::_displayText`（不存檔）→ TextWidget；`TextWidget::setSaveText()` 讓存檔只有英文 | [P5](reports/P5-npc-bark-poc.md) |
+| P6 | `I_ask` → `AskGump::_displayAnswers`（不存檔）→ 按鈕文字；`ButtonWidget::setSaveText()`；`_answers` 與回傳值不變 | [P6](reports/P6-askgump-choice-poc.md) |
 
-### P6 要做的事
+共同原則：**譯文只在建立顯示元件時使用**；Usecode、string heap、`_barked`、`_answers`、語音、存檔都只用英文。字型不能畫 UTF-8 時顯示英文。存讀檔後，正在顯示的那一句或那一組選項會是英文（使用者已同意）。
 
-規格見 Master Plan §25 與「v2：P6 工作項目」：
+### P7 要做的事
 
-1. AskGump 的按鈕文字換成譯文；`_answers`（string ID）與 `_processResult` 不變，玩家點中文選項後必須進入原本的英文分支（spike 已驗證）。
-2. 兩處掛點：`AskGump::InitGump`（建立按鈕）與 `AskGump::loadData`（讀檔時重建按鈕）。對話中不能存檔，但 `loadData` 仍要處理。
-3. 需要把呼叫 ask 的 class 交給 AskGump（`Localization::runningClassId()`），不寫入存檔；`I_ask` 中目前只查表的程式碼改為實際使用。
-4. ButtonWidget 的字型也要確認 `isUTF8()`（§49 #17）。
-5. POC 翻譯中已有的選項：`Goodbye.`、`Who are you?` 等；這個存檔會出現的 `Hello, Devon.`、`What should I do?` 尚未翻譯，可視需要補上少量條目。
-6. 之後：P7 完整對話驗收（含有語音的 NPC，§49 #18）。
+規格見 Master Plan §26：完成一段從開始到離開都是中文的對話。
+
+1. 選擇對話：Devon 的「第一次見面」對話（P2 已有大部分譯文：`0633`、`0A84`、`1A04`、`1B1D` 與選項），需要**新遊戲**或在第一次見面前的存檔。或使用目前存檔（已認識 Devon）的對話，補齊該路徑的譯文。只翻譯這一段對話（Master Plan I10：不得大量翻譯）。
+2. 必測：多頁、重複的文字、同一句英文在不同語境、選項圓點、點擊範圍、**語音**（§49 #18：遊戲只有 9 個語音檔 `SOUND/E44.FLX` 等，Devon 沒有，需找有語音的 NPC）、顯示時間、關閉 gump、重新開始對話。
+3. 動態句子（含玩家名字，例如 `0402:060F`、`338E`）目前一律英文；P7 是否要先處理需和使用者確認（句型比對規劃在 P11）。
+4. PASS 後：Core Localization Architecture 視為已證明。
 
 ### Master Plan §49 尚未完成的待辦
 
@@ -193,7 +196,6 @@ SDL 只認帶 scan code 的特殊鍵（Enter、組合鍵），所以要用 `vk`�
 | 14 | 原版換行無限迴圈的修正可考慮回報 upstream | — |
 | 15 | 遊戲選項 GUI 的語言選單 | P9 或之後 |
 | 16 | 翻譯檔加入遊戲資料版本（`EUSECODE.FLX` 雜湊） | P10 |
-| 17 | AskGump 掛點確認目標字型是 UTF-8 字型（BarkGump 已完成） | P6 |
 | 18 | 有語音的 NPC 在 localization 下的語音與字幕 | P7 |
 
 ---
