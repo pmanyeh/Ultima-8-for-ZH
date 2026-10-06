@@ -47,7 +47,18 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ⏳ 待開始
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ⏳ 待開始
+
+## v2.1 — 2026-10-06（Phase 4 完成後）
+
+依據：[docs/reports/P4-localization-manager.md](docs/reports/P4-localization-manager.md)
+
+| 章節 | 修訂內容 |
+|---|---|
+| §18.1 | P4 PASS |
+| §23 | 驗收打勾；正式設定名稱 `localization` / `localization_file`；CJK 字型只在 localization 啟用時載入 |
+| §29 / ADR-002 | 執行時的單一編譯檔採用 gettext MO（`u8_<語言>.mo`），編譯工具 `tools/catalog/po_compile.py` |
+| §49 | #1、#13 完成；新增 #15–#17 |
 
 ---
 
@@ -1016,7 +1027,7 @@ P15 Optional Enhancements
 | P1 Text Architecture Audit | ✅ PASS（2026-10-05） | `docs/reports/P1-text-architecture-audit.md` |
 | P2 Translation Identity | ✅ PASS → **GO**（2026-10-06） | `docs/reports/P2-translation-identity.md` |
 | P3 UTF-8 / CJK Foundation | ✅ PASS（2026-10-06） | `docs/reports/P3-cjk-foundation.md` |
-| P4 Localization Manager | ⏳（spike 已驗證可行） | |
+| P4 Localization Manager | ✅ PASS（2026-10-06；遊戲內對話 log 待確認） | `docs/reports/P4-localization-manager.md` |
 | P5 NPC Bark POC ★ | ⏳（spike 已在遊戲中顯示中文台詞） | |
 | P6 AskGump Choice POC ★ | ⏳（spike 已驗證中文選項進入原始分支） | |
 | P7 First Complete Conversation ★ | ⏳ | |
@@ -1566,12 +1577,12 @@ one AskGump choice
 
 ## Acceptance
 
-- [ ] localization OFF → exact original text path
-- [ ] zh_TW → translated test lookup
-- [ ] unknown ID → original English
-- [ ] malformed entry → safe fallback
-- [ ] no Usecode changes
-- [ ] no string heap replacement
+- [x] localization OFF → exact original text path
+- [x] zh_TW → translated test lookup
+- [x] unknown ID → original English
+- [x] malformed entry → safe fallback
+- [x] no Usecode changes
+- [x] no string heap replacement
 
 ## v2：P4 工作項目
 
@@ -1583,7 +1594,15 @@ one AskGump choice
 
 Acceptance 補充：
 
-- [ ] CJK 字型缺失 → 自動顯示英文，不出現亂碼
+- [x] CJK 字型缺失 → 自動顯示英文，不出現亂碼
+
+**v2.1：P4 結果**（[報告](docs/reports/P4-localization-manager.md)）
+
+- 實作：`TranslationCatalog`（`misc/translation_catalog.*`，只依賴 `common/`）與 `Localization`（`misc/localization.*`）。
+- 設定：`localization=off|zh_TW`、`localization_file`（預設 `u8_<語言>.mo`）；`font_cjk_*` 沿用 P3，`font_cjk_file` 預設 `Cubic_11.ttf`。
+- 啟用條件：英文版 U8、翻譯檔正確且語言相符、CJK 字型套用到所有 `[fontoverride]` 字型。任何一項不成立就顯示英文並使用原字型。
+- 查表 key：`context + "\x04" + 英文原文`。結果分為 HIT / MISS / SOURCE-MISMATCH。
+- `I_bark` / `I_ask` 只查表並寫 log（debug channel `Localization`），顯示文字在 P5 / P6 才替換。
 
 **STOP**
 
@@ -2890,7 +2909,7 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 
 | # | 項目 | 處理 Phase |
 |---|---|---|
-| 1 | CJK 字型載入失敗時自動停用翻譯 | P4 |
+| 1 | ~~CJK 字型載入失敗時自動停用翻譯~~ ✅ 還原原字型並停用 | P4 |
 | 2 | 自言自語 bark 的 `TextWidget::_text` 寫入存檔 | P5 |
 | 3 | 顯示時間以 byte 計算（中文停留過久） | P5（不過早消失）/ P11（完整） |
 | 4 | ~~字集覆蓋檢查工具~~ ✅ `tools/validate/font_coverage.py` | P3 |
@@ -2902,8 +2921,11 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 10 | BookGump 的 `_TL_()` 書本修正與新翻譯層並存 | P8 |
 | 11 | 建立 ScummVM fork 並改為 submodule | P3 之前或期間 |
 | 12 | HD 文字層 | P15 |
-| 13 | 啟用 CJK 字型後英文外觀也改變（像素字型）；是否只在 localization 開啟時載入 | P4 |
+| 13 | ~~是否只在 localization 開啟時載入 CJK 字型~~ ✅ 是（OFF 時與原版完全相同）。開啟時未翻譯的英文仍會以像素字型顯示 | P4 |
 | 14 | 原版換行在字元比行寬時無限迴圈 → 已在 P3 修正，可考慮回報 upstream | — |
+| 15 | 遊戲選項 GUI 的語言選單（ScummVM game option 只有勾選框，需要自訂 widget） | P9 或之後 |
+| 16 | 翻譯檔沒有記錄遊戲資料版本；考慮在檔頭加入 `EUSECODE.FLX` 雜湊 | P10 |
+| 17 | 字型就緒是全域判斷；BarkGump / AskGump 掛點應再確認目標字型是 UTF-8 字型 | P5 / P6 |
 
 ---
 

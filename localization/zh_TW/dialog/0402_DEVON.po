@@ -1,0 +1,92 @@
+# Ultima VIII: Pagan - Traditional Chinese translation
+# DEVON (usecode class 0402)
+#
+# POC catalog (Phase 4): only Devon's first conversation, not a full translation.
+# Dynamic barks with the player's name ({name}) are not included yet:
+# 0402:060F, 0402:0964 (Phase 11).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 01 (talk): greeting when the Avatar does not know Devon yet
+msgctxt "bark 0402:0633"
+msgid "Hello there. "
+msgstr "你好啊。"
+
+#. event 01: initial answer
+msgctxt "ask 0402"
+msgid "Who are you? "
+msgstr "你是誰？"
+
+#. event 01: initial answer
+msgctxt "ask 0402"
+msgid "Goodbye. "
+msgstr "再見。"
+
+#. event 01: initial answer
+msgctxt "ask 0402"
+msgid "What is going on? "
+msgstr "發生什麼事了？"
+
+#. after "Who are you?"
+msgctxt "ask 0402"
+msgid "Where am I? "
+msgstr "這是哪裡？"
+
+#. after "Who are you?"
+msgctxt "ask 0402"
+msgid "Where did you find me? "
+msgstr "你在哪裡發現我的？"
+
+#. after "Who are you?"
+msgctxt "ask 0402"
+msgid "How do you know my name? "
+msgstr "你怎麼知道我的名字？"
+
+#. answer to "Where am I?" or "Where did you find me?"
+msgctxt "bark 0402:0A84"
+msgid "Why, on the shore, friend, safe now and thankfully alive. "
+msgstr "哎，就在岸邊呀，朋友。你現在安全了，謝天謝地你還活著。"
+
+#. after "Where am I?" / "Where did you find me?"
+msgctxt "ask 0402"
+msgid "Shore of what? "
+msgstr "什麼的岸邊？"
+
+#. answer to "What happened to me?" or "Found me?"
+msgctxt "bark 0402:1A04"
+msgid "I am unsure, my friend. All I know is that I found your water-logged body in the depths of The Lurker's domain. What happened before remains a mystery. I pulled in my nets and within one I discovered you. "
+msgstr "我也不太清楚，朋友。我只知道，我是在 Lurker 領域的深處發現你那泡得濕透的身體。在那之前發生了什麼，仍然是個謎。我收網的時候，就在其中一張網裡發現了你。"
+
+msgctxt "ask 0402"
+msgid "What happened to me? "
+msgstr "我發生了什麼事？"
+
+msgctxt "ask 0402"
+msgid "Found me? "
+msgstr "發現我？"
+
+msgctxt "ask 0402"
+msgid "The Lurker's domain? "
+msgstr "Lurker 的領域？"
+
+#. answer to "The Lurker's domain?"
+msgctxt "bark 0402:1B1D"
+msgid "Aye, 'tis what we sometimes call the sea. You were drowning in it, my friend. A fate twice bad to be certain! "
+msgstr "是啊，我們有時候就這麼稱呼大海。你差點就淹死在裡頭了，朋友。這肯定是雙重的厄運！"
+
+msgctxt "ask 0402"
+msgid "Twice bad? "
+msgstr "雙重厄運？"
+
+#. after "Goodbye." (no trailing space in the original)
+msgctxt "bark 0402:34FD"
+msgid "I can already see a crowd gathering there on the docks."
+msgstr "我已經看到碼頭那邊開始聚集人群了。"
+
+#. after "Goodbye.", follows 0402:34FD
+msgctxt "bark 0402:352D"
+msgid "That can mean only trouble."
+msgstr "那只代表著麻煩。"

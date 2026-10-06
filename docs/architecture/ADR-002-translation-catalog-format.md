@@ -22,6 +22,16 @@ U7 中文化專案的作法是：以 Exult 工具把 Usecode 反組譯成 `.es` 
 5. **重新抽取時依 ID 合併**（類似 `msgmerge`），既有譯文不會被覆蓋。
 6. Excel / CSV 只作為輸出的報表（統計、審稿、術語檢查），不作為原始檔。
 
+## 補充：執行時的編譯檔格式（Phase 4，2026-10-06）
+
+決策 3 的單一編譯檔採用 **gettext MO**，檔名 `u8_<語言>.mo`（例如 `u8_zh_TW.mo`），以 `localization_file` 可改用其他檔名。
+
+- key 為 `msgctxt + "\x04" + msgid`，與 gettext 處理 context 的方式相同；引擎依「context + 英文原文」查表。
+- 檔頭 `Language` 必須與設定的語言相符，否則不使用。
+- 編譯工具：`tools/catalog/po_compile.py <語言> <PO 檔或目錄>... -o <輸出.mo>`。檢查 `msgctxt` 格式、重複條目、複數條目、檔頭語言；略過未翻譯、fuzzy、過時條目。
+- 理由：標準格式，`msgfmt`、Poedit 都能產生，Python `gettext` 可直接讀取驗證；引擎端只需要簡單的讀取程式，不需要 PO parser。
+- 引擎在載入時檢查所有 offset 與長度；結構錯誤時整個檔案不使用，個別錯誤條目（非 UTF-8、未知 context 等）則略過。
+
 ## 理由
 
 - 語境：依 NPC 分檔並依流程排列，譯者看得到前後文。

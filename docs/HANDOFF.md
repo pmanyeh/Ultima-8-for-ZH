@@ -1,7 +1,7 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
 **更新日期：** 2026-10-06
-**目前進度：** Phase 0–3 ✅ PASS，**下一步：Phase 4（Localization Manager），需等使用者說「開始 Phase 4」才開始**
+**目前進度：** Phase 0–4 ✅ PASS，**下一步：Phase 5（First NPC Bark Chinese POC），需等使用者明確指示才開始**
 
 給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（v2，開頭有修訂紀錄與進度表）。
 
@@ -45,15 +45,19 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main）
 ├── ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md   ← v2
 ├── docs/
 │   ├── HANDOFF.md                        ← 本文件
-│   ├── reports/P0..P3-*.md               ← 各 Phase 報告
+│   ├── reports/P0..P4-*.md               ← 各 Phase 報告
 │   ├── research/u8-text-pipeline.md      ← P1 文字流程研究（最重要的背景資料）
 │   └── architecture/ADR-001, ADR-002
+├── localization/zh_TW/dialog/*.po       ← 翻譯原始檔（ADR-002）；目前只有 Devon 的 POC
 ├── tools/
+│   ├── catalog/po_compile.py             ← PO → MO 編譯（引擎讀的單一翻譯檔）
 │   ├── diagnostics/u8dis.py              ← Usecode 反組譯（515 class，0 desync）
 │   ├── extract/u8extract.py              ← 依對話流程抽取（示範版，P10 擴充）
 │   ├── validate/font_coverage.py         ← 字集覆蓋檢查
 │   ├── build/                            ← 建置與測試腳本（見 §4）
-│   └── automation/scummvm_window.ps1     ← 遊戲視窗截圖、點擊、按鍵
+│   └── automation/
+│       ├── scummvm_window.ps1            ← 遊戲視窗截圖、點擊、按鍵
+│       └── startup_check.ps1             ← 用指定設定檔啟動、等初始化完成、關閉、列出 log
 ├── Ultima 8/          （gitignored）GOG 遊戲資料，唯讀；英文版在 Ultima 8\ENGLISH\
 ├── private_test/      （gitignored）本機測試：啟動檔、設定檔、字型、存檔、log
 └── scummvm-src/       （gitignored，獨立 git repo）ScummVM upstream clone
@@ -65,7 +69,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main）
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike（含翻譯查表的完整實驗），**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `96bfc46318` | **正式開發分支**，P3 已 commit。目前 checkout 的分支 |
+| `ultima8-zh-tw-dev` | `b0efb70a44` | **正式開發分支**，P3（`96bfc46318`）、P4 已 commit。目前 checkout 的分支 |
 
 ### 建置目錄（在 `scummvm-src/` 內，gitignored）
 
@@ -106,7 +110,10 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 ```
 
 腳本內的三個繞道：`VER_REV=wsltest`（避免 `git describe` 掃描 Windows 檔案系統而卡住）、以 `python3` 執行 `cxxtestgen`（CRLF + `python` shebang）、`make -o test/runner.cpp`。
-目前結果：**466 項全部 OK**。新增的測試在 `test/engines/ultima/ultima8/gfx/font_utf8.h`。
+目前結果：**476 項全部 OK**。本專案新增的測試：`test/engines/ultima/ultima8/gfx/font_utf8.h`（P3）、`test/engines/ultima/ultima8/misc/translation_catalog.h`（P4）。
+
+**MSVC 與 g++ 都要建置**：MSVC 把 C4701（可能未初始化）當錯誤，g++ 不會。
+**單元測試只能用不依賴 `Kernel` 的物件檔**：否則靜態函式庫會連帶拉進整個引擎與 GUI，測試無法連結（所以 `TranslationCatalog` 獨立成檔）。
 
 ### 執行遊戲（`private_test/`）
 
@@ -115,12 +122,15 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 | `launch-p0.bat [debug\|launcher]` | 原版 | `scummvm-p0.ini` |
 | `launch-trace.bat [slot]` | Usecode trace | `scummvm-p0.ini` |
 | `launch-spike.bat [slot]` | P2 spike（含中文翻譯 POC） | `scummvm-spike.ini`（`u8_l10n=zh_TW`） |
-| `launch-dev.bat [slot]` | **開發分支** | `scummvm-dev.ini`（`font_cjk_file=Cubic_11.ttf`） |
+| `launch-dev.bat [slot]` | **開發分支**（`--debugflags=Localization`） | `scummvm-dev.ini`（`localization=zh_TW`、`font_cjk_file=Cubic_11.ttf`） |
 
 - 每次執行都會產生帶時間戳的 log；全部使用獨立設定檔，不動使用者的全域 ScummVM 設定。
-- `--extrapath=private_test\extra`：字型、`ultima8.dat` 複本、POC 翻譯表 `u8_l10n_zh_TW.tsv`、`p3_test_strings.txt`。
+- `--extrapath=private_test\extra`：字型、`ultima8.dat` 複本、**編譯後的翻譯檔 `u8_zh_TW.mo`**、spike 用的 `u8_l10n_zh_TW.tsv`、`p3_test_strings.txt`。
+- 更新翻譯檔：`python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extra/u8_zh_TW.mo`
+- Localization 設定（遊戲設定）：`localization=off|zh_TW`、`localization_file`（預設 `u8_<語言>.mo`）、`font_cjk_file`（預設 `Cubic_11.ttf`）、`font_cjk_size`（12）、`font_cjk_antialiasing`（false）。**CJK 字型只在 localization 啟用時載入**。
+- log 中的 `[U8-L10N]` 訊息需要 `--debugflags=Localization`；主控台 `Localization::info` 顯示目前狀態。
 - 存檔：`private_test/saves/ultima8.001`（`p1-after`，在 Devon 附近，已和 Devon 對話過）。
-- 遊戲內字型測試：`Ctrl+Alt+D` → `Ultima8Engine::barkTestFile p3_test_strings.txt <n>`。
+- 遊戲內字型測試：`Ctrl+Alt+D` → `Ultima8Engine::barkTestFile p3_test_strings.txt <n>`（需要 `localization=zh_TW` 才會載入 CJK 字型）。
 
 ### 自動操作遊戲視窗
 
@@ -150,28 +160,29 @@ SDL 只認帶 scan code 的特殊鍵（Enter、組合鍵），所以要用 `vk`�
 
 ---
 
-## 6. 下一步：Phase 4（Localization Manager）
+## 6. 下一步：Phase 5（First NPC Bark Chinese POC）
 
-規格見 Master Plan §23 與「v2：P4 工作項目」。重點：
+### P4 已完成的部分（[報告](reports/P4-localization-manager.md)）
 
-1. 在 `ultima8-zh-tw-dev` 實作正式的 localization manager，可參考 spike 分支的 `misc/l10n_spike.*`，但要重新設計：
-   - ID 取得：`Item::I_bark` 用 running `UCProcess` 的 `classId:getIp()`（需加唯讀的 `UCProcess::getIp()`）；`Item::I_ask` 取得 class。
-   - 讀取由 PO 編譯成的單一檔案：載入一次、建立 hash map。格式需設計，並提供 PO → 執行檔的編譯工具（可先做最小版本）。
-   - 設定名稱：spike 用 `u8_l10n*`；P3 已用 `font_cjk_*`。P4 要決定 localization 開關的正式名稱，以及是否只在開啟翻譯時才載入 CJK 字型（Master Plan §49 #13）。
-   - **CJK 字型載入失敗 → 自動停用翻譯**（新增的 STOP 條件）。
-   - 條目比對英文原文，不符就顯示英文（SOURCE-MISMATCH）。
-2. 驗收（§23）：OFF 時完全等同原版路徑；zh_TW 時查表成功；未知 ID 顯示英文；格式錯誤安全 fallback；不改 Usecode 與 string heap；字型缺失時顯示英文。
-3. 只能放少量 POC 翻譯（Devon 那幾句），**不得大量翻譯**（Master Plan I10）。
-4. 之後的 Phase：
-   - P5：BarkGump 掛點、自言自語 bark 的存檔問題、顯示時間
-   - P6：AskGump 的 `InitGump` 與 `loadData` 兩處掛點
-   - P7：完整對話驗收
+- `TranslationCatalog`（`misc/translation_catalog.*`）：讀 MO，key = `context + "\x04" + 英文原文`，結果 HIT / MISS / SOURCE-MISMATCH。
+- `Localization`（`misc/localization.*`）：singleton，由 `Ultima8Engine` 建立；`applyGameSettings()` 呼叫 `configure()`，`GameData::setupFontOverrides()` 回報字型狀態。`isActive()` 為 true 才查表。
+- 掛點：`Item::I_bark` 呼叫 `translateBark(str)`、`Item::I_ask` 對每個答案呼叫 `translateAnswer(class, text)`。**目前只查表寫 log，回傳值沒有使用**。
+- **待確認**：遊戲內實際和 Devon 對話，看 log 中的 HIT / MISS（需要操作遊戲視窗，先問使用者）。
+
+### P5 要做的事
+
+規格見 Master Plan §24 與「v2：P5 工作項目」：
+
+1. 把 `translateBark()` 的結果交給 BarkGump 顯示（spike 的做法：`BarkGump::_displayText`，不存檔；`_barked` 保持英文）。
+2. 自言自語 bark 的 `TextWidget::_text` 會寫進存檔（§49 #2）：讀檔時要用 `_barked` 重建顯示文字，或改成不存譯文。**中文不得進入存檔**（STOP 條件）。
+3. 顯示時間以 byte 計算，中文會停留過久（§49 #3）。
+4. 掛點前確認目標字型是 UTF-8 字型（§49 #17）。
+5. 之後：P6 AskGump（`InitGump` 與 `loadData` 兩處掛點）、P7 完整對話驗收。
 
 ### Master Plan §49 尚未完成的待辦
 
 | # | 項目 | Phase |
 |---|---|---|
-| 1 | 字型載入失敗時停用翻譯 | P4 |
 | 2 | 自言自語 bark 的 `TextWidget::_text` 寫入存檔 | P5 |
 | 3 | 顯示時間以 byte 計算 | P5 / P11 |
 | 7 | 句型比對與參數翻譯 | P11 |
@@ -179,8 +190,10 @@ SDL 只認帶 scan code 的特殊鍵（Enter、組合鍵），所以要用 `vk`�
 | 10 | BookGump 的 `_TL_()` 書本修正與新翻譯層並存 | P8 |
 | 11 | 建立 ScummVM fork 並改為 submodule | 待使用者決定 |
 | 12 | HD 文字層 | P15 |
-| 13 | 啟用 CJK 字型後英文外觀也改變；是否只在 localization 開啟時載入 | P4 |
 | 14 | 原版換行無限迴圈的修正可考慮回報 upstream | — |
+| 15 | 遊戲選項 GUI 的語言選單 | P9 或之後 |
+| 16 | 翻譯檔加入遊戲資料版本（`EUSECODE.FLX` 雜湊） | P10 |
+| 17 | BarkGump / AskGump 掛點確認目標字型是 UTF-8 字型 | P5 / P6 |
 
 ---
 
