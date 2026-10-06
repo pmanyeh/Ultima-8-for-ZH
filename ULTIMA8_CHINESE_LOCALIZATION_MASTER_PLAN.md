@@ -47,7 +47,17 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ⏳ 待開始
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ⏳ 待開始
+
+## v2.5 — 2026-10-06（Phase 8 完成後）
+
+依據：[docs/reports/P8-text-surface-inventory.md](docs/reports/P8-text-surface-inventory.md)、[docs/research/text-surface-inventory.md](docs/research/text-surface-inventory.md)
+
+| 章節 | 修訂內容 |
+|---|---|
+| §18.1 | P8 PASS |
+| §27 | 結果摘要與建議的 Phase 分配 |
+| §49 | #10 移到 P10（書本掛點時處理）；新增 #20–#22 |
 
 ## v2.4 — 2026-10-06（Phase 7 完成後）
 
@@ -1062,6 +1072,7 @@ P15 Optional Enhancements
 | P5 NPC Bark POC ★ | ✅ PASS（2026-10-06） | `docs/reports/P5-npc-bark-poc.md` |
 | P6 AskGump Choice POC ★ | ✅ PASS（2026-10-06） | `docs/reports/P6-askgump-choice-poc.md` |
 | P7 First Complete Conversation ★ | ✅ PASS（2026-10-06）— **Core Localization Architecture proven** | `docs/reports/P7-first-complete-conversation.md` |
+| P8 Text Surface Inventory | ✅ PASS（2026-10-06） | `docs/reports/P8-text-surface-inventory.md`、`docs/research/text-surface-inventory.md` |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
 
@@ -1926,6 +1937,14 @@ P1 已發現的：
 | `AvatarDeathProcess`、`TargetReticleProcess` | 使用 `_TL_()` | — |
 
 另外，`u8english.ini` 已用 `_TL_()` 以英文全文替換書本內容（修正原版 bug），新翻譯層需要與它並存。
+
+**v2.5：P8 結果**（[報告](docs/reports/P8-text-surface-inventory.md)、[inventory](docs/research/text-surface-inventory.md)）
+
+- 26 類 surface；已完成：台詞、選項。可沿用 bark 機制：查看名稱（574 種）、自言自語、Guardian 嘲諷。
+- 書（86，約 111,000 字元）、捲軸（22）、墓碑（68）、牌匾（63）都是「intrinsic + 字串參數」，可沿用「呼叫點 ID + 英文比對」；都是 `ModalGump`，不進存檔。
+- CJK 字型只覆蓋字型 0、5–9；墓碑（11）、牌匾（10）、存讀檔（4）、角色狀態（不允許 override）需要額外處理。
+- 日文版的做法可借用：墓碑字幕（`%`）、圖片按鈕改文字（`_TL_SHP_`）、engine 字串（`[text]`）。
+- 待使用者決定：墓碑 / 牌匾的顯示方式；名單與語錄是否翻譯。
 
 **STOP**
 
@@ -2965,7 +2984,7 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 7 | ~~句型比對與參數翻譯~~ ✅ 引擎與編譯工具（P7）；參數譯文待實際 NPC（例如 Orlok `040A`）驗證 | P7 / P11 |
 | 8 | 5 個無法自動解析的 bark（PYROS、SORCERER、METHOD） | P10 |
 | 9 | 共用 class（例如 `METHOD 057C`）代為發話時的對話脈絡 | P10 |
-| 10 | BookGump 的 `_TL_()` 書本修正與新翻譯層並存 | P8 |
+| 10 | BookGump 的 `_TL_()` 書本修正與新翻譯層並存（inventory §4.3） | P10 |
 | 11 | 建立 ScummVM fork 並改為 submodule | P3 之前或期間 |
 | 12 | HD 文字層 | P15 |
 | 13 | ~~是否只在 localization 開啟時載入 CJK 字型~~ ✅ 是（OFF 時與原版完全相同）。開啟時未翻譯的英文仍會以像素字型顯示 | P4 |
@@ -2975,6 +2994,9 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 17 | ~~掛點確認目標字型是 UTF-8 字型~~ ✅ BarkGump（P5）、AskGump（P6） | P5 / P6 |
 | 18 | 有語音的 NPC 在 localization 下的語音與字幕（遊戲只有 9 個語音檔，Devon 沒有） | 有語音的 NPC 翻譯時 |
 | 19 | 抽取工具漏列部分選項（`Sea of Rains? ` 等只出現在「when answer is」） | P10 |
+| 20 | 墓碑（字型 11）、牌匾（10）、死亡畫面的顯示方式：英文雕刻 + 中文字幕（日文版做法）或直接換中文 | 待使用者決定 |
+| 21 | 字型 4（存讀檔）不在 `[fontoverride]`；`PaperdollGump`、`SliderGump` 取字型不允許 override | P9 |
+| 22 | 製作人員名單（`ECREDITS.DAT`）與開發者語錄（`QUOTES.DAT`）是否翻譯 | 待使用者決定 |
 
 ---
 

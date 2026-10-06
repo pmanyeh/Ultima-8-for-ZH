@@ -1,7 +1,7 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
 **更新日期：** 2026-10-06
-**目前進度：** Phase 0–7 ✅ PASS（**核心 localization 架構已證明**），**下一步：Phase 8（Remaining Text Surface Inventory），需等使用者明確指示才開始**
+**目前進度：** Phase 0–8 ✅ PASS（**核心 localization 架構已證明**），**下一步：Phase 9（Engine UI / Static Text），需等使用者明確指示才開始**
 
 給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（v2，開頭有修訂紀錄與進度表）。
 
@@ -45,13 +45,15 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main）
 ├── ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md   ← v2
 ├── docs/
 │   ├── HANDOFF.md                        ← 本文件
-│   ├── reports/P0..P7-*.md               ← 各 Phase 報告
+│   ├── reports/P0..P8-*.md               ← 各 Phase 報告
 │   ├── research/u8-text-pipeline.md      ← P1 文字流程研究（最重要的背景資料）
+│   ├── research/text-surface-inventory.md ← P8 所有文字 surface 的盤點（P9 之後的工作依據）
 │   └── architecture/ADR-001, ADR-002
 ├── localization/zh_TW/dialog/*.po       ← 翻譯原始檔（ADR-002）；目前只有 Devon（第一次見面完整對話，57 條）
 ├── tools/
 │   ├── catalog/po_compile.py             ← PO → MO 編譯（引擎讀的單一翻譯檔）
 │   ├── diagnostics/u8dis.py              ← Usecode 反組譯（515 class，0 desync）
+│   ├── diagnostics/text_survey.py        ← 各類文字的呼叫點與字數統計（P8）
 │   ├── extract/u8extract.py              ← 依對話流程抽取（示範版，P10 擴充）
 │   ├── validate/font_coverage.py         ← 字集覆蓋檢查
 │   ├── build/                            ← 建置與測試腳本（見 §4）
@@ -177,14 +179,23 @@ SDL 只認帶 scan code 的特殊鍵（Enter、組合鍵），所以要用 `vk`�
 
 翻譯原則（POC，術語表在 P10）：專有名詞保留英文（Tenebrae、Lithos、Mordea、Tempest、Lurker…）；一般名詞意譯（雨之海、死靈法師、泰坦）。
 
-### P8 要做的事
+### P8 結果（[報告](reports/P8-text-surface-inventory.md)、[inventory](research/text-surface-inventory.md)）
 
-規格見 Master Plan §27：**只做 inventory，不實作**。產出 `docs/research/text-surface-inventory.md`，欄位：Surface / Source / Renderer / Dynamic / Translation Method / Status。
+26 類 surface 已盤點，並建議了 Phase 分配（inventory §6）。重點：
 
-- 至少調查：BarkGump、AskGump、ReadableGump、TextWidget、ButtonWidget、書、捲軸、告示、物品名稱、背包 UI、狀態、系統訊息、死亡文字、開場文字、遊戲選單、存讀檔 UI、credits。
-- 已知（Master Plan §27 v2）：`BookGump`（`Book::read` 0x6E，86 處，使用 `_TL_()`）、`ScrollGump`（0x6F，22）、`ReadableGump` 墓碑（0x70，68）與牌匾（0x71，63）、`MenuGump` 等使用 `_TL_()`、`CreditsGump`、`AvatarDeathProcess`。
-- 物品查看名稱：遊戲中看到 `bark 0215:0098 "rope "`（查看物品時以 bark 顯示），已能用現有機制翻譯。
-- `u8english.ini` 的 `_TL_()` 書本修正需與新翻譯層並存（§49 #10）。
+- CJK 字型只覆蓋字型 0、5–9。墓碑（11）、牌匾（10）、存讀檔（4）、角色狀態（`getGameFont` 不允許 override）需要額外處理。
+- 日文版可借用：墓碑字幕（`%` 分隔，字型 6）、圖片按鈕改文字（`_TL_SHP_` → 0）、engine 字串（`u8japanese.ini [text]`）。
+- 書、捲軸、墓碑、牌匾都是 `ModalGump`，不進存檔；可沿用「呼叫點 ID + 英文比對」。
+
+### P9 要做的事
+
+規格見 Master Plan §28 與 inventory 的 #14–#16、#18–#20、#22：
+
+1. engine 字串（`_TL_` 中 U8 會出現的 15 個）：建議在翻譯檔新增 `ui` context，由 `Localization` 提供。
+2. 主選單、離開確認的圖片按鈕：沿用日文版 `_TL_SHP_` 改為文字按鈕。
+3. 角色狀態（`PaperdollGump`）與存讀檔（字型 4）的字型（§49 #21）。
+4. 以 ShapeViewer 檢視其他圖片中的文字（#22）。
+5. 待使用者決定：墓碑 / 牌匾 / 死亡畫面的顯示方式（§49 #20）；名單與語錄（§49 #22）。
 
 ### Master Plan §49 尚未完成的待辦
 
@@ -193,12 +204,15 @@ SDL 只認帶 scan code 的特殊鍵（Enter、組合鍵），所以要用 `vk`�
 | 3 | 無語音時中文顯示速度細調 | P11 |
 | 7 | 參數譯文（`param`）待實際 NPC 驗證（句型比對已在 P7 完成） | P11 |
 | 8–9 | 5 個無法自動解析的 bark、共用 class 的對話脈絡 | P10 |
-| 10 | BookGump 的 `_TL_()` 書本修正與新翻譯層並存 | P8 |
+| 10 | BookGump 的 `_TL_()` 書本修正與新翻譯層並存 | P10 |
 | 11 | 建立 ScummVM fork 並改為 submodule | 待使用者決定 |
 | 12 | HD 文字層 | P15 |
 | 14 | 原版換行無限迴圈的修正可考慮回報 upstream | — |
 | 15 | 遊戲選項 GUI 的語言選單 | P9 或之後 |
 | 19 | 抽取工具漏列部分選項 | P10 |
+| 20 | 墓碑、牌匾、死亡畫面的顯示方式 | 待使用者決定 |
+| 21 | 字型 4、`PaperdollGump` / `SliderGump` 不允許 override | P9 |
+| 22 | 名單與語錄是否翻譯 | 待使用者決定 |
 | 16 | 翻譯檔加入遊戲資料版本（`EUSECODE.FLX` 雜湊） | P10 |
 | 18 | 有語音的 NPC 在 localization 下的語音與字幕 | 有語音的 NPC 翻譯時 |
 
