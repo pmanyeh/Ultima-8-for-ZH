@@ -123,7 +123,7 @@ distinct characters used: 113  missing: 0      ← POC 翻譯表
 
 ## 其他事項
 
-- **存檔遺失：** `private_test/saves/` 中的 `p1-after` 存檔（`ultima8.001`）在 2026-10-06 00:15 前後消失，原因不明。Agent 沒有執行任何刪除存檔的指令。不影響本 Phase 的結果。
+- **存檔：** `private_test/saves/` 中的 `p1-after` 存檔（`ultima8.001`）曾在 2026-10-06 00:15 前後不見，經使用者確認是為了從頭測試中文文本而手動刪除，之後已由使用者復原。不影響本 Phase 的結果。
 
 ## Next Phase Readiness
 
