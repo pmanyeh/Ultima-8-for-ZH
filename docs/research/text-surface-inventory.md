@@ -19,19 +19,19 @@
 | 5 | Guardian 的嘲諷 | Usecode `bark`，class `AVATAR`（0401）event `guardianBark`（0x15），23 個 | `BarkGump`（字型 6） | 否 | 同 1。**可能有語音**，可作為 §49 #18 的語音測試對象 | 🟢 |
 | 6 | 書本 | Usecode `Book::read`（0x6E）：86 個呼叫點、14 個 class、約 111,000 字元（最長 7,861） | `BookGump`：左右兩頁 `TextWidget`（字型 9），分頁 | 1 本動態（`SALKLOG 017A:0C32`） | 新掛點 `I_readBook` → `book CCCC:IIII`；並存 `_TL_()` 修正（見 §4.3） | 🟡 |
 | 7 | 捲軸 | Usecode `Scroll::read`（0x6F）：22 個、約 7,300 字元 | `ScrollGump` → `TextWidget`（字型 9），分頁 | 否 | 新掛點 `I_readScroll` → `scroll CCCC:IIII` | 🟡 |
-| 8 | 墓碑 | Usecode `Grave::read`（0x70）：68 個、約 2,600 字元；`*` 換行 | `ReadableGump` → `TextWidget`（**字型 11**，雕刻風格，未在 `[fontoverride]`） | 否 | 新掛點 `I_readGrave`；顯示方式需決定（見 §4.1） | 🟠 |
-| 9 | 牌匾 / 告示 | Usecode `Plaque::read`（0x71）：63 個、約 1,400 字元 | `ReadableGump`（**字型 10**，未在 `[fontoverride]`） | 否 | 同 8 | 🟠 |
+| 8 | 墓碑 | Usecode `Grave::read`（0x70）：68 個、約 2,600 字元；`*` 換行 | `ReadableGump` → `TextWidget`（**字型 11**，雕刻風格，未在 `[fontoverride]`） | 否 | 新掛點 `I_readGrave`；先採方案 A：英文雕刻 + 中文字幕（§4.1） | 🟡 |
+| 9 | 牌匾 / 告示 | Usecode `Plaque::read`（0x71）：63 個、約 1,400 字元 | `ReadableGump`（**字型 10**，未在 `[fontoverride]`） | 否 | 同 8 | 🟡 |
 | 10 | 開場動畫字幕 | `STATIC/EINTRO.SKF`：5 句（約 280 字元，Guardian 的台詞） | `SKFPlayer` → 字型 6 `renderText` | 否 | 新掛點 `SKFPlayer`：`movie EINTRO:<object>` | 🟡 |
 | 11 | 結局動畫 | `STATIC/ENDGAME.SKF`：**沒有字幕物件** | — | — | 不需要 | ⚪ |
-| 12 | 製作人員名單 | `STATIC/ECREDITS.DAT`（加密）：123 行、約 5,600 字元；`&` `}` `~` `@` `+` 格式碼 | `CreditsGump`（字型 6、8） | 否 | 職稱可翻、人名保留；新掛點 `CreditsGump` 或替換整份文字 | 🟠（低優先） |
-| 13 | 開發者語錄（Quotes） | `STATIC/QUOTES.DAT`（加密）：104 行、約 8,100 字元 | `CreditsGump` | 否 | 同 12；是否翻譯需決定 | 🟠（低優先） |
+| 12 | 製作人員名單 | `STATIC/ECREDITS.DAT`（加密）：123 行、約 5,600 字元；`&` `}` `~` `@` `+` 格式碼 | `CreditsGump`（字型 6、8） | 否 | **不翻譯**（使用者決定） | ⚪ |
+| 13 | 開發者語錄（Quotes） | `STATIC/QUOTES.DAT`（加密）：104 行、約 8,100 字元。主選單「7.Quotes」，**看完製作人員名單或破關後才出現**（設定 `quotes=true`） | `CreditsGump` | 否 | 是否翻譯待決定 | 🟠（低優先） |
 | 14 | 主選單項目 | 圖片：`U8GUMPS.FLX` shape 37 frame 0–15（英文版是圖） | `MenuGump` → `ButtonWidget`（圖片）；日文版改為文字按鈕（`_TL_SHP_` → 0，字型 0） | 否 | 沿用日文版機制：shape 對應到 0 → 文字按鈕 + 譯文 | 🟡 P9 |
 | 15 | 離開確認 | 圖片：shape 18（「Quit?」）＋ Yes/No 按鈕圖 | `QuitGump`；日文版改為文字（字型 6）；按鍵 `Yy` / `Nn` | 否 | 同 14；按鍵字母需保留英文 | 🟡 P9 |
 | 16 | 輸入名字 | `_TL_("Give thy name:")` | `MenuGump` → `TextWidget`（字型 6） | 否 | engine 字串（見 §4.2） | 🟡 P9 |
 | 17 | 名字輸入框 | 玩家輸入 | `EditWidget`（字型 6） | 是 | 不翻譯；只能輸入 ASCII | ⚪ |
 | 18 | 存讀檔（日記） | `_TL_("The Beginning...")` ＋ 玩家輸入的存檔描述 | `U8SaveGump` → `TextWidget` / `EditWidget`（**字型 4**，未在 `[fontoverride]`） | 描述是 | 「The Beginning...」= engine 字串；描述不翻譯 | 🟡 P9 |
 | 19 | 角色狀態 | `_TL_("STR")`、`INT`、`DEX`、`ARMR`、`HITS`、`MANA`、`WGHT` | `PaperdollGump::PaintStat`：`getGameFont(0)` **不允許 override**（一律 shape font） | 數值 | engine 字串；需改程式讓它可用 CJK 字型 | 🟡 P9 |
-| 20 | 死亡畫面 | `_TL_("HERE LIES*THE AVATAR*REST IN PEACE")` | `ReadableGump`（字型 11，同墓碑） | 否 | engine 字串；顯示方式同 8 | 🟠 P9 |
+| 20 | 死亡畫面 | `_TL_("HERE LIES*THE AVATAR*REST IN PEACE")` | `ReadableGump`（字型 11，同墓碑） | 否 | engine 字串；顯示方式同 8（方案 A） | 🟡 P9 |
 | 21 | 數量選擇（拿取堆疊物品） | 數字 | `SliderGump`（字型 0，不允許 override） | 是 | 只有數字，不需翻譯 | ⚪ |
 | 22 | 其他圖片中的文字 | `U8GUMPS.FLX` 等的圖片（遊戲標題、gump 標題等） | 圖片 | 否 | P9 逐一檢視（ShapeViewer） | 🟠 P9 |
 | 23 | ScummVM 介面（GMM、遊戲選項、存讀檔對話框） | ScummVM GUI | ScummVM 字型 | 否 | ScummVM 本身的翻譯（`po/zh_Hant.po`，含 66 個 ultima8 相關字串）；把 ScummVM 介面語言設為繁中即可 | ⚪ 不在本專案範圍 |
@@ -81,6 +81,8 @@ P5 / P6 的 `Font::isUTF8()` 檢查，會讓不能畫 UTF-8 的字型顯示英�
 ## 4. 需要決定的事項
 
 ### 4.1 墓碑、牌匾、死亡畫面的顯示方式（#8、#9、#20）
+
+**決定（2026-10-06）：先採方案 A。** 使用者的 U7 中文化是全部改成中文，之後再評估是否改為方案 B。
 
 這三種文字使用雕刻風格的 shape font（10、11），是畫面美術的一部分。可選：
 
