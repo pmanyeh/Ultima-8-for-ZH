@@ -69,7 +69,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main）
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike（含翻譯查表的完整實驗），**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `b0efb70a44` | **正式開發分支**，P3（`96bfc46318`）、P4 已 commit。目前 checkout 的分支 |
+| `ultima8-zh-tw-dev` | `d6192426af` | **正式開發分支**，P3（`96bfc46318`）、P4（`b0efb70a44`、`d6192426af`）已 commit。目前 checkout 的分支 |
 
 ### 建置目錄（在 `scummvm-src/` 內，gitignored）
 
@@ -167,7 +167,7 @@ SDL 只認帶 scan code 的特殊鍵（Enter、組合鍵），所以要用 `vk`�
 - `TranslationCatalog`（`misc/translation_catalog.*`）：讀 MO，key = `context + "\x04" + 英文原文`，結果 HIT / MISS / SOURCE-MISMATCH。
 - `Localization`（`misc/localization.*`）：singleton，由 `Ultima8Engine` 建立；`applyGameSettings()` 呼叫 `configure()`，`GameData::setupFontOverrides()` 回報字型狀態。`isActive()` 為 true 才查表。
 - 掛點：`Item::I_bark` 呼叫 `translateBark(str)`、`Item::I_ask` 對每個答案呼叫 `translateAnswer(class, text)`。**目前只查表寫 log，回傳值沒有使用**。
-- **待確認**：遊戲內實際和 Devon 對話，看 log 中的 HIT / MISS（需要操作遊戲視窗，先問使用者）。
+- 遊戲內已確認（使用者與 Devon 對話）：bark ID 與離線抽取一致，`ask 0402 "Goodbye. "` HIT，動態句子 MISS。
 
 ### P5 要做的事
 

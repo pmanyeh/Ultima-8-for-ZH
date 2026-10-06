@@ -2,13 +2,13 @@
 
 ## Result
 
-**PASS**（遊戲內實際對話查表一項待確認，見 Evidence「遊戲內對話」）
+**PASS**
 
 ## Environment
 
 - Repository: `scummvm-src/`
 - Branch: `ultima8-zh-tw-dev`
-- Commit: `b0efb70a44`（本機，未 push；接續 P3 的 `96bfc46318`）
+- Commit: `b0efb70a44`、`d6192426af`（本機，未 push；接續 P3 的 `96bfc46318`）
 - Windows build: `build-dev/`（Debug x64，VS 2026 / MSVC 14.51）：成功，0 warning
 - Unit test build: WSL Ubuntu（g++），`make test`（`tools/build/wsl_unit_tests.sh`）
 - Game data: GOG Ultima VIII Gold Edition, English（未修改）
@@ -65,8 +65,8 @@ ADR-002 決定「執行時讀單一編譯檔」，但沒有決定格式。採用
 | 情況 | 結果 |
 |---|---|
 | context 與英文都相符 | HIT，回傳譯文 |
-| context 存在，但英文不同 | SOURCE-MISMATCH，顯示英文（log 記錄） |
-| context 不存在 | MISS，顯示英文 |
+| bark 呼叫點存在，但英文不同 | SOURCE-MISMATCH，顯示英文（log 記錄） |
+| 其他（含 ask 中未翻譯的選項） | MISS，顯示英文 |
 
 同一個 bark 呼叫點可以有多個英文版本（ADR-001 風險 2 的對策），各自有譯文。
 
@@ -129,24 +129,37 @@ private_test/extra/u8_zh_TW.mo: 17 entries from 1 files, 2016 bytes (skipped: 0 
 | E. 語言不符 | 檔頭 `Language: ja_JP` | `is a ja_JP catalog, not zh_TW; showing English text` | ✅ 英文 |
 | F. 缺字型 | `font_cjk_file=p4test_missing.ttf` | `Failed to open TTF`、`CJK font could not be loaded, localization disabled` | ✅ 英文、原字型 |
 
-### 遊戲內對話（待確認）
+### 遊戲內對話（使用者操作，2026-10-06 12:35）
 
-`I_bark` / `I_ask` 的 ID 取得與查表，需要實際和 Devon 對話才能在 log 中看到 HIT / MISS。這需要操作遊戲視窗，依合作規則先向使用者確認，**尚未執行**。
-
-- 已有的證據：ID 取得的方式（`classId` + calli 的 IP、ask 的 class）與 P2 spike 相同，spike 在遊戲中已多次 HIT（`0402:0633`、`0402:1B1D`、`ask 0402 "Goodbye. "` 等）；查表本身由單元測試覆蓋。
-- 預期 log（`launch-dev.bat 1`，和 Devon 對話）：
+使用者以 `launch-dev.bat 1`（存檔 `p1-after`，已和 Devon 對話過）與 Devon 對話，log `private_test/dev-20261006-123457.log`：
 
 ```text
+[U8-L10N] u8_zh_TW.mo: 17 entries loaded, 0 skipped, language "zh_TW"
+[U8-L10N] localization zh_TW active, 17 entries from u8_zh_TW.mo
+[U8-L10N] bark 0402:060F MISS src="Hello there, Pman."
+[U8-L10N] ask 0402 SOURCE-MISMATCH src="Hello, Devon. "
 [U8-L10N] ask 0402 HIT src="Goodbye. "
-[U8-L10N] bark 0402:060F MISS src="Hello there, <玩家名字>."   ← 動態句子，P11
+[U8-L10N] bark 0402:2398 MISS src="All is well, I hope. "
+[U8-L10N] ask 0402 SOURCE-MISMATCH src="What should I do? "
+[U8-L10N] ask 0402 HIT src="Goodbye. "
+[U8-L10N] bark 0402:3311 MISS src="Well, I suppose now that you are better, ..."
+[U8-L10N] ask 0402 HIT src="Goodbye. "
+[U8-L10N] bark 0402:338E MISS src="Farewell, friend Pman, and good luck."
 ```
+
+- ✅ bark ID 與離線抽取一致（`060F`、`2398`、`3311`、`338E` 都在 `u8extract.py 0402` 的輸出中）。
+- ✅ ask 以 class `0402` + 英文查表，`"Goodbye. "` HIT。
+- ✅ 動態句子（含玩家名字）MISS → 顯示英文，符合預期（P11）。
+- ✅ 畫面與原版相同（本 Phase 不替換顯示）。
+- ⚠️ 未翻譯的選項被記成 **SOURCE-MISMATCH**，應該是 MISS：ask 的 ID 本身就包含英文，英文不同就是另一個選項。已修正為只有 bark 呼叫點會回報 SOURCE-MISMATCH（`scummvm-src` commit `d6192426af`，單元測試更新，476 項通過，Windows 建置 0 warning）。
+- log 最後的 `WARNING: Non-existent process PID (0) in implies.` 在 P1 的 trace 版（upstream master）log 中也有，屬原版行為。
 
 ## Acceptance（Master Plan §23）
 
 | 項目 | 結果 | 證據 |
 |---|---|---|
 | localization OFF → exact original text path | ✅ | 情境 A / G：不載入翻譯檔、不換字型、不查表（`isActive()` 為 false 時 `I_bark` / `I_ask` 不做任何事） |
-| zh_TW → translated test lookup | ✅（遊戲內對話待確認） | 單元測試 `test_hit`；情境 B 載入 17 條 |
+| zh_TW → translated test lookup | ✅ | 單元測試 `test_hit`；情境 B 載入 17 條；遊戲內 `ask 0402 "Goodbye. "` HIT |
 | unknown ID → original English | ✅ | `test_miss_and_mismatch`；`translate()` 在 MISS / SOURCE-MISMATCH 回傳原文 |
 | malformed entry → safe fallback | ✅ | `test_malformed_entries_skipped`、`test_corrupt_files_rejected`；情境 C / D / E |
 | no Usecode changes | ✅ | 只加了唯讀的 `UCProcess::getIp()`；UCMachine 未修改 |
@@ -167,7 +180,6 @@ private_test/extra/u8_zh_TW.mo: 17 entries from 1 files, 2016 bytes (skipped: 0 
 
 ### Unknown
 
-- 遊戲內 `I_bark` / `I_ask` 的實際 log（見上）。
 - 日文版、Crusader：程式碼層級不會啟用（語言與遊戲類型檢查），沒有實機資料。
 
 ## Files Changed
@@ -195,7 +207,7 @@ private_test/extra/u8_zh_TW.mo: 17 entries from 1 files, 2016 bytes (skipped: 0 
 
 ## Next Phase Readiness
 
-**READY**：Phase 5（First NPC Bark Chinese POC）。建議先完成上面「遊戲內對話」的確認。等待使用者審閱並明確指示。
+**READY**：Phase 5（First NPC Bark Chinese POC）。等待使用者審閱並明確指示。
 
 ## STOP
 

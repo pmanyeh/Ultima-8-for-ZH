@@ -1027,7 +1027,7 @@ P15 Optional Enhancements
 | P1 Text Architecture Audit | ✅ PASS（2026-10-05） | `docs/reports/P1-text-architecture-audit.md` |
 | P2 Translation Identity | ✅ PASS → **GO**（2026-10-06） | `docs/reports/P2-translation-identity.md` |
 | P3 UTF-8 / CJK Foundation | ✅ PASS（2026-10-06） | `docs/reports/P3-cjk-foundation.md` |
-| P4 Localization Manager | ✅ PASS（2026-10-06；遊戲內對話 log 待確認） | `docs/reports/P4-localization-manager.md` |
+| P4 Localization Manager | ✅ PASS（2026-10-06） | `docs/reports/P4-localization-manager.md` |
 | P5 NPC Bark POC ★ | ⏳（spike 已在遊戲中顯示中文台詞） | |
 | P6 AskGump Choice POC ★ | ⏳（spike 已驗證中文選項進入原始分支） | |
 | P7 First Complete Conversation ★ | ⏳ | |
@@ -1601,7 +1601,8 @@ Acceptance 補充：
 - 實作：`TranslationCatalog`（`misc/translation_catalog.*`，只依賴 `common/`）與 `Localization`（`misc/localization.*`）。
 - 設定：`localization=off|zh_TW`、`localization_file`（預設 `u8_<語言>.mo`）；`font_cjk_*` 沿用 P3，`font_cjk_file` 預設 `Cubic_11.ttf`。
 - 啟用條件：英文版 U8、翻譯檔正確且語言相符、CJK 字型套用到所有 `[fontoverride]` 字型。任何一項不成立就顯示英文並使用原字型。
-- 查表 key：`context + "\x04" + 英文原文`。結果分為 HIT / MISS / SOURCE-MISMATCH。
+- 查表 key：`context + "\x04" + 英文原文`。結果分為 HIT / MISS / SOURCE-MISMATCH（只有 bark 呼叫點會回報 SOURCE-MISMATCH）。
+- 遊戲內確認：與 Devon 對話，bark ID 與離線抽取一致，`ask 0402 "Goodbye. "` HIT。
 - `I_bark` / `I_ask` 只查表並寫 log（debug channel `Localization`），顯示文字在 P5 / P6 才替換。
 
 **STOP**
