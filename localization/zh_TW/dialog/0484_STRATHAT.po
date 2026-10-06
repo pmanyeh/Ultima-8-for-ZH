@@ -1,0 +1,16 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# STRATHAT (usecode class 0484)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 07 (hatch)
+msgctxt "bark 0484:038C"
+msgid "Oh, dear Child, you must not do this. I have given so much and asked only for the devotion of my children. Now you will rob me of even that. Ah, thoughtless child, you break my heart with your actions. "
+msgstr ""

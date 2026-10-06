@@ -47,7 +47,17 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ⏳ 待開始
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ⏳ 待開始
+
+## v2.7 — 2026-10-06（Phase 10 完成後）
+
+依據：[docs/reports/P10-extraction-toolchain.md](docs/reports/P10-extraction-toolchain.md)
+
+| 章節 | 修訂內容 |
+|---|---|
+| §18.1 | P10 PASS |
+| §29 | 驗收打勾；工具鏈與權威檔 |
+| §49 | #10、#19 完成；新增 #25（動態組合的試劑名稱）、#26（權威檔分類與譯名需人工整理） |
 
 ## v2.6 — 2026-10-06（Phase 9 完成後）
 
@@ -1084,6 +1094,7 @@ P15 Optional Enhancements
 | P7 First Complete Conversation ★ | ✅ PASS（2026-10-06）— **Core Localization Architecture proven** | `docs/reports/P7-first-complete-conversation.md` |
 | P8 Text Surface Inventory | ✅ PASS（2026-10-06） | `docs/reports/P8-text-surface-inventory.md`、`docs/research/text-surface-inventory.md` |
 | P9 Engine UI / Static Text | ✅ PASS（2026-10-06） | `docs/reports/P9-engine-ui-static-text.md` |
+| P10 Extraction & Toolchain | ✅ PASS（2026-10-06） | `docs/reports/P10-extraction-toolchain.md` |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
 
@@ -2121,12 +2132,19 @@ missing translation report
 
 ## Acceptance
 
-- [ ] repeat extraction deterministic
-- [ ] IDs stable
-- [ ] no duplicate-ID conflicts
-- [ ] same-English/different-context handled
-- [ ] control characters preserved
-- [ ] zero proprietary binary copied into repo
+- [x] repeat extraction deterministic
+- [x] IDs stable
+- [x] no duplicate-ID conflicts
+- [x] same-English/different-context handled
+- [x] control characters preserved
+- [x] zero proprietary binary copied into repo
+
+**v2.7：P10 結果**（[報告](docs/reports/P10-extraction-toolchain.md)、[翻譯檔說明](localization/README.md)）
+
+- `u8catalog.py update`：全部 394 個 class → `localization/zh_TW/dialog/CCCC_NAME.po`（6,552 條，英文約 52 萬字元），合併時保留譯文；`check`（含過時條目、控制字元、權威檔、缺字）；`stats`（進度、重複、不一致）；`terms`（權威檔）。
+- 新 context：`book` / `scroll` / `grave` / `plaque CCCC:IIII`；引擎已顯示（墓碑與牌匾為字幕）。
+- 權威檔 `localization/zh_TW/authority.tsv`（使用者要求）：人名、地名、物品、魔法、生物、稱號、組織的唯一譯名。
+- MO 的英文 key 以 CP437 編碼，與遊戲的 byte 一致。
 
 **STOP**
 
@@ -3002,7 +3020,7 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 7 | ~~句型比對與參數翻譯~~ ✅ 引擎與編譯工具（P7）；參數譯文待實際 NPC（例如 Orlok `040A`）驗證 | P7 / P11 |
 | 8 | 5 個無法自動解析的 bark（PYROS、SORCERER、METHOD） | P10 |
 | 9 | 共用 class（例如 `METHOD 057C`）代為發話時的對話脈絡 | P10 |
-| 10 | BookGump 的 `_TL_()` 書本修正與新翻譯層並存（inventory §4.3） | P10 |
+| 10 | ~~BookGump 的 `_TL_()` 書本修正與新翻譯層並存~~ ✅ 有譯文時不套用英文修正（P10） | P10 |
 | 11 | 建立 ScummVM fork 並改為 submodule | P3 之前或期間 |
 | 12 | HD 文字層 | P15 |
 | 13 | ~~是否只在 localization 開啟時載入 CJK 字型~~ ✅ 是（OFF 時與原版完全相同）。開啟時未翻譯的英文仍會以像素字型顯示 | P4 |
@@ -3011,12 +3029,14 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 16 | 翻譯檔沒有記錄遊戲資料版本；考慮在檔頭加入 `EUSECODE.FLX` 雜湊 | P10 |
 | 17 | ~~掛點確認目標字型是 UTF-8 字型~~ ✅ BarkGump（P5）、AskGump（P6） | P5 / P6 |
 | 18 | 有語音的 NPC 在 localization 下的語音與字幕（遊戲只有 9 個語音檔，Devon 沒有） | 有語音的 NPC 翻譯時 |
-| 19 | 抽取工具漏列部分選項（`Sea of Rains? ` 等只出現在「when answer is」） | P10 |
+| 19 | ~~抽取工具漏列部分選項~~ ✅ 改為同時收集被比對的答案（P10） | P10 |
 | 20 | 墓碑（字型 11）、牌匾（10）、死亡畫面：**先採方案 A（英文雕刻 + 中文字幕，日文版做法）**（使用者決定 2026-10-06）。U7 專案是全部改成中文，之後再評估是否改為方案 B | P9 / P10 |
 | 21 | ~~字型 4 與狀態欄字型~~ ✅ P9：日記的中文改用字型 9；狀態欄維持英文（列距 9px 放不下中文）；`SliderGump` 只有數字 | P9 |
 | 22 | 製作人員名單（`ECREDITS.DAT`）與開發者語錄（`QUOTES.DAT`）：**都不翻譯**（使用者決定 2026-10-06） | — |
 | 23 | `EditWidget` 使用 high-res TTF（CJK）時文字畫到錯誤位置（日記輸入框）。P9 以不替換日記字型避開；使用者：之後再修 | 待定 |
 | 24 | `TTFont::renderText` 游標與文字寫出圖片範圍（upstream 既有，P9 已修正），可考慮回報 upstream | — |
+| 25 | 試劑名稱等動態組合的文字（`ERTHREAG` 等）：抽取結果把分支串在一起，需處理單複數與數量 | P11 |
+| 26 | 權威檔（`authority.tsv`）的分類與 711 個待決定的譯名需人工整理 | 翻譯開始前 |
 
 ---
 

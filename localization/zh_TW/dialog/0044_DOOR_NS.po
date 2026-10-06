@@ -1,0 +1,56 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# DOOR_NS (usecode class 0044)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 06 (gotHit)
+msgctxt "bark 0044:00FE"
+msgid "Locked Door "
+msgstr ""
+
+#. event 06 (gotHit)
+msgctxt "bark 0044:0138"
+msgid "door "
+msgstr ""
+
+#. event 06 (gotHit)
+msgctxt "bark 0044:015C"
+msgid "tower door "
+msgstr ""
+
+#. event 06 (gotHit)
+msgctxt "bark 0044:0926"
+msgid "Locked Door "
+msgstr ""
+
+#. event 06 (gotHit)
+msgctxt "bark 0044:0965"
+msgid "Locked Door "
+msgstr ""
+
+#. event 06 (gotHit)
+msgctxt "bark 0044:09C1"
+msgid "blocked "
+msgstr ""
+
+#. event 06 (gotHit)
+msgctxt "bark 0044:0A30"
+msgid "blocked "
+msgstr ""
+
+#. event 06 (gotHit)
+msgctxt "bark 0044:0C07"
+msgid "blocked "
+msgstr ""
+
+#. event 06 (gotHit)
+msgctxt "bark 0044:0C43"
+msgid "blocked "
+msgstr ""

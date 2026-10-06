@@ -1,0 +1,66 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# KEYONEC (usecode class 00E8)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 00E8:00B7"
+msgid "Key of the Caretaker "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 00E8:00ED"
+msgid "Key of the Scion "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 00E8:0129"
+msgid "Key of the Necromancer "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E8:0344"
+msgid "Lord Lithos, I have come to inter Lothian into Your Earth as You have commanded. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E8:03AC"
+msgid "THIS DOES PLEASE ME WELL, LIVE ONE. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E8:0400"
+msgid "All has been prepared according to your law, Mountain King. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E8:044D"
+msgid "COME NOW TO ME, LOTHIAN. LET ME ENFOLD YOU IN MY ARMS. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E8:0534"
+msgid "can't reach "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 00E8"
+msgid "Vas Por Ylem!"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E8:0892"
+msgid "In Vas Corp!"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E8:0943"
+msgid "Something's not right. "
+msgstr ""

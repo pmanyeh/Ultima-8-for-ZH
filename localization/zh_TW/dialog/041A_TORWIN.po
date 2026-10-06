@@ -1,0 +1,544 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# TORWIN (usecode class 041A)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 041A:00B2"
+msgid "Torwin the ex-monk "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 041A:00E7"
+msgid "Torwin the monk "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 041A:010D"
+msgid "Torwin"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 041A:0132"
+msgid "monk "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 041A:014F"
+msgid "man "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 041A:03FC"
+msgid "What are you doing there...? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:04BC"
+msgid "Stratos! Preserve me! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:069C"
+msgid "Excuse me? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:0737"
+msgid "Can I help you? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:07F0"
+msgid "Ask if you need something! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:0870"
+msgid "What do you want? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:093C"
+msgid "Where is that old man? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:09BA"
+msgid "hmmmm... "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:0A31"
+msgid "Studying is such a waste of my time. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:0A66"
+msgid "Where is that book...? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:0B2E"
+msgid "I know it is here somewhere... "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:0B62"
+msgid "I need to sit down... "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:0BA5"
+msgid "I don't know why I put up with this. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:0CE2"
+msgid "I must meditate! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:0D5A"
+msgid "I can't concentrate! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:0EAB"
+msgid "Excuse me! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:0F5D"
+msgid "Yes? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:1017"
+msgid "Humph. Some people...! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:107A"
+msgid "Do you mind? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:114D"
+msgid "I must speak with Cyrrus. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:11AF"
+msgid "hmmmm...  "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:122A"
+msgid "heh, heh... "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:125D"
+msgid "Where is that focus? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:130E"
+msgid "Damn... "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:1357"
+msgid "I feel tired. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 041A:138B"
+msgid "I should take a walk. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041A:144A"
+msgid "Excuse me "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041A:14CD"
+msgid "Will you be wasting more of my time? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041A:1515"
+msgid "What do you want this time? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041A:1555"
+msgid "I haven't much time. What do you need? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041A"
+msgid "Hello, Torwin. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041A"
+msgid "Is your name not Torwin? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041A"
+msgid "I need healing "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041A"
+msgid "I have completed the Tests. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041A:1647"
+msgid "Have I met you before? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041A"
+msgid "I don't believe we have met. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041A:1715"
+msgid "Torwin!"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041A:1813"
+msgid "Go away, leave me alone! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041A"
+msgid "Someone's Focus is missing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+#. answer compared by the conversation code
+msgctxt "ask 041A"
+msgid "bye "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello, Torwin. "
+msgctxt "bark 041A:18F7"
+msgid "Oh, I'm very bad with names. What was yours again? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello, Torwin. "
+msgctxt "ask 041A"
+msgid "You don't need to know. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Is your name not Torwin? "
+msgctxt "bark 041A:19CD"
+msgid "Yes, my name is Torwin. I'm very bad with names. What was yours again? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Is your name not Torwin? "
+msgctxt "bark 041A:1A8E"
+msgid "Yes, well, I probably won't remember it next time I see you. What do you want? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Is your name not Torwin? "
+msgctxt "ask 041A"
+msgid "What do you do here? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Is your name not Torwin? "
+msgctxt "ask 041A"
+msgid "Someone's focus is missing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't believe we have met. "
+msgctxt "bark 041A:1B75"
+msgid "My name is Torwin. And yours? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You don't need to know. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041A:1C28"
+msgid "Well, anyway, hello, {name}. What brings you here?"
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do here? "
+msgctxt "bark 041A:1D70"
+msgid "For now I am only a healer. But that is just because they have not recognized my superior abilities, but they will. Believe me, they will. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do here? "
+msgctxt "ask 041A"
+msgid "Who will recognize your abilities? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What superior abilities? "
+#. answer compared by the conversation code
+msgctxt "ask 041A"
+msgid "What superior abilities? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What superior abilities? "
+msgctxt "bark 041A:1EBA"
+msgid "Why, my talent for magic, of course. I've passed all the tests, faster than anyone ever has before...and anyone ever will, I'm sure. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who will recognize your abilities? "
+msgctxt "bark 041A:1FDF"
+msgid "Everyone, of course. I never make an error when I am casting the magic. I even constructed my foci correctly on the very first try. And it is the finest of all the foci, I might add. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who will recognize your abilities? "
+msgctxt "ask 041A"
+msgid "What is a Focus? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a Focus? "
+msgctxt "bark 041A:20C4"
+msgid "Oh, I could explain it, but I doubt you would understand. It's very complicated, magic and all. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You are a healer? "
+#. answer compared by the conversation code
+msgctxt "ask 041A"
+msgid "You are a healer? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You are a healer? "
+msgctxt "bark 041A:215C"
+msgid "Yes, why else would I be here? Anyway, are you in need of healing? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You are a healer? "
+msgctxt "ask 041A"
+msgid "nay "
+msgstr ""
+
+#. event 01 (use (talk)), after "You don't need to know. "
+msgctxt "bark 041A:221E"
+msgid "If you are going to be rude, then I shall not take the time to assist you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "aye " or "I need healing "
+#. answer compared by the conversation code
+msgctxt "ask 041A"
+msgid "aye "
+msgstr ""
+
+#. event 01 (use (talk)), after "aye " or "I need healing "
+msgctxt "bark 041A:22E8"
+msgid "What? You look healthy enough to me! Begone! I do not have the time nor the patience for hangnails and paper cuts! "
+msgstr ""
+
+#. event 01 (use (talk)), after "aye " or "I need healing "
+msgctxt "bark 041A:2319"
+msgid "Wimp! "
+msgstr ""
+
+#. event 01 (use (talk)), after "nay "
+msgctxt "bark 041A:2439"
+msgid "Actually, I'm relieved, for I do not wish to take precious time away from my studies. No one here has the raw talent and ability I have. And, I will suffer no one to surpass me. I -must- be the best, I -will- be the best! Now, if you will excuse me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have completed the Tests. "
+msgctxt "bark 041A:24F6"
+msgid "What?! That is not possible! No one has ever completed the tests faster than I! I will not stand for this! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Someone's Focus is missing. "
+msgctxt "bark 041A:257B"
+msgid "A missing focus? I know nothing about this matter. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Someone's Focus is missing. "
+msgctxt "ask 041A"
+msgid "I believe you do. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I believe you do. "
+msgctxt "bark 041A:2645"
+msgid "I know nothing, I tell you. Why I haven't even been near Brother Xavier! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I believe you do. "
+msgctxt "ask 041A"
+msgid "But you knew it was Brother Xavier. "
+msgstr ""
+
+#. event 01 (use (talk)), after "But you knew it was Brother Xavier. "
+msgctxt "bark 041A:2714"
+msgid "Well, I didn't steal it. I only meant to borrow it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "But you knew it was Brother Xavier. "
+msgctxt "ask 041A"
+msgid "Only borrowed it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Did not steal it? "
+#. answer compared by the conversation code
+msgctxt "ask 041A"
+msgid "Did not steal it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Did not steal it? "
+msgctxt "bark 041A:27D0"
+msgid "I told you, I'm not a thief! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only borrowed it? "
+msgctxt "bark 041A:284E"
+msgid "I needed the magic in it for my father. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only borrowed it? "
+msgctxt "ask 041A"
+msgid "your father? "
+msgstr ""
+
+#. event 01 (use (talk)), after "the magic in it? "
+#. answer compared by the conversation code
+msgctxt "ask 041A"
+msgid "the magic in it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "the magic in it? "
+msgctxt "bark 041A:297E"
+msgid "Foci are very strong lines to the great Stratos. I thought that perhaps with two, I might be able to draw twice as much power from the great Air Titan. "
+msgstr ""
+
+#. event 01 (use (talk)), after "your father? "
+msgctxt "bark 041A:2A4C"
+msgid "Yes, my father. His name is....er,..was Toran. He lived in Tenebrae, my home town. He's dead now, killed by that evil Mordea. "
+msgstr ""
+
+#. event 01 (use (talk)), after "your father? "
+msgctxt "ask 041A"
+msgid "Why did Mordea kill him? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Toran was your father? "
+#. answer compared by the conversation code
+msgctxt "ask 041A"
+msgid "Toran was your father? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Toran was your father? "
+msgctxt "bark 041A:2B46"
+msgid "Yes. He was a good man, not afraid to speak out for what he believed...and he was killed for it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why did Mordea kill him? "
+msgctxt "bark 041A:2C4B"
+msgid "That murdering bitch! She had him executed for simply speaking his mind. Is that right? Can a man's life be snuffed out for mere words? Is that right, I ask you!? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why did Mordea kill him? "
+msgctxt "ask 041A"
+msgid "I saw his execution. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why did Mordea kill him? "
+msgctxt "ask 041A"
+msgid "Mordea is dead. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I saw his execution. "
+msgctxt "bark 041A:2DD1"
+msgid "Then you saw as his head was severed from his body with the single swing of the executioner's ax. In that instant, the most important man in my life was taken from me, and I could do nothing about it... not then anyway. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I saw his execution. "
+msgctxt "ask 041A"
+msgid "You could do nothing? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I saw his execution. "
+msgctxt "ask 041A"
+msgid "You could do nothing about it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You could do nothing? "
+msgctxt "bark 041A:2FA9"
+msgid "I could do nothing, just as I could do nothing to stop you surpassing my deeds here at Argentrock. Until you arrived, I was the quickest learner and the most clever with the magic. You stole that from me, but I will still have my revenge. No, that is mine and mine alone. Do you hear me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You could do nothing? "
+msgctxt "ask 041A"
+msgid "revenge "
+msgstr ""
+
+#. event 01 (use (talk)), after "Mordea is dead. "
+msgctxt "bark 041A:3118"
+msgid "She is dead? This can not be! I was to kill her! ~You have stolen from me every thing. I was the best student here until you arrived. ~I was the quickest learner and the cleverest with the magic. ~You stole that from me, and now you have stolen my revenge! "
+msgstr ""
+
+#. event 01 (use (talk)), after "revenge "
+msgctxt "bark 041A:31E9"
+msgid "I will still have my revenge! I will bring my father back to life! I will bring him back from the Pit of Death! "
+msgstr ""
+
+#. event 01 (use (talk)), after "revenge "
+msgctxt "ask 041A"
+msgid "Your father is with the Lurker. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your father is with the Lurker. "
+msgctxt "bark 041A:32DD"
+msgid "YOU LIE! He is in the Pit of Death and I SHALL BRING HIM BACK! Do you hear? I shall! And I shall do it now! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your father is with the Lurker. "
+msgctxt "bark 041A:331E"
+msgid "Why, I don't need this extra focus at all! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your father is with the Lurker. "
+msgctxt "bark 041A:345E"
+msgid "I am strong enough to do it on my own... "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your father is with the Lurker. "
+msgctxt "bark 041A:349D"
+msgid "And I will! I'm coming for you, father!! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your father is with the Lurker. "
+msgctxt "bark 041A:34DF"
+msgid "Torwin, wait! "
+msgstr ""
+
+#. event 01 (use (talk)), after "You could do nothing about it? "
+msgctxt "bark 041A:3583"
+msgid "Not then, but with what I have learned here, I will be able to make things right again! "
+msgstr ""
+
+#. event 01 (use (talk)), after "You could do nothing about it? "
+msgctxt "ask 041A"
+msgid "How will you make things right? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How will you make things right? "
+msgctxt "bark 041A:367D"
+msgid "I will use the magic from Stratos to bring my father back to life. I will have my revenge! "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 041A:36F2"
+msgid "Goodbye. "
+msgstr ""

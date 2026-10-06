@@ -1,0 +1,116 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# MALCHIR (usecode class 041B)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 041B:013E"
+msgid "Malchir the late Master Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 041B:016E"
+msgid "Malchir the Master Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 041B:01AA"
+msgid "Malchir the deceased "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 041B:01C5"
+msgid "Malchir"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 041B:0201"
+msgid "dead Master Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 041B:0225"
+msgid "Master Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 041B:024F"
+msgid "dead mage "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 041B:0268"
+msgid "mage "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:04DD"
+msgid "Ah, I see you have endured the trials of the Obsidian Fortress, which means that you must have nearly completed your training. I will test you now, Disciple, to see if you are worthy to be an Acolyte. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:05BE"
+msgid "In order to become one, you must first cast three spells. You may use my pentacle, one of my staves, and my reagents to prepare them. I will be the target of each. Fear not, for they will do me no harm. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:0699"
+msgid "First, cast the Flame Bolt spell, then the Explosion spell, and finally, summon a Daemon to assault me. Do this in order. Failure at this point will cost your life... and there is no turning back. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:06C6"
+msgid "The test begins now... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:073D"
+msgid "Cast the Flame Bolt spell at me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:0780"
+msgid "Cast the Explosion spell at me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:07C1"
+msgid "Summon a daemon to attack me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:07F7"
+msgid "Banish the daemon. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:082A"
+msgid "Drop the staff. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:0866"
+msgid "Do it now. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:08E2"
+msgid "This is your last chance. You are about to fail... and that means your death. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:09C2"
+msgid "I did not send for you, insolent child. This fortress is my refuge, and for breaking its sanctity, you must die. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 041B:0A41"
+msgid "Come, Acolyte. We must begin the ceremony. "
+msgstr ""

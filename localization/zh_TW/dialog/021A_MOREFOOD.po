@@ -1,0 +1,56 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# MOREFOOD (usecode class 021A)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 021A:0167"
+msgid "raw kith filet "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 021A:0193"
+msgid "kith filet "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 021A:01BB"
+msgid "cheese "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 021A:01E9"
+msgid "cheese "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 021A:0225"
+msgid "mushroom "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 021A:0252"
+msgid "tuber "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 021A:0279"
+msgid "bread "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 021A:0297"
+msgid "food "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 021A:02C3"
+msgid "Mmmm... "
+msgstr ""

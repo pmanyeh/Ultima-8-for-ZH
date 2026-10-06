@@ -1,0 +1,465 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# DAEMSCEN (usecode class 058A)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 058A:0750"
+msgid "How may I serve you, mistress? "
+msgstr ""
+
+msgctxt "bark 058A:0761"
+msgid "Find the one called Morduin. Put an end to his life and then return from whence you came.*I command that you do this in Pyros' name. "
+msgstr ""
+
+#. sentence template: keep the {placeholders}
+msgctxt "bark 058A:0772"
+msgid "{varED}"
+msgstr ""
+
+msgctxt "bark 058A:0B63"
+msgid "There... it is done. "
+msgstr ""
+
+msgctxt "bark 058A:0E3C"
+msgid "I have sensed a daemonic presence within the confines of the Enclave.*Bane, what is the meaning of this?"
+msgstr ""
+
+#. sentence template: keep the {placeholders}
+msgctxt "bark 058A:0F2D"
+msgid "Forgive me, Master. {varF1} was planning to assassinate you.*With the aid of this stranger, I summoned a daemon to rid us of the threat. Surely you understand that I had to do something."
+msgstr ""
+
+msgctxt "bark 058A:0F66"
+msgid "I understand no such thing*Get up! "
+msgstr ""
+
+msgctxt "bark 058A:0FF3"
+msgid "You should have brought this to my attention before acting on your baseless suspicions. "
+msgstr ""
+
+msgctxt "bark 058A:1034"
+msgid "Yes, Master. I only sought to protect you. "
+msgstr ""
+
+msgctxt "bark 058A:1174"
+msgid "Well, in your feeble attempt at guarding my person, you have destroyed a valuable Acolyte at a time when I need to call upon the Lord of Flame. "
+msgstr ""
+
+msgctxt "bark 058A:11CC"
+msgid "How exactly do you propose to solve this dilemma, Bane?"
+msgstr ""
+
+msgctxt "bark 058A:12CB"
+msgid "If you will allow me to become your First Acolyte, I believe that I can give you a fine Disciple to assist in the Ritual of Fire. That one there. "
+msgstr ""
+
+#. , after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 058A:1379"
+msgid "He calls himself, {name}."
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:13D0"
+msgid "His Sorcerous potential is truly great. Can you not feel it? "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:1553"
+msgid "Of course I can! Do not presume to tell me my craft.* Teach him our ways, and keep in mind that while he is your Disciple, all his actions reflect upon you, First Acolyte. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:15D9"
+msgid "Yes! I understand, my Master.*I will provide you with an excellent Acolyte. We will begin training immediately. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:167C"
+msgid "See that you do. And when he is ready, send him to me.* If he can survive the Obsidian Fortress, he will be ready for the Ritual of Flame. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:16BB"
+msgid "Yes, Master. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:18CA"
+msgid "Well, Disciple. It's time to make an Acolyte out of you. Go and read the books of our library. They will show you how to become a Sorcerer. Come to me only if you have questions about Sorcery in general. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:1944"
+msgid "Here's the key to the library.*Run along now. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:19A6"
+msgid "Come fetch the key to the library.*Then run along. "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 058A"
+msgid "I would learn more about Sorcery. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:1AB4"
+msgid "I cannot assist you during your test. Do you wish to forfeit? "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:1B28"
+msgid "You disappoint me, my Disciple. But, how may I assist you? "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:1C3F"
+msgid "Very well. But you must hurry. You have not even started and You have made a good start but You are almost done but Master Malchir will not wait forever. "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 058A"
+msgid "I am ready to be tested. "
+msgstr ""
+
+#. , after "Farewell. "
+#. answer compared by the conversation code
+msgctxt "ask 058A"
+msgid "Farewell. "
+msgstr ""
+
+#. , after "Farewell. "
+msgctxt "bark 058A:1D60"
+msgid "I must return to my work, Disciple. "
+msgstr ""
+
+#. , after "You lied to me! "
+#. answer compared by the conversation code
+msgctxt "ask 058A"
+msgid "You lied to me! "
+msgstr ""
+
+#. , after "You lied to me! "
+msgctxt "bark 058A:1E31"
+msgid "And what of it? Are you here to bother me with your petty conscience? "
+msgstr ""
+
+#. , after "You lied to me! "
+msgctxt "ask 058A"
+msgid "No, of course not. Forgive me. "
+msgstr ""
+
+#. , after "You are quite devious. "
+#. answer compared by the conversation code
+msgctxt "ask 058A"
+msgid "You are quite devious. "
+msgstr ""
+
+#. , after "You are quite devious. "
+msgctxt "bark 058A:1F57"
+msgid "I thought you would see it that way. A job needed doing, and I was the one to do it. Very simple. Now, about your training. "
+msgstr ""
+
+#. , after "Obviously, you have none. "
+#. answer compared by the conversation code
+msgctxt "ask 058A"
+msgid "Obviously, you have none. "
+msgstr ""
+
+#. , after "Obviously, you have none. "
+msgctxt "bark 058A:20B5"
+msgid "That's right, Disciple. And if you know what's good for you, you'll lose yours. It gets in the way of Sorcery. If you can't handle this, you're no good to us, and if you're no good to us, then you must leave. "
+msgstr ""
+
+#. , after "No, of course not. Forgive me. "
+msgctxt "bark 058A:21A5"
+msgid "Forgive you? You are the Disciple, I am your Sponsor. I give the orders. I will forgive you when you earn my forgiveness. You do that by becoming a competent Sorcerer. "
+msgstr ""
+
+#. , after "I would learn more about Sorcery. "
+msgctxt "bark 058A:22F0"
+msgid "Very well. I am here to teach. What would you know? "
+msgstr ""
+
+#. , after "I would learn more about Sorcery. "
+msgctxt "ask 058A"
+msgid "I wish to know about a spell. "
+msgstr ""
+
+#. , after "I am ready to be tested. "
+msgctxt "bark 058A:248F"
+msgid "Are you? We shall see.*Your test will consist of enchanting a focus or foci, your choice, with the spells of Flash, Flame Bolt, and Endure Heat. If you find that you are not ready once the test begins, you may still leave, but the test will be forfeit. "
+msgstr ""
+
+#. , after "I am ready to be tested. "
+msgctxt "bark 058A:24C4"
+msgid "Do you wish to begin the test? "
+msgstr ""
+
+#. , after "I am ready to be tested. "
+msgctxt "bark 058A:25BC"
+msgid "Your test begins now. Do not fail. I will not tolerate failure in one of my Disciples. "
+msgstr ""
+
+#. , after "I am ready to be tested. "
+msgctxt "bark 058A:2651"
+msgid "Very well. But learn quickly. The Master does not like to be kept waiting. "
+msgstr ""
+
+#. , after "I am ready to be tested. "
+msgctxt "bark 058A:26E9"
+msgid "I am busy right now, Disciple. I will test you when I am at my pentacle. "
+msgstr ""
+
+#. , after "What is the Ritual of Fire? "
+#. answer compared by the conversation code
+msgctxt "ask 058A"
+msgid "What is the Ritual of Fire? "
+msgstr ""
+
+#. , after "What is the Ritual of Fire? "
+msgctxt "bark 058A:27E2"
+msgid "That is the ceremony we use to call upon our patron Titan, Pyros, Lord of Flame. Your final test hinges upon how well you perform in that ritual. "
+msgstr ""
+
+#. , after "What is the Ritual of Fire? "
+msgctxt "bark 058A:28C3"
+msgid "You will need to bring a red candle, that you will ignite by use of Sorcery. You will then kneel and begin the chant,~ 'In Sanct An Por'. Very simple, is it not? When it is over, you may do as you wish. "
+msgstr ""
+
+#. , after "How will I be tested? "
+#. answer compared by the conversation code
+msgctxt "ask 058A"
+msgid "How will I be tested? "
+msgstr ""
+
+#. , after "How will I be tested? "
+msgctxt "bark 058A:29CD"
+msgid "First, I will test your ability to create and bind sorcerous energies to physical paraphernalia, when you can do this, I will pronounce you fit to become an Acolyte. "
+msgstr ""
+
+#. , after "How will I be tested? "
+msgctxt "bark 058A:2AC6"
+msgid "For your next test, I will give you the key of the Acolyte. It is not a physical key, as such, but the ability to enter into the Obsidian Fortress. Your test lies within. If you survive to find Master Malchir, you have passed. "
+msgstr ""
+
+#. , after "How will I be tested? "
+msgctxt "bark 058A:2B76"
+msgid "Your third test will be given by the Master himself. He will choose a spell for you to cast. Cast it successfully and you will be accepted as an Acolyte. "
+msgstr ""
+
+#. , after "How will I be tested? "
+msgctxt "bark 058A:2C34"
+msgid "Your final test will be to assist in the Ritual of Fire. Do this competently, and your position as Acolyte, as well as my position as First Acolyte, will be confirmed. "
+msgstr ""
+
+#. , after "Tell me about spellcasting. "
+#. answer compared by the conversation code
+msgctxt "ask 058A"
+msgid "Tell me about spellcasting. "
+msgstr ""
+
+#. , after "Tell me about spellcasting. "
+msgctxt "bark 058A:2D98"
+msgid "Sorcerous spellcasting is a craft. It involves binding the power of Fire into a physical focus. The foci we use are: the pentacle symbol, a metal wand, rod, or staff, and a talisman in the form of a daemon's head. "
+msgstr ""
+
+#. , after "Tell me about spellcasting. "
+msgctxt "bark 058A:2E9C"
+msgid "A pentagram is required to contain the power channeled into the focus, candles are used to indicate the nature of the spell, and certain reagents, placed strategically near certain candles, unleash and shape the energies to be channeled. "
+msgstr ""
+
+#. , after "Tell me about spellcasting. "
+msgctxt "ask 058A"
+msgid "What are reagents? "
+msgstr ""
+
+#. , after "I wish to know about a spell. "
+msgctxt "bark 058A:2FA9"
+msgid "You must find the spellbook with that knowledge and research its properties. Other than that, I cannot reveal to you. "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+#. answer compared by the conversation code
+msgctxt "ask 058A"
+msgid "Where do I place the candles? "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+msgctxt "bark 058A:309A"
+msgid "Each point of the pentacle has a small spike upon which a candle can be placed. These points have names associated with them. "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+msgctxt "bark 058A:3107"
+msgid "The point farthest from the core of the volcano is called the Aphelion, and it lies... "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+msgctxt "bark 058A:31B9"
+msgid "...here. "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+msgctxt "bark 058A:3222"
+msgid "The next two candles are called Mesostelae. Mesostel Pa rests... "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+msgctxt "bark 058A:32BF"
+msgid "...here. "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+msgctxt "bark 058A:3309"
+msgid "And its companion, Mesostel Ze sits across from it. "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+msgctxt "bark 058A:33E6"
+msgid "The final candles, closest to the volcano are appropriately named Perivolcanae. Perivolcan Pa lies... "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+msgctxt "bark 058A:3487"
+msgid "...here. "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+msgctxt "bark 058A:34AD"
+msgid "And its mate... "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+msgctxt "bark 058A:353B"
+msgid "...is placed here. "
+msgstr ""
+
+#. , after "Where do I place the candles? "
+msgctxt "bark 058A:3655"
+msgid "This lesson will have to wait, Disciple. I am not prepared to teach it at the moment. Ask again when I am at my pentacle. "
+msgstr ""
+
+#. , after "Explain the foci. "
+#. answer compared by the conversation code
+msgctxt "ask 058A"
+msgid "Explain the foci. "
+msgstr ""
+
+#. , after "Explain the foci. "
+msgctxt "bark 058A:3740"
+msgid "A focus is designed to hold the energy of a spell. Each focus has different limitations as to the choice and power of the spell focused. "
+msgstr ""
+
+#. , after "Explain the foci. "
+msgctxt "bark 058A:383C"
+msgid "The pentacle symbol is the least powerful, but quite possibly the most useful focus. It is designed to contain the energies of the Ignite and Extinguish spells, however, any other spell may be worked into its pattern for one use. "
+msgstr ""
+
+#. , after "Explain the foci. "
+msgctxt "bark 058A:396F"
+msgid "The wand can hold the Ignite, Extinguish, Flash, and Flame Bolt spells. The Rod holds all wand spells in addition to the protective spells of Endure Heat, Fire Shield, and Armor of Flames. The staff holds all of the wand and rod spells along with the Create Fire and Explosion spells. "
+msgstr ""
+
+#. , after "Explain the foci. "
+msgctxt "bark 058A:39E0"
+msgid "The daemon talisman holds only the Summon Daemon, Banish Daemon, and Conflagration spells. "
+msgstr ""
+
+#. , after "Explain the foci. "
+msgctxt "bark 058A:3A87"
+msgid "When you wish to enchant a focus, you merely place it at the center of a prepared pentacle, then concentrate your will upon the pentacle itself. "
+msgstr ""
+
+#. , after "What are reagents? "
+msgctxt "bark 058A:3B51"
+msgid "They are all things which the Lord of Flame provides for us, and they each are imbued with different capabilities. "
+msgstr ""
+
+#. , after "What are reagents? "
+msgctxt "bark 058A:3BD1"
+msgid "The simplest reagent is volcanic ash. Its purpose in Sorcery is to represent the spark that brings flame. "
+msgstr ""
+
+#. , after "What are reagents? "
+msgctxt "bark 058A:3C4D"
+msgid "Pumice is thrown far from the maw of the volcano, and has the property of giving distance to a spell. "
+msgstr ""
+
+#. , after "What are reagents? "
+msgctxt "bark 058A:3D06"
+msgid "Obsidian is a very enduring substance. It can be worn down, to fine grains of sand, but if melted it resumes its former properties. It grants duration to a spell. "
+msgstr ""
+
+#. , after "What are reagents? "
+msgctxt "bark 058A:3D90"
+msgid "Raw iron, or pig iron, is strong yet flexible to work with. It lends this protective nature to sorcerous endeavors. "
+msgstr ""
+
+#. , after "What are reagents? "
+msgctxt "bark 058A:3E35"
+msgid "Brimstone is a volatile substance, and confers this to Sorcerous enchantment in the form of raw power. Be careful in your use of this reagent. "
+msgstr ""
+
+#. , after "What are reagents? "
+msgctxt "bark 058A:3F21"
+msgid "Daemon bone, hard to aquire, and harder still to use. This, of course, is the reagent required to make spells dealing with the daemonic servants of Pyros. If you are not wary with its use, it will be your undoing. "
+msgstr ""
+
+#. , after "What are reagents? "
+msgctxt "bark 058A:3FD8"
+msgid "Reagents are placed about the candles to lend their particular properties to the spell. Other than proximity to the correct candle, their placement matters not. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:413E"
+msgid "I believe something you said was incorrectly spelled. I don't know why I know this. It was as if giant, blue letters had appeared, blazing across the sky. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:4323"
+msgid "Well done, Disciple! You are now ready to seek out the Master. Go to the Obsidian Fortress. The gates will no longer bar you. In my eyes you are now an Acolyte, only Master Malchir has the right to revoke this should you fail his tests. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:43D2"
+msgid "I am sorry, Acolyte. I have no time for conversation. My duties as First Acolyte preclude idle discussion. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:4464"
+msgid "Besides, I believe the Master still wishes to see you. Do not tarry overlong. Malchir is not known to be forgiving. "
+msgstr ""
+
+#. value of {varED}: "Yes, master. " | "Yes, mistress. "
+#. parameter value inserted into sentence templates
+msgctxt "param 058A:varED"
+msgid "Yes, master. "
+msgstr ""
+
+#. value of {varED}: "Yes, master. " | "Yes, mistress. "
+#. parameter value inserted into sentence templates
+msgctxt "param 058A:varED"
+msgid "Yes, mistress. "
+msgstr ""
+
+#. value of {varF1}: "Bane" | "Vardion"
+#. parameter value inserted into sentence templates
+msgctxt "param 058A:varF1"
+msgid "Bane"
+msgstr ""
+
+#. value of {varF1}: "Bane" | "Vardion"
+#. parameter value inserted into sentence templates
+msgctxt "param 058A:varF1"
+msgid "Vardion"
+msgstr ""

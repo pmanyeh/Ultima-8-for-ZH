@@ -1,0 +1,321 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# GRIMOIRE (usecode class 0120)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0120:00AF"
+msgid "template book"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:00DE"
+msgid "diary  "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:010E"
+msgid "journal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0142"
+msgid "cheesy book "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:018A"
+msgid "The History of Necromancy Vol.I "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:01D3"
+msgid "The History of Necromancy Vol.II "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:020D"
+msgid "On Sorcerous Ways "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0246"
+msgid "The Art of Flame "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0282"
+msgid "The Tongue of Flame "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:02BB"
+msgid "Ignite spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:02F8"
+msgid "Extinguish spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0330"
+msgid "Flash spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:036D"
+msgid "Flame Bolt spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:03AB"
+msgid "Endure Heat spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:03E9"
+msgid "Fire Shield spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:042B"
+msgid "Armor of Flames spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0469"
+msgid "Create Fire spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:04A5"
+msgid "Explosion spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:04E5"
+msgid "Summon Daemon spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0525"
+msgid "Banish Daemon spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0565"
+msgid "Conflagration spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:05AB"
+msgid "The Destruction of the Temple "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:05E1"
+msgid "Earthen Magic "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0614"
+msgid "Honor Lost "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0644"
+msgid "Journal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0677"
+msgid "Kith Venom "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:06A5"
+msgid "Rhian "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:06D4"
+msgid "Voices "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0704"
+msgid "The Eye "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0731"
+msgid "Book "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0767"
+msgid "the Grim Book "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:07A5"
+msgid "Journeys through Hell "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:07F2"
+msgid "Moriens: Necromancer, Prophet, Hero. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0823"
+msgid "Read me. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0854"
+msgid "Read me. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0885"
+msgid "Read me. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:08B6"
+msgid "Read me. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0907"
+msgid "Dispelling Myths: The Truth About Magic. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0944"
+msgid "Saga of Bone Crusher "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0980"
+msgid "Enemies of Tenebrae "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:09BE"
+msgid "What the Fish Tell Me "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:09F1"
+msgid "Divination "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0A27"
+msgid "Healing Touch "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0A5E"
+msgid "Aerial Servant "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0A8D"
+msgid "Reveal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0AC1"
+msgid "Restoration "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0AF9"
+msgid "Fade From Sight "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0B2A"
+msgid "Air Walk "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0B5D"
+msgid "Hear Truth "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0B92"
+msgid "Intervention "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0BC7"
+msgid "Resurrection "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0C0B"
+msgid "Journal of Veras the Healer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0C43"
+msgid "Confusion Blast "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0C79"
+msgid "Meteor Shower "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0CB1"
+msgid "Summon Creature "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0CEA"
+msgid "Call Destruction "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0D1E"
+msgid "Devastation "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0D56"
+msgid "Ethereal Travel "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0D96"
+msgid "Reagents of Thaumaturgy "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0DE2"
+msgid "The Mythology of the Zealan Deities "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0E1D"
+msgid "The Final Sunlight "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0120:0E3B"
+msgid "book "
+msgstr ""

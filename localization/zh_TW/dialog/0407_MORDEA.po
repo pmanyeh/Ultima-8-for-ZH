@@ -1,0 +1,365 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# MORDEA (usecode class 0407)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0407:00B2"
+msgid "Mordea the Tempest "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0407:00DB"
+msgid "Mordea"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0407:0106"
+msgid "Tempest "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0407:0128"
+msgid "woman "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0407:07DE"
+msgid "Playing with my food, eh? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0407:0855"
+msgid "You need to be taught some manners! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0407:0982"
+msgid "I saw you with that key! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0407:0A03"
+msgid "I saw you with that key! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0407:0B15"
+msgid "Do not touch that! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0407:0BB0"
+msgid "Beren! I am assaulted! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0407:0C72"
+msgid "You will pay for that! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0407:0D04"
+msgid "You will pay for that! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0407:0D8C"
+msgid "Imbecile! Do you wish to join Toran? Get out of my way! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0407:0DCA"
+msgid "Greetings! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0407:0DFF"
+msgid "Greetings, your Ladyship! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0407:0E67"
+msgid "Are you speaking to me? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0407"
+msgid "bye "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0407:0EC5"
+msgid "Oh, no. 'Tis you again... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0407:0F09"
+msgid "Greeting's again. "
+msgstr ""
+
+#. event 01 (use (talk))
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0407:0F42"
+msgid "How can I help you, {name}?"
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I am. "
+#. answer compared by the conversation code
+msgctxt "ask 0407"
+msgid "Yes, I am. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I am. "
+msgctxt "bark 0407:1035"
+msgid "Who are you that you dare address the Tempest? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I am. "
+msgctxt "ask 0407"
+msgid "Tell me of the Tempestry. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Tempestry. "
+msgctxt "bark 0407:1148"
+msgid "I know not your name nor your face. I think you are not from Tenebrae. Where are you from? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Tempestry. "
+msgctxt "ask 0407"
+msgid "I am from Tenebrae. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Tenebrae. "
+msgctxt "bark 0407:124E"
+msgid "You are a liar. I know all my subjects...and they know me. I will not tolerate such impudence. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tempest? " or "Tell me of the Tempestry. "
+#. answer compared by the conversation code
+msgctxt "ask 0407"
+msgid "Tempest? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tempest? " or "Tell me of the Tempestry. "
+msgctxt "bark 0407:133B"
+msgid "Know you not of the Tempestry and its great power? Perhaps, then you should like a taste of it. -When I feed you to the Lurker!- "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I speak with you? "
+#. answer compared by the conversation code
+msgctxt "ask 0407"
+msgid "May I speak with you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I speak with you? "
+msgctxt "bark 0407:13ED"
+msgid "I am not familiar with your name or your face. I think you are not from Tenebrae. Where are you from? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Britannia. "
+#. answer compared by the conversation code
+msgctxt "ask 0407"
+msgid "I am from Britannia. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Britannia. "
+msgctxt "bark 0407:154E"
+msgid "I've never heard of such a place. You are either a liar or a fool. You don't look smart enough to be a liar and I will not tolerate a fool. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+#. answer compared by the conversation code
+msgctxt "ask 0407"
+msgid "Who are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 0407:163B"
+msgid "Fool! I am the Lady Mordea, the Tempest of Tenebrae. You will use reverence when dealing with me in the future or I shall have you thrown to the Lurker! "
+msgstr ""
+
+#. event 01 (use (talk)), after "That is not your concern. "
+#. answer compared by the conversation code
+msgctxt "ask 0407"
+msgid "That is not your concern. "
+msgstr ""
+
+#. event 01 (use (talk)), after "That is not your concern. "
+msgctxt "bark 0407:16F0"
+msgid "Knave! Keep a civil tongue in your head or I shall have it cut out and fed to the fishes! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from far away. "
+#. answer compared by the conversation code
+msgctxt "ask 0407"
+msgid "I am from far away. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from far away. "
+msgctxt "bark 0407:1799"
+msgid "Do not toy with me, rogue. I will not tolerate such rudeness. Begone from my sight. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+#. answer compared by the conversation code
+msgctxt "ask 0407"
+msgid "I am from Earth. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:1889"
+msgid "Earth? What sort of nonsense is this? A place called Earth? There is no such place by that name. You are nothing more than a simpleminded fool. Begone. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:18DB"
+msgid "Waste not my time! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:1912"
+msgid "I have better things to do... "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:1936"
+msgid "Leave me now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:197E"
+msgid "Begone! I wish to be alone. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:1C82"
+msgid "What an ugly painting! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:1E27"
+msgid "Away from there! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:201F"
+msgid "Where's the butter? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:2057"
+msgid "Aramina, my cup is empty! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:208B"
+msgid "Who cooked this slop? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:20B8"
+msgid "Too much salt! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:20F0"
+msgid "The torax is undercooked! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:215D"
+msgid "Hey! People are starving here! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:2189"
+msgid "My plate is empty! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:21E7"
+msgid "I need a plate! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:221D"
+msgid "I can not eat off the table! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:2292"
+msgid "Off with his head! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:22CD"
+msgid "Feed them all to the Lurker! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:22FC"
+msgid "More executions! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:234F"
+msgid "Flog the peasants! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:23A7"
+msgid "More work for less pay! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:23F9"
+msgid "Double the taxes! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:244F"
+msgid "No more days of rest! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:24DC"
+msgid "You are correct! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:2506"
+msgid "Yes! Yes! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:253B"
+msgid "You are so generous! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:2570"
+msgid "I will attend to it! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:25A4"
+msgid "Yes, your Ladyship! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:25D1"
+msgid "Pure genius! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from Earth. "
+msgctxt "bark 0407:2605"
+msgid "I agree completely! "
+msgstr ""

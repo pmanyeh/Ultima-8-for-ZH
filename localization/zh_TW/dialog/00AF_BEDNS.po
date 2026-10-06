@@ -1,0 +1,61 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BEDNS (usecode class 00AF)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 00AF:0097"
+msgid "bed "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00AF:00EC"
+msgid "This is no time to rest! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00AF:0124"
+msgid "Rest for how many periods of time? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 00AF"
+msgid "5"
+msgstr ""
+
+#. event 01 (use (talk)), after "0"
+#. answer compared by the conversation code
+msgctxt "ask 00AF"
+msgid "0"
+msgstr ""
+
+#. event 01 (use (talk)), after "1"
+#. answer compared by the conversation code
+msgctxt "ask 00AF"
+msgid "1"
+msgstr ""
+
+#. event 01 (use (talk)), after "2"
+#. answer compared by the conversation code
+msgctxt "ask 00AF"
+msgid "2"
+msgstr ""
+
+#. event 01 (use (talk)), after "3"
+#. answer compared by the conversation code
+msgctxt "ask 00AF"
+msgid "3"
+msgstr ""
+
+#. event 01 (use (talk)), after "4"
+#. answer compared by the conversation code
+msgctxt "ask 00AF"
+msgid "4"
+msgstr ""

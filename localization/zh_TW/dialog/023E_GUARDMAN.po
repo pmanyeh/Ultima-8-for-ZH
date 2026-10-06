@@ -1,0 +1,173 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# GUARDMAN (usecode class 023E)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 023E:00AE"
+msgid "dead guardsman "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 023E:00D1"
+msgid "guardsman "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 023E:01EC"
+msgid "Guardsmen, to arms! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 023E:027C"
+msgid "Away! I will not speak with you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 023E:02AD"
+msgid "Guardsman! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 023E:0301"
+msgid "What can I do for you? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 023E:0336"
+msgid "How may I be of assistance? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 023E"
+msgid "Bye "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+#. answer compared by the conversation code
+msgctxt "ask 023E"
+msgid "Who are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 023E:0415"
+msgid "I am a guardsman in the service of our Tempest. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 023E:0447"
+msgid "Proud am I to to serve him. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 023E:0491"
+msgid "I am a guardsman in the service of her ladyship. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+#. answer compared by the conversation code
+msgctxt "ask 023E"
+msgid "What is your duty? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 023E:051F"
+msgid "My duty is to protect Tenebrae. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 023E:0586"
+msgid "I have sworn to die in defense of our city against any horde that should attact. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 023E:05EC"
+msgid "My duty is to insure the peace and tranquility of Tenebrea is not disturbed. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 023E:066A"
+msgid "My duty is to control the populus, to insure that the peace is kept for her ladyship. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 023E:06A9"
+msgid "Why are you asking so many questions? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 023E:06DF"
+msgid "Did Mordea send you to test me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 023E:072B"
+msgid "I'd best be about my duties... "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:07DC"
+msgid "Nice taling with you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:082B"
+msgid "In your travels take care you do not step on any ghouls. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:0878"
+msgid "Join me in a drink at Orlok's later if you stop by. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:08BE"
+msgid "Fine. I must get back to work. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:08E7"
+msgid "Stay out of trouble! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:0A73"
+msgid "No fighting around here! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:0A9B"
+msgid "Stop, or else! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:0B1D"
+msgid "Move along... "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:0B55"
+msgid "Stay out of trouble... "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:0B8A"
+msgid "Watch for undead... "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:0BC6"
+msgid "Curse these tight boots... "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 023E:0C23"
+msgid "Boy, this weapon gets heavy... "
+msgstr ""

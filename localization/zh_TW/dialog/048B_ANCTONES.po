@@ -1,0 +1,126 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# ANCTONES (usecode class 048B)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:02C8"
+msgid "Greetings, Avatar. We are aware of you and from where you come. We also know of what you seek. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0353"
+msgid "And we wish to help you. You must become your destiny. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0387"
+msgid "What is my destiny? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0452"
+msgid "That is not important now. Know that we wish to help you in your quest. Behind us lies the Tomb of Khumash-Gor. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0486"
+msgid "Who is Khumash-Gor? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:057E"
+msgid "Only the most fearsome warrior who ever lived. Eons ago he was a great chieftain to our worshippers, but now he lies forever entombed in honor of his valor! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:06A6"
+msgid "With him rests an artifact that is the key to tremendous power. It is made of Blackrock, a substance with which you have considerable familiarity. The small object is shaped much like a pyramid. But be warned... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:07A0"
+msgid "...for even in death, Khumash-Gor has kept the fighting spirit to which he held so tenaciously in life. He will not part readily with his possessions. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:083E"
+msgid "Good luck... Avatar. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0A81"
+msgid "Well done, mortal.  The item of Blackrock which you now possess is the first key to unlocking tremendous power within yourself. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0AAD"
+msgid "What power? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0B4A"
+msgid "Beyond Earth, Water, Air, and Fire, there is another element -- a fifth element. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0BCF"
+msgid "You have heard of it before. It is called Ether. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0C7F"
+msgid "And like the others, this element will assume a form of titanic proportions. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0D38"
+msgid "You are to be that Titan -- the Titan of Ether. We know that the power is within you. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0E56"
+msgid "But is up to -you- to have the courage to use this power. You must take the power from the other Titans. You must take their worshipers, just as our followers were ripped from\tour grasp. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:0FB3"
+msgid "Continue your quest for the powers of the other Titans, for that is the way to gain their followers. The greater the abilities you can accrue, the better chance you will have of weakening the other four and eventually standing with them as more than just an equal. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:1044"
+msgid "Go now to find the Titans called Stratos, Hydros, and Pyros. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:10ED"
+msgid "You shall find Hydros in her underground Temple. The other two dwell on the surface. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:110F"
+msgid "Farewell... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:1179"
+msgid "... and good haste... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:11E3"
+msgid "... in your conquest! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 048B:12A9"
+msgid "There is nothing more we can tell you until you have found the ancient artifact. "
+msgstr ""

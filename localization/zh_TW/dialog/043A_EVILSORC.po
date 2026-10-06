@@ -1,0 +1,26 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# EVILSORC (usecode class 043A)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 043A:00CE"
+msgid "dead Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 043A:00F0"
+msgid "Sorcerer "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 043A:0172"
+msgid "You will not steal my spell! I will kill you first! "
+msgstr ""

@@ -32,6 +32,14 @@ U7 中文化專案的作法是：以 Exult 工具把 Usecode 反組譯成 `.es` 
 - 理由：標準格式，`msgfmt`、Poedit 都能產生，Python `gettext` 可直接讀取驗證；引擎端只需要簡單的讀取程式，不需要 PO parser。
 - 引擎在載入時檢查所有 offset 與長度；結構錯誤時整個檔案不使用，個別錯誤條目（非 UTF-8、未知 context 等）則略過。
 
+## 補充：工具鏈與權威檔（Phase 10，2026-10-06）
+
+- 抽取 + 合併：`tools/catalog/u8catalog.py update <語言>` 產生 `localization/<語言>/dialog/CCCC_NAME.po`（394 個），保留既有譯文；英文改變的條目標為 fuzzy；不再出現的條目保留為 obsolete。結果是決定性的。
+- 檢查與統計：`check`、`stats`；說明見 `localization/README.md`。
+- **權威檔** `localization/<語言>/authority.tsv`（使用者要求）：人名、地名、物品、魔法、生物、稱號、組織的唯一譯名（`keep` = 保留英文、`approved` = 使用譯名）。`terms` 指令自動收集候選詞並保留手動欄位；`check` 依權威檔檢查譯文。
+- 新 context：`book` / `scroll` / `grave` / `plaque CCCC:IIII`（讀物 intrinsic 的呼叫點）。
+- MO 的 key：context + `\x04` + 英文，英文以遊戲的 CP437 編碼（PO 以 UTF-8 存放）。
+
 ## 理由
 
 - 語境：依 NPC 分檔並依流程排列，譯者看得到前後文。

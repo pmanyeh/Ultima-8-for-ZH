@@ -1,0 +1,73 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# GOLEM (usecode class 00D6)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 00D6:0099"
+msgid "golem "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 00D6"
+msgid "Nothing "
+msgstr ""
+
+#. event 01 (use (talk)), after "Move "
+#. answer compared by the conversation code
+msgctxt "ask 00D6"
+msgid "Move "
+msgstr ""
+
+#. event 01 (use (talk)), after "Move "
+msgctxt "bark 00D6:01DC"
+msgid "Ugh "
+msgstr ""
+
+#. event 01 (use (talk)), after "Open "
+#. answer compared by the conversation code
+msgctxt "ask 00D6"
+msgid "Open "
+msgstr ""
+
+#. event 01 (use (talk)), after "Follow "
+#. answer compared by the conversation code
+msgctxt "ask 00D6"
+msgid "Follow "
+msgstr ""
+
+#. event 01 (use (talk)), after "Attack "
+#. answer compared by the conversation code
+msgctxt "ask 00D6"
+msgid "Attack "
+msgstr ""
+
+#. event 01 (use (talk)), after "Leave "
+#. answer compared by the conversation code
+msgctxt "ask 00D6"
+msgid "Leave "
+msgstr ""
+
+#. event 01 (use (talk)), after "Grunt "
+#. answer compared by the conversation code
+msgctxt "ask 00D6"
+msgid "Grunt "
+msgstr ""
+
+#. event 01 (use (talk)), after "Grunt "
+msgctxt "bark 00D6:0397"
+msgid "Ugh "
+msgstr ""
+
+#. event 01 (use (talk)), after "Stop "
+#. answer compared by the conversation code
+msgctxt "ask 00D6"
+msgid "Stop "
+msgstr ""

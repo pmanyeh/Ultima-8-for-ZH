@@ -1,0 +1,56 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# POTION (usecode class 02FE)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 02FE:009A"
+msgid "potion "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 02FE:00E0"
+msgid "it's empty... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 02FE:0137"
+msgid "Augh! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 02FE:016E"
+msgid "I feel much better! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 02FE:01F0"
+msgid "I have regained power! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 02FE:023F"
+msgid "Yummm... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 02FE:02BC"
+msgid "I feel better! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 02FE:03A0"
+msgid "Zzzzz... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 02FE:05EF"
+msgid "I feel like fighting! "
+msgstr ""

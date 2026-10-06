@@ -1,0 +1,1148 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# KORICK (usecode class 0409)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0409:00AD"
+msgid "dead Korick "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0409:00DE"
+msgid "Korick the Smith "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0409:00FB"
+msgid "man "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0409:01C2"
+msgid "Stop! Thief! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0409:0363"
+msgid "Help me, Beren! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0409:038B"
+msgid "Town Sorcerer! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0409:04BF"
+msgid "Outstanding! I think that you find my armor to be the finest made. I have leggings, helmets, arm guards, and shields. Which would you prefer? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "ask 0409"
+msgid "Shield "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Leggings "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Leggings "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Leggings "
+msgctxt "bark 0409:05CA"
+msgid "Very good! My leggings sell for 12 obsidian coins per pair. I'm sure that you'll find that quite a bargain considering their unmatched quality. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Arm guards "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Arm guards "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Arm guards "
+msgctxt "bark 0409:062F"
+msgid "Fine, my arm guards are but eleven coins. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Shield "
+msgctxt "bark 0409:069E"
+msgid "So you are in need of a shield? Shields cost 12 Blacks. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Helmet "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Helmet "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Helmet "
+msgctxt "bark 0409:070D"
+msgid "Well, today shall be a good day! Helmets cost 13 coins. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Nothing, thank you. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "bark 0409:075E"
+msgid "As you wish. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "ask 0409"
+msgid "Never mind, thank you. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Here is the amount. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:0836"
+msgid "Thank you very much, my friend. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:08D4"
+msgid "Ahh, it seems that you do not have enough money. Please come back when you enough Obsidian. Remember, quality is worth a high price. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:096F"
+msgid "Well, it seems that you are carrying too much. Do not worry, I will hold this for you until you can carry it. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:09A8"
+msgid "I understand. Thank you anyway. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:0A63"
+msgid "Fine news! I am sure that you will appreciate the quality of my weapons. Would you be wanting a sabre, scimitar, mace, dagger, axe, or broadsword? "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "ask 0409"
+msgid "Broadsword "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Sabre "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Sabre "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Sabre "
+msgctxt "bark 0409:0B16"
+msgid "Very well, a sabre costs but 75 Obsidians. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Scimitar "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Scimitar "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Scimitar "
+msgctxt "bark 0409:0B81"
+msgid "A fine weapon. A scimiar will cost you 90 Blacks. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Mace "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Mace "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Mace "
+msgctxt "bark 0409:0C04"
+msgid "My, you must have some heavy work ahead of you. My maces are a mere 15 coins. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Dagger "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Dagger "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Dagger "
+msgctxt "bark 0409:0C79"
+msgid "Something to keep in your boot, eh? A dagger is  but 5 coins. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Axe "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Axe "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Axe "
+msgctxt "bark 0409:0CF4"
+msgid "Ahh, I mighty weapon for a mighty fellow. One good axe costs 25 coins. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Broadsword "
+msgctxt "bark 0409:0D9F"
+msgid "Very good. The broadsword is truly the most elegant and noble of weapons. My broadswords are but 125 Obsidians. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "bark 0409:0DF0"
+msgid "As you wish. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:0EC8"
+msgid "Thank you very much, my friend. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:0F66"
+msgid "Ahh, it seems that you do not have enough money. Please come back when you enough Obsidian. Remember, quality is worth a high price. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1001"
+msgid "Well, it seems that you are carrying too much. Do not worry, I will hold this for you until you can carry it. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:103A"
+msgid "I understand. Thank you anyway. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:120F"
+msgid "What can I get for you? "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:128A"
+msgid "There is nothing like a good day's work. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:12FF"
+msgid "I need to make a few more daggers. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:138A"
+msgid "Fine quality items, eh? "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:13F5"
+msgid "Hard work is good for the soul. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1453"
+msgid "Hmmm, I think that I got too much carbon in that last sword. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:14C4"
+msgid "It certainly gets hot in here. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:151C"
+msgid "Perhaps I will take a few days off and go to the country. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:159E"
+msgid "Perhaps I should try my hand at jewelry making. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:15FB"
+msgid "No, that work is far too delicate for me. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1651"
+msgid "Another day at the shop. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1694"
+msgid "Oh how I love the glow of hot metal. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1883"
+msgid "Oh, hello. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:18F4"
+msgid "At last, some peace and quiet. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1961"
+msgid "How I value my time alone. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:19EA"
+msgid "Are you following me? "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1A5D"
+msgid "Maybe I will stroll over to the valley. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1AAE"
+msgid "How good it is to be away from that noisy shop. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1B10"
+msgid "Ahh, fresh air. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1B55"
+msgid "I so love to walk at this time of day. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1BC7"
+msgid "What a lovely day for a stroll. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1C2F"
+msgid "Of course, -every- day is a lovely day for a stroll. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1DFA"
+msgid "Why are you in my bedroom? "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1E7E"
+msgid "I should probably eat something before I turn in. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1EED"
+msgid "Perhaps I should get a wife. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1F77"
+msgid "You are in my bedroom! "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:1FEE"
+msgid "I need to build a new room onto this house. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:2033"
+msgid "Perhaps I should get an apprentice. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:209E"
+msgid "This house is too small. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:20DD"
+msgid "I certainly did enjoy that walk. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:2144"
+msgid "I am rather thirsty. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:21A6"
+msgid "Yet, I would enjoy some company now and again. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:21D6"
+msgid "I had a long day. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0409:2204"
+msgid "I am exhausted. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0409:2269"
+msgid "Excuse me... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0409:2332"
+msgid "I do not wish to speak to you, my lord. I have many things that I must do and these things do not include you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0409:23C8"
+msgid "Now look, you, if you wish to come into -my- place, yau had better be more polite. Do you understand? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0409"
+msgid "Shove off, you windbag! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0409:242D"
+msgid "Fair greetin', mate. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0409"
+msgid "How are you, Korick? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0409"
+msgid "I'd like to buy something. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0409"
+msgid "Greetings to you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0409"
+msgid "Make me a focus. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Farewell "
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell "
+msgctxt "ask 0409"
+msgid "Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Greetings to you. "
+msgctxt "bark 0409:25F8"
+msgid "Well, a new face in town. I am Korick, the smith here in Tenebrae. Have you come to buy something? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'd like to buy something. "
+msgctxt "bark 0409:2734"
+msgid "I will be glad to sell you anything in my shop, but only when I am in it. Please stop by when I am there and I will be more than happy to help you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'd like to buy something. "
+msgctxt "bark 0409:27AC"
+msgid "Outstanding! Would you like to buy armor or weapons? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'd like to buy something. "
+msgctxt "ask 0409"
+msgid "Weapons. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Armor. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Armor. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I'm sorry. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Yes, I'm sorry. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I'm sorry. "
+msgctxt "bark 0409:28E4"
+msgid "Well, all is forgiven. I did not wish to be so gruff, but I will not tolerate rude behavior, even if it is unintended. So, what did you want to talk about? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I'm sorry. "
+msgctxt "ask 0409"
+msgid "Where I'm from. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where I'm from. "
+msgctxt "bark 0409:2A00"
+msgid "Oh aye, that is what we were talking about. Look, if you do not wish for me to know your whereabouts, just tell me so. You do not have to tell me some outlandish story. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where I'm from. "
+msgctxt "ask 0409"
+msgid "Somewhere far away. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'd rather not say. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "I'd rather not say. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'd rather not say. "
+msgctxt "bark 0409:2B31"
+msgid "That is fine. Perhaps you will trust me after we have come to know each other better. It is perhaps a fault of mine that I am quite trusting of too many people. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'd rather not say. "
+msgctxt "ask 0409"
+msgid "Why is trusting a fault? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why is trusting a fault? "
+msgctxt "bark 0409:2C58"
+msgid "Come now, we do not live in a perfect world. For all that I know you may be a dangerous person. But, I go on my instincts. And by nature I am a trusting fellow. "
+msgstr ""
+
+#. event 01 (use (talk)), after "A new face? "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "A new face? "
+msgstr ""
+
+#. event 01 (use (talk)), after "A new face? "
+msgctxt "bark 0409:2CEA"
+msgid "You are certainly not from Tenebrae. Are from the country? "
+msgstr ""
+
+#. event 01 (use (talk)), after "A new face? "
+msgctxt "ask 0409"
+msgid "Umm, the country. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Not from Tenebrae. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Not from Tenebrae. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Not from Tenebrae. "
+msgctxt "bark 0409:2DFE"
+msgid "I may not be wealthy and important but I do believe that I know everyone in town and everything about this town. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Not from Tenebrae. "
+msgctxt "ask 0409"
+msgid "You know everything about Tenebrae? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You know everything about Tenebrae? "
+msgctxt "bark 0409:2FEA"
+msgid "Oh yes. Over in on the East side, that's where all of the rich folk live. The library is also there. Of course Lady Mordea's palace occupies the central part of the city.  And here on the West side is where we common folk live. It has never been nice here but lately things have gotten worse. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You know everything about Tenebrae? "
+msgctxt "ask 0409"
+msgid "How have things gotten worse? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How have things gotten worse? "
+msgctxt "bark 0409:319A"
+msgid "Things have just deteriorated. There was a fire in the Northern part of the West side. The folks that lived there lost everything. Now they just wander the streets asking for handouts. The old man that lived there died in the fire. Folks say that he haunts the place now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are you, Korick? "
+msgctxt "bark 0409:328B"
+msgid "I am well and fine, my friend. I have actually accomplished quite a bit today. I must say that I feel truly blessed to have talented hands. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are you, Korick? "
+msgctxt "ask 0409"
+msgid "You've got talented hands? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What have you done? "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "What have you done? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What have you done? "
+msgctxt "bark 0409:342B"
+msgid "Oh nothing special. I have just had a productive day so far. I truly hate it when I have not had a productive day. If I do not accomplish something by the time I am ready to sleep, I feel that I have wasted a part of my life. We all must contribute, you know. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What have you done? "
+msgctxt "ask 0409"
+msgid "We must contribute? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You've got talented hands? "
+msgctxt "bark 0409:3574"
+msgid "I know that it sounds immodest to say such things but it -is- the truth. Besides, it was not I that created my talent. The creators made me as I am, skills and all. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You've got talented hands? "
+msgctxt "ask 0409"
+msgid "Your talent with metal? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Creators? What creators? "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Creators? What creators? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Creators? What creators? "
+msgctxt "bark 0409:36B3"
+msgid "Please, not so loud. Although I feel that I can freely discuss my beliefs now that Mordea is gone, I certainly do not want a Titan to hear me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Creators? What creators? "
+msgctxt "ask 0409"
+msgid "What are your beliefs? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Creators? What creators? "
+msgctxt "bark 0409:3787"
+msgid "Creators? I did not mention creators! You must have been mistaken my friend. I-I would never speak of such nonsense. Why, The Lady forbids such talk. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are your beliefs? "
+msgctxt "bark 0409:3889"
+msgid "I believe in the Ancient Ones, the Gods of Emotion. The Ancient Ones have been here far longer than these Titans who currently exist. And they will come again. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are your beliefs? "
+msgctxt "ask 0409"
+msgid "You believe in gods of emotion? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You believe in gods of emotion? "
+msgctxt "bark 0409:39D9"
+msgid "Yes, everyone tells me that I am crazy, but they will see. But please I do not wish to discuss this any further. As I said, I would not wish for a Titan to hear me speak of such things. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your talent with metal? "
+msgctxt "bark 0409:3A7B"
+msgid "Yes, I have always had a great talent in shaping metal. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I see that you like to work. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "I see that you like to work. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I see that you like to work. "
+msgctxt "bark 0409:3B6D"
+msgid "Oh yes, my father taught me that you must work hard in order to be respected. No one respects a lazy person who does not carry their load. "
+msgstr ""
+
+#. event 01 (use (talk)), after "We must contribute? "
+msgctxt "bark 0409:3CB1"
+msgid "Yes, we must all do our part in society. If we do not all pull our load, then others must take up the slack. When that happens, then unhappiness breeds and society will break down. Hard work keeps all of this from happening. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You're not wealthy? "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "You're not wealthy? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You're not wealthy? "
+msgctxt "bark 0409:3D64"
+msgid "That is very true. One will never get rich as a blacksmith but I've never wanted riches. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You're not wealthy? "
+msgctxt "ask 0409"
+msgid "You never wanted riches? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You never wanted riches? "
+msgctxt "bark 0409:3E80"
+msgid "I am simple man. I have enough to make my way in the world. My greatest satisfaction is a job well done and that is something that money can not buy. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You never wanted riches? "
+msgctxt "ask 0409"
+msgid "A job well done. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You have enough, eh? "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "You have enough, eh? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You have enough, eh? "
+msgctxt "bark 0409:3FD1"
+msgid "Absolutely! After a good day's work, I have a good meal, a tall tankard of ale and some good conversation. After that, I have a comfortable bed awaiting me. What more could a man want? "
+msgstr ""
+
+#. event 01 (use (talk)), after "A job well done. "
+msgctxt "bark 0409:40DE"
+msgid "For a true craftsman, his greatest joy is perfecting his craft. Men who take pride in what they make are becoming a dying breed. If you ask me, the world is changing for the worst. "
+msgstr ""
+
+#. event 01 (use (talk)), after "A job well done. "
+msgctxt "ask 0409"
+msgid "How is the world changing? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You perfect your craft? "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "You perfect your craft? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You perfect your craft? "
+msgctxt "bark 0409:4213"
+msgid "Well, one can never truly -perfect- one's craft. The best that a craftsman can hope to do is be a little better each time that he creates something. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How is the world changing? "
+msgctxt "bark 0409:42F6"
+msgid "It is true. People used to be very friendly to one another. Can you believe that not long ago I saw a cutpurse attack a lady? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How is the world changing? "
+msgctxt "ask 0409"
+msgid "People used to be friendly. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What's a cutpurse? "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "What's a cutpurse? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What's a cutpurse? "
+msgctxt "bark 0409:4457"
+msgid "Oh, sorry. You really aren't from here, are you. A cutpurse is someone who steals from people. Anyway, this dishonorable wretch actually attacked a lady! It was a good thing that I was there. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What's a cutpurse? "
+msgctxt "ask 0409"
+msgid "A good thing you were there? "
+msgstr ""
+
+#. event 01 (use (talk)), after "He attacked a lady? "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "He attacked a lady? "
+msgstr ""
+
+#. event 01 (use (talk)), after "He attacked a lady? "
+msgctxt "bark 0409:4522"
+msgid "Yes! A defenseless lady! Can you believe that? "
+msgstr ""
+
+#. event 01 (use (talk)), after "A good thing you were there? "
+msgctxt "bark 0409:45F6"
+msgid "Had I not been there, the thief would have gotten away with his crime. Fortunatly, I was there and thrashed him. "
+msgstr ""
+
+#. event 01 (use (talk)), after "A good thing you were there? "
+msgctxt "ask 0409"
+msgid "You thrashed him? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You thrashed him? "
+msgctxt "bark 0409:4752"
+msgid "I most certainly did. Beren, the town Sorcerer was nowhere to be found, so I took care of the man myself. I do believe that the wretch is still in jail too. Her Ladyship does not look well upon violence against ladies. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You thrashed him? "
+msgctxt "ask 0409"
+msgid "Her Ladyship... do you mean Mordea? "
+msgstr ""
+
+#. event 01 (use (talk)), after "In jail, huh? "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "In jail, huh? "
+msgstr ""
+
+#. event 01 (use (talk)), after "In jail, huh? "
+msgctxt "bark 0409:4840"
+msgid "Yes sir. I don't mean to brag but I am rather proud of myself for capturing such a man. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Her Ladyship... do you mean Mordea? "
+msgctxt "bark 0409:4920"
+msgid "Yes. It is odd being ruled by a lady but Mordea is not like most women. She is very strong, like a man, and does rule well. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Umm, the country. "
+msgctxt "bark 0409:49FB"
+msgid "The countryside can be so beautiful, particularly the valley. I would like to live there, but I must live in town. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Umm, the country. "
+msgctxt "ask 0409"
+msgid "Why must you live in town? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why must you live in town? "
+msgctxt "bark 0409:4B2D"
+msgid "Well, I could never ply my trade in the country now, could I? There's not enough people in the country in need of a smith to keep me in business. So, where are you from? "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Valley "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "The Valley "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Valley "
+msgctxt "bark 0409:4BDA"
+msgid "Strange, I've been there many times and I've never seen you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Valley "
+msgctxt "ask 0409"
+msgid "You've never seen me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Somewhere far away. "
+msgctxt "bark 0409:4C9A"
+msgid "Well, if you don't wish to tell me, I understand. Every man has got to have his secrets. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Many times "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Many times "
+msgstr ""
+
+#. event 01 (use (talk)), after "Many times "
+msgctxt "bark 0409:4E08"
+msgid "Yes, I have been there many, many times and the only people who have lived there for a very long time have been a herdsman and his wife. Frankly, I don't think that you're tellin' me the truth and I don't like that. I think that you'd better just leave here. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You've never seen me? "
+msgctxt "bark 0409:4EFC"
+msgid "No, never. I don't think that you're tellin' me the truth and I don't take to be lied to. I think that you'd just better leave my shop. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Martin's Meadow "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Martin's Meadow "
+msgstr ""
+
+#. event 01 (use (talk)), after "Martin's Meadow "
+msgctxt "bark 0409:5012"
+msgid "Martin's meadow? I've never heard of such a place. I think that you are lying to me and I don't have time to put up with that. I think that you ad better get goin'. "
+msgstr ""
+
+#. event 01 (use (talk)), after "None of your business. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "None of your business. "
+msgstr ""
+
+#. event 01 (use (talk)), after "None of your business. "
+msgctxt "bark 0409:50E5"
+msgid "Look, I do not have to put up with rude people in my shop. I am slow to anger but don't test me! "
+msgstr ""
+
+#. event 01 (use (talk)), after "None of your business. "
+msgctxt "ask 0409"
+msgid "You're slow to anger? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You're slow to anger? "
+msgctxt "bark 0409:51DC"
+msgid "I try to be understanding of others. Of course, when I lose my patience, I have ample means to vent my frustration. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You're slow to anger? "
+msgctxt "ask 0409"
+msgid "Understanding of others? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Understanding of others? "
+msgctxt "bark 0409:52CB"
+msgid "I do try to be understanding of others but I will not tolerate someone who is rude to me in my own shop. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell. "
+msgctxt "bark 0409:5334"
+msgid "Goodbye, my friend. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You know everyone? "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "You know everyone? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You know everyone? "
+msgctxt "bark 0409:545F"
+msgid "Indeed I do. Everyone needs a smith now and then, you know. Those who are too high born to come into my shop personally are well known by everyone in town. Everyone else comes in here sooner or later. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have need of your shop. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "I have need of your shop. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have need of your shop. "
+msgctxt "bark 0409:54F4"
+msgid "Do you? What sort of a commission do you have for me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have need of your shop. "
+msgctxt "ask 0409"
+msgid "Umm, commission? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Umm, commission? "
+msgctxt "bark 0409:55DA"
+msgid "Come now, friend, I don't work for free. If you want me to make something for you, You'll have to pay me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Umm, commission? "
+msgctxt "ask 0409"
+msgid "Sorry, forget about it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Sorry, forget about it. "
+msgctxt "bark 0409:5717"
+msgid "Very well, my strange friend, whatever you wish. If you change your mind please do come back. Now, if you will pardon me, I have work to do. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I want to make something in your shop. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "No, I want to make something in your shop. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I want to make something in your shop. "
+msgctxt "bark 0409:58C4"
+msgid "My friend, what I do here may look like menial labor to some but what I do do is a craft. Shaping metals is more than simply banging away on an anvil. What I do takes a great deal of skill and practice. You can not simply walk in here and and make something. You must have skill and practice. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I want to make something in your shop. "
+msgctxt "ask 0409"
+msgid "Look, this is very damned important! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Look, this is very damned important! "
+msgctxt "bark 0409:5A2E"
+msgid "No, you look! This is my shop and I will not be spoken to in such a manner by -anyone-! Do you understand me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Look, this is very damned important! "
+msgctxt "ask 0409"
+msgid "Out of my way, peasant. I'm busy! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Out of my way, peasant. I'm busy! "
+msgctxt "bark 0409:5B11"
+msgid "Not in -my- shop, you're not! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm sorry, Korick. I didn't mean to be so rude. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "I'm sorry, Korick. I didn't mean to be so rude. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm sorry, Korick. I didn't mean to be so rude. "
+msgctxt "bark 0409:5C4E"
+msgid "Your apology\tis accepted, my friend. There seems to be a great deal of pressure upon you. Would you like to talk about it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm sorry, Korick. I didn't mean to be so rude. "
+msgctxt "ask 0409"
+msgid "Yes, I would. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I would. "
+msgctxt "bark 0409:5D29"
+msgid "Good! Tell me what's wrong. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I would. "
+msgctxt "ask 0409"
+msgid "I'm trying to save my world from being destroyed by an evil being. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm trying to save my world from being destroyed by an evil being. "
+msgctxt "bark 0409:5EE8"
+msgid "I see. Look, whatever is bothering you is causing you more trouble than I can help you with. I suggest that you seek the Theurgists. I believe that they may be able to help you with your problems. Now if you will excuse me, I am busy. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Thanks, but I really need to make these items. "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "Thanks, but I really need to make these items. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Thanks, but I really need to make these items. "
+msgctxt "bark 0409:5FE8"
+msgid "Well, I am not accustomed to letting people use my shop. Have you ever forged metal before? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Thanks, but I really need to make these items. "
+msgctxt "ask 0409"
+msgid "Yes, I once forged a very mighty sword. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I once forged a very mighty sword. "
+msgctxt "bark 0409:6153"
+msgid "Even so, you could not be as practiced as I am. This is my living, you know. How about this, what do you say that we make these things together? Would you like to do that? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I once forged a very mighty sword. "
+msgctxt "ask 0409"
+msgid "No, thank you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, thank you. "
+msgctxt "bark 0409:6239"
+msgid "I see. It would seem that no compromise, no matter how generous will suit you. You may not use my shop. I am busy. Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "People used to be friendly. "
+msgctxt "bark 0409:633A"
+msgid "Oh, aye. Time was when a person had no fears from no one. Now days, folks got to be careful. I suppose that's all them executions've been about. "
+msgstr ""
+
+#. event 01 (use (talk)), after "People used to be friendly. "
+msgctxt "ask 0409"
+msgid "Executions? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Shove off, you windbag! "
+msgctxt "bark 0409:6410"
+msgid "Right, that is it! I will not suffer your presence for another moment! Away with you! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Executions? "
+msgctxt "bark 0409:654C"
+msgid "There's been quite a few of 'em of late. I suppose that The Lady has gotten plenty tired of scoundrels making life hard for the rest of us and is tryin' to put a stop to it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "bark 0409:6601"
+msgid "I would be glad to. Come by my shop between bloodwatch and daytide and I will make you one. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "bark 0409:66B9"
+msgid "Do you have a chunk of silver ore? I require one to forge the focus. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "bark 0409:6766"
+msgid "What! How do you expect me to forge you a silver focus if you don't bring me silver ore! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "bark 0409:67DA"
+msgid "Good, you have a piece of silver ore. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "bark 0409:680C"
+msgid "Which focus do you require? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "ask 0409"
+msgid "none "
+msgstr ""
+
+#. event 01 (use (talk)), after "none "
+msgctxt "bark 0409:6905"
+msgid "If you don't want a focus, don't ask me to make one! "
+msgstr ""
+
+#. event 01 (use (talk)), after "sextant "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "sextant "
+msgstr ""
+
+#. event 01 (use (talk)), after "pointing hand "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "pointing hand "
+msgstr ""
+
+#. event 01 (use (talk)), after "open hand "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "open hand "
+msgstr ""
+
+#. event 01 (use (talk)), after "bracer "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "bracer "
+msgstr ""
+
+#. event 01 (use (talk)), after "chain "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "chain "
+msgstr ""
+
+#. event 01 (use (talk)), after "fist "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "fist "
+msgstr ""
+
+#. event 01 (use (talk)), after "open eye "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "open eye "
+msgstr ""
+
+#. event 01 (use (talk)), after "closed eye "
+#. answer compared by the conversation code
+msgctxt "ask 0409"
+msgid "closed eye "
+msgstr ""
+
+#. event 01 (use (talk)), after "closed eye "
+msgctxt "bark 0409:6AFE"
+msgid "There, your focus is finished. Mighty fine craftsmanship, no? "
+msgstr ""
+
+#. event 01 (use (talk)), after "closed eye "
+msgctxt "bark 0409:6B61"
+msgid "If you don't want a focus, don't ask me to make one! "
+msgstr ""
+
+#. event 01 (use (talk)), after "closed eye "
+msgctxt "bark 0409:6BF6"
+msgid "What! You don't have the ore! I can't make you a focus unless you supply me with the proper materials! "
+msgstr ""

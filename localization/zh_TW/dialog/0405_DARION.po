@@ -1,0 +1,993 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# DARION (usecode class 0405)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0499"
+msgid "So, you are back. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:04E1"
+msgid "What do you want? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0521"
+msgid "Sword play is an art form. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0579"
+msgid "You have interrupted my practice! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:05B8"
+msgid "Hmmm, my parries need some work. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0688"
+msgid "No one can best me! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:06DE"
+msgid "My blade needs cleaning... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0754"
+msgid "Perhaps more drilling on attacks... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0792"
+msgid "My practice armor needs repair. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:07FC"
+msgid "What to do about Jenna. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:086A"
+msgid "I need a new sword... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0A7C"
+msgid "Good day to you. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0ACC"
+msgid "New around here, are you? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0B07"
+msgid "Need some assistance? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0B55"
+msgid "Stranger, are you lost? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0B9A"
+msgid "Nice day for a walk, is it not? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0C47"
+msgid "Curses, I think it is going to rain again! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0C9E"
+msgid "I could use a new weapon... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0D23"
+msgid "It is getting late... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0D63"
+msgid "It seems too quiet around here... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0DCF"
+msgid "What to do about Jenna... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0E0D"
+msgid "Oh well... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0E53"
+msgid "Maybe I'll go to the tavern for an ale. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0F3C"
+msgid "En guard! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:0F61"
+msgid "Watch this! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0405:118E"
+msgid "Yes, I do. I have leather armor called cuir-bouilli, leather leggings and boots, leather gloves and bracers, and a helm. Would you be interested in any of these? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "ask 0405"
+msgid "Nothing, thank you. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Cuirbolli. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Cuirbolli. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Cuirbolli. "
+msgctxt "bark 0405:1288"
+msgid "A fine choice. That'll cost you 6 blacks. Will you take it? "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Leather gloves and bracers. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Leather gloves and bracers. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Leather gloves and bracers. "
+msgctxt "bark 0405:1333"
+msgid "Ah, you won't be disappointed in the quality. The price is 5 bright stones. Do we have a deal? "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Leather leggings and boots. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Leather leggings and boots. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Leather leggings and boots. "
+msgctxt "bark 0405:13CE"
+msgid "Every warrior needs boots and leggings. A set of mine will cost you 10 stones. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Helmet. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Helmet. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Helmet. "
+msgctxt "bark 0405:1452"
+msgid "Just the thing for those long journeys. For 2 black stones it can be yours. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "bark 0405:1502"
+msgid "Well, you're turning down a good deal here, you know. Ah well, there is no accounting for taste, I suppose. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "bark 0405:154C"
+msgid "If you didn't want anything, why did you ask? "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "ask 0405"
+msgid "Never mind, thank you. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Here is the amount. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0405:162C"
+msgid "There you go. Thank you for your business. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0405:16BC"
+msgid "Ha ha, you may be strong, but you can't carry all that! Why don't I just keep this for you until you have room for it. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0405:174A"
+msgid "Hey, what are you trying to do here? Cheat me? Come back when you've got some real money to spend! "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0405:177F"
+msgid "Oh well, 'Tis your loss! "
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+msgctxt "bark 0405:17DB"
+msgid "Can't make your mind up? Well, just think on it a while. "
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+msgctxt "bark 0405:1819"
+msgid "You may strike first. "
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+msgctxt "bark 0405:1923"
+msgid "Time is up! "
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+msgctxt "bark 0405:198E"
+msgid "Come back when you need training again. "
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+msgctxt "bark 0405:19F4"
+msgid "I will not chase cowards! "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0405:1AE4"
+msgid "The late Captain of the Guard. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0405:1B26"
+msgid "Darion, Captain of the Guard "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0405:1B49"
+msgid "Darion"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0405:1B7B"
+msgid "Captain of the Guard "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0405:1B98"
+msgid "man "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0405:1BFD"
+msgid "You are blocking the way! Move! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0405:1C43"
+msgid "Oowwww... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0405:1C64"
+msgid "Argh... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0405:1C94"
+msgid "A moment, sir! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0405:1CB7"
+msgid "Hello there. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0405:1D35"
+msgid "What?! What do you want?! Can't you see this is an emergency situation?! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0405"
+msgid "An emergency situation? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0405:1DC6"
+msgid "I see you've come back. You've reconsidered about my daughter then, have you? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0405"
+msgid "Yes, I want to marry your daughter! "
+msgstr ""
+
+#. event 01 (use (talk))
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0405:1E78"
+msgid "Miserable weather and all, we're having, eh {name}."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0405"
+msgid "Yes, just terrible, Captain Darion. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0405:1EEC"
+msgid "Miserable weather and all we're having, eh? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0405"
+msgid "Yes, just terrible, Captian Darion. "
+msgstr ""
+
+#. event 01 (use (talk))
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0405:1F58"
+msgid "Good day to you, {name}."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0405:1F82"
+msgid "Good day to you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0405"
+msgid "Good morrow, Captain Darion. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0405:1FC9"
+msgid "Hail! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0405"
+msgid "Good day to you, Sir. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0405:20A8"
+msgid "And as you can see, I am a trainer. Since you appear to be in shape I could take you on as a student if you so desire. Only ask, and I will spar with you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0405"
+msgid "I need training. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0405"
+msgid "bye "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good day to you, Sir. "
+msgctxt "bark 0405:216E"
+msgid "And good day to you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I know your name? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "May I know your name? "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I know your name? "
+msgctxt "bark 0405:221F"
+msgid "I am Darion, the Arms Master and Captain of the Palace Guard here in Tenebrae. "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I know your name? "
+msgctxt "bark 0405:224A"
+msgid "And you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I know your name? "
+msgctxt "ask 0405"
+msgid "Who are the Palace Guards? "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I know your name? "
+msgctxt "ask 0405"
+msgid "."
+msgstr ""
+
+#. event 01 (use (talk)), after "May I know your name? "
+msgctxt "ask 0405"
+msgid "I heard a tale from Orlok. "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I know your name? "
+msgctxt "ask 0405"
+msgid "Do you sell armaments? "
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0405:2384"
+msgid "Well met, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0405:23FB"
+msgid "Freut mich, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0405:2473"
+msgid "Enchanté, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Good morrow, Captain Darion. " or "Yes, just terrible, Captain Darion. "
+msgctxt "bark 0405:2541"
+msgid "I don't know what we'll do if it gets much worse. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good morrow, Captain Darion. " or "Yes, just terrible, Captain Darion. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0405:2581"
+msgid "Good morrow to you, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Good morrow, Captain Darion. " or "Yes, just terrible, Captain Darion. "
+msgctxt "bark 0405:25AE"
+msgid "Good morrow to you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good morrow, Captain Darion. " or "Yes, just terrible, Captain Darion. "
+msgctxt "ask 0405"
+msgid "Tell me about Tenebrae. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good morrow, Captain Darion. " or "Yes, just terrible, Captain Darion. "
+msgctxt "ask 0405"
+msgid "What do you know about Salkind? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good morrow, Captain Darion. " or "Yes, just terrible, Captain Darion. "
+msgctxt "ask 0405"
+msgid "I met Bentic. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good morrow, Captain Darion. " or "Yes, just terrible, Captain Darion. "
+msgctxt "ask 0405"
+msgid "I met Kilandra. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good morrow, Captain Darion. " or "Yes, just terrible, Captain Darion. "
+msgctxt "ask 0405"
+msgid "I met your daughter, Jenna. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good morrow, Captain Darion. " or "Yes, just terrible, Captain Darion. "
+msgctxt "ask 0405"
+msgid "So Devon is now your Tempest. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good morrow, Captain Darion. " or "Yes, just terrible, Captain Darion. "
+msgctxt "ask 0405"
+msgid "I'm interested in your wares. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need training. "
+msgctxt "bark 0405:2876"
+msgid "I would be glad to have you as a student! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need training. "
+msgctxt "bark 0405:28E7"
+msgid "I charge 50 black stones per session, and I guarantee that you will get your moneys worth. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need training. "
+msgctxt "bark 0405:2920"
+msgid "Do you still wish to spar with me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need training. "
+msgctxt "bark 0405:298D"
+msgid "Draw your weapon and prepare for combat. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need training. "
+msgctxt "bark 0405:2A31"
+msgid "It looks like you do not have the money. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need training. "
+msgctxt "bark 0405:2A9B"
+msgid "I am sorry, but I do not give credit. Try me later when you can afford my services. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need training. "
+msgctxt "bark 0405:2B1F"
+msgid "Do not worry, I will look upon you as a coward for not accepting my offer. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do you sell armaments? " or "I'm interested in your wares. "
+msgctxt "bark 0405:2C18"
+msgid "My armaments are the finest available. Are you looking for something in particular? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I am. " or "What do you have? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Yes, I am. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I am. " or "What do you have? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "What do you have? "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I'm not. " or "No, sorry. " or "Nothing, thank you. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "No, I'm not. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I'm not. " or "No, sorry. " or "Nothing, thank you. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "No, sorry. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I'm not. " or "No, sorry. " or "Nothing, thank you. "
+msgctxt "bark 0405:2D6F"
+msgid "Ok, well, if you change your mind, let me know. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I'm not. " or "No, sorry. " or "Nothing, thank you. "
+msgctxt "bark 0405:2DB5"
+msgid "Have you reconsidered about Jenna, then? "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I'm not. " or "No, sorry. " or "Nothing, thank you. "
+msgctxt "ask 0405"
+msgid "Bye "
+msgstr ""
+
+#. event 01 (use (talk)), after "So Devon is now your Tempest. "
+msgctxt "bark 0405:2EBD"
+msgid "And make no mistake, I will serve him as I served Mordea. I am loyal to the Tempestry, I am. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I heard a tale from Orlok. "
+msgctxt "bark 0405:2F64"
+msgid "That is not unusual from him. He's got quite a few of them. "
+msgstr ""
+
+#. event 01 (use (talk)), after "This tale concerned a ghost. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "This tale concerned a ghost. "
+msgstr ""
+
+#. event 01 (use (talk)), after "This tale concerned a ghost. "
+msgctxt "bark 0405:31ED"
+msgid "Ghosts? In my town? Never!! Why If there were any ghosts seen here it would only be in the minds of those who had too much of Orlok's ale. I'll just bet he's been talking to those simple-minded herdsmen in the hills again. They are always spreading some crazy story around. Spend too much time with their torax, that's what I think. Ghosts? Pshaw! No such things ... and I'll mind you not to spread tales like that. Upsets the citizens of this town, it does. Now, if you'll excuse me."
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about the palace. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Tell me about the palace. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about the palace. "
+msgctxt "bark 0405:3291"
+msgid "The palace is the home of our Tempest, Devon. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about the palace. "
+msgctxt "bark 0405:32E2"
+msgid "The palace is the home of our Tempest, the Lady Mordea. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about Tenebrae. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0405:3440"
+msgid "Ah, Tenebrae, 'tis the finest gem in this fair land. I have served this city and her leaders since I was a mere lad, as an apprentice in the guard. I welcome you, {name}, to our fair city."
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about Tenebrae. "
+msgctxt "bark 0405:350D"
+msgid "Ah, Tenebrae, 'tis the finest gem in this fair land. I have served this city and her leaders since I was a mere lad, as an apprentice in the guard. I welcome you to our fair city. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Lady Mordea? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Who is Lady Mordea? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Lady Mordea? "
+msgctxt "bark 0405:35A3"
+msgid "The fair Tempest of our City. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are the Palace Guards? "
+msgctxt "bark 0405:36E4"
+msgid "The finest fighting regiment in the land. But there is not much call for defense anymore. We mostly spend our time in preserving the peace. That's not to say we wouldn't be ready if needed, though. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Ready for what? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Ready for what? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Ready for what? "
+msgctxt "bark 0405:37CC"
+msgid "Of course, you never know what those Necromancers are up to. And we do have our fine Tempest to defend. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You defend her? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "You defend her? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You defend her? "
+msgctxt "bark 0405:38DD"
+msgid "Of course, our Tempest is more than capable of defending herself. She has a portion of Hydros' power. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is the Tempest? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Who is the Tempest? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is the Tempest? "
+msgctxt "bark 0405:3A54"
+msgid "Why, she is the representative of that mightiest of Titans, Hydros. Hydros' visage is much too fearsome and powerful for the likes of you and I, so Lady Mordea serves as her representative. In exchange, Lady Mordea is able to wield some of the power from Hydros. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What power? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "What power? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What power? "
+msgctxt "bark 0405:3B70"
+msgid "Why do you think we have fair weather all the day? With her share of Hydros' power, Lady Mordea is able to control the weather. 'Tis a blessing, it is. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Hydros? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Who is Hydros? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Hydros? "
+msgctxt "bark 0405:3D1B"
+msgid "Keep a respectful tongue in your head when you speak that name, my friend. The Lurker is a force to be reckoned with. She is the power of all the waters. She can be as gentle as a spring rain or as powerful and terrible as a thundering waterfall. She is the mightiest of all the Titans. Well worth your respect and worship. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are the Necromancers? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Who are the Necromancers? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are the Necromancers? "
+msgctxt "bark 0405:3EA4"
+msgid "Filthy things, they live in the cemetery and muck about with dead bodies. They serve the Titan Lithos. 'Tis no wonder there are so few Necromancers left. Only those who grub for a paltry living from the mud and dirt have anything to do with Lithos and the Necromancers. Phaw! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only a few Necromancers? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Only a few Necromancers? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only a few Necromancers? "
+msgctxt "bark 0405:3FB7"
+msgid "I do not know exactly how many there are, but even one is one too many for my liking. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about the cemetery. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Tell me about the cemetery. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about the cemetery. "
+msgctxt "bark 0405:4149"
+msgid "That's where those filthy creatures keep their home. They like to be as near the dead as they can. If you ask me, I think they wait until late in the night and then dig up the bodies so they can do all manner of grotesque things to them. It churns my belly to think of it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "An emergency situation? "
+msgctxt "bark 0405:426A"
+msgid "By Hydros' spume, man! Can't you see? The dead are walking the streets! I have a town to protect! A Tempest to find! People to calm! I haven't time for gawkers! "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you know about Salkind? "
+msgctxt "bark 0405:432F"
+msgid "Hmmmmm, I don't know much about him, except he is always at the side of Lady Mordea. I'm not sure I trust him. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why don't you trust Salkind? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Why don't you trust Salkind? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why don't you trust Salkind? "
+msgctxt "bark 0405:44BA"
+msgid "Well, the Tempest has always ruled alone. This seneschal bit seems to go against our fine line of tradition here in Tenebrae. I'm not sure I agree, but then, Lady Mordea seems to like him, so I'll protect him as well as her. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I met your daughter, Jenna. "
+msgctxt "bark 0405:45A4"
+msgid "Ah, she is a beauty, isn't she? She is my pride and joy, you know. Why, she is the exact picture of her dear, departed mother. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What happened to her mother? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "What happened to her mother? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What happened to her mother? "
+msgctxt "bark 0405:477A"
+msgid "That is a sad tale. She was the love of my life. A beauty with long blonde hair and eyes as green as the Sea of Rains. She took with the fever shortly after dear Jenna was born. I did everything I could, but it was no use. She died in my arms and with her last breath whispered, 'I love you'. "
+msgstr ""
+
+#. event 01 (use (talk)), after "That is a tragic tale. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "That is a tragic tale. "
+msgstr ""
+
+#. event 01 (use (talk)), after "That is a tragic tale. "
+msgctxt "bark 0405:486F"
+msgid "I can only honor her with my memories, for there is no physical marker for her, no grave. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why is there no grave? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Why is there no grave? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why is there no grave? "
+msgctxt "bark 0405:49F9"
+msgid "There was a grave, there WAS one. But one day as I went to leave flowers on her stone, as was my want, I found the grave ripped open and the body missing. It could only be the work of those filthy Necromancers. It pains me still to think of it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She is beautiful. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "She is beautiful. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She is beautiful. "
+msgctxt "bark 0405:4BA9"
+msgid "That she is. Every man in town has asked for her hand, but I'm afraid there is too much of her father in her. I do wish she could find the right one, though. But it will take someone with a strength of character and a soundness of mind that you just don't find around here. Perhaps it will take someone... someone much like yourself, hmmmm? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 0405:4C93"
+msgid "Did I tell you that she can wield a sword as well as any man? Taught her myself. Right dangerous she is with that thing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 0405:4D27"
+msgid "Did I mention she can cook? She makes a fine pie, Yessir, makes my mouth water just thinking about it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 0405:4DA4"
+msgid "She keeps an immaculate house, she does. Why you could eat right off the floor. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 0405:4E20"
+msgid "She's a beauty, all right. A man would be right proud to have her by his side. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 0405:4EA6"
+msgid "Oh, and did I mention how much she loves children? Wants a house full of them, she does. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "ask 0405"
+msgid "GOODBYE! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I regret to tell you no. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "I regret to tell you no. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I regret to tell you no. "
+msgctxt "bark 0405:4F60"
+msgid "You're sure then? Did I mention that she is educated and can discuss many matters of interest quite well? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I want to marry your daughter! "
+msgctxt "bark 0405:5070"
+msgid "Oh that's wonderful! But, ummm...there is one little detail I forgot to mention, Oh but it's a little thing, it can wait till after the ceremony. Now, how soon do you want the ceremony? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What little detail? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "What little detail? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What little detail? "
+msgctxt "bark 0405:518D"
+msgid "Just a little something. Ummmm, well, it's really nothing. Ummm, has she mentioned whether or not she likes you, at all? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Oh, she likes me. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Oh, she likes me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Oh, she likes me. "
+msgctxt "bark 0405:526F"
+msgid "Oh that is wonderful. Perhaps that will avoid the problem then. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Oh, she likes me. "
+msgctxt "ask 0405"
+msgid "What problem? "
+msgstr ""
+
+#. event 01 (use (talk)), after "She is angry with me. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "She is angry with me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She is angry with me. "
+msgctxt "bark 0405:5337"
+msgid "Oh, that could be a problem. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What problem? "
+msgctxt "bark 0405:546C"
+msgid "Well, it's just that she, ahhh, has...well it's a little embarrassing, it seems she has sworn to kill any man chosen for her to marry...see, nothing really. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What ceremony? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "What ceremony? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What ceremony? "
+msgctxt "bark 0405:5512"
+msgid "Why the wedding ceremony, of course. I could arrange it for quite soon. "
+msgstr ""
+
+#. event 01 (use (talk)), after "GOODBYE! "
+msgctxt "bark 0405:55AC"
+msgid "Then that's settled. You'll think about it and get back to me with your answer. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I met Bentic. "
+msgctxt "bark 0405:5696"
+msgid "Ah yes, he was just executed...for conducting forbidden research, if I remember rightly. He was a good fellow, too bad he got involved in such shady dealings. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I met Bentic. "
+msgctxt "bark 0405:57AD"
+msgid "Bentic, now there's a good fellow. Always in his library, he is. Stays out of trouble. Too bad more of our citizens aren't more like that. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I met Bentic. "
+msgctxt "ask 0405"
+msgid "Orlok told a story of Bentic. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What shady dealings? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "What shady dealings? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What shady dealings? "
+msgctxt "bark 0405:58DC"
+msgid "Well, you know...just, shady ones. Ones that are forbidden by Lady Mordea. Ahem, I can't say anymore than that, you know, official policy and all. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Orlok told a story of Bentic. "
+msgctxt "bark 0405:5AA8"
+msgid "Of course he did, he's Orlok, after all and he does enjoy his story. Didn't tell you the one about the map on Bentic's chest, did he? Well, that's nothing but hogwash. I had cause to visit Bentic in his home one day. He was wearing a robe and showed his chest quite plainly. There was no map on it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do you know of Blowhard's treasure? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Do you know of Blowhard's treasure? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do you know of Blowhard's treasure? "
+msgctxt "bark 0405:5C26"
+msgid "So, come for treasure, have you? Well, you're not the first young man to come to me with that look in your eye. No sirree, in fact, were I a younger man, I might take it into my head to look, myself. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where would you look? "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Where would you look? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where would you look? "
+msgctxt "bark 0405:5F97"
+msgid "Well, when I was just a tyke, my father told me a story Much like one of Orlok's stories about John Blowhard. Only my father's story went this way. A bunch of trolls had taken up residence on an island. They raided neighboring villages and stole the children away to eat them. One night, the trolls came again and tried to steal the last child in the village. The child's mother was so enraged, she grabbed one of her knitting needles and killed the troll. Stratos was so impressed by this mother's defense, she turned the knitting needle into a magical sword. It is said this sword is hidden somewhere in the mountains outside Tenebrae, perhaps in Herdsman's valley. Were I looking for treasure, that's where'd I'd look."
+msgstr ""
+
+#. event 01 (use (talk)), after "I met Kilandra. "
+msgctxt "bark 0405:6014"
+msgid "She is a crazy old thing, isn't she? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Her tale is tragic. "
+#. answer compared by the conversation code
+msgctxt "ask 0405"
+msgid "Her tale is tragic. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Her tale is tragic. "
+msgctxt "bark 0405:6158"
+msgid "Oh, told you about her daughter, did she? Well, ever since that little girl died, she has not been the same. Never comes into town, never speaks to anyone. Rather pathetic, if you ask me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 0405:61AC"
+msgid "Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 0405:61ED"
+msgid "Stay out of trouble. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 0405:629E"
+msgid "uuuhhhhgggg... "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 0405:62C7"
+msgid "aahhhhrrrggg... "
+msgstr ""

@@ -1,0 +1,798 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# CYRRUS (usecode class 0416)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0416:00B1"
+msgid "the late Cyrrus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0416:00EE"
+msgid "Holy Cyrrus, the healer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0416:0114"
+msgid "Cyrrus"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0416:0139"
+msgid "monk "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0416:0156"
+msgid "man "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0416:03DA"
+msgid "Aid me, Stratos! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0579"
+msgid "What are you doing there...? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:06A8"
+msgid "I must meditate! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0726"
+msgid "I feel refreshed now! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:08B2"
+msgid "Why are you still here? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0915"
+msgid "Why are you here, stranger? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:094B"
+msgid "Please, I'd like my privacy. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:09C2"
+msgid "Are you here to rob me?! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:09F7"
+msgid "Please, I need to be alone. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0A6E"
+msgid "What are you doing here? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0AA6"
+msgid "May I help you with something? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0B35"
+msgid "I wonder if Torwin has supper plans? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0B62"
+msgid "Gee, I miss Torwin. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0B89"
+msgid "Hmmmm... "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0BDE"
+msgid "I need to return to my studies. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0C26"
+msgid "Perhaps I should travel home to Tenebrae. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0C7B"
+msgid "Then I could visit my true love, Jenna. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0CE0"
+msgid "Curse these shoes. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0D38"
+msgid "I should tend to the garden. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0D70"
+msgid "It is rather humid today. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:0FD4"
+msgid "Do you require my assistance? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:103C"
+msgid "What do you need here, stranger? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:106A"
+msgid "What do you require? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:10D7"
+msgid "Yes, stranger? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:10F5"
+msgid "Yes? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:117D"
+msgid "I need to speak to the others. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:11B1"
+msgid "I need to speak to Torwin. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:11D5"
+msgid "Mmmmm "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:120E"
+msgid "I'm feeling a bit peckish. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:124E"
+msgid "I should leave for Tenebrae soon. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:1281"
+msgid "Blast these bunions. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:12DB"
+msgid "I must remember to prune the garden. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:1307"
+msgid "Let me see... "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:1347"
+msgid "No, that's not it. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:1625"
+msgid "Are you lost? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:1683"
+msgid "Is it not lovely here? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:16BE"
+msgid "Do you want something, my friend? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:172D"
+msgid "Hello, stranger! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:175A"
+msgid "Do you need something? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:179B"
+msgid "This is lovely, but I do miss Tenebrae. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:180A"
+msgid "Are you in need? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:183B"
+msgid "I wish Jenna were here. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:18B8"
+msgid "I wish I were in Tenebrae. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:18DC"
+msgid "Ouch! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:1907"
+msgid "Curse these insects! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:195C"
+msgid "I should have brought my cloak. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:1991"
+msgid "Hummm, no birds today. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:19E5"
+msgid "The clouds are turning grey... "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0416:1A17"
+msgid "I think it's going to rain. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0416:1A5E"
+msgid "Pardon me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "Hello, Cyrrus. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "Hello. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "I need healing. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "Have you passed the Test of Wisdom? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "Is the Test of Centeredness difficult? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "I have passed the Tests of Wisdom and Centeredness. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "I passed the Third Test. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "I have passed the Third Test and have my Foci. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "Have you seen Torwin? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "I have heard the Mystic Voice. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "I found this ring. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "I have the Breath of Wind. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0416"
+msgid "Good day to you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "bye "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good day to you. "
+msgctxt "bark 0416:20A0"
+msgid "Welcome to our island. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good day to you. "
+msgctxt "ask 0416"
+msgid "What place is this? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello, Cyrrus. " or "Hello. "
+msgctxt "bark 0416:216D"
+msgid "Ah, hello my friend. I am pleased to see you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello, Cyrrus. " or "Hello. "
+msgctxt "ask 0416"
+msgid "Where are you from? "
+msgstr ""
+
+#. event 01 (use (talk)), after "By what are you called? "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "By what are you called? "
+msgstr ""
+
+#. event 01 (use (talk)), after "By what are you called? "
+msgctxt "bark 0416:2239"
+msgid "I am called Holy Cyrrus but please, just call me Cyrrus. "
+msgstr ""
+
+#. event 01 (use (talk)), after "By what are you called? "
+msgctxt "ask 0416"
+msgid "Holy Cyrrus? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have heard the Mystic Voice. "
+msgctxt "bark 0416:2333"
+msgid "That is marvelous! You must be very excited. It is too bad that Torwin could not be here to share in your triumph... "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need healing. "
+msgctxt "bark 0416:2406"
+msgid "I am sorry, but I do not have the strength to perform such a service. Come back later after I have rested. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need healing. "
+msgctxt "bark 0416:245C"
+msgid "That is certainly no problem. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need healing. "
+msgctxt "bark 0416:24B1"
+msgid "Please leave me now, I need to rest. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Have you passed the Test of Wisdom? "
+msgctxt "bark 0416:256D"
+msgid "For certes. It is only the first step on the road to Enlightenment. It was not easy by any means. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Have you passed the Test of Wisdom? "
+msgctxt "ask 0416"
+msgid "Where did you get the answers? "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Test of Centeredness was difficult? " or "Is the Test of Centeredness difficult? "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "The Test of Centeredness was difficult? "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Test of Centeredness was difficult? " or "Is the Test of Centeredness difficult? "
+msgctxt "bark 0416:2738"
+msgid "Difficult? It was nearly the death of me! I fell at least five times. Fortunately Stratos saw fit to keep me and not send me to my death over the steep side. But, you'll see for yourself when you get there! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the Tests of Wisdom and Centeredness. "
+msgctxt "bark 0416:28DD"
+msgid "You have? But you've just arrived on our island. I don't believe we've ever had anyone complete them this fast. Stratos will be so pleased with your accomplishments. Now you must find Stellos and begin on the next part of your journey. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the Third Test and have my Foci. "
+msgctxt "bark 0416:29A7"
+msgid "That is wonderful! You must be quite excited. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the Third Test and have my Foci. "
+msgctxt "bark 0416:2A35"
+msgid "I am sorry I can not celebrate with you, but a terrible thing has happened. Brother Xavier has lost one of his Foci. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the Third Test and have my Foci. "
+msgctxt "ask 0416"
+msgid "How did it happen? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How did it happen? "
+msgctxt "bark 0416:2B3C"
+msgid "It seems it was taken while he slept. I am sorry but I must be going. I have to help look for the missing Focus. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Have you seen Torwin? "
+msgctxt "bark 0416:2BC3"
+msgid "Why, no. And, may I add, what a cruel thing to ask! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Have you seen Torwin? "
+msgctxt "bark 0416:2BFF"
+msgid "No I have not. (yes I have) "
+msgstr ""
+
+#. event 01 (use (talk)), after "Have you seen Torwin? "
+msgctxt "ask 0416"
+msgid "Where is he? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Have you seen Torwin? "
+msgctxt "bark 0416:2C75"
+msgid "No, I haven't seen him all day. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is he? "
+msgctxt "bark 0416:2D33"
+msgid "I do not know. (He told me he was going to go to Windy Point today for something very important.) "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is he? "
+msgctxt "bark 0416:2D75"
+msgid "I do not know. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you covering up for him? "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "Why are you covering up for him? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you covering up for him? "
+msgctxt "bark 0416:2E73"
+msgid "I am not covering for him! (I think he is the one who took the Focus. I don't think he meant any harm by it, though. He is not a mean-spirited person) "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you covering up for him? "
+msgctxt "bark 0416:2EE9"
+msgid "Pardon me? I am not covering up for him. That would go against all the teachings of Stratos. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Holy Cyrrus? "
+msgctxt "bark 0416:2F96"
+msgid "That is the name given to me by Stellos. Everyone thinks it is a grand name. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Holy Cyrrus? "
+msgctxt "ask 0416"
+msgid "Everyone? "
+msgstr ""
+
+#. event 01 (use (talk)), after "It is a grand name. "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "It is a grand name. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It is a grand name. "
+msgctxt "bark 0416:3064"
+msgid "I am sure my father has bragged about it to everyone, including the torax! "
+msgstr ""
+
+#. event 01 (use (talk)), after "It is a grand name. "
+msgctxt "ask 0416"
+msgid "Your father is a herdsman? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Everyone? "
+msgctxt "bark 0416:311A"
+msgid "My mother and father, the others here... why, just everyone. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your father is a herdsman? "
+msgctxt "bark 0416:325A"
+msgid "Yes, and so I would be. It's birthing time back home. My favorite time of the year. Watching the beginning of a new life, helping that new life to stand... aahhh, it is one of greatest joys in my life. But that is all behind me now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where are you from? "
+msgctxt "bark 0416:3385"
+msgid "My home is in the hills of Tenebrae. Even Argent Rock with all its finery is but a pale shadow of the beauty of Tenebrae. The ocean, the hills, the people...I miss it so. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where are you from? "
+msgctxt "ask 0416"
+msgid "Why are you here? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you here? "
+msgctxt "bark 0416:35BB"
+msgid "It was discovered when I was quite young that I had a talent for healing. My mother and father were so proud. They told everyone about their brilliant child who was going to heal the world. Then my sister was injured by a kith. No matter how I tried, my meager skills were no match for her injury. She died and I vowed it would never happen again. I left home and made my way here. I've been here ever since. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You miss the people of Tenebrae? "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "You miss the people of Tenebrae? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You miss the people of Tenebrae? "
+msgctxt "bark 0416:371A"
+msgid "It has been my home since birth. I miss the people. Darion with all his bluff and bluster, used to carry candy in his pocket for me. Bentic tutored both Jenna and I when we were young. Oh, my beloved Jenna. I try not to think of her, it pains me so. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You miss the people of Tenebrae? "
+msgctxt "ask 0416"
+msgid "Tell me of Darion. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You miss the people of Tenebrae? "
+msgctxt "ask 0416"
+msgid "Bentic is dead. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You miss the people of Tenebrae? "
+msgctxt "ask 0416"
+msgid "Tell me of Bentic. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Bentic. "
+msgctxt "bark 0416:38AE"
+msgid "I miss him so. He is a kind and gentle man who's greatest loves in life are his books and his studies. He knows so much about so many things, he is fascinating to talk with. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Darion. "
+msgctxt "bark 0416:3A71"
+msgid "He talked of the day I would join the guard. I told him many times I would be a herdsman like my father. 'Nonsense,' he would say, 'you're cut out to be a guard, you have the spirit for it.' I don't know why, the guard never does anything but hang around the castle hoping Aramina will bring them a sweet from the Tempest's table! He is Jenna's father, you know. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Darion. "
+msgctxt "ask 0416"
+msgid "Jenna's father? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Jenna's father? "
+msgctxt "bark 0416:3B38"
+msgid "Yes, and in my fondest dreams, he was to be my father- in-law, for I love Jenna so. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bentic is dead. "
+msgctxt "bark 0416:3BE9"
+msgid "Oh no! Say it is not so! Oh dear! You bring me sad news of my home! Pray, how did this happen? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bentic is dead. "
+msgctxt "ask 0416"
+msgid "I know not "
+msgstr ""
+
+#. event 01 (use (talk)), after "I know not "
+msgctxt "bark 0416:3C9A"
+msgid "'Tis a sad day for me. Bentic was a dear friend. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Mordea had him executed. "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "Mordea had him executed. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Mordea had him executed. "
+msgctxt "bark 0416:3DAF"
+msgid "The Tempest? I knew she was a hard woman, but to execute someone as gentle and harmless as Bentic? What terrible thing did he do that would anger the Tempest so? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Mordea had him executed. "
+msgctxt "ask 0416"
+msgid "I do not know "
+msgstr ""
+
+#. event 01 (use (talk)), after "I do not know "
+msgctxt "bark 0416:3ECA"
+msgid "I cannot imagine what terrible wrong Bentic committed that would result in his death. He was a kind and good man. "
+msgstr ""
+
+#. event 01 (use (talk)), after "He conducted forbidden research. "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "He conducted forbidden research. "
+msgstr ""
+
+#. event 01 (use (talk)), after "He conducted forbidden research. "
+msgctxt "bark 0416:3FBF"
+msgid "Research was what Bentic loved most. Ah, 'tis a sad day when good folks are executed for doing something which they love and brings harm to no one. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Jenna. "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "Tell me of Jenna. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Jenna. "
+msgctxt "bark 0416:413A"
+msgid "Ah, you've met her, then. Isn't she a lovely creature? I have loved her from the moment I laid eyes on her. I always dreamed she would marry me and live with me in the hills, helping tend the torax. It is funny how things never work out like we expect. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Jenna. "
+msgctxt "bark 0416:41F0"
+msgid "She lives in Tenebrae. If you should travel there, stop in and see her. She is a lovely girl, so full of life. I would that I could marry her, but I cannot. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Jenna. "
+msgctxt "ask 0416"
+msgid "Why not marry her? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why not marry her? "
+msgctxt "bark 0416:43D1"
+msgid "Look around you, my friend. There are few enough of us here on Argent Rock. Rare are those with the talent it takes to touch the power of Stratos and use it to heal. I am one of those few. To help the people of this land I must sacrifice that which I most dearly desire...to marry my beloved Jenna and live a simple herdsman's life in the hills above Tenebrae. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What place is this? "
+msgctxt "bark 0416:4457"
+msgid "This is Argent Rock, home of the Theurgists. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What place is this? "
+msgctxt "ask 0416"
+msgid "Who are the Theurgists? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are the Theurgists? "
+msgctxt "bark 0416:452E"
+msgid "Why we are the disciples of Stratos, the Great Titan of Air. We are healers. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I passed the Third Test. "
+msgctxt "bark 0416:4633"
+msgid "I have heard. This is certainly a great occasion. Now you are ready to attempt the greatest feat of your life...to reach out and touch the power that is Stratos. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I passed the Third Test. "
+msgctxt "ask 0416"
+msgid "The greatest feat? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Touch Stratos' power? "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "Touch Stratos' power? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Touch Stratos' power? "
+msgctxt "bark 0416:4766"
+msgid "The power that gives us the ability to heal people. It is a thrilling moment when you first touch the Titan. Certainly nothing you will ever forget. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The greatest feat? "
+msgctxt "bark 0416:4800"
+msgid "You must go to Stellos. He will tell you how to reach Stratos. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have the Breath of Wind. "
+msgctxt "bark 0416:48C9"
+msgid "That explains it then. I felt a tremor in my link with Stratos, then it was broken. I am unable to heal. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have the Breath of Wind. "
+msgctxt "ask 0416"
+msgid "You are unable to heal? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You are unable to heal? "
+msgctxt "bark 0416:49F3"
+msgid "I hope that you use the Breath of Wind for a higher purpose, for it was taken at great sacrifice to the people of this land. It is a bitter sweet time for me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You are unable to heal? "
+msgctxt "ask 0416"
+msgid "Why bittersweet? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why bittersweet? "
+msgctxt "bark 0416:4BCC"
+msgid "For if my link with Stratos is permanently broken then I can never heal the sick and injured of this land again. This would be a tragic thing for the people, however, it also would release me of my vow to Stratos, leaving me free to return to Tenebrae and marry my beloved Jenna. So while I mourn for the people, I thank you for giving my love to me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Will you tell me the answers? "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "Will you tell me the answers? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Will you tell me the answers? "
+msgctxt "bark 0416:4CB6"
+msgid "Certainly not. That is an unthinkable thing. You must find the answers yourself as have all those seeking Enlightenment before you have. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where did you get the answers? "
+msgctxt "bark 0416:4E18"
+msgid "From the library. Oh, the hours I spent in there pouring over the old texts until the candle I was using was burned to a nub. Yes, those were difficult days. But not as difficult as the Test of Centeredness. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I found this ring. "
+msgctxt "bark 0416:4F7B"
+msgid "My goodness. That's Torwin's ring! Oh my, it belonged to his father. He showed it to everyone he met. Oh how terribly, terribly sad! You should take it to his mother. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I found this ring. "
+msgctxt "ask 0416"
+msgid "I don't think I will. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I shall. "
+#. answer compared by the conversation code
+msgctxt "ask 0416"
+msgid "I shall. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I shall. "
+msgctxt "bark 0416:5053"
+msgid "I know she will be very happy. It is a kind thing you do. Give her my regards, will you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't think I will. "
+msgctxt "bark 0416:511C"
+msgid "Perhaps you are right. The shock and sadness might be too much for her. Still, I think it would be best to return it to her. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Test of Centeredness was difficult? " or "Is the Test of Centeredness difficult? "
+msgctxt "bark 0416:5297"
+msgid "Difficult? It was nearly the death of me! I fell at least five times. Fortunately Stratos saw fit to keep me and not send me to my death over the steep side. But, you'll see for yourself when you get there! "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 0416:5329"
+msgid "Goodbye. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 0416:53C4"
+msgid "Why is this wide open? "
+msgstr ""

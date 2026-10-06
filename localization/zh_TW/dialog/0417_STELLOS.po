@@ -1,0 +1,824 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# STELLOS (usecode class 0417)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0417:00B5"
+msgid "the body of Stellos "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0417:00EB"
+msgid "Stellos the monk "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0417:0115"
+msgid "Stellos"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0417:013D"
+msgid "monk "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0417:015D"
+msgid "man "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0417:03AF"
+msgid "Stratos! Preserve me! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0514"
+msgid "What are you doing there...? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0705"
+msgid "Hello? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:078A"
+msgid "Can I help you? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:07EE"
+msgid "Who goes there? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0836"
+msgid "I can hear your footsteps! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:08C9"
+msgid "Do you require my assistance? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0908"
+msgid "Very well then... "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0969"
+msgid "Where is that Xavier? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0993"
+msgid "hmmmm... "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:09FE"
+msgid "No rest for the weary. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0A40"
+msgid "Brrrr! There is a chill in the air. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0AA0"
+msgid "Perhaps...? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0AED"
+msgid "No, I don't think so... "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0B34"
+msgid "Oh mighty Stratos, forgive my fragility. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0B67"
+msgid "Oh, my aching bones. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0C9F"
+msgid "I must meditate! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0D21"
+msgid "I feel refreshed now! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0E32"
+msgid "Can I help you? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0E88"
+msgid "Oh, well. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0EE3"
+msgid "Yes? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0F81"
+msgid "Who goes there? I feel your presence. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:0FEC"
+msgid "Speak! Who is there? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:109A"
+msgid "I must have a talk with the acolytes. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:10D3"
+msgid "I must have a talk with Torwin. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:10FA"
+msgid "hmmmm... "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:116D"
+msgid "The flowers smell sweet today. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:11A0"
+msgid "Where is that focus? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:11E5"
+msgid "Ahh, fresh air. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:1239"
+msgid "Oh, my bones feel tired today. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0417:12A8"
+msgid "Those noisy monks. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0417:1301"
+msgid "Pardon me, good sir. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0417:1337"
+msgid "Pardon me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0417:13D0"
+msgid "Welcome, my friend. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "bye "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0417:1425"
+msgid "Welcome, stranger. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "Tell me of the Test of Wisdom. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I have passed the Test of Wisdom. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "What do you know of the Test of Centeredness? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I have constructed my Foci. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I have completed the Third Test. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I have passed the third test. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I have met Torwin. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I have spoken with Brother Xavier. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I spoke with Holy Cyrrus. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "Poor Torwin. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I found this ring. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I passed the Test of Centeredness. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I need healing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello again, Stellos. "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "Hello again, Stellos. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello again, Stellos. "
+msgctxt "bark 0417:221E"
+msgid "It is good to hear your voice again, friend. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello again, Stellos. "
+msgctxt "ask 0417"
+msgid "What do you do? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need healing. "
+msgctxt "bark 0417:231B"
+msgid "I am sorry, but I do not have the strength to perform such a service. Come back later after I have rested. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need healing. "
+msgctxt "bark 0417:2365"
+msgid "That is certainly no problem. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need healing. "
+msgctxt "bark 0417:23BA"
+msgid "Please leave me now, I need to rest. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good day to you. "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "Good day to you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good day to you. "
+msgctxt "bark 0417:2437"
+msgid "And a good day to you, my friend. How may I help you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Good day to you. "
+msgctxt "ask 0417"
+msgid "By what are you called? "
+msgstr ""
+
+#. event 01 (use (talk)), after "By what are you called? "
+msgctxt "bark 0417:24EB"
+msgid "I am Stellos. I have lived here for many, many years. "
+msgstr ""
+
+#. event 01 (use (talk)), after "By what are you called? "
+msgctxt "ask 0417"
+msgid "How many years? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? "
+msgctxt "bark 0417:25B2"
+msgid "I am the leader of the Order of Enlightenment. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? "
+msgctxt "ask 0417"
+msgid "Order of Enlightenment "
+msgstr ""
+
+#. event 01 (use (talk)), after "Leader? "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "Leader? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Leader? "
+msgctxt "bark 0417:26B8"
+msgid "Well, it really isn't an official title. Most of the younger members come to me for guidance because I am the oldest member of the Order. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Order of Enlightenment "
+msgctxt "bark 0417:2752"
+msgid "That is the name of those of us who follow the Great Air Titan, Stratos. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How many years? "
+msgctxt "bark 0417:27FB"
+msgid "Through the grace of the Great Air Titan, Stratos, I have lived over 200 years. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How many years? "
+msgctxt "ask 0417"
+msgid "200 years! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Stratos? "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "Who is Stratos? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Stratos? "
+msgctxt "bark 0417:2937"
+msgid "Stratos is the greatest of the Titans, for it is through the power of Stratos that we of the Order gain our ability to heal the hurts of the world. However, this gift is not without cost. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Stratos? "
+msgctxt "ask 0417"
+msgid "What is the cost? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of healing. "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "Tell me of healing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of healing. "
+msgctxt "bark 0417:2AD5"
+msgid "The healing is done by using a Focus to channel the powers of Stratos to the patient. This is a delicate procedure for if the healer is not steady in his ability or disciplined in his art, he may reach too deeply into the power and destroy himself and the patient. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of healing. "
+msgctxt "ask 0417"
+msgid "I would like to learn to heal. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I would like to learn to heal. "
+msgctxt "bark 0417:2BCF"
+msgid "To do that you will have to join the Order. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I would like to learn to heal. "
+msgctxt "ask 0417"
+msgid "I am sorry, I cannot join your order. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Then I will join your order. "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "Then I will join your order. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Then I will join your order. "
+msgctxt "bark 0417:2DEE"
+msgid "The first steps to joining the Order of Enlightenment are to pass the Tests of Wisdom and Centeredness. Brother Xavier can tell you more. I suggest you seek him out. Of course, I encourage you to spend time speaking to -all- of the Theurgists here, for every member of our order is likely to have some wisdom which might help you reach enlightenment. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am sorry, I cannot join your order. "
+msgctxt "bark 0417:2F1A"
+msgid "I'm sorry you are not interested. Should you change your mind, Brother Xavier is the one to speak to in order to begin your journey down the path to Enlightenment. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is the cost? "
+msgctxt "bark 0417:2FDE"
+msgid "As you can see by the clouding in my eyes, I am blind. It is the price I pay for being able to serve Stratos so completely. "
+msgstr ""
+
+#. event 01 (use (talk)), after "200 years! "
+msgctxt "bark 0417:308A"
+msgid "It is a long time for anyone to live. Stratos must have need for me to keep me here so long. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the Test of Wisdom. "
+msgctxt "bark 0417:31B5"
+msgid "Your time studying was well spent then. Until you arrived, I was impressed with Torwin's speed, but we've never had a student succeed at the rate you are progressing. Stratos will be so pleased with you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the Test of Wisdom. "
+msgctxt "ask 0417"
+msgid "Stratos will be pleased? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Stratos will be pleased? "
+msgctxt "bark 0417:33C7"
+msgid "I commune daily with the Giver of Life. Recently she has been speaking of one who would come and be the greatest healer Argentrock Isle has ever seen. She described this great healer to me. When Torwin arrived here, I thought it was he she spoke of, but now I realize it is you. Oh, she has looked forward to your arrival and all the great things you will do as one of her healers! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I passed the Test of Centeredness. "
+msgctxt "bark 0417:3491"
+msgid "I am pleased you have come through it unharmed. So many times we have lost initiates to it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Test of Wisdom. "
+msgctxt "bark 0417:3586"
+msgid "Ah, so you have begun the road to Enlightenment. Stratos will be pleased. She sets great store by you. What do you wish to know? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Test of Wisdom. "
+msgctxt "ask 0417"
+msgid "Where can I find the answers? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me the answers, please. "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "Tell me the answers, please. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me the answers, please. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0417:36E4"
+msgid "It is forbidden for anyone to give away the answers to the Test of Wisdom. The answers you must find for yourself, {name}, for they must come from your heart."
+msgstr ""
+
+#. event 01 (use (talk)), after "Where can I find the answers? "
+msgctxt "bark 0417:3855"
+msgid "You must go to the library in the monastery. There you will find many old texts that discuss at great lengh the philosophy of Stratos. Read these and apply them to your own feelings. Only then will you find the right answers. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you know about the Test of Centeredness? "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "What do you know about the Test of Centeredness? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you know about the Test of Centeredness? "
+msgctxt "bark 0417:39EA"
+msgid "The Test of Centeredness is an important test as it tests your stamina and courage. Why even our most prized pupil, Torwin, took several tries before he managed to succeed. And he is one of the lucky ones. We've had many fall to their deaths. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the first two tests. "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "I have passed the first two tests. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the first two tests. "
+msgctxt "bark 0417:3B3B"
+msgid "Yes, I know. You have proven yourself worthy to wear the title Initiate. Now you are ready to begin learning the spells that Stratos grants us. However, before you do that, you must construct your Foci. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the first two tests. "
+msgctxt "ask 0417"
+msgid "How do I construct the Foci? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have completed the Third Test. "
+msgctxt "bark 0417:3C21"
+msgid "That is wonderful. Now you must construct your Foci. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How do I construct the Foci? "
+msgctxt "bark 0417:3DC4"
+msgid "The construction of the Foci is the most important task an Initiate in the Order of Enlightenment can undertake. The Foci are wrought of the finest silver, found only in the caverns under our monastery. These caverns are dark and fraught with fearsome creatures. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How do I construct the Foci? "
+msgctxt "bark 0417:3E48"
+msgid "Using this key, you will be able to open the door where the silver may be found. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How do I construct the Foci? "
+msgctxt "bark 0417:3EBE"
+msgid "I would give you the key to the mine, but I see that your hands are full. Maybe later. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How do I construct the Foci? "
+msgctxt "bark 0417:400F"
+msgid "Using the key I gave you earlier, you may use it to unlock the door to the mine. After you have removed enough silver ore to construct your focuses, please lock the door again. There are more than a few curious souls who have found that mine to be their final resting place, so please seal it when you are done. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How do I construct the Foci? "
+msgctxt "ask 0417"
+msgid "What do I do with the silver? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do I do with the silver? "
+msgctxt "bark 0417:41EB"
+msgid "You must take the silver to the blacksmith, Korick, in Tenebrae. Only he has the skill to forge the Foci. But these Foci will be without power. You must return here, place them upon the Altar of Focus in the monastary and call upon the name of Stratos. If you have met with her approval, she will fill them with her power. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are Foci? "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "What are Foci? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are Foci? "
+msgctxt "bark 0417:437C"
+msgid "A Focus is a talisman of great magical power. It is a channel. It allows the wielder to touch a small part of the great power of Stratos and use it for the specific purpose for which the Focus was designed such as healing. It is a powerful item, but in the hands of the inexperienced or weak, it can kill. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have constructed my Foci. "
+msgctxt "bark 0417:44AC"
+msgid "Very good. You are well on your way to becoming a full Adept. The next step is a test of all you have learned. You must return to the caverns under the monastery. You will know what to do when you arrive there. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the third test. "
+msgctxt "bark 0417:454D"
+msgid "That is a wonderful thing! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the third test. "
+msgctxt "bark 0417:45FD"
+msgid "That is a wonderful thing. However, you will have to excuse me. I do not have the time to further your education. We have had a terrible thing happen. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have passed the third test. "
+msgctxt "ask 0417"
+msgid "What has happened? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What has happened? "
+msgctxt "bark 0417:46AC"
+msgid "Brother Xavier has lost his Focus of healing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What has happened? "
+msgctxt "ask 0417"
+msgid "How did that happen? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How did that happen? "
+msgctxt "bark 0417:47EF"
+msgid "No one is sure. Poor Brother Xavier is beside himself with grief. It is very unlikely that an Adept would simply misplace something like that. Ah well, if he knows more, he is not telling me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How did that happen? "
+msgctxt "ask 0417"
+msgid "Do you think it was stolen? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do you think it was stolen? "
+msgctxt "bark 0417:49D0"
+msgid "It wounds me deeply to think that one of our own would stoop so low as to steal from another enlightened one. It goes against all of Stratos' teachings. But, she also teaches mercy and compassion, so if it was stolen by one of our own, I will not hold it against that person, but rather, will help him find the path of Enlightenment again. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have met Torwin. "
+msgctxt "bark 0417:4A60"
+msgid "I was saddened to learn of his tragedy. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have met Torwin. "
+msgctxt "bark 0417:4B2E"
+msgid "He is one of our newest Initiates. He has shown tremendous progress. Until you, he was the finest student we had ever trained. Recently he was been doing some interesting research. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have met Torwin. "
+msgctxt "ask 0417"
+msgid "One of your finest? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What research is Torwin doing? "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "What research is Torwin doing? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What research is Torwin doing? "
+msgctxt "bark 0417:4C8F"
+msgid "He has been looking into the possibility of combining Foci to increase their power. Although I don't believe there is much chance, I don't like to stifle creativity and individuality. "
+msgstr ""
+
+#. event 01 (use (talk)), after "One of your finest? "
+msgctxt "bark 0417:4DA7"
+msgid "Certainly. He finished the Test of Wisdom in record time. He also successfully completed the Test of Centeredness with virtually no mishaps. We have been very proud of him. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have spoken with Brother Xavier. "
+msgctxt "bark 0417:4E9F"
+msgid "He is such a fine man, and such a wonderful healer. His brusque manner has put some people off at times, but he really is a kind man at heart. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I spoke with Holy Cyrrus. "
+msgctxt "bark 0417:4FE7"
+msgid "Good Cyrrus. He is such a kind and gentle soul. In the beginning I was not sure he would be able to withstand the rigors of life here on Argentrock. But he has a core of iron, he does. He is truly a joy to work with. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Poor Torwin. "
+msgctxt "bark 0417:5153"
+msgid "Loss of life is always a tragedy, however, the loss of one so gifted is even a greater loss for those who will not receive his healing powers. However, I am glad the Focus was found. You have plainly shown yourself to be ready to pass the final test and become a full Adept. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Poor Torwin. "
+msgctxt "ask 0417"
+msgid "Final test? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Adept? "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "Adept? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Adept? "
+msgctxt "bark 0417:5222"
+msgid "Yes. When you become an Adept, you will have full use of all the spells Stratos gives her followers. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Final test? "
+msgctxt "bark 0417:533F"
+msgid "In the final test there are no creatures for you to fight, no riddles to answer nor problems to solve. There is simply you and your belief. You must rely upon your own ability and your faith in Stratos' power. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Final test? "
+msgctxt "ask 0417"
+msgid "How do I take this test? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How do I take this test? "
+msgctxt "bark 0417:5470"
+msgid "You must travel to Windy Point where you will find two black pillars. Stand between those pillars. If you truly wish to hear the Mystic Voice, you must then take a leap of faith. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have heard the Mystic Voice. "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "I have heard the Mystic Voice. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have heard the Mystic Voice. "
+msgctxt "bark 0417:5589"
+msgid "Then you are truly an Adept. Your work and dedication have made it possible for you to reach enlightenment in less time than it has taken any other. You have done quite well. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have heard the Mystic Voice. "
+msgctxt "ask 0417"
+msgid "What do you know of the Breath of Wind? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you know of the Breath of Wind? "
+msgctxt "bark 0417:56A2"
+msgid "Ah, the Breath of Wind is that through which Stratos gives her power to her chosen children. Why do you ask? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you know of the Breath of Wind? "
+msgctxt "ask 0417"
+msgid "I was just curious. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I was just curious. "
+msgctxt "bark 0417:57C0"
+msgid "Ah, it is good for a Child of Stratos to seek knowledge. Continue on the path and you will soon gain the wisdom you seek. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I must have it. "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "I must have it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I must have it. "
+msgctxt "bark 0417:58ED"
+msgid "Ah, I was afraid it would come to this. The Breath of Wind is found with Stratos. Although you will find it with Stratos, you cannot see it with only your eyes. There are many ways to see things. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have the Breath of Wind. "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "I have the Breath of Wind. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have the Breath of Wind. "
+msgctxt "bark 0417:5A0D"
+msgid "You are to be congratulated, for you have achieved that which no other has. You will have to excuse me, however, if I seem to lack some enthusiasm at your accomplishment. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have the Breath of Wind. "
+msgctxt "ask 0417"
+msgid "No other has done this? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you lacking enthusiasm? "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "Why are you lacking enthusiasm? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you lacking enthusiasm? "
+msgctxt "bark 0417:5AF8"
+msgid "Taking the Breath of Wind is not without repercussion. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you lacking enthusiasm? "
+msgctxt "ask 0417"
+msgid "What repercussions? "
+msgstr ""
+
+#. event 01 (use (talk)), after "No other has done this? "
+msgctxt "bark 0417:5BE0"
+msgid "Even I have not dared such a feat. You are truly one of unparalleled character and bravery. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What repercussions? "
+msgctxt "bark 0417:5D41"
+msgid "I understand you are doing what must be done, however, without the Breath of Wind to draw from, we of Argent Rock will be without our healing spells. So, I hope that you know what you do, for if you are in error, the entire population will suffer. As will I. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What repercussions? "
+msgctxt "ask 0417"
+msgid "Why will you suffer? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I found this ring. "
+msgctxt "bark 0417:5DD2"
+msgid "Here let me feel it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I found this ring. "
+msgctxt "bark 0417:5ED3"
+msgid "Ah, yes. This is Torwin's. It is not very valuable, but he was very proud of it. He said it belonged to his father. I am afraid it is all that is left of poor Torwin. This must be returned to his mother. You will return it, won't you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I found this ring. "
+msgctxt "ask 0417"
+msgid "No, I won't. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I will. "
+#. answer compared by the conversation code
+msgctxt "ask 0417"
+msgid "Yes, I will. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I will. "
+msgctxt "bark 0417:5F96"
+msgid "Ah, there is a good fellow. Stratos was right in trusting you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I won't. "
+msgctxt "bark 0417:6071"
+msgid "But you found it and were the last to see Torwin alive. It is your duty, nay, your honor to take it to his mother. Won't you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I won't. "
+msgctxt "ask 0417"
+msgid "I said no! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I said no! "
+msgctxt "bark 0417:6104"
+msgid "It seems then, that I've severly misjudged you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why will you suffer? "
+msgctxt "bark 0417:6287"
+msgid "It was with the power of Stratos that I was able to stay alive. Now that the link has been severed, I will no longer receive those blessings which prolong my life. Even now, I feel the years creeping up on me. I am afraid I can last no longer. Goodbye, my friend, use the power well, for it comes at great cost. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 0417:6369"
+msgid "May you be well. "
+msgstr ""

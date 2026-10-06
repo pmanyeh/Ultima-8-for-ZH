@@ -1,0 +1,75 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# LOGBOOK4 (usecode class 057E)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 057E:00E1"
+msgid "There will be only one Tempest! "
+msgstr ""
+
+msgctxt "bark 057E:010C"
+msgid "Then let it be so! "
+msgstr ""
+
+msgctxt "bark 057E:0157"
+msgid "Die, Devon! "
+msgstr ""
+
+msgctxt "bark 057E:038D"
+msgid "Your evil must end, Mordea! "
+msgstr ""
+
+msgctxt "bark 057E:04D6"
+msgid "I will kill you! "
+msgstr ""
+
+msgctxt "bark 057E:080C"
+msgid "May the Lurker welcome you... as she has your victims. "
+msgstr ""
+
+msgctxt "bark 057E:0847"
+msgid "Oh, my head! "
+msgstr ""
+
+msgctxt "bark 057E:0A85"
+msgid "Avatar! At long last Mordea's tyranical rule is over! "
+msgstr ""
+
+msgctxt "bark 057E:0AB9"
+msgid "Now, I must be the Tempest. "
+msgstr ""
+
+msgctxt "bark 057E:0B0B"
+msgid "I must use my powers to undo the evils of Mordea's reign. "
+msgstr ""
+
+msgctxt "bark 057E:0B5D"
+msgid "I make it my duty to bring prosperity to all of Tenebrae. "
+msgstr ""
+
+msgctxt "bark 057E:0BB7"
+msgid "Thanks to your efforts our fair city is free from her oppression. "
+msgstr ""
+
+msgctxt "bark 057E:0C27"
+msgid "Though I know your destiny lies elsewhere, you will always be welcome here in Tenebrae. "
+msgstr ""
+
+msgctxt "bark 057E:0CB3"
+msgid "Now I must leave. I need time away from Tenebrae to contemplate all of the recent events. "
+msgstr ""
+
+msgctxt "bark 057E:0D12"
+msgid "I will return when the time is right and take my place as the Tempest. "
+msgstr ""
+
+msgctxt "bark 057E:0D59"
+msgid "Goodbye, my friend. May our paths cross again. "
+msgstr ""

@@ -1,0 +1,56 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# METHOD (usecode class 057C)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. , after ""
+msgctxt "bark 057C:06D5"
+msgid "Bye bye!!!!! "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 057C:0CFF"
+msgid "Thought I heard someone... "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 057C:0D20"
+msgid "Oh well... "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 057C:0D43"
+msgid "Hello...? "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 057C:0D6E"
+msgid "Is someone there...? "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 057C:0F40"
+msgid "Thought I heard someone... "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 057C:0F61"
+msgid "Oh well... "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 057C:0F84"
+msgid "Hello...? "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 057C:0FAF"
+msgid "Is someone there...? "
+msgstr ""

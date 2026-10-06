@@ -1,0 +1,36 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# FOOD (usecode class 0219)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0219:00AB"
+msgid "fish "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0219:00D8"
+msgid "cooked fish "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0219:0104"
+msgid "Torax ribs "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0219:0137"
+msgid "cooked Torax ribs "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0219:0166"
+msgid "Mmmm... "
+msgstr ""

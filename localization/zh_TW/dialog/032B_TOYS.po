@@ -1,0 +1,36 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# TOYS (usecode class 032B)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 032B:00A7"
+msgid "doll "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 032B:00D4"
+msgid "doll "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 032B:0109"
+msgid "wooden torax "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 032B:013A"
+msgid "toy kith "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 032B:0170"
+msgid "stuffed torax "
+msgstr ""

@@ -1,0 +1,16 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# TOMB (usecode class 0485)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 07 (hatch)
+msgctxt "bark 0485:0177"
+msgid "Who is foolish enough to disturb the sanctity of Khumash-Gor? Come you seeking treasure? Well, it is death you have found! "
+msgstr ""

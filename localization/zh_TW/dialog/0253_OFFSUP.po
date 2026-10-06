@@ -1,0 +1,41 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# OFFSUP (usecode class 0253)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0253:00B6"
+msgid "quill pen "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0253:00E8"
+msgid "ink bottle "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0253:0114"
+msgid "seal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0253:0145"
+msgid "parchment "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0253:0174"
+msgid "balance scale "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0253:019D"
+msgid "office supplies "
+msgstr ""

@@ -1,0 +1,47 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# DAEMSPEL (usecode class 0589)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 0589:060D"
+msgid "Excellent. "
+msgstr ""
+
+msgctxt "bark 0589:06EC"
+msgid "Truly an excellent performance overall. You are worthy of the title Acolyte. Now, defend yourself from -my- daemon. Banish it and you will be ready for the Ritual of Flame. "
+msgstr ""
+
+msgctxt "bark 0589:0772"
+msgid "You have failed the third test, Disciple. Prepare to die. "
+msgstr ""
+
+msgctxt "bark 0589:07F3"
+msgid "I did not ask you to summon a daemon, Disciple. You have failed... prepare to die. "
+msgstr ""
+
+msgctxt "bark 0589:0F72"
+msgid "This is far better than I had hoped! If you will return to me my staff, we can begin the ceremony. Just put it anywhere, and be quick about it. "
+msgstr ""
+
+msgctxt "bark 0589:1035"
+msgid "Drop the staff. We must leave now, Acolyte. "
+msgstr ""
+
+msgctxt "bark 0589:10D1"
+msgid "I said drop it. This is your last warning, Acolyte. I do not need you so much that I will accept your insubordination. "
+msgstr ""
+
+msgctxt "bark 0589:116E"
+msgid "I see. You wish to test me. Well, I have passed or I have failed. But in either case, it won't matter to you. You will be dead! "
+msgstr ""
+
+msgctxt "bark 0589:120A"
+msgid "I did not ask you to banish a daemon, Disciple. You have failed... prepare to die. "
+msgstr ""

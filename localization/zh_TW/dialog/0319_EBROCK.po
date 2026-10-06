@@ -1,0 +1,36 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# EBROCK (usecode class 0319)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0319:00BA"
+msgid "glowing obelisk tip "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0319:00F2"
+msgid "glowing Heart of Earth "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0319:012C"
+msgid "glowing Tear of the Seas "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0319:0164"
+msgid "glowing Breath of Wind "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0319:019D"
+msgid "glowing Tongue of Flame "
+msgstr ""

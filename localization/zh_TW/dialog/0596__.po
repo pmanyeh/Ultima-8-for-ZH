@@ -1,0 +1,41 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# ? (usecode class 0596)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am at Programmer's Playland! by the docks of Tenebrae. near Fishermans Reef. at north of Tenebrae in the Valley. on the East Road outside of Tenebrae. on the Plateau. at the Daemon's Crag. at the Brimstone Cliffs. at the Lava River. at the Lava River. at Carthax Lake. at Treasure Cove. at Stone Cove. in the Obsidian Fortress. at Carthax Lake. at Carthax Lake. in the Hall of the Mountain King. on Argentrock Isle. in West Tenebrae. in central Tenebrae. in east Tenebrae. on the Plain of Fire. on the Plain of Water. on the Plain of Air. on the Plain of Earth. in the Upper Catacombs. in the Upper Catacombs. in the Upper Catacombs. in the Lower Catacombs. in the Pit of the Dead. in the Shrine of the Ancient Ones. totally lost! "
+msgstr ""
+
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0596:0B87"
+msgid "Also it reads that the hour is currently  Bloodwatch,  Firstebb,  Daytide,  Threemoons,  Lastebb,  Eventide,  very late,  the day is  Guarday,  Earthday,  Waterday,  Airday,  Fireday,  Blackday,  GuardDay, the {num} day of the month of Stonemark. Skyrock. Windbreak. Stormpeak. Firefall. DarkFlame. StoneMark. "
+msgstr ""
+
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0596:0BD9"
+msgid "I have been in Pagan for roughly {num} days."
+msgstr ""
+
+msgctxt "bark 0596:0E65"
+msgid "The animal must be closer! "
+msgstr ""
+
+msgctxt "bark 0596:1AAE"
+msgid "I am carrying too much! "
+msgstr ""
+
+msgctxt "bark 0596:1AF9"
+msgid "I have no backpack! "
+msgstr ""
+
+msgctxt "bark 0596:20E3"
+msgid "The animal must be closer! "
+msgstr ""

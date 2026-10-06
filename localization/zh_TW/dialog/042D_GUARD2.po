@@ -1,0 +1,159 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# GUARD2 (usecode class 042D)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 042D:00AE"
+msgid "dead guardsman "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 042D:00D1"
+msgid "guardsman "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 042D:01C4"
+msgid "Guardsman! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 042D:027D"
+msgid "The Titans are angry! Run to safety and pray for their mercy! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 042D:02FA"
+msgid "For the sake of Lithos, we are beset by the dead! Find shelter, stranger. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 042D:0344"
+msgid "What is it now? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 042D:0384"
+msgid "What do you want? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 042D:03B9"
+msgid "What! Again with questions! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 042D:03EE"
+msgid "What do you want, stranger? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 042D"
+msgid "Bye "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+#. answer compared by the conversation code
+msgctxt "ask 042D"
+msgid "Who are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 042D:04FF"
+msgid "My name is none of your concern. What -is- your concern is staying out of trouble. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+#. answer compared by the conversation code
+msgctxt "ask 042D"
+msgid "What is your duty? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 042D:05B4"
+msgid "My duty is to protect the Tempest, Devon, though I doubt he needs it with his powers. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 042D:065E"
+msgid "My duty is to protect her Ladyship, Mordea, though I doubt she needs it with her powers. You would have to be insane to think of assaulting her. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+#. answer compared by the conversation code
+msgctxt "ask 042D"
+msgid "Where am I? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:06C8"
+msgid "Try to listen this time! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:0701"
+msgid "You are in central Tenebrae. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:0769"
+msgid "This direction leads to the palace. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:07F6"
+msgid "Since you're new here I'd suggest you stay clear of it! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:0837"
+msgid "It is a quiet place without Mordea. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:08A6"
+msgid "You should head east or west, for the palace holds only trouble for the likes of you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:090F"
+msgid "To the East is where the rich folks live. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:098D"
+msgid "On that side is a library and a weapons trainer. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:09F6"
+msgid "And that is where all the poor sods live. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:0A7F"
+msgid "There is the smithy and a tavern in that direction as well. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:0B13"
+msgid "I must be getting back to duty, now. Mayhaps later we'll meet at the Shattered Skull. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 042D:0B89"
+msgid "Now, move along so I can return to duty. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 042D:0BD9"
+msgid "I go back to duty now. "
+msgstr ""

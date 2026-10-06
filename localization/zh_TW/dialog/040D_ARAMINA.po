@@ -1,0 +1,752 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# ARAMINA (usecode class 040D)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 040D:00B1"
+msgid "corpse of Aramina "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 040D:00E6"
+msgid "servant Aramina "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 040D:0110"
+msgid "Aramina"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 040D:013B"
+msgid "servant "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 040D:015C"
+msgid "girl "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 040D:036B"
+msgid "I would not do that if I were you! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:0424"
+msgid "Beren, help me! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:0450"
+msgid "Help me, Sorcerer! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:061F"
+msgid "May I help you? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:066E"
+msgid "Leave my home, stranger! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:06C0"
+msgid "Yes, my friend? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:070E"
+msgid "Why are you in my home? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:074E"
+msgid "Can I get you anything? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:07A8"
+msgid "I'm afraid I must ask you to leave. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:07EC"
+msgid "I'm warning you! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:0847"
+msgid "Are you lost, my friend? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:0871"
+msgid "Out of my house! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:08D0"
+msgid "You try my patience! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:096C"
+msgid "I must remember to get some butter. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:0993"
+msgid "hmmmm "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:09FF"
+msgid "No rest for the weary. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:0A3E"
+msgid "I must change the bed linens. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:0AA5"
+msgid "Oh, my poor back. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:0AFE"
+msgid "I just want to sit down for a moment. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:0B3B"
+msgid "I sure could use a day off. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040D:0B71"
+msgid "Oh, my aching bones. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 040D:11A3"
+msgid "AAhhhhhh! 'Tis another dead one! AAAAHHHHHHHHH! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 040D:124E"
+msgid "I'd love to stay and talk, but Devon needs me right now, and...well, you know. Talk to you later, Ta-ta! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 040D:12B1"
+msgid "I am sorry, but I can not talk to you now. I must attend to her ladyship. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 040D:1312"
+msgid "Find me later at my house in east Tenebrae, I will be there at bloodwatch. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 040D:136A"
+msgid "How may I serve you, stranger? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 040D"
+msgid "bye "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 040D:13C6"
+msgid "Good morrow to you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 040D"
+msgid "What do you know of treasure? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 040D:147A"
+msgid "Good day to you, stranger. "
+msgstr ""
+
+#. event 01 (use (talk))
+#. sentence template: keep the {placeholders}
+msgctxt "bark 040D:14DE"
+msgid "'Tis a grand day, friend {name}."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 040D"
+msgid "I'm looking for a dagger. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 040D"
+msgid "What miserable weather this is. "
+msgstr ""
+
+#. event 01 (use (talk)), after "By what are you called? "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "By what are you called? "
+msgstr ""
+
+#. event 01 (use (talk)), after "By what are you called? "
+msgctxt "bark 040D:1689"
+msgid "Forgive me for not introducing myself earlier. My name is Aramina. "
+msgstr ""
+
+#. event 01 (use (talk)), after "By what are you called? "
+msgctxt "bark 040D:16B6"
+msgid "My name is Aramina. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do here? "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "What do you do here? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do here? "
+msgctxt "bark 040D:1772"
+msgid "I am merely a servant here. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do here? "
+msgctxt "ask 040D"
+msgid "Tell me about the palace. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about the palace. "
+msgctxt "bark 040D:182D"
+msgid "This is the home of our Tempest, the Lady Mordea. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about the palace. "
+msgctxt "ask 040D"
+msgid "Tell me of Lady Mordea. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Lady Mordea. "
+msgctxt "bark 040D:1925"
+msgid "Well, it is not good for me to speak of my employer behind her back, but I will tell you she is a hard woman. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Lady Mordea. "
+msgctxt "ask 040D"
+msgid "Why do you say she is hard? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why do you say she is hard? "
+msgctxt "bark 040D:1A73"
+msgid "She will stop at nothing to preserve her power here. Nothing, not even murder. She hardly notices my existence. At least she does not take pleasure in tormenting me like her seneschal does. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why do you say she is hard? "
+msgctxt "ask 040D"
+msgid "Tell me of the seneschal. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Murder? "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "Murder? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Murder? "
+msgctxt "bark 040D:1B74"
+msgid "Murder? Did I say murder? Oh no, I meant nothing like that. I meant mother, that's it, mother. She is like a mother to her people. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Murder? "
+msgctxt "bark 040D:1C21"
+msgid "(I think she trumps up charges against people who question her authority and then uses the laws of execution to eliminate them...legal murder.) "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the seneschal. "
+msgctxt "bark 040D:1CCE"
+msgid "Salkind is her  seneschal. (Salkind, that evil, perverted man, is her seneschal.) "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the seneschal. "
+msgctxt "bark 040D:1D01"
+msgid "Salkind is her seneschal. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the seneschal. "
+msgctxt "ask 040D"
+msgid "Tell me of Salkind. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She wishes to preserve power? "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "She wishes to preserve power? "
+msgstr ""
+
+#. event 01 (use (talk)), after "She wishes to preserve power? "
+msgctxt "bark 040D:1DF2"
+msgid "The power of the Tempestry, milord. The power to control the weather. This is, indeed, great power. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She wishes to preserve power? "
+msgctxt "ask 040D"
+msgid "Tell me of the Tempestry. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Tempestry. "
+msgctxt "bark 040D:1EFF"
+msgid "Tempestry, milord? Surely you have heard of it. It is the power that is transferred through the bloodline of the Tempests. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Tempestry. "
+msgctxt "ask 040D"
+msgid "What power is transferred? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you mean by 'bloodline'? "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "What do you mean by 'bloodline'? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you mean by 'bloodline'? "
+msgctxt "bark 040D:1FEB"
+msgid "It is inherited, father to son, mother to daughter. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What power is transferred? "
+msgctxt "bark 040D:20E9"
+msgid "As I said, milord, the power to control the weather. While at times, a good thing, it can be a powerful weapon to hold over the people's heads. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What power is transferred? "
+msgctxt "ask 040D"
+msgid "She holds it over her people's heads? "
+msgstr ""
+
+#. event 01 (use (talk)), after "She holds it over her people's heads? "
+msgctxt "bark 040D:229D"
+msgid "I mean...I mean it is a powerful tool to help the people's herds... of torax, that is. (Yes, she threatens to make the weather bad, or worse yet, send them to the Lurker, if they don't do her bidding.) Please, ask me no more. I am afraid Salkind will punish me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She holds it over her people's heads? "
+msgctxt "bark 040D:234A"
+msgid "I mean...I mean it is a powerful tool to help the people's herds.... of torax, that is. Please, ask me no more. I am afraid Salkind will punish me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She holds it over her people's heads? "
+msgctxt "ask 040D"
+msgid "Salkind punishes you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Salkind punishes you? "
+msgctxt "bark 040D:24B7"
+msgid "Punished? No, no, not punished...er, pampered, yes, that's it, pampered by... Salkind. (He is a horrid man who delights in tormenting me. He says lewd things and puts his hands on me. There is nothing I can do.) "
+msgstr ""
+
+#. event 01 (use (talk)), after "Salkind punishes you? "
+msgctxt "bark 040D:2553"
+msgid "Punished? No, no, not punished... er,pampered, yes that's it, pampered by...Salkind. Please, friend, I do not wish to speak of it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Salkind. "
+msgctxt "bark 040D:2616"
+msgid "He sets me to difficult tasks, then delights in tormenting me until I am barely able to complete them. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Salkind. "
+msgctxt "ask 040D"
+msgid "How does he torment you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What difficult tasks does he give you? "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "What difficult tasks does he give you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What difficult tasks does he give you? "
+msgctxt "bark 040D:2843"
+msgid "No, no, certainly not difficult, rather, challenging, That's it, he gives me challenging tasks. For instance, he will give me a very small brush and tell me to clean the floor of his room. Then he will arrive, his boots muddy from his walks along the shore, and track mud all over the floor I just cleaned. He then points the dirt out to me and chastises me for poor work, calling me a no good slackard. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How does he torment you? "
+msgctxt "bark 040D:299F"
+msgid "Perhaps 'torment' is too strong a word. Actually, he is quite the joker. For instance, just today he was walking down the hall toward me when he suddenly cornered me and began to pinch and grab my body. Don't you think that is funny? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How does he torment you? "
+msgctxt "ask 040D"
+msgid "no "
+msgstr ""
+
+#. event 01 (use (talk)), after "yes "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "yes "
+msgstr ""
+
+#. event 01 (use (talk)), after "yes "
+msgctxt "bark 040D:2A59"
+msgid "Oh,...well...I guess perhaps some find it humorous. I must be back to my chores now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "no "
+msgctxt "bark 040D:2B3E"
+msgid "No? Really? Truly, I didn't find it very humorous either. But he finds it hilarious. So, I smile and try my best to stay out of his way. There is precious little I can do. "
+msgstr ""
+
+#. event 01 (use (talk)), after "no "
+msgctxt "ask 040D"
+msgid "Slap him! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Speak up about it! "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "Speak up about it! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Speak up about it! "
+msgctxt "bark 040D:2C98"
+msgid "Oh, you are very nice, and I appreciate your concern, however, who would I speak to? Lady Mordea? No, she dotes on him. Darion? He simply would not believe me. No, my friend, I need this job. Speaking of keeping my job, I need to get back to work. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Slap him! "
+msgctxt "bark 040D:2DCD"
+msgid "No, my friend, I have no desire to lose my job nor my head, for to strike the seneschal would be considered treason. I would be beheaded before the next morning. Well, I must get back to work now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It is good to see you smile, Aramina. "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "It is good to see you smile, Aramina. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It is good to see you smile, Aramina. "
+msgctxt "bark 040D:2E95"
+msgid "I have you to thank for it. You did save Devon, didn't you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "It is good to see you smile, Aramina. "
+msgctxt "ask 040D"
+msgid "Well, it was nothing, really. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "What is your name? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 040D:2F7C"
+msgid "I am Aramina, my friend. I work here in the palace for Devon. You're {name}, aren't you? Devon speaks of you often."
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "bark 040D:2FFB"
+msgid "Yes, I knew it was you. Did you really save him?"
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I did. " or "Well, it was nothing, really. "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "Yes, I did. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I did. " or "Well, it was nothing, really. "
+msgctxt "bark 040D:30DC"
+msgid "Oh, I can't thank you enough. He is so... so... well, just dreamy. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I did. " or "Well, it was nothing, really. "
+msgctxt "ask 040D"
+msgid "Did you say ... 'dreamy'? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Did you say ... 'dreamy'? "
+msgctxt "bark 040D:3292"
+msgid "Uh huh. He is the nicest man. He never torments me like that nasty old Salkind did. Why he even asked me to eat supper with him the other night ... in the dining room no less. Then we went for a walk outside and he picked a flower for me...ME! a simple servant girl...did you ever hear of anything so romantic? I just can't get over it ... "
+msgstr ""
+
+#. event 01 (use (talk)), after "Did you say ... 'dreamy'? "
+msgctxt "ask 040D"
+msgid "Uhm, ... I've got to leave now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Uhm, ... I've got to leave now. "
+msgctxt "bark 040D:3373"
+msgid "...and those eyes. Did you ever see eyes like that? They're just so blue, I could get lost in them. I tell you ... "
+msgstr ""
+
+#. event 01 (use (talk)), after "Have you met Devon? "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "Have you met Devon? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Have you met Devon? "
+msgctxt "bark 040D:340F"
+msgid "Devon? Well, I know him but I've never actually met him. But I think I'd like to. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Have you met Devon? "
+msgctxt "ask 040D"
+msgid "You know of him? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You'd like to meet him? "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "You'd like to meet him? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You'd like to meet him? "
+msgctxt "bark 040D:34FD"
+msgid "Once, when I was sent to the store to purchase something for Lady Mordea, he was there. I thought he had the nicest smile. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You know of him? "
+msgctxt "bark 040D:35A0"
+msgid "I've seen him and I know his name. I rarely get to meet anyone outside. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You know of him? "
+msgctxt "ask 040D"
+msgid "I know Devon. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I know Devon. "
+msgctxt "bark 040D:36D9"
+msgid "You do? Oh, is he as nice as he looks? He has such a nice smile. And his eyes, they're blue aren't they? I really think he's handsome. Do you think that you might mention me to him next time you see him? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I know Devon. "
+msgctxt "ask 040D"
+msgid "I'm sorry, I can not. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Of course I will. "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "Of course I will. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Of course I will. "
+msgctxt "bark 040D:3783"
+msgid "That is very thoughtful of you. Now, I must get back to work. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm sorry, I can not. "
+msgctxt "bark 040D:38CE"
+msgid "Oh ... well, I guess I understand, me being a lowly servant and all. He probably wouldn't be interested in me anyway. I'm just a silly girl for even dreaming it. Now, if you'll excuse me, sir, I must get back to work. There are floors yet to be scrubbed. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm looking for a dagger. "
+msgctxt "bark 040D:3994"
+msgid "A dagger? Hmmm, I saw a dagger once. Mordea kept it in a chest in her room. I have the key. Would you like it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm looking for a dagger. "
+msgctxt "ask 040D"
+msgid "No, thank you anyway. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm looking for a dagger. "
+msgctxt "bark 040D:3A46"
+msgid "A dagger? I know nothing of daggers. I am just a servant to the Lady. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm looking for a dagger. "
+msgctxt "ask 040D"
+msgid "Are you certain? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes! "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "Yes! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes! "
+msgctxt "bark 040D:3B53"
+msgid "My, it must be an important dagger for you to get that excited over it. Oh well, it always made me feel most uneasy. Well, here is the key. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, thank you anyway. "
+msgctxt "bark 040D:3C34"
+msgid "Suit yourself. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need help. "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "I need help. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need help. "
+msgctxt "bark 040D:3CE2"
+msgid "I am not surprised by that, m'lord. Many people are in need of help these days. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need help. "
+msgctxt "ask 040D"
+msgid "Others are in need of help? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Others are in need of help? "
+msgctxt "bark 040D:3DF4"
+msgid "Not due to Lady Mordea, mind you. I-I'm certain that anyone out there who suffers or is hungry is in such a state due to their own laziness. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Are you certain? "
+msgctxt "bark 040D:3EE0"
+msgid "Yes, mmm... Look, I do not want to get into any trouble, m'lord. Please, do not ask me to do anything that might cause me to anger the Lady. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Are you certain? "
+msgctxt "ask 040D"
+msgid "Never mind. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Never mind. "
+msgctxt "bark 040D:3FA0"
+msgid "Very well, thank you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You won't get into trouble. "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "You won't get into trouble. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You won't get into trouble. "
+msgctxt "bark 040D:409D"
+msgid "Ohh, I do not know why, but I am going to trust you. Mordea keeps a very special dagger in a locked chest. You will find the chest in a small closet near her bed. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You won't get into trouble. "
+msgctxt "ask 040D"
+msgid "It's in a chest? "
+msgstr ""
+
+#. event 01 (use (talk)), after "It's in a chest? "
+msgctxt "bark 040D:4188"
+msgid "Yes and I have the key. I will give you the key, but you must promise not to tell -anyone- where you got it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It's in a chest? "
+msgctxt "ask 040D"
+msgid "I can't promise that. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I promise. "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "I promise. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I promise. "
+msgctxt "bark 040D:4220"
+msgid "Very well, here it is. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I promise. "
+msgctxt "bark 040D:4280"
+msgid "Do what you will with it, but remember: You did not get that key from me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I can't promise that. "
+msgctxt "bark 040D:4376"
+msgid "Well, then I can not give you the key. Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What miserable weather this is. "
+msgctxt "bark 040D:447F"
+msgid "Yes, it is terrible. We've had leaks in the roof and walls, and people tracking mud all through the palace. It makes it twice as hard for me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you know of treasure? "
+msgctxt "bark 040D:45A7"
+msgid "Only what I've heard from Orlok. And no one can believe what he says. Though, now that I think about it, I heard Salkind mention something about a magic hammer that he wanted to find. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you know of treasure? "
+msgctxt "ask 040D"
+msgid "What magic hammer? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What did Salkind say? "
+#. answer compared by the conversation code
+msgctxt "ask 040D"
+msgid "What did Salkind say? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What did Salkind say? "
+msgctxt "bark 040D:472A"
+msgid "Oh, he said he was going to get a couple of strong men to dig for treasure they heard about from Orlok. I can't imagine why they would want to do that. Everyone knows you can't trust Orlok's stories. But, I guess Salkind did. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What did Salkind say? "
+msgctxt "ask 040D"
+msgid "Did he say where? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Did he say where? "
+msgctxt "bark 040D:4841"
+msgid "I don't remember exactly, something about a stand of mushrooms to the south of town. Wait, don't tell me you are going chasing after one of Orlok's stories! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Did he say where? "
+msgctxt "ask 040D"
+msgid "Yes, I believe there is treasure there. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I believe there is treasure there. "
+msgctxt "bark 040D:4A23"
+msgid "If there was treasure there to be found, Salkind would have found it, he is just that kind of a lucky weasel. But I know he didn't find anything for he came back with his robes ripped and in a foul temper which I felt the brunt of for several days. I think it had to do with the dangerous beasts that live in the wilds. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I believe there is treasure there. "
+msgctxt "ask 040D"
+msgid "Dangerous beasts? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Dangerous beasts? "
+msgctxt "bark 040D:4B3D"
+msgid "Oh yes, I heard several of the men who went with Salkind talking about trolls and such they encountered. If you must go, please, be careful. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What magic hammer? "
+msgctxt "bark 040D:4C59"
+msgid "You know, the one Orlok says his great-great-great-granpappy fought off the water Titan with. I think Orlok would give his great-great-great-granpappy credit with creating this world, if he could. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040D:4CB2"
+msgid "Thank you, sir. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040D:4D60"
+msgid "Why is this open? "
+msgstr ""

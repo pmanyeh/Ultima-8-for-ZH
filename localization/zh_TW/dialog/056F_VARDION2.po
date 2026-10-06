@@ -1,0 +1,626 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# VARDION2 (usecode class 056F)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 056F:00AB"
+msgid "Who are you? "
+msgstr ""
+
+msgctxt "ask 056F"
+msgid "It is my business, not yours. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 056F:01E9"
+msgid "I don't care what your name is. I want to know who you are that you feel free to enter into the Sorcerer's Enclave without -my- permission. "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 056F"
+msgid "Why do I need -your- permission? "
+msgstr ""
+
+#. , after "Some call me the Avatar. "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "Some call me the Avatar. "
+msgstr ""
+
+#. , after "Some call me the Avatar. "
+msgctxt "bark 056F:0343"
+msgid "Avatar? Strange title. Now, what I want to know is why you feel free to enter into the Sorcerer's Enclave without -my- permission. "
+msgstr ""
+
+#. , after "It is of little import. "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "It is of little import. "
+msgstr ""
+
+#. , after "It is of little import. "
+msgctxt "bark 056F:0460"
+msgid "That's as it may be, but I will know who you are if you wish to remain here. "
+msgstr ""
+
+#. , after "It is my business, not yours. "
+msgctxt "bark 056F:0536"
+msgid "Is that so? You try my patience, and I have no patience. Begone fool! "
+msgstr ""
+
+#. , after "What do you want from me? "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "What do you want from me? "
+msgstr ""
+
+#. , after "What do you want from me? "
+msgctxt "bark 056F:05B3"
+msgid "What I want is an intelligent response, intruder. "
+msgstr ""
+
+#. , after "I merely seek knowledge. "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "I merely seek knowledge. "
+msgstr ""
+
+#. , after "I merely seek knowledge. "
+msgctxt "bark 056F:0666"
+msgid "We don't give it away at the Enclave. It is earned. Tell me why you are here. "
+msgstr ""
+
+#. , after "Why do I need -your- permission? "
+msgctxt "bark 056F:070C"
+msgid "Because I run this place... for all intents and purposes. "
+msgstr ""
+
+#. , after "I go where I will. "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "I go where I will. "
+msgstr ""
+
+#. , after "I go where I will. "
+msgctxt "bark 056F:07D8"
+msgid "Ah some Fire in you after all! But in truth, while you are here, you go only where I say. Understood? "
+msgstr ""
+
+#. , after "I go where I will. "
+msgctxt "bark 056F:0828"
+msgid "Good. I'm glad we see eye to eye. "
+msgstr ""
+
+#. , after "I go where I will. "
+msgctxt "bark 056F:0893"
+msgid "I did not misspeak myself. You go where I allow you or you die. It's that simple. "
+msgstr ""
+
+#. , after "I am a great hero! "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "I am a great hero! "
+msgstr ""
+
+#. , after "I am a great hero! "
+msgctxt "bark 056F:0923"
+msgid "Maybe where you come from, but here you're nothing unless I say you're something. "
+msgstr ""
+
+#. , after "I am a great hero! "
+msgctxt "ask 056F"
+msgid "This from one who is nothing. "
+msgstr ""
+
+#. , after "No really, I am a great hero. "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "No really, I am a great hero. "
+msgstr ""
+
+#. , after "No really, I am a great hero. "
+msgctxt "bark 056F:09E6"
+msgid "Yes, yes, yes. I'm sure you are, child. "
+msgstr ""
+
+#. , after "This from one who is nothing. "
+msgctxt "bark 056F:0A8B"
+msgid "I have no qualms about killing you, fool. In fact, I might gain pleasure from the exercise. "
+msgstr ""
+
+#. , after "This from one who is nothing. "
+msgctxt "ask 056F"
+msgid "Aye, exercise would do you good. "
+msgstr ""
+
+#. , after "Ah, I see. "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "Ah, I see. "
+msgstr ""
+
+#. , after "Ah, I see. "
+msgctxt "bark 056F:0B35"
+msgid "Good. I'm glad that you do. "
+msgstr ""
+
+#. , after "Aye, exercise would do you good. "
+msgctxt "bark 056F:0BE3"
+msgid "What do you mean by that, knave? I could burn you to ashes, if I had a mind to. "
+msgstr ""
+
+#. , after "Aye, exercise would do you good. "
+msgctxt "ask 056F"
+msgid "If only you had a mind. "
+msgstr ""
+
+#. , after "You take pleasure in pain? "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "You take pleasure in pain? "
+msgstr ""
+
+#. , after "You take pleasure in pain? "
+msgctxt "bark 056F:0D13"
+msgid "Only that of my enemies. I was merely saying that you should have a care for your own welfare. Insulting your betters can be hazardous to your health. "
+msgstr ""
+
+#. , after "You take pleasure in pain? "
+msgctxt "ask 056F"
+msgid "You think you are my better? "
+msgstr ""
+
+#. , after "I didn't know you cared. "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "I didn't know you cared. "
+msgstr ""
+
+#. , after "I didn't know you cared. "
+msgctxt "bark 056F:0DAC"
+msgid "I don't. "
+msgstr ""
+
+#. , after "You think you are my better? "
+msgctxt "bark 056F:0E4D"
+msgid "It is a true fact. You are a stranger, whereas I lead these people... for the most part. "
+msgstr ""
+
+#. , after "I mean, perhaps you should eat less. "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "I mean, perhaps you should eat less. "
+msgstr ""
+
+#. , after "I mean, perhaps you should eat less. "
+msgctxt "bark 056F:0EF9"
+msgid "Are you insinuating that my physique is less than ideal? I could break you like a dry twig. "
+msgstr ""
+
+#. , after "I mean, perhaps you should eat less. "
+msgctxt "ask 056F"
+msgid "Your physique is ideal... for a cow. "
+msgstr ""
+
+#. , after "What physique? I see no physique. "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "What physique? I see no physique. "
+msgstr ""
+
+#. , after "What physique? I see no physique. "
+msgctxt "bark 056F:1006"
+msgid "You play the fool to make jest at my expense, but be wary. I will not take more of your insolence. "
+msgstr ""
+
+#. , after "What physique? I see no physique. "
+msgctxt "ask 056F"
+msgid "But I've just begun to be insolent. "
+msgstr ""
+
+#. , after "Your physique is ideal... for a cow. "
+msgctxt "bark 056F:110F"
+msgid "I don't know what this -cow- you speak of is, but I mislike your tone. Run along, boy. "
+msgstr ""
+
+#. , after "If only you had a mind. "
+msgctxt "bark 056F:11A9"
+msgid "I am a forgiving man, but you go too far. I will not take more of your isolence. "
+msgstr ""
+
+#. , after "I am not insolent, merely honest. "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "I am not insolent, merely honest. "
+msgstr ""
+
+#. , after "I am not insolent, merely honest. "
+msgctxt "bark 056F:129C"
+msgid "Honesty can be as deadly as deceit if it is not tempered by wisdom. "
+msgstr ""
+
+#. , after "I am not insolent, merely honest. "
+msgctxt "ask 056F"
+msgid "What do you know of wisdom? "
+msgstr ""
+
+#. , after "But I've just begun to be insolent. "
+msgctxt "bark 056F:13A5"
+msgid "Your skull will make a fine flagon when I'm done with you. Prepare to meet the Lord of Flame, infidel! "
+msgstr ""
+
+#. , after "Deceit... a thing you know well? "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "Deceit... a thing you know well? "
+msgstr ""
+
+#. , after "Deceit... a thing you know well? "
+msgctxt "bark 056F:146F"
+msgid "Know one thing, infidel, I never -- ever break my word. Why should I defend myself before one such as you? Leave me be. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1513"
+msgid "Your tenure on Pagan has ended, dolt! I remand you into the care of the Lord of Flame. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:155E"
+msgid "Answer me, stranger. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:15A5"
+msgid "You will answer me or you will leave. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:15F8"
+msgid "I give you one last chance to answer me promptly. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:166A"
+msgid "I'm not your servant and I refuse to wait upon you! Go now, and do not disturb me again. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:16D3"
+msgid "Now then, I am a busy man. What do you want of me? "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1746"
+msgid "What do you need, Disciple? "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:17CB"
+msgid "Well, do you have her Truename? "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1811"
+msgid "Do you know what Bane's Truename is? "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:184B"
+msgid "Have you accomplished your task? "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:18A2"
+msgid "How can I help you, friend? "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 056F:190F"
+msgid "Good tidings,  {name}.my alien friend. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1947"
+msgid "Greetings, offworlder. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1980"
+msgid "Greetings, Earthling. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:19BA"
+msgid "Greetings, Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1A2A"
+msgid "I have no time for idle conversation. Ask your questions and be done with it. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1A61"
+msgid "What do you want now? "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1A81"
+msgid "What?! "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1ACD"
+msgid "Well. Are you prepared to undertake my task? "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1B0A"
+msgid "Will you undertake my task? "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1B4C"
+msgid "The task awaits. Are you ready to begin? "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1BC0"
+msgid "Depart now or face my wrath. I do not take kindly to mischievous interlopers. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1C0C"
+msgid "Leave this place. You are not needed here. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1C55"
+msgid "Go now, for we have nothing further to discuss. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1CD6"
+msgid "You have earned my wrath. I hold back your destruction now only by sheer force of will. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1D1E"
+msgid "You tempt your fate by remaining here. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1D92"
+msgid "I find you unfit to walk upon this Enclave's soil. Leave now and your life will be spared. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1E31"
+msgid "The foolish are said to die young. I don't expect you'll see your elder years. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1E7D"
+msgid "Do not disturb me or my Sorcerers further. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1EA3"
+msgid "Leave me be. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1F42"
+msgid "I have been lenient up until now. If you so much as breathe in my direction... make no mistake... you will regret it. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1FAB"
+msgid "If you return, I will become angered. You won't like me when I'm angry. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:1FDF"
+msgid "Go now, and do not return. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2019"
+msgid "Farewell, Disciple. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:205E"
+msgid "Return when you seek more training. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:20AD"
+msgid "If I could only remember where I put the brimstone... "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:20F6"
+msgid "Leave me and accomplish your task. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2144"
+msgid "When you have Bane's Truename, return to me. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2189"
+msgid "Go now. Do not return without her Truename. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Farewell,  offworlder. Earthling. Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:22BA"
+msgid "Disturb the Sorcerers here at your own risk. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:22F4"
+msgid "Now, what was I doing... "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2335"
+msgid "I must remember to replace the wards... "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 056F:2492"
+msgid "When your thoughts are collected come and speak with me, Earthling. Britannian. {name}.my offworlder friend. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:24D8"
+msgid "I grow weary of your games. Leave me be. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2539"
+msgid "Speak to me only when you have something to say, or not at all. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:258E"
+msgid "I cannot abide your ill manners. Or is it perhaps slow wit? "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "ask 056F"
+msgid "Forgive me. I have offended you. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "ask 056F"
+msgid "Do not turn away from me, rogue. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "ask 056F"
+msgid "You will do as I say, knave! "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "ask 056F"
+msgid "Never mind. "
+msgstr ""
+
+#. , after "I must learn to hold my tongue. "
+#. answer compared by the conversation code
+msgctxt "ask 056F"
+msgid "I must learn to hold my tongue. "
+msgstr ""
+
+#. , after "I must learn to hold my tongue. "
+msgctxt "bark 056F:2711"
+msgid "I would have to agree. "
+msgstr ""
+
+#. , after "Forgive me. I have offended you. "
+msgctxt "bark 056F:2814"
+msgid "I am not so thin-skinned as to be offended by your remarks, but it shows prudence that you saw them to be offensive and can accept fault for your error. What do you want? "
+msgstr ""
+
+#. , after "Do not turn away from me, rogue. "
+msgctxt "bark 056F:28CD"
+msgid "You will not adress me in such a manner! I am not accustomed to being ordered by inferiors. "
+msgstr ""
+
+#. , after "You will do as I say, knave! "
+msgctxt "bark 056F:29D2"
+msgid "By the blood of the Destroyer! I'll have your eyes for a necklace! "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 056F:2AC4"
+msgid "Something you said was wrong. Giant, blue letters appeared, blazing across the sky. It's a sign from Pyros! "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 056F:2B94"
+msgid "What is it?! You must hurry. We have no time to waste. I must begin the ritual, now. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 056F:2C42"
+msgid "There is no time for conversation. You must get her Truename. Only that will allow me to avert the coming disaster, and quite possibly my own death. "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 056F"
+msgid "I don't know it yet. "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 056F"
+msgid " Sabriane."
+msgstr ""
+
+#. , after ""
+msgctxt "ask 056F"
+msgid " Bane."
+msgstr ""
+
+#. , after ""
+msgctxt "ask 056F"
+msgid " Daemion."
+msgstr ""
+
+#. , after ""
+msgctxt "ask 056F"
+msgid " Morduin."
+msgstr ""
+
+#. , after " Bane."
+msgctxt "bark 056F:2D7A"
+msgid "That name has no use to me, dolt. I said get her Truename. Go! Do not return without it. "
+msgstr ""
+
+#. , after " Daemion."
+msgctxt "bark 056F:2E1E"
+msgid "Fool! That is most definitely not her Truename. And if you don't get it quickly, you'll have no use for yours. "
+msgstr ""
+
+#. , after " Morduin."
+msgctxt "bark 056F:2EC2"
+msgid "How can one be so stupid? Must I be surrounded by incompetents? Get Bane's Truename, or face the consequences. "
+msgstr ""
+
+#. , after "I don't know it yet. "
+msgctxt "bark 056F:2F67"
+msgid "Do not waste time with your lies. Get me her Truename or you'll die before she can kill me! "
+msgstr ""
+
+#. , after "I don't know it yet. "
+msgctxt "bark 056F:2FEC"
+msgid "I have had enough of you, fool! There won't be enough of you left to inter when I'm done with you! "
+msgstr ""
+
+#. , after " Sabriane."
+msgctxt "bark 056F:3085"
+msgid "A weak name for a weakling Sorcerer. Watch now what a real Sorcerer can do, my Disciple. "
+msgstr ""
+
+#. , after " Sabriane."
+msgctxt "bark 056F:31A2"
+msgid "If you have her Truename and won't reveal it, you are breaching our contract. If you don't know it, you are insolent. In either case, I will not wait upon your leisure. Return only when you can give me Bane's Truename. "
+msgstr ""

@@ -1,0 +1,540 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# SHAANA (usecode class 0413)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0413:00BB"
+msgid "The late executioner Shaana "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0413:00E2"
+msgid "Shaana "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0413:010E"
+msgid "executioner "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0413:012D"
+msgid "woman "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0413:044F"
+msgid "En guard! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0413:0474"
+msgid "Watch this! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0413:0647"
+msgid "I am much too busy to talk to you now. Out of my way! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0413:06B5"
+msgid "Aaagh... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0413:06D5"
+msgid "Ooooo... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0413:0794"
+msgid "You fool! I have no time for conversation. The Titans are angry. You had best find permanent cover! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0413:0889"
+msgid "I speak to no one when the living dead walk the streets. If you are dead, then return to where you once rested. And if you are alive, you had best find shelter from the rampaging ghouls and the quaking ground! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0413:093E"
+msgid "ooouuu..."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0413:0960"
+msgid "auuggh..."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0413:0998"
+msgid "Pardon me... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0413"
+msgid "Why are you here? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0413:0A01"
+msgid "Good day, stranger. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0413"
+msgid "Nice axe. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0413"
+msgid "Goodbye. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "Who are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 0413:0B09"
+msgid "Not that it is any of your concern, stranger, I am called Shaana. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "ask 0413"
+msgid "Who was the man I saw you kill? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nice axe. "
+msgctxt "bark 0413:0BBC"
+msgid "Yes, stranger, it is. "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "bark 0413:0CA6"
+msgid "I would advise you to listen when I speak, lest I I tire of being ignored. "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "bark 0413:0CEE"
+msgid "I do not waste time with mindless toraxen! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was the man I saw you kill? "
+msgctxt "bark 0413:0E3B"
+msgid "The man I just killed? You must be an imbecile to think that I have any knowledge -- or desire for the knowledge -- of whom I execute. Even were I interested, there are too many to remember. Why are you so concerned about me and my victims? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was the man I saw you kill? "
+msgctxt "ask 0413"
+msgid "I am simply curious. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "What do you do? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? "
+msgctxt "bark 0413:0F91"
+msgid "I assume you are speaking in jest, for it is obvious by my executioner's blade that I... remove heads to earn my keep. Why are you so concerned about my name and occupation? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am not. "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "I am not. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am not. "
+msgctxt "bark 0413:10B9"
+msgid "Then by all means stop wasting my time. One would think you were employed by the scholar, the way you waste time with useless banter. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am not. "
+msgctxt "ask 0413"
+msgid "I am not wasting time. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am simply curious. "
+msgctxt "bark 0413:11F4"
+msgid "I am not here to satisfy an idle curiosity, stranger. One would think you were employed by the scholar, the way you waste time with useless banter. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am not wasting time. "
+msgctxt "bark 0413:12D6"
+msgid "You are wrong, stranger. You are wasting mine. Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is the scholar? "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "Who is the scholar? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is the scholar? "
+msgctxt "bark 0413:1517"
+msgid "If I am to be a source of information, I do not expect this to occupy too much of my time. The scholar, Bentic, is a rather long-winded individual who spends his days and nights buried in the pages of the many books he maintains. In fact, stranger, perhaps you should speak with him. His work -is- knowledge, after all, and I doubt the rest of us have time for this prattle. Then again, you seem the sort to be more interested in hearing rumors in a darkened tavern than the ramblings of a learned man. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is the scholar? "
+msgctxt "ask 0413"
+msgid "Where is the tavern? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is the scholar? "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "Where is the scholar? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is the scholar? "
+msgctxt "bark 0413:172D"
+msgid "So it -is- the knowledge you seek. Then you may find Bentic in the northeastern part of town. He is wise and knows much, and he will impart that which you wish and more. I will tell you this, stranger: if he cannot answer your query then only one other might. But I am loath to tell you who for fear you would waste his precious time like you have mine. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is the scholar? "
+msgctxt "ask 0413"
+msgid "Who is this other? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is this other? "
+msgctxt "bark 0413:1804"
+msgid "Swear to me you will not disturb his study without due cause and I will name him. Agreed? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is this other? "
+msgctxt "ask 0413"
+msgid "I swear nothing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I swear nothing. "
+msgctxt "bark 0413:18A1"
+msgid "Then I tell nothing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I swear nothing. "
+msgctxt "ask 0413"
+msgid "I apologize. I swear. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Aye, I swear. "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "Aye, I swear. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Aye, I swear. "
+msgctxt "bark 0413:19FD"
+msgid "Very well. His name is Mythran. You may find him outside the city walls. His wisdom is great, but I warn you not to visit him for idle prattle such as this. I swear myself that you do not wish to see me angered. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I apologize. I swear. "
+msgctxt "bark 0413:1B82"
+msgid "I hope for your sake you speak the truth. I swear myself that you do not wish to see me angered. Very well. His name is Mythran. You may find him outside the city walls. His wisdom is great, but I warn you not to visit him for idle prattle such as this. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is the tavern? "
+msgctxt "bark 0413:1C79"
+msgid "The Shattered Skull is the large building in the center of town. Orlok is the man you seek. I am certain his tales of seafaring will amuse you to no end. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What pact? "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "What pact? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What pact? "
+msgctxt "bark 0413:1E16"
+msgid "You know very little of our culture, stranger. I suggest that change. The pact is one forged ages ago between Lithos and our people. Our duty from the covenant is to send our dead to Lithos. Yet Lady Mordea elects to give them to her patron, Hydros. 'Tis only a matter of time before the dead rise up and avenge the Mountain King. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What pact? "
+msgctxt "ask 0413"
+msgid "The Mountain King? "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Mountain King? "
+msgctxt "bark 0413:1F17"
+msgid "'Tis the earned title for Lithos, He who resides in the great Hall within the mountains. However, few have ever been there. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Mountain King? "
+msgctxt "ask 0413"
+msgid "Which few? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Dead rising up? "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "Dead rising up? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Dead rising up? "
+msgctxt "bark 0413:20D5"
+msgid "Aye, so the story goes. When he is angry, Lithos will set upon us our long lost kindred which he has willed to live again. Well, 'tis hardly living, but legend holds that they walk and fight like men. I have seen such wander about inside the confines of the cemetery, though even -I- have not dared to enter within. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Dead rising up? "
+msgctxt "ask 0413"
+msgid "Why do you avoid the cemetery? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Which few? "
+msgctxt "bark 0413:2178"
+msgid "The Necromancers. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Which few? "
+msgctxt "ask 0413"
+msgid "Who are the Necromancers? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are the Necromancers? "
+msgctxt "bark 0413:232A"
+msgid "I tire of these questions. They are common to all Tenebraeans, yet to me do you pose them. The Necromancers are the line of mages who carry out our half of the pact with Lithos. Their duties are quite distasteful, but they are necessary. If you are truly interested in them, why not speak to them yourself. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are the Necromancers? "
+msgctxt "ask 0413"
+msgid "Are they in the cemetery? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Are they in the cemetery? "
+msgctxt "bark 0413:248E"
+msgid "Do not tell me you are so much a fool as to take me seriously! I will grant you this, stranger, you are indeed brave if not equally senseless! Aye, the Necromancers reside in the graveyard. Beware where you tread. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why do you avoid the cemetery? "
+msgctxt "bark 0413:2561"
+msgid "An odd question, stranger. I do not wish audience with the dead. That is the realm of the Necromancers. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you study? "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "What do you study? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you study? "
+msgctxt "bark 0413:2692"
+msgid "My dear stranger, if I have not yet made it perfectly clear that my business is none of your concern, let me do so now. My business, -is- none of your concern. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you study? "
+msgctxt "bark 0413:2788"
+msgid "My dear stranger, if I have not yet made it perfectly clear that my business is none of your concern, let me do so now. As far as you need know, I am but an executioner. Nothing more, but nothing less. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you study? "
+msgctxt "ask 0413"
+msgid "Yet you study other pursuits. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why was Bentic killed? "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "Why was Bentic killed? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why was Bentic killed? "
+msgctxt "bark 0413:287D"
+msgid "'Tis not mine to judge the condemned. I simply carry out The Lady's commands. If you have issue with that, I suggest you speak with her. Goodbye. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you here? "
+msgctxt "bark 0413:295C"
+msgid "'Twould be best for you, stranger, to ignore such things.\tTell no one of seeing me here... or you, yourself, shall feel my axe upon your scrawny neck. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Goodbye. " or "No, sorry. Goodbye. "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "No, sorry. Goodbye. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Goodbye. " or "No, sorry. Goodbye. "
+msgctxt "bark 0413:2A4A"
+msgid "Hello again, Shaana. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Goodbye. " or "No, sorry. Goodbye. "
+msgctxt "bark 0413:2A72"
+msgid "Hello again. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Goodbye. " or "No, sorry. Goodbye. "
+msgctxt "ask 0413"
+msgid "May we speak? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 0413:2BCC"
+msgid "Not that it is any of your concern, stranger, I am called Shaana. "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "bark 0413:2C6B"
+msgid "I would advise you to listen when I speak, lest I I tire of being ignored. "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "bark 0413:2CB3"
+msgid "I do not waste time with mindless toraxen! "
+msgstr ""
+
+#. event 01 (use (talk)), after "May we speak? "
+msgctxt "bark 0413:2D44"
+msgid "Greetings again, stranger. I suppose you wish more of my time? "
+msgstr ""
+
+#. event 01 (use (talk)), after "May we speak? "
+msgctxt "ask 0413"
+msgid "Only a moment. "
+msgstr ""
+
+#. event 01 (use (talk)), after "May we speak? "
+msgctxt "bark 0413:2E5A"
+msgid "You display considerable courage speaking to me after wasting my time when we last spoke. Too much courage. I am still not impressed. Perhaps another time I will be more inclined to hear your words. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only a moment. "
+msgctxt "bark 0413:2F56"
+msgid "Enough of this, fool! I am not here to act as your source for information. If you feel the need for idle gossip, go and listen to Orlok's grand stories. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only a moment. "
+msgctxt "bark 0413:2FFE"
+msgid "Enough of this, fool! I am not here to act as your source for information. If your question needs answering, find the scholar and disturb him! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only a moment. "
+msgctxt "bark 0413:30A2"
+msgid "Have you nothing more to do than have me answer your questions?\tDo you not think I have work elsewhere to do? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only a moment. "
+msgctxt "bark 0413:313B"
+msgid "Very well, stranger. You have a moment. What is it that you want? And I assume it is not to beg me away from an appointed task. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your task? "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "What is your task? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your task? "
+msgctxt "bark 0413:329B"
+msgid "I think that you need not know such things. But let me assure you that not all of my life revolves around death. Most times there are far more interesting things to study than a decapitated body. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only most of the time? " or "Yet you study other pursuits. "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "Only most of the time? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only most of the time? " or "Yet you study other pursuits. "
+msgctxt "bark 0413:3438"
+msgid "I have warned you not to pry into my affairs. Do not fool yourself into thinking that I am incapable of performing the duties of my position -- even when the victims are not bound. I have -no- qualms about slaying someone who deserves to die. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only most of the time? " or "Yet you study other pursuits. "
+msgctxt "bark 0413:34AE"
+msgid "Though I do not necessarily agree with the Lady's methods. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Only most of the time? " or "Yet you study other pursuits. "
+msgctxt "ask 0413"
+msgid "With what do you disagree? "
+msgstr ""
+
+#. event 01 (use (talk)), after "With what do you disagree? "
+msgctxt "bark 0413:3629"
+msgid "'Tis a moot point, considering she is no longer alive, but it was not right to let the body fall to The Lurker. It violated the pact, something which Lithos was not likely to tolerate much longer. "
+msgstr ""
+
+#. event 01 (use (talk)), after "With what do you disagree? "
+msgctxt "bark 0413:36C9"
+msgid "'Tis not right to let the body fall to The Lurker. It violates the pact, something for which Lithos will not likely stand much longer. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Lithos? "
+#. answer compared by the conversation code
+msgctxt "ask 0413"
+msgid "Who is Lithos? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Lithos? "
+msgctxt "bark 0413:3826"
+msgid "I know not from where you hail, stranger, but I wonder about a man who does not know of the Titans. Speak to the scholar.  He will show you the answer to your question. I assume you -do- know how to read. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What pact? "
+msgctxt "bark 0413:39C3"
+msgid "You know very little of our culture, stranger. I suggest that change. The pact is one forged ages ago between Lithos and our people.\tOur duty from the covenant is to send our dead to Lithos. Yet Lady Mordea elects to give them to her patron, Hydros. 'Tis only a matter of time before the dead rise up and avenge the Mountain King. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Mountain King? "
+msgctxt "bark 0413:3ACA"
+msgid "'Tis the earned title for Lithos, He who resides in the great Hall within the mountains. However, few have ever been there. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Dead rising up? "
+msgctxt "bark 0413:3C88"
+msgid "Aye, so the story goes. When he is angry, Lithos will set upon us our long lost kindred which he has willed to live again. Well, 'tis hardly living, but legend holds that they walk and fight like men. I have seen such wander about inside the confines of the cemetery, though even -I- have not dared to enter within. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Which few? "
+msgctxt "bark 0413:3D2B"
+msgid "The Necromancers. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are the Necromancers? "
+msgctxt "bark 0413:3EDD"
+msgid "I tire of these questions. They are common to all Tenebraeans, yet to me do you pose them. The Necromancers are the line of mages who carry out our half of the pact with Lithos. Their duties are quite distasteful, but they are necessary. If you are truly interested in them, why not speak to them yourself. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Are they in the cemetery? "
+msgctxt "bark 0413:4041"
+msgid "Do not tell me you are so much a fool as to take me seriously! I will grant you this, stranger, you are indeed brave if not equally senseless! Aye, the Necromancers reside in the graveyard. Beware where you tread. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why do you avoid the cemetery? "
+msgctxt "bark 0413:4114"
+msgid "An odd question, stranger. I do not wish audience with the dead. That is the realm of the Necromancers. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you study? "
+msgctxt "bark 0413:4245"
+msgid "My dear stranger, if I have not yet made it perfectly clear that my business is none of your concern, let me do so now. My business, -is- none of your concern. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you study? "
+msgctxt "bark 0413:433B"
+msgid "My dear stranger, if I have not yet made it perfectly clear that my business is none of your concern, let me do so now. As far as you need know, I am but an executioner. Nothing more, but nothing less. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why was Bentic killed? "
+msgctxt "bark 0413:443D"
+msgid "'Tis not mine to judge the condemned. I simply carry out The Lady's commands. If you have issue with that, I suggest you speak with her. Goodbye. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you here? "
+msgctxt "bark 0413:451C"
+msgid "'Twould be best for you, stranger, to ignore such things.\tTell no one of seeing me here... or you, yourself, shall feel my axe upon your scrawny neck. "
+msgstr ""

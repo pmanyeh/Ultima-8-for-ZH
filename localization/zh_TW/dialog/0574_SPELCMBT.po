@@ -1,0 +1,47 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# SPELCMBT (usecode class 0574)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 0574:02CF"
+msgid "Now I shall char the flesh from your bones! "
+msgstr ""
+
+msgctxt "bark 0574:032C"
+msgid "Burn, fool! "
+msgstr ""
+
+msgctxt "bark 0574:038B"
+msgid "You will die! "
+msgstr ""
+
+msgctxt "bark 0574:0403"
+msgid "Do not think that you can run from me! "
+msgstr ""
+
+msgctxt "bark 0574:046C"
+msgid "Ha! Do not run from me! "
+msgstr ""
+
+msgctxt "bark 0574:04D4"
+msgid "Pyros will devour you! "
+msgstr ""
+
+msgctxt "bark 0574:076B"
+msgid "You will die this day, fool! "
+msgstr ""
+
+msgctxt "bark 0574:07CF"
+msgid "Knave, Pyros will feast upon you! "
+msgstr ""
+
+msgctxt "bark 0574:0826"
+msgid "Feel the Fire, dolt! "
+msgstr ""

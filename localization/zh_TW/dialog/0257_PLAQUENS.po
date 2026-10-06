@@ -1,0 +1,331 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# PLAQUENS (usecode class 0257)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0257:009A"
+msgid "plaque "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0109"
+msgid "THE MONASTERY*OF THE*THEURGISTS "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0149"
+msgid "THE PALACE*OF THE TEMPEST "
+msgstr "Tempest 宮殿"
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0179"
+msgid "MESS HALL "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:01AF"
+msgid "PALACE*BARRACKS "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:01E4"
+msgid "THE*ROYAL*HALL "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0224"
+msgid "AUTHORIZED*PERSONNEL*ONLY "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0260"
+msgid "WATERS*OF THE*TEMPEST "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:029A"
+msgid "DANGER*DO NOT*ENTER "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:02DB"
+msgid "BLACKALLER*FINALLY RESTING "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:031A"
+msgid "T'IS FAR*TOO LATE*FOR ME "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:035B"
+msgid "TOWARDS*FATE DO YOU*TRAVEL "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0395"
+msgid "KAYLITH*-TREASURER- "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:03CA"
+msgid "MASTER OF KEYS "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:03F6"
+msgid "JOHAH "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:042C"
+msgid "HEGLAND HEGWOOD "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0461"
+msgid "DON'T*LOOK*NOW "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0492"
+msgid "SCHOENROCK "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:04E7"
+msgid "HEAVRIN*ARCHITECT*LAID TO REST*IN HIS OWN PLAN "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0520"
+msgid "TO*LOWER CATACOMBS "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:055A"
+msgid "R.E.M.*G.T.H.*A.S.T."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0590"
+msgid "JOHN*OF*GARLAND "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:05D4"
+msgid "LESIFER*BELOVED*SISTER*M.F.H. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0608"
+msgid "GOOD RIDDANCE "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0642"
+msgid "JUST LOOK*AT ME*NOW "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:067C"
+msgid "WHEW**I FEEL BETTER "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:06D4"
+msgid "BITTER RAGE*FILLED WITH HATE*SO LIES*THIS INGRATE "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0718"
+msgid "I TOLD YOU*IT WAS MY*ECHIDNAS "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:074F"
+msgid "TENEBRAE*LIBRARY "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0781"
+msgid "FIGHTMASTER "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:07B4"
+msgid "DO*NOT*ENTER "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:07F6"
+msgid "TEMPLE*OF THE*DIVINE*HYDROS "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0832"
+msgid "SALKIND*THE*SENESCHAL "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:085E"
+msgid "QUIET "
+msgstr "安靜"
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:08A1"
+msgid "SPRING*OF THE*ETERNAL*HYDROS "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:08E1"
+msgid "THE HALL*OF THE*SORCERERS "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:091E"
+msgid "THE*LIBRARY*OF SORCERY "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0969"
+msgid "FIRST ACOLYTE*BANE "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:099A"
+msgid "FIRST ACOLYTE*VARDION "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:09DF"
+msgid "DO*NOT*ENTER "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0A07"
+msgid "ACOLYTE*BANE "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0A3B"
+msgid "ACOLYTE*BEREN "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0A72"
+msgid "ACOLYTE*GORGROND "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0AA7"
+msgid "FLAM POR*FLASH "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0AE0"
+msgid "AN FLAM*EXTINGUISH "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0B1D"
+msgid "SANCT FLAM*ENDURE HEAT "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0B62"
+msgid "VAS SANCT FLAM*ARMOR OF FLAMES "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0BBE"
+msgid "FORENCIA*BELOVED WIFE*DEVOTED MOTHER*DIED IN ACCIDENT "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0BF8"
+msgid "THE UPPER CATACOMBS "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0C2C"
+msgid "REST IN PEACE "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0C60"
+msgid "TO THE SHRINE "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0CB8"
+msgid "WHY ARE YOU*READING THIS*WHEN YOU CAN*BE FIGHTING "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0D06"
+msgid "GABRIEL*LOVELY DAUGHTER*LOVE OF MY LIFE "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0D56"
+msgid "SYSAPHUS*EXECUTED*FOR MURDER*LEFT TO BURN "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0D82"
+msgid "NORTH "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0DAD"
+msgid "WEST "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0DFD"
+msgid "MORATAIN*FAMILY*MAUSOLEUM*DO NOT DISTURB! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0E39"
+msgid "*ADMIRE*BUT*TOUCH NOT "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0E7B"
+msgid "SHOPLIFTERS*WILL BE*FLOGGED "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0EB9"
+msgid "CONVENTICLE*OF THE*DEAD "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0EF4"
+msgid "MARIOTA*CONVENTICLER "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0F38"
+msgid "NOW ENTERING*THE PIT*OF DEATH "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0F78"
+msgid "THE*BIRTHPLACE*OF MORIENS "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "plaque 0257:0FB2"
+msgid "NO SOLICITING! "
+msgstr ""

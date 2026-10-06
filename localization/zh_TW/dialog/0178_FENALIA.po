@@ -1,0 +1,46 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# FENALIA (usecode class 0178)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 0178:00FB"
+msgid "I'm hungry! "
+msgstr ""
+
+msgctxt "bark 0178:0136"
+msgid "I'm very hungry. "
+msgstr ""
+
+msgctxt "bark 0178:016C"
+msgid "I must eat! "
+msgstr ""
+
+msgctxt "bark 0178:01B3"
+msgid "I wish I had some chocolate. "
+msgstr ""
+
+msgctxt "bark 0178:01F5"
+msgid "I'm so hungry I could eat a live kith. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0178:028F"
+msgid "plant bud "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0178:02BC"
+msgid "pipe "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0178:02FB"
+msgid "Yucchh. "
+msgstr ""

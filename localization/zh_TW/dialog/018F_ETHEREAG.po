@@ -1,0 +1,46 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# ETHEREAG (usecode class 018F)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 018F:00AE"
+msgid "eye of newt "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018F:00EC"
+msgid "bat wing "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018F:012C"
+msgid "snake skin "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018F:016E"
+msgid "dragon blood "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018F:01B4"
+msgid "jar of newt eyes "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018F:01DD"
+msgid "jar "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 018F:0296"
+msgid "empty "
+msgstr ""

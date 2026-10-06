@@ -1,0 +1,61 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BOTTLE (usecode class 00B4)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 00B4:00B0"
+msgid "Blackwine "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 00B4:00DB"
+msgid "Hurricane "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 00B4:010D"
+msgid "Breath o' Spirit "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 00B4:013A"
+msgid "Cloven Hoof "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 00B4:0169"
+msgid "Tenebraen Ale "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 00B4:0189"
+msgid "bottle "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00B4:01DA"
+msgid "Burp... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00B4:030C"
+msgid "Zzzzz... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00B4:0552"
+msgid "It's empty... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00B4:0671"
+msgid "Burp... "
+msgstr ""

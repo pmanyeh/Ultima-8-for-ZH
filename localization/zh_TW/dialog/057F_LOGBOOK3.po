@@ -1,0 +1,217 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# LOGBOOK3 (usecode class 057F)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "ask 057F"
+msgid "The tyrant Mordea has no birthright! "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+#. answer compared by the conversation code
+msgctxt "ask 057F"
+msgid "Devon is the rightful heir! "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+msgctxt "bark 057F:0150"
+msgid "Pardon? "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+msgctxt "bark 057F:0167"
+msgid "What? "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+msgctxt "bark 057F:017D"
+msgid "Huh? "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+msgctxt "bark 057F:0194"
+msgid "Ahhh? "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+msgctxt "bark 057F:02E7"
+msgid "I should slay you right now for such heresy! "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+msgctxt "bark 057F:0333"
+msgid "Stay your hand, Darion. He'll soon feed the Lurker. "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+msgctxt "bark 057F:036C"
+msgid "Yes, my lady. "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+msgctxt "bark 057F:0396"
+msgid "Me? A Tempest...? "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+msgctxt "bark 057F:03D7"
+msgid "Avatar, this is not the time for levity. "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+msgctxt "bark 057F:0414"
+msgid "Get on with it! "
+msgstr ""
+
+#. , after "Devon is the rightful heir! "
+msgctxt "bark 057F:043F"
+msgid "As you wish, my lady. "
+msgstr ""
+
+#. , after "The tyrant Mordea has no birthright! "
+msgctxt "bark 057F:0649"
+msgid "You shall not blaspheme the Tempest! "
+msgstr ""
+
+#. , after "The tyrant Mordea has no birthright! "
+msgctxt "bark 057F:067D"
+msgid "Sheath your weapon, Darion! "
+msgstr ""
+
+#. , after "The tyrant Mordea has no birthright! "
+msgctxt "bark 057F:06D7"
+msgid "I will rid us of this ill-mannered brute! "
+msgstr ""
+
+#. , after "I have proof! "
+#. answer compared by the conversation code
+msgctxt "ask 057F"
+msgid "I have proof! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:08AA"
+msgid "I have a book that not only proves Devon is the rightful Tempest, "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0900"
+msgid "but also that his powers are stronger than those of Mordea's! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:095E"
+msgid "Mordea and Devon have the same father, but Devon was the first birth! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0992"
+msgid "He is the rightful Tempest! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:09DC"
+msgid "You lie! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0A36"
+msgid "Mordea, I locked that book safely away! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0B00"
+msgid "Ooops! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0B57"
+msgid "Fool! Now the whole world knows the secret! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0B9B"
+msgid "Forgive me, Lady Mordea! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0BC2"
+msgid "I forgive you. "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0C7D"
+msgid "That must be the book Salkind kept hidden away in the evidence chamber! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0CDF"
+msgid "That explains why he kept it locked in his secret study under the palace! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0E76"
+msgid "Yes! Devon -is- the rightful heir to the throne! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0EB0"
+msgid "But the truth will serve him not! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0EFD"
+msgid "His head will still rest in the belly of the Lurker! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0F46"
+msgid "Proceed with the execution! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0F77"
+msgid "No! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0FAB"
+msgid "No? Do you dare to defy me? "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:0FE6"
+msgid "I will not execute the true Tempest! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:10D1"
+msgid "Darion, do you defy me too? "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:111A"
+msgid "I cannot kill him, my Lady. He is -the- Tempest. "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:1256"
+msgid "If that is how it must be, you will all suffer my wrath! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:12AC"
+msgid "Foolish brother! You think your powers are greater than mine! "
+msgstr ""
+
+#. , after "I have proof! "
+msgctxt "bark 057F:12F9"
+msgid "Use them if you dare... To save your miserable life! "
+msgstr ""

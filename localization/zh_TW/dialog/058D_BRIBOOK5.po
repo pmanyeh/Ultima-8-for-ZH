@@ -1,0 +1,15 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BRIBOOK5 (usecode class 058D)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "book 058D:02F7"
+msgid "Well have ye done to reach this far. Behind me lies the entrance way of the Slayer's chamber. But for the last time, be ye warned: Many are those who have tred this ground before ye. Many have come seeking the Slayer, and jealous are they of others who seek what they prize. Go ye now into the chamber, for theSlayer beckons. The Slayer, whose fine oaken body be so strong as to withstand the Titanic forces that would try to tame it. Ye have come seeking this treasure. Ye have now gotten what ye have sought. Be careful that it does not kill ye, for the Slayer will not travel with ye unless it deems ye worthy."
+msgstr ""

@@ -1,0 +1,26 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# FISHPOLE (usecode class 024D)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 024D:00A0"
+msgid "fishing pole "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 024D:017F"
+msgid "I caught something! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 024D:01A3"
+msgid "No fish here. "
+msgstr ""

@@ -1,0 +1,15 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BRIBOOK4 (usecode class 058E)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "book 058E:0250"
+msgid "Feel good for having found me yet more trouble does lie ahead. Now ye do truly enter the resting place of the Slayer. Soon will ye be within reach of the Slayer. The Slayer, whose cruel head does strike fear within the hearts of those who oppose it. Be ye not be there yet. Quick and nimble must be the person commands the force of the Slayer. Look again for one of my line. Should ye find my cousin, then ye should learn where the Slayer awaits."
+msgstr ""

@@ -1,0 +1,96 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# PENT (usecode class 007C)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 01 (use (talk))
+msgctxt "bark 007C:04DE"
+msgid "I wonder how this pentagram is used. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 007C:054B"
+msgid "You are standing too close to the pentagram. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 007C:0590"
+msgid "I must be standing too close to the pentagram. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 007C:0614"
+msgid "You must place a focus at the center of the pentagram to contain the spell. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 007C:068A"
+msgid "Multiple foci disrupt the empowering of a spell. You may only enchant one focus at a time "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 007C:06F0"
+msgid "I forgot to place a focus in the center of the pentagram. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 007C:0735"
+msgid "I have too many foci on the pentagram. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 007C:07F9"
+msgid "Make sure you are using the proper candles and they are all lit. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 007C:0858"
+msgid "I must have misplaced or forgotten to light a candle. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Something's not right. "
+msgctxt "bark 007C:0961"
+msgid "Your candles are incorrect. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Something's not right. "
+msgctxt "bark 007C:09A0"
+msgid "Perhaps the candles are set incorrectly. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Something's not right. "
+msgctxt "bark 007C:0AEF"
+msgid "Indeed, your reagents were incorrect for that spell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Something's not right. "
+msgctxt "bark 007C:0B24"
+msgid "The reagents don't seem right. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Something's not right. "
+msgctxt "bark 007C:35E8"
+msgid "The pentagram must be clear of all but sorcerous components. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Something's not right. "
+msgctxt "bark 007C:3654"
+msgid "I can't carry all that is on the pentagram. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "Something's not right. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "Kal Vas Flam Corp Xen!"
+msgstr ""

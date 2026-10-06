@@ -1,0 +1,41 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# FLASK (usecode class 00E4)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 00E4:0099"
+msgid "flask "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E4:00DC"
+msgid "It's empty. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E4:0111"
+msgid "It's empty. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E4:015F"
+msgid "Argh! It's poison! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E4:01C8"
+msgid "Ahh! That feels better! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E4:025E"
+msgid "Hmm... I wonder what that did. "
+msgstr ""

@@ -1,0 +1,26 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# TRIALHAT (usecode class 04B4)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 07 (hatch)
+msgctxt "bark 04B4:0375"
+msgid "Greetings Disciple.*You will remain within this fortress until you have found my inner sanctum, or you are dead. Even then, you shall not leave this place. Within the chamber beyond this hall you will see the fate that befalls those who fail. The Trials of the Obsidian Fortress begin now. "
+msgstr ""
+
+#. event 07 (hatch)
+msgctxt "bark 04B4:05CF"
+msgid "Guardians! Do your duties! "
+msgstr ""
+
+#. event 07 (hatch)
+msgctxt "bark 04B4:0676"
+msgid "Farewell, Disciple. I sincerely hope you survive to become an Acolyte. Good luck. "
+msgstr ""

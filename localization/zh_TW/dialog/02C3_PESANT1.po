@@ -1,0 +1,154 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# PESANT1 (usecode class 02C3)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 02C3:00ED"
+msgid "dead peasant "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 02C3:010E"
+msgid "peasant "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 02C3:01C4"
+msgid "Help me, Beren! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 02C3:01E7"
+msgid "Town Sorcerer! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 02C3:0278"
+msgid "I can not talk with you now... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 02C3:0354"
+msgid "Hello... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 02C3:0377"
+msgid "Greetings... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 02C3"
+msgid "bye "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+#. answer compared by the conversation code
+msgctxt "ask 02C3"
+msgid "What is your name? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "bark 02C3:048D"
+msgid "I am sorry, but I never speak with strangers. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "bark 02C3:04D8"
+msgid "It is a quick way to loose your money and your life. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "bark 02C3:0546"
+msgid "Who are you? Has Mordea sent you to question me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "bark 02C3:05A3"
+msgid "Ha! If you do not know who I am then you do not know what I have done! "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 02C3:05F8"
+msgid "Goodbye... "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 02C3:06CA"
+msgid "Excuse me... "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 02C3:06ED"
+msgid "Pardon me... "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "ask 02C3"
+msgid "bye. "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I have a moment of your time? "
+#. answer compared by the conversation code
+msgctxt "ask 02C3"
+msgid "May I have a moment of your time? "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I have a moment of your time? "
+msgctxt "bark 02C3:081D"
+msgid "No! Who do you think you are? "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I have a moment of your time? "
+msgctxt "ask 02C3"
+msgid "Why, I am the Avatar! "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I have a moment of your time? "
+msgctxt "bark 02C3:089D"
+msgid "Get away from me! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why, I am the Avatar! "
+msgctxt "bark 02C3:0923"
+msgid "So. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why, I am the Avatar! "
+msgctxt "bark 02C3:098B"
+msgid "You wear such a repulsive costum and wish for me to give you a moment of MY time? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why, I am the Avatar! "
+msgctxt "bark 02C3:09B8"
+msgid "Hmph! Go away, Avatar! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hmph! Go away, Avatar! "
+#. answer compared by the conversation code
+msgctxt "ask 02C3"
+msgid "Hmph! Go away, Avatar! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hmph! Go away, Avatar! "
+msgctxt "bark 02C3:0A23"
+msgid "I don't think I enjoy talking to you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye. "
+msgctxt "bark 02C3:0A74"
+msgid "Hmph! "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye. "
+msgctxt "bark 02C3:0AC9"
+msgid "Ahhh! Go away! "
+msgstr ""

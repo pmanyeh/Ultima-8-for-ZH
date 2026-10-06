@@ -1,0 +1,119 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# GUARD6 (usecode class 0430)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0430:00AE"
+msgid "dead guardsman "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0430:00D1"
+msgid "guardsman "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0430:01C4"
+msgid "Guardsman! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0430:026E"
+msgid "The Titans are seeking revenge! We are doomed! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0430:0306"
+msgid "The very earth shakes and spits up the dead! We must repent for whatever misdeed we have commmitted. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0430:0362"
+msgid "Why is it always -me- you bother? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0430:03A7"
+msgid "What can I do for you? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0430:03E1"
+msgid "Stop with the questions already. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0430:0416"
+msgid "What do you want, stranger? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0430"
+msgid "Bye "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+#. answer compared by the conversation code
+msgctxt "ask 0430"
+msgid "Who are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 0430:04ED"
+msgid "Why do you want to know? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 0430:054D"
+msgid "Only mindless twits go around asking every stranger they meet their name. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+#. answer compared by the conversation code
+msgctxt "ask 0430"
+msgid "What is your duty? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 0430:05DC"
+msgid "I watch over the new Tempest, Devon, of course. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 0430:0622"
+msgid "I watch over her Ladyship Mordea, of course! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+#. answer compared by the conversation code
+msgctxt "ask 0430"
+msgid "Where am I? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 0430:06A2"
+msgid "You are in the palace and home to the Tempest. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 0430:06E1"
+msgid "Go ask someone who wants to help you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 0430:072D"
+msgid "To you too. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bye "
+msgctxt "bark 0430:07B9"
+msgid "If it is true what I heard -- that you had a part in deposing Mordea -- let me offer my thanks. "
+msgstr ""

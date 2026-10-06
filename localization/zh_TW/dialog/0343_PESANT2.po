@@ -1,0 +1,161 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# PESANT2 (usecode class 0343)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0343:00ED"
+msgid "dead peasant "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0343:010E"
+msgid "peasant "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0343:0219"
+msgid "Help me!!! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0343:0233"
+msgid "Argh! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0295"
+msgid "Hello... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:02B8"
+msgid "Greetings... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:033B"
+msgid "Shhhhh! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:036F"
+msgid "People are trying to read! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:03CB"
+msgid "Whhaaaattt? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:03EC"
+msgid "Huh !?! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0420"
+msgid "Nevermind... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0448"
+msgid "Forget it... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0509"
+msgid "That is so strange... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0546"
+msgid "I see where this is heading... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:057D"
+msgid "That proves my theory... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:05BB"
+msgid "I always wondered about that... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:05EA"
+msgid "Now I get it...! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0614"
+msgid "A Torax...? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0632"
+msgid "Why...? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0668"
+msgid "Now I am really lost... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:069D"
+msgid "This makes no sense... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0782"
+msgid "More grog... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:07AF"
+msgid "I feel sick... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:07E3"
+msgid "I can't even stand... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0810"
+msgid "Oh, my head... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0841"
+msgid "Where is Dicko...? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:0876"
+msgid "I should be leaving... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:08BB"
+msgid "After the next drink... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:08F8"
+msgid "Make the room stop spinning... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0343:092A"
+msgid "Another round here! "
+msgstr ""

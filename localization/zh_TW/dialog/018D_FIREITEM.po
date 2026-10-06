@@ -1,0 +1,27 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# FIREITEM (usecode class 018D)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018D:0462"
+msgid "symbol of ignite extinguish flash flame bolt endure heat fire shield armor of flames create fire explosion summon daemon banish daemon conflagration with {num} use uses remaining"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 018D:04F6"
+msgid "I wonder what this is supposed to do. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 018D:054F"
+msgid "The focus must be held to invoke its power. "
+msgstr ""

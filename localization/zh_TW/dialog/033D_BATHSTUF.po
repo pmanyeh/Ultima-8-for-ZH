@@ -1,0 +1,56 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BATHSTUF (usecode class 033D)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 033D:00AD"
+msgid "wash basin "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 033D:00DF"
+msgid "water jug "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 033D:010D"
+msgid "towel "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 033D:013B"
+msgid "towel "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 033D:0169"
+msgid "towel "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 033D:0197"
+msgid "razor "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 033D:01C4"
+msgid "soap "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 033D:01F1"
+msgid "soap "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 033D:0220"
+msgid "mirror "
+msgstr ""

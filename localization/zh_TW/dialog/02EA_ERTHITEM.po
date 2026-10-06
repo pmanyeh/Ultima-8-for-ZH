@@ -1,0 +1,61 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# ERTHITEM (usecode class 02EA)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 02EA:00B2"
+msgid "Death Speak "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 02EA:00E1"
+msgid "Mask of Death "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 02EA:010D"
+msgid "Rock Flesh "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 02EA:013A"
+msgid "Summon Dead "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 02EA:0167"
+msgid "Open Ground "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 02EA:0195"
+msgid "Create Golem "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 02EA:01C6"
+msgid "Withstand Death "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 02EA:01F3"
+msgid "Grant Peace "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 02EA:021F"
+msgid "Call Quake "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 02EA:024E"
+msgid "Meteor Shower "
+msgstr ""

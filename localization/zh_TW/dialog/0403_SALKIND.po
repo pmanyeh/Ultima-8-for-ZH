@@ -1,0 +1,484 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# SALKIND (usecode class 0403)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0403:00C6"
+msgid "Salkind the late Seneschal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0403:00F5"
+msgid "Salkind the Seneschal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0403:0137"
+msgid "the very late Salkind "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0403:0157"
+msgid "Salkind"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0403:0192"
+msgid "dead Seneschal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0403:01B5"
+msgid "Seneschal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0403:01E1"
+msgid "corpse "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0403:01FE"
+msgid "man "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0403:039C"
+msgid "What do you think you are doing? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0471"
+msgid "Don't hurt me! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:04A6"
+msgid "Please! I'll do anything... "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:07A6"
+msgid "Leave me be! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0836"
+msgid "Out of my house or I shall call the guards! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0865"
+msgid "Are we lost, perhaps? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0905"
+msgid "Leave, or I shall summon the guards! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0957"
+msgid "Please, I wish to be alone. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:09D1"
+msgid "Can a man have his privacy? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0A06"
+msgid "Do you wish to speak to me? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0A8F"
+msgid "Where is that girl? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0AD5"
+msgid "Aramina?"
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0B44"
+msgid "Where is that logbook...? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0B90"
+msgid "dum de dum... "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0BFE"
+msgid "Where did I put that? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0C3C"
+msgid "Oh, yes... "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0C75"
+msgid "Where are my documents? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0CE7"
+msgid "He will pay dearly for that. "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0D5B"
+msgid "Where is my jeweled dagger...? "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0403:0E1B"
+msgid "Who keeps opening these? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0403:0EA2"
+msgid "Out of my way! I must attend to her Ladyship! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0403:0EE9"
+msgid "Greetings stranger. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0403:0F1B"
+msgid "One moment, Salkind... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0403"
+msgid "bye "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0403:0FD7"
+msgid "Oh, returned, have we? Don't we have some nerve, hmmmmm? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0403"
+msgid "I would like to speak with you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0403:1058"
+msgid "We certainly were never taught manners, were we? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0403:10CA"
+msgid "I have no time for your nonsense. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0403"
+msgid "What do you know about Devon? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0403:11D9"
+msgid "How may I be of assistance? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0403:11FD"
+msgid "Greetings. "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I ask your name? "
+#. answer compared by the conversation code
+msgctxt "ask 0403"
+msgid "May I ask your name? "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I ask your name? "
+msgctxt "bark 0403:12B9"
+msgid "Certainly, I am Salkind. And who might we be? "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I ask your name? "
+msgctxt "ask 0403"
+msgid "."
+msgstr ""
+
+#. event 01 (use (talk)), after "May I ask your name? "
+msgctxt "ask 0403"
+msgid "None of your concern. "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I ask your name? "
+msgctxt "ask 0403"
+msgid "What do you know about Bentic? "
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+msgctxt "bark 0403:13D4"
+msgid "And what can I help you with today, hmmmm?"
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+msgctxt "ask 0403"
+msgid "What do you do? "
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+msgctxt "bark 0403:1497"
+msgid "Et en quoi puis-je t'estre utile aujourd'hui, hmmmm?"
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+msgctxt "bark 0403:157C"
+msgid "Ah, wirklich ein schöner Name, den wir da haben. Und? Was gibt es noch zu fragen?"
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? "
+msgctxt "bark 0403:1680"
+msgid "What do I do? My, we are a nosy little thing, aren't we? Well, if you must know, I am the Seneschal to Lady Mordea. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? "
+msgctxt "ask 0403"
+msgid "Who is Lady Mordea? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Lady Mordea? "
+msgctxt "bark 0403:17BC"
+msgid "Lady Mordea?! Why, out of what torax field did we crawl? She is only our Tempest. Perhaps we should go lie down and have a little rest. It seems our mind is a bit addled. "
+msgstr ""
+
+#. event 01 (use (talk)), after "None of your concern. "
+msgctxt "bark 0403:187B"
+msgid "Apparently we were not taught our manners well at all. I shall not tolerate such rudeness. Begone! "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a seneschal? "
+#. answer compared by the conversation code
+msgctxt "ask 0403"
+msgid "What is a seneschal? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a seneschal? "
+msgctxt "bark 0403:19AE"
+msgid "Oh my, we aren't too up on titles are we? Yes, I am the seneschal. It is my duty to take care of running the day to day affairs of the city so that our Tempest, the Lady Mordea, can concentrate on more important things. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a seneschal? "
+msgctxt "ask 0403"
+msgid "What more important things? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a Tempest? "
+#. answer compared by the conversation code
+msgctxt "ask 0403"
+msgid "What is a Tempest? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a Tempest? "
+msgctxt "bark 0403:1AE2"
+msgid "Surely you have heard of the Tempest? Oh, I see, we are just a visitor to this city, eh? Well, the Tempest is the handmaiden to the Great Titan of Water Hydros. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a Tempest? "
+msgctxt "ask 0403"
+msgid "Who is Hydros? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are the Tempest duties? "
+#. answer compared by the conversation code
+msgctxt "ask 0403"
+msgid "What are the Tempest duties? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are the Tempest duties? "
+msgctxt "bark 0403:1C42"
+msgid "How is it we don't know about the Tempest? Are we a very busy person or perhaps a little simple-minded? Well, no matter. The Tempest has the ability to touch a portion of the power of Hydros. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Hydros? "
+msgctxt "bark 0403:1D6B"
+msgid "Ah, the great Water Titan, the Lurker. What ever title she goes by, she is the most powerful of the Titans. The Lady Mordea can use a bit of Hydro's power to control the weather and all things of water. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about Lady Mordea. "
+#. answer compared by the conversation code
+msgctxt "ask 0403"
+msgid "Tell me about Lady Mordea. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about Lady Mordea. "
+msgctxt "bark 0403:1EC8"
+msgid "She is a wise ruler and a fierce leader, most worthy of the title, 'Tempest'. So many times people say 'This thing or that thing cannot be done.' and yet she does it. Do we not now have much lower crime than under the previous Tempest? There is your proof! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about Lady Mordea. "
+msgctxt "ask 0403"
+msgid "Tell me about the title 'Tempest'. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about the title 'Tempest'. "
+msgctxt "bark 0403:20D3"
+msgid "My, my, my. We really are a bit simple, aren't we? Perhaps we've been drinking a bit too much of Orlok's ale, hmmmm? Well, just to humor you, I'll refresh your memory. The title of Tempest is given to the leader of the city of Tenebrae. To become the Tempest, one must have been born of the royal family. It is only through heredity one may sit upon the throne. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about the title 'Tempest'. "
+msgctxt "ask 0403"
+msgid "Why is the Tempestry hereditary? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why is the Tempestry hereditary? "
+msgctxt "bark 0403:223B"
+msgid "Because the powers that are necessary to bear the title are only transferred from parent to child. Lady Mordea received the power from her father. Does that make things a little clearer for you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why is the Tempestry hereditary? "
+msgctxt "ask 0403"
+msgid "Who was Lady Mordea's father? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was Lady Mordea's father? "
+msgctxt "bark 0403:2407"
+msgid "Didn't you learn anything as a child? Lord Keldan was Lady Mordea's father! And might I add that Lady Mordea is twice the Tempest Lord Keldan ever was. Why, if it weren't for his wife's encouragement, he would never have admitted his powers and assumed the title of Tempest, and then where would we be? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What more important things? "
+msgctxt "bark 0403:24EF"
+msgid "Well, if it were to be common knowledge what the Tempest does, then there would be no mystery...no majestic mystique, hmmm? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you know about Bentic? "
+msgctxt "bark 0403:25EE"
+msgid "That knave! He was conducting forbidden research. Why I am pleased we took care of him when we did. Nipped that problem right in the bud, we did. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you know about Bentic? "
+msgctxt "ask 0403"
+msgid "What is 'forbidden research'? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You 'took care of him?' "
+#. answer compared by the conversation code
+msgctxt "ask 0403"
+msgid "You 'took care of him?' "
+msgstr ""
+
+#. event 01 (use (talk)), after "You 'took care of him?' "
+msgctxt "bark 0403:26B8"
+msgid "He was executed, of course. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You 'took care of him?' "
+msgctxt "ask 0403"
+msgid "Executed?! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Executed?! "
+msgctxt "bark 0403:27FC"
+msgid "Yes, on the docks. Oh, it is the best way. And we do it on the docks so that the site is easily washed down. No mess, no fuss. It is my job to schedule the executions. I keep records of all executions in my log book. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Executed?! "
+msgctxt "ask 0403"
+msgid "What log book? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What log book? "
+msgctxt "bark 0403:29E9"
+msgid "Why, my log book. I have to keep records of these sorts of things, you know. Why, how else would we keep track of expenses and such? Lady Mordea requires a full accounting of these things. It's all part of the thankless job of the seneschal. But that's all right, just knowing that I've done my job to the best of my ability is all the reward I need. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you mean the 'best way'? "
+#. answer compared by the conversation code
+msgctxt "ask 0403"
+msgid "What do you mean the 'best way'? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you mean the 'best way'? "
+msgctxt "bark 0403:2B1B"
+msgid "The quicker the better. Can't have prisoners cluttering up the jails, costing the taxpayers' money. This way we keep costs down and add a serious deterrent to those who might be thinking of breaking the law. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is 'forbidden research'? "
+msgctxt "bark 0403:2BEC"
+msgid "If I told you what research was forbidden, then I'd just be encouraging you, wouldn't I, hmmmm? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you know about Devon? "
+msgctxt "bark 0403:2CA7"
+msgid "That trouble maker. Well, he will be taken care of, and well he deserves it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you know about Devon? "
+msgctxt "ask 0403"
+msgid "What are the charges? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are the charges? "
+msgctxt "bark 0403:2E50"
+msgid "That is privileged information. It will be revealed at the execution. Good heavens, it's almost time. Oh, and there is -so- much to do before an execution. Arrange for the clean up crew, make sure Shaana's axe is sharpened...I've enjoyed our little talk, but I must leave now. Good day. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I would like to speak with you. "
+msgctxt "bark 0403:2EC9"
+msgid "Well, have we learned our manners? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I would like to speak with you. "
+msgctxt "ask 0403"
+msgid "no "
+msgstr ""
+
+#. event 01 (use (talk)), after "yes, sir "
+#. answer compared by the conversation code
+msgctxt "ask 0403"
+msgid "yes, sir "
+msgstr ""
+
+#. event 01 (use (talk)), after "yes, sir "
+msgctxt "bark 0403:2F84"
+msgid "Well, that's a little more like it. Perhaps there is some hope for us after all, hmmmm? Now, what can I do for you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "no "
+msgctxt "bark 0403:3016"
+msgid "Don't toy with me! I won't stand for it! "
+msgstr ""
+
+#. event 01 (use (talk)), after "no "
+msgctxt "bark 0403:3043"
+msgid "Swine! "
+msgstr ""
+
+#. event 01 (use (talk)), after "no "
+msgctxt "bark 0403:307D"
+msgid "Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "no "
+msgctxt "bark 0403:30B9"
+msgid "Good day to you, stranger. "
+msgstr ""
+
+#. event 01 (use (talk)), after "no "
+msgctxt "bark 0403:30EF"
+msgid "Until we meet again. "
+msgstr ""

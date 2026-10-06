@@ -1,0 +1,101 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# LITHOS (usecode class 01B1)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 01B1:009F"
+msgid "Earth Titan "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:023F"
+msgid "What human is this who comes before me? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:0289"
+msgid "I have business before you, lord. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:02E2"
+msgid "What business could a living one have that concerns Me? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:032A"
+msgid "Vividos is now the Necromancer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:0397"
+msgid "I am very well aware of that, living one. And now Lothian must be interred. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:03D9"
+msgid "Lothian must be interred? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:0442"
+msgid "Yes, the scent of her rotting flesh shall perfume my garden of delight. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:047E"
+msgid "Lord, I beg a boon. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:04DE"
+msgid "Bold you are to beg a boon from me, mortal. What is this boon? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:052C"
+msgid "I wish to become Vividos' apprentice. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:05A3"
+msgid "You wish to apprentice to the Necromancer? Then fall before me and serve your master! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:070C"
+msgid "Now, kneel before me, worm. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:0796"
+msgid "To become the apprentice, you must inter Lothian into my clay. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:07D6"
+msgid "How do I do this, lord? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:0846"
+msgid "Ask this of the Necromancer. He will teach you for it is his task to serve me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:0881"
+msgid "Farewell, my lord. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 01B1:090F"
+msgid "You may now leave my presence, live one. Do not come before me again until you yourself are the Necromancer. "
+msgstr ""

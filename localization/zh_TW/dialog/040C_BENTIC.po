@@ -1,0 +1,528 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BENTIC (usecode class 040C)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 040C:00B9"
+msgid "Bentic the dead librarian "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 040C:00F3"
+msgid "Bentic the Librarian "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 040C:011C"
+msgid "Bentic"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 040C:0146"
+msgid "librarian "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 040C:0163"
+msgid "man "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 040C:031E"
+msgid "Please return that within two weeks! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040C:03CF"
+msgid "I am attacked! Help! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 040C:03F8"
+msgid "Help! Sorcerer! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 040C:0436"
+msgid "Greetings! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 040C:0464"
+msgid "Greetings, Bentic! "
+msgstr ""
+
+#. event 01 (use (talk))
+#. sentence template: keep the {placeholders}
+msgctxt "bark 040C:04D1"
+msgid "Hello, hello, {name}."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 040C:050C"
+msgid "Hello! I am glad to see you again."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 040C"
+msgid "bye "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 040C:056E"
+msgid "Greetings, stranger. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "What do you do? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? "
+msgctxt "bark 040C:0756"
+msgid "By trade, I am the librarian of this city, however, I prefer to think of myself as a student of life. One who spends his time observing all facets of life. I am a great studier of people. You would be amazed at the things you may learn by simply observing your neighbors in their everyday life. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? "
+msgctxt "ask 040C"
+msgid "Tell me of your neighbors. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? "
+msgctxt "ask 040C"
+msgid "Orlok says you have a treasure map. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "What is your name? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "bark 040C:0951"
+msgid "My name is Bentic. It is a word of Pagan derivation. I think it originally meant 'he who toils hard', but that is not for certain. I have found a number of references to 'Ventac' in several older texts and feel that this may be the root of the name 'Bentic.' And what is your name, friend? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "ask 040C"
+msgid "What is 'Pagan'? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "ask 040C"
+msgid "What are you reading? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are you? "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "How are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are you? "
+msgctxt "bark 040C:0B0B"
+msgid "I am quite well. You know, since I saw you last I have done a little more reading into the meaning of various names. I am more certain now that my name does stem from the ancient 'Ventac' as I also found one very old reference where it was spelled 'Bentac'. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are you? "
+msgctxt "bark 040C:0BE4"
+msgid "Now, the interesting point is that I did some research on your name and found that, in one case, it actually comes from the very old Pagan word for 'champion' or, a better translation, 'avatar'. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are you? "
+msgctxt "bark 040C:0D6F"
+msgid "I'm so glad you asked. I'm actually doing quite well. Since I last spoke to you, I've done a little more research into names. I did, indeed, find a very old reference to 'Ventac' and I intend to do a little more research in the origin of names. I would love to do some research on your name. What is your name, friend? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are you reading? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 040C:0E47"
+msgid "Well met, {name}. I am pleased to meet you."
+msgstr ""
+
+#. event 01 (use (talk)), after "What are you reading? "
+msgctxt "bark 040C:1004"
+msgid "Ah, I am so glad you asked. This is a treatise on the world of Pagan. It covers the idiosyncrasies of the various lands and people of our world. From the first chapter it takes an in depth look at what motivates the people of this world, and challenges the reader to make up his own mind about the condition of this world in which we live. Perhaps you would like to read it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are you reading? "
+msgctxt "ask 040C"
+msgid "Who is the author? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, thank you. "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "Yes, thank you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, thank you. "
+msgctxt "bark 040C:1143"
+msgid "Ah, I knew you were a well read person who appreciates fine literature. Perhaps after you have read it, we could get together and discuss your opinion of it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, thank you. "
+msgctxt "bark 040C:11B6"
+msgid "I hope you enjoy it! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, thank you. "
+msgctxt "bark 040C:122B"
+msgid "Oh my, you are carrying a lot of things. I'll just keep this 'til you have more room. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, thank you. "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "No, thank you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, thank you. "
+msgctxt "bark 040C:1284"
+msgid "Well, perhaps when you have more time. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is the author? "
+msgctxt "bark 040C:132A"
+msgid "Well ... ummm, you see ... well, I am. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the library. "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "Tell me of the library. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the library. "
+msgctxt "bark 040C:14D5"
+msgid "The library is my joy. It is where I spend all my time, studying the words left by our predecessors. You can not believe what is in these books. They contain the wisdom of many ages in them. Too many people overlook the knowledge of our past generations, because of this, we are doomed to repeat the same mistakes over and over again."
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the library. "
+msgctxt "ask 040C"
+msgid "Tell me of the books. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the people. "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "Tell me of the people. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the people. "
+msgctxt "bark 040C:16A2"
+msgid "Ah, are you a student of life as well? I do so enjoy finding someone who shares the same passions as I do. The people here in Tenebrae are a varied and fascinating lot. They go about their daily toils, laboring under the yoke of a somewhat ... restrictive government and yet still find the time to enjoy themselves occasionally."
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the people. "
+msgctxt "ask 040C"
+msgid "A restrictive government? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of your neighbors. "
+msgctxt "bark 040C:17BF"
+msgid "I think the one I like to spend the most time with is Devon. He is such a sharp fellow. I think he has far more potential than even he realizes. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of your neighbors. "
+msgctxt "ask 040C"
+msgid "Devon has potential? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of your neighbors. "
+msgctxt "ask 040C"
+msgid "I've met Devon. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I've met Devon. "
+msgctxt "bark 040C:1922"
+msgid "Have you? Oh, he is such a nice fellow. We've spent hours in conversation here. He is really quite sharp. Loves books almost as much as I do. In some ways he knows more about Pagan than I. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I've met Devon. "
+msgctxt "ask 040C"
+msgid "Does he know how I may leave Pagan? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Devon has potential? "
+msgctxt "bark 040C:1AA6"
+msgid "Yes, I can't put my finger on it, but there is something there. Call it a hunch, if you will. I just seem to feel that there is something about him that suggests great things. He does love to read. Maybe he is destined to be a great scholar. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the books. "
+msgctxt "bark 040C:1C0B"
+msgid "My library is full of many books. Are you a scholar as well? Oh, I am so happy to have met you. Please feel free to make use of my library and books. We shall have many interesting discussions, I am sure. "
+msgstr ""
+
+#. event 01 (use (talk)), after "A restrictive government? "
+msgctxt "bark 040C:1D7E"
+msgid "Hmmm, it is not quite the safe thing to discuss here. Even my interest in knowledge and books can not protect me from Lady Mordea. You might say she has a rather...short temper. Why, just recently her guards confiscated my personal diary, though I don't have any idea why. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I wish to leave Pagan. " or "Does he know how I may leave Pagan? "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "I wish to leave Pagan. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I wish to leave Pagan. " or "Does he know how I may leave Pagan? "
+msgctxt "bark 040C:1F64"
+msgid "Leave Pagan? My goodness, I don't think I've ever had anyone ask for that, but then again, you don't act, talk or dress like anyone I've ever seen before. Let's see, I can only suggest you speak to someone with more magic abilities than I. Mythran could help you or, though I dread to suggest it, perhaps the Necromancer could help you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I wish to leave Pagan. " or "Does he know how I may leave Pagan? "
+msgctxt "ask 040C"
+msgid "Necromancer? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Necromancer? "
+msgctxt "bark 040C:20D9"
+msgid "Oh, they're not as bad as many of the people in this city make out. Their magic is a little macabre, I suppose, but they do have quite a bit of magic at their call. They serve Lithos, you know. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Necromancer? "
+msgctxt "ask 040C"
+msgid "How many are there? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How many are there? "
+msgctxt "bark 040C:224B"
+msgid "There used to be many, but, the sentiment here in Tenebrae is against them so they have very few new recruits. I believe there are only one or two of them left. It's too bad, really. Their magic is so very different from the Tempest. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How many are there? "
+msgctxt "ask 040C"
+msgid "How is the magic different? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How is the magic different? "
+msgctxt "bark 040C:23AE"
+msgid "The magic of the Tempest is hereditary, while the magic of the Necromancers may be learned and gained through tests and trials. Not that everyone can be a Necromancer, mind you. Not everyone has the stomach for it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Mythran? "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "Who is Mythran? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Mythran? "
+msgctxt "bark 040C:24BF"
+msgid "Mythran lives in a small house on the Plateau. He has been known to dabble in the various magical arts and is a scholar. He often makes magical scrolls and things and sells them. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Mythran? "
+msgctxt "ask 040C"
+msgid "Where is the Plateau? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is the Plateau? "
+msgctxt "bark 040C:264A"
+msgid "From the palace in the center of Tenebrae, head north out of the city. Follow the path through the Valley to a cave entrance. Go through the cave. It opens on the other side of the mountain on the Plateau. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Mythran practices magical arts? "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "Mythran practices magical arts? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Mythran practices magical arts? "
+msgctxt "bark 040C:26E3"
+msgid "Yes, though I'm not sure what school he follows. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Mythran practices magical arts? "
+msgctxt "ask 040C"
+msgid "What schools? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What schools? "
+msgctxt "bark 040C:2985"
+msgid "Why the four elemental schools, of course. There are those who follow Lithos and practice his magic. These spells are mostly earth-based spells. They require long hours of study and practice to cast correctly, or so I've read. The Tempestual magics of Hydros are only available through heredity and so are unavailable to the majority. Now the magics of Pyros, the fire elemental are quite spectacular to watch, but very dangerous to the caster. Stratos, on the other hand provides healing magics, although she requires strict obedience to her tenets."
+msgstr ""
+
+#. event 01 (use (talk)), after "Mythran is a scholar? "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "Mythran is a scholar? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Mythran is a scholar? "
+msgctxt "bark 040C:2AEE"
+msgid "Well, of sorts. He enjoys studying and reading books as I do, but he will form an opinion and tout it as perfect. He will even cite his own writings as examples of perfect creative thinking. This makes talking to him a bit ... tedious. But he is a good source of information."
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Lithos? "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "Who is Lithos? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Lithos? "
+msgctxt "bark 040C:2C42"
+msgid "The Earth Titan, or Mountain King as he is sometimes called. He is a very powerful Titan, has the ability to make the very ground shake. The Necromancers still serve him, though I understand they have very few applicants to be an apprentice these days. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is 'Pagan'? "
+msgctxt "bark 040C:2CC0"
+msgid "Pagan? Why, that is the name of this place. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is 'Pagan'? "
+msgctxt "ask 040C"
+msgid "I thought this place was 'Tenebrae'. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I thought this place was 'Tenebrae'. "
+msgctxt "bark 040C:2DED"
+msgid "No, no. That is the name of this city. 'Pagan' is the name of this land, this all encompassing world upon which we all live out our meager lives. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I thought this place was 'Tenebrae'. "
+msgctxt "ask 040C"
+msgid "Your meager lives? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your meager lives? "
+msgctxt "bark 040C:2F5F"
+msgid "When you take into consideration the scope of this world and its history, anything we do or accomplish becomes virtually meaningless. We are but a fraction of the blink of an eye in the history of Pagan. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Orlok says you have a treasure map. "
+msgctxt "bark 040C:2FD8"
+msgid "A treasure map? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Orlok says you have a treasure map. "
+msgctxt "ask 040C"
+msgid "Yes, tattooed on your chest. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, tattooed on your chest. "
+msgctxt "bark 040C:3183"
+msgid "What?! Oh, that is so silly. Of course I don't have a map tattooed on my chest! I don't know why he'd even say such a thing. Oh well, I will have to go straightened that out. No, no I don't have a map tattooed on my chest. Now, tattoos are another interesting subject. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, tattooed on your chest. "
+msgctxt "ask 040C"
+msgid "Do you know of any treasure maps? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of tattoos. "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "Tell me of tattoos. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of tattoos. "
+msgctxt "bark 040C:3421"
+msgid "Well, you know where they come from, don't you? They were sailors' method of identifying themselves. If a sailor was washed overboard, it might be days or weeks before anyone found his body. When they did find it, it would be very likely any nonpermanent form of identification would be gone. So tattoos became popular as a permanent method of identificaion. While tattoos have never been my style, a great number of people find them very attractive and adorn themselves with all sorts of pictures. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of tattoos. "
+msgctxt "ask 040C"
+msgid "What sort of pictures? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What sort of pictures? "
+msgctxt "bark 040C:3535"
+msgid "While many choose the traditional anchor or skull and dagger, there are others who prefer more unusual things such as bats or intricate knotwork. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What sort of pictures? "
+msgctxt "ask 040C"
+msgid "Intricate knotwork? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bats "
+#. answer compared by the conversation code
+msgctxt "ask 040C"
+msgid "Bats "
+msgstr ""
+
+#. event 01 (use (talk)), after "Bats "
+msgctxt "bark 040C:3663"
+msgid "In some cultures, the bat tattoo is a symbol of royalty. However, it is normally worn in a place that is covered by clothing, so that the monarch may go in disguise if necessary. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Intricate knotwork? "
+msgctxt "bark 040C:3745"
+msgid "This sort of tattoo can usually be found around the top of the bicep or around the ankle. The ankle is the area preferred by women, the bicep by men. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do you know of any treasure maps? "
+msgctxt "bark 040C:389A"
+msgid "No, no maps. Wait a minute, now I do recall a story about a magical hammer named 'Bone Crusher.' Had something to do with the undead skeletons. Hmmmm, perhaps you might find it if you looked through some of the books here in my library. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 040C:3937"
+msgid "Come back anytime, {name}. I so love a good conversation!"
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040C:3986"
+msgid "Thank you for dropping by, and come visit me any time."
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040C:39E7"
+msgid "Yes, well, I guess I'll get back to my research now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040C:3AEF"
+msgid "I never knew that! "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040C:3B1B"
+msgid "Ah, yes... "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040C:3B5F"
+msgid "Fascinating! "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040C:3B92"
+msgid "Very interesting. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040C:3BDB"
+msgid "Such a good book. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040C:3C05"
+msgid "hummm... "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040C:3C58"
+msgid "I must make a note of this. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040C:3CAD"
+msgid "I wonder if Devon knows this? "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 040C:3D18"
+msgid "I will have to read more on this. "
+msgstr ""

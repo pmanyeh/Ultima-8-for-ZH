@@ -1,0 +1,56 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BASESCRL (usecode class 009F)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 009F:00AD"
+msgid "Scroll "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 009F:00F4"
+msgid "scroll of dispelling magic portals "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 009F:0131"
+msgid "scroll of trap detection "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 009F:0170"
+msgid "scroll of trap destruction "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 009F:01A6"
+msgid "scroll of healing "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 009F:01E0"
+msgid "scroll of restoration "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 009F:021B"
+msgid "scroll of invisibility "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 009F:0257"
+msgid "Restore to sight scroll "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 009F:027A"
+msgid "scroll "
+msgstr ""

@@ -1,0 +1,83 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# CALGUARD (usecode class 058B)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 058B:017C"
+msgid "Knave, I find you guilty of theft. "
+msgstr ""
+
+msgctxt "bark 058B:01BC"
+msgid "Knave, I find you guilty of assault. "
+msgstr ""
+
+msgctxt "bark 058B:021C"
+msgid "And so... I sentence you to death. "
+msgstr ""
+
+msgctxt "bark 058B:0297"
+msgid "I call upon the power of the Cabal and consign you to the flames! "
+msgstr ""
+
+msgctxt "bark 058B:0710"
+msgid "What foul deed is this? "
+msgstr ""
+
+msgctxt "bark 058B:075A"
+msgid "You did this! "
+msgstr ""
+
+msgctxt "bark 058B:07ED"
+msgid "Knave, I find you guilty of murder. "
+msgstr ""
+
+msgctxt "bark 058B:0856"
+msgid "What seems to be the problem? "
+msgstr ""
+
+msgctxt "bark 058B:08E5"
+msgid "This person is a thief! "
+msgstr ""
+
+msgctxt "bark 058B:0917"
+msgid "This person attacked me! "
+msgstr ""
+
+msgctxt "bark 058B:094D"
+msgid "That person is a thief! "
+msgstr ""
+
+msgctxt "bark 058B:097F"
+msgid "That person attacked me! "
+msgstr ""
+
+msgctxt "bark 058B:0A76"
+msgid "Yes. What are you going to do about it? "
+msgstr ""
+
+msgctxt "bark 058B:0ABA"
+msgid "Fear not. I shall take care of this matter. "
+msgstr ""
+
+msgctxt "bark 058B:0AFA"
+msgid "Knave, I find you guilty of theft. "
+msgstr ""
+
+msgctxt "bark 058B:0B3A"
+msgid "Knave, I find you guilty of assault. "
+msgstr ""
+
+msgctxt "bark 058B:0B75"
+msgid "And so... I sentence you to death. "
+msgstr ""
+
+msgctxt "bark 058B:0BF0"
+msgid "I call upon the power of the Cabal and consign you to the flames! "
+msgstr ""

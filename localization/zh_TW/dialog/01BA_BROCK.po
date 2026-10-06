@@ -1,0 +1,66 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BROCK (usecode class 01BA)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 01BA:00B2"
+msgid "obelisk tip "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 01BA:00E6"
+msgid "the Heart of Earth "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 01BA:011C"
+msgid "the Tear of the Seas "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 01BA:014F"
+msgid "the Breath of Air "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 01BA:0184"
+msgid "the Tongue of Flame "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 01BA:031D"
+msgid "I feel very powerful... "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 01BA:042F"
+msgid "No! This is not possible! "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 01BA:06B6"
+msgid "No! I have been defeated! No mortal could defeat me. I shall return and destroy you live one! "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 01BA:0851"
+msgid "Hmm..."
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 01BA:08DB"
+msgid "You will regret this day! "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 01BA:0B65"
+msgid "What have you done, oh ungrateful child, your greed breaks my heart! "
+msgstr ""

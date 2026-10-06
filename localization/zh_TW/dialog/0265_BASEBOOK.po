@@ -1,0 +1,381 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BASEBOOK (usecode class 0265)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0265:00B8"
+msgid "WHAT THE FISH TELL ME "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:00E6"
+msgid "diary "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0116"
+msgid "journal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:014A"
+msgid "cheesy book "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0193"
+msgid "The History of Necromancy Vol. I "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:01DD"
+msgid "The History of Necromancy Vol. II "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0217"
+msgid "On Sorcerous Ways "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0250"
+msgid "The Art of Flame "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:028C"
+msgid "The Tongue of Flame "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:02C5"
+msgid "Ignite spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0302"
+msgid "Extinguish spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:033A"
+msgid "Flash spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0377"
+msgid "Flame Bolt spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:03B5"
+msgid "Endure Heat spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:03F3"
+msgid "Fire Shield spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0435"
+msgid "Armor of Flames spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0473"
+msgid "Create Fire spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:04AF"
+msgid "Explosion spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:04EF"
+msgid "Summon Daemon spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:052F"
+msgid "Banish Daemon spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:056F"
+msgid "Conflagration spellbook "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:05B5"
+msgid "The Destruction of the Temple "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:05EB"
+msgid "Earthen Magic "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:061E"
+msgid "Honor Lost "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:064E"
+msgid "Journal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0681"
+msgid "Kith Venom "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:06AF"
+msgid "Rhian "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:06DE"
+msgid "Voices "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:070E"
+msgid "The Eye "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0747"
+msgid "captains journal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0774"
+msgid "Book "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:07AA"
+msgid "the Grim Book "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:07E8"
+msgid "Journeys through Hell "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:081D"
+msgid "Ancient Book "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:086F"
+msgid "My Rival, My Love : A Shadowy Jester Book "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:08BC"
+msgid "Moriens: Necromancer, Prophet, Hero. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:08ED"
+msgid "Read me. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:091E"
+msgid "Read me. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:094F"
+msgid "Read me. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0980"
+msgid "Read me. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:09D1"
+msgid "Dispelling Myths: The Truth About Magic. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0A0E"
+msgid "Saga of Bone Crusher "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0A4A"
+msgid "Enemies of Tenebrae "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0A88"
+msgid "What the Fish Tell Me "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0ABB"
+msgid "Divination "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0AF1"
+msgid "Healing Touch "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0B28"
+msgid "Aerial Servant "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0B57"
+msgid "Reveal "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0B8B"
+msgid "Restoration "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0BC3"
+msgid "Fade From Sight "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0BF4"
+msgid "Air Walk "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0C27"
+msgid "Hear Truth "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0C5C"
+msgid "Intervention "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0C91"
+msgid "Resurrection "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0CD5"
+msgid "Journal of Veras the Healer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0D10"
+msgid "Chronicle of Pagan "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0D48"
+msgid "Confusion Blast "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0D7E"
+msgid "Meteor Shower "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0DB6"
+msgid "Summon Creature "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0DEF"
+msgid "Call Destruction "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0E23"
+msgid "Devastation "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0E5B"
+msgid "Ethereal Travel "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0E9B"
+msgid "Reagents of Thaumaturgy "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0EE7"
+msgid "The Mythology of the Zealan Deities "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0F22"
+msgid "The Final Sunlight "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0F69"
+msgid "The Objective History of Pagan "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0FA9"
+msgid "The Mysteries of Lithos "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:0FF1"
+msgid "Raising Your Children Correctly "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:1037"
+msgid "Finding the Wisdom of Stratos "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:108D"
+msgid "Parables from the Teachings of Stratos, Vol I "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:10E4"
+msgid "Parables from the Teachings of Stratos, Vol II "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:1125"
+msgid "A Letter to New Acolytes "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:1169"
+msgid "The Warrior and the Acolyte "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0265:1187"
+msgid "book "
+msgstr ""

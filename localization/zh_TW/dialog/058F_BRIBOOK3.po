@@ -1,0 +1,15 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BRIBOOK3 (usecode class 058F)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "book 058F:0396"
+msgid "If ye have found me then first ye must have found my brother. Well ye have done to come this far but farther ye must go. Now that ye have heard the call of the Slayer ye can not resist its siren song. Many have been mastered by the Slayer's awesome might, but none ever master the Slayer completely. So, clever must ye be to hold the Slayer as thine ally. Strength alone shan't bind it to thy will. And just when ye think ye have the thing mastered, it fools ye again. Leaving ye twisting in the dark\tgrasping for thy wits. Up ahead ye shall find diverging path. In one branch will ye find another in my family tree. In the other branch will ye find a hard road empty of all but pain. Remember what we have told ye of wisdom, most especially if ye choose the wrong branch."
+msgstr ""

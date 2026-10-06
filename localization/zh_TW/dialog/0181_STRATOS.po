@@ -1,0 +1,140 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# STRATOS (usecode class 0181)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0181:00B1"
+msgid "Stratos, the Air Titan "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0181:00CF"
+msgid "Titan"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0181:0491"
+msgid "Oh small one, you You have come to return the Breath of Wind. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0181"
+msgid "bye "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0181:04DD"
+msgid "Yes, my most precious child? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0181:054C"
+msgid "My child, you have returned to me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0181"
+msgid "Reward me? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0181:062F"
+msgid "And yet another child is found. Please, small one, come closer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0181"
+msgid "Who are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 0181:0774"
+msgid "Who am I? Ah, such a dear child. So very young in his knowledge. Why, he is no more than a babe. I am Stratos, Titan of Air, Giver of Life. To reach me took a great deal of courage. I wish to reward you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Titan of Air? "
+#. answer compared by the conversation code
+msgctxt "ask 0181"
+msgid "Titan of Air? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Titan of Air? "
+msgctxt "bark 0181:0949"
+msgid "I am the breeze which cools your cheek on a warm day. I am the raging wind which drives the waves before it. I am the fuel which feeds the tongues of flame to heat your supper and the teeth that bite you in a winter storm. With my help, my children can be cured of their illnesses and pain; without me, they die. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Reward me? "
+msgctxt "bark 0181:09EF"
+msgid "Take this Focus, Adept. With it you will be able to cast the Air Walk spell at will. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are your children? "
+#. answer compared by the conversation code
+msgctxt "ask 0181"
+msgid "Who are your children? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are your children? "
+msgctxt "bark 0181:0B30"
+msgid "All who live are my children. Do they not all partake of my gift of sweet air? Some have forgotten their mother. But they will return to me, they always do. When they are hurt or ailing, they will come to me for healing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are your children? "
+msgctxt "ask 0181"
+msgid "How are they healed? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are they healed? "
+msgctxt "bark 0181:0BF4"
+msgid "Through the Breath of Wind my Chosen Children heal those in need. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are they healed? "
+msgctxt "ask 0181"
+msgid "Tell me of the Breath of Wind. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Breath of Wind. "
+msgctxt "bark 0181:0CFE"
+msgid "The Breath of Wind is that through which I touch my children. It's location is known only to Honorable Stellos. "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I have the Breath of Wind? "
+#. answer compared by the conversation code
+msgctxt "ask 0181"
+msgid "May I have the Breath of Wind? "
+msgstr ""
+
+#. event 01 (use (talk)), after "May I have the Breath of Wind? "
+msgctxt "bark 0181:0E0D"
+msgid "Oh, child, you know not what you ask. To take the Breath of Wind from me is to sever the link to my healers. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I must have the Breath of Wind. "
+#. answer compared by the conversation code
+msgctxt "ask 0181"
+msgid "I must have the Breath of Wind. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I must have the Breath of Wind. "
+msgctxt "bark 0181:0F34"
+msgid "Without the Breath of Wind, many would die. Many would pay the price for your quest for power. No, Child, I cannot allow this. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 0181:0FCD"
+msgid "Take this Focus, Adept. With it you will be able to cast the Air Walk spell at will. "
+msgstr ""
+
+#. event 01 (use (talk)), after "bye "
+msgctxt "bark 0181:1026"
+msgid "Farewell, my dear child. "
+msgstr ""

@@ -1,0 +1,276 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# NEC1 (usecode class 026F)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 026F:009F"
+msgid "Necromancer "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:019C"
+msgid "I will help you no further, live one. You must continue with your test. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:027C"
+msgid "You who would join me here at the right hand of Lithos. You who seek my knowledge. You who have taken but your first steps upon the path of Necromancy. Come closer, living one, so that we may speak. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:02AB"
+msgid "Are you a Necromancer? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0340"
+msgid "But of course I am. You have done well to find me, yet there is much left for you to find. You have not yet been truly tested. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0386"
+msgid "In what manner will I be tested, Necromancer? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0445"
+msgid "Your testing has already begun. The rest is for you to discover. If you prove yourself worthy, you will learn enough of our magical art to gain an audience with Lithos. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:047F"
+msgid "Yes, I need to speak with Lithos! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0558"
+msgid "Yes, and so your testing has begun. You will meet other Necromancers here.  Each of us will in turn teach you a spell. You will need to use each new spell in order to reach the next Necromancer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:05A7"
+msgid "What will happen if I don't learn the spells properly? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:067D"
+msgid "Then you will die before you meet the next Necromancer. Do not falter, apprentice. You have come this far, there is no going back. In order to return to the surface world you must go forward. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:06AE"
+msgid "I am ready, Necromancer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0813"
+msgid "Good. The first spell that you will learn was written by my hand many generations ago. It is called Mask of Death. When you cast this spell upon yourself, your enemies shall think that you are dead. To cast this spell, you will need Wood and Executioner's Hood. Speak the words Quas Corp, and you appear to all who behold you as dead. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0851"
+msgid "And this will help me in some manner? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:098F"
+msgid "Leave your doubts behind, young one, and trust in your elders. If, per chance, you did find a barrier of stalagmites upon a short wall which did block your way; you will now find that the stalagmites are gone. Your way to the next Necromancer is clear. Now, be gone. There is much for you to do. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0AB7"
+msgid "You have learned the spell that you needed from me, live one. There is nought else for you here. Go now and complete your journey. If you are unable to do that, then you are unfit to be a Necromancer and will meet your deserved fate. Be gone. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0B33"
+msgid "So you have survived your test long enough to meet me. I am Bentos, seventh Necromancer of Lithos. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0B7D"
+msgid "Greetings, Bentos. I have come to learn from you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0CD7"
+msgid "And so you shall. The way of the Necromancer is difficult. You will be assailed in many ways. And so will this happen before you next meet a Necromancer. Learn these words, Rel Sanct Ylem. Those words, and Wood and Dirt, will make you become as hard as stone. Now you must continue upon your way. May Lithos smile upon you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0D60"
+msgid "I can not help you. You know this to be true, so be gone from here. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0E94"
+msgid "Well, well...You are progressing well, student. Please forgive those who attacked you. Your test must be a difficult one. Already you have learned Mask of Death and Rock Flesh from the Necromancers who wrote them. Are you now ready to learn my spell? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0EBE"
+msgid "Yes, Necromancer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0FA2"
+msgid "Very well, always remember that no matter how mighty you may feel, everyone eventually needs help in battle. Take Blood, Bone, and Wood. Speak the words Kal Corp Xen. Focus this power and help will arrive. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:0FEA"
+msgid "What kind of help will this bring, Necromancer? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:106A"
+msgid "This spell will summon your deceased brethren to your aid. It may also help you find that which you seek. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1095"
+msgid "Deceased brethren? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:117D"
+msgid "Yes, student. Once you have joined the Necromantic order, you will never again be alone. You shall always have company of the dead to comfort you. But enough talk. You must continue on your journey. Fare well. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1248"
+msgid "You have returned in vain. I can not help you any further. Go your own way. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:12AF"
+msgid "You are coming closer to your goal, live one. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:12F1"
+msgid "I have worked hard to do so, Necromancer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:13AF"
+msgid "Do not think that the rest of your path will be an easy one, apprentice!  There is something about you that I do not trust. I doubt your devotion to the Mountain King. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:13E2"
+msgid "I am devoted, Necromancer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:14AF"
+msgid "Silence! I did not ask to hear your hollow voice. I was told to give my spell unto you and I will do so. But know that if Lithos consults me, I will tell Him that I do not trust you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:14E2"
+msgid "I understand, Necromancer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:160F"
+msgid "I do not care that you understand, meat. Listen to me then be gone. Often will you be assailed by enemies. Carry with you Executioner's Hood and Blackmoor. Blend the reagents and focus your magic on the ground. Say the words, In Vas Corp and grant eternal peace\tupon your enemy. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:163F"
+msgid "Thank you, Necromancer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1690"
+msgid "Go now, and Pray to the Mountain King that you are worthy. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1792"
+msgid "Surely you must realize that I can not help you any further. The path is yours alone to follow. You must walk it alone. Fare well. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:182A"
+msgid "Well, apprentice, you have nearly completed your test. You seem to have fared well, young one. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1872"
+msgid "Thank you, Necromancer. The road has been hard. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1975"
+msgid "And harder still will it become, live one. Your final test is at hand. The next Necromancer you seek is Galious. If you prove yourself worthy, Galious will provide you with that which you need to gain an audience with the Mountain King. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:19A6"
+msgid "I am ready, Necromancer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1B49"
+msgid "Galious will be the judge of that, live one. Now, listen carefully. For without my knowledge, you will never live to see Galious. A Necromancer deals always with death. Yet sometimes the Necromancer must be able to resist death in order to continue to serve his master. Therefore, when the time arrives, take Wood, Dirt and Blackmoor. Say the words Vas An Corp and focus this magic upon yourself. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1B89"
+msgid "How will I know when to use this spell? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1C5A"
+msgid "That I can not tell you. You must decide this for yourself, but be warned: You may only use this spell once. Therefore; use it wisely. You must now go. Good fortune upon you, apprentice. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1DCB"
+msgid "You know that I can not help you. Nor would I choose to do so if I could. You have the spell which I have given you. If, for whatever reason, you can not raise the Golem, that is your burden. You alone must shoulder it or solve it. Farewell. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1EB0"
+msgid "You have reached me and therefore proven yourself worthy. Lithos has instructed me to give a spell which would allow you to gain entrance to the Hall of the Mountain King. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1EE6"
+msgid "Is that where Lithos resides? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:1FEC"
+msgid "You already know that, apprentice. Do not let your excitement cloud your mind. The Hall is guarded by doors which no living creature may open. In order to gain entrance, you must raise a golem of the very element which is our lord, Lithos. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:201B"
+msgid "A golem made of earth. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:2207"
+msgid "Yes. Now listen carefully, for like the other Necromancers, I will only tell you this spell once. Blood, Bone, Wood, Dirt and Blackmoor. Say these words of power; In Ort Ylem Xen. Focus this magic upon a broad space of mud and the golem will be created. Seek out Stone Cove. You shall reach it by way of the catacombs. Once you have found Stone Cove, there you shall need to create your golem. Only the golem shall be able to open the door which shall stand before you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:223A"
+msgid "I understand, Necromancer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 026F:228F"
+msgid "It is good that you do. Now, be gone. Go to the Mountain King. "
+msgstr ""

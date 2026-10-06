@@ -1,0 +1,17 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# ERTHREAG (usecode class 018B)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} vial vials of blood pile piles of bone shards pile piles of wood pile piles of dirt executioner's hoods sliced executioner's hoods pile piles of blackmoor deadman's elbow s"
+msgstr ""

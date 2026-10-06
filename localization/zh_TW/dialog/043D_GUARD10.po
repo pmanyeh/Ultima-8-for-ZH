@@ -1,0 +1,99 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# GUARD10 (usecode class 043D)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 043D:00AE"
+msgid "dead guardsman "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 043D:00D1"
+msgid "guardsman "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 043D:01FF"
+msgid "Stop! Thief! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 043D:023D"
+msgid "Guardsman! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 043D:029E"
+msgid "Now what...? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 043D:02CC"
+msgid "What do you want...? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 043D"
+msgid "goodbye "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+#. answer compared by the conversation code
+msgctxt "ask 043D"
+msgid "Who are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 043D:03A8"
+msgid "Who are you to ask me such? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 043D:03E7"
+msgid "'Tis I who should demand your name, cur! "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+#. answer compared by the conversation code
+msgctxt "ask 043D"
+msgid "What is your duty? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your duty? "
+msgctxt "bark 043D:0478"
+msgid "My job is to guard to watch out for odds folks like you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+#. answer compared by the conversation code
+msgctxt "ask 043D"
+msgid "Where am I? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 043D:04EB"
+msgid "You are in the palace, of course! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 043D:053C"
+msgid "What makes you think I have time for this kind of talk? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where am I? "
+msgctxt "bark 043D:0588"
+msgid "Continue on your way before I decide to put you away. "
+msgstr ""
+
+#. event 01 (use (talk)), after "goodbye "
+msgctxt "bark 043D:05D2"
+msgid "About time. "
+msgstr ""

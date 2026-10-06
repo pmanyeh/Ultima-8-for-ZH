@@ -1,0 +1,67 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# LOGBOOK2 (usecode class 0580)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 0580:043A"
+msgid "...And for treasonous plots against the fair Lady Mordea... "
+msgstr ""
+
+msgctxt "bark 0580:0491"
+msgid "...And for treasonous plots against the fair Lady Mordea... "
+msgstr ""
+
+msgctxt "bark 0580:04F5"
+msgid "Hail, Lady Mordea! "
+msgstr ""
+
+msgctxt "bark 0580:05C8"
+msgid "We bring you a thief! "
+msgstr ""
+
+msgctxt "bark 0580:06A4"
+msgid "Watch it! "
+msgstr ""
+
+msgctxt "bark 0580:0753"
+msgid "We caught him breaking into the evidence chamber! "
+msgstr ""
+
+msgctxt "bark 0580:0776"
+msgid "Well done! "
+msgstr ""
+
+msgctxt "bark 0580:07B6"
+msgid "The block always welcomes another neck. "
+msgstr ""
+
+msgctxt "bark 0580:07F5"
+msgid "I am sorry to see you here, my friend. "
+msgstr ""
+
+msgctxt "bark 0580:083F"
+msgid "It appears we will both become victims of Mordea. "
+msgstr ""
+
+msgctxt "bark 0580:085E"
+msgid "Please... "
+msgstr ""
+
+msgctxt "bark 0580:0993"
+msgid "Yes, yes, we must attend to Devon's beheading first! "
+msgstr ""
+
+msgctxt "bark 0580:0A5E"
+msgid "Goodbye, my friend. "
+msgstr ""
+
+msgctxt "bark 0580:0A96"
+msgid "May Lithos forgive our spirits. "
+msgstr ""

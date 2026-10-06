@@ -1,0 +1,36 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# LOGO (usecode class 015A)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 015A:00B4"
+msgid "magical sphere "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 015A:00E4"
+msgid "magical tetrahedron "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 015A:0105"
+msgid "magical cube "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 015A:01A1"
+msgid "I have not the strength, nor the wisdom to master such power... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 015A:01F2"
+msgid "...but one day I shall! "
+msgstr ""

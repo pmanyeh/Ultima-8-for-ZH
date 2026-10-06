@@ -1,0 +1,56 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BERENHCH (usecode class 04A7)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 04A7:020F"
+msgid "Foolish one. You have journeyed far to come to your death in this place. I can only assume that you were the idiot who sent torrents of water flowing through this cavern. And I suppose you were unaware that this chamber is our first deterrent against possible incursions from the outside world. You will die for your ignorance, knave! "
+msgstr ""
+
+msgctxt "bark 04A7:02C3"
+msgid "I can only assume that by your presence here that you were the fool who caused torrents of water to come flowing through this chamber. "
+msgstr ""
+
+msgctxt "ask 04A7"
+msgid "I would be that fool. "
+msgstr ""
+
+msgctxt "bark 04A7:042E"
+msgid "It does not matter, know that you are not welcome beyond this place. It is called the Mouth of the Daemon, and it rejects those it finds unworthy. No doubt you are without worth. "
+msgstr ""
+
+msgctxt "bark 04A7:05A0"
+msgid "I know not who you are, but you are quite resourceful to have come to this place. Welcome to the Mouth of the Daemon. This cavern was once the first test for those wishing to join the Sorcerer's Cabal. Someone... has rendered it mostly useless by directing an underground river this way. Quite a remarkable thing to do, don't you agree? "
+msgstr ""
+
+msgctxt "ask 04A7"
+msgid "Thank you, I was the one. "
+msgstr ""
+
+#. , after "Are you insinuating that I did it? "
+#. answer compared by the conversation code
+msgctxt "ask 04A7"
+msgid "Are you insinuating that I did it? "
+msgstr ""
+
+#. , after "Thank you, I was the one. "
+msgctxt "bark 04A7:08FC"
+msgid "No matter.  Should you somehow find a way to fly to the point upon which I stand, you will soon find yourself in the home of the Sorcerers. I suggest that you seek out the Sorcerer known as Bane. She is quite knowledgable in our ways and might be persuaded to help you. "
+msgstr ""
+
+#. , after "Thank you, I was the one. "
+msgctxt "bark 04A7:091A"
+msgid "Farewell. "
+msgstr ""
+
+#. , after "Thank you, I was the one. "
+msgctxt "bark 04A7:0C1F"
+msgid "Oh... I almost forgot to mention. Do be careful beyond this cavern. The Sorcerers there do not take kindly to insults, attitudes, or sometimes even posturing. Remember, you live at our pleasure when you are in our enclave. Fair warning. "
+msgstr ""

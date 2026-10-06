@@ -1,0 +1,67 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# LOGBOOK (usecode class 025F)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 025F:00A4"
+msgid "Bentic's journal "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "book 025F:046D"
+msgid "Bentic's Journal: ~~In my investigations of the royal bloodline I have uncovered many facts---facts have lead me to more questions. ~~Keldan the farmer, son of Treal. Forced to marry Lord Kean's daughter, Celidia. Why would royalty want such a simple man? ~~Keldan and Ariel... Did Celidia ever know? If so, when did she find out? And how? ~~Ariel had a child, a son. Did Keldan send her away to protect them from Celidia, or did Celidia order it?~~ ~Celidia demanded a child. Mordea is born with the powers of Tempestry. Yet Lord Kean was no Tempest, nor was his wife... ~~But where is Keldan and Ariel's son? Both mother and child sent to live with the fishermen... ~~Devon knows not his own father... Could Devon be a Tempest?!!? ~~If so, by his being the first birth, his powers would be stronger than Mordea's! ~~I must investigate this further, though if Mordea should uncover my quest, my life will be forfeit..."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 025F:05E7"
+msgid "Uh-oh... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 025F:0648"
+msgid "Swine! You have cheated to this point! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 025F:0691"
+msgid "If I allow you to continue you will ruin the game! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 025F:06CB"
+msgid "You must not be allowed to do so... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 025F:071D"
+msgid "Thief! I knew you were not to be trusted! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 025F:075F"
+msgid "Will you come quietly...? ~Or in pieces...? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 025F"
+msgid "Try to take me! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'll go quietly. "
+#. answer compared by the conversation code
+msgctxt "ask 025F"
+msgid "I'll go quietly. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'll go quietly. "
+msgctxt "bark 025F:0818"
+msgid "We will escort you to Lady Mordea. "
+msgstr ""

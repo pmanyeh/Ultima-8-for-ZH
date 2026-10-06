@@ -1,0 +1,51 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# MORDEABE (usecode class 0237)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0237:00AF"
+msgid "Mordea's bed "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0237:00E7"
+msgid "Mordea the Tempest "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0237:010D"
+msgid "Mordea"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0237:0135"
+msgid "Tempest "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0237:015D"
+msgid "sleeping woman "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0237:032C"
+msgid "Who dares to awaken the Tempest! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0237:0353"
+msgid "Ahhh, Sorry... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0237:0397"
+msgid "Sorry!?! Feel a touch of a Tempest's power! "
+msgstr ""

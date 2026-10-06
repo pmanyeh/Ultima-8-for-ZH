@@ -1,0 +1,131 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# FIGHT (usecode class 04C3)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:02FB"
+msgid "All right, one more time... "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:032C"
+msgid "Where were you last night? "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:0373"
+msgid "Really, I was at home with my poor, sick mother. "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:03B6"
+msgid "Why have you not paid your taxes? "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:03EE"
+msgid "Please sir, I have no more money. "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:0432"
+msgid "I should throw you in the dungeon! "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:046B"
+msgid "But-but who will feed my children? "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:04AB"
+msgid "I know that you were in on it! "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:04E7"
+msgid "Confess, and I shall not torture you! "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:052D"
+msgid "I beg of you, sir! "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:0555"
+msgid "Please let me go! "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:05A9"
+msgid "Right, I shall torture you then! "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:0603"
+msgid "I swear on my mother's grave that I had no part in that. "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:0621"
+msgid "Really? "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:0663"
+msgid "I thought you said your mother was sick...? "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:0681"
+msgid "Well... "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:06B5"
+msgid "She...she is sick. Very sick. "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:06E4"
+msgid "She will be dead soon... "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:073F"
+msgid "Tell me what I need to know! "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:0772"
+msgid "I grow tired of your lies... "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:07E0"
+msgid "Please, I beg mercy in the name of the Tempest! "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:0819"
+msgid "You know Mordea never shows mercy! "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:0872"
+msgid "She may feed you to the Lurker rather than put you in the dungeon! "
+msgstr ""
+
+#. event 0F (calledFromAnim)
+msgctxt "bark 04C3:08B0"
+msgid "Please, I beg of you, have mercy on me! "
+msgstr ""

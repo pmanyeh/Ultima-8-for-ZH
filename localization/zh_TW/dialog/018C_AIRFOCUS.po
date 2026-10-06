@@ -1,0 +1,101 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# AIRFOCUS (usecode class 018C)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 018C:00B0"
+msgid "sextant focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:00E9"
+msgid "pointing hand focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:011B"
+msgid "bracer focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:0150"
+msgid "open hand focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:0186"
+msgid "closed eye focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:01B7"
+msgid "wings focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:01E8"
+msgid "chain focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:0218"
+msgid "fist focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:024E"
+msgid "Divination focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:0287"
+msgid "Healing Touch focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:02C1"
+msgid "Aerial Servant focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:02F8"
+msgid "Restoration focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:0333"
+msgid "Fade From Sight focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:0367"
+msgid "Air Walk focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:039D"
+msgid "Hear Truth focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:03D5"
+msgid "Intervention focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:0409"
+msgid "open eye focus "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018C:043B"
+msgid "Reveal focus "
+msgstr ""

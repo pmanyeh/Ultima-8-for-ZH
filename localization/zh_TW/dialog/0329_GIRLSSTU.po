@@ -1,0 +1,51 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# GIRLSSTU (usecode class 0329)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0329:00AA"
+msgid "perfume "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0329:00DA"
+msgid "perfume "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0329:010A"
+msgid "perfume "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0329:0138"
+msgid "brush "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0329:0166"
+msgid "brush "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0329:0194"
+msgid "brush "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0329:01C3"
+msgid "mirror "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0329:01F2"
+msgid "mirror "
+msgstr ""

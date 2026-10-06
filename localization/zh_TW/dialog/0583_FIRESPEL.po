@@ -1,0 +1,27 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# FIRESPEL (usecode class 0583)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 0583:2523"
+msgid "You have failed the first test, Disciple. Prepare to die. "
+msgstr ""
+
+msgctxt "bark 0583:257D"
+msgid "Nicely done, Disciple. Now the Explosion... "
+msgstr ""
+
+msgctxt "bark 0583:25EF"
+msgid "You have failed the second test, Disciple. Prepare to die. "
+msgstr ""
+
+msgctxt "bark 0583:2670"
+msgid "Good technique, you could stand a little refinement though. Now summon a daemon... "
+msgstr ""

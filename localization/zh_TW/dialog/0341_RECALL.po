@@ -1,0 +1,61 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# RECALL (usecode class 0341)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0341:009F"
+msgid "recall item "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0341:018B"
+msgid "What is your destination? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0341"
+msgid "Central Tenebrae "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0341"
+msgid "Plateau "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0341"
+msgid "Upper Catacombs "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0341"
+msgid "Hall of the Mountain King "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0341"
+msgid "Argentrock Isle "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0341"
+msgid "Carthax Lake "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0341"
+msgid "Daemon's Crag "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0341"
+msgid "Nowhere "
+msgstr ""

@@ -1,0 +1,106 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# THURGIST (usecode class 010D)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 010D:00EF"
+msgid "dead theurgist "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 010D:0112"
+msgid "theurgist "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 010D:01BA"
+msgid "Help me, Stratos! I am attacked! "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:02E3"
+msgid "Hello... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:0303"
+msgid "Good day... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:03C5"
+msgid "Any stories you tell will make me homesick, so I'd best not chat with you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:043E"
+msgid "Sorry, I would speak with you, but I am in a hurry. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:047E"
+msgid "Talk to me later when my duties are done. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:04D8"
+msgid "No time to talk now. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:050E"
+msgid "I have my studies to attend to. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:0570"
+msgid "I'd best not speak with you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:05CA"
+msgid "Strangers are a distraction that we do not need here on Argentrock. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:05FD"
+msgid "I'd best be about my duties. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:0663"
+msgid "I can not help you at this time. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:06A9"
+msgid "If you need assistance, try talking to Stellos. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:06FA"
+msgid "He knows everything, for he has been around for 200 years. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:072A"
+msgid "I'm sure he can help you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:07C8"
+msgid "I can not talk to you for I have taken a vow of silence so that I may meditate better... "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 010D:07FF"
+msgid "Oooops... "
+msgstr ""

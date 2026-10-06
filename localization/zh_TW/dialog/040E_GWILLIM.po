@@ -1,0 +1,896 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# GWILLIM (usecode class 040E)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 040E:00A1"
+msgid "Gwillim"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 040E:00C3"
+msgid "Herdsman "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 040E:0192"
+msgid "I would not do that if I were you! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 040E:01C8"
+msgid "Stop! Thief! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:05C7"
+msgid "Good day. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:063A"
+msgid "Ahh, what a fine bunch of torax! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:06A6"
+msgid "Shelby! Leave Pono alone! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:073D"
+msgid "Have you ever seen such fine torax? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:079D"
+msgid "How I love my flock. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:07DC"
+msgid "I wonder how Cyrrus is doing? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0861"
+msgid "This life does get a bit boring from time to time. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:089B"
+msgid "I hope that Cyrrus is well. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:090A"
+msgid "I enjoy caring for my flock. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:096C"
+msgid "Yet, I would enjoy some company now and again. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:09C7"
+msgid "I can see my house from here! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0A0C"
+msgid "The torax certainly are playful today. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0C4A"
+msgid "Good day. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0CBD"
+msgid "Ahh, what a fine bunch of torax! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0D29"
+msgid "Shelby! Leave Pono alone! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0DC0"
+msgid "Have you ever seen such fine torax? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0E20"
+msgid "How I love my flock. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0E5F"
+msgid "I wonder how Cyrrus is doing? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0EE4"
+msgid "This life does get a bit boring from time to time. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0F1E"
+msgid "I hope that Cyrrus is well. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0F8D"
+msgid "I enjoy caring for my flock. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:0FEF"
+msgid "Yet, I would enjoy some company now and again. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:104A"
+msgid "I can see my house from here! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:108F"
+msgid "The torax certainly are playful today. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:12DC"
+msgid "What are you doing here? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:1345"
+msgid "Not Kith filets again! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:13B2"
+msgid "What a lovely wife I have! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:1450"
+msgid "Have you ever seen such a beautiful woman? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:14C7"
+msgid "I need to build a new room onto this house. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:1506"
+msgid "I wonder how Cyrrus is doing? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:1571"
+msgid "This house is too small. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:15AB"
+msgid "I hope that Cyrrus is well. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:160E"
+msgid "I need some ale. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:1670"
+msgid "Yet, I would enjoy some company now and again. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:16A0"
+msgid "I had a long day. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 040E:16CE"
+msgid "I am exhausted. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 040E"
+msgid "Hello, my friend. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 040E"
+msgid "Greetings "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 040E"
+msgid "Corinth told me of the ghost. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 040E"
+msgid "Is there a ghost in the valley? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell. "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Greetings "
+msgctxt "bark 040E:1881"
+msgid "Greetings, friend, I am Gwillim. How fare you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Greetings "
+msgctxt "ask 040E"
+msgid "I'm fine, thanks. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello, my friend. "
+msgctxt "bark 040E:1935"
+msgid "Well, it is quite good to see you. All is well for you, I hope. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm fine, thanks. "
+msgctxt "bark 040E:19DC"
+msgid "Good and welcome! It is rare that Corinth and I get visitors here in the valley. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm fine, thanks. "
+msgctxt "ask 040E"
+msgid "You don't get visitors? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Corinth? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Who is Corinth? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Corinth? "
+msgctxt "bark 040E:1B01"
+msgid "Corinth is my wife. She is a fine lady, too. Corinth works hard every day, never complains, and has been a good mother to our son, too. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Corinth? "
+msgctxt "ask 040E"
+msgid "Where is your son? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is your son? "
+msgctxt "bark 040E:1CE8"
+msgid "I am surprised that my wife did not talk your ear off about our son. Corinth is so proud of Cyrrus that sometimes I think that she can speak of nothing else. But make no mistake, we are law abiding folk here. We also honor Hydros as Her Ladyship does command. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is your son? "
+msgctxt "ask 040E"
+msgid "Her Ladyship? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is your son? "
+msgctxt "bark 040E:1E46"
+msgid "Cyrrus, that's our boy's name, joined the Theurgists not long ago. My wife was very proud of him. She has always said that Cyrrus was a natural healer. But make no mistake, we are law abiding folk here. We also honor Hydros as Her Ladyship does command. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Talk my ear off? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Talk my ear off? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Talk my ear off? "
+msgctxt "bark 040E:1F92"
+msgid "I love Corinth, but if you give that woman a chance, she'll talk the legs off a Kith when it comes to that boy. Surely she told you that Cyrrus has become a Theurgist. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Talk my ear off? "
+msgctxt "ask 040E"
+msgid "Yes, Corinth did mention that Cyrrus is a Theurgist. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Talk my ear off? "
+msgctxt "ask 040E"
+msgid "No, Corinth didn't mention Theurgists. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, Corinth didn't mention Theurgists. "
+msgctxt "bark 040E:2127"
+msgid "Well I am greatly surprised. My wife is very proud of our son. He left here to become one of the Theurgists that I told you about. My son is quite a good healer. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, Corinth didn't mention Theurgists. "
+msgctxt "bark 040E:21E8"
+msgid "Well, I am greatly surprised. You see, my wife is very proud of the fact that our son has become a Theurgist. They are the healers who serve Stratos, the Titan of Air. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Oh yes, I've met your wife. "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Oh yes, I've met your wife. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Oh yes, I've met your wife. "
+msgctxt "bark 040E:227F"
+msgid "Quite a lady, that Corinth. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She sounds like a fine lady. "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "She sounds like a fine lady. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She sounds like a fine lady. "
+msgctxt "bark 040E:2307"
+msgid "Oh she is. She certainly is. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are the Theurgists? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Who are the Theurgists? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are the Theurgists? "
+msgctxt "bark 040E:2434"
+msgid "What? Have you never heard of the Theurgists? For Lithos' sake, man, did you just fall out of the sky? The Theurgists are the disciples of Stratos, the Air Titan. I thought that everyone knew that. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, Corinth did mention that Cyrrus is a Theurgist. "
+msgctxt "bark 040E:24E5"
+msgid "Well, that is where he is; Argentrock Isle. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The valley "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "The valley "
+msgstr ""
+
+#. event 01 (use (talk)), after "The valley "
+msgctxt "bark 040E:2689"
+msgid "It is beautiful here, is it not?  Many people say that this valley is the only truly beautiful place in the world. The beauty of the valley has made my life as a herdsman somewhat easier. Whenever I find myself feeling remorse, I contemplate the beauty of this place and it sometimes makes me feel better. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The valley "
+msgctxt "ask 040E"
+msgid "How long have you lived here? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How long have you lived here? "
+msgctxt "bark 040E:27A9"
+msgid "Oh, all of my life. I have strolled up to the plateau a time or two. I must go into town but twice a year. But other than that, I stay put here in the valley. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How long have you lived here? "
+msgctxt "ask 040E"
+msgid "Why go to town twice a year? "
+msgstr ""
+
+#. event 01 (use (talk)), after "The plateau? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "The plateau? "
+msgstr ""
+
+#. event 01 (use (talk)), after "The plateau? "
+msgctxt "bark 040E:28B7"
+msgid "Just take the trail that runs past our place here, and it will take you up to the plateau. Its very lovely up there. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why go to town twice a year? "
+msgctxt "bark 040E:29D1"
+msgid "I must sell my surplus crops and the torax which are ready for slaughter. And you be assured that while I am there, I obey all of Her Ladyship's laws. We are good, law abiding folk up here. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Can I buy something? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Can I buy something? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Can I buy something? "
+msgctxt "bark 040E:2AD7"
+msgid "I afraid that there is nothing to sell. The time has not yet come for harvest. Do return at harvest time and I will sell you as many mushrooms as you can buy. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You're a herdsman? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "You're a herdsman? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You're a herdsman? "
+msgctxt "bark 040E:2B50"
+msgid "Just like my father before me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You're a herdsman? "
+msgctxt "ask 040E"
+msgid "Your father was a herdsman? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You don't get visitors? "
+msgctxt "bark 040E:2C5F"
+msgid "Not very often. No one really has much cause to come up here, other than Shaana and Mythran. That is why I was so surprised to see you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You don't get visitors? "
+msgctxt "ask 040E"
+msgid "Who is Mythran? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Mythran? "
+msgctxt "bark 040E:2E04"
+msgid "Mythran is an old hermit who lives up on the plateau. Many people think that he sells magical scrolls. I do not know if that is true or not. Personally I doubt that there is anyone who does such a thing. The Titans are the only magic in the world. I believe that Mythran is just an eccentric old man. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Gwillim "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Gwillim "
+msgstr ""
+
+#. event 01 (use (talk)), after "Gwillim "
+msgctxt "bark 040E:2E67"
+msgid "Yes, I am Gwillim. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Law abiding folk? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Law abiding folk? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Law abiding folk? "
+msgctxt "bark 040E:2F0F"
+msgid "That is correct, sir. Her Ladyship's administration has never had reason to worry about us. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Her Ladyship? "
+msgctxt "bark 040E:3028"
+msgid "Our ruler, Lady Mordea. You need not pretend that you do not know The Lady. But be assured that I have always lived well by her mandates. You can tell Her Ladyship that all is well in this district. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Her Ladyship? "
+msgctxt "ask 040E"
+msgid "Gwillim, Mordea's dead. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Her Ladyship? "
+msgctxt "ask 040E"
+msgid "Tell Mordea what? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell Mordea what? "
+msgctxt "bark 040E:3137"
+msgid "Tell her that all is well here. She has no need to worry about her subjects in the valley breaking her laws. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell Mordea what? "
+msgctxt "ask 040E"
+msgid "You're her subjects too? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You're her subjects too? "
+msgctxt "bark 040E:3207"
+msgid "But of course, and happy to be so. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do you think that I work for Mordea? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Do you think that I work for Mordea? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do you think that I work for Mordea? "
+msgctxt "bark 040E:3339"
+msgid "What else would a man so equipped and well armoured do but protect our ruler? But do not think that that is the reason why I have taken the time to talk to you. I welcome the company of others. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do you think that I work for Mordea? "
+msgctxt "ask 040E"
+msgid "I don't work for Mordea. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Gwillim, Mordea's dead. "
+msgctxt "bark 040E:3486"
+msgid "Really? I have not heard this. I must tell Corinth! She will be so excited, er, I mean saddened to hear of our ruler's untimely death. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't work for Mordea. "
+msgctxt "bark 040E:353E"
+msgid "Well, that is your business, friend. It is not for me to pry into your life. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your father was a herdsman? "
+msgctxt "bark 040E:35FF"
+msgid "My family have always been herdmen. We have lived on this land for countless generations. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your father was a herdsman? "
+msgctxt "ask 040E"
+msgid "Countless generations, huh? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Countless generations, huh? "
+msgctxt "bark 040E:36DF"
+msgid "Yes, for as far back as anyone can remember. But I fear that I am the last. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Countless generations, huh? "
+msgctxt "ask 040E"
+msgid "Why are you the last? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you the last? "
+msgctxt "bark 040E:37B2"
+msgid "Because my son has become a Theurgist and I don't have any other children. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you the last? "
+msgctxt "ask 040E"
+msgid "Yes, you told me of the Theurgists. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are you the last? "
+msgctxt "ask 040E"
+msgid "What's a Theurgist? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, you told me of the Theurgists. "
+msgctxt "bark 040E:38B6"
+msgid "Then you understand that Cyrrus will never be a herdsman. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What's a Theurgist? "
+msgctxt "bark 040E:39B4"
+msgid "You have not heard of the Theurgists? They are the disciples of Stratos, the Air elemental. My son, Cyrrus, now lives with them on Argentrock Isle. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell. "
+msgctxt "bark 040E:3A0D"
+msgid "Farewell "
+msgstr ""
+
+#. event 01 (use (talk)), after "Is there a ghost in the valley? "
+msgctxt "bark 040E:3AA5"
+msgid "What? Where did you hear of such things? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Is there a ghost in the valley? "
+msgctxt "ask 040E"
+msgid "Is it true? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I heard stories in town. "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "I heard stories in town. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I heard stories in town. "
+msgctxt "bark 040E:3B7B"
+msgid "Well don't believe everything that you hear. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I heard stories in town. "
+msgctxt "ask 040E"
+msgid "But Darion told me of the legend. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I heard stories in town. "
+msgctxt "bark 040E:3C5C"
+msgid "I do not know why you are here or who you may be, my friend, but if you have come here looking for a ghost you may as well go back where you came from. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I heard stories in town. "
+msgctxt "ask 040E"
+msgid "I didn't mean to upset you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Is it true? "
+msgctxt "bark 040E:3D27"
+msgid "No, it is not. Now please, I have no wish to discuss this further. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Is it true? "
+msgctxt "bark 040E:3D7C"
+msgid "No. And I really do not have time to discuss silly stories. "
+msgstr ""
+
+#. event 01 (use (talk)), after "But Darion told me of the legend. "
+msgctxt "bark 040E:3E7D"
+msgid "Then Darion told you a lie, my friend. This story has gone on for far too long. People need to let this story go. I can not be bothered by such trivial\tmatters. "
+msgstr ""
+
+#. event 01 (use (talk)), after "But Darion told me of the legend. "
+msgctxt "ask 040E"
+msgid "Can you tell me the story? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Can you tell me the story? "
+msgctxt "bark 040E:3F90"
+msgid "No. Look, I do not mean to be rude, but I have no wish to discuss this further. Please, do not ask me any more about this. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Please tell me about the ghost. "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Please tell me about the ghost. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Please tell me about the ghost. "
+msgctxt "bark 040E:40BC"
+msgid "No! Are you deaf? I asked you to forget this subject! I am too busy to be bothered by this! Now, leave me alone! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I didn't mean to upset you. "
+msgctxt "bark 040E:4191"
+msgid "Do not worry, friend. This ghost thing is just not a topic which I wish to discuss. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Corinth told me of the ghost. "
+msgctxt "bark 040E:4208"
+msgid "She what?! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Corinth told me of the ghost. "
+msgctxt "ask 040E"
+msgid "Please don't get angry. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Please don't get angry. "
+msgctxt "bark 040E:4398"
+msgid "Do not get angry? Just because my wife told of my darkest secret? I hardly know you and yet Corinth tells you everything that I would wish to keep hidden! No, I am not angry with you. But Corinth and I shall have words when you have gone. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You've -seen- it? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "You've -seen- it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You've -seen- it? "
+msgctxt "bark 040E:4476"
+msgid "Did she tell you that?! I do not believe it! She knows that I do not wish for anyone to know about that damned, malignant spirit! "
+msgstr ""
+
+#. event 01 (use (talk)), after "You've -seen- it? "
+msgctxt "ask 040E"
+msgid "Don't get mad at Corinth. "
+msgstr ""
+
+#. event 01 (use (talk)), after "So it's true? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "So it's true? "
+msgstr ""
+
+#. event 01 (use (talk)), after "So it's true? "
+msgctxt "bark 040E:4559"
+msgid "Yes, it is true that this valley is cursed with a malign spirit. It is also true that only a fool would pursue this thing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Don't get mad at Corinth. "
+msgctxt "bark 040E:4699"
+msgid "Why shouldn't I? That woman knows well that I do not want to even think about what happened with that ghost. She knows this and yet she tells the first stranger that comes through the valley something that is very personal to me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Don't get mad at Corinth. "
+msgctxt "ask 040E"
+msgid "It was my fault. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It was my fault. "
+msgctxt "bark 040E:47F4"
+msgid "I can not accept that. Corinth is a grown woman and she is fully responsible for her actions. No, if Corinth told you of this thing then she did it herself. She and I must talk later about this. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She was trying to help. "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "She was trying to help. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She was trying to help. "
+msgctxt "bark 040E:4885"
+msgid "What do you mean by that? Who was she trying to help? "
+msgstr ""
+
+#. event 01 (use (talk)), after "She was trying to help. "
+msgctxt "ask 040E"
+msgid "You, Gwillim. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Me. My task is very important. "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Me. My task is very important. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Me. My task is very important. "
+msgctxt "bark 040E:4A55"
+msgid "I doubt very seriously that whatever you have to do here is all that important. You certainly have no right to come here and stir up such trouble, my friend. Corinth and I have been through very great ordeals and we will certainly make our way through you and your scheming! Now, be on your way! "
+msgstr ""
+
+#. event 01 (use (talk)), after "You, Gwillim. "
+msgctxt "bark 040E:4B0E"
+msgid "Me? What was she trying to help -me- with? That is preposterous. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You, Gwillim. "
+msgctxt "ask 040E"
+msgid "I don't know. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't know. "
+msgctxt "bark 040E:4C56"
+msgid "Well I have a feeling that -I- know. Corinth has been laboring under the impression that I just talk about my brother, then somehow everything will be alright. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't know. "
+msgctxt "ask 040E"
+msgid "What's wrong? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What's wrong? "
+msgctxt "bark 040E:4D2F"
+msgid "Nothing that concerns you. This is a family matter and I do not need for you to come here and stir up trouble. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She wants you to talk. "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "She wants you to talk. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She wants you to talk. "
+msgctxt "bark 040E:4E1B"
+msgid "Why? Does she think that talking about my brother's death is going to somehow bring him back? That is in the past. Nothing can be done about it now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "She wants you to talk. "
+msgctxt "ask 040E"
+msgid "The ghost killed your brother? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Maybe talking helps. "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Maybe talking helps. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Maybe talking helps. "
+msgctxt "bark 040E:4F44"
+msgid "I have my solitude while tending the torax to think things through. I have dealt with this matter and I did it a very long time ago. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The ghost killed your brother? "
+msgctxt "bark 040E:4FD5"
+msgid "Yes. There, I told you. Now are you happy? "
+msgstr ""
+
+#. event 01 (use (talk)), after "The ghost killed your brother? "
+msgctxt "ask 040E"
+msgid "How did he die? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is the ghost? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Where is the ghost? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is the ghost? "
+msgctxt "bark 040E:5151"
+msgid "Why should I tell you? So you can go there and get yourself killed like all of the others? Perhaps I should tell you. If the ghost were to kill you then you could no longer come here and create trouble between my wife and I. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How did he die? "
+msgctxt "bark 040E:5230"
+msgid "He died trying to find that damned ghost! Others have died doing the same, damn fool thing, so do not get any ideas about ghost hunting. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How did he die? "
+msgctxt "ask 040E"
+msgid "I want to find the ghost. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Others have died? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Others have died? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Others have died? "
+msgctxt "bark 040E:5329"
+msgid "Yes, many others. There is only one person to go after that spirit that lived and -she- lost her mind. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Others have died? "
+msgctxt "ask 040E"
+msgid "Who is she? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How many have died? "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "How many have died? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How many have died? "
+msgctxt "bark 040E:53EB"
+msgid "Too many for you to go off and make one more dead fool. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is she? "
+msgctxt "bark 040E:55AE"
+msgid "Who? The mad woman? Her name is Kilandra and she is as mad as a keplock. Some have heard her claim to possess a key that will get you to the ghost. The woman also talks to fish, so I would not believe a word she says, but apparently the ghost and the key are not subjects she likes to brag about. She had to be pestered several times before she would even speak of it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is she? "
+msgctxt "ask 040E"
+msgid "She talks to fish? "
+msgstr ""
+
+#. event 01 (use (talk)), after "She talks to fish? "
+msgctxt "bark 040E:56BF"
+msgid "Yes, she talks to fish. And unless you want to wind up dead or talking to fish for the rest of your life, you'd better give up these ridiculous notions. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I want to find the ghost. "
+msgctxt "bark 040E:579F"
+msgid "Look, if you are in a hurry to die, then go and insult Lady Mordea. But I will have no hand in assisting you. Do you understand? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I want to find the ghost. "
+msgctxt "ask 040E"
+msgid "I need help only to find it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I want to find the ghost. "
+msgctxt "ask 040E"
+msgid "Mordea's dead, Gwillim. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Mordea's dead, Gwillim. "
+msgctxt "bark 040E:58FD"
+msgid "Oh yes, I keep forgetting that. Mordead was Tempest for so long that it is difficult for me to think of anyone else as ruling Tenebrae. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Don't worry about me. "
+#. answer compared by the conversation code
+msgctxt "ask 040E"
+msgid "Don't worry about me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Don't worry about me. "
+msgctxt "bark 040E:5A31"
+msgid "Oh, you are so great and powerful that you need not fear the supernatural? I suppose that you are the type of person who goes around saving worlds. Perhaps after defeating the ghost, you'll overthrow the Titans. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I need help only to find it. "
+msgctxt "bark 040E:5C1A"
+msgid "You really are something, aren't you? Fine, go quickly unto your death then. Follow the path that runs past my house. As the path makes its final bend before going into the cave, continue to travel forward. You will find a large pile of brush and brambles against the mountain face. This hides the entrance to the ghost's lair. Now, be gone with you. You bothered my wife and I enough... "
+msgstr ""

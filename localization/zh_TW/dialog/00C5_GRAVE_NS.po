@@ -1,0 +1,351 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# GRAVE_NS (usecode class 00C5)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 00C5:009E"
+msgid "gravestone "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0118"
+msgid "SIVLE*THE MINSTREL*WANDERS NO MORE"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:016A"
+msgid "HERE LIES FRED*IN A QUARRY*HE WAS FOUND*DEAD"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:01BA"
+msgid "JUSTIN*HIS MURDER*WAS BETTER*LEFT UNSOLVED"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:01F2"
+msgid "SHERRI'S*LAST PLOT"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0233"
+msgid "STUPIDITY IS*ITS OWN REWARD"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:027A"
+msgid "CORODIN*FIRST MASTER*OF THE CABAL"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:02C8"
+msgid "MAEDRON*SORCERER AND*THE BANE OF*CORODIN"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0329"
+msgid "A STUPID PAGAN*LIES HERE DEAD*IN HIS RELIGION*HE WAS MISLED"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0370"
+msgid "HERE LIES*BEVERLY*DIED IN*REVELRY"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:03CD"
+msgid "ENTOMBED IS KAI*TRUSTY AND WISE*TOILS AT WORK*THEN DIES"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:041F"
+msgid "SIR TODD*I'M NOT DEAD YET*I'M GETTING*BETTER"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0464"
+msgid "SIR DEE*TWAS JUST A*FLESH WOUND"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:04A2"
+msgid "MEL*HAS RETURNED*TO HELL"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:04FF"
+msgid "SIR ROBERT*TRIED TO FLY*FOUND GRAVITY A*UNFORGIVING FOE"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:054A"
+msgid "SHELTON*MY BODY LIES*BUT STILL*I ROAM"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:057F"
+msgid "OH NO*NOT AGAIN"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:05E1"
+msgid "SAD BUT TRUE*HERE LIES PRIEST*PRACTICED ART*AND NOW DECEASED"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0635"
+msgid "HERE LIES CHEL*SOME SAY SHE*WAS A*LOVELY BELLE"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0693"
+msgid "HERE UNDERGROUND*LIES EDDIE*TOOK A KNIFE*NOW HE'S DEADIE"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:06E2"
+msgid "HERE LIES BRIAN*FELLED BY A*KILLER SPIDER"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0722"
+msgid "PAMELA*SHE WORKED*TOO HARD"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:075F"
+msgid "STEVE*CRUNCHED*TO DEATH"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:07B4"
+msgid "WITH HIS HEAD*ASHAVE HE WAS*SO VERY BRAVE*STARR"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:07F5"
+msgid "PERRY*JUST WENT*UP IN SMOKE"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:084D"
+msgid "SIR DON*COULDNT SLING A*SWORD AS FAST*AS HIS DRINK"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0896"
+msgid "DO NOT*DRINK OUT OF*OTHERS GOBLETS*"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:08DB"
+msgid "UNDERPAID*UNDER FED*UNDERGROUND"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:091A"
+msgid "ARNOLD*HASTA LAVISTA*BABY"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0957"
+msgid "R I P*SWORDPROOF*VITTEK"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0996"
+msgid "ALWAYS*FULLY*COOK*SEAFOOD"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:09D4"
+msgid "TEE*TOOK ONE*IN THE*DOME"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0A22"
+msgid "BETTY*BLAH-BLAH*KILLED BY*TOO MANY WORDS"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0A82"
+msgid "GLAD I AM GONE*DONE AND PAST*MARRIED 6 TIMES*PEACE AT LAST"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0ADA"
+msgid "MISS JONES*HAS NO MOANS*AND ALL ALONE*IS MR. JONES"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0B2E"
+msgid "TIP YOUR LID*TO SIRE FOX*TAKEN AWAY*BY THE POX"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0B7E"
+msgid "HERE LIES*BURKE*LOST HIS LIFE*DODGING WORK"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0BDC"
+msgid "OFF THE DOCK*DOVE SIR JIM*THEN HE FOUND*HE COULDN'T SWIM"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0C2B"
+msgid "SIR LOUDER*BLOWN APART*BY BLASTING*POWDER"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0C8A"
+msgid "ASHES TO ASHES*DUST TO DUST*HYDROS REFUSED*SO LITHOS MUST"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0CE2"
+msgid "NO ONE IS HERE*NOT A POUND*LOST AT SEA*NEVER FOUND"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0D18"
+msgid "GET*OFF*MY*GRAVE"
+msgstr "別踩在我的墳上"
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0D71"
+msgid "WHEN YOU PASS*SHED A TEAR*LITTLE EVA*IS BURIED HERE"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0DC6"
+msgid "GOOD-BYE FREDY*NOW GONE*WE REMEMBER*YOU IN SONG"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0E14"
+msgid "WHY DO THINGS*ALWAYS HAPPEN*TO ME*DONNER"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0E6B"
+msgid "POOR GEORGE*TRIPPED AND FELL*INTO KINDRIC'S*FORGE"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0EBC"
+msgid "DIED WHILE*RUNNING*WITH TOOTHBRUSH*IN MOUTH"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0F08"
+msgid "HERE LIES*MOORE*GHOUL SLAYER*JUST FOUR"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0F62"
+msgid "HERE LIES*CHRICHTON*ATTACK BY TORAX*THEIR ONE VICTIM"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:0FAB"
+msgid "GLEN*WILL BE MISSED*BUT NOT*BY MANY"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:1007"
+msgid "SIR RICHARD*DIED OF FRIGHT*PLUNGED FROM*A GREAT HEIGHT"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:1051"
+msgid "ELAINA*HER MOTHERS*GREATEST*TREASURE"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:11E1"
+msgid "HERE LIES HOFFMAN*KILLED BY BUGS"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:1223"
+msgid "HERE LIES LIZ*WIDOW OF PAGAN"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:1281"
+msgid "HERE LIES SEAN*BY THE SHORE*SAID TO DEATH*JUST ONE MORE!"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:12C8"
+msgid "HERE LIES RYAN*CRUSHED*BY JOHNSON"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:1312"
+msgid "B BILLS*THREE STRIKES*AND YOU'RE OUT"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:1357"
+msgid "GLANVILLE*CHEAP TRASH*LONG GONE"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:1397"
+msgid "TARMONA*DONT KISS*AND TELL"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:13E2"
+msgid "DBEYER*LOVED HIS CUBS*THEN GOT*MAULED"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:1432"
+msgid "MONTANA THOUGHT*TO BE IMMORTAL*WRONG AGAIN"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:1476"
+msgid "HERE IS FONTES*MAULED*BY BEARS"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:14CC"
+msgid "ROB IS NOW DEAD*HE SHOULD NOT*HAVE GONE*TO LEGAS"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:151C"
+msgid "BRENDAN WAS*KILLED FOR*LAUGHING TOO*LOUDLY"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:1564"
+msgid "ALEXIS*HER SPIRIT*TO LITHOS*I GIVE"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:15BE"
+msgid "BURIED WITHIN*THE VERY BREAST*OF LITHOS*IS THE HEART"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:160A"
+msgid "AMREZHAR*BY THE*ANCIENT ONES*HE IS MET"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "grave 00C5:165B"
+msgid "R I P*UNKNOWN"
+msgstr "願無名氏安息"

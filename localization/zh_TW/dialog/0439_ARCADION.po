@@ -1,0 +1,420 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# ARCADION (usecode class 0439)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0439:00ED"
+msgid "Arcadion the late daemon Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0439:011E"
+msgid "Arcadion the daemon Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0439:015B"
+msgid "Arcadion the deceased "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0439:0178"
+msgid "Arcadion "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0439:01B4"
+msgid "dead daemon Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0439:01D8"
+msgid "daemon Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0439:0204"
+msgid "dead daemon "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0439:021F"
+msgid "daemon "
+msgstr ""
+
+#. event 10 (enterFastArea)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0439:03DA"
+msgid "{num}"
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0439:0409"
+msgid "Back to the entrance. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0439:0484"
+msgid "{num}"
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0439:04B1"
+msgid "Off to the gateway. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0439:06F3"
+msgid "You have somehow managed to defeat or evade the first guardians of the Obsidian Fortress, mortal. And now, you have shown an inkling of wisdom in not attempting to attack me. Perhaps you are worthy...* Perhaps not.*Regardless, in reward, I will assist you now by giving you access to the rest of the fortress and offering the use of my pentacle and sundry items you might need in preparing spells. "
+msgstr ""
+
+#. event 01 (use (talk))
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0439:0753"
+msgid "What is it you need,{name}?"
+msgstr ""
+
+#. event 01 (use (talk))
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0439:0794"
+msgid "{name}, how can I be of service?"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0439:07BF"
+msgid "What do you want? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0439:07F3"
+msgid "What is it you need? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0439:082D"
+msgid "How can I be of service? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0439:0858"
+msgid "What do you want? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0439:0896"
+msgid "Farewell. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0439:08C9"
+msgid "Prepare yourself. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0439:0903"
+msgid "Seek the Burning Path, Sorcerer. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0439:0941"
+msgid "Farewell. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0439:098C"
+msgid "If you do not wish to speak, then do not. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0439:09C9"
+msgid "Where are you from? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0439"
+msgid "It does not matter. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from this place. "
+#. answer compared by the conversation code
+msgctxt "ask 0439"
+msgid "I am from this place. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am from this place. "
+msgctxt "bark 0439:0B02"
+msgid "You do not have the feel of a Pagan, but if that is what you wish me to believe, I will. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I come from Earth. "
+#. answer compared by the conversation code
+msgctxt "ask 0439"
+msgid "I come from Earth. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I come from Earth. "
+msgctxt "bark 0439:0C1F"
+msgid "Earth. Yes. Quite an interesting place. I visited there long ago. It would seem that there my kind are either revered as kin to the Dark Ones or feared as unholy assistants to some evil being or other. A silly people indeed. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Britannia is my home. "
+#. answer compared by the conversation code
+msgctxt "ask 0439"
+msgid "Britannia is my home. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Britannia is my home. "
+msgctxt "bark 0439:0CB6"
+msgid "Britannia? I have never heard of such a place. It must be a truly out of the way realm. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Most recently, Serpent Isle. "
+#. answer compared by the conversation code
+msgctxt "ask 0439"
+msgid "Most recently, Serpent Isle. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Most recently, Serpent Isle. "
+msgctxt "bark 0439:0D4A"
+msgid "I have never heard of this isle. It must be a truly out of the way realm. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It does not matter. "
+msgctxt "bark 0439:0DAC"
+msgid "Yes. You are right. It does not. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It does not matter. "
+msgctxt "bark 0439:0E1B"
+msgid "I take your silence as a reply. You wish to remain unknown. That is acceptable. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It does not matter. "
+msgctxt "ask 0439"
+msgid "We have met before. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Don't you know me? "
+#. answer compared by the conversation code
+msgctxt "ask 0439"
+msgid "Don't you know me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "We have met before. "
+msgctxt "bark 0439:0F13"
+msgid "No. We have not met. At least, I do not think we have. "
+msgstr ""
+
+#. event 01 (use (talk)), after "We have met before. "
+msgctxt "ask 0439"
+msgid "I crafted the Shade Blade for you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You were bound to Erethian. "
+#. answer compared by the conversation code
+msgctxt "ask 0439"
+msgid "You were bound to Erethian. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You were bound to Erethian. "
+msgctxt "bark 0439:104E"
+msgid "Erethian? I know of no one by that name. I have never been bound to anyone. Not even the Lord of Flame. I am alone in that respect, amongst daemonkind. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "bark 0439:10D9"
+msgid "Shade Blade? What is that? I think you have mistaken me for another. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "bark 0439:1110"
+msgid "What else would you speak of? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "bark 0439:1208"
+msgid "Perhaps we shall meet again in the distant future. Time does strange things to those who travel the worlds, as you doubtless know. I shall have to try to remember what you have said. Now then... what can I assist you with? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "bark 0439:123F"
+msgid "What else would you speak of? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "bark 0439:12B6"
+msgid "Go now. Master Malchir is not a patient sort of man. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "bark 0439:1321"
+msgid "Do you wish the master to be displeased with you? Go through the gateway. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "bark 0439:136A"
+msgid "You must not waste time. The Master awaits you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "bark 0439:1459"
+msgid "You have performed remarkably well, Disciple. Or rather, I should say, Acolyte. For if you please the Master, that is what you shall be. Go to him now. The gateway will take you to his inner sanctum now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "ask 0439"
+msgid "Tell me of the Obsidian Fortress. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "ask 0439"
+msgid "Who are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "ask 0439"
+msgid "What are you? Why are you here? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
+msgctxt "ask 0439"
+msgid "Do I know you from somewhere? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell. "
+#. answer compared by the conversation code
+msgctxt "ask 0439"
+msgid "Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell. "
+msgctxt "bark 0439:159A"
+msgid "If there is nothing more, you should proceed with the trials. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Obsidian Fortress. "
+msgctxt "bark 0439:16ED"
+msgid "What would you know about it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Obsidian Fortress. "
+msgctxt "ask 0439"
+msgid "Where is Malchir's inner sanctum? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 0439:17D9"
+msgid "I am known as Arcadion. And who might you be? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "ask 0439"
+msgid "It is not your concern. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It is not your concern. "
+msgctxt "bark 0439:186D"
+msgid "I recognize that name... "
+msgstr ""
+
+#. event 01 (use (talk)), after "It is not your concern. "
+msgctxt "bark 0439:18CD"
+msgid "As you wish. Proceed with the Trials, and leave me be. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It is not your concern. "
+msgctxt "bark 0439:1901"
+msgid "I am known as Arcadion. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are you? Why are you here? "
+msgctxt "bark 0439:1A37"
+msgid "A curious sort, aren't you? I am a daemon Sorcerer. The only daemon Sorcerer as far as I know. I am here at the behest of Master Malchir. He is providing my training as a Sorcerer in exchange for my services. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are you? Why are you here? "
+msgctxt "ask 0439"
+msgid "Services? What might they be? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do I know you from somewhere? "
+msgctxt "bark 0439:1B1B"
+msgid "Perhaps... I have traveled extensively, in this realm and others. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Services? What might they be? "
+msgctxt "bark 0439:1BE3"
+msgid "I... welcome those who would attempt the Trials of the Obsidian Fortress. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Are you one of its guardians? "
+#. answer compared by the conversation code
+msgctxt "ask 0439"
+msgid "Are you one of its guardians? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Are you one of its guardians? "
+msgctxt "bark 0439:1CBD"
+msgid "Not really. I am merely a test. As you can see by the bones strewn about... many have not passed this test. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How was it created? "
+#. answer compared by the conversation code
+msgctxt "ask 0439"
+msgid "How was it created? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How was it created? "
+msgctxt "bark 0439:1F9B"
+msgid "The first Sorcerers were revered by the people, but not so later generations. Eventually, fear and mistrust arose on both sides. The Master Sorcerer called upon the might of the Pyros who reluctantly came to his aid. The Lord of Flame in turn called upon his comrade, Lithos, and together they thrust the living rock up through a lake of lava that had formed in Daemon's Crag. Pyros then poured forth the excess lava into a river that blocked the path to the Sorcerer's Enclave. The cavern through which it flows, aptly called the Mouth of the Daemon, is the first obstacle for those who would disturb the mages of Sorcerer's Enclave."
+msgstr ""
+
+#. event 01 (use (talk)), after "What are the Trials? "
+#. answer compared by the conversation code
+msgctxt "ask 0439"
+msgid "What are the Trials? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are the Trials? "
+msgctxt "bark 0439:212F"
+msgid "If I were to reveal that to you they wouldn't be much of a test of your capabilities, would they? Just walk through the pillars at the rear of this chamber, and the gateway will take you to the Trials. It will not bring you back here until you have collected the four special Sorcerer's symbols, so prepare well. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What are the Trials? "
+msgctxt "ask 0439"
+msgid "What do the symbols look like? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is Malchir's inner sanctum? "
+msgctxt "bark 0439:22C5"
+msgid "Through the gateway beyond the pillars in the rear of the chamber, but not until you have succeeded in accomplishing the Trials. When you have done so, I will allow you to go to Malchir's inner sanctum. He awaits you even now, so be quick about your task. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is Malchir's inner sanctum? "
+msgctxt "ask 0439"
+msgid "Let me go to him now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do the symbols look like? "
+msgctxt "bark 0439:2382"
+msgid "You will know them when you see them. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Let me go to him now. "
+msgctxt "bark 0439:24A0"
+msgid "Of course... What do you take me for? If I were to allow you to go to Malchir untested, he would be displeased. One does not live very long when one has displeased a Master Sorcerer. "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "bark 0439:255D"
+msgid "Do not toy with me. What is it you want? "
+msgstr ""

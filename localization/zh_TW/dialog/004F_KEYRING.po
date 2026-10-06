@@ -1,0 +1,26 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# KEYRING (usecode class 004F)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 004F:009B"
+msgid "keyring "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 004F:0167"
+msgid "can't reach  "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 004F:01CE"
+msgid "it's open "
+msgstr ""

@@ -1,0 +1,1251 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BEREN (usecode class 0420)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 13 (justMoved)
+msgctxt "bark 0420:01AD"
+msgid "You little thief! I will destroy you! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0420:01FC"
+msgid "Stop that. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0420:0241"
+msgid "Leave my things alone! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0420:028A"
+msgid "This is your last warning! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0420:02C4"
+msgid "That is all I will take! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0420:035B"
+msgid "I represent the entire Cabal here. "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0420:039F"
+msgid "Do you know who I am? "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0420:03FC"
+msgid "I will kill you if you diturb my things again. "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0420:0479"
+msgid "Beren the late Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0420:04A5"
+msgid "Beren the Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0420:04E4"
+msgid "Beren the deceased "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0420:0502"
+msgid "Beren"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0420:053C"
+msgid "dead Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0420:055E"
+msgid "Sorcerer "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0420:058D"
+msgid "dead mage "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0420:05AB"
+msgid "mage "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0420:08C3"
+msgid "Greetings stranger. I am called Beren, and you? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0420"
+msgid "I cannot tell you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It does not matter. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "It does not matter. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:0AD5"
+msgid "I see. Perhaps the question was a little too intellectual for you. Ah, well. It matters not to me. And what do you seek of me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:10DF"
+msgid "I will now give you the most important lesson of your life. Learn it well, I'll only be able to teach it to you once, fool! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "What brings you here, stranger? How may I be of assistance? And what can I do for you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1302"
+msgid "Your manners could do with some refinement, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:136E"
+msgid "I am a Sorcerer. If you cannot adress me as such, do not adress me at all. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1403"
+msgid "Until you can be civil, {name}, I suggest that you do not speak to me. I have been known to lose my temper on occasion."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:144E"
+msgid "Your manners could do with some refinement. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:14BA"
+msgid "I am a Sorcerer. If you cannot adress me as such, do not adress me at all. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1537"
+msgid "Until you can be civil, I suggest that you do not speak to me. I have been known to lose my temper. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:15A8"
+msgid "You have a simple choice to make, {name}. Leave here or die."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:162E"
+msgid "Do you seek death? If so, you are dealing with the right mage, {name}. I will gladly oblige you."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:16FD"
+msgid "You are like the torax, being led to slaughter, {name}. Except that you should have the reasoning to avoid it. I suggest that you think carefully before we resume our discourse."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1751"
+msgid "You have a simple choice to make. Leave here or die. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:17CB"
+msgid "Do you seek death? If so, you are dealing with the right mage. I will gladly oblige you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1889"
+msgid "You are like the torax, being led to slaughter. Except you should have the reasoning to avoid it. I suggest that you think carefully before we resume our discourse. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:18C4"
+msgid "Farewell, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1918"
+msgid "I will see you anon. Fare well until then, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:197D"
+msgid "Goodbye. May the Fire of Pyros always burn brightly within you, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:19A5"
+msgid "Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:19ED"
+msgid "I will see you anon. Fare well until then. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1A46"
+msgid "Goodbye. May the Fire of Pyros always burn brightly within you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1AB9"
+msgid "I tire of our dicussion. Farewell, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1B15"
+msgid "Come back when you really wish to speak to me, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1B5A"
+msgid "I tire of our dicussion. Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1BAA"
+msgid "Come back when you really wish to speak to me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1C67"
+msgid "Your perceptions are shallow, {name}, if you cannot see that you approach the point at which I will cease to tolerate your existence."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1CFE"
+msgid "If you were to die at this point, I do not believe there would be anyone to mourn your passing. Farewell, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1D9E"
+msgid "Your perceptions are shallow, if you cannot see that you approach the point at which I will cease to tolerate your existence. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1E29"
+msgid "If you were to die at this point, I do not believe there would be anyone to mourn your passing. Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1E93"
+msgid "Please do return when you wish to discuss something, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1F03"
+msgid "If I can be of assistance to you in future, {name}, don't hesitate to ask."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1F5A"
+msgid "Please do return when you wish to discuss something. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1FBE"
+msgid "If I can be of assistance to you in future, don't hesitate to ask. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "ask 0420"
+msgid "Did I say something wrong? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "ask 0420"
+msgid "If I want your opinion, I'll give you one. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "ask 0420"
+msgid "You are beneath my contempt. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "ask 0420"
+msgid "Nevermind. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am a stranger here, please forgive me. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "I am a stranger here, please forgive me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am a stranger here, please forgive me. "
+msgctxt "bark 0420:217B"
+msgid "Forgiven. What can I help you with? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Did I say something wrong? "
+msgctxt "bark 0420:220A"
+msgid "Did you say something right? Farewell, O' Confused One. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You are beneath my contempt. "
+msgctxt "bark 0420:22E4"
+msgid "-Me-? Beneath -your- contempt? I don't believe I've ever been spoken to that way. How refreshing. But, I can't let this go unpunished, you understand. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You are beneath my contempt. "
+msgctxt "ask 0420"
+msgid "I'm sorry, I really meant no offense. "
+msgstr ""
+
+#. event 01 (use (talk)), after "If I want your opinion, I'll give you one. "
+msgctxt "bark 0420:242C"
+msgid "And if I want yours, I'll burn it out of you! If you ever speak to me again, I won't be responsible for my actions. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Get used to being spoken to that way. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Get used to being spoken to that way. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Get used to being spoken to that way. "
+msgctxt "bark 0420:250E"
+msgid "No, I don't think I ever will. And you won't get used to speaking to me that way, or any way, for that matter.* Now, be so kind as to die! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I understand no such thing. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "I understand no such thing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I understand no such thing. "
+msgctxt "bark 0420:25C7"
+msgid "Well, with your limited understanding, I can see how that might be.*Nevertheless,... I must now destroy you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm sorry, I really meant no offense. "
+msgctxt "bark 0420:26F6"
+msgid "What a shame. I am truly sorry for you. For I cannot allow your actions to remain unanswered. If I were to forgive this heinous crime, the people of Tenebrae would think us weak. We can't let that happen, now can we? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm sorry, I really meant no offense. "
+msgctxt "ask 0420"
+msgid "You pitiful excuse for a mage! Kneel before me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I guess not. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "No, I guess not. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I guess not. "
+msgctxt "bark 0420:2836"
+msgid "I'm glad to see that you're taking this so well. Strangely rational for you. Perhaps you're not such a bad sort, after all. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I guess not. "
+msgctxt "ask 0420"
+msgid "Thank you. It is sad to have to die, though. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes! We can! "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Yes! We can! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes! We can! "
+msgctxt "bark 0420:2968"
+msgid "No, I'm afraid we can't. And stop simpering like that. I just can't tolerate weakness in others.*Now then, It's time for your sad life to end... Goodbye. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What crime? You -are- beneath my contempt. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "What crime? You -are- beneath my contempt. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What crime? You -are- beneath my contempt. "
+msgctxt "bark 0420:29EE"
+msgid "And for that, you will pay with your life! "
+msgstr ""
+
+#. event 01 (use (talk)), after "You pitiful excuse for a mage! Kneel before me. "
+msgctxt "bark 0420:2A6D"
+msgid "Alright, that's it. -You- die! "
+msgstr ""
+
+#. event 01 (use (talk)), after "No. I really am. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "No. I really am. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No. I really am. "
+msgctxt "bark 0420:2B20"
+msgid "I am also glad to see that you face your death with some humor. I for one would not. Prepare yourself for battle! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Must we really battle? "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Must we really battle? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Must we really battle? "
+msgctxt "bark 0420:2B7B"
+msgid "Yes, I'm afraid so. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Thank you. It is sad to have to die, though. "
+msgctxt "bark 0420:2C3A"
+msgid "Perhaps you won't... It is possible, however unlikely, that you might defeat me. Don't you think? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Thank you. It is sad to have to die, though. "
+msgctxt "ask 0420"
+msgid "Yes, I suppose your're right! "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, you are a Sorcerer. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "No, you are a Sorcerer. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, you are a Sorcerer. "
+msgctxt "bark 0420:2D05"
+msgid "I suppose you're right. Well, that's no challenge. What do you want of me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, you are a Sorcerer. "
+msgctxt "ask 0420"
+msgid "Wait, I thought we were going to battle! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Yes, I suppose your're right! "
+msgctxt "bark 0420:2E14"
+msgid "I have a habit of doing that. Being right I mean. Anyway, What did you want, anyway? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Aren't you going to kill me? "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Aren't you going to kill me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Aren't you going to kill me? "
+msgctxt "bark 0420:2F16"
+msgid "Well I was, but I have reconsidered. Unless you want me to, of course... "
+msgstr ""
+
+#. event 01 (use (talk)), after "Aren't you going to kill me? "
+msgctxt "bark 0420:2F87"
+msgid "Very well, then. I grant your wish. Prepare for your death. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Aren't you going to kill me? "
+msgctxt "bark 0420:2FF5"
+msgid "I didn't think so. Now, then. With what may I assist you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Aren't you going to kill me? "
+msgctxt "bark 0420:309B"
+msgid "I do not like to be ignored, and if you're not ignoring me, you are slow-witted. I do not like slow-witted people either. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Wait, I thought we were going to battle! "
+msgctxt "bark 0420:3113"
+msgid "So we were. Have at you! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Umm... Nothing right now. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Umm... Nothing right now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Nevermind."
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "bark 0420:32FD"
+msgid "I know that you have no idea what you have done, but let me tell you. You have allowed Vardion to destroy one of the most powerful, resourceful, and beautiful Sorcerers this isle has ever known. I shall never forgive you for it, even though Malchir has. Leave me be. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "bark 0420:3378"
+msgid "Go! You have killed my closest comrade! What else would you have of me? Leave me alone! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "bark 0420:3407"
+msgid "If you speak to me again, I shall allow you to feel the agony that you visited upon my lover! Leave or die! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "bark 0420:349F"
+msgid "Now that you have joined us, you should busy yourself learning as much as you can about Sorcery. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "bark 0420:3533"
+msgid "I must commend you on destroying that lumbering torax, Vardion. He would have driven the Sorcerers into obscurity. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "bark 0420:35AF"
+msgid "I am sure that there is something you should be doing. Run along now, I have much to do. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "bark 0420:3626"
+msgid "Prepare well for the Trials of the Obsidian Fortress. You cannot leave once you have entered. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "bark 0420:368B"
+msgid "I have no time to speak at the moment, matters press upon my time... Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "bark 0420:3778"
+msgid "Whatever you need, Master, please take with my blessings. I will not disturb you unless you have need of my presence. Until then, I shall remain your humble servant. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "bark 0420:3812"
+msgid "I would not presume to speak to you unless I had something worthy of discussion. As I do not, I will bother you no longer. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "ask 0420"
+msgid "Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "ask 0420"
+msgid "Who are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "ask 0420"
+msgid "What do you do here? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "bark 0420:3975"
+msgid "Now then. Where were we? Let's start from the top. Why are you here? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "ask 0420"
+msgid "I have been banished here. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "ask 0420"
+msgid "How are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell. "
+msgctxt "bark 0420:3A57"
+msgid "If there is aught else you would discuss? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "bark 0420:3B6C"
+msgid "My name is Beren. And yours is? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "ask 0420"
+msgid "Nevermind that. What do you do? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind that. What do you do? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:3C39"
+msgid "Well met, {name}. What do you want?"
+msgstr ""
+
+#. event 01 (use (talk)), after "Call me what you like. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Call me what you like. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Call me what you like. "
+msgctxt "bark 0420:3CBD"
+msgid "Fine then. I shall call you... stranger. What do you want? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind that. What do you do? "
+msgctxt "bark 0420:3D5E"
+msgid "Well, I can tell you one thing. I don't talk to nosy strangers who won't even give me a name. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind that. What do you do? "
+msgctxt "bark 0420:3D7C"
+msgid "Goodbye. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nevermind that. What do you do? "
+msgctxt "bark 0420:3DC7"
+msgid "My name is Beren. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do here? "
+msgctxt "bark 0420:3E79"
+msgid "I am a mage. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are you? "
+msgctxt "bark 0420:3F43"
+msgid "I am fine. Now that you have asked your questions, it is my turn to ask you mine. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are you? "
+msgctxt "bark 0420:3F95"
+msgid "For what reason do you refuse to tell me your name? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are you? "
+msgctxt "ask 0420"
+msgid "I don't talk to nosy strangers. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't talk to nosy strangers. "
+msgctxt "bark 0420:4083"
+msgid "Thank you. I appreciate your candor, even if it was not offered initially. "
+msgstr ""
+
+#. event 01 (use (talk)), after "That is my own affair. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "That is my own affair. "
+msgstr ""
+
+#. event 01 (use (talk)), after "That is my own affair. "
+msgctxt "bark 0420:40FD"
+msgid "I don't like your answer, but I will accept it, stranger. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't talk to nosy strangers. "
+msgctxt "bark 0420:414B"
+msgid "Then leave! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't talk to nosy strangers. "
+msgctxt "bark 0420:4193"
+msgid "Why are you here? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't talk to nosy strangers. "
+msgctxt "bark 0420:422A"
+msgid "As well as can be expected. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't talk to nosy strangers. "
+msgctxt "bark 0420:42BD"
+msgid "I really do have a lot on my mind. We have no business to conduct, so I see no reason why we should continue our discussion. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are any of us here? "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Why are any of us here? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why are any of us here? "
+msgctxt "bark 0420:4353"
+msgid "Please. There is no reason for philosophizing. Just answer my question. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Because I wish to be! "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Because I wish to be! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Because I wish to be! "
+msgctxt "bark 0420:441D"
+msgid "Do not take that tone with me! Perhaps we will speak again when you can keep a civil tongue in your head. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have been banished here. "
+msgctxt "bark 0420:448F"
+msgid "Oh really? Who has banished you here? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have been banished here. "
+msgctxt "ask 0420"
+msgid "A big red guy called the Guardian. "
+msgstr ""
+
+#. event 01 (use (talk)), after "An evil being of immense power. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "An evil being of immense power. "
+msgstr ""
+
+#. event 01 (use (talk)), after "An evil being of immense power. "
+msgctxt "bark 0420:455F"
+msgid "What is this evil being called? "
+msgstr ""
+
+#. event 01 (use (talk)), after "An evil being of immense power. "
+msgctxt "ask 0420"
+msgid "He is called the Guardian. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why should I tell you? "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Why should I tell you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why should I tell you? "
+msgctxt "bark 0420:4663"
+msgid "Because, I hold your life in my hands like a kith holds its prey in silk. "
+msgstr ""
+
+#. event 01 (use (talk)), after "A big red guy called the Guardian. "
+msgctxt "bark 0420:4750"
+msgid "If the Guardian has sent you here, then you are not banished, but blessed. The Guardian will protect you as he has protected us. "
+msgstr ""
+
+#. event 01 (use (talk)), after "A big red guy called the Guardian. "
+msgctxt "ask 0420"
+msgid "What do you mean by protected? "
+msgstr ""
+
+#. event 01 (use (talk)), after "He is called the Guardian. "
+msgctxt "bark 0420:487B"
+msgid "You speak blasphemy! The Guardian is the power that opposes the evil. When the Destroyer came, it was only through the Guardian's advice that we survived at all. "
+msgstr ""
+
+#. event 01 (use (talk)), after "That's what scares me. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "That's what scares me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "That's what scares me. "
+msgctxt "bark 0420:4902"
+msgid "What did you say? "
+msgstr ""
+
+#. event 01 (use (talk)), after "That's what scares me. "
+msgctxt "ask 0420"
+msgid "Nothing, nevermind. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do you think he cares about me. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Do you think he cares about me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do you think he cares about me. "
+msgctxt "bark 0420:4A2F"
+msgid "Of course. The Guardian is the provider of all good things. It is he who protected us in our time of need. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nothing, nevermind. "
+msgctxt "bark 0420:4AAB"
+msgid "I see. I could have sworn you said something, but it doesn't matter. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you mean by protected? "
+msgctxt "bark 0420:4B7A"
+msgid "I am not a historian and since ours is dead, go to the library and search out the knowledge in the books there. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you mean by protected? "
+msgctxt "bark 0420:4C6A"
+msgid "I am not a historian so I suggest you seek out Bentic, as he is very knowledgeable. Go to the library and search out the knowledge in the books there. I'm sure Bentic would just -love- to discuss the past with you. "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "bark 0420:4D2E"
+msgid "I do not understand. What did you say? "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "ask 0420"
+msgid "What can you say of yourself? "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "ask 0420"
+msgid "Tell me of this place? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell. "
+msgctxt "bark 0420:4E73"
+msgid "If there is naught else you would discuss, I would return to my studies... Is there anything you would speak on further? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What can you say of yourself? "
+msgctxt "bark 0420:4FD4"
+msgid "I could as well ask you that question,... but I shall speak first. I am a Sorcerer, Acolyte of the Cabal. What do you do? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What can you say of yourself? "
+msgctxt "ask 0420"
+msgid "What is a Sorcerer? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What can you say of yourself? "
+msgctxt "ask 0420"
+msgid "The Cabal. What is that? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What can you say of yourself? "
+msgctxt "ask 0420"
+msgid "I cannot reveal that. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am a warrior. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "I am a warrior. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am a warrior. "
+msgctxt "bark 0420:516C"
+msgid "I could tell by the marks on your hands that you were familiar with weapons. Have you also an interest in magic? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am a warrior. "
+msgctxt "ask 0420"
+msgid "What magic do you speak of? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Done. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Done. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Aye, I do. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Aye, I do. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Aye, I do. "
+msgctxt "bark 0420:52A0"
+msgid "Then you have come to the right place to learn. I suggest you seek out Bane. She is the most knowledgeable Sorcerer I have had the privilege to know. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Aye, I do. "
+msgctxt "ask 0420"
+msgid "Who is this Bane you speak of? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Aye, I do. "
+msgctxt "ask 0420"
+msgid "I have met Bane. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nay, I do not. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Nay, I do not. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Nay, I do not. "
+msgctxt "bark 0420:5365"
+msgid "'Tis your loss then. More's the pity. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What magic do you speak of? "
+msgctxt "bark 0420:5422"
+msgid "Sorcery, of course. As a practitioner of the craft, I know of its immense power. Would you learn of it as well? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What magic do you speak of? "
+msgctxt "ask 0420"
+msgid "What is Sorcery? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I seek to leave this place. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "I seek to leave this place. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I seek to leave this place. "
+msgctxt "bark 0420:5519"
+msgid "Do you? Why? Does our land or people displease you so? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I seek to leave this place. "
+msgctxt "ask 0420"
+msgid "No, I would return to -my- land and people. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your people are cruel. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Your people are cruel. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your people are cruel. "
+msgctxt "bark 0420:5628"
+msgid "The times are hard. I pray, do not judge us so harshly. "
+msgstr ""
+
+#. event 01 (use (talk)), after "This land is unforgiving. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "This land is unforgiving. "
+msgstr ""
+
+#. event 01 (use (talk)), after "This land is unforgiving. "
+msgctxt "bark 0420:5697"
+msgid "'Tis true, but we manage to survive, nonetheless. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Both are contrary. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Both are contrary. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Both are contrary. "
+msgctxt "bark 0420:574E"
+msgid "The times are hard. I pray, do not judge us so harshly. And as for the land... well, you are right. But we survive, nonetheless. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I would return to -my- land and people. "
+msgctxt "bark 0420:57DB"
+msgid "An honorable goal. Perhaps we Sorcerers can be of assistance. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I would return to -my- land and people. "
+msgctxt "ask 0420"
+msgid "I do not need your help. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How so? "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "How so? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How so? "
+msgctxt "bark 0420:58B2"
+msgid "Seek out Bane. She will be able to help you. She is the most intellectual of us all. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I think not. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "I think not. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I think not. "
+msgctxt "bark 0420:5999"
+msgid "Give us a chance. I am sure that Bane can help you. She is wise in the ways of Sorcery. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I do not need your help. "
+msgctxt "bark 0420:5A7A"
+msgid "Then you shall not have it. Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot reveal that. "
+msgctxt "bark 0420:5BA4"
+msgid "Ah, so the mystery deepens. I ask only out of curiosity. But then I can curb my curiosity, as well as the information I give you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot reveal that. "
+msgctxt "bark 0420:5C07"
+msgid " Interesting, you wish to remain a mystery. I like mysteries, to a point. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of this place? "
+msgctxt "bark 0420:5CC7"
+msgid "Of course. This is the Sorcerer's Enclave. It sits in Daemon's Crag, upon the isle of Morgaelin. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of this place? "
+msgctxt "ask 0420"
+msgid "What can you say of the Enclave? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of this place? "
+msgctxt "ask 0420"
+msgid "Tell me of Daemon's Crag and Morgaelin. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a Sorcerer? "
+msgctxt "bark 0420:5DE7"
+msgid "A Sorcerer is a practitioner of the magic of Sorcery. I am an Acolyte Sorcerer of the Cabal. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a Sorcerer? "
+msgctxt "ask 0420"
+msgid "Tell me of the Acolytes. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Acolytes. "
+msgctxt "bark 0420:5F76"
+msgid "Well, there are four of us... Vardion, First Acolyte, Gorgrond, his faithful pet, Bane the Red, and myself. We are the ones that Master Malchir calls upon to aid in his great rituals. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Acolytes. "
+msgctxt "ask 0420"
+msgid "Tell me of Vardion and his position. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Acolytes. "
+msgctxt "ask 0420"
+msgid "Who is Gorgrond. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Acolytes. "
+msgctxt "ask 0420"
+msgid "What rituals do you mean? "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Cabal. What is that? "
+msgctxt "bark 0420:60E3"
+msgid "It is all Sorcerers, combined. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is this Bane you speak of? "
+msgctxt "bark 0420:61E6"
+msgid "She is my mentor. I was taught of my power by her tender hand. It is to her that you should go for answers. I am a mere shadow of her abilities and wit. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I have met Bane. "
+msgctxt "bark 0420:62C7"
+msgid "Ah, then you know of her intelligence, her beauty, and her power. She is like a guiding beacon in a dark and stormy night. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is Sorcery? "
+msgctxt "bark 0420:63D1"
+msgid "Sorcery is the art and craft of Fire. The Element that I have come here to study. Pyros, the Lord of Flame, is a powerful force in this world, and I would partake of that power. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is Sorcery? "
+msgctxt "ask 0420"
+msgid "Tell me of this Lord of Flame. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What can you say of the Enclave? "
+msgctxt "bark 0420:6491"
+msgid "Naught of great import. It is where we live. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Daemon's Crag and Morgaelin. "
+msgctxt "bark 0420:6592"
+msgid "Very well. Daemon's Crag is a lava-filled ravine, that flows from Mt. Morgaelin. This volcano is what the island takes its name from. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Daemon's Crag and Morgaelin. "
+msgctxt "bark 0420:65F5"
+msgid "There is a tale that tells of the forming of the volcano. Would you hear it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Daemon's Crag and Morgaelin. "
+msgctxt "bark 0420:66F1"
+msgid "Long ago, it is written, before Pagans warred with Zealans, a voice came to our people. He named himself the Guardian, and spoke of a time when a great Destroyer would come, bringing despair to all. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Daemon's Crag and Morgaelin. "
+msgctxt "bark 0420:67DA"
+msgid "The Guardian showed our ancestors how to make our Elements into Titanic forces that could defeat this Destroyer. They sacrificed and gave adoration to the Elements at a temple built on the top of this mountain. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Daemon's Crag and Morgaelin. "
+msgctxt "bark 0420:68FC"
+msgid "A great black obelisk was built there, and the Elements grew in power. At long last, the day came... The Day of the Destroyer. The Guardian warned our people that they must leave the temple. That the battle between the Destroyer and the Titans would take place there. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Daemon's Crag and Morgaelin. "
+msgctxt "bark 0420:69E7"
+msgid "So they fled into the forests around. Huge, glowing yellow eyes appeared in the sky above the mountain then. Surrounding them, a face of red. Manlike in form, his body came into being, but red as his face it was. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Daemon's Crag and Morgaelin. "
+msgctxt "bark 0420:6AB6"
+msgid "He stood upon the mountain, and roared out his challenge to our world. It was met by the shaking of the Earth, the lashing of the Air, the rising of the Water, and the burning of Fire. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Daemon's Crag and Morgaelin. "
+msgctxt "bark 0420:6B8B"
+msgid "When the sky once again cleared somewhat, most of my people were dead. The sea had taken some, fire others, the land swallowed yet more... But we survived! Only by the grace of the Guardian. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Daemon's Crag and Morgaelin. "
+msgctxt "ask 0420"
+msgid "Quite an interesting tale. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your ancestors were deceived. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Your ancestors were deceived. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your ancestors were deceived. "
+msgctxt "bark 0420:6C45"
+msgid "What?... What do you mean? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your ancestors were deceived. "
+msgctxt "ask 0420"
+msgid "The Guardian is the Destroyer. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Titans are evil. "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "The Titans are evil. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Titans are evil. "
+msgctxt "bark 0420:6D4F"
+msgid "No, not evil, just... independent. But we have come to terms with them, each in a different way. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Guardian is the Destroyer. "
+msgctxt "bark 0420:6DCF"
+msgid "You know not of what you speak. I will hear no more about it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "The Guardian is the Destroyer. "
+msgctxt "ask 0420"
+msgid "Wait. You must hear me out... "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "bark 0420:6EAC"
+msgid "Thank you for respecting my wishes. What else can I help you with? "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "bark 0420:6F1A"
+msgid "I said I would hear no more on the subject. Is there anything else you would ask me? "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "bark 0420:6F58"
+msgid "Very well. What else would you know? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Quite an interesting tale. "
+msgctxt "bark 0420:6FBB"
+msgid "Thank you. What else would you know? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Quite an interesting tale. "
+msgctxt "bark 0420:7014"
+msgid "I hope this tale has entertained you. What else would you know? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Quite an interesting tale. "
+msgctxt "bark 0420:7060"
+msgid "I see. Ah, well. What else would you know? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of Vardion and his position. "
+msgctxt "bark 0420:7196"
+msgid "Vardion is a petty overlord. He is loathe to give up any of his power to those better suited to run certain details. He cannot seem to delegate his authority, therefore we suffer. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Gorgrond. "
+msgctxt "bark 0420:7286"
+msgid "An Acolyte of no consequence. He is strong in magical resource, but his mental shortcomings more than belittle his magical prowess. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Master Malchir? "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Who is Master Malchir? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Master Malchir? "
+msgctxt "bark 0420:7374"
+msgid "He leads us in all things. Well,... he would if he were around more often. He remains busy with his own studies, leaving Vardion to lead us poorly. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What rituals do you mean? "
+msgctxt "bark 0420:7486"
+msgid "That is a subject best left to discuss if you become one of us. Speak to Bane. She will assist you in these matters. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Element of Fire. What is it? "
+#. answer compared by the conversation code
+msgctxt "ask 0420"
+msgid "Element of Fire. What is it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Element of Fire. What is it? "
+msgctxt "bark 0420:75A6"
+msgid "Are you daft? It is flame itself. It runs through the land as blood does in your veins. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of this Lord of Flame. "
+msgctxt "bark 0420:76D6"
+msgid "Pyros was the last Titan to be brought to terms. He was bound by my kind, long ago and is now at the beck and call of Master Malchir. A dangerous servant, to be sure, but a servant nonetheless. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of this Lord of Flame. "
+msgctxt "ask 0420"
+msgid "What is a Titan. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a Titan. "
+msgctxt "bark 0420:77F3"
+msgid "A Titan is the personification of one of the four Elements. They are Earth, Water, Air, and of course Fire. I know little of the others, and Fire I study. "
+msgstr ""
+
+#. event 01 (use (talk)), after ""
+msgctxt "bark 0420:78A9"
+msgid "I do not understand. What did you say? "
+msgstr ""

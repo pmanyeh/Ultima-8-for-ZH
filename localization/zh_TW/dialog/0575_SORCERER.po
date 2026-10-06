@@ -1,0 +1,302 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# SORCERER (usecode class 0575)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. , after "Cardas"
+#. answer compared by the conversation code
+msgctxt "ask 0575"
+msgid "Cardas"
+msgstr ""
+
+#. , after "Daemos"
+#. answer compared by the conversation code
+msgctxt "ask 0575"
+msgid "Daemos"
+msgstr ""
+
+#. , after "Kothius"
+#. answer compared by the conversation code
+msgctxt "ask 0575"
+msgid "Kothius"
+msgstr ""
+
+#. , after "Mentar"
+#. answer compared by the conversation code
+msgctxt "ask 0575"
+msgid "Mentar"
+msgstr ""
+
+#. , after "Tallon"
+#. answer compared by the conversation code
+msgctxt "ask 0575"
+msgid "Tallon"
+msgstr ""
+
+#. , after "Emrichol"
+#. answer compared by the conversation code
+msgctxt "ask 0575"
+msgid "Emrichol"
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:04BC"
+msgid ", the late Sorcerer"
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:04E6"
+msgid ", the Sorcerer"
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:0521"
+msgid ", the deceased"
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:056D"
+msgid "dead Sorcerer "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:058F"
+msgid "Sorcerer "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:05BE"
+msgid "dead mage "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:05DC"
+msgid "mage "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:0809"
+msgid "Tis a horrible way to go, consumed by a daemon. I am not so sure I should have started down the Burning Path. Forgive me. I cannot speak right now. "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:0898"
+msgid "I shall have to learn how to banish daemons as soon as possible. I suggest you do the same. Farewell for now. "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:0968"
+msgid "I wonder what happens when a Sorcerer summons a daemon to fight another daemon. Perhaps that is the best defense against a daemon attack. I must go now. Perhaps we shall speak later. "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:0A59"
+msgid "Pyros below! The Master! I am just a lowly Disciple. I did not mean to arouse your wrath. If you will permit me to live, I will bother you no more. "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:0B48"
+msgid "Since there is no reason why you would want to speak to me, I must assume that you wish to punish me. I do not know what I have done to deserve your punishment, but I submit myself to your justice. "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:0BE7"
+msgid "Greetings, stranger. What do you want? "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:0C19"
+msgid "Yes. What is it? "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:0C4E"
+msgid "What do you need, stranger. "
+msgstr ""
+
+#. , after "Emrichol"
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0575:0CA2"
+msgid "Greetings, {name}. What do you want?"
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "bark 0575:0CD4"
+msgid "Yes? What is it? "
+msgstr ""
+
+#. , after "Emrichol"
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0575:0D0B"
+msgid "What do you need, {name}?"
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "ask 0575"
+msgid "Tell me of this place. "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "ask 0575"
+msgid "What are you called? "
+msgstr ""
+
+#. , after "Emrichol"
+msgctxt "ask 0575"
+msgid "What do you do? "
+msgstr ""
+
+#. , after "Farewell. "
+#. answer compared by the conversation code
+msgctxt "ask 0575"
+msgid "Farewell. "
+msgstr ""
+
+#. , after "Farewell. "
+msgctxt "bark 0575:0DEC"
+msgid "Is there something else you would ask about? "
+msgstr ""
+
+#. , after "Tell me of this place. "
+msgctxt "bark 0575:0F6A"
+msgid "Well... as a Disciple, it is not my place to inform newcomers of this place. Suffice it to say, it is called Sorcerer's Enclave, and it sits in Daemon's Crag. "
+msgstr ""
+
+#. , after "Tell me of this place. "
+msgctxt "ask 0575"
+msgid "Tell me of Daemon's Crag. "
+msgstr ""
+
+#. , after "Tell me of this place. "
+msgctxt "ask 0575"
+msgid "What is a Sorcerer? "
+msgstr ""
+
+#. , after "Tell me of this place. "
+msgctxt "ask 0575"
+msgid "Disciple? What is that? "
+msgstr ""
+
+#. , after "What are you called? "
+msgctxt "bark 0575:1070"
+msgid "My name is . And you are? "
+msgstr ""
+
+#. , after "What are you called? "
+msgctxt "ask 0575"
+msgid "It does not matter. "
+msgstr ""
+
+#. , after "What do you do? "
+msgctxt "bark 0575:1117"
+msgid "I am a Sorcerer. A Disciple to be specific. "
+msgstr ""
+
+#. , after "What do you do? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0575:11D3"
+msgid "Well met, {name}."
+msgstr ""
+
+#. , after "It does not matter. "
+msgctxt "bark 0575:129E"
+msgid "True enough. I do like to know who I am speaking to, but it doesn't really matter who you are. "
+msgstr ""
+
+#. , after "Why is it called an enclave? "
+#. answer compared by the conversation code
+msgctxt "ask 0575"
+msgid "Why is it called an enclave? "
+msgstr ""
+
+#. , after "Why is it called an enclave? "
+msgctxt "bark 0575:13DE"
+msgid "There was a time when we Sorcerers were feared by the others. Our kind were outcasts amongst them. And so, many ages ago, the Cabal made the enclave to protect ourselves... as well as the others from misunderstandings. "
+msgstr ""
+
+#. , after "Why is it called an enclave? "
+msgctxt "ask 0575"
+msgid "What is the Cabal. "
+msgstr ""
+
+#. , after "Tell me of Daemon's Crag. "
+msgctxt "bark 0575:14BF"
+msgid "I don't know very much about it. My studies of Sorcery preclude much outside research. "
+msgstr ""
+
+#. , after "Tell me of Daemon's Crag. "
+msgctxt "ask 0575"
+msgid "What use is Sorcery? "
+msgstr ""
+
+#. , after "What is a Sorcerer? "
+msgctxt "bark 0575:15A3"
+msgid "A Sorcerer... strange that you should ask. Nevermind. A Sorcerer is a mage who studies the Fire. "
+msgstr ""
+
+#. , after "What is a Sorcerer? "
+msgctxt "ask 0575"
+msgid "Tell me of the Fire. "
+msgstr ""
+
+#. , after "Disciple? What is that? "
+msgctxt "bark 0575:1698"
+msgid "A Disciple is a follower of the Burning Path. And before you ask, the Burning Path is the study of Fire. "
+msgstr ""
+
+#. , after "What is the Cabal. "
+msgctxt "bark 0575:174E"
+msgid "That is the word we use for all Sorcerers. "
+msgstr ""
+
+#. , after "What use is Sorcery? "
+msgctxt "bark 0575:1804"
+msgid "If you have to ask that, it will never be of use to you. And so, my answer wouldn't either. "
+msgstr ""
+
+#. , after "Tell me of the Fire. "
+msgctxt "bark 0575:1906"
+msgid "I cannot... it fills my being. I sleep and it washes over my dreams, I wake and it is all around me. It is my desire to command and serve it for the rest of my days. "
+msgstr ""
+
+#. , after "Farewell. "
+msgctxt "bark 0575:1976"
+msgid "Goodbye. "
+msgstr ""
+
+#. , after "Farewell. "
+msgctxt "bark 0575:19A1"
+msgid "Farewell. "
+msgstr ""
+
+#. , after "Farewell. "
+msgctxt "bark 0575:19D1"
+msgid "Until we meet again... "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 0575:1A2F"
+msgid "Come again when you truly wish to speak. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 0575:1A7A"
+msgid "This is like talking to a torax. Goodbye. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 0575:1AEC"
+msgid "When you wish to talk, you may seek me out. I must return to what I was doing. Farewell. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 0575:1B3E"
+msgid "I do not understand. What did you say? "
+msgstr ""

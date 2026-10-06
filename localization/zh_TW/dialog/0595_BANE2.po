@@ -1,0 +1,294 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# BANE2 (usecode class 0595)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+msgctxt "bark 0595:0123"
+msgid "Ah. A stranger comes to the Enclave. How rare.*You are also a stranger to the island of Morgaelin.*Are you not? "
+msgstr ""
+
+msgctxt "bark 0595:0239"
+msgid "Your silence is understood, but fear not, I intend you no harm.*What might you be called, my friend? "
+msgstr ""
+
+msgctxt "ask 0595"
+msgid "You are not my friend, lady. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0481"
+msgid "I see you are a humble one , but there is no reason for you to reveal your name to me. I would prefer to give you one  that has meaning in the Elder Tongue. I sense that your name should be Daemion. It means Fire of the Sky.*Do you like it? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:05C5"
+msgid "Nonetheless, it is what I shall call you. You may respond or not as you see fit.  Perhaps later, when you have earned it, you will be given a Truename. Daemion seems right and will suffice for now. With what may I assist you? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:075F"
+msgid "Yes? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:07D7"
+msgid "Is there something we have to discuss? Because if not, I have much to attend to. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:084E"
+msgid "Unless you've come to apologize for your rude behavior, I have nothing to say to you. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0879"
+msgid "What do you want? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:08CE"
+msgid "Leave me be! I grow weary of your presence. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0930"
+msgid "How can I make you understand?!*I do not wish to speak with you! "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:09A0"
+msgid "If you do not give me peace, I shall have no other alternative than to give it to you. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:09E1"
+msgid "I will feed your entrails to my Daemon! "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0A5E"
+msgid "Return only when you have found your manners. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0A92"
+msgid "Leave as you wish. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0AE9"
+msgid "I cannot say I am sorry to see you go. I hope you understand. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0B26"
+msgid "Do not return here. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0B6E"
+msgid "Leave as you wish, for I wish it also. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0BA3"
+msgid "Farewell, but not too well. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0BDD"
+msgid "Farewell, Disciple. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0C22"
+msgid "Return when you seek more training. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0C4D"
+msgid "Goodbye, Daemion. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0C82"
+msgid "Farewell, my Daemion. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0CD7"
+msgid "Going so soon? Well, do return when it pleases you. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0CF9"
+msgid "Goodbye. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0D46"
+msgid "Remember, my offer still stands, Daemion. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0DEB"
+msgid "I do have things to tend to, Daemion. When you have your thoughts collected, feel free to call upon me. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0E59"
+msgid "If you do not seek my attention, I shall not keep yours.* Farewell, Daemion. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0ED8"
+msgid "Do you hear me? Apparently not. If so, surely you would answer. Please return when you wish to speak. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0F27"
+msgid "I do not have time for this, Daemion. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0F81"
+msgid "If you do not seek my attention, I shall not keep yours. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:100B"
+msgid "Do you hear me? Apparently not. If so, surely you would answer. Return when you have something important to say. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:10A3"
+msgid "You are a most infuriating person. It would not be wise for you to remain. Some here are not as friendly as I. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:1108"
+msgid "Should you decide to seek my advice later, I will not be available. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:114D"
+msgid "I am surrounded by half-wits and imbeciles! "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "ask 0595"
+msgid "Nevermind. "
+msgstr ""
+
+#. , after "Nevermind. "
+msgctxt "bark 0595:1366"
+msgid "I'm not so sure I should...*Your manners were atrocious. But you seem sincere now. Very well. I suppose I do forgive you. Just don't let it happen again. Now then, what do you seek of me? "
+msgstr ""
+
+#. , after "I did not mean to give offense. "
+#. answer compared by the conversation code
+msgctxt "ask 0595"
+msgid "I did not mean to give offense. "
+msgstr ""
+
+#. , after "I did not mean to give offense. "
+msgctxt "bark 0595:1479"
+msgid "Well you did! But you are a foreigner. Let us not dwell on your past mistakes. Now then, what do you seek of me? "
+msgstr ""
+
+#. , after "Nevermind. "
+msgctxt "bark 0595:157A"
+msgid "By Pyros' flaming eyes! Take that tone with me again, and I'll incinerate your heart where it beats within your chest. "
+msgstr ""
+
+#. , after "Nevermind. "
+msgctxt "bark 0595:15BF"
+msgid "Your pain will be legendary, even in Pagan! "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 0595:16F3"
+msgid "I believe something you said was incorrectly spelled. I don't know why I know this. It was as if giant, blue letters had appeared, blazing across the sky. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 0595:174A"
+msgid "Do you perchance have Vardion's Truename? "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 0595:17EB"
+msgid "Wonderful! Give it to me and I will perform the ritual necessary to end Vardion's designs upon the Mastery. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 0595:1873"
+msgid "I see. You must be swift about this. If he kills the Master before I know his intentions, it will be too late. "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 0595"
+msgid "I don't know it yet. "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 0595"
+msgid " Morduin."
+msgstr ""
+
+#. , after ""
+msgctxt "ask 0595"
+msgid " Vardion."
+msgstr ""
+
+#. , after ""
+msgctxt "ask 0595"
+msgid " Daemion."
+msgstr ""
+
+#. , after ""
+msgctxt "ask 0595"
+msgid " Sabriane."
+msgstr ""
+
+#. , after " Vardion."
+msgctxt "bark 0595:19C2"
+msgid "You poor stupid fool. If you truly believe that Vardion is his Truename, you are of no use as a Sorcerer. "
+msgstr ""
+
+#. , after " Vardion."
+msgctxt "bark 0595:1A01"
+msgid "Try again. And this time do not fail me. "
+msgstr ""
+
+#. , after " Daemion."
+msgctxt "bark 0595:1AA4"
+msgid "No, you little idiot. That is the name I gave you. Perhaps I should have called you Daemient. Fire of the Brain. "
+msgstr ""
+
+#. , after " Sabriane."
+msgctxt "bark 0595:1B80"
+msgid "That is my name. Have I entrusted my Truename, and the future of the Cabal to a simpering moron? Please run along now and get Vardion's Truename for me, won't you dear? "
+msgstr ""
+
+#. , after "I don't know it yet. "
+msgctxt "bark 0595:1C4B"
+msgid "Do you toy with me?! I am not accustomed to having my Disciples lie to me. Get his Truename or I'll personally feed you to the Fire. "
+msgstr ""
+
+#. , after "I don't know it yet. "
+msgctxt "bark 0595:1CC1"
+msgid "I gave fair warning. Your life has come to a close, my irritating little friend. "
+msgstr ""
+
+#. , after " Morduin."
+msgctxt "bark 0595:1D88"
+msgid "Ah, yes! I should have guessed it. Dark Flame. It could have been no other. Thank you, my disciple. Now prepare to witness his undoing. "
+msgstr ""

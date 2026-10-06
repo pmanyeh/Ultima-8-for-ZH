@@ -1,0 +1,863 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# RHIAN (usecode class 0412)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0412:00B1"
+msgid "the body of Rhian "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0412:00E7"
+msgid "Rhian the weaver "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0412:010C"
+msgid "Rhian"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0412:0133"
+msgid "weaver "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0412:0155"
+msgid "woman "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0412:0249"
+msgid "I would not do that if I were you! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0412:027F"
+msgid "Stop! Thief! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0412:02D5"
+msgid "I saw that! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0412:0321"
+msgid "Stop that, or I'll call the guard! "
+msgstr ""
+
+#. event 13 (justMoved)
+msgctxt "bark 0412:0365"
+msgid "This is your last warning! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0412:04FE"
+msgid "Help me, Beren! "
+msgstr ""
+
+#. event 11 (leaveFastArea)
+msgctxt "bark 0412:0526"
+msgid "Town Sorcerer! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0664"
+msgid "boo-hoo... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0683"
+msgid "-sob- "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:071A"
+msgid "-sob- "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:073B"
+msgid "-sniff- "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:08EA"
+msgid "Why, hello, friend. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0953"
+msgid "What do you want here, stranger? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:09B7"
+msgid "Looking for something? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0A1F"
+msgid "Please look around. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0A86"
+msgid "Please, do not touch anything. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0B05"
+msgid "What am I to do? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0B6C"
+msgid "I must carry on some how. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0BC4"
+msgid "Woe is me! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0C3C"
+msgid "I must be strong! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0CBC"
+msgid "Oh, these tired old hands... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0D27"
+msgid "Perhaps I should take a walk. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0D73"
+msgid "I'm just so tired, maybe later. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0DB1"
+msgid "The days are growing longer. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:0E41"
+msgid "Oh, Toran! "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:10E0"
+msgid "Good day, my friend. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:1129"
+msgid "Excuse me, please. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:1164"
+msgid "Need some assistance? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:11B2"
+msgid "Stranger, are you lost? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:1235"
+msgid "Pardon me, I did not mean to stare... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:12E4"
+msgid "Storm clouds are brewing. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:133D"
+msgid "The winds are growing colder. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:138C"
+msgid "I should be going home... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:13E2"
+msgid "but there is nothing for me there. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:1448"
+msgid "I can find no beauty in the world anymore. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:14C8"
+msgid "What am I to do? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:150E"
+msgid "I must find a way. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:157D"
+msgid "Well, I'm afraid I do not know much about gems. What do you have to offer? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:159C"
+msgid "Hmmmm... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0412:163B"
+msgid "For this gem you have I can only offer you {num} coins."
+msgstr ""
+
+#. event 10 (enterFastArea)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0412:16A7"
+msgid "For these {num} gems you have I can only offer you {num} coins."
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:16DA"
+msgid "Is this an acceptable offer? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:1729"
+msgid "Very good. Here is your stone... "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:1773"
+msgid "...and I'll take this. Thank you. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:17E9"
+msgid "That's fine, that's fine. I do not wish to push you. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:1835"
+msgid "Hmmmm... It seems you have misplaced your gems. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:1874"
+msgid "When you find them please bring them by. "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "bark 0412:18FD"
+msgid "Certainly. I have diamonds, rubies, gemstone necklaces and gemstone rings. In which are you interested? "
+msgstr ""
+
+#. event 10 (enterFastArea)
+msgctxt "ask 0412"
+msgid "Nothing, thank you. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "A diamond "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "A diamond "
+msgstr ""
+
+#. event 10 (enterFastArea), after "A diamond "
+msgctxt "bark 0412:1A42"
+msgid "This is lovely. It was one of Toran favorites.-sniff- I'm sorry, I don't really know what it is worth. He was going to sell if for 45 stones. Are you interested? "
+msgstr ""
+
+#. event 10 (enterFastArea), after "A ruby "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "A ruby "
+msgstr ""
+
+#. event 10 (enterFastArea), after "A ruby "
+msgctxt "bark 0412:1ABE"
+msgid "Oh, my son, Torwin, liked this one so much. -sob- The price is 20 stones. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Gemstone necklace "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "Gemstone necklace "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Gemstone necklace "
+msgctxt "bark 0412:1B6F"
+msgid "Oh, I was there when he bought this from a young miner. The price is only 36 blacks. Quite a deal, don't you think? "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Gemstone ring "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "Gemstone ring "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Gemstone ring "
+msgctxt "bark 0412:1C3C"
+msgid "This is my favorite piece. -sob- I am loath to part with it, it reminds me of Toran. But times are hard for a -snif- widow. The price is 22 stones. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "bark 0412:1C88"
+msgid "As you wish. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "bark 0412:1CBD"
+msgid "Perhaps some other time. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "ask 0412"
+msgid "Never mind, thank you. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "Here is the amount. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0412:1D91"
+msgid "Thank you. Thank you so much. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0412:1E2C"
+msgid "Oh. I'm so sorry. It seems times are hard for you, as well. Perhaps this will still be here when you have a little more to spend. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0412:1EA0"
+msgid "Oh, your hands are full! I will keep this until you have room for it. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0412:1ED9"
+msgid "I understand. Thank you anyway. "
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+msgctxt "bark 0412:1F25"
+msgid "Perhaps you need time to think about it. "
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+msgctxt "bark 0412:201A"
+msgid "Certainly, I have only rough cloth to work with, so I'm afraid it will be nothing like some of the rich Kith silk you are used to. I have cloaks, shirts, vests and robes. Which would you be interested in? "
+msgstr ""
+
+#. event 10 (enterFastArea), after "A cloak "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "A cloak "
+msgstr ""
+
+#. event 10 (enterFastArea), after "A cloak "
+msgctxt "bark 0412:20CC"
+msgid "I have a nice warm cloak. The price is 6 stones. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "A shirt "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "A shirt "
+msgstr ""
+
+#. event 10 (enterFastArea), after "A shirt "
+msgctxt "bark 0412:2120"
+msgid "I have shirts for 4 stones each. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Vest "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "Vest "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Vest "
+msgctxt "bark 0412:2190"
+msgid "A vest would look very imposing on you. Their cost is 7 stones. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "bark 0412:21DC"
+msgid "As you wish. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "bark 0412:2225"
+msgid "Well, I guess you are really not interested. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0412:22F9"
+msgid "Thank you. Thank you so much. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0412:2394"
+msgid "Oh. I'm so sorry. It seems times are hard for you, as well. Perhaps this will still be here when you have a little more to spend. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0412:2408"
+msgid "Oh, your hands are full! I will keep this until you have room for it. "
+msgstr ""
+
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "bark 0412:2441"
+msgid "I understand. Thank you anyway. "
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+msgctxt "bark 0412:248E"
+msgid "Perhaps you are not interested after all. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:250C"
+msgid "Excuse me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:252F"
+msgid "Hello there. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:25D9"
+msgid "My husband,-sob-  oh, my husband, what shall I do? What shall become of me? Oh no, no, no! -sob- "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:2650"
+msgid "Oh, forgive me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:266C"
+msgid "-sob- "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:269D"
+msgid "I can not bear such grief. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:26C8"
+msgid "Please, leave me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:26F2"
+msgid "I can not talk now. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:2798"
+msgid "Yes? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0412"
+msgid "What is your name? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:27FA"
+msgid "Greetings again. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:281A"
+msgid "Hello. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0412"
+msgid "Hello, Rhian. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0412"
+msgid "What do you sell here? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0412"
+msgid "I found this ring. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0412"
+msgid "I'm sorry, but your son won't be back. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0412"
+msgid "Tell me again of your son. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:2975"
+msgid "Oh, forgive me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:2991"
+msgid "-sob- "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:29C2"
+msgid "I can not bear such grief. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 0412:29EC"
+msgid "I can not talk now. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell. "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "Farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "bark 0412:2B2C"
+msgid "Strange, I thought I told you. Oh, in my grief, I must have forgotten to tell you my name. I am so sorry. My name is Rhian, that is it, just Rhian. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "ask 0412"
+msgid "What do you do? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "bark 0412:2BBF"
+msgid "My name is Rhian, and yours? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "ask 0412"
+msgid "None of your business. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello, Rhian. "
+msgctxt "bark 0412:2C71"
+msgid "Hello, my friend. What can I help you with today? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello, Rhian. "
+msgctxt "ask 0412"
+msgid "I am interested in purchasing clothing. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello, Rhian. "
+msgctxt "ask 0412"
+msgid "I am interested in gems. "
+msgstr ""
+
+#. event 01 (use (talk)), after "None of your business. "
+msgctxt "bark 0412:2DAE"
+msgid "I'm sorry if I have offended you. I meant no harm. Please forgive me. I am very sorry. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I found this ring. "
+msgctxt "bark 0412:2F64"
+msgid "Oh, oh dear, oh dear dear. -sob- This was my husband's. He gave it to our son upon his 16 birthday.-sob- Torwin never -sniff- took it off, oh, I can hardly bear to look at it. You are so kind to bring it to me. Now I have something to remember them by. Now, if you'll excuse me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I found this ring. "
+msgctxt "bark 0412:3012"
+msgid "This...this is my son's ring. -sniff- Toran gave it to him for his 16 birthday. Torwin never took it off. How did you come by it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I found this ring. "
+msgctxt "ask 0412"
+msgid "I found it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I found it. "
+msgctxt "bark 0412:31AA"
+msgid "Oh, this does not bode well. This ring was Torwin's pride and joy. This is not good at all. Something must have happened to him. Oh no, I can not bear the thought. What if something dreadful has happened? What if he is ill or injured? This is just terrible! "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? " or "What do you sell here? "
+msgctxt "bark 0412:32DC"
+msgid "I'm a weaver. I make clothing. And...and because of, I, oh I can not say it without crying...-sniff- my husband's -sob- execution -sob sob-, I have taken over the running of my husband's gem shop. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? " or "What do you sell here? "
+msgctxt "ask 0412"
+msgid "Do you sell clothing? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you do? " or "What do you sell here? "
+msgctxt "ask 0412"
+msgid "Why do you cry? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your husband's shop? "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "Your husband's shop? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your husband's shop? "
+msgctxt "bark 0412:341E"
+msgid "Toran was the gem cutter here in town. As my son is no longer here, I am left to run the shop. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Do you sell clothing? "
+msgctxt "bark 0412:34C3"
+msgid "I sell those that I make. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am interested in gems. "
+msgctxt "bark 0412:3589"
+msgid "Would you like to buy or sell gems? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am interested in gems. "
+msgctxt "ask 0412"
+msgid "sell gems "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am interested in gems. "
+msgctxt "bark 0412:3640"
+msgid "I'm sorry but all my wares are at my shop. Please come by there a little later. "
+msgstr ""
+
+#. event 01 (use (talk)), after "buy gems "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "buy gems "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am interested in purchasing clothing. "
+msgctxt "bark 0412:3813"
+msgid "I have many things in my shop. Please come by there when I am open for business. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am interested in purchasing clothing. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0412:38BE"
+msgid "Hello, {name}, - sob- I am afraid I am not good company at this terrible time."
+msgstr ""
+
+#. event 01 (use (talk)), after "Why do you cry? "
+msgctxt "bark 0412:39F7"
+msgid "I'm sorry if my tears upset you, but -sob- it is so sad. I was once the wife of Toran. But now he is gone and my son is gone...whatever shall I do? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why do you cry? "
+msgctxt "ask 0412"
+msgid "Where is your son? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Toran was your husband? "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "Toran was your husband? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Toran was your husband? "
+msgctxt "bark 0412:3AD0"
+msgid "Yes and he was executed by the Tempest, Lady Mordea. -sob-. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Toran was your husband? "
+msgctxt "ask 0412"
+msgid "Why was he executed? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why was he executed? "
+msgctxt "bark 0412:3C01"
+msgid "I tried to warn him about speaking his mind so openly, but he would laugh and say that no man need fear the truth. In the end 'twas Mordea's wrath that he should have feared. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why was he executed? "
+msgctxt "ask 0412"
+msgid "He was an outspoken man? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Feared Mordea's wrath? "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "Feared Mordea's wrath? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Feared Mordea's wrath? "
+msgctxt "bark 0412:3D3D"
+msgid "She does not take kindly to things said about her. It will cost you your life, as it did my poor Toran, -sob- but I should not burden you with my troubles. "
+msgstr ""
+
+#. event 01 (use (talk)), after "He was an outspoken man? "
+msgctxt "bark 0412:3E8B"
+msgid "Toran feared no one, not even the Tempest. Of late, he had begun to question the need for these executions. He was in the tavern when the guards came for him... oh, I tried to warn him, -sob-  Now I have no one, not even my son. -sob-. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is your son? " or "Tell me again of your son. "
+msgctxt "bark 0412:3F89"
+msgid "My son, Torwin, left home to become a Theurgist. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is your son? " or "Tell me again of your son. "
+msgctxt "ask 0412"
+msgid "What is a Theurgist? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a Theurgist? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0412:4116"
+msgid "A Theurgist is a healer. Oh, please do not misunderstand me, friend {name}, I think it is grand that my son should want to be a healer. Why I'm thrilled, but I am concerned by the suddenness of his decision."
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a Theurgist? "
+msgctxt "ask 0412"
+msgid "You question his decision? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You question his decision? "
+msgctxt "bark 0412:4329"
+msgid "I'm sorry if I appear to be a terrible mother by questioning his decision, but he never showed any sign of wanting to be a healer when he was growing up. He just wanted to be a gemcutter like his father. -sob- And now that he is gone, I am left alone with no one to support me. But, at least I know he is alive and well. -sniffle- I can always hope he will return to his poor widowed mother. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You question his decision? "
+msgctxt "ask 0412"
+msgid "I've met your son. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You question his decision? "
+msgctxt "ask 0412"
+msgid "I hope he returns to you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I hope he returns to you. "
+msgctxt "bark 0412:44A8"
+msgid "That would be wonderful. Oh, how I'd love to see him again. Even...even if just for a short visit. -sob-, Oh, to see his face again! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I've met your son. "
+msgctxt "bark 0412:45EF"
+msgid "Oh, is he well? Does he speak of me? I am sure he must be the finest healer on Argentrock. Oh, -sob- his father would be so proud... if only my husband could hear this, but he never will. He will never know... oh, no, no, no! -sob- "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm sorry, but your son won't be back. "
+msgctxt "bark 0412:4666"
+msgid "What?! What do you mean?! "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm sorry, but your son won't be back. "
+msgctxt "ask 0412"
+msgid "Your son had an accident. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your son committed suicide. "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "Your son committed suicide. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your son committed suicide. "
+msgctxt "bark 0412:47CF"
+msgid "But..but, that can't be true, oh no, no, no, it just can't be. Oh my son, my little boy.... How can this be? -sob-, please tell me! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your son committed suicide. "
+msgctxt "ask 0412"
+msgid "He couldn't pass the Theurgists tests. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I do not know. "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "I do not know. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I do not know. "
+msgctxt "bark 0412:4944"
+msgid "Oh, I don't think I can bear it. My heart will break in two. -sob- I'm sorry, I fear I can speak no more of it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You son passed away. "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "You son passed away. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You son passed away. "
+msgctxt "bark 0412:4A32"
+msgid "He passed away? He was so young! Oh my, I can't believe it, I just can't.-sob- He mustn't be dead. No, no, no, he mustn't. I can't go on! Oh, no,no,no. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your son had an accident. "
+msgctxt "bark 0412:4B1A"
+msgid "An accident? No, I should never have let him go. Oh, now I am alone forever. What ever shall I do? What ever shall I do? No, no, no, no..... "
+msgstr ""
+
+#. event 01 (use (talk)), after "He was trying to resurrect his father. "
+#. answer compared by the conversation code
+msgctxt "ask 0412"
+msgid "He was trying to resurrect his father. "
+msgstr ""
+
+#. event 01 (use (talk)), after "He was trying to resurrect his father. "
+msgctxt "bark 0412:4BFE"
+msgid "Oh, -sob- my brave, sweet boy.-sob- He loved his father so. Now they are both lost to me, what shall I do? What shall I do? "
+msgstr ""
+
+#. event 01 (use (talk)), after "He couldn't pass the Theurgists tests. "
+msgctxt "bark 0412:4CFD"
+msgid "I don't believe you! My boy is so smart. He could not have failed! -sob- He could have done it...now he does not have a chance to try again...oh no... "
+msgstr ""
+
+#. event 01 (use (talk)), after "He couldn't pass the Theurgists tests. "
+msgctxt "bark 0412:4D47"
+msgid "Perhaps we shall speak later. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0412:4DA0"
+msgid "Farewell,  {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Farewell. "
+msgctxt "bark 0412:4DD5"
+msgid "Farewell "
+msgstr ""

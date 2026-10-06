@@ -1,0 +1,126 @@
+# Ultima VIII: Pagan - translation (zh_TW)
+# KEY (usecode class 0052)
+#
+# Generated and merged by tools/catalog/u8catalog.py; translations are kept
+# when the file is updated. msgctxt = where the text is shown (ADR-001),
+# msgid = the exact English text (keep trailing spaces).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. event 00 (look)
+msgctxt "bark 0052:00AC"
+msgid "key blank "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:00E4"
+msgid "silver mine key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:0110"
+msgid "key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:013C"
+msgid "key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:0168"
+msgid "key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:0194"
+msgid "key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:01D4"
+msgid "Key of the Conventicler "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:020B"
+msgid "Disciple's key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:0241"
+msgid "Acolyte's key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:0276"
+msgid "Master's key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:02A2"
+msgid "Key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:02CE"
+msgid "Key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:02FA"
+msgid "Key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:0326"
+msgid "Key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:0352"
+msgid "Key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:0386"
+msgid "Devon's key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:03B2"
+msgid "Key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:03DE"
+msgid "Key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:040A"
+msgid "Key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:0436"
+msgid "Key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:0462"
+msgid "Key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:048E"
+msgid "Key "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 0052:04AB"
+msgid "key "
+msgstr ""
