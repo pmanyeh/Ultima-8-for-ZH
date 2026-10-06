@@ -47,7 +47,17 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ⏳ 待開始
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ⏳ 待開始
+
+## v2.2 — 2026-10-06（Phase 5 完成後）
+
+依據：[docs/reports/P5-npc-bark-poc.md](docs/reports/P5-npc-bark-poc.md)
+
+| 章節 | 修訂內容 |
+|---|---|
+| §18.1 | P5 PASS |
+| §24 | 驗收打勾；存檔策略定案：存英文，讀檔後該句以英文顯示；語音實測移到 P7 |
+| §49 | #2、#17（bark）完成；#3 有語音的部分完成；新增 #18（有語音的 NPC，P7 驗證） |
 
 ## v2.1 — 2026-10-06（Phase 4 完成後）
 
@@ -1028,7 +1038,7 @@ P15 Optional Enhancements
 | P2 Translation Identity | ✅ PASS → **GO**（2026-10-06） | `docs/reports/P2-translation-identity.md` |
 | P3 UTF-8 / CJK Foundation | ✅ PASS（2026-10-06） | `docs/reports/P3-cjk-foundation.md` |
 | P4 Localization Manager | ✅ PASS（2026-10-06） | `docs/reports/P4-localization-manager.md` |
-| P5 NPC Bark POC ★ | ⏳（spike 已在遊戲中顯示中文台詞） | |
+| P5 NPC Bark POC ★ | ✅ PASS（2026-10-06） | `docs/reports/P5-npc-bark-poc.md` |
 | P6 AskGump Choice POC ★ | ⏳（spike 已驗證中文選項進入原始分支） | |
 | P7 First Complete Conversation ★ | ⏳ | |
 
@@ -1674,15 +1684,15 @@ save-game game state
 
 ## Acceptance
 
-- [ ] real NPC Chinese appears
-- [ ] original English does not visually overlap
-- [ ] correct actor
-- [ ] correct position
-- [ ] wrap correct
-- [ ] duration reasonable
-- [ ] speech still works
-- [ ] localization OFF restores English
-- [ ] save/load PASS
+- [x] real NPC Chinese appears
+- [x] original English does not visually overlap
+- [x] correct actor
+- [x] correct position
+- [x] wrap correct
+- [x] duration reasonable
+- [~] speech still works（程式碼層級；Devon 沒有語音檔，實測移到 P7）
+- [x] localization OFF restores English
+- [x] save/load PASS
 
 ## v2：P5 工作項目
 
@@ -1692,7 +1702,14 @@ save-game game state
 
 Acceptance 補充：
 
-- [ ] 自言自語 bark 顯示中文時存檔 → 關閉 localization 讀檔 → 顯示英文
+- [x] 自言自語 bark 顯示中文時存檔 → 關閉 localization 讀檔 → 顯示英文
+
+**v2.2：P5 結果**（[報告](docs/reports/P5-npc-bark-poc.md)）
+
+- `BarkGump::_displayText`（不存檔）交給 TextWidget；`_barked` 不變。字型不能畫 UTF-8 時顯示英文。
+- 存檔：`TextWidget::setSaveText()` 讓顯示譯文的 widget 存英文原文（offset 歸零）。存檔格式不變；讀檔後該句以英文顯示剩下的時間。
+- 顯示時間：有語音時以實際顯示文字長度分配；無語音的公式不變（中文約每秒 5 字）。
+- 測試：`Localization::bark <class>:<ip>`、`tools/validate/save_text_check.py`。
 
 **STOP**
 
@@ -2911,8 +2928,8 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | # | 項目 | 處理 Phase |
 |---|---|---|
 | 1 | ~~CJK 字型載入失敗時自動停用翻譯~~ ✅ 還原原字型並停用 | P4 |
-| 2 | 自言自語 bark 的 `TextWidget::_text` 寫入存檔 | P5 |
-| 3 | 顯示時間以 byte 計算（中文停留過久） | P5（不過早消失）/ P11（完整） |
+| 2 | ~~自言自語 bark 的 `TextWidget::_text` 寫入存檔~~ ✅ 存英文原文（`setSaveText`） | P5 |
+| 3 | 顯示時間以 byte 計算：有語音的分配已修正（P5）；無語音的中文速度細調 | P11 |
 | 4 | ~~字集覆蓋檢查工具~~ ✅ `tools/validate/font_coverage.py` | P3 |
 | 5 | ~~`font_antialiasing` 為全域設定~~ ✅ `font_cjk_antialiasing` 個別設定 | P3 |
 | 6 | ~~`toUnicode` 修正的英文與日文 regression test~~ ✅ 單元測試（日文無實機資料） | P3 |
@@ -2926,7 +2943,8 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 14 | 原版換行在字元比行寬時無限迴圈 → 已在 P3 修正，可考慮回報 upstream | — |
 | 15 | 遊戲選項 GUI 的語言選單（ScummVM game option 只有勾選框，需要自訂 widget） | P9 或之後 |
 | 16 | 翻譯檔沒有記錄遊戲資料版本；考慮在檔頭加入 `EUSECODE.FLX` 雜湊 | P10 |
-| 17 | 字型就緒是全域判斷；BarkGump / AskGump 掛點應再確認目標字型是 UTF-8 字型 | P5 / P6 |
+| 17 | 掛點確認目標字型是 UTF-8 字型：BarkGump ✅（`Font::isUTF8`）；AskGump 待做 | P6 |
+| 18 | 有語音的 NPC 在 localization 下的語音與字幕（遊戲只有 9 個語音檔） | P7 |
 
 ---
 
