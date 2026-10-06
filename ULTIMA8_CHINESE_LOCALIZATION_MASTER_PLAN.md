@@ -47,7 +47,17 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ⏳ 待開始
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ⏳ 待開始
+
+## v2.6 — 2026-10-06（Phase 9 完成後）
+
+依據：[docs/reports/P9-engine-ui-static-text.md](docs/reports/P9-engine-ui-static-text.md)
+
+| 章節 | 修訂內容 |
+|---|---|
+| §18.1 | P9 PASS |
+| §28 | 驗收打勾；圖片文字改用文字按鈕（日文版做法）而非翻譯圖片 |
+| §49 | #21 結案（狀態欄維持英文、日記改用字型 9）；#22 語錄也不翻譯；新增 #23（EditWidget 的 high-res 問題）、#24（TTFont 越界修正可回報 upstream） |
 
 ## v2.5 — 2026-10-06（Phase 8 完成後）
 
@@ -1073,6 +1083,7 @@ P15 Optional Enhancements
 | P6 AskGump Choice POC ★ | ✅ PASS（2026-10-06） | `docs/reports/P6-askgump-choice-poc.md` |
 | P7 First Complete Conversation ★ | ✅ PASS（2026-10-06）— **Core Localization Architecture proven** | `docs/reports/P7-first-complete-conversation.md` |
 | P8 Text Surface Inventory | ✅ PASS（2026-10-06） | `docs/reports/P8-text-surface-inventory.md`、`docs/research/text-surface-inventory.md` |
+| P9 Engine UI / Static Text | ✅ PASS（2026-10-06） | `docs/reports/P9-engine-ui-static-text.md` |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
 
@@ -1996,10 +2007,17 @@ translated frame
 
 ## Acceptance
 
-- [ ] known engine UI strings translated
-- [ ] original fallback works
-- [ ] translated Gump mapping works where needed
-- [ ] no proprietary assets committed
+- [x] known engine UI strings translated（角色狀態欄除外，放不下）
+- [x] original fallback works
+- [x] translated Gump mapping works where needed
+- [x] no proprietary assets committed
+
+**v2.6：P9 結果**（[報告](docs/reports/P9-engine-ui-static-text.md)）
+
+- engine 字串使用獨立的 `ui` context（以英文辨識），與 Usecode 的 ID 分開。`Localization::uiText()` 在字型不能畫 UTF-8 時退回 `_TL_()`。
+- 圖片文字：主選單、離開確認的問句改為文字（**日文版的對應方式，不製作翻譯圖片**；理由見報告）。yes / no、Entry、OK、PAGAN 標題維持原圖。
+- 日記「旅程的開端……」用書本字型 9；死亡畫面為英文 + 中文字幕（方案 A）；角色狀態欄維持英文（放不下）。
+- 修正 upstream 既有的 `TTFont::renderText` 寫出範圍問題。
 
 **STOP**
 
@@ -2995,8 +3013,10 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 18 | 有語音的 NPC 在 localization 下的語音與字幕（遊戲只有 9 個語音檔，Devon 沒有） | 有語音的 NPC 翻譯時 |
 | 19 | 抽取工具漏列部分選項（`Sea of Rains? ` 等只出現在「when answer is」） | P10 |
 | 20 | 墓碑（字型 11）、牌匾（10）、死亡畫面：**先採方案 A（英文雕刻 + 中文字幕，日文版做法）**（使用者決定 2026-10-06）。U7 專案是全部改成中文，之後再評估是否改為方案 B | P9 / P10 |
-| 21 | 字型 4（存讀檔）不在 `[fontoverride]`；`PaperdollGump`、`SliderGump` 取字型不允許 override | P9 |
-| 22 | 製作人員名單（`ECREDITS.DAT`）：**不翻譯**（使用者決定 2026-10-06）。開發者語錄（`QUOTES.DAT`）：待使用者決定 | — |
+| 21 | ~~字型 4 與狀態欄字型~~ ✅ P9：日記的中文改用字型 9；狀態欄維持英文（列距 9px 放不下中文）；`SliderGump` 只有數字 | P9 |
+| 22 | 製作人員名單（`ECREDITS.DAT`）與開發者語錄（`QUOTES.DAT`）：**都不翻譯**（使用者決定 2026-10-06） | — |
+| 23 | `EditWidget` 使用 high-res TTF（CJK）時文字畫到錯誤位置（日記輸入框）。P9 以不替換日記字型避開；使用者：之後再修 | 待定 |
+| 24 | `TTFont::renderText` 游標與文字寫出圖片範圍（upstream 既有，P9 已修正），可考慮回報 upstream | — |
 
 ---
 

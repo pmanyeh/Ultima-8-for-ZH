@@ -7,7 +7,7 @@ a context; the engine looks entries up by context + exact English text.
 Checks (errors stop the build, nothing is written):
   - PO syntax
   - msgctxt present and in a known form: "bark CCCC:IIII", "ask CCCC" or
-    "param CCCC:varXX|call_XXXX" (hex)
+    "param CCCC:varXX|call_XXXX" (hex), or "ui" (engine text)
   - sentence templates (bark msgid with {name}, {num}, {varXX}, {call_XXXX}):
     the msgstr must use exactly the same set of placeholders
   - no plural entries
@@ -27,7 +27,7 @@ import struct
 import sys
 
 CONTEXT_RE = re.compile(r"^(?:bark ([0-9A-Fa-f]{1,4}):([0-9A-Fa-f]{1,4})|ask ([0-9A-Fa-f]{1,4})"
-                        r"|param ([0-9A-Fa-f]{1,4}):(?:var([0-9A-Fa-f]{1,2})|call_([0-9A-Fa-f]{1,4})))$")
+                        r"|param ([0-9A-Fa-f]{1,4}):(?:var([0-9A-Fa-f]{1,2})|call_([0-9A-Fa-f]{1,4}))|(ui))$")
 PLACEHOLDER_RE = re.compile(r"\{([^{}]*)\}")
 VALID_PLACEHOLDER_RE = re.compile(r"^(?:name|num|var[0-9A-F]{2}|call_[0-9A-F]{4})$")
 ESCAPES = {"n": "\n", "t": "\t", "r": "\r", "a": "\a", "b": "\b", "f": "\f", "v": "\v",
@@ -198,6 +198,8 @@ def canonical_context(ctx):
     m = CONTEXT_RE.match(ctx or "")
     if not m:
         return None
+    if m.group(7) is not None:
+        return "ui"
     if m.group(3) is not None:
         return f"ask {int(m.group(3), 16):04X}"
     if m.group(4) is not None:

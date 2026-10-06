@@ -34,7 +34,7 @@
 | 20 | 死亡畫面 | `_TL_("HERE LIES*THE AVATAR*REST IN PEACE")` | `ReadableGump`（字型 11，同墓碑） | 否 | engine 字串；顯示方式同 8（方案 A） | 🟡 P9 |
 | 21 | 數量選擇（拿取堆疊物品） | 數字 | `SliderGump`（字型 0，不允許 override） | 是 | 只有數字，不需翻譯 | ⚪ |
 | 22 | 其他圖片中的文字 | `U8GUMPS.FLX` 等的圖片（遊戲標題、gump 標題等） | 圖片 | 否 | P9 逐一檢視（ShapeViewer） | 🟠 P9 |
-| 23 | ScummVM 介面（GMM、遊戲選項、存讀檔對話框） | ScummVM GUI | ScummVM 字型 | 否 | ScummVM 本身的翻譯（`po/zh_Hant.po`，含 66 個 ultima8 相關字串）；把 ScummVM 介面語言設為繁中即可 | ⚪ 不在本專案範圍 |
+| 23 | ScummVM 介面（GMM、遊戲選項、存讀檔對話框） | ScummVM GUI | ScummVM 字型 | 否 | ScummVM 本身的翻譯。**繁中 `po/zh_Hant.po` 沒有任何譯文**（P9 實測：設 `gui_language=zh_Hant` 會顯示英文）；簡中 `po/zh.po` 有 1,084 / 3,258 條。繁中介面需要向 ScummVM upstream 貢獻翻譯 | ⚪ 不在本專案範圍 |
 | 24 | 引擎錯誤訊息框 | `MessageBoxGump`（引擎內英文） | TTF Vera（ScummVM 內建字型） | 否 | 很少出現；保留英文 | ⚪ |
 | 25 | 除錯主控台 | `Debugger` | ScummVM 主控台 | — | 開發者用，不翻譯 | ⚪ |
 | 26 | 瞄準提示 | `_TL_("TARGETING RETICLE ...")` | `MessageBoxGump` | — | **只有 Crusader**，U8 不會出現 | ⚪ |

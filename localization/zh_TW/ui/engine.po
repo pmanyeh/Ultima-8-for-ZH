@@ -1,0 +1,65 @@
+# Ultima VIII: Pagan - Traditional Chinese translation
+# Engine text (ScummVM Ultima8 engine strings, context "ui")
+#
+# The msgid is the English text as the engine shows it (the same keys the
+# Japanese version translates in u8japanese.ini).
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. main menu (Esc); the English game shows these as pictures
+msgctxt "ui"
+msgid "1.Intro"
+msgstr "1.開場動畫"
+
+msgctxt "ui"
+msgid "2.Read Diary"
+msgstr "2.讀取日記"
+
+msgctxt "ui"
+msgid "3.Write Diary"
+msgstr "3.寫入日記"
+
+msgctxt "ui"
+msgid "4.Options"
+msgstr "4.選項"
+
+msgctxt "ui"
+msgid "5.Credits"
+msgstr "5.製作人員"
+
+msgctxt "ui"
+msgid "6.Quit"
+msgstr "6.離開"
+
+#. only after the credits were watched to the end or the game was finished
+msgctxt "ui"
+msgid "7.Quotes"
+msgstr "7.語錄"
+
+#. only after the game was finished
+msgctxt "ui"
+msgid "8.End Game"
+msgstr "8.結局"
+
+#. new game: name entry
+msgctxt "ui"
+msgid "Give thy name:"
+msgstr "請報上你的名字："
+
+#. quit confirmation; the English game shows a picture
+msgctxt "ui"
+msgid "Quit the game?"
+msgstr "要離開遊戲嗎？"
+
+#. save / load (diary): the first entry, a new game
+msgctxt "ui"
+msgid "The Beginning..."
+msgstr "旅程的開端……"
+
+#. death screen: shown as a subtitle below the English gravestone text
+msgctxt "ui"
+msgid "HERE LIES*THE AVATAR*REST IN PEACE"
+msgstr "聖者長眠於此，願其安息"
