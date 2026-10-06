@@ -47,7 +47,18 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ⏳ 待開始
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ⏳ 待開始
+
+## v2.4 — 2026-10-06（Phase 7 完成後）
+
+依據：[docs/reports/P7-first-complete-conversation.md](docs/reports/P7-first-complete-conversation.md)
+
+| 章節 | 修訂內容 |
+|---|---|
+| §18.1 | P7 PASS；核心 localization 架構視為已證明 |
+| §26 | 結果：Devon 第一次見面全程中文；句型比對（原 P11）提前在 P7 實作（使用者決定） |
+| §30 | 句型比對與參數譯文已實作；P11 只剩實際 NPC 的參數譯文驗證與無語音顯示速度 |
+| §49 | #7 完成（引擎與工具）；#18 語音仍待有語音的 NPC；新增 #19（抽取工具漏列部分選項） |
 
 ## v2.3 — 2026-10-06（Phase 6 完成後）
 
@@ -1050,7 +1061,7 @@ P15 Optional Enhancements
 | P4 Localization Manager | ✅ PASS（2026-10-06） | `docs/reports/P4-localization-manager.md` |
 | P5 NPC Bark POC ★ | ✅ PASS（2026-10-06） | `docs/reports/P5-npc-bark-poc.md` |
 | P6 AskGump Choice POC ★ | ✅ PASS（2026-10-06） | `docs/reports/P6-askgump-choice-poc.md` |
-| P7 First Complete Conversation ★ | ⏳ | |
+| P7 First Complete Conversation ★ | ✅ PASS（2026-10-06）— **Core Localization Architecture proven** | `docs/reports/P7-first-complete-conversation.md` |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
 
@@ -1840,6 +1851,8 @@ conversation exit
 若 PASS：
 
 > **Core Localization Architecture is considered proven.**
+
+**v2.4：P7 結果**（[報告](docs/reports/P7-first-complete-conversation.md)）：✅ PASS。Devon 第一次見面（新遊戲開場）全程中文；含玩家名字的 4 個句型（`0964`、`3498`、`060F`、`338E`）在遊戲中 HIT。語音無法實測（Devon 沒有語音檔，§49 #18）。
 
 **STOP**
 
@@ -2949,7 +2962,7 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 4 | ~~字集覆蓋檢查工具~~ ✅ `tools/validate/font_coverage.py` | P3 |
 | 5 | ~~`font_antialiasing` 為全域設定~~ ✅ `font_cjk_antialiasing` 個別設定 | P3 |
 | 6 | ~~`toUnicode` 修正的英文與日文 regression test~~ ✅ 單元測試（日文無實機資料） | P3 |
-| 7 | 句型比對與參數翻譯 | P11 |
+| 7 | ~~句型比對與參數翻譯~~ ✅ 引擎與編譯工具（P7）；參數譯文待實際 NPC（例如 Orlok `040A`）驗證 | P7 / P11 |
 | 8 | 5 個無法自動解析的 bark（PYROS、SORCERER、METHOD） | P10 |
 | 9 | 共用 class（例如 `METHOD 057C`）代為發話時的對話脈絡 | P10 |
 | 10 | BookGump 的 `_TL_()` 書本修正與新翻譯層並存 | P8 |
@@ -2960,7 +2973,8 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 15 | 遊戲選項 GUI 的語言選單（ScummVM game option 只有勾選框，需要自訂 widget） | P9 或之後 |
 | 16 | 翻譯檔沒有記錄遊戲資料版本；考慮在檔頭加入 `EUSECODE.FLX` 雜湊 | P10 |
 | 17 | ~~掛點確認目標字型是 UTF-8 字型~~ ✅ BarkGump（P5）、AskGump（P6） | P5 / P6 |
-| 18 | 有語音的 NPC 在 localization 下的語音與字幕（遊戲只有 9 個語音檔） | P7 |
+| 18 | 有語音的 NPC 在 localization 下的語音與字幕（遊戲只有 9 個語音檔，Devon 沒有） | 有語音的 NPC 翻譯時 |
+| 19 | 抽取工具漏列部分選項（`Sea of Rains? ` 等只出現在「when answer is」） | P10 |
 
 ---
 

@@ -1,7 +1,7 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
 **更新日期：** 2026-10-06
-**目前進度：** Phase 0–6 ✅ PASS，**下一步：Phase 7（First Complete Conversation），需等使用者明確指示才開始**
+**目前進度：** Phase 0–7 ✅ PASS（**核心 localization 架構已證明**），**下一步：Phase 8（Remaining Text Surface Inventory），需等使用者明確指示才開始**
 
 給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（v2，開頭有修訂紀錄與進度表）。
 
@@ -45,10 +45,10 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main）
 ├── ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md   ← v2
 ├── docs/
 │   ├── HANDOFF.md                        ← 本文件
-│   ├── reports/P0..P6-*.md               ← 各 Phase 報告
+│   ├── reports/P0..P7-*.md               ← 各 Phase 報告
 │   ├── research/u8-text-pipeline.md      ← P1 文字流程研究（最重要的背景資料）
 │   └── architecture/ADR-001, ADR-002
-├── localization/zh_TW/dialog/*.po       ← 翻譯原始檔（ADR-002）；目前只有 Devon 的 POC
+├── localization/zh_TW/dialog/*.po       ← 翻譯原始檔（ADR-002）；目前只有 Devon（第一次見面完整對話，57 條）
 ├── tools/
 │   ├── catalog/po_compile.py             ← PO → MO 編譯（引擎讀的單一翻譯檔）
 │   ├── diagnostics/u8dis.py              ← Usecode 反組譯（515 class，0 desync）
@@ -69,7 +69,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main）
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike（含翻譯查表的完整實驗），**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `b04657abfb` | **正式開發分支**，P3（`96bfc46318`）、P4（`b0efb70a44`、`d6192426af`）、P5（`a1a2282aae`）、P6（`b04657abfb`）已 commit。目前 checkout 的分支 |
+| `ultima8-zh-tw-dev` | `5a8b1e7e5b` | **正式開發分支**，P3（`96bfc46318`）、P4（`b0efb70a44`、`d6192426af`）、P5（`a1a2282aae`）、P6（`b04657abfb`）、P7（`5a8b1e7e5b`）已 commit。目前 checkout 的分支 |
 
 ### 建置目錄（在 `scummvm-src/` 內，gitignored）
 
@@ -110,7 +110,7 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 ```
 
 腳本內的三個繞道：`VER_REV=wsltest`（避免 `git describe` 掃描 Windows 檔案系統而卡住）、以 `python3` 執行 `cxxtestgen`（CRLF + `python` shebang）、`make -o test/runner.cpp`。
-目前結果：**477 項全部 OK**。本專案新增的測試：`test/engines/ultima/ultima8/gfx/font_utf8.h`（P3）、`test/engines/ultima/ultima8/misc/translation_catalog.h`（P4）。
+目前結果：**480 項全部 OK**。本專案新增的測試：`test/engines/ultima/ultima8/gfx/font_utf8.h`（P3）、`test/engines/ultima/ultima8/misc/translation_catalog.h`（P4）。
 
 **MSVC 與 g++ 都要建置**：MSVC 把 C4701（可能未初始化）當錯誤，g++ 不會。
 **單元測試只能用不依賴 `Kernel` 的物件檔**：否則靜態函式庫會連帶拉進整個引擎與 GUI，測試無法連結（所以 `TranslationCatalog` 獨立成檔）。
@@ -122,7 +122,7 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 | `launch-p0.bat [debug\|launcher]` | 原版 | `scummvm-p0.ini` |
 | `launch-trace.bat [slot]` | Usecode trace | `scummvm-p0.ini` |
 | `launch-spike.bat [slot]` | P2 spike（含中文翻譯 POC） | `scummvm-spike.ini`（`u8_l10n=zh_TW`） |
-| `launch-dev.bat [slot] [en]` | **開發分支**（`--debugflags=Localization`；`en` = localization off，`scummvm-dev-en.ini`，共用存檔） | `scummvm-dev.ini`（`localization=zh_TW`、`font_cjk_file=Cubic_11.ttf`） |
+| `launch-dev.bat [slot\|new] [en]` | **開發分支**（`--debugflags=Localization`；`new` = 新遊戲，一開始就是 Devon 的第一次見面；`en` = localization off，`scummvm-dev-en.ini`，共用存檔） | `scummvm-dev.ini`（`localization=zh_TW`、`font_cjk_file=Cubic_11.ttf`） |
 
 - 每次執行都會產生帶時間戳的 log；全部使用獨立設定檔，不動使用者的全域 ScummVM 設定。
 - `--extrapath=private_test\extra`：字型、`ultima8.dat` 複本、**編譯後的翻譯檔 `u8_zh_TW.mo`**、spike 用的 `u8_l10n_zh_TW.tsv`、`p3_test_strings.txt`。
@@ -162,41 +162,45 @@ SDL 只認帶 scan code 的特殊鍵（Enter、組合鍵），所以要用 `vk`�
 
 ---
 
-## 6. 下一步：Phase 7（First Complete Conversation）
+## 6. 下一步：Phase 8（Remaining Text Surface Inventory）
 
-### 已完成的 localization 架構（P4–P6）
+### 已完成的 localization 架構（P4–P7，核心架構已證明）
 
 | Phase | 內容 | 報告 |
 |---|---|---|
 | P4 | `TranslationCatalog`（MO，key = `context + "\x04" + 英文原文`）、`Localization`（設定、啟用條件、`translateBark` / `translateAnswer`） | [P4](reports/P4-localization-manager.md) |
 | P5 | `I_bark` → `Item::bark(msg, displayText)` → `BarkGump::_displayText`（不存檔）→ TextWidget；`TextWidget::setSaveText()` 讓存檔只有英文 | [P5](reports/P5-npc-bark-poc.md) |
 | P6 | `I_ask` → `AskGump::_displayAnswers`（不存檔）→ 按鈕文字；`ButtonWidget::setSaveText()`；`_answers` 與回傳值不變 | [P6](reports/P6-askgump-choice-poc.md) |
+| P7 | 句型：`{name}`、`{num}`、`{varXX}`、`{call_XXXX}`；`param CCCC:NAME` 參數譯文；Devon 第一次見面全程中文 | [P7](reports/P7-first-complete-conversation.md) |
 
 共同原則：**譯文只在建立顯示元件時使用**；Usecode、string heap、`_barked`、`_answers`、語音、存檔都只用英文。字型不能畫 UTF-8 時顯示英文。存讀檔後，正在顯示的那一句或那一組選項會是英文（使用者已同意）。
 
-### P7 要做的事
+翻譯原則（POC，術語表在 P10）：專有名詞保留英文（Tenebrae、Lithos、Mordea、Tempest、Lurker…）；一般名詞意譯（雨之海、死靈法師、泰坦）。
 
-規格見 Master Plan §26：完成一段從開始到離開都是中文的對話。
+### P8 要做的事
 
-1. 選擇對話：Devon 的「第一次見面」對話（P2 已有大部分譯文：`0633`、`0A84`、`1A04`、`1B1D` 與選項），需要**新遊戲**或在第一次見面前的存檔。或使用目前存檔（已認識 Devon）的對話，補齊該路徑的譯文。只翻譯這一段對話（Master Plan I10：不得大量翻譯）。
-2. 必測：多頁、重複的文字、同一句英文在不同語境、選項圓點、點擊範圍、**語音**（§49 #18：遊戲只有 9 個語音檔 `SOUND/E44.FLX` 等，Devon 沒有，需找有語音的 NPC）、顯示時間、關閉 gump、重新開始對話。
-3. 動態句子（含玩家名字，例如 `0402:060F`、`338E`）目前一律英文；P7 是否要先處理需和使用者確認（句型比對規劃在 P11）。
-4. PASS 後：Core Localization Architecture 視為已證明。
+規格見 Master Plan §27：**只做 inventory，不實作**。產出 `docs/research/text-surface-inventory.md`，欄位：Surface / Source / Renderer / Dynamic / Translation Method / Status。
+
+- 至少調查：BarkGump、AskGump、ReadableGump、TextWidget、ButtonWidget、書、捲軸、告示、物品名稱、背包 UI、狀態、系統訊息、死亡文字、開場文字、遊戲選單、存讀檔 UI、credits。
+- 已知（Master Plan §27 v2）：`BookGump`（`Book::read` 0x6E，86 處，使用 `_TL_()`）、`ScrollGump`（0x6F，22）、`ReadableGump` 墓碑（0x70，68）與牌匾（0x71，63）、`MenuGump` 等使用 `_TL_()`、`CreditsGump`、`AvatarDeathProcess`。
+- 物品查看名稱：遊戲中看到 `bark 0215:0098 "rope "`（查看物品時以 bark 顯示），已能用現有機制翻譯。
+- `u8english.ini` 的 `_TL_()` 書本修正需與新翻譯層並存（§49 #10）。
 
 ### Master Plan §49 尚未完成的待辦
 
 | # | 項目 | Phase |
 |---|---|---|
 | 3 | 無語音時中文顯示速度細調 | P11 |
-| 7 | 句型比對與參數翻譯 | P11 |
+| 7 | 參數譯文（`param`）待實際 NPC 驗證（句型比對已在 P7 完成） | P11 |
 | 8–9 | 5 個無法自動解析的 bark、共用 class 的對話脈絡 | P10 |
 | 10 | BookGump 的 `_TL_()` 書本修正與新翻譯層並存 | P8 |
 | 11 | 建立 ScummVM fork 並改為 submodule | 待使用者決定 |
 | 12 | HD 文字層 | P15 |
 | 14 | 原版換行無限迴圈的修正可考慮回報 upstream | — |
 | 15 | 遊戲選項 GUI 的語言選單 | P9 或之後 |
+| 19 | 抽取工具漏列部分選項 | P10 |
 | 16 | 翻譯檔加入遊戲資料版本（`EUSECODE.FLX` 雜湊） | P10 |
-| 18 | 有語音的 NPC 在 localization 下的語音與字幕 | P7 |
+| 18 | 有語音的 NPC 在 localization 下的語音與字幕 | 有語音的 NPC 翻譯時 |
 
 ---
 

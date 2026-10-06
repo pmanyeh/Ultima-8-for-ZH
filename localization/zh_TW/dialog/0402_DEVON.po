@@ -1,34 +1,50 @@
 # Ultima VIII: Pagan - Traditional Chinese translation
 # DEVON (usecode class 0402)
 #
-# POC catalog (Phase 4-6): a few of Devon's lines, not a full translation.
-# Dynamic barks with the player's name ({name}) are not included yet:
-# 0402:060F, 0402:0964 (Phase 11).
+# POC catalog (Phase 4-7): Devon's first meeting with the Avatar, plus a few
+# lines of later conversations. Not a full translation of Devon.
+# Proper names (Tenebrae, Lithos, Mordea, Tempest, ...) stay in English until
+# the glossary is decided.
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+#. event 00 (look): Devon's description before the Avatar knows his name
+msgctxt "bark 0402:00CC"
+msgid "fisherman "
+msgstr "漁夫"
+
+#. event 00 (look): alternative description
+msgctxt "bark 0402:00EC"
+msgid "man "
+msgstr "男人"
+
 #. event 01 (talk): greeting when the Avatar does not know Devon yet
 msgctxt "bark 0402:0633"
 msgid "Hello there. "
 msgstr "你好啊。"
 
-#. event 01: initial answer
+#. first meeting: initial answer
 msgctxt "ask 0402"
 msgid "Who are you? "
 msgstr "你是誰？"
 
-#. event 01: initial answer
+#. initial answer
 msgctxt "ask 0402"
 msgid "Goodbye. "
 msgstr "再見。"
 
-#. event 01: initial answer
+#. initial answer (later in the game)
 msgctxt "ask 0402"
 msgid "What is going on? "
 msgstr "發生什麼事了？"
+
+#. answer to "Who are you?"; {name} = the Avatar's name
+msgctxt "bark 0402:0964"
+msgid "I am Devon, my strange friend. And I am glad to see you are feeling better, {name}."
+msgstr "我是 Devon，我奇特的朋友。很高興看到你好多了，{name}。"
 
 #. after "Who are you?"
 msgctxt "ask 0402"
@@ -50,15 +66,77 @@ msgctxt "bark 0402:0A84"
 msgid "Why, on the shore, friend, safe now and thankfully alive. "
 msgstr "哎，就在岸邊呀，朋友。你現在安全了，謝天謝地你還活著。"
 
-#. after "Where am I?" / "Where did you find me?"
 msgctxt "ask 0402"
 msgid "Shore of what? "
 msgstr "什麼的岸邊？"
 
-#. answer to "What happened to me?" or "Found me?"
-msgctxt "bark 0402:1A04"
-msgid "I am unsure, my friend. All I know is that I found your water-logged body in the depths of The Lurker's domain. What happened before remains a mystery. I pulled in my nets and within one I discovered you. "
-msgstr "我也不太清楚，朋友。我只知道，我是在 Lurker 領域的深處發現你那泡得濕透的身體。在那之前發生了什麼，仍然是個謎。我收網的時候，就在其中一張網裡發現了你。"
+#. answer to "Shore of what?"
+msgctxt "bark 0402:0B7A"
+msgid "Shore of what? Why, the shore of Tenebrae, upon the Sea of Rains. "
+msgstr "什麼的岸邊？哎，當然是 Tenebrae 的岸邊，就在雨之海旁。"
+
+msgctxt "ask 0402"
+msgid "Sea of Rains? "
+msgstr "雨之海？"
+
+msgctxt "ask 0402"
+msgid "Tenebrae? "
+msgstr "Tenebrae？"
+
+#. answer to "Sea of Rains?"
+msgctxt "bark 0402:0F0B"
+msgid "Obviously you do not spend any time away from the city to ask such a question. Why, 'tis nothing more than the name of the sea. The story goes that the rains are quite heavy the farther you go from the shore. It is supposed to have something to do with Mordea's powers. Part of her role as ruling Tempest is to control the rain over the city, but she feels no obligation to extend that in the distant waters. Of course, I have never had an unwanted cloud while out to sea, myself, so I suspect the name is more rumor than truth. "
+msgstr "看來你從沒離開過城裡，才會問這種問題。哎，那不過是這片海的名字罷了。傳說離岸越遠，雨就下得越大。據說這跟 Mordea 的力量有關。身為統治這座城的 Tempest，她的職責之一就是掌控城市上空的雨，但她覺得沒有義務把這份力量延伸到遙遠的海上。不過說真的，我自己出海時從沒遇過不想要的烏雲，所以我猜這名字多半是謠傳，不是事實。"
+
+#. answer to "Tenebrae?"
+msgctxt "bark 0402:10A0"
+msgid "Aye, Tenebrae, the City of Eternal Twilight. They say you'll never find a more lovely place and I do not disagree, save for one place. But I will say this, the farther I am from the Lady, the better I feel. I can tell by your questions that you are not from this land. Come you from another island? Or perhaps some place that is an even greater distance away. "
+msgstr "是啊，Tenebrae，永恆暮光之城。人們說你再也找不到比這更美的地方了，我也不反對——只除了一個地方。不過我得說，離那位女士越遠，我就覺得越自在。從你的問題聽得出來，你不是這片土地的人。你是從別的島來的嗎？還是從更遙遠的地方？"
+
+msgctxt "ask 0402"
+msgid "I am from far away. "
+msgstr "我來自很遠的地方。"
+
+msgctxt "ask 0402"
+msgid "What is the lovelier place? "
+msgstr "更美的地方是哪裡？"
+
+msgctxt "ask 0402"
+msgid "Who is the Lady? "
+msgstr "那位女士是誰？"
+
+#. answer to "I am from far away."
+msgctxt "bark 0402:1321"
+msgid "I suspected as much, my friend, for your questions are most unusual. I must inform you that, a simple fisherman, I am a poor source of information about our local customs and such. I am sure there must be someone else who can tell you more. Why, I know just the person. When you get to town, visit Bentic in the library in east Tenebrae. My good friend knows practically all there is to know about our land and its people. Yes, he can certainly help you. "
+msgstr "我就猜是這樣，朋友，因為你的問題實在很不尋常。我得先說，我只是個普通的漁夫，對我們這裡的風俗之類的事知道得不多。一定有其他人能告訴你更多。對了，我正好知道一個人。等你到了城裡，就去 Tenebrae 東邊的圖書館找 Bentic。我這位好朋友對我們這片土地和人民幾乎無所不知。是的，他一定能幫上你的忙。"
+
+#. answer to "What is the lovelier place?"
+msgctxt "bark 0402:14E0"
+msgid "Why, the open sea, of course! I can think of nothing more reassuring than the smell of the salt and the feel of a taut net as it fills with fish. And the weather! I hear others complain it is as fickle as the Lady, but I know no such thing. I can think of no day on the sea when the sky was not clear and the waves as gentle as a baby's hand. "
+msgstr "當然是遼闊的大海啊！我想不出有什麼比海鹽的氣味、比漁網裝滿魚時繃緊的手感更讓人安心的了。還有天氣！我聽別人抱怨說，海上的天氣跟那位女士一樣反覆無常，但我可從沒遇過。我想不起哪一天出海時，天空不是晴朗無雲、海浪不是像嬰兒的手一樣溫柔。"
+
+#. answer to "Who is the Lady?"
+msgctxt "bark 0402:15F3"
+msgid "You mean the Lady Mordea, my friend. She is Tempest and ruler of the city. Others call her a tyrant in whispered corners, though I held no opinion myself. Until recently, that is. "
+msgstr "你是說 Mordea 女士吧，朋友。她是 Tempest，也是這座城的統治者。有人在角落裡竊竊私語，說她是暴君，不過我自己倒沒什麼看法。至少直到最近為止。"
+
+msgctxt "ask 0402"
+msgid "What changed your opinion? "
+msgstr "是什麼改變了你的看法？"
+
+msgctxt "ask 0402"
+msgid "What is a Tempest? "
+msgstr "Tempest 是什麼？"
+
+#. answer to "What changed your opinion?"
+msgctxt "bark 0402:17A4"
+msgid "Lately the Lady has taken to eliminating dissension by eliminating the dissenters. She has them executed, beheaded on the docks. At first no one was killed but true criminals, but soon, any who showed disagreement was put to the block. I fear for the freedom of the people. "
+msgstr "最近那位女士開始用除掉異議者的方式來消除異議。她把他們處死，在碼頭上斬首。起初被殺的只有真正的罪犯，但很快地，任何表示不同意見的人都被送上了斷頭台。我為人民的自由感到擔憂。"
+
+#. answer to "What is a Tempest?"
+msgctxt "bark 0402:189A"
+msgid "Indeed, you ask unusual questions. However, I know so little about them, myself. In town you might find others who can offer so much more assistance. "
+msgstr "你問的問題確實很不尋常。不過，我自己對他們也所知甚少。到了城裡，你也許能找到其他能提供更多幫助的人。"
 
 msgctxt "ask 0402"
 msgid "What happened to me? "
@@ -67,6 +145,11 @@ msgstr "我發生了什麼事？"
 msgctxt "ask 0402"
 msgid "Found me? "
 msgstr "發現我？"
+
+#. answer to "What happened to me?" or "Found me?"
+msgctxt "bark 0402:1A04"
+msgid "I am unsure, my friend. All I know is that I found your water-logged body in the depths of The Lurker's domain. What happened before remains a mystery. I pulled in my nets and within one I discovered you. "
+msgstr "我也不太清楚，朋友。我只知道，我是在 Lurker 領域的深處發現你那泡得濕透的身體。在那之前發生了什麼，仍然是個謎。我收網的時候，就在其中一張網裡發現了你。"
 
 msgctxt "ask 0402"
 msgid "The Lurker's domain? "
@@ -78,35 +161,119 @@ msgid "Aye, 'tis what we sometimes call the sea. You were drowning in it, my fri
 msgstr "是啊，我們有時候就這麼稱呼大海。你差點就淹死在裡頭了，朋友。這肯定是雙重的厄運！"
 
 msgctxt "ask 0402"
+msgid "What is the Lurker? "
+msgstr "Lurker 是什麼？"
+
+msgctxt "ask 0402"
 msgid "Twice bad? "
 msgstr "雙重厄運？"
+
+#. answer to "Twice bad?"
+msgctxt "bark 0402:1C48"
+msgid "Aye! Not only would it have meant death for you, but then you would have been doomed to walk the ocean floor, unable to fulfill the pact with Lithos. "
+msgstr "沒錯！那不只代表你會喪命，你還會注定在海底徘徊，無法履行與 Lithos 的契約。"
+
+msgctxt "ask 0402"
+msgid "Who is Lithos? "
+msgstr "Lithos 是誰？"
+
+msgctxt "ask 0402"
+msgid "What pact? "
+msgstr "什麼契約？"
+
+#. answer to "What pact?"
+msgctxt "bark 0402:1D55"
+msgid "Ages ago, our people forged a covenant with Lithos. If he would still the shaking earth, we would commend to him our dead at the time of their passing. "
+msgstr "很久以前，我們的人民與 Lithos 立下了盟約。只要他平息大地的震動，我們就會在死者過世時，將他們託付給他。"
+
+msgctxt "ask 0402"
+msgid "Commend to him? "
+msgstr "託付給他？"
+
+#. answer to "Commend to him?" or "Rules death?"
+msgctxt "bark 0402:1E3E"
+msgid "Through his Necromancers, Lithos takes the dead to serve him for the remainder of their existence. "
+msgstr "Lithos 透過他的死靈法師，讓死者在剩下的存在中為他效力。"
+
+msgctxt "ask 0402"
+msgid "Who are the Necromancers? "
+msgstr "死靈法師是誰？"
+
+#. answer to "Who are the Necromancers?"
+msgctxt "bark 0402:1FA8"
+msgid "I am amazed at how little you know, friend. The Necromancers are the keepers of the cemetery. They have the rather distasteful duty of burying the dead, thus honoring the pact and sending the dead to Lithos. "
+msgstr "你知道得這麼少，真讓我吃驚，朋友。死靈法師是墓地的看守者。他們負責埋葬死者這個相當令人不快的職責，藉此遵守契約，把死者送到 Lithos 那裡。"
+
+#. answer to "Who is Lithos?"
+msgctxt "bark 0402:207B"
+msgid "We call him the Mountain King. He rules the grass, the stones, the hills -- all that we walk upon. He also rules death. "
+msgstr "我們叫他山之王。他統治著草地、石頭、山丘——我們腳下所踏的一切。他也統治著死亡。"
+
+msgctxt "ask 0402"
+msgid "Rules death? "
+msgstr "統治死亡？"
+
+#. answer to "What is the Lurker?"
+msgctxt "bark 0402:21C9"
+msgid "The Lurker? That is our name for Hydros, Titan of water. She is a crafty and treacherous one, always ready to pull unwilling victims to their deaths at the depths of the sea... much like what nearly happened to you. "
+msgstr "Lurker？那是我們對 Hydros 的稱呼，她是水之泰坦。她狡猾又陰險，隨時準備把不情願的受害者拖進深海送死……就像差點發生在你身上的事一樣。"
+
+#. answer to "How do you know my name?"
+msgctxt "bark 0402:22CF"
+msgid "I am sorry. I did not mean to pry, but when I found you, I knew not who you were. I am afraid I read through your logbook and discovered your name. Please forgive me. "
+msgstr "抱歉，我不是有意窺探。但我發現你的時候，不知道你是誰。恐怕我翻看了你的航海日誌，才知道你的名字。請原諒我。"
+
+#. event 01 (talk): greeting when the Avatar already knows Devon; {name} = the Avatar's name
+msgctxt "bark 0402:060F"
+msgid "Hello there, {name}."
+msgstr "你好啊，{name}。"
+
+#. greeting answer when the Avatar already knows Devon
+msgctxt "ask 0402"
+msgid "Hello, Devon. "
+msgstr "你好，Devon。"
+
+#. after "Hello, Devon.", follows 0402:235D
+msgctxt "bark 0402:2398"
+msgid "All is well, I hope. "
+msgstr "希望一切都好。"
+
+#. answer when the Avatar already knows Devon
+msgctxt "ask 0402"
+msgid "What should I do? "
+msgstr "我該怎麼做？"
+
+#. answer to "What should I do?"
+msgctxt "bark 0402:3311"
+msgid "Well, I suppose now that you are better, you should consider visiting Tenebrae. Here there is nothing, unless you wish to join me in fishing. But in Tenebrae, there is a wealth of activities and information for a soul such as yourself. Why, I know just the person there who can help you. When you get to town, visit Bentic in the library in east Tenebrae. The good sage knows practically all there is to know about our land and its people. Yes, he can certainly help you. "
+msgstr "嗯，既然你已經好多了，我想你應該考慮去 Tenebrae 看看。這裡什麼都沒有，除非你想跟我一起捕魚。但在 Tenebrae，有許多活動和消息，很適合像你這樣的人。對了，我正好知道那裡有個人能幫你。等你到了城裡，就去 Tenebrae 東邊的圖書館找 Bentic。那位賢者對我們這片土地和人民幾乎無所不知。是的，他一定能幫上你的忙。"
+
+#. answer to "Goodbye."; {name} = the Avatar's name
+msgctxt "bark 0402:338E"
+msgid "Farewell, friend {name}, and good luck."
+msgstr "再會了，{name} 朋友，祝你好運。"
+
+#. answer to "Goodbye." (first meeting); {name} = the Avatar's name
+msgctxt "bark 0402:3498"
+msgid "Farewell, friend {name}, and good luck. You are welcome to stay with me for as long as you need. My food and provisions are yours until you wish to head to the city. And be careful in your travels, for I fear you will encounter much violence."
+msgstr "再會了，{name} 朋友，祝你好運。你需要待多久就待多久，我很歡迎。在你準備前往城裡之前，我的食物和補給都任你取用。路上千萬小心，我擔心你會遇上許多暴力。"
 
 #. after "Goodbye." (no trailing space in the original)
 msgctxt "bark 0402:34FD"
 msgid "I can already see a crowd gathering there on the docks."
 msgstr "我已經看到碼頭那邊開始聚集人群了。"
 
-#. after "Goodbye.", follows 0402:34FD
+#. follows 0402:34FD
 msgctxt "bark 0402:352D"
 msgid "That can mean only trouble."
 msgstr "那只代表著麻煩。"
 
-#. after "Hello, Devon." (Avatar already knows Devon), follows 0402:235D
-msgctxt "bark 0402:2398"
-msgid "All is well, I hope. "
-msgstr "希望一切都好。"
+#. the Avatar walked away (no answer chosen)
+msgctxt "bark 0402:0C30"
+msgid "Oh. I am sorry. I thought you were still speaking to me. "
+msgstr "喔，抱歉。我以為你還在跟我說話。"
 
-#. answer to "What should I do?" (Avatar already knows Devon)
-msgctxt "bark 0402:3311"
-msgid "Well, I suppose now that you are better, you should consider visiting Tenebrae. Here there is nothing, unless you wish to join me in fishing. But in Tenebrae, there is a wealth of activities and information for a soul such as yourself. Why, I know just the person there who can help you. When you get to town, visit Bentic in the library in east Tenebrae. The good sage knows practically all there is to know about our land and its people. Yes, he can certainly help you. "
-msgstr "嗯，既然你已經好多了，我想你應該考慮去 Tenebrae 看看。這裡什麼都沒有，除非你想跟我一起捕魚。但在 Tenebrae，有許多活動和消息，很適合像你這樣的人。對了，我正好知道那裡有個人能幫你。等你到了城裡，就去 Tenebrae 東邊的圖書館找 Bentic。那位賢者對我們這片土地和人民幾乎無所不知。是的，他一定能幫上你的忙。"
-
-#. greeting answer when the Avatar already knows Devon; leads to 0402:235D / 0402:2398
-msgctxt "ask 0402"
-msgid "Hello, Devon. "
-msgstr "你好，Devon。"
-
-#. answer when the Avatar already knows Devon; leads to 0402:3311
-msgctxt "ask 0402"
-msgid "What should I do? "
-msgstr "我該怎麼做？"
+#. follows 0402:0C30
+msgctxt "bark 0402:0C9D"
+msgid "I see you otherwise occupied. I shall not waste any more of your time. Farewell. "
+msgstr "看來你在忙別的事。我就不再耽誤你的時間了。再會。"

@@ -6,7 +6,10 @@ a context; the engine looks entries up by context + exact English text.
 
 Checks (errors stop the build, nothing is written):
   - PO syntax
-  - msgctxt present and in a known form: "bark CCCC:IIII" or "ask CCCC" (hex)
+  - msgctxt present and in a known form: "bark CCCC:IIII", "ask CCCC" or
+    "param CCCC:varXX|call_XXXX" (hex)
+  - sentence templates (bark msgid with {name}, {num}, {varXX}, {call_XXXX}):
+    the msgstr must use exactly the same set of placeholders
   - no plural entries
   - the same context + English text only once across all files
   - the header Language matches --lang (when the header has one)
@@ -23,7 +26,10 @@ import re
 import struct
 import sys
 
-CONTEXT_RE = re.compile(r"^(?:bark ([0-9A-Fa-f]{1,4}):([0-9A-Fa-f]{1,4})|ask ([0-9A-Fa-f]{1,4}))$")
+CONTEXT_RE = re.compile(r"^(?:bark ([0-9A-Fa-f]{1,4}):([0-9A-Fa-f]{1,4})|ask ([0-9A-Fa-f]{1,4})"
+                        r"|param ([0-9A-Fa-f]{1,4}):(?:var([0-9A-Fa-f]{1,2})|call_([0-9A-Fa-f]{1,4})))$")
+PLACEHOLDER_RE = re.compile(r"\{([^{}]*)\}")
+VALID_PLACEHOLDER_RE = re.compile(r"^(?:name|num|var[0-9A-F]{2}|call_[0-9A-F]{4})$")
 ESCAPES = {"n": "\n", "t": "\t", "r": "\r", "a": "\a", "b": "\b", "f": "\f", "v": "\v",
            "\\": "\\", '"': '"', "'": "'", "?": "?"}
 
@@ -194,7 +200,25 @@ def canonical_context(ctx):
         return None
     if m.group(3) is not None:
         return f"ask {int(m.group(3), 16):04X}"
+    if m.group(4) is not None:
+        if m.group(5) is not None:
+            return f"param {int(m.group(4), 16):04X}:var{int(m.group(5), 16):02X}"
+        return f"param {int(m.group(4), 16):04X}:call_{int(m.group(6), 16):04X}"
     return f"bark {int(m.group(1), 16):04X}:{int(m.group(2), 16):04X}"
+
+
+def placeholder_error(msgid, msgstr):
+    """Error message if a template's placeholders are wrong, else None."""
+    for text in (msgid, msgstr):
+        if text.count("{") != text.count("}"):
+            return "unbalanced braces"
+        bad = [n for n in PLACEHOLDER_RE.findall(text) if not VALID_PLACEHOLDER_RE.match(n)]
+        if bad:
+            return f"unknown placeholder {{{bad[0]}}}"
+    src, dst = set(PLACEHOLDER_RE.findall(msgid)), set(PLACEHOLDER_RE.findall(msgstr))
+    if src != dst:
+        return f"placeholders differ: msgid {sorted(src)}, msgstr {sorted(dst)}"
+    return None
 
 
 def norm_lang(s):
@@ -214,7 +238,8 @@ def collect(lang, inputs):
         raise POError("no PO files found")
 
     errors, seen, out = [], {}, {}
-    stats = {"files": len(files), "translated": 0, "untranslated": 0, "fuzzy": 0, "obsolete": 0}
+    stats = {"files": len(files), "translated": 0, "untranslated": 0, "fuzzy": 0, "obsolete": 0,
+             "templates": 0}
     for path in files:
         try:
             entries = parse_po(path)
@@ -254,6 +279,12 @@ def collect(lang, inputs):
             if e.msgstr == "":
                 stats["untranslated"] += 1
                 continue
+            if ctx.startswith("bark ") and "{" in e.msgid + e.msgstr:
+                err = placeholder_error(e.msgid, e.msgstr)
+                if err:
+                    errors.append(f"{e.where()}: {err}")
+                    continue
+                stats["templates"] += 1
             out[ctx + "\x04" + e.msgid] = e.msgstr
             stats["translated"] += 1
     if errors:
@@ -305,7 +336,8 @@ def main():
         print(f"ERROR:\n{e}", file=sys.stderr)
         sys.exit(1)
     size = write_mo(a.output, a.lang, entries)
-    print(f"{a.output}: {stats['translated']} entries from {stats['files']} files, {size} bytes "
+    print(f"{a.output}: {stats['translated']} entries ({stats['templates']} templates) "
+          f"from {stats['files']} files, {size} bytes "
           f"(skipped: {stats['untranslated']} untranslated, {stats['fuzzy']} fuzzy, "
           f"{stats['obsolete']} obsolete)")
 
