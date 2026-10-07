@@ -1,9 +1,9 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
-**更新日期：** 2026-10-06
-**目前進度：** Phase 0–10 ✅ PASS（**核心 localization 架構已證明**），**下一步：Phase 11（Dynamic Strings / Pagination / Timing），需等使用者明確指示才開始**
+**更新日期：** 2026-10-07
+**目前進度：** Phase 0–10 ✅ PASS（**核心 localization 架構已證明**，P7）。**下一步：Phase 11（Dynamic Strings / Pagination / Timing），需等使用者明確指示才開始。**
 
-給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（v2，開頭有修訂紀錄與進度表）。
+給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.7，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
 
 ---
 
@@ -12,61 +12,89 @@
 | 規則 | 說明 |
 |---|---|
 | **一律用正體中文回覆** | 程式碼、檔名、ID 可維持原樣。報告與文件沿用「繁中 + 英文術語」風格 |
-| **Phase Gate** | 每個 Phase 做完就 STOP、寫報告，**等使用者明確指示才進下一個 Phase** |
+| **Phase Gate** | 每個 Phase 做完就 STOP、寫報告（`docs/reports/P<n>-*.md`），**等使用者明確指示才進下一個 Phase**。使用者說「繼續」「開始 Phase N」即為指示 |
 | **不 push** | 兩個 repo 都只在本機 commit。目前尚未建立使用者的 GitHub fork |
-| **commit** | 使用者已同意每個 Phase 完成時 commit（主 repo 與 `scummvm-src` 分別 commit） |
-| **計劃可依實證調整** | 使用者明確表示 Master Plan 會依實際情形修訂；有落差時更新計劃並在修訂紀錄中說明 |
-| 使用者背景 | 做過 U7（Exult）中文化：`D:\git\Exult-for-zh`、`D:\git\Ultima7-zh-TW\BlackGate`。U7 的做法是改寫 Usecode 字串（`.es` 腳本 → 重新編譯）；本專案**不改** Usecode |
-| 使用者會同時操作遊戲 | 自動操作遊戲視窗前先確認，避免互相干擾 |
+| **commit** | 每個 Phase 完成時 commit：`scummvm-src`（引擎）與主 repo（報告、工具、翻譯檔）分別 commit |
+| **計劃可依實證調整** | Master Plan 會依實際情形修訂；有落差時更新計劃並在修訂紀錄中說明 |
+| **遊戲內測試由使用者操作** | 使用者偏好自己操作遊戲：給出明確的步驟（啟動檔、主控台指令、要看什麼），測完再由 Agent 讀 log / 存檔驗證。使用者可能同時在用桌面，**不要自行操作遊戲視窗**，除非使用者要求；啟動後立刻關閉的 `startup_check.ps1` 可以用 |
+| **權威檔** | 使用者要求：人名、地名、物品、魔法、怪物、專有名詞**一律依 `localization/zh_TW/authority.tsv`**，確保前後一致（見 §6） |
+| **不大量翻譯** | Master Plan I10：開發階段只做少量 POC 譯文。正式大量翻譯要等工具與權威檔就緒、使用者同意 |
+| 使用者背景 | 做過 U7（Exult）中文化：`D:\git\Exult-for-zh`、`D:\git\Ultima7-zh-TW\BlackGate`。U7 是改寫 Usecode 字串再重新編譯；本專案**不改** Usecode。U7 的墓碑等是全部改中文 |
 
 ---
 
 ## 2. 專案核心架構（已確定）
 
-**Presentation-time localization：遊戲邏輯永遠使用英文原文，只在顯示時把文字換成中文。**
+**Presentation-time localization：遊戲邏輯永遠使用英文原文，只在建立顯示元件時把文字換成中文。**
 
-理由（Phase 1 實證）：Usecode 以英文字串**內容**決定對話分支（`strcmp`，區分大小寫），語音以英文前綴比對，存檔中存有 string heap。
+理由（P1 實證）：Usecode 以英文字串**內容**決定對話分支（`strcmp`，區分大小寫），語音以英文比對，存檔中存有 string heap。
 
-| 項目 | 決定 | 文件 |
+### 翻譯的 ID（context）
+
+| context | 用途 | 取得方式 |
 |---|---|---|
-| NPC 台詞 ID | `bark <class>:<Item::bark 的 calli IP>`，例如 `bark 0402:0633`。在 `Item::I_bark` 由 running `UCProcess` 的 `classId:ip` 取得 | ADR-001 |
-| 對話選項 ID | `ask <呼叫 ask 的 class>` + 英文原文（含結尾空白），例如 `ask 0402 "Who are you? "` | ADR-001 |
-| 動態句子 | 句型 + 參數：`{name}`、`{num}`、`{varXX}`、`{call_OOOO}`；參數值另有翻譯 `param <class>:<var>` | ADR-001 D3 |
-| Fallback | 一律顯示英文（MISS、英文不符、格式錯誤、找不到表）；**字型載入失敗必須停用翻譯** | ADR-001 D5 |
-| 翻譯檔 | **PO**，依 Usecode class 分檔，依對話流程排列；**英文原文放進 repo**（使用者決策）；執行時讀編譯後的單一檔案 | ADR-002 |
-| 字型 | **Cubic 11（俐方體 11 號，OFL）12px，關閉反鋸齒**。U8 以 320×200 繪製，向量字型放大後模糊；HD 文字層留到 P15 | Master Plan §48 |
+| `bark CCCC:IIII` | NPC 台詞、查看物品 / 人物的名稱 | `Item::I_bark` 執行時 running `UCProcess` 的 `classId:ip`（IP 指向 calli） |
+| `ask CCCC` + 英文 | 對話選項 | `Item::I_ask` 時 running process 的 class；同 class 同英文 = 同一選項 |
+| `book` / `scroll` / `grave` / `plaque CCCC:IIII` | 書、捲軸、墓碑、牌匾 | 讀物 intrinsic（0x6E–0x71）的呼叫點 |
+| `param CCCC:varXX` / `call_XXXX` | 句型參數的值 | 同 class 的參數譯文 |
+| `ui` + 英文 | 引擎介面文字（主選單、離開確認、日記、死亡墓碑） | `Localization::uiText(英文, 字型)` |
+
+- 查表 key = `context + "\x04" + 英文原文`（gettext 慣例）。英文必須**完全相同**（含結尾空白）。
+- **句型**：msgid 含 `{name}` `{num}` `{varXX}` `{call_XXXX}`，比對時取出參數，填入譯文（P7）。
+- **Fallback**（ADR-001 D5）：查不到、英文不符、格式錯誤、找不到翻譯檔、字型不能畫 UTF-8 → 一律顯示英文。CJK 字型載入失敗 → 停用翻譯。
+- **存檔只有英文**：`TextWidget::setSaveText()`、`ButtonWidget::setSaveText()`。讀檔後，存檔當下正在顯示的那一句 / 那組選項會是英文（使用者已同意）。
+
+### 翻譯檔
+
+- **PO**，每個 Usecode class 一檔：`localization/zh_TW/dialog/CCCC_NAME.po`（394 檔、6,552 條），依對話流程排列；`ui/engine.po`（12 條）。**英文原文放進 repo**（使用者決策，ADR-002）。
+- 執行時讀編譯後的單一檔 `u8_zh_TW.mo`（gettext MO；英文 key 以 CP437 編碼，與遊戲的 byte 一致）。
+- 設定（game domain）：`localization=off|zh_TW`、`localization_file`（預設 `u8_<語言>.mo`）、`font_cjk_file`（預設 `Cubic_11.ttf`）、`font_cjk_size`（12）、`font_cjk_antialiasing`（false）。**CJK 字型只在 localization 啟用時載入**；只替換 `[fontoverride]` 中的字型 0、5–9。
+
+### 引擎程式（`scummvm-src/engines/ultima/ultima8/`）
+
+| 檔案 | 內容 |
+|---|---|
+| `misc/translation_catalog.*` | 讀 MO、查表、句型比對（只依賴 `common/`，可做單元測試） |
+| `misc/localization.*` | 設定、啟用條件、`translateBark` / `translateAnswer` / `translateCallSite` / `translateUI` / `uiText` |
+| `world/item.cpp` | `I_bark`、`I_ask` 掛點 |
+| `gumps/bark_gump.*`、`ask_gump.*` | `_displayText`、`_displayAnswers`（不存檔） |
+| `gumps/book_gump.*`、`scroll_gump.cpp`、`readable_gump.*` | 讀物掛點；墓碑 / 牌匾為英文 + 中文字幕 |
+| `gumps/menu_gump.cpp`、`quit_gump.cpp`、`u8_save_gump.cpp`、`world/actors/avatar_death_process.*` | 介面文字（P9） |
+| `gfx/fonts/font.*`、`tt_font.*`、`font_manager.*`、`games/game_data.*` | UTF-8 / CJK 字型（P3）、`isUTF8()`、CJK override |
+| `misc/debugger.*` | 主控台指令（§4） |
 
 ---
 
 ## 3. 目錄與 Repo
 
 ```text
-D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main）
-├── ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md   ← v2
+D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最新 commit 見 git log）
+├── ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md   ← v2.7
 ├── docs/
 │   ├── HANDOFF.md                        ← 本文件
 │   ├── reports/P0..P10-*.md              ← 各 Phase 報告
-│   ├── research/u8-text-pipeline.md      ← P1 文字流程研究（最重要的背景資料）
-│   ├── research/text-surface-inventory.md ← P8 所有文字 surface 的盤點（P9 之後的工作依據）
-│   └── architecture/ADR-001, ADR-002
-├── localization/README.md              ← **翻譯檔格式與流程（給譯者）**
-├── localization/zh_TW/dialog/*.po       ← 全部 394 個 class 的翻譯檔（自動產生 + 合併，6,552 條）；已翻：Devon 第一次見面與 POC
-├── localization/zh_TW/ui/engine.po     ← engine 字串（`ui` context，12 條）
-├── localization/zh_TW/authority.tsv    ← **權威檔**：人名、地名、物品、魔法等的唯一譯名
+│   ├── research/u8-text-pipeline.md      ← P1 文字流程研究
+│   ├── research/text-surface-inventory.md ← P8 全部文字 surface 盤點（26 類）與 Phase 分配
+│   └── architecture/ADR-001（ID）, ADR-002（格式、工具鏈、權威檔）
+├── localization/
+│   ├── README.md                         ← 翻譯檔格式、要保留的符號、流程（給譯者）
+│   └── zh_TW/
+│       ├── dialog/CCCC_NAME.po           ← 394 個 class（自動產生 + 合併）
+│       ├── ui/engine.po                  ← 介面文字
+│       └── authority.tsv                 ← 權威檔
 ├── tools/
-│   ├── catalog/u8catalog.py              ← update（抽取 + 合併）/ check / stats / terms（權威檔）
-│   ├── catalog/po_compile.py             ← PO → MO 編譯（引擎讀的單一翻譯檔）
+│   ├── catalog/u8catalog.py              ← update（抽取 + 合併）/ check / stats / terms
+│   ├── catalog/po_compile.py             ← PO → MO
+│   ├── extract/u8extract.py              ← 依對話流程抽取（單一 class 也可輸出流程 / TSV）
 │   ├── diagnostics/u8dis.py              ← Usecode 反組譯（515 class，0 desync）
-│   ├── diagnostics/text_survey.py        ← 各類文字的呼叫點與字數統計（P8）
-│   ├── diagnostics/u8shapes.py           ← shape 檔轉 PNG（只在本機看，圖片不進 repo）
-│   ├── extract/u8extract.py              ← 依對話流程抽取（bark、ask、句型、param、書、捲軸、墓碑、牌匾）
+│   ├── diagnostics/text_survey.py        ← 各類文字的呼叫點與字數統計
+│   ├── diagnostics/u8shapes.py           ← shape 檔 → PNG（只在本機看，圖片不進 repo）
 │   ├── validate/font_coverage.py         ← 字集覆蓋檢查
-│   ├── build/                            ← 建置與測試腳本（見 §4）
-│   └── automation/
-│       ├── scummvm_window.ps1            ← 遊戲視窗截圖、點擊、按鍵
-│       └── startup_check.ps1             ← 用指定設定檔啟動、等初始化完成、關閉、列出 log
+│   ├── validate/save_text_check.py       ← 存檔中有 CJK 文字就失敗
+│   ├── build/                            ← 建置與測試腳本（§4）
+│   └── automation/scummvm_window.ps1、startup_check.ps1
 ├── Ultima 8/          （gitignored）GOG 遊戲資料，唯讀；英文版在 Ultima 8\ENGLISH\
-├── private_test/      （gitignored）本機測試：啟動檔、設定檔、字型、存檔、log
+├── private_test/      （gitignored）啟動檔、設定檔、字型、u8_zh_TW.mo、存檔、log
 └── scummvm-src/       （gitignored，獨立 git repo）ScummVM upstream clone
 ```
 
@@ -75,163 +103,162 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main）
 | 分支 | Commit | 用途 |
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
-| `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike（含翻譯查表的完整實驗），**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `47541ad4bb` | **正式開發分支**，P3（`96bfc46318`）、P4（`b0efb70a44`、`d6192426af`）、P5（`a1a2282aae`）、P6（`b04657abfb`）、P7（`5a8b1e7e5b`）、P9（`cb69291575`）、P10（`47541ad4bb`）已 commit。目前 checkout 的分支 |
+| `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike，**只供參考，不合併** |
+| `ultima8-zh-tw-dev` | `47541ad4bb` | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`（P8 只有研究，無引擎修改） |
 
-### 建置目錄（在 `scummvm-src/` 內，gitignored）
-
-| 目錄 | 內容 |
-|---|---|
-| `build-scummvm/` | P0 原版（master），Debug 與 Release |
-| `build-trace/` | master + `/DDEBUG_USECODE`（Usecode trace） |
-| `build-spike/` | spike 分支 |
-| `build-dev/` | **開發分支**（Debug x64） |
+建置目錄（`scummvm-src/` 內，gitignored）：`build-scummvm/`（原版）、`build-trace/`（Usecode trace）、`build-spike/`、**`build-dev/`（開發分支，Debug x64）**。
 
 ---
 
-## 4. 建置與測試
+## 4. 建置、測試與執行
 
 ### Windows（MSVC）
 
-- 工具：VS 2026 Community（MSVC 14.51）、vcpkg 在 `D:\vcpkg`（master；CI 固定版本無法辨識 VS 2026）、相依套件裝在 `D:\vcpkg\installed_scummvm`。
-- 只啟用 ultima 引擎：`create_project .. --msvc --vcpkg --disable-all-engines --enable-engine=ultima,ultima8`。
-- 沒有執行 `vcpkg integrate install`，改以 msbuild 參數 `ForceImportAfterCppTargets` 匯入。
-
-```bat
-tools\build\build_dev.bat           ← 重新產生專案並建置開發分支（約 5–10 分鐘）
-tools\build\build_baseline.bat Debug|Release   ← 原版 build-scummvm
-tools\build\build_trace.bat         ← DEBUG_USECODE 版
-```
-
-（`gen_msvc_project.bat`、`install_vcpkg_deps.bat` 是第一次環境建立用的。）
+- VS 2026 Community（MSVC 14.51）、vcpkg 在 `D:\vcpkg`（master）、相依套件在 `D:\vcpkg\installed_scummvm`。只啟用 ultima 引擎。
+- `tools\build\build_dev.bat`：重新產生專案並建置開發分支（增量約 1–3 分鐘）。Agent 以 PowerShell 執行：
+  `& cmd /c "`"D:\git\Ultima 8 for ZH\tools\build\build_dev.bat`" > <log> 2>&1"`
+- **遊戲執行中無法建置**（`LNK1168`：scummvm.exe 被鎖住）。請使用者先關閉遊戲，不要自行結束使用者的程序。
+- 其他：`build_baseline.bat Debug|Release`（原版）、`build_trace.bat`。
 
 ### 單元測試（WSL Ubuntu）
 
-MSVC 的 `--tests` 模式會停用所有引擎，所以 Ultima8 測試要在 WSL 跑：
+MSVC 的 `--tests` 模式會停用所有引擎，所以在 WSL 跑（**用 PowerShell 工具執行**；Git Bash 會改寫 `/mnt/...` 路徑）：
 
-```bash
-# 一次性：~/u8src -> scummvm-src 的 symlink（路徑有空白，make 不能直接用）
-#         ~/u8build 已 configure：--backend=null --disable-all-engines
-#         --enable-engine=ultima,ultima8 --disable-freetype2 --disable-mt32emu --disable-detection-full
+```powershell
 wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 ```
 
-腳本內的三個繞道：`VER_REV=wsltest`（避免 `git describe` 掃描 Windows 檔案系統而卡住）、以 `python3` 執行 `cxxtestgen`（CRLF + `python` shebang）、`make -o test/runner.cpp`。
-目前結果：**481 項全部 OK**。本專案新增的測試：`test/engines/ultima/ultima8/gfx/font_utf8.h`（P3）、`test/engines/ultima/ultima8/misc/translation_catalog.h`（P4）。
-
-**MSVC 與 g++ 都要建置**：MSVC 把 C4701（可能未初始化）當錯誤，g++ 不會。
-**單元測試只能用不依賴 `Kernel` 的物件檔**：否則靜態函式庫會連帶拉進整個引擎與 GUI，測試無法連結（所以 `TranslationCatalog` 獨立成檔）。
+- 目前 **481 項全部 OK**。本專案的測試：`test/engines/ultima/ultima8/gfx/font_utf8.h`（P3）、`misc/translation_catalog.h`（P4–P10）。
+- **MSVC 與 g++ 都要建置**：MSVC 把 C4701（可能未初始化）當錯誤。
+- **單元測試只能用不依賴 `Kernel` 的物件檔**，否則靜態函式庫會拉進整個引擎與 GUI 而無法連結。gump / widget 只能在遊戲中測。
 
 ### 執行遊戲（`private_test/`）
 
-| 啟動檔 | 版本 | 設定檔 |
-|---|---|---|
-| `launch-p0.bat [debug\|launcher]` | 原版 | `scummvm-p0.ini` |
-| `launch-trace.bat [slot]` | Usecode trace | `scummvm-p0.ini` |
-| `launch-spike.bat [slot]` | P2 spike（含中文翻譯 POC） | `scummvm-spike.ini`（`u8_l10n=zh_TW`） |
-| `launch-dev.bat [slot\|new] [en]` | **開發分支**（`--debugflags=Localization`；`new` = 新遊戲，一開始就是 Devon 的第一次見面；`en` = localization off，`scummvm-dev-en.ini`，共用存檔） | `scummvm-dev.ini`（`localization=zh_TW`、`font_cjk_file=Cubic_11.ttf`） |
+| 啟動檔 | 內容 |
+|---|---|
+| `launch-dev.bat [slot\|new] [en]` | **開發分支**，`--debugflags=Localization`。`new` = 新遊戲（一開始就進入與 Devon 的第一次見面）；`en` = localization off（`scummvm-dev-en.ini`，共用存檔） |
+| `launch-p0.bat`、`launch-trace.bat`、`launch-spike.bat` | 原版、Usecode trace、P2 spike |
 
-- 每次執行都會產生帶時間戳的 log；全部使用獨立設定檔，不動使用者的全域 ScummVM 設定。
-- `--extrapath=private_test\extra`：字型、`ultima8.dat` 複本、**編譯後的翻譯檔 `u8_zh_TW.mo`**、spike 用的 `u8_l10n_zh_TW.tsv`、`p3_test_strings.txt`。
-- 翻譯檔流程見 `localization/README.md`：`u8catalog.py update / terms / check / stats`，最後 `po_compile.py zh_TW localization/zh_TW -o private_test/extra/u8_zh_TW.mo`
-- Localization 設定（遊戲設定）：`localization=off|zh_TW`、`localization_file`（預設 `u8_<語言>.mo`）、`font_cjk_file`（預設 `Cubic_11.ttf`）、`font_cjk_size`（12）、`font_cjk_antialiasing`（false）。**CJK 字型只在 localization 啟用時載入**。
-- log 中的 `[U8-L10N]` 訊息需要 `--debugflags=Localization`；主控台 `Localization::info` 顯示目前狀態。
-- 存檔：`private_test/saves/ultima8.001`（`p1-after`，在 Devon 附近，已和 Devon 對話過）；`ultima8.002`（P5 測試：主角正在說 `0402:1A04`）；`ultima8.003`（P6 測試：英文模式下與 Devon 對話後）。
-- 存檔檢查：`python tools/validate/save_text_check.py private_test/saves/ultima8.00N`（存檔中有 CJK 文字就失敗）。
-- 主控台 `Localization::bark <class>:<ip>`：主角以 localization 路徑說出翻譯檔中的一句。`Localization::gravestone`：只顯示死亡墓碑。`Localization::read book|scroll|grave|plaque <class>:<ip>`：直接開啟讀物。
-- 兩個測試設定檔都開了 `originalsaveload=true`（遊戲選單的讀取 / 寫入日記才會用 U8 原版畫面）。ScummVM 沒有繁中介面翻譯（`zh_Hant.po` 是空的），ScummVM 自己的選單會是簡中或英文。
-- 遊戲內字型測試：`Ctrl+Alt+D` → `Ultima8Engine::barkTestFile p3_test_strings.txt <n>`（需要 `localization=zh_TW` 才會載入 CJK 字型）。
+- 設定檔：`scummvm-dev.ini`（`localization=zh_TW`、`font_cjk_file=Cubic_11.ttf`、`originalsaveload=true`）。ScummVM 會自動改寫 ini，屬正常。
+- `--extrapath=private_test\extra`：Cubic_11.ttf、`ultima8.dat` 複本、**`u8_zh_TW.mo`**（改了 PO 要重新編譯，見 §6）。
+- 每次執行產生 `private_test/dev-YYYYMMDD-HHMMSS.log`；`[U8-L10N]` 行顯示每次查表（HIT / MISS / SOURCE-MISMATCH）。
+- 存檔：`saves/ultima8.001`（p1-after，已認識 Devon）、`.002`（P5：主角說話中存檔）、`.003`（P6）、`.004`（P9 日記測試）；`.000` 是 ScummVM 自動存檔。
+- `startup_check.ps1 -Config <ini>`：啟動、等初始化、關閉、列出 log（不操作視窗）。P4 的 7 種情境設定在舊 session 的 scratchpad，需要時重建（off / zh / 缺翻譯檔 / 損壞 / 語言不符 / 缺字型 / 未設定）。
 
-### 自動操作遊戲視窗
+### 主控台指令（遊戲中 `Ctrl+Alt+D`）
 
-`tools/automation/scummvm_window.ps1`（DPI aware）：
-
-```powershell
-scummvm_window.ps1 shot out.png        # 截圖 client 區域（1440x1080）
-scummvm_window.ps1 click x y           # 單擊；dclick 為雙擊
-scummvm_window.ps1 key "text"          # SendKeys，只適合輸入文字
-scummvm_window.ps1 vk "13"             # 帶 scan code 的按鍵：Enter=13、Esc=27
-scummvm_window.ps1 vk "17,18,68"       # Ctrl+Alt+D（開主控台）
-```
-
-SDL 只認帶 scan code 的特殊鍵（Enter、組合鍵），所以要用 `vk`。
+| 指令 | 用途 |
+|---|---|
+| `Localization::info` | 翻譯狀態（語言、翻譯檔、條目數、字型） |
+| `Localization::bark <class>:<ip>` | 主角以 localization 路徑說出翻譯檔中的一句台詞 |
+| `Localization::read book\|scroll\|grave\|plaque <class>:<ip>` | 直接開啟讀物（不必走到物品旁） |
+| `Localization::gravestone` | 只顯示死亡墓碑（主角不會死） |
+| `Ultima8Engine::barkTestFile p3_test_strings.txt <n>` | 字型繪製測試 |
 
 ---
 
 ## 5. 已知陷阱
 
-1. **Bash heredoc 會破壞反斜線跳脫**：`\\x`、`\\n` 寫進 Python/C++ 原始碼時被轉換，曾造成 C++ 字串斷行與測試字串變成實際字元。需要反斜線時，改寫成 Python 檔案並用 `chr(92)` 產生，或用 Edit/Write 工具。
-2. **`_UTF8` 是 Windows 系統標頭的巨集**：變數命名避開（已改為 `_utf8`）。
-3. **原版英文文字含 CP437 字元**（4 句德文/法文，例如 `hei\xE1e`）：UTF-8 解碼遇到不合法序列時，以 CP437 逐 byte 解碼（已實作並有測試）。
-4. **對話中無法存檔**：原版設計（`setAvatarInStasis`），不是 bug。
-5. **`--save-slot=N` 讀不到存檔時**，會跳出「數據讀取失敗」對話框。
-6. ScummVM 執行時會自動改寫 `--config` 指定的 ini（重新排序並加上欄位），屬正常現象。
-7. Git 全域設定 `core.autocrlf=true`：主 repo 用 `.gitattributes`（`eol=lf`，`.bat` 為 crlf）。
+1. **Shell 會破壞反斜線**：Bash heredoc、`sed`、`printf` 處理 `\n`、`\x`、`\\` 時常出錯；Python 一般字串中的 `\u` 也會被當成跳脫。修改原始碼請用 Edit / Write 工具，或把 Python 腳本寫成檔案再執行（腳本放 scratchpad）。
+2. **`_UTF8` 是 Windows 系統標頭的巨集**：變數命名避開（用 `_utf8`）。
+3. **原版英文含 CP437 字元**（4 句德文 / 法文）：字型以 CP437 逐 byte 解碼不合法的 UTF-8；PO 以 UTF-8 存放，編譯時 key 轉回 CP437。
+4. **對話中無法存檔**（`setAvatarInStasis`），原版設計。
+5. **ScummVM 預設用自己的存讀檔畫面**：要 `originalsaveload=true` 才會用 U8 原版日記。ScummVM **沒有繁中介面翻譯**（`po/zh_Hant.po` 是空的），ScummVM 自己的選單是簡中或英文，不在本專案範圍。
+6. **`EditWidget` 用 high-res CJK 字型時文字畫到錯誤位置**（§49 #23，使用者：之後再修）。目前日記字型（4）不替換。
+7. **`TTFont::renderText` 原本會寫出圖片範圍**（游標在行尾），P9 已修正。
+8. Git 全域 `core.autocrlf=true`：主 repo 用 `.gitattributes`（`eol=lf`，`.bat` 為 crlf）；`scummvm-src` 的部分檔案是 CRLF，修改腳本要保留原本的換行。
+9. 主控台輸出中文會變亂碼（cp950），驗證時用 `ascii()` 或寫檔比對。
 
 ---
 
-## 6. 下一步：Phase 8（Remaining Text Surface Inventory）
+## 6. 翻譯檔流程與權威檔
 
-### 已完成的 localization 架構（P4–P7，核心架構已證明）
+```bash
+python tools/catalog/u8catalog.py update zh_TW        # 抽取 + 合併（保留譯文；--tm 帶入相同英文的譯文為 fuzzy）
+python tools/catalog/u8catalog.py terms zh_TW         # 更新權威檔候選詞（保留手動欄位）
+python tools/catalog/u8catalog.py check zh_TW --font private_test/extra/Cubic_11.ttf
+python tools/catalog/u8catalog.py stats zh_TW         # 進度、重複、不一致（--csv 報表）
+python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extra/u8_zh_TW.mo
+```
 
-| Phase | 內容 | 報告 |
+- **權威檔** `localization/zh_TW/authority.tsv`：欄位 category / english / translation / status / count / example / note。status：`keep`（保留英文）、`approved`、`proposed`、`todo`。`check` 依 keep / approved 檢查譯文。
+- 目前：725 詞；**keep 8**（Devon、Bentic、Mordea、Lithos、Hydros、Tenebrae、Tempest、Lurker）、**approved 6**（Avatar → 聖者、Sea of Rains → 雨之海、Necromancer(s) → 死靈法師、Titan → 泰坦、Mountain King → 山之王），其餘 711 個 todo；分類是自動猜的，需人工確認（例如 Bloodwatch、Firstebb 是時段名稱）。
+- **建議**：正式翻譯前先決定高頻詞（Mordea 124、Lithos 123、Sorcerer 105、Tempest 100、Titans 90、Stratos 84…），並和使用者確認「專有名詞保留英文」的原則是否維持。
+- 翻譯進度：6,564 條、英文約 52 萬字元，已翻約 1.1%（Devon 第一次見面 + 介面 + 讀物 POC，共 75 條）。
+
+---
+
+## 7. 已完成的 Phase（摘要）
+
+| Phase | 結果 | 報告 |
 |---|---|---|
-| P4 | `TranslationCatalog`（MO，key = `context + "\x04" + 英文原文`）、`Localization`（設定、啟用條件、`translateBark` / `translateAnswer`） | [P4](reports/P4-localization-manager.md) |
-| P5 | `I_bark` → `Item::bark(msg, displayText)` → `BarkGump::_displayText`（不存檔）→ TextWidget；`TextWidget::setSaveText()` 讓存檔只有英文 | [P5](reports/P5-npc-bark-poc.md) |
-| P6 | `I_ask` → `AskGump::_displayAnswers`（不存檔）→ 按鈕文字；`ButtonWidget::setSaveText()`；`_answers` 與回傳值不變 | [P6](reports/P6-askgump-choice-poc.md) |
-| P7 | 句型：`{name}`、`{num}`、`{varXX}`、`{call_XXXX}`；`param CCCC:NAME` 參數譯文；Devon 第一次見面全程中文 | [P7](reports/P7-first-complete-conversation.md) |
+| P0 Baseline | 建置、執行原版 | [P0](reports/P0-baseline.md) |
+| P1 Text Architecture Audit | 文字流程、存檔、語音研究 | [P1](reports/P1-text-architecture-audit.md) |
+| P2 Translation Identity | ID 設計（ADR-001）、格式（ADR-002）、spike → GO | [P2](reports/P2-translation-identity.md) |
+| P3 UTF-8 / CJK Foundation | UTF-8 字型、中文換行與禁則、Cubic 11 | [P3](reports/P3-cjk-foundation.md) |
+| P4 Localization Manager | 翻譯檔（MO）、查表、fallback、字型條件 | [P4](reports/P4-localization-manager.md) |
+| P5 NPC Bark POC ★ | 台詞中文；存檔只存英文 | [P5](reports/P5-npc-bark-poc.md) |
+| P6 AskGump Choice POC ★ | 選項中文；點中文選項進入原本分支 | [P6](reports/P6-askgump-choice-poc.md) |
+| P7 First Complete Conversation ★ | Devon 第一次見面全程中文；句型（`{name}`）提前實作；**核心架構已證明** | [P7](reports/P7-first-complete-conversation.md) |
+| P8 Text Surface Inventory | 26 類 surface | [P8](reports/P8-text-surface-inventory.md) |
+| P9 Engine UI / Static Text | `ui` context；主選單 / 離開確認改文字（日文版做法）；死亡墓碑字幕 | [P9](reports/P9-engine-ui-static-text.md) |
+| P10 Extraction & Toolchain | 全遊戲翻譯檔、合併 / 檢查 / 統計、權威檔、讀物 | [P10](reports/P10-extraction-toolchain.md) |
 
-共同原則：**譯文只在建立顯示元件時使用**；Usecode、string heap、`_barked`、`_answers`、語音、存檔都只用英文。字型不能畫 UTF-8 時顯示英文。存讀檔後，正在顯示的那一句或那一組選項會是英文（使用者已同意）。
+### 使用者已做的決定
 
-翻譯原則（POC，術語表在 P10）：專有名詞保留英文（Tenebrae、Lithos、Mordea、Tempest、Lurker…）；一般名詞意譯（雨之海、死靈法師、泰坦）。
+- 翻譯檔用 PO、英文原文放進 repo（ADR-002）。
+- 字型 Cubic 11（12px、關閉反鋸齒）。
+- 讀檔後正在顯示的那一句 / 選項以英文顯示：可接受。
+- 含玩家名字的句子：P7 一併處理（已完成）。
+- 墓碑 / 牌匾 / 死亡畫面：**先採方案 A**（英文雕刻 + 中文字幕），之後再評估全中文（使用者的 U7 是全中文）。
+- 製作人員名單、開發者語錄：**都不翻譯**。
+- 角色狀態欄（STR / INT…）維持英文（放不下中文）。
+- 主選單、離開確認：改為中文文字按鈕（日文版做法），不製作中文圖片。
+- `EditWidget` 的 high-res 問題：之後再修。
+- **維護權威檔**。
 
-### P8–P10 結果
+---
 
-- P8（[報告](reports/P8-text-surface-inventory.md)、[inventory](research/text-surface-inventory.md)）：26 類 surface 與 Phase 分配。
-- P9（[報告](reports/P9-engine-ui-static-text.md)）：`ui` context + `Localization::uiText()`；主選單與離開確認改文字；日記用字型 9；死亡畫面字幕；狀態欄維持英文。
-- P10（[報告](reports/P10-extraction-toolchain.md)）：抽取 / 合併 / 檢查 / 統計工具、權威檔、讀物（書、捲軸、墓碑、牌匾）的 context 與引擎掛點。全遊戲 6,564 條、英文約 52 萬字元。
+## 8. 下一步：Phase 11（Dynamic Strings / Pagination / Timing）
 
-使用者的決定：墓碑 / 牌匾 / 死亡畫面先用方案 A（英文 + 中文字幕，之後可能改全中文）；製作人員名單與開發者語錄都不翻譯；`EditWidget` 的 high-res 問題之後再修；**要維護權威檔**（人名、地名、物品、魔法、怪物、專有名詞的唯一譯名）。
+規格見 Master Plan §30。建議內容：
 
-### P11 要做的事
-
-規格見 Master Plan §30：
-
-1. 句型與參數：§49 #7（`param` 譯文在實際 NPC，例如 Orlok `040A` 的 `{varF7}`，遊戲中驗證）；§49 #25（試劑等動態組合的名稱、單複數、數量）。
-2. 分頁：量測譯文的寬、高、頁數（台詞、書、捲軸），只有證明需要時才調整。
-3. 顯示時間：無語音時中文的顯示速度（§49 #3），以字數（codepoint）而非 byte 研究；有語音的 NPC（§49 #18，Guardian 的嘲諷可能有語音）。
+1. **句型與參數**：`param` 譯文在實際 NPC 驗證（§49 #7；例如 Orlok `040A` 的 `{varF7}` = 玩家名字或 `stranger `、`{call_0BCF}` = 酒名）；試劑等動態組合的名稱、單複數、數量（§49 #25，`ERTHREAG` 等，目前抽取結果把分支串在一起）。
+2. **分頁**：量測譯文在台詞框、書、捲軸的寬、高、頁數；只有證明需要時才調整。
+3. **顯示時間**：無語音時中文的顯示速度（§49 #3，以字數而非 byte 研究）；有語音的 NPC（§49 #18；Guardian 的嘲諷 `0401` event `guardianBark` 23 句可能有語音）。
 
 ### Master Plan §49 尚未完成的待辦
 
-| # | 項目 | Phase |
+| # | 項目 | 處理時機 |
 |---|---|---|
 | 3 | 無語音時中文顯示速度細調 | P11 |
-| 7 | 參數譯文（`param`）待實際 NPC 驗證（句型比對已在 P7 完成） | P11 |
-| 8–9 | 5 個無法自動解析的 bark、共用 class 的對話脈絡 | P10 |
+| 7 | `param` 譯文待實際 NPC 驗證（句型比對已完成） | P11 |
+| 8–9 | 5 個無法自動解析的 bark（PYROS、SORCERER ×2、METHOD ×2）、共用 class 的對話脈絡 | 翻譯時 |
 | 11 | 建立 ScummVM fork 並改為 submodule | 待使用者決定 |
 | 12 | HD 文字層 | P15 |
-| 14 | 原版換行無限迴圈的修正可考慮回報 upstream | — |
-| 15 | 遊戲選項 GUI 的語言選單 | P9 或之後 |
-| 20 | 墓碑、牌匾、死亡畫面：先採方案 A（英文 + 中文字幕），之後再評估全中文 | P9 / P10 |
-| 23 | `EditWidget` 用 high-res CJK 字型時位置錯誤（使用者：之後再修） | 待定 |
+| 14 | 原版換行無限迴圈的修正可回報 upstream | — |
+| 15 | 遊戲選項 GUI 的語言選單 | 之後 |
+| 16 | 翻譯檔加入遊戲資料版本（`EUSECODE.FLX` 雜湊） | 待定 |
+| 18 | 有語音的 NPC 在 localization 下的語音與字幕 | P11 或翻譯有語音的 NPC 時 |
+| 20 | 墓碑、牌匾、死亡畫面：方案 A，之後評估全中文 | 待使用者評估 |
+| 23 | `EditWidget` 用 high-res CJK 字型時位置錯誤 | 之後再修 |
 | 24 | `TTFont::renderText` 越界修正可回報 upstream | — |
 | 25 | 動態組合的試劑名稱（單複數、數量） | P11 |
-| 26 | 權威檔分類與 711 個待決定譯名需人工整理 | 翻譯開始前 |
-| 16 | 翻譯檔加入遊戲資料版本（`EUSECODE.FLX` 雜湊） | P10 |
-| 18 | 有語音的 NPC 在 localization 下的語音與字幕 | 有語音的 NPC 翻譯時 |
+| 26 | 權威檔分類與 711 個待決定譯名需人工整理 | 正式翻譯前 |
 
 ---
 
-## 7. 重要數據（快速參考）
+## 9. 重要數據（快速參考）
 
 | 項目 | 數值 |
 |---|---|
-| Usecode class | 515 |
-| `push string` literal / 不重複文字 | 11,238 / 5,980 |
-| bark 呼叫點 | 4,526（固定句子 4,408、句型 113、無法解析 5） |
-| ask 選項（class + 英文） | 969 |
-| 相同英文出現在多個呼叫點 | 382 句、1,038 個呼叫點 |
-| Devon | class `0402`；開場 `0402:0633`「Hello there. 」；ask 呼叫點 `0402:08C2` |
-| Orlok（佔位符號範例） | class `040A`；`{varF7}` = 玩家名字或 `"stranger "`；`{call_0BCF}` = 酒名 |
-| Cubic 11 字數 | 10,268 |
-| intrinsic | bark `0x49`、ask `0x4A`、getName `0xBC`、numToStr `0xB9`、setAvatarInStasis `0xD0` |
+| Usecode class | 515（有文字的 394） |
+| 翻譯條目 | 6,564：bark 4,528（句型 115）、ask 1,775、param 11、book 86、scroll 22、grave 67、plaque 63、ui 12 |
+| 英文字元 | 約 522,000（台詞約 361,000、書約 114,000、選項約 35,000） |
+| 無法解析的 bark | 5 |
+| 相同英文出現在多個 context | 506 句、1,433 個條目 |
+| Devon | class `0402`；第一次見面 `0402:0633`「Hello there. 」；認識後 `060F`「Hello there, {name}.」 |
+| Orlok（參數範例） | class `040A`；`{varF7}` = 玩家名字或 `stranger `；`{call_0BCF}` = 酒名 |
+| 字型 | Cubic 11，10,268 字；目前譯文用到的字全部涵蓋 |
+| intrinsic | bark `0x49`、ask `0x4A`、Book::read `0x6E`、Scroll::read `0x6F`、Grave::read `0x70`、Plaque::read `0x71`、getName `0xBC`、numToStr `0xB9`、setAvatarInStasis `0xD0` |
+| 語音檔 | 只有 9 個（`SOUND/E44.FLX` 等，依角色 shape 編號），Devon 沒有 |

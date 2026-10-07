@@ -2,7 +2,7 @@
 
 ## ScummVM Ultima8 Engine / Traditional Chinese Localization
 
-**文件狀態：** Master Plan v2（2026-10-06，依 Phase 0–2 實證修訂）  
+**文件狀態：** Master Plan v2.7（2026-10-07；v2 依 Phase 0–2 實證修訂，v2.1–v2.7 為 Phase 4–10 的結果，見 Revision Log）  
 **目標遊戲：** Ultima VIII: Pagan  
 **主要 Runtime：** ScummVM — Ultima8 Engine  
 **架構來源：** Pentagram → ScummVM Ultima8  
@@ -839,11 +839,12 @@ exp/u8-dialog-poc
 | `scummvm-src/` | upstream clone（blobless），尚未改為指向使用者 fork 的 submodule |
 | 基準 | `master` @ `71cb05b1`，working tree clean |
 | 實驗分支 | `exp/u8-p2-identity-spike`（commit `2063e25a89`，本機，未 push）：Phase 2 spike，**僅供參考，不直接合併** |
-| 開發分支 | `ultima8-zh-tw-dev`：P3 commit `96bfc46318`（本機，未 push） |
+| 開發分支 | `ultima8-zh-tw-dev`：P3–P10，最新 commit `47541ad4bb`（本機，未 push；各 Phase 的 commit 見 `docs/HANDOFF.md`） |
 | 建置目錄（gitignored） | `build-scummvm/`（P0 原版）、`build-trace/`（`DEBUG_USECODE`）、`build-spike/`、`build-dev/`（開發分支） |
-| 單元測試 | WSL：`~/u8build`，`make VER_REV=… -o test/runner.cpp test`（見 P3 報告 Findings 4） |
-| 工具 | `tools/diagnostics/u8dis.py`（Usecode 反組譯）、`tools/extract/u8extract.py`（依對話流程抽取，示範版） |
-| 本機測試 | `private_test/`：啟動檔、設定檔、字型、POC 翻譯表、抽取示範（不進版控） |
+| 單元測試 | WSL：`~/u8build`，`tools/build/wsl_unit_tests.sh`（481 項，見 P3 報告 Findings 4） |
+| 工具 | `tools/diagnostics/`（反組譯、文字統計、shape 檢視）、`tools/extract/u8extract.py`（抽取）、`tools/catalog/`（`u8catalog.py` 抽取合併 / 檢查 / 統計 / 權威檔、`po_compile.py`）、`tools/validate/`（字集、存檔）、`tools/automation/` |
+| 翻譯檔 | `localization/zh_TW/`：394 個 class 的 PO、`ui/engine.po`、權威檔 `authority.tsv`；說明見 `localization/README.md` |
+| 本機測試 | `private_test/`：啟動檔、設定檔、字型、編譯後的 `u8_zh_TW.mo`、存檔、log（不進版控） |
 
 **待辦：** 建立使用者的 ScummVM fork，並把 `scummvm-src/` 改為 submodule。
 
