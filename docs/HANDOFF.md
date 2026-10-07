@@ -1,9 +1,9 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
-**更新日期：** 2026-10-07（P11 完成後）
-**目前進度：** Phase 0–11 ✅ PASS（**核心 localization 架構已證明**，P7）。**下一步：Phase 12（Save / Speech / Regression Hardening），需等使用者明確指示才開始。**
+**更新日期：** 2026-10-07（P12 完成後）
+**目前進度：** Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**下一步：Phase 13（Full Translation Campaign），需等使用者明確指示才開始。**
 
-給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.8，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
+給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.9，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
 
 ---
 
@@ -69,10 +69,10 @@
 
 ```text
 D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最新 commit 見 git log）
-├── ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md   ← v2.8
+├── ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md   ← v2.9
 ├── docs/
 │   ├── HANDOFF.md                        ← 本文件
-│   ├── reports/P0..P11-*.md              ← 各 Phase 報告
+│   ├── reports/P0..P12-*.md              ← 各 Phase 報告
 │   ├── research/u8-text-pipeline.md      ← P1 文字流程研究
 │   ├── research/text-surface-inventory.md ← P8 全部文字 surface 盤點（26 類）與 Phase 分配
 │   └── architecture/ADR-001（ID）, ADR-002（格式、工具鏈、權威檔）
@@ -92,8 +92,9 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 │   ├── diagnostics/u8shapes.py           ← shape 檔 → PNG（只在本機看，圖片不進 repo）
 │   ├── validate/font_coverage.py         ← 字集覆蓋檢查
 │   ├── validate/save_text_check.py       ← 存檔中有 CJK 文字就失敗
+│   ├── validate/save_compare.py          ← 存檔逐區段比較（P12，只檢查遊戲資料區段的中文）
 │   ├── build/                            ← 建置與測試腳本（§4）
-│   └── automation/scummvm_window.ps1、startup_check.ps1
+│   └── automation/scummvm_window.ps1、startup_check.ps1、save_matrix.ps1、regression_startup.ps1（P12）
 ├── Ultima 8/          （gitignored）GOG 遊戲資料，唯讀；英文版在 Ultima 8\ENGLISH\
 ├── private_test/      （gitignored）啟動檔、設定檔、字型、u8_zh_TW.mo、存檔、log
 └── scummvm-src/       （gitignored，獨立 git repo）ScummVM upstream clone
@@ -105,7 +106,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike，**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `4ce1d3e434` | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`（P8 只有研究，無引擎修改） |
+| `ultima8-zh-tw-dev` | `91c8b8598a` | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`（P8 只有研究，無引擎修改） |
 
 建置目錄（`scummvm-src/` 內，gitignored）：`build-scummvm/`（原版）、`build-trace/`（Usecode trace）、`build-spike/`、**`build-dev/`（開發分支，Debug x64）**。
 
@@ -137,7 +138,7 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 
 | 啟動檔 | 內容 |
 |---|---|
-| `launch-dev.bat [slot\|new] [en]` | **開發分支**，`--debugflags=Localization`。`new` = 新遊戲（一開始就進入與 Devon 的第一次見面）；`en` = localization off（`scummvm-dev-en.ini`，共用存檔） |
+| `launch-dev.bat [slot\|new] [en\|nosub\|mute]` | **開發分支**，`--debugflags=Localization`。`new` = 新遊戲（一開始就進入與 Devon 的第一次見面）；`en` = localization off（`scummvm-dev-en.ini`，共用存檔）；`nosub` = 關字幕、`mute` = 關語音（P12） |
 | `launch-p0.bat`、`launch-trace.bat`、`launch-spike.bat` | 原版、Usecode trace、P2 spike |
 
 - 設定檔：`scummvm-dev.ini`（`localization=zh_TW`、`font_cjk_file=Cubic_11.ttf`、`originalsaveload=true`）。ScummVM 會自動改寫 ini，屬正常。
@@ -145,6 +146,8 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 - 每次執行產生 `private_test/dev-YYYYMMDD-HHMMSS.log`；`[U8-L10N]` 行顯示每次查表（HIT / MISS / SOURCE-MISMATCH）。
 - 存檔：`saves/ultima8.001`（p1-after，已認識 Devon）、`.002`（P5：主角說話中存檔）、`.003`（P6）、`.004`（P9 日記測試）；`.000` 是 ScummVM 自動存檔。
 - `startup_check.ps1 -Config <ini>`：啟動、等初始化、關閉、列出 log（不操作視窗）。
+- **存讀檔矩陣**：`save_matrix.ps1 [-Slot n]`（自動存檔需約 5 分鐘 × 2 階段，會開遊戲視窗，**先告知使用者**），結果用 `save_compare.py A B --baseline C` 比較。
+- **啟動回歸**：`regression_startup.ps1`（9 種設定情境，各約 8 秒）。
 - **分頁量測**：複製 `scummvm-dev.ini`，在 `[ultima8]` 加 `localization_measure=true`，用 `startup_check.ps1 -Config <該 ini> -Seconds 40 -Log measure.log` 執行，再 `python tools/catalog/measure.py measure.log`（說明在檔頭）。P4 的 7 種情境設定在舊 session 的 scratchpad，需要時重建（off / zh / 缺翻譯檔 / 損壞 / 語言不符 / 缺字型 / 未設定）。
 
 ### 主控台指令（遊戲中 `Ctrl+Alt+D`）
@@ -157,6 +160,7 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 | `Cheat::toggle`、`Cheat::items` | 背包放入金幣、試劑等（查看即走真實 Usecode，P11 用來測 `{num}`） |
 | `Localization::read book\|scroll\|grave\|plaque <class>:<ip>` | 直接開啟讀物（不必走到物品旁） |
 | `Localization::gravestone` | 只顯示死亡墓碑（主角不會死） |
+| `Localization::guardianBark <1-23>` | Guardian 的嘲諷（有語音 `E666.FLX`），測語音 / 字幕；3 / 12 / 16 有 POC 譯文 |
 | `Ultima8Engine::barkTestFile p3_test_strings.txt <n>` | 字型繪製測試 |
 
 ---
@@ -186,9 +190,9 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 ```
 
 - **權威檔** `localization/zh_TW/authority.tsv`：欄位 category / english / translation / status / count / example / note。status：`keep`（保留英文）、`approved`、`proposed`、`todo`。`check` 依 keep / approved 檢查譯文。
-- 目前：725 詞；**proposed 14**（P11 POC：黑酒、Tenebrae 麥酒、颶風酒、靈息酒、魔蹄酒、黑曜石、血、碎骨、泥土、木頭、點燃、爆炸，待使用者確認）；**keep 8**（Devon、Bentic、Mordea、Lithos、Hydros、Tenebrae、Tempest、Lurker）、**approved 6**（Avatar → 聖者、Sea of Rains → 雨之海、Necromancer(s) → 死靈法師、Titan → 泰坦、Mountain King → 山之王），其餘 697 個 todo；分類是自動猜的，需人工確認（例如 Bloodwatch、Firstebb 是時段名稱）。
+- 目前：725 詞；**proposed 17**（P12 加 Pagan、Britannia、Guardian：暫保留英文）；P11 的 14（P11 POC：黑酒、Tenebrae 麥酒、颶風酒、靈息酒、魔蹄酒、黑曜石、血、碎骨、泥土、木頭、點燃、爆炸，待使用者確認）；**keep 8**（Devon、Bentic、Mordea、Lithos、Hydros、Tenebrae、Tempest、Lurker）、**approved 6**（Avatar → 聖者、Sea of Rains → 雨之海、Necromancer(s) → 死靈法師、Titan → 泰坦、Mountain King → 山之王），其餘 697 個 todo；分類是自動猜的，需人工確認（例如 Bloodwatch、Firstebb 是時段名稱）。
 - **建議**：正式翻譯前先決定高頻詞（Mordea 124、Lithos 123、Sorcerer 105、Tempest 100、Titans 90、Stratos 84…），並和使用者確認「專有名詞保留英文」的原則是否維持。
-- 翻譯進度：6,841 條（含 ui）、英文約 54 萬字元，已翻約 1.2%（Devon 第一次見面 + 介面 + 讀物 POC + P11 動態句子 POC，共 105 條）。
+- 翻譯進度：6,841 條（含 ui）、英文約 54 萬字元，已翻約 1.2%（Devon 第一次見面 + 介面 + 讀物 POC + P11 動態句子 POC + P12 Guardian 3 句，共 108 條）。
 
 ---
 
@@ -208,6 +212,7 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 | P9 Engine UI / Static Text | `ui` context；主選單 / 離開確認改文字（日文版做法）；死亡墓碑字幕 | [P9](reports/P9-engine-ui-static-text.md) |
 | P10 Extraction & Toolchain | 全遊戲翻譯檔、合併 / 檢查 / 統計、權威檔、讀物 | [P10](reports/P10-extraction-toolchain.md) |
 | P11 Dynamic Strings / Pagination / Timing | 依分支列舉句子、`{partN}`、酒名等參數；顯示時間改為 reading length；分頁量測（不調整版面） | [P11](reports/P11-dynamic-strings-pagination-timing.md) |
+| P12 Save / Speech / Regression | 存讀檔矩陣（中英互換，邏輯區段一致）、語音矩陣、啟動回歸 9 情境；日文計時修正 | [P12](reports/P12-save-speech-regression.md) |
 
 ### 使用者已做的決定
 
@@ -222,17 +227,18 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 - `EditWidget` 的 high-res 問題：之後再修。
 - **維護權威檔**。
 - P11：分頁增加約 8%，不調整版面（測試通過）；顯示時間 CJK 字算 3 個英文字母。
+- #27：目前不調整；之後可縮小行距或只在中文時加大台詞框。#28：14 個 proposed 譯名先使用，使用者會依舊版中文手冊再調整。
+- P12：語音四種情境都自然。「全語音 / 中文語音」是使用者之後的想法（§49 #29，條件成熟再說）。
 
 ---
 
-## 8. 下一步：Phase 12（Save / Speech / Regression Hardening）
+## 8. 下一步：Phase 13（Full Translation Campaign）
 
-規格見 Master Plan §31。建議內容：
+規格見 Master Plan §32。技術前提已具備；開始前建議和使用者確認：
 
-1. **存檔矩陣**：英文模式存 → 英文 / 中文讀；中文模式存 → 中文 / 英文讀，遊戲狀態一致。工具：`tools/validate/save_text_check.py`（存檔中有 CJK 文字就失敗）、現有存檔 `saves/ultima8.001`–`.004`。
-2. **語音矩陣**（§49 #18）：speech ON / subtitles ON、ON / OFF、OFF / ON。U8 只有 9 個語音檔（`SOUND/E44.FLX` 等，依角色 shape），Guardian 的嘲諷（`0401` event `guardianBark`）可能有語音；語音以英文 `_barked` 選擇，時間依各頁 reading length 比例分配（P11）。
-3. **回歸**：英文 U8、font override OFF / ON、localization OFF / zh_TW、缺字型 / 缺翻譯檔的 fallback（P4 的 7 種情境需重建）；日文版無合法測試資料，只能以程式路徑檢查。
-4. 單元測試（WSL）。
+1. **權威檔**（§49 #26、#28）：使用者正在找舊版中文手冊；高頻詞（Mordea、Lithos、Sorcerer、Tempest、Titans、Stratos…）的譯名，以及「專有名詞保留英文」的原則是否維持。
+2. **翻譯方式與順序**：例如依地區 / 劇情進度（Tenebrae → …）、先台詞與選項、書最後（書約 11.7 萬字元）；誰翻、如何審稿；POC 譯文（`# P11 POC`、`# P12 POC`）是否保留。
+3. 每批翻譯後：`u8catalog.py check`、`po_compile.py`、`measure.py`（頁數，§49 #27）、遊戲內抽查。
 
 ### Master Plan §49 尚未完成的待辦
 
@@ -244,13 +250,14 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 | 14 | 原版換行無限迴圈的修正可回報 upstream | — |
 | 15 | 遊戲選項 GUI 的語言選單 | 之後 |
 | 16 | 翻譯檔加入遊戲資料版本（`EUSECODE.FLX` 雜湊） | 待定 |
-| 18 | 有語音的 NPC 在 localization 下的語音與字幕 | P12 |
 | 20 | 墓碑、牌匾、死亡畫面：方案 A，之後評估全中文 | 待使用者評估 |
 | 23 | `EditWidget` 用 high-res CJK 字型時位置錯誤 | 之後再修 |
 | 24 | `TTFont::renderText` 越界修正可回報 upstream | — |
 | 26 | 權威檔分類與 697 個待決定譯名需人工整理 | 正式翻譯前 |
-| 27 | CJK 行距 18 px（台詞框一頁 3 行）；翻譯後若頁數增加明顯可縮小行距 | 翻譯後重新量測 |
-| 28 | P11 POC 的 14 個 proposed 譯名待確認 | 正式翻譯前 |
+| 27 | CJK 行距 18 px（台詞框一頁 3 行）；使用者同意目前不調整。翻譯後若頁數增加明顯：縮小行距，或只在顯示中文時加大台詞框（194×55 → 例如高 70） | 翻譯後重新量測 |
+| 28 | P11 POC 的 14 個 proposed 譯名：使用者同意先使用，之後依舊版中文手冊調整 | 使用者查手冊後 |
+| 29 | 全語音 / 中文語音（使用者的想法） | P15，條件成熟時 |
+| 30 | upstream：`--save-slot` 讀檔前的自動存檔嘗試失敗後延後 5 分鐘（不影響遊戲） | — |
 
 ---
 

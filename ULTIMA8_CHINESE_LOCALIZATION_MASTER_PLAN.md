@@ -2,7 +2,7 @@
 
 ## ScummVM Ultima8 Engine / Traditional Chinese Localization
 
-**文件狀態：** Master Plan v2.8（2026-10-07；v2 依 Phase 0–2 實證修訂，v2.1–v2.8 為 Phase 4–11 的結果，見 Revision Log）  
+**文件狀態：** Master Plan v2.9（2026-10-07；v2 依 Phase 0–2 實證修訂，v2.1–v2.9 為 Phase 4–12 的結果，見 Revision Log）  
 **目標遊戲：** Ultima VIII: Pagan  
 **主要 Runtime：** ScummVM — Ultima8 Engine  
 **架構來源：** Pentagram → ScummVM Ultima8  
@@ -47,7 +47,17 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ✅ PASS · P12 ⏳ 待開始
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ✅ PASS · P12 ✅ PASS · P13 ⏳ 待開始
+
+## v2.9 — 2026-10-07（Phase 12 完成後）
+
+依據：[docs/reports/P12-save-speech-regression.md](docs/reports/P12-save-speech-regression.md)
+
+| 章節 | 修訂內容 |
+|---|---|
+| §18.1 | P12 PASS |
+| §31 | 驗收打勾；存讀檔矩陣、語音矩陣、啟動回歸的方法與結果 |
+| §49 | #18 完成；#27、#28 記錄使用者決定；新增 #29（全語音 / 中文語音，P15 額外增強）、#30（upstream：以啟動參數讀檔前的自動存檔嘗試） |
 
 ## v2.8 — 2026-10-07（Phase 11 完成後）
 
@@ -1110,6 +1120,7 @@ P15 Optional Enhancements
 | P9 Engine UI / Static Text | ✅ PASS（2026-10-06） | `docs/reports/P9-engine-ui-static-text.md` |
 | P10 Extraction & Toolchain | ✅ PASS（2026-10-06） | `docs/reports/P10-extraction-toolchain.md` |
 | P11 Dynamic Strings / Pagination / Timing | ✅ PASS（2026-10-07） | `docs/reports/P11-dynamic-strings-pagination-timing.md` |
+| P12 Save / Speech / Regression Hardening | ✅ PASS（2026-10-07） | `docs/reports/P12-save-speech-regression.md` |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
 
@@ -2330,12 +2341,18 @@ localization zh_TW
 
 ## Acceptance
 
-- [ ] save compatibility PASS
-- [ ] speech PASS
-- [ ] English regression PASS
-- [ ] Japanese code path regression PASS
-- [ ] localization toggle PASS
-- [ ] missing font fallback defined
+- [x] save compatibility PASS（`save_matrix.ps1` + `save_compare.py`：4 種組合 × 2 個存檔，邏輯區段與英文基準線逐 byte 相同）
+- [x] speech PASS（`Localization::guardianBark`：語音 / 字幕 3 種組合 + 英文對照，使用者確認）
+- [x] English regression PASS（`regression_startup.ps1` 情境 A / G / I；非 UTF-8 字型維持原版計時）
+- [x] Japanese code path regression PASS（程式檢查 + SJIS 單元測試；無合法日文資料）
+- [x] localization toggle PASS（情境 A–I；存檔可在兩種模式間交換）
+- [x] missing font fallback defined（情境 F：還原原字型、停用翻譯）
+
+### v2.9（P12）結果
+
+- 中文模式只改變顯示：存檔的 GAME / WORLD / MAPS / CURRENTMAP / UCGLOBALS / UCSTRINGS / UCLISTS 與英文模式相同；KERNEL / OBJECTS 的差異只來自時間，和兩次英文執行之間的差異相同。
+- 語音以英文原句選擇與計時；中文字幕依各頁 reading length 分配語音長度。
+- P11 計時改動對 Shift-JIS 的潛在誤判已修正（只有 UTF-8 字型使用 reading length）。
 
 **STOP**
 
@@ -3049,7 +3066,7 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 15 | 遊戲選項 GUI 的語言選單（ScummVM game option 只有勾選框，需要自訂 widget） | P9 或之後 |
 | 16 | 翻譯檔沒有記錄遊戲資料版本；考慮在檔頭加入 `EUSECODE.FLX` 雜湊 | P10 |
 | 17 | ~~掛點確認目標字型是 UTF-8 字型~~ ✅ BarkGump（P5）、AskGump（P6） | P5 / P6 |
-| 18 | 有語音的 NPC 在 localization 下的語音與字幕（遊戲只有 9 個語音檔，Devon 沒有） | 有語音的 NPC 翻譯時 |
+| 18 | ~~有語音的 NPC 在 localization 下的語音與字幕~~ ✅ 英文語音 + 中文字幕，語音 / 字幕各組合正常（P12，Guardian 嘲諷） | P12 |
 | 19 | ~~抽取工具漏列部分選項~~ ✅ 改為同時收集被比對的答案（P10） | P10 |
 | 20 | 墓碑（字型 11）、牌匾（10）、死亡畫面：**先採方案 A（英文雕刻 + 中文字幕，日文版做法）**（使用者決定 2026-10-06）。U7 專案是全部改成中文，之後再評估是否改為方案 B | P9 / P10 |
 | 21 | ~~字型 4 與狀態欄字型~~ ✅ P9：日記的中文改用字型 9；狀態欄維持英文（列距 9px 放不下中文）；`SliderGump` 只有數字 | P9 |
@@ -3058,8 +3075,10 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 24 | `TTFont::renderText` 游標與文字寫出圖片範圍（upstream 既有，P9 已修正），可考慮回報 upstream | — |
 | 25 | ~~試劑名稱等動態組合的文字~~ ✅ 依分支列舉句子 + 分段句型 `{partN}`（P11） | P11 |
 | 26 | 權威檔（`authority.tsv`）的分類與 711 個待決定的譯名需人工整理 | 翻譯開始前 |
-| 27 | 中文行距 18 px，台詞框一頁只放 3 行（英文 5 行）。正式翻譯後若頁數增加明顯，考慮縮小 CJK 行距（≤ 13 px 可放 4 行） | 翻譯後重新量測 |
-| 28 | P11 POC 用到的 14 個譯名（黑酒、黑曜石、血…）在權威檔為 proposed，需使用者確認 | 翻譯開始前 |
+| 27 | 中文行距 18 px，台詞框一頁只放 3 行（英文 5 行）。使用者同意目前不調整（2026-10-07）。正式翻譯後若頁數增加明顯，兩種做法：(a) 縮小 CJK 行距（≤ 13 px 可放 4 行）；(b) **只在顯示中文時加大台詞框**（`BarkGump` 的 `TextWidget` 194×55，例如高度 70 = 4 行；畫面 320×200，`ItemRelativeGump::MoveOnScreen` 會把框推回畫面內；代價是遮住較多畫面） | 翻譯後重新量測 |
+| 28 | P11 POC 用到的 14 個譯名（黑酒、黑曜石、血…）：使用者同意先使用（2026-10-07），之後依舊版中文手冊再調整；權威檔維持 proposed | 使用者查手冊後 |
+| 29 | 全語音 / 中文語音（使用者的想法，2026-10-07）：語音以 shape 編號選檔、以英文片語比對（`SpeechFlex`），中文語音需要新的語音檔與片語表 | P15（條件成熟時） |
+| 30 | upstream：以 `--save-slot` 讀檔時，ScummVM 在讀檔前嘗試自動存檔，新遊戲初始化的 stasis 使它失敗，下一次延後 5 分鐘（不影響遊戲） | — |
 
 ---
 

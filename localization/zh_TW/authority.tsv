@@ -532,7 +532,7 @@ other	Both Perivolcanae		todo	6	book 0593:3E72
 other	Breath		todo	3	bark 040A:0DE3	
 other	Breath of Wind		todo	20	bark 0181:0491	
 other	Brimstone		todo	8	bark 0421:0B35	
-other	Britannia		todo	4	bark 0401:3F04	
+other	Britannia	Britannia	proposed	4	bark 0401:3F04	P12 POC: kept English for now (check the old Chinese manual)
 other	Brother Xavier		todo	7	ask 0417	
 other	Burning Path		todo	4	bark 0439:0903	
 other	Cabal		todo	13	ask 041D	
@@ -601,7 +601,7 @@ other	Great Air Titan		todo	3	bark 0417:2752
 other	Great Temple		todo	4	bark 0421:921A	
 other	Grommet		todo	3	book 0572:2949	
 other	Guard		todo	3	bark 0405:1B7B	
-other	Guardian		todo	20	ask 0420	
+other	Guardian	Guardian	proposed	20	ask 0420	P12 POC: kept English for now (check the old Chinese manual)
 other	Guilty		todo	11	book 017A:0C32	
 other	Hall		todo	4	bark 026F:1FEC	
 other	Hall of Eternity		todo	4	bark 0415:68B5	
@@ -654,7 +654,7 @@ other	Obsidian Fortress		todo	7	bark 041B:04DD
 other	Order		todo	3	bark 0417:26B8	
 other	Order of Enlightenment		todo	5	bark 0402:2CB9	
 other	Ort Flam		todo	3	ask 0581	
-other	Pagan		todo	57	bark 0265:0D10	
+other	Pagan	Pagan	proposed	57	bark 0265:0D10	P12 POC: kept English for now (check the old Chinese manual)
 other	Pagans		todo	30	bark 041F:32E4	
 other	Perivolcan Pa		todo	4	book 0593:4492	
 other	Perivolcan Ze		todo	4	book 0593:4179	

@@ -75,6 +75,7 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 - `Localization::read book|scroll|grave|plaque <class>:<ip>`：直接開啟書、捲軸、墓碑、牌匾
 - `Localization::bark <class>:<ip>`：讓主角說出某句台詞
 - `Localization::say <class>:<ip> <英文>`：讓主角以該位置說出任意英文（測試句型與參數），例如 `Localization::say 040A:1F16 Greetings again stranger . Will ye be havin' another Blackwine ?`；要保留特殊空白時把英文放在雙引號中
+- `Localization::guardianBark <1-23>`：Guardian 的嘲諷（有語音），檢查語音與字幕
 - `Localization::info`：翻譯檔狀態
 
 ## 權威檔（`authority.tsv`）
