@@ -150,7 +150,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "I am a stranger here. "
 msgctxt "bark 041C:0DBC"
-msgid "This is the Sorcerer's Enclave. As First Acolyte, it is my duty to make sure that the Sorcerers learn about the Fire and keep the old ways alive. We Sorcerers gather here to learn about the Fire and keep the old ways alive. "
+msgid "This is the Sorcerer's Enclave. As First Acolyte, it is my duty to make sure that the Sorcerers learn about the Fire and keep the old ways alive. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I am a stranger here. "
+msgctxt "bark 041C:0DBC"
+msgid "This is the Sorcerer's Enclave. We Sorcerers gather here to learn about the Fire and keep the old ways alive. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I am a stranger here. "
@@ -330,7 +335,22 @@ msgstr ""
 
 #. event 01 (use (talk)), after "I come from another world. "
 msgctxt "bark 041C:1D8D"
+msgid "By the Guardian! I've found a world traveler. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I come from another world. "
+msgctxt "bark 041C:1D8D"
+msgid "Although you are not completely honest, I do believe you. It would appear that I've found a world traveler. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I come from another world. "
+msgctxt "bark 041C:1D8D"
 msgid "I really don't know whether or not to believe you. But if what you say is true, it would seem that I've found a world traveler. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I come from another world. "
+msgctxt "bark 041C:1D8D"
+msgid "I've found a world traveler. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I come from another world. "
@@ -364,7 +384,89 @@ msgstr ""
 #. event 01 (use (talk)), after "Who was your grandmother? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041C:2096"
-msgid "No.  She just vanished one day.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}. traveler. "
+msgid "No.  She just vanished one day.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+msgctxt "bark 041C:2096"
+msgid "No.  She just vanished one day.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041C:2096"
+msgid "No.  She just vanished one day.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+msgctxt "bark 041C:2096"
+msgid "No.  She just vanished one day.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041C:2096"
+msgid "No.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+msgctxt "bark 041C:2096"
+msgid "No.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041C:2096"
+msgid "No.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+msgctxt "bark 041C:2096"
+msgid "No.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041C:2096"
+msgid " She just vanished one day.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+msgctxt "bark 041C:2096"
+msgid " She just vanished one day.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041C:2096"
+msgid " She just vanished one day.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+msgctxt "bark 041C:2096"
+msgid " She just vanished one day.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041C:2096"
+msgid " No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+msgctxt "bark 041C:2096"
+msgid " No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041C:2096"
+msgid " Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Who was your grandmother? "
+msgctxt "bark 041C:2096"
+msgid " Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Who was your grandmother? "

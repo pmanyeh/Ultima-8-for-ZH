@@ -87,10 +87,10 @@ item	bellows		todo	1	bark 0140:009B
 item	bench		todo	2	bark 00E2:0099	
 item	Bentic's journal		todo	1	bark 025F:00A4	
 item	black gate		todo	1	bark 02AD:009E	
-item	Blackwine		todo	4	bark 00B4:00B0	
+item	Blackwine	黑酒	proposed	4	bark 00B4:00B0	P11 POC
 item	Blade of Striking		todo	1	bark 0333:00A5	
 item	blanket		todo	3	bark 033E:00AA	
-item	blood		todo	1	bark 0347:0099	
+item	blood	血	proposed	1	bark 0347:0099	P11 POC
 item	blue field passage gem		todo	1	bark 02F8:00AA	
 item	boat		todo	1	bark 027E:0098	
 item	Bone Crusher		todo	11	bark 032F:00A0	
@@ -98,7 +98,7 @@ item	Book		todo	5	bark 0120:0731
 item	book		todo	2	bark 0120:0E3B	
 item	bottle		todo	1	bark 00B4:0189	
 item	bread		todo	1	bark 021A:0279	
-item	Breath o' Spirit		todo	1	bark 00B4:010D	
+item	Breath o' Spirit	靈息酒	proposed	1	bark 00B4:010D	P11 POC
 item	bright diamond		todo	1	bark 0254:0202	
 item	brimstone		todo	1	bark 018E:0168	
 item	broken chair		todo	1	bark 022A:00A0	
@@ -129,7 +129,7 @@ item	clock		todo	1	bark 00E3:0149
 item	cloth		todo	1	bark 0218:0099	
 item	clothes		todo	1	bark 0337:009B	
 item	clothing		todo	1	bark 0241:009D	
-item	Cloven Hoof		todo	3	bark 00B4:013A	
+item	Cloven Hoof	魔蹄酒	proposed	3	bark 00B4:013A	P11 POC
 item	Conflagration spellbook		todo	2	bark 0120:0565	
 item	Confusion Blast		todo	3	bark 0120:0C43	
 item	cooked fish		todo	1	bark 0219:00D8	
@@ -227,7 +227,7 @@ item	helmet		todo	1	bark 0213:009A
 item	hollow log		todo	2	bark 029A:009E	
 item	Honor Lost		todo	2	bark 0120:0614	
 item	Human Remains		todo	1	bark 0274:00A1	
-item	Hurricane		todo	2	bark 00B4:00DB	
+item	Hurricane	颶風酒	proposed	2	bark 00B4:00DB	P11 POC
 item	Ignite spellbook		todo	2	bark 0120:02BB	
 item	ink bottle		todo	1	bark 0253:00E8	
 item	Intervention		todo	5	bark 0120:0B92	
@@ -287,7 +287,7 @@ item	Mordea's bed		todo	1	bark 0237:00AF
 item	mushroom		todo	7	bark 0041:009D	
 item	nightstand		todo	1	bark 0147:009E	
 item	obelisk tip		todo	1	bark 01BA:00B2	
-item	obsidian		todo	1	bark 018E:010F	
+item	obsidian	黑曜石	proposed	1	bark 018E:010F	P11 POC
 item	obsidian starstone		todo	1	bark 0254:01D2	
 item	Odion		todo	4	bark 0081:009F	
 item	office supplies		todo	1	bark 0253:019D	
@@ -385,7 +385,7 @@ item	tableware		todo	1	bark 00B5:009D
 item	tankard		todo	1	bark 00B2:009B	
 item	tapestry		todo	2	bark 0148:009C	
 item	template book		todo	1	bark 0120:00AF	
-item	Tenebraen Ale		todo	2	bark 00B4:0169	
+item	Tenebraen Ale	Tenebrae 麥酒	proposed	2	bark 00B4:0169	P11 POC
 item	The Art of Flame		todo	2	bark 0120:0246	
 item	the Breath of Air		todo	1	bark 01BA:014F	
 item	The Destruction of the Temple		todo	2	bark 0120:05AB	
@@ -430,7 +430,7 @@ item	WHAT THE FISH TELL ME		todo	1	bark 0265:00B8
 item	What the Fish Tell Me		todo	2	bark 0120:09BE	
 item	winch		todo	2	bark 0116:0099	
 item	Withstand Death		todo	1	bark 02EA:01C6	
-item	wood		todo	1	bark 0290:0098	
+item	wood	木頭	proposed	1	bark 0290:0098	P11 POC
 item	wooden chair		todo	1	bark 00DE:00A1	
 item	wooden throne		todo	1	bark 00DF:00A1	
 item	wooden torax		todo	1	bark 032B:0109	
@@ -523,11 +523,11 @@ other	Bat Wing		todo	4	bark 0421:0BCB
 other	Blackmoor		todo	7	bark 026F:160F	
 other	Blackrock		todo	10	ask 0402	
 other	Blast		todo	4	bark 0120:0C43	
-other	Blood		todo	4	bark 026F:0FA2	
+other	Blood	血	proposed	4	bark 026F:0FA2	P11 POC
 other	Bloody Bobby		todo	3	bark 040A:A8A4	
 other	Blowhard		todo	4	ask 0405	
 other	Bolt		todo	4	bark 0120:036D	
-other	Bone		todo	5	bark 026F:0FA2	
+other	Bone	碎骨	proposed	5	bark 026F:0FA2	P11 POC
 other	Both Perivolcanae		todo	6	book 0593:3E72	
 other	Breath		todo	3	bark 040A:0DE3	
 other	Breath of Wind		todo	20	bark 0181:0491	
@@ -561,7 +561,7 @@ other	Destroyer		todo	24	bark 0420:487B
 other	Destruction		todo	3	bark 0120:0CEA	
 other	Destruction of the Temple		todo	3	bark 0120:05AB	
 other	Dibeyer		todo	4	book 017A:0C32	
-other	Dirt		todo	4	bark 026F:0CD7	
+other	Dirt	泥土	proposed	4	bark 026F:0CD7	P11 POC
 other	Disciple		todo	36	bark 041B:04DD	
 other	Disciples		todo	5	bark 041C:1353	
 other	Door		todo	3	bark 0044:00FE	
@@ -579,7 +579,7 @@ other	Endure Heat		todo	4	bark 058A:248F
 other	Enlightenment		todo	6	bark 0416:256D	
 other	Ether		todo	3	bark 0421:14E1	
 other	Executioner's Hood		todo	7	bark 026F:0813	
-other	Explosion		todo	5	bark 041B:0699	
+other	Explosion	爆炸	proposed	5	bark 041B:0699	P11 POC
 other	Extinguish		todo	5	bark 058A:383C	
 other	Eye		todo	10	bark 0120:0704	
 other	Final Sunlight		todo	3	bark 0120:0E1D	
@@ -615,7 +615,7 @@ other	History of Necromancy Vol		todo	4	bark 0120:018A
 other	Honorable Stellos		todo	5	bark 0181:0CFE	
 other	Hoof		todo	4	bark 00B4:013A	
 other	However		todo	4	book 0577:0893	
-other	Ignite		todo	6	bark 006D:324F	
+other	Ignite	點燃	proposed	6	bark 006D:324F	P11 POC
 other	Initiate		todo	6	bark 0417:3B3B	
 other	Iron		todo	8	ask 0421	
 other	Jelly		todo	4	book 0592:293B	
@@ -730,7 +730,7 @@ other	Vol		todo	3	bark 0265:108D
 other	Walk		todo	4	bark 0120:0B2A	
 other	Water		todo	8	bark 041C:23E9	
 other	Windy Point		todo	5	bark 0416:2D33	
-other	Wood		todo	5	bark 026F:0813	
+other	Wood	木頭	proposed	5	bark 026F:0813	P11 POC
 other	Yevaud		todo	5	book 0593:CEA1	
 other	Zealan		todo	11	bark 040F:1D11	
 other	Zealans		todo	44	bark 0402:4F1A	

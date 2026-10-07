@@ -7,9 +7,11 @@ a context; the engine looks entries up by context + exact English text.
 Checks (errors stop the build, nothing is written):
   - PO syntax
   - msgctxt present and in a known form: "bark|book|scroll|grave|plaque CCCC:IIII",
-    "ask CCCC", "param CCCC:varXX|call_XXXX" (hex), or "ui" (engine text)
+    "ask CCCC", "param CCCC:varXX|call_XXXX|partN" (hex, N decimal), or "ui"
+    (engine text)
   - msgid representable in the game's code page (CP437; the MO keys use it)
-  - sentence templates (bark msgid with {name}, {num}, {varXX}, {call_XXXX}):
+  - sentence templates (bark msgid with {name}, {num}, {varXX}, {call_XXXX},
+    {partN}):
     the msgstr must use exactly the same set of placeholders
   - no plural entries
   - the same context + English text only once across all files
@@ -30,12 +32,12 @@ import sys
 CALL_SITE_KINDS = ("bark", "book", "scroll", "grave", "plaque")
 CONTEXT_RE = re.compile(r"^(?:(bark|book|scroll|grave|plaque) ([0-9A-Fa-f]{1,4}):([0-9A-Fa-f]{1,4})"
                         r"|ask ([0-9A-Fa-f]{1,4})"
-                        r"|param ([0-9A-Fa-f]{1,4}):(?:var([0-9A-Fa-f]{1,2})|call_([0-9A-Fa-f]{1,4}))"
+                        r"|param ([0-9A-Fa-f]{1,4}):(?:var([0-9A-Fa-f]{1,2})|call_([0-9A-Fa-f]{1,4})|part([1-9][0-9]?))"
                         r"|(ui))$")
 # The English text is compared with the game's bytes, which are code page 437
 GAME_ENCODING = "cp437"
 PLACEHOLDER_RE = re.compile(r"\{([^{}]*)\}")
-VALID_PLACEHOLDER_RE = re.compile(r"^(?:name|num|var[0-9A-F]{2}|call_[0-9A-F]{4})$")
+VALID_PLACEHOLDER_RE = re.compile(r"^(?:name|num|var[0-9A-F]{2}|call_[0-9A-F]{4}|part[1-9][0-9]?)$")
 ESCAPES = {"n": "\n", "t": "\t", "r": "\r", "a": "\a", "b": "\b", "f": "\f", "v": "\v",
            "\\": "\\", '"': '"', "'": "'", "?": "?"}
 
@@ -204,14 +206,16 @@ def canonical_context(ctx):
     m = CONTEXT_RE.match(ctx or "")
     if not m:
         return None
-    if m.group(8) is not None:
+    if m.group(9) is not None:
         return "ui"
     if m.group(4) is not None:
         return f"ask {int(m.group(4), 16):04X}"
     if m.group(5) is not None:
         if m.group(6) is not None:
             return f"param {int(m.group(5), 16):04X}:var{int(m.group(6), 16):02X}"
-        return f"param {int(m.group(5), 16):04X}:call_{int(m.group(7), 16):04X}"
+        if m.group(7) is not None:
+            return f"param {int(m.group(5), 16):04X}:call_{int(m.group(7), 16):04X}"
+        return f"param {int(m.group(5), 16):04X}:part{m.group(8)}"
     return f"{m.group(1)} {int(m.group(2), 16):04X}:{int(m.group(3), 16):04X}"
 
 

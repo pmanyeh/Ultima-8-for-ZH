@@ -11,13 +11,118 @@ msgstr ""
 "Language: zh_TW\n"
 
 msgctxt "bark 0596:082E"
-msgid "The focus reads that I am at Programmer's Playland! by the docks of Tenebrae. near Fishermans Reef. at north of Tenebrae in the Valley. on the East Road outside of Tenebrae. on the Plateau. at the Daemon's Crag. at the Brimstone Cliffs. at the Lava River. at the Lava River. at Carthax Lake. at Treasure Cove. at Stone Cove. in the Obsidian Fortress. at Carthax Lake. at Carthax Lake. in the Hall of the Mountain King. on Argentrock Isle. in West Tenebrae. in central Tenebrae. in east Tenebrae. on the Plain of Fire. on the Plain of Water. on the Plain of Air. on the Plain of Earth. in the Upper Catacombs. in the Upper Catacombs. in the Upper Catacombs. in the Lower Catacombs. in the Pit of the Dead. in the Shrine of the Ancient Ones. totally lost! "
+msgid "The focus reads that I am at Programmer's Playland! "
 msgstr ""
 
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am by the docks of Tenebrae. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am near Fishermans Reef. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am at north of Tenebrae in the Valley. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am on the East Road outside of Tenebrae. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am on the Plateau. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am at the Daemon's Crag. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am at the Brimstone Cliffs. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am at the Lava River. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am at Carthax Lake. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am at Treasure Cove. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am at Stone Cove. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am in the Obsidian Fortress. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am in the Hall of the Mountain King. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am on Argentrock Isle. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am in West Tenebrae. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am in central Tenebrae. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am in east Tenebrae. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am on the Plain of Fire. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am on the Plain of Water. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am on the Plain of Air. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am on the Plain of Earth. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am in the Upper Catacombs. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am in the Lower Catacombs. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am in the Pit of the Dead. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am in the Shrine of the Ancient Ones. "
+msgstr ""
+
+msgctxt "bark 0596:082E"
+msgid "The focus reads that I am totally lost! "
+msgstr ""
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0596:0B87"
-msgid "Also it reads that the hour is currently  Bloodwatch,  Firstebb,  Daytide,  Threemoons,  Lastebb,  Eventide,  very late,  the day is  Guarday,  Earthday,  Waterday,  Airday,  Fireday,  Blackday,  GuardDay, the {num} day of the month of Stonemark. Skyrock. Windbreak. Stormpeak. Firefall. DarkFlame. StoneMark. "
-msgstr ""
+msgid "Also it reads that the hour is currently  {part1},  the day is  {part2}, the {num} day of the month of {part3}. "
+msgstr "上面還顯示：現在的時辰是 {part1}，今天是 {part2}，{part3} 月第 {num} 天。"
 
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0596:0BD9"
@@ -38,4 +143,130 @@ msgstr ""
 
 msgctxt "bark 0596:20E3"
 msgid "The animal must be closer! "
+msgstr ""
+
+#. value of {part1}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part1"
+msgid "Bloodwatch"
+msgstr ""
+
+#. value of {part1}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part1"
+msgid "Firstebb"
+msgstr ""
+
+#. value of {part1}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part1"
+msgid "Daytide"
+msgstr ""
+
+#. value of {part1}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part1"
+msgid "Threemoons"
+msgstr ""
+
+#. value of {part1}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part1"
+msgid "Lastebb"
+msgstr ""
+
+#. value of {part1}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part1"
+msgid "Eventide"
+msgstr ""
+
+#. value of {part1}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part1"
+msgid "very late"
+msgstr ""
+
+#. value of {part2}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part2"
+msgid "Guarday"
+msgstr ""
+
+#. value of {part2}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part2"
+msgid "Earthday"
+msgstr ""
+
+#. value of {part2}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part2"
+msgid "Waterday"
+msgstr ""
+
+#. value of {part2}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part2"
+msgid "Airday"
+msgstr ""
+
+#. value of {part2}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part2"
+msgid "Fireday"
+msgstr ""
+
+#. value of {part2}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part2"
+msgid "Blackday"
+msgstr ""
+
+#. value of {part2}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part2"
+msgid "GuardDay"
+msgstr ""
+
+#. value of {part3}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part3"
+msgid "Stonemark"
+msgstr ""
+
+#. value of {part3}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part3"
+msgid "Skyrock"
+msgstr ""
+
+#. value of {part3}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part3"
+msgid "Windbreak"
+msgstr ""
+
+#. value of {part3}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part3"
+msgid "Stormpeak"
+msgstr ""
+
+#. value of {part3}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part3"
+msgid "Firefall"
+msgstr ""
+
+#. value of {part3}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part3"
+msgid "DarkFlame"
+msgstr ""
+
+#. value of {part3}: one of 7 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0596:part3"
+msgid "StoneMark"
 msgstr ""

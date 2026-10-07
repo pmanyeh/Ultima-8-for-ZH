@@ -1,9 +1,9 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
-**更新日期：** 2026-10-07
-**目前進度：** Phase 0–10 ✅ PASS（**核心 localization 架構已證明**，P7）。**下一步：Phase 11（Dynamic Strings / Pagination / Timing），需等使用者明確指示才開始。**
+**更新日期：** 2026-10-07（P11 完成後）
+**目前進度：** Phase 0–11 ✅ PASS（**核心 localization 架構已證明**，P7）。**下一步：Phase 12（Save / Speech / Regression Hardening），需等使用者明確指示才開始。**
 
-給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.7，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
+給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.8，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
 
 ---
 
@@ -36,17 +36,17 @@
 | `bark CCCC:IIII` | NPC 台詞、查看物品 / 人物的名稱 | `Item::I_bark` 執行時 running `UCProcess` 的 `classId:ip`（IP 指向 calli） |
 | `ask CCCC` + 英文 | 對話選項 | `Item::I_ask` 時 running process 的 class；同 class 同英文 = 同一選項 |
 | `book` / `scroll` / `grave` / `plaque CCCC:IIII` | 書、捲軸、墓碑、牌匾 | 讀物 intrinsic（0x6E–0x71）的呼叫點 |
-| `param CCCC:varXX` / `call_XXXX` | 句型參數的值 | 同 class 的參數譯文 |
+| `param CCCC:varXX` / `call_XXXX` / `partN` | 句型參數的值 | 同 class 的參數譯文 |
 | `ui` + 英文 | 引擎介面文字（主選單、離開確認、日記、死亡墓碑） | `Localization::uiText(英文, 字型)` |
 
 - 查表 key = `context + "\x04" + 英文原文`（gettext 慣例）。英文必須**完全相同**（含結尾空白）。
-- **句型**：msgid 含 `{name}` `{num}` `{varXX}` `{call_XXXX}`，比對時取出參數，填入譯文（P7）。
+- **句型**：msgid 含 `{name}` `{num}` `{varXX}` `{call_XXXX}` `{partN}`，比對時取出參數，填入譯文（P7）。同一呼叫點可有多個條目（依分支組出的不同句子，P11）；多個句型都符合時採用固定文字最多者。
 - **Fallback**（ADR-001 D5）：查不到、英文不符、格式錯誤、找不到翻譯檔、字型不能畫 UTF-8 → 一律顯示英文。CJK 字型載入失敗 → 停用翻譯。
 - **存檔只有英文**：`TextWidget::setSaveText()`、`ButtonWidget::setSaveText()`。讀檔後，存檔當下正在顯示的那一句 / 那組選項會是英文（使用者已同意）。
 
 ### 翻譯檔
 
-- **PO**，每個 Usecode class 一檔：`localization/zh_TW/dialog/CCCC_NAME.po`（394 檔、6,552 條），依對話流程排列；`ui/engine.po`（12 條）。**英文原文放進 repo**（使用者決策，ADR-002）。
+- **PO**，每個 Usecode class 一檔：`localization/zh_TW/dialog/CCCC_NAME.po`（394 檔、6,829 條），依對話流程排列；`ui/engine.po`（12 條）。**英文原文放進 repo**（使用者決策，ADR-002）。
 - 執行時讀編譯後的單一檔 `u8_zh_TW.mo`（gettext MO；英文 key 以 CP437 編碼，與遊戲的 byte 一致）。
 - 設定（game domain）：`localization=off|zh_TW`、`localization_file`（預設 `u8_<語言>.mo`）、`font_cjk_file`（預設 `Cubic_11.ttf`）、`font_cjk_size`（12）、`font_cjk_antialiasing`（false）。**CJK 字型只在 localization 啟用時載入**；只替換 `[fontoverride]` 中的字型 0、5–9。
 
@@ -54,10 +54,10 @@
 
 | 檔案 | 內容 |
 |---|---|
-| `misc/translation_catalog.*` | 讀 MO、查表、句型比對（只依賴 `common/`，可做單元測試） |
-| `misc/localization.*` | 設定、啟用條件、`translateBark` / `translateAnswer` / `translateCallSite` / `translateUI` / `uiText` |
+| `misc/translation_catalog.*` | 讀 MO、查表、句型比對、`readingLength()`（計時用，CJK 字算 3）（只依賴 `common/`，可做單元測試） |
+| `misc/localization.*` | 設定、啟用條件、`translateBark` / `translateAnswer` / `translateCallSite` / `translateUI` / `uiText`、`measureCatalog()`（P11） |
 | `world/item.cpp` | `I_bark`、`I_ask` 掛點 |
-| `gumps/bark_gump.*`、`ask_gump.*` | `_displayText`、`_displayAnswers`（不存檔） |
+| `gumps/bark_gump.*`、`ask_gump.*` | `_displayText`、`_displayAnswers`（不存檔）；台詞顯示時間依 reading length（P11） |
 | `gumps/book_gump.*`、`scroll_gump.cpp`、`readable_gump.*` | 讀物掛點；墓碑 / 牌匾為英文 + 中文字幕 |
 | `gumps/menu_gump.cpp`、`quit_gump.cpp`、`u8_save_gump.cpp`、`world/actors/avatar_death_process.*` | 介面文字（P9） |
 | `gfx/fonts/font.*`、`tt_font.*`、`font_manager.*`、`games/game_data.*` | UTF-8 / CJK 字型（P3）、`isUTF8()`、CJK override |
@@ -69,10 +69,10 @@
 
 ```text
 D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最新 commit 見 git log）
-├── ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md   ← v2.7
+├── ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md   ← v2.8
 ├── docs/
 │   ├── HANDOFF.md                        ← 本文件
-│   ├── reports/P0..P10-*.md              ← 各 Phase 報告
+│   ├── reports/P0..P11-*.md              ← 各 Phase 報告
 │   ├── research/u8-text-pipeline.md      ← P1 文字流程研究
 │   ├── research/text-surface-inventory.md ← P8 全部文字 surface 盤點（26 類）與 Phase 分配
 │   └── architecture/ADR-001（ID）, ADR-002（格式、工具鏈、權威檔）
@@ -85,7 +85,8 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 ├── tools/
 │   ├── catalog/u8catalog.py              ← update（抽取 + 合併）/ check / stats / terms
 │   ├── catalog/po_compile.py             ← PO → MO
-│   ├── extract/u8extract.py              ← 依對話流程抽取（單一 class 也可輸出流程 / TSV）
+│   ├── catalog/measure.py                ← 譯文頁數 / 寬度量測報表（P11）
+│   ├── extract/u8extract.py              ← 依對話流程抽取；依分支列舉句子、PART_TEMPLATES（P11）
 │   ├── diagnostics/u8dis.py              ← Usecode 反組譯（515 class，0 desync）
 │   ├── diagnostics/text_survey.py        ← 各類文字的呼叫點與字數統計
 │   ├── diagnostics/u8shapes.py           ← shape 檔 → PNG（只在本機看，圖片不進 repo）
@@ -104,7 +105,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike，**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `47541ad4bb` | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`（P8 只有研究，無引擎修改） |
+| `ultima8-zh-tw-dev` | `4ce1d3e434` | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`（P8 只有研究，無引擎修改） |
 
 建置目錄（`scummvm-src/` 內，gitignored）：`build-scummvm/`（原版）、`build-trace/`（Usecode trace）、`build-spike/`、**`build-dev/`（開發分支，Debug x64）**。
 
@@ -128,7 +129,7 @@ MSVC 的 `--tests` 模式會停用所有引擎，所以在 WSL 跑（**用 Power
 wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 ```
 
-- 目前 **481 項全部 OK**。本專案的測試：`test/engines/ultima/ultima8/gfx/font_utf8.h`（P3）、`misc/translation_catalog.h`（P4–P10）。
+- 目前 **483 項全部 OK**。本專案的測試：`test/engines/ultima/ultima8/gfx/font_utf8.h`（P3）、`misc/translation_catalog.h`（P4–P10）。
 - **MSVC 與 g++ 都要建置**：MSVC 把 C4701（可能未初始化）當錯誤。
 - **單元測試只能用不依賴 `Kernel` 的物件檔**，否則靜態函式庫會拉進整個引擎與 GUI 而無法連結。gump / widget 只能在遊戲中測。
 
@@ -143,7 +144,8 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 - `--extrapath=private_test\extra`：Cubic_11.ttf、`ultima8.dat` 複本、**`u8_zh_TW.mo`**（改了 PO 要重新編譯，見 §6）。
 - 每次執行產生 `private_test/dev-YYYYMMDD-HHMMSS.log`；`[U8-L10N]` 行顯示每次查表（HIT / MISS / SOURCE-MISMATCH）。
 - 存檔：`saves/ultima8.001`（p1-after，已認識 Devon）、`.002`（P5：主角說話中存檔）、`.003`（P6）、`.004`（P9 日記測試）；`.000` 是 ScummVM 自動存檔。
-- `startup_check.ps1 -Config <ini>`：啟動、等初始化、關閉、列出 log（不操作視窗）。P4 的 7 種情境設定在舊 session 的 scratchpad，需要時重建（off / zh / 缺翻譯檔 / 損壞 / 語言不符 / 缺字型 / 未設定）。
+- `startup_check.ps1 -Config <ini>`：啟動、等初始化、關閉、列出 log（不操作視窗）。
+- **分頁量測**：複製 `scummvm-dev.ini`，在 `[ultima8]` 加 `localization_measure=true`，用 `startup_check.ps1 -Config <該 ini> -Seconds 40 -Log measure.log` 執行，再 `python tools/catalog/measure.py measure.log`（說明在檔頭）。P4 的 7 種情境設定在舊 session 的 scratchpad，需要時重建（off / zh / 缺翻譯檔 / 損壞 / 語言不符 / 缺字型 / 未設定）。
 
 ### 主控台指令（遊戲中 `Ctrl+Alt+D`）
 
@@ -151,6 +153,8 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 |---|---|
 | `Localization::info` | 翻譯狀態（語言、翻譯檔、條目數、字型） |
 | `Localization::bark <class>:<ip>` | 主角以 localization 路徑說出翻譯檔中的一句台詞 |
+| `Localization::say <class>:<ip> <英文>` | 主角以該呼叫點說出任意英文（測試句型與參數；用雙引號保留空白） |
+| `Cheat::toggle`、`Cheat::items` | 背包放入金幣、試劑等（查看即走真實 Usecode，P11 用來測 `{num}`） |
 | `Localization::read book\|scroll\|grave\|plaque <class>:<ip>` | 直接開啟讀物（不必走到物品旁） |
 | `Localization::gravestone` | 只顯示死亡墓碑（主角不會死） |
 | `Ultima8Engine::barkTestFile p3_test_strings.txt <n>` | 字型繪製測試 |
@@ -159,7 +163,7 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 
 ## 5. 已知陷阱
 
-1. **Shell 會破壞反斜線**：Bash heredoc、`sed`、`printf` 處理 `\n`、`\x`、`\\` 時常出錯；Python 一般字串中的 `\u` 也會被當成跳脫。修改原始碼請用 Edit / Write 工具，或把 Python 腳本寫成檔案再執行（腳本放 scratchpad）。
+1. **Shell 會破壞反斜線**：Bash heredoc、`sed`、`printf` 處理 `\n`、`\x`、`\\` 時常出錯；Python 一般字串中的 `\u` 也會被當成跳脫。**P11 再次發生：即使是 `<<'EOF'` 的 heredoc，裡面的 `\\n`、`\\x` 也被變成真正的換行 / 字元。** 修改原始碼請用 Edit / Write 工具，或把 Python 腳本用 Write 寫成檔案再執行（腳本放 scratchpad）。
 2. **`_UTF8` 是 Windows 系統標頭的巨集**：變數命名避開（用 `_utf8`）。
 3. **原版英文含 CP437 字元**（4 句德文 / 法文）：字型以 CP437 逐 byte 解碼不合法的 UTF-8；PO 以 UTF-8 存放，編譯時 key 轉回 CP437。
 4. **對話中無法存檔**（`setAvatarInStasis`），原版設計。
@@ -182,9 +186,9 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 ```
 
 - **權威檔** `localization/zh_TW/authority.tsv`：欄位 category / english / translation / status / count / example / note。status：`keep`（保留英文）、`approved`、`proposed`、`todo`。`check` 依 keep / approved 檢查譯文。
-- 目前：725 詞；**keep 8**（Devon、Bentic、Mordea、Lithos、Hydros、Tenebrae、Tempest、Lurker）、**approved 6**（Avatar → 聖者、Sea of Rains → 雨之海、Necromancer(s) → 死靈法師、Titan → 泰坦、Mountain King → 山之王），其餘 711 個 todo；分類是自動猜的，需人工確認（例如 Bloodwatch、Firstebb 是時段名稱）。
+- 目前：725 詞；**proposed 14**（P11 POC：黑酒、Tenebrae 麥酒、颶風酒、靈息酒、魔蹄酒、黑曜石、血、碎骨、泥土、木頭、點燃、爆炸，待使用者確認）；**keep 8**（Devon、Bentic、Mordea、Lithos、Hydros、Tenebrae、Tempest、Lurker）、**approved 6**（Avatar → 聖者、Sea of Rains → 雨之海、Necromancer(s) → 死靈法師、Titan → 泰坦、Mountain King → 山之王），其餘 697 個 todo；分類是自動猜的，需人工確認（例如 Bloodwatch、Firstebb 是時段名稱）。
 - **建議**：正式翻譯前先決定高頻詞（Mordea 124、Lithos 123、Sorcerer 105、Tempest 100、Titans 90、Stratos 84…），並和使用者確認「專有名詞保留英文」的原則是否維持。
-- 翻譯進度：6,564 條、英文約 52 萬字元，已翻約 1.1%（Devon 第一次見面 + 介面 + 讀物 POC，共 75 條）。
+- 翻譯進度：6,841 條（含 ui）、英文約 54 萬字元，已翻約 1.2%（Devon 第一次見面 + 介面 + 讀物 POC + P11 動態句子 POC，共 105 條）。
 
 ---
 
@@ -203,6 +207,7 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 | P8 Text Surface Inventory | 26 類 surface | [P8](reports/P8-text-surface-inventory.md) |
 | P9 Engine UI / Static Text | `ui` context；主選單 / 離開確認改文字（日文版做法）；死亡墓碑字幕 | [P9](reports/P9-engine-ui-static-text.md) |
 | P10 Extraction & Toolchain | 全遊戲翻譯檔、合併 / 檢查 / 統計、權威檔、讀物 | [P10](reports/P10-extraction-toolchain.md) |
+| P11 Dynamic Strings / Pagination / Timing | 依分支列舉句子、`{partN}`、酒名等參數；顯示時間改為 reading length；分頁量測（不調整版面） | [P11](reports/P11-dynamic-strings-pagination-timing.md) |
 
 ### 使用者已做的決定
 
@@ -216,35 +221,36 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 - 主選單、離開確認：改為中文文字按鈕（日文版做法），不製作中文圖片。
 - `EditWidget` 的 high-res 問題：之後再修。
 - **維護權威檔**。
+- P11：分頁增加約 8%，不調整版面（測試通過）；顯示時間 CJK 字算 3 個英文字母。
 
 ---
 
-## 8. 下一步：Phase 11（Dynamic Strings / Pagination / Timing）
+## 8. 下一步：Phase 12（Save / Speech / Regression Hardening）
 
-規格見 Master Plan §30。建議內容：
+規格見 Master Plan §31。建議內容：
 
-1. **句型與參數**：`param` 譯文在實際 NPC 驗證（§49 #7；例如 Orlok `040A` 的 `{varF7}` = 玩家名字或 `stranger `、`{call_0BCF}` = 酒名）；試劑等動態組合的名稱、單複數、數量（§49 #25，`ERTHREAG` 等，目前抽取結果把分支串在一起）。
-2. **分頁**：量測譯文在台詞框、書、捲軸的寬、高、頁數；只有證明需要時才調整。
-3. **顯示時間**：無語音時中文的顯示速度（§49 #3，以字數而非 byte 研究）；有語音的 NPC（§49 #18；Guardian 的嘲諷 `0401` event `guardianBark` 23 句可能有語音）。
+1. **存檔矩陣**：英文模式存 → 英文 / 中文讀；中文模式存 → 中文 / 英文讀，遊戲狀態一致。工具：`tools/validate/save_text_check.py`（存檔中有 CJK 文字就失敗）、現有存檔 `saves/ultima8.001`–`.004`。
+2. **語音矩陣**（§49 #18）：speech ON / subtitles ON、ON / OFF、OFF / ON。U8 只有 9 個語音檔（`SOUND/E44.FLX` 等，依角色 shape），Guardian 的嘲諷（`0401` event `guardianBark`）可能有語音；語音以英文 `_barked` 選擇，時間依各頁 reading length 比例分配（P11）。
+3. **回歸**：英文 U8、font override OFF / ON、localization OFF / zh_TW、缺字型 / 缺翻譯檔的 fallback（P4 的 7 種情境需重建）；日文版無合法測試資料，只能以程式路徑檢查。
+4. 單元測試（WSL）。
 
 ### Master Plan §49 尚未完成的待辦
 
 | # | 項目 | 處理時機 |
 |---|---|---|
-| 3 | 無語音時中文顯示速度細調 | P11 |
-| 7 | `param` 譯文待實際 NPC 驗證（句型比對已完成） | P11 |
-| 8–9 | 5 個無法自動解析的 bark（PYROS、SORCERER ×2、METHOD ×2）、共用 class 的對話脈絡 | 翻譯時 |
+| 8–9 | 5 個無法自動解析的 bark（PYROS、SORCERER ×2、METHOD ×2，文字來自呼叫端參數）、共用 class 的對話脈絡 | 翻譯時 |
 | 11 | 建立 ScummVM fork 並改為 submodule | 待使用者決定 |
 | 12 | HD 文字層 | P15 |
 | 14 | 原版換行無限迴圈的修正可回報 upstream | — |
 | 15 | 遊戲選項 GUI 的語言選單 | 之後 |
 | 16 | 翻譯檔加入遊戲資料版本（`EUSECODE.FLX` 雜湊） | 待定 |
-| 18 | 有語音的 NPC 在 localization 下的語音與字幕 | P11 或翻譯有語音的 NPC 時 |
+| 18 | 有語音的 NPC 在 localization 下的語音與字幕 | P12 |
 | 20 | 墓碑、牌匾、死亡畫面：方案 A，之後評估全中文 | 待使用者評估 |
 | 23 | `EditWidget` 用 high-res CJK 字型時位置錯誤 | 之後再修 |
 | 24 | `TTFont::renderText` 越界修正可回報 upstream | — |
-| 25 | 動態組合的試劑名稱（單複數、數量） | P11 |
-| 26 | 權威檔分類與 711 個待決定譯名需人工整理 | 正式翻譯前 |
+| 26 | 權威檔分類與 697 個待決定譯名需人工整理 | 正式翻譯前 |
+| 27 | CJK 行距 18 px（台詞框一頁 3 行）；翻譯後若頁數增加明顯可縮小行距 | 翻譯後重新量測 |
+| 28 | P11 POC 的 14 個 proposed 譯名待確認 | 正式翻譯前 |
 
 ---
 
@@ -253,8 +259,9 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 | 項目 | 數值 |
 |---|---|
 | Usecode class | 515（有文字的 394） |
-| 翻譯條目 | 6,564：bark 4,528（句型 115）、ask 1,775、param 11、book 86、scroll 22、grave 67、plaque 63、ui 12 |
-| 英文字元 | 約 522,000（台詞約 361,000、書約 114,000、選項約 35,000） |
+| 翻譯條目 | 6,841：bark 4,761（38 個呼叫點有多個句子）、ask 1,775、param 54（var 11、call 5、part 38）、book 87、scroll 22、grave 67、plaque 63、ui 12 |
+| 英文字元 | 約 539,000（台詞約 374,000、書約 117,000、選項約 35,000） |
+| 顯示 | 台詞框 194×55：英文 5 行 / 頁、中文 3 行 / 頁（約 16 字 / 行）；中文每字 24 ticks（talkspeed 60） |
 | 無法解析的 bark | 5 |
 | 相同英文出現在多個 context | 506 句、1,433 個條目 |
 | Devon | class `0402`；第一次見面 `0402:0633`「Hello there. 」；認識後 `060F`「Hello there, {name}.」 |

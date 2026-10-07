@@ -513,6 +513,11 @@ msgid "Vardion, our current First Acolyte,  is not this someone. Far to the cont
 msgstr ""
 
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
+msgctxt "bark 041D:3FA7"
+msgid "Vardion, is not this someone. Far to the contrary. He lingers in the past. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "bark 041D:4038"
 msgid "Observing out-dated traditions for tradition's sake... but I digress.*Perhaps you grow bored with this line of conversation? "
 msgstr ""

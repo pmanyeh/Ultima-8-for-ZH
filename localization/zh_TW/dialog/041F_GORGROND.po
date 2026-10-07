@@ -277,7 +277,84 @@ msgstr ""
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:14DC"
-msgid "Hello again, {varFA}. What do you want?What do you want of me now, {varFA}?Greetings again. What do you need? "
+msgid "What, {varFA}? What do you want? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:14DC"
+msgid "Must you pester me? What do you want? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:14DC"
+msgid "I am not a sage. I have no great information to give to you. What do you want? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:14DC"
+msgid "Go away! I do not wish to speak with you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:14DC"
+msgid "I don't like you. Leave me be! "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:14DC"
+msgid "Disturb me no longer. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041F:14DC"
+msgid "Hello again, {varFA}. What do you want?"
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041F:14DC"
+msgid "What do you want of me now, {varFA}?"
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:14DC"
+msgid "Greetings again. What do you need? "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "Leave me, Dungbreath."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "Go away! "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "Have a care, Dungbreath. I am no gentle giant."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "I can see that you will not survive long here, Dungbreath. Good luck to you. With your tongue, you'll need it."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "My temper will be kept only for so long. Go now while you still may. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "I have held my temper long enough!... No, I will not destroy you yet. But be warned, you have crossed the threshold into dangerous territory. Few have survived where you go. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "Goodbye, Dungbreath."
 msgstr ""
 
 #. event 01 (use (talk)), after "You would not understand. "
@@ -286,8 +363,115 @@ msgid "Farewell. "
 msgstr ""
 
 #. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "Farewell."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041F:17C5"
+msgid "Leave me, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041F:17C5"
+msgid "Have a care, {name}. I am no gentle giant."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041F:17C5"
+msgid "I can see that you will not survive long here, {name}. Good luck to you. With your tongue, you'll need it."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041F:17C5"
+msgid "Goodbye, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "Leave me, stranger."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "Have a care, stranger. I am no gentle giant."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "I can see that you will not survive long here, stranger. Good luck to you. With your tongue, you'll need it."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:17C5"
+msgid "Goodbye, stranger."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:1A41"
+msgid "This is boring, I will not wait upon your slow wit. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:1A41"
+msgid "Well, Dungbreath, I cannot wait here forever."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:1A41"
+msgid "I find you irritating. Go now, Dungbreath, and do not return."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:1A41"
+msgid "I will not kill you yet, fool. But if you ever speak to me again, you will risk death. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:1A41"
+msgid "Perhaps your thoughts are too much for your little mind. Think less, Dungbreath, it will serve you well."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:1A41"
 msgid "If you wish to speak, you must first open your mouth, dullard. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041F:1A41"
+msgid "Well, {name}, I cannot wait here forever."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041F:1A41"
+msgid "I find you irritating. Go now, {name}, and do not return."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 041F:1A41"
+msgid "Perhaps your thoughts are too much for your little mind. Think less, {name}, it will serve you well."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:1A41"
+msgid "Well, stranger, I cannot wait here forever."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:1A41"
+msgid "I find you irritating. Go now, stranger, and do not return."
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "bark 041F:1A41"
+msgid "Perhaps your thoughts are too much for your little mind. Think less, stranger, it will serve you well."
 msgstr ""
 
 #. event 01 (use (talk)), after "You would not understand. "

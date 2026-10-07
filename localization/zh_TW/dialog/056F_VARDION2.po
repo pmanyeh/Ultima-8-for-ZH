@@ -325,7 +325,12 @@ msgstr ""
 #. , after "What do you know of wisdom? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 056F:190F"
-msgid "Good tidings,  {name}.my alien friend. "
+msgid "Good tidings,  {name}."
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:190F"
+msgid "Good tidings,  my alien friend. "
 msgstr ""
 
 #. , after "What do you know of wisdom? "
@@ -465,7 +470,122 @@ msgstr ""
 
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
+msgid "Keep the Fire burning,   offworlder. Earthling. Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Keep the Fire burning,   offworlder. Earthling. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Keep the Fire burning,   offworlder. Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Keep the Fire burning,   offworlder. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Keep the Fire burning,   Earthling. Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Keep the Fire burning,   Earthling. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Keep the Fire burning,   Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Keep the Fire burning,   "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Go with the Guardian,   offworlder. Earthling. Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Go with the Guardian,   offworlder. Earthling. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Go with the Guardian,   offworlder. Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Go with the Guardian,   offworlder. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Go with the Guardian,   Earthling. Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Go with the Guardian,   Earthling. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Go with the Guardian,   Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Go with the Guardian,   "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
 msgid "Farewell,  offworlder. Earthling. Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Farewell,  offworlder. Earthling. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Farewell,  offworlder. Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Farewell,  offworlder. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Farewell,  Earthling. Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Farewell,  Earthling. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Farewell,  Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2270"
+msgid "Farewell,  "
 msgstr ""
 
 #. , after "What do you know of wisdom? "
@@ -484,9 +604,66 @@ msgid "I must remember to replace the wards... "
 msgstr ""
 
 #. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2492"
+msgid "I really must be about my business, Earthling. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2492"
+msgid "I really must be about my business, Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 056F:2492"
-msgid "When your thoughts are collected come and speak with me, Earthling. Britannian. {name}.my offworlder friend. "
+msgid "I really must be about my business, {name}."
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2492"
+msgid "I really must be about my business, my offworlder friend. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2492"
+msgid "I must return to my work, Earthling. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2492"
+msgid "I must return to my work, Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 056F:2492"
+msgid "I must return to my work, {name}."
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2492"
+msgid "I must return to my work, my offworlder friend. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2492"
+msgid "When your thoughts are collected come and speak with me, Earthling. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2492"
+msgid "When your thoughts are collected come and speak with me, Britannian. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 056F:2492"
+msgid "When your thoughts are collected come and speak with me, {name}."
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "bark 056F:2492"
+msgid "When your thoughts are collected come and speak with me, my offworlder friend. "
 msgstr ""
 
 #. , after "What do you know of wisdom? "

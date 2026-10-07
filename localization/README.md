@@ -21,7 +21,7 @@ msgstr "我是 Devon，我奇特的朋友。很高興看到你好多了，{name}
 ```
 
 - `msgctxt`：文字出現的位置（ADR-001）。**不要修改。**
-  - `bark CCCC:IIII` 台詞與查看名稱、`ask CCCC` 對話選項、`book` / `scroll` / `grave` / `plaque CCCC:IIII` 書、捲軸、墓碑、牌匾、`param CCCC:varXX` 句型參數的值、`ui` 介面文字
+  - `bark CCCC:IIII` 台詞與查看名稱、`ask CCCC` 對話選項、`book` / `scroll` / `grave` / `plaque CCCC:IIII` 書、捲軸、墓碑、牌匾、`param CCCC:varXX|call_XXXX|partN` 句型參數的值、`ui` 介面文字
 - `msgid`：英文原文，**一個字都不能改**（包含結尾空白）。遊戲以完全相同的英文比對。
 - `msgstr`：譯文。空白 = 尚未翻譯（遊戲顯示英文）。
 - `#.` 註解：抽取工具產生的上下文，每次更新會重寫。
@@ -32,10 +32,23 @@ msgstr "我是 Devon，我奇特的朋友。很高興看到你好多了，{name}
 
 | 符號 | 意思 |
 |---|---|
-| `{name}` `{num}` `{varXX}` `{call_XXXX}` | 句型的佔位符號：遊戲執行時換成玩家名字、數字、參數。譯文必須用到同樣的佔位符號（順序可以不同） |
+| `{name}` `{num}` `{varXX}` `{call_XXXX}` `{partN}` | 句型的佔位符號：遊戲執行時換成玩家名字、數字、參數。譯文必須用到同樣的佔位符號（順序可以不同） |
 | `~` | 換行 |
 | `*` | 換頁（台詞）或換行（墓碑、牌匾的英文雕刻）。墓碑與牌匾的譯文是字幕，不必跟著英文換行 |
 | `%` `^` `@` `&` | 其他排版控制字元，數量要與英文一致 |
+
+### 動態組合的句子（Phase 11）
+
+- **同一個 `msgctxt` 可以有多個條目**：遊戲用分支組出不同句子時（單複數、物品種類…），每一種結果各一條，例如 `bark 018B:0300` 的 `{num} vial of blood`、`{num} vials of blood`、`{num} pile of wood`…。中文沒有單複數，兩條可以譯成一樣。
+- **參數的值**（`param`）：`{varXX}`、`{call_XXXX}`、`{partN}` 的每個可能值各有一條，例如 `param 040A:call_0BCF` 的 `Blackwine ` → `黑酒`。值的英文常有結尾空白，**譯文不要帶空白**，句型譯文自行決定標點與空白。沒有翻譯的值以英文顯示；`{name}`（玩家名字）與 `{num}`（數字）不翻譯。
+- **`{partN}`**：組合太多（例如魔杖的「種類 × 法術 × 次數」、時間 focus 的「時辰 × 星期 × 月份」）時，句子拆成片段，各片段是 `param CCCC:partN`。譯文可以調整順序：`{part1}of {part2}with {num} uses remaining` → `{part2}{part1}（剩 {num} 次）`。
+- 同一位置有多個句型都符合時，遊戲採用固定文字最多的那一個；完全相同的整句條目優先於句型。
+
+### 長度與顯示時間
+
+- 台詞框 194×55 px：英文一頁 5 行，中文（Cubic 11、行距 18 px）一頁 3 行、每行約 16 字。超過就自動分頁，不必手動加 `*`。
+- 顯示時間依字數計算：一個中文字算 3 個英文字母（與英文句子的顯示時間相當）。玩家也可以點擊翻頁。
+- 量測全部譯文的頁數與寬度：`tools/catalog/measure.py`（說明在檔案開頭）。
 
 ## 流程
 
@@ -61,6 +74,7 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 
 - `Localization::read book|scroll|grave|plaque <class>:<ip>`：直接開啟書、捲軸、墓碑、牌匾
 - `Localization::bark <class>:<ip>`：讓主角說出某句台詞
+- `Localization::say <class>:<ip> <英文>`：讓主角以該位置說出任意英文（測試句型與參數），例如 `Localization::say 040A:1F16 Greetings again stranger . Will ye be havin' another Blackwine ?`；要保留特殊空白時把英文放在雙引號中
 - `Localization::info`：翻譯檔狀態
 
 ## 權威檔（`authority.tsv`）

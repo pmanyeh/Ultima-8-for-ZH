@@ -240,7 +240,157 @@ msgstr ""
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Blackmoor ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the Blackmoor ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Executioner's Hood ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the Executioner's Hood ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Pig Iron ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the Pig Iron ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Ash ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the Ash ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Dragon Blood ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the Dragon Blood ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Bone ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the Bone ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Pumice ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the Pumice ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Brimstone ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the Brimstone ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Eye of Newt ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the Eye of Newt ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Bat Wing ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the Bat Wing ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Serpent Scale ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the Serpent Scale ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the Obsidian ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Obsidian ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coins for the ."
+msgstr ""
+
+#. event 10 (enterFastArea), after ""
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:1123"
+msgid "I must ask {num} obsidian coin for the ."
 msgstr ""
 
 #. event 10 (enterFastArea), after "I will pay that. "
@@ -589,6 +739,12 @@ msgstr ""
 #. event 01 (use (talk)), after "Do you know of The Guardian? "
 msgctxt "bark 0421:35B1"
 msgid "Ah, interesting question. Indeed I do. Furthermore, I know that -you- know of him as well. However, you will find that no one else on Pagan has heard anything other than that this mysterious Guardian spoke to the early Pagans to warn them of disaster. Perhaps, some other time and place, we may speak further on this subject. Ask of it no more for now, please. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How can I leave Pagan? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:3830"
+msgid "I have never had anyone ask such a question, {name}. Do you truly wish a means off this world? Or are you simply testing the limits of my knowledge? I ask this because finding the answer would be extremely tedious, and I do not plan to toil for no reason."
 msgstr ""
 
 #. event 01 (use (talk)), after "How can I leave Pagan? "
@@ -983,6 +1139,12 @@ msgid "Perhaps in the future I will have the time to show you. "
 msgstr ""
 
 #. event 01 (use (talk)), after "How can I leave Pagan? "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0421:753D"
+msgid "I have never had anyone ask such a question, {name}. Do you truly wish a means off this world? Or are you simply testing the limits of my knowledge? I ask this because finding the answer would be extremely tedious, and I do not plan to toil for no reason."
+msgstr ""
+
+#. event 01 (use (talk)), after "How can I leave Pagan? "
 msgctxt "bark 0421:753D"
 msgid "I have never had anyone ask such a question. Do you truly wish a means off this world? Or are you simply testing the limits of my knowledge? I ask this because finding the answer would be extremely tedious, and I do not plan to toil for no reason. "
 msgstr ""
@@ -1030,6 +1192,16 @@ msgstr ""
 #. event 01 (use (talk)), after "What about Pagan history? "
 msgctxt "bark 0421:8204"
 msgid "The history of this land is quite long, and there is much I can tell you. Where would you prefer I start? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Goodbye. "
+msgctxt "bark 0421:8394"
+msgid "Good evening, my friend, and farewell. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Goodbye. "
+msgctxt "bark 0421:8394"
+msgid "Good morning, my friend, and farewell. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Goodbye. "

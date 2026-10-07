@@ -381,17 +381,19 @@ msgctxt "bark 040A:1E9A"
 msgid "Greetin's, stranger. What kin I do fer ye? "
 msgstr ""
 
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
 #. event 01 (use (talk))
 #. sentence template: keep the {placeholders}
 msgctxt "bark 040A:1F16"
 msgid "Greetings again {varF7}. Will ye be havin' another {call_0BCF}?"
-msgstr ""
+msgstr "又見面了，{varF7}。要再來一杯{call_0BCF}嗎？"
 
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
 #. event 01 (use (talk))
 #. sentence template: keep the {placeholders}
 msgctxt "bark 040A:1FA0"
 msgid "Greetin's again, {varF7}. What's yer poison?"
-msgstr ""
+msgstr "又見面了，{varF7}。想喝點什麼？"
 
 #. event 01 (use (talk))
 msgctxt "ask 040A"
@@ -988,8 +990,44 @@ msgctxt "bark 040A:B965"
 msgid "Have a care. Strangers, few tho' they are, have a tendency ta end up with the Lurker... if they're not careful. "
 msgstr ""
 
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {call_0BCF}: "Blackwine " | "Breath o' Spirit " | "Cloven Hoof " | "Hurricane " | "Tenebraen Ale "
+#. parameter value inserted into sentence templates
+msgctxt "param 040A:call_0BCF"
+msgid "Blackwine "
+msgstr "黑酒"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {call_0BCF}: "Blackwine " | "Breath o' Spirit " | "Cloven Hoof " | "Hurricane " | "Tenebraen Ale "
+#. parameter value inserted into sentence templates
+msgctxt "param 040A:call_0BCF"
+msgid "Breath o' Spirit "
+msgstr "靈息酒"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {call_0BCF}: "Blackwine " | "Breath o' Spirit " | "Cloven Hoof " | "Hurricane " | "Tenebraen Ale "
+#. parameter value inserted into sentence templates
+msgctxt "param 040A:call_0BCF"
+msgid "Cloven Hoof "
+msgstr "魔蹄酒"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {call_0BCF}: "Blackwine " | "Breath o' Spirit " | "Cloven Hoof " | "Hurricane " | "Tenebraen Ale "
+#. parameter value inserted into sentence templates
+msgctxt "param 040A:call_0BCF"
+msgid "Hurricane "
+msgstr "颶風酒"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {call_0BCF}: "Blackwine " | "Breath o' Spirit " | "Cloven Hoof " | "Hurricane " | "Tenebraen Ale "
+#. parameter value inserted into sentence templates
+msgctxt "param 040A:call_0BCF"
+msgid "Tenebraen Ale "
+msgstr "Tenebrae 麥酒"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
 #. value of {varF7}: "stranger " | {name}
 #. parameter value inserted into sentence templates
 msgctxt "param 040A:varF7"
 msgid "stranger "
-msgstr ""
+msgstr "陌生人"

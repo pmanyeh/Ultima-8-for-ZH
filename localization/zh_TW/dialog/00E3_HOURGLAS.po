@@ -19,3 +19,38 @@ msgstr ""
 msgctxt "bark 00E3:0282"
 msgid "This clock is broken "
 msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E3:0282"
+msgid "The time is now Bloodwatch."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E3:0282"
+msgid "The time is now FirstEbb."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E3:0282"
+msgid "The time is now DayTide."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E3:0282"
+msgid "The time is now ThreeMoons."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E3:0282"
+msgid "The time is now LastEbb."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E3:0282"
+msgid "The time is now EvenTide."
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "bark 00E3:0282"
+msgid "The time is now "
+msgstr ""

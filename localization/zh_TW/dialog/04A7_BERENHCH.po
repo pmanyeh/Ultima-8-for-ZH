@@ -42,6 +42,16 @@ msgstr ""
 
 #. , after "Thank you, I was the one. "
 msgctxt "bark 04A7:08FC"
+msgid "Of course not. Twould take more power than I believe you are capable of wielding.  Should you somehow find a way to fly to the point upon which I stand, you will soon find yourself in the home of the Sorcerers. I suggest that you seek out the Sorcerer known as Bane. She is quite knowledgable in our ways and might be persuaded to help you. "
+msgstr ""
+
+#. , after "Thank you, I was the one. "
+msgctxt "bark 04A7:08FC"
+msgid "An interesting solution to the first test of Sorcery. Perhaps, if you seek to enter into the Cabal, the Master will deem it proper that your next test be to restore this cavern to its prior functionality. Hmmmm?*  Should you somehow find a way to fly to the point upon which I stand, you will soon find yourself in the home of the Sorcerers. I suggest that you seek out the Sorcerer known as Bane. She is quite knowledgable in our ways and might be persuaded to help you. "
+msgstr ""
+
+#. , after "Thank you, I was the one. "
+msgctxt "bark 04A7:08FC"
 msgid "No matter.  Should you somehow find a way to fly to the point upon which I stand, you will soon find yourself in the home of the Sorcerers. I suggest that you seek out the Sorcerer known as Bane. She is quite knowledgable in our ways and might be persuaded to help you. "
 msgstr ""
 

@@ -11,7 +11,15 @@ msgstr ""
 "Language: zh_TW\n"
 
 msgctxt "bark 058A:0750"
+msgid "How may I serve you, master? "
+msgstr ""
+
+msgctxt "bark 058A:0750"
 msgid "How may I serve you, mistress? "
+msgstr ""
+
+msgctxt "bark 058A:0761"
+msgid "Find the one called Sabriane. Put an end to her life and then return from whence you came.*I command that you do this in Pyros' name. "
 msgstr ""
 
 msgctxt "bark 058A:0761"
@@ -25,6 +33,10 @@ msgstr ""
 
 msgctxt "bark 058A:0B63"
 msgid "There... it is done. "
+msgstr ""
+
+msgctxt "bark 058A:0E3C"
+msgid "I have sensed a daemonic presence within the confines of the Enclave.*Vardion, what is the meaning of this?"
 msgstr ""
 
 msgctxt "bark 058A:0E3C"
@@ -53,7 +65,15 @@ msgid "Well, in your feeble attempt at guarding my person, you have destroyed a 
 msgstr ""
 
 msgctxt "bark 058A:11CC"
+msgid "How exactly do you propose to solve this dilemma, Vardion?"
+msgstr ""
+
+msgctxt "bark 058A:11CC"
 msgid "How exactly do you propose to solve this dilemma, Bane?"
+msgstr ""
+
+msgctxt "bark 058A:12CB"
+msgid "If you will permit me to remain your First Acolyte, I believe that I can give you a fine Disciple to assist in the Ritual of Fire. That one there. "
 msgstr ""
 
 msgctxt "bark 058A:12CB"
@@ -64,6 +84,11 @@ msgstr ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 058A:1379"
 msgid "He calls himself, {name}."
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:1379"
+msgid "He calls himself, ."
 msgstr ""
 
 #. , after ""
@@ -123,7 +148,22 @@ msgstr ""
 
 #. , after ""
 msgctxt "bark 058A:1C3F"
-msgid "Very well. But you must hurry. You have not even started and You have made a good start but You are almost done but Master Malchir will not wait forever. "
+msgid "Very well. But you must hurry. You have not even started and Master Malchir will not wait forever. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:1C3F"
+msgid "Very well. But you must hurry. You have made a good start but Master Malchir will not wait forever. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:1C3F"
+msgid "Very well. But you must hurry. You are almost done but Master Malchir will not wait forever. "
+msgstr ""
+
+#. , after ""
+msgctxt "bark 058A:1C3F"
+msgid "Very well. But you must hurry. Master Malchir will not wait forever. "
 msgstr ""
 
 #. , after ""
@@ -183,6 +223,16 @@ msgstr ""
 #. , after "No, of course not. Forgive me. "
 msgctxt "bark 058A:21A5"
 msgid "Forgive you? You are the Disciple, I am your Sponsor. I give the orders. I will forgive you when you earn my forgiveness. You do that by becoming a competent Sorcerer. "
+msgstr ""
+
+#. , after "I would learn more about Sorcery. "
+msgctxt "bark 058A:22F0"
+msgid "Would you? Well then, learn. What would you know? "
+msgstr ""
+
+#. , after "I would learn more about Sorcery. "
+msgctxt "bark 058A:22F0"
+msgid "Excellent. Knowledge is the path to power. What would you know? "
 msgstr ""
 
 #. , after "I would learn more about Sorcery. "

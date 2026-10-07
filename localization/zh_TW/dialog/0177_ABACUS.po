@@ -20,3 +20,9 @@ msgstr ""
 msgctxt "bark 0177:0143"
 msgid "You have {num} obsidian coins "
 msgstr ""
+
+#. event 01 (use (talk))
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0177:0143"
+msgid "You have {num} obsidian coin"
+msgstr ""

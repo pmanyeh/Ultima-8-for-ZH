@@ -734,6 +734,48 @@ msgid "Map number: {num}~X: {num},~Y: {num},~Z: {num},*Type num: {num},~Egg type
 msgstr ""
 
 #. event 00 (look), after "Information"
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0401:2CE5"
+msgid "Map number: {num}~X: {num},~Y: {num},~Z: {num},*Type num: {num},~Egg type: {num},~Qual: {num},~Frame: {num} "
+msgstr ""
+
+#. event 00 (look), after "Information"
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0401:2CE5"
+msgid "Map number: {num}~X: {num},~Y: {num},~Z: {num},*Type num: {num},~Egg type: {num},~Quan: {num},~Frame: {num} "
+msgstr ""
+
+#. event 00 (look), after "Information"
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0401:2CE5"
+msgid "Map number: {num}~X: {num},~Y: {num},~Z: {num},*Type num: {num},~Egg type: {num},~Frame: {num} "
+msgstr ""
+
+#. event 00 (look), after "Information"
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0401:2CE5"
+msgid "Map number: {num}~X: {num},~Y: {num},~Z: {num},*Type num: {num},~Qual: {num},~Quan: {num},~Frame: {num} "
+msgstr ""
+
+#. event 00 (look), after "Information"
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0401:2CE5"
+msgid "Map number: {num}~X: {num},~Y: {num},~Z: {num},*Type num: {num},~Qual: {num},~Frame: {num} "
+msgstr ""
+
+#. event 00 (look), after "Information"
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0401:2CE5"
+msgid "Map number: {num}~X: {num},~Y: {num},~Z: {num},*Type num: {num},~Quan: {num},~Frame: {num} "
+msgstr ""
+
+#. event 00 (look), after "Information"
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0401:2CE5"
+msgid "Map number: {num}~X: {num},~Y: {num},~Z: {num},*Type num: {num},~Frame: {num} "
+msgstr ""
+
+#. event 00 (look), after "Information"
 msgctxt "bark 0401:2D0E"
 msgid "Not a valid item. "
 msgstr ""

@@ -2,7 +2,7 @@
 
 ## ScummVM Ultima8 Engine / Traditional Chinese Localization
 
-**文件狀態：** Master Plan v2.7（2026-10-07；v2 依 Phase 0–2 實證修訂，v2.1–v2.7 為 Phase 4–10 的結果，見 Revision Log）  
+**文件狀態：** Master Plan v2.8（2026-10-07；v2 依 Phase 0–2 實證修訂，v2.1–v2.8 為 Phase 4–11 的結果，見 Revision Log）  
 **目標遊戲：** Ultima VIII: Pagan  
 **主要 Runtime：** ScummVM — Ultima8 Engine  
 **架構來源：** Pentagram → ScummVM Ultima8  
@@ -47,7 +47,18 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ⏳ 待開始
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ✅ PASS · P12 ⏳ 待開始
+
+## v2.8 — 2026-10-07（Phase 11 完成後）
+
+依據：[docs/reports/P11-dynamic-strings-pagination-timing.md](docs/reports/P11-dynamic-strings-pagination-timing.md)
+
+| 章節 | 修訂內容 |
+|---|---|
+| §8.1 | 抽取改為依分支列舉句子；分段句型 `{partN}`；函式回傳值成為 `{call_XXXX}` 的參數值 |
+| §18.1 | P11 PASS |
+| §30 | 驗收打勾；分頁量測結果（不調整版面）；顯示時間改以 reading length 計算（CJK 字算 3） |
+| §49 | #3、#7、#25 完成；新增 #27（CJK 行距）、#28（proposed 譯名待確認） |
 
 ## v2.7 — 2026-10-06（Phase 10 完成後）
 
@@ -610,6 +621,8 @@ U8 **沒有** U7 那種 `%C` 佔位符號。動態句子由 Usecode 以串接（
 
 全遊戲 bark 4,526 個：固定句子 4,408、自動還原的句型 113、無法自動解析 5（0.1%，需人工處理）。
 
+**v2.8（P11）：** 句子常在分支內分段串接（單複數、物品種類、時段）。抽取工具沿分支列舉每個呼叫點實際可能的句子（追蹤簡單條件排除不可能的路徑），同一 `msgctxt` 可有多個條目（bark 4,761 條）。組合太多的呼叫點（魔杖、時間 focus）以手寫的分段句型描述，片段為 `{partN}` 參數；函式回傳的字串（酒名）成為 `{call_XXXX}` 的參數值。引擎在多個句型都符合時採用固定文字最多者。
+
 Phase 2 必須調查：
 
 - string concatenation opcode
@@ -1096,6 +1109,7 @@ P15 Optional Enhancements
 | P8 Text Surface Inventory | ✅ PASS（2026-10-06） | `docs/reports/P8-text-surface-inventory.md`、`docs/research/text-surface-inventory.md` |
 | P9 Engine UI / Static Text | ✅ PASS（2026-10-06） | `docs/reports/P9-engine-ui-static-text.md` |
 | P10 Extraction & Toolchain | ✅ PASS（2026-10-06） | `docs/reports/P10-extraction-toolchain.md` |
+| P11 Dynamic Strings / Pagination / Timing | ✅ PASS（2026-10-07） | `docs/reports/P11-dynamic-strings-pagination-timing.md` |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
 
@@ -2195,6 +2209,12 @@ bark ID：     040A:1F16
 
 `BarkGump::calculateTicks()` 目前以 byte 長度計算，必須改以「顯示字數」（codepoint）計算，並維持與英文語音長度的比例。
 
+**v2.8（P11）完成：** `TranslationCatalog::readingLength()`（CJK 字含全形標點算 3、其他字元算 1）。權重 3 來自譯文長度（1 中文字 ≈ 3.2 英文字母）與閱讀速度比例；中文每字 24 ticks（約 2.5 字/秒，原版日文版約 1.5 字/秒），整句時間與英文相當。英文計時不變。
+
+### v2.8：分頁量測結果
+
+`localization_measure=true` + `tools/catalog/measure.py` 以實際字型量測全部譯文。台詞框 194×55：英文 5 行/頁，中文 3 行/頁（行距 18 px），POC 台詞頁數 +8%；選項、字幕寬度沒有超出。**未證明需要調整，不改字型、版面、分頁。** 正式翻譯後重新量測（§49 #27）。
+
 ---
 
 ## Pagination
@@ -2243,12 +2263,12 @@ speech duration
 
 ## Acceptance
 
-- [ ] runtime numeric string
-- [ ] name substitution
-- [ ] item substitution
-- [ ] multi-page Chinese
-- [ ] no premature disappearance
-- [ ] no excessively long stale text
+- [x] runtime numeric string（金幣、試劑：真實 Usecode）
+- [x] name substitution（Devon `{name}`、Orlok `{varF7}`）
+- [x] item substitution（Orlok 酒名 `{call_0BCF}`、魔杖 `{partN}`）
+- [x] multi-page Chinese（Devon 長句 2–4 頁）
+- [x] no premature disappearance
+- [x] no excessively long stale text
 
 **STOP**
 
@@ -3014,11 +3034,11 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 |---|---|---|
 | 1 | ~~CJK 字型載入失敗時自動停用翻譯~~ ✅ 還原原字型並停用 | P4 |
 | 2 | ~~自言自語 bark 的 `TextWidget::_text` 寫入存檔~~ ✅ 存英文原文（`setSaveText`） | P5 |
-| 3 | 顯示時間以 byte 計算：有語音的分配已修正（P5）；無語音的中文速度細調 | P11 |
+| 3 | ~~顯示時間以 byte 計算~~ ✅ reading length（CJK 字算 3），有語音 / 無語音都適用（P11） | P11 |
 | 4 | ~~字集覆蓋檢查工具~~ ✅ `tools/validate/font_coverage.py` | P3 |
 | 5 | ~~`font_antialiasing` 為全域設定~~ ✅ `font_cjk_antialiasing` 個別設定 | P3 |
 | 6 | ~~`toUnicode` 修正的英文與日文 regression test~~ ✅ 單元測試（日文無實機資料） | P3 |
-| 7 | ~~句型比對與參數翻譯~~ ✅ 引擎與編譯工具（P7）；參數譯文待實際 NPC（例如 Orlok `040A`）驗證 | P7 / P11 |
+| 7 | ~~句型比對與參數翻譯~~ ✅ 引擎與編譯工具（P7）；Orlok `040A` 的 `{varF7}`、`{call_0BCF}` 驗證完成（P11） | P7 / P11 |
 | 8 | 5 個無法自動解析的 bark（PYROS、SORCERER、METHOD） | P10 |
 | 9 | 共用 class（例如 `METHOD 057C`）代為發話時的對話脈絡 | P10 |
 | 10 | ~~BookGump 的 `_TL_()` 書本修正與新翻譯層並存~~ ✅ 有譯文時不套用英文修正（P10） | P10 |
@@ -3036,8 +3056,10 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 22 | 製作人員名單（`ECREDITS.DAT`）與開發者語錄（`QUOTES.DAT`）：**都不翻譯**（使用者決定 2026-10-06） | — |
 | 23 | `EditWidget` 使用 high-res TTF（CJK）時文字畫到錯誤位置（日記輸入框）。P9 以不替換日記字型避開；使用者：之後再修 | 待定 |
 | 24 | `TTFont::renderText` 游標與文字寫出圖片範圍（upstream 既有，P9 已修正），可考慮回報 upstream | — |
-| 25 | 試劑名稱等動態組合的文字（`ERTHREAG` 等）：抽取結果把分支串在一起，需處理單複數與數量 | P11 |
+| 25 | ~~試劑名稱等動態組合的文字~~ ✅ 依分支列舉句子 + 分段句型 `{partN}`（P11） | P11 |
 | 26 | 權威檔（`authority.tsv`）的分類與 711 個待決定的譯名需人工整理 | 翻譯開始前 |
+| 27 | 中文行距 18 px，台詞框一頁只放 3 行（英文 5 行）。正式翻譯後若頁數增加明顯，考慮縮小 CJK 行距（≤ 13 px 可放 4 行） | 翻譯後重新量測 |
+| 28 | P11 POC 用到的 14 個譯名（黑酒、黑曜石、血…）在權威檔為 proposed，需使用者確認 | 翻譯開始前 |
 
 ---
 

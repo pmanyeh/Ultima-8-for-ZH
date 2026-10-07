@@ -15,6 +15,14 @@ msgid "Ah. A stranger comes to the Enclave. How rare.*You are also a stranger to
 msgstr ""
 
 msgctxt "bark 0595:0239"
+msgid "So I thought. And what might you be called, my friend? "
+msgstr ""
+
+msgctxt "bark 0595:0239"
+msgid "How odd, I've never seen one like you before.*What might you be called, my friend? "
+msgstr ""
+
+msgctxt "bark 0595:0239"
 msgid "Your silence is understood, but fear not, I intend you no harm.*What might you be called, my friend? "
 msgstr ""
 
@@ -24,7 +32,22 @@ msgstr ""
 
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0481"
+msgid "What an interesting name. I shall be sure to make note of it. However, you have need of a name  that has meaning in the Elder Tongue. I sense that your name should be Daemion. It means Fire of the Sky.*Do you like it? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0481"
+msgid "Ah, I shall be if only you wish it , but there is no reason for you to reveal your name to me. I would prefer to give you one  that has meaning in the Elder Tongue. I sense that your name should be Daemion. It means Fire of the Sky.*Do you like it? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:0481"
 msgid "I see you are a humble one , but there is no reason for you to reveal your name to me. I would prefer to give you one  that has meaning in the Elder Tongue. I sense that your name should be Daemion. It means Fire of the Sky.*Do you like it? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:05C5"
+msgid "It gladdens me to hear it.  Perhaps later, when you have earned it, you will be given a Truename. Daemion seems right and will suffice for now. With what may I assist you? "
 msgstr ""
 
 #. , after "You are not my friend, lady. "
@@ -34,7 +57,37 @@ msgstr ""
 
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:075F"
+msgid "To what do I owe the pleasure of your presence, Daemion? *Have you decided to become my Disciple? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:075F"
+msgid "To what do I owe the pleasure of your presence, Daemion? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:075F"
+msgid "How may I aid you, friend? *Have you decided to become my Disciple? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:075F"
+msgid "How may I aid you, friend? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:075F"
+msgid "Yes? *Have you decided to become my Disciple? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:075F"
 msgid "Yes? "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "bark 0595:075F"
+msgid "How may I aid you, Disciple? "
 msgstr ""
 
 #. , after "You are not my friend, lady. "

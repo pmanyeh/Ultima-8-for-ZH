@@ -107,6 +107,22 @@ msgid "It does not matter. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:0AD5"
+msgid "Well met, {name}. And what do you seek of me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:0AD5"
+msgid "As you say. It does not matter to me either. And what do you seek of me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:0AD5"
+msgid "Interesting, you wish to remain a mystery. I like mysteries, to a point. And what do you seek of me? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
 msgctxt "bark 0420:0AD5"
 msgid "I see. Perhaps the question was a little too intellectual for you. Ah, well. It matters not to me. And what do you seek of me? "
 msgstr ""
@@ -117,8 +133,129 @@ msgid "I will now give you the most important lesson of your life. Learn it well
 msgstr ""
 
 #. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
 msgctxt "bark 0420:1282"
-msgid "What brings you here, stranger? How may I be of assistance? And what can I do for you? "
+msgid "Yes, {name}, is there something you want?"
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1282"
+msgid "Alas, never to have a moment of peace. What do you want, {name}?"
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1282"
+msgid "Did you forget something, {name}? It does tend to happen when the mind is over-taxed."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "Yes, is there something you want? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "Alas, never to have a moment of peace. What do you want? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "Did you forget something? It does tend to happen when the mind is over-taxed. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1282"
+msgid "I believe you have over-stayed your welcome. Unwanted guests are not treated with kindness here, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "My patience is at an end. Whatever you want, be quick about it. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1282"
+msgid "This is unbearable. Have you never heard of polite behavior, {name}? It has the wonderful benefit of allowing differing peoples to exist together harmoniously. The alternative is strife. You seem to choose the latter."
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "I believe you have over-stayed your welcome. Unwanted guests are not treated with kindness here, stranger. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "This is unbearable. Have you never heard of polite behavior? It has the wonderful benefit of allowing differing peoples to exist together harmoniously. The alternative is strife. You seem to choose the latter. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1282"
+msgid "What brings you here, {name}? How may I be of assistance? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1282"
+msgid "What brings you here, {name}? And what can I do for you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1282"
+msgid "What brings you here, {name}? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1282"
+msgid "Greetings once again, {name}. How may I be of assistance? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1282"
+msgid "Greetings once again, {name}. And what can I do for you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+#. sentence template: keep the {placeholders}
+msgctxt "bark 0420:1282"
+msgid "Greetings once again, {name}. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "What brings you here, stranger? How may I be of assistance? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "What brings you here, stranger? And what can I do for you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "What brings you here, stranger? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "Greetings once again. How may I be of assistance? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "Greetings once again. And what can I do for you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "bark 0420:1282"
+msgid "Greetings once again. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I cannot tell you. "

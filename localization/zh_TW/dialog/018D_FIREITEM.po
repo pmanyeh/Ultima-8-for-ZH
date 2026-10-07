@@ -10,10 +10,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
 #. event 00 (look)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 018D:0462"
-msgid "symbol of ignite extinguish flash flame bolt endure heat fire shield armor of flames create fire explosion summon daemon banish daemon conflagration with {num} use uses remaining"
+msgid "{part1}of {part2}with {num} use remaining"
+msgstr "{part2}{part1}（剩 {num} 次）"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018D:0462"
+msgid "{part1}of {part2}with {num} uses remaining"
+msgstr "{part2}{part1}（剩 {num} 次）"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018D:0462"
+msgid "{part1}of {part2}"
+msgstr "{part2}{part1}"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. event 00 (look)
+msgctxt "bark 018D:0462"
+msgid "wand "
+msgstr "魔杖"
+
+#. event 00 (look)
+msgctxt "bark 018D:0462"
+msgid "rod "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018D:0462"
+msgid "staff "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018D:0462"
+msgid "talisman "
+msgstr ""
+
+#. event 00 (look)
+msgctxt "bark 018D:0462"
+msgid "symbol "
 msgstr ""
 
 #. event 01 (use (talk))
@@ -24,4 +65,113 @@ msgstr ""
 #. event 01 (use (talk))
 msgctxt "bark 018D:054F"
 msgid "The focus must be held to invoke its power. "
+msgstr ""
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {part1}: one of 5 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part1"
+msgid "wand "
+msgstr "魔杖"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {part1}: one of 5 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part1"
+msgid "rod "
+msgstr "權杖"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {part1}: one of 5 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part1"
+msgid "staff "
+msgstr "法杖"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {part1}: one of 5 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part1"
+msgid "talisman "
+msgstr "護符"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {part1}: one of 5 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part1"
+msgid "symbol "
+msgstr "符印"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "ignite "
+msgstr "點燃"
+
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "extinguish "
+msgstr ""
+
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "flash "
+msgstr ""
+
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "flame bolt "
+msgstr ""
+
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "endure heat "
+msgstr ""
+
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "fire shield "
+msgstr ""
+
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "armor of flames "
+msgstr ""
+
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "create fire "
+msgstr ""
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "explosion "
+msgstr "爆炸"
+
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "summon daemon "
+msgstr ""
+
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "banish daemon "
+msgstr ""
+
+#. value of {part2}: one of 12 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 018D:part2"
+msgid "conflagration "
 msgstr ""

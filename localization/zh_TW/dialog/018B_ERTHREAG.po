@@ -10,8 +10,112 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
 #. event 00 (look)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 018B:0300"
-msgid "{num} vial vials of blood pile piles of bone shards pile piles of wood pile piles of dirt executioner's hoods sliced executioner's hoods pile piles of blackmoor deadman's elbow s"
+msgid "{num} vial of blood"
+msgstr "{num} 瓶血"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} vials of blood"
+msgstr "{num} 瓶血"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} pile of bone shards"
+msgstr "{num} 堆碎骨"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} piles of bone shards"
+msgstr "{num} 堆碎骨"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} pile of wood"
+msgstr "{num} 堆木頭"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} piles of wood"
+msgstr "{num} 堆木頭"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} pile of dirt"
+msgstr "{num} 堆泥土"
+
+# P11 POC: dynamic strings (proposed terms, see authority.tsv)
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} piles of dirt"
+msgstr "{num} 堆泥土"
+
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} executioner's hoods"
+msgstr ""
+
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} executioner's hood"
+msgstr ""
+
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} sliced executioner's hoods"
+msgstr ""
+
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} sliced executioner's hood"
+msgstr ""
+
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} pile of blackmoor"
+msgstr ""
+
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} piles of blackmoor"
+msgstr ""
+
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} deadman's elbow s"
+msgstr ""
+
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num} deadman's elbow "
+msgstr ""
+
+#. event 00 (look)
+#. sentence template: keep the {placeholders}
+msgctxt "bark 018B:0300"
+msgid "{num}"
 msgstr ""
