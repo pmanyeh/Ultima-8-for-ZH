@@ -10,17 +10,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 043A:00CE"
 msgid "dead Sorcerer "
-msgstr ""
+msgstr "死去的巫師"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 043A:00F0"
 msgid "Sorcerer "
-msgstr ""
+msgstr "巫師"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 043A:0172"
 msgid "You will not steal my spell! I will kill you first! "
-msgstr ""
+msgstr "你別想偷我的法術！我會先殺了你！"

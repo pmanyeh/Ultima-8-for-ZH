@@ -10,27 +10,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 015A:00B4"
 msgid "magical sphere "
-msgstr ""
+msgstr "魔法球體"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 015A:00E4"
 msgid "magical tetrahedron "
-msgstr ""
+msgstr "魔法四面體"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 015A:0105"
 msgid "magical cube "
-msgstr ""
+msgstr "魔法立方體"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 015A:01A1"
 msgid "I have not the strength, nor the wisdom to master such power... "
-msgstr ""
+msgstr "我既沒有力量，也沒有智慧駕馭這樣的力量……"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 015A:01F2"
 msgid "...but one day I shall! "
-msgstr ""
+msgstr "……但總有一天我會的！"

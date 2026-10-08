@@ -10,281 +10,334 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 msgctxt "ask 0581"
 msgid "Empower offensive spell"
-msgstr ""
+msgstr "賦予攻擊法術"
 
+# P13 batch 6
 msgctxt "ask 0581"
 msgid "Empower defensive spell"
-msgstr ""
+msgstr "賦予防禦法術"
 
+# P13 batch 6
 msgctxt "ask 0581"
 msgid "Empower other spell"
-msgstr ""
+msgstr "賦予其他法術"
 
+# P13 batch 6
 msgctxt "ask 0581"
 msgid "Invoke Pentagram"
-msgstr ""
+msgstr "發動五芒星陣"
 
+# P13 batch 6
 msgctxt "ask 0581"
 msgid "Nevermind"
-msgstr ""
+msgstr "算了"
 
+# P13 batch 6
 #. , after "Empower offensive spell"
 msgctxt "ask 0581"
 msgid "Flame Bolt"
-msgstr ""
+msgstr "烈焰箭"
 
+# P13 batch 6
 #. , after "Empower offensive spell"
 msgctxt "ask 0581"
 msgid "Create Fire"
-msgstr ""
+msgstr "造火術"
 
+# P13 batch 6
 #. , after "Empower offensive spell"
 msgctxt "ask 0581"
 msgid "Explosion "
-msgstr ""
+msgstr "爆炸術"
 
+# P13 batch 6
 #. , after "Empower offensive spell"
 msgctxt "ask 0581"
 msgid "Summon Daemon "
-msgstr ""
+msgstr "召喚惡魔"
 
+# P13 batch 6
 #. , after "Empower offensive spell"
 msgctxt "ask 0581"
 msgid "Conflagration "
-msgstr ""
+msgstr "烈焰焚燒"
 
+# P13 batch 6
 #. , after "Empower offensive spell"
 msgctxt "ask 0581"
 msgid "Nevermind "
-msgstr ""
+msgstr "算了"
 
+# P13 batch 6
 #. , after "Empower defensive spell"
 msgctxt "ask 0581"
 msgid "Endure Heat"
-msgstr ""
+msgstr "耐熱術"
 
+# P13 batch 6
 #. , after "Empower defensive spell"
 msgctxt "ask 0581"
 msgid "Fire Shield"
-msgstr ""
+msgstr "火焰護盾"
 
+# P13 batch 6
 #. , after "Empower defensive spell"
 msgctxt "ask 0581"
 msgid "Armor Of Flames"
-msgstr ""
+msgstr "烈焰護甲"
 
+# P13 batch 6
 #. , after "Empower defensive spell"
 msgctxt "ask 0581"
 msgid "Banish Daemon"
-msgstr ""
+msgstr "驅逐惡魔"
 
+# P13 batch 6
 #. , after "Empower other spell"
 msgctxt "ask 0581"
 msgid "Ignite"
-msgstr ""
+msgstr "點燃術"
 
+# P13 batch 6
 #. , after "Empower other spell"
 msgctxt "ask 0581"
 msgid "Extinguish"
-msgstr ""
+msgstr "熄火術"
 
+# P13 batch 6
 #. , after "Empower other spell"
 msgctxt "ask 0581"
 msgid "Flash"
-msgstr ""
+msgstr "閃光術"
 
+# P13 batch 6
 #. , after "Explosion"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "Explosion"
-msgstr ""
+msgstr "爆炸術"
 
+# P13 batch 6
 #. , after "Summon Daemon"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "Summon Daemon"
-msgstr ""
+msgstr "召喚惡魔"
 
+# P13 batch 6
 #. , after "In Flam!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "In Flam!"
-msgstr ""
+msgstr "In Flam！"
 
+# P13 batch 6
 #. , after "An Flam!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "An Flam!"
-msgstr ""
+msgstr "An Flam！"
 
+# P13 batch 6
 #. , after "Flam Por!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "Flam Por!"
-msgstr ""
+msgstr "Flam Por！"
 
+# P13 batch 6
 #. , after "In Ort Flam!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "In Ort Flam!"
-msgstr ""
+msgstr "In Ort Flam！"
 
+# P13 batch 6
 #. , after "Sanct Flam!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "Sanct Flam!"
-msgstr ""
+msgstr "Sanct Flam！"
 
+# P13 batch 6
 #. , after "In Flam An Por!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "In Flam An Por!"
-msgstr ""
+msgstr "In Flam An Por！"
 
+# P13 batch 6
 #. , after "Vas Sanct Flam!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "Vas Sanct Flam!"
-msgstr ""
+msgstr "Vas Sanct Flam！"
 
+# P13 batch 6
 #. , after "In Flam Ylem!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "In Flam Ylem!"
-msgstr ""
+msgstr "In Flam Ylem！"
 
+# P13 batch 6
 #. , after "Vas Ort Flam!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "Vas Ort Flam!"
-msgstr ""
+msgstr "Vas Ort Flam！"
 
+# P13 batch 6
 #. , after "Kal Flam Corp Xen!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "Kal Flam Corp Xen!"
-msgstr ""
+msgstr "Kal Flam Corp Xen！"
 
+# P13 batch 6
 #. , after "An Flam Corp Xen!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "An Flam Corp Xen!"
-msgstr ""
+msgstr "An Flam Corp Xen！"
 
+# P13 batch 6
 #. , after "Kal Vas Flam Corp Xen!"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "Kal Vas Flam Corp Xen!"
-msgstr ""
+msgstr "Kal Vas Flam Corp Xen！"
 
+# P13 batch 6
 #. , after "Kal Vas Flam Corp Xen!"
 msgctxt "bark 0581:070C"
 msgid "Ooops."
-msgstr ""
+msgstr "糟了。"
 
+# P13 batch 6
 #. , after "Conflagration"
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "Conflagration"
-msgstr ""
+msgstr "烈焰焚燒"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:1040"
 msgid "I don't have an unenchanted focus to place the spell within. "
-msgstr ""
+msgstr "我沒有尚未附魔的法器可以放入法術。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:1079"
 msgid "I need more black candles. "
-msgstr ""
+msgstr "我需要更多黑蠟燭。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:10B0"
 msgid "I need more red candles. "
-msgstr ""
+msgstr "我需要更多紅蠟燭。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:10DF"
 msgid "I need more ash. "
-msgstr ""
+msgstr "我需要更多火山灰。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:1111"
 msgid "I need more pumice. "
-msgstr ""
+msgstr "我需要更多浮岩。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:1145"
 msgid "I need more obsidian. "
-msgstr ""
+msgstr "我需要更多黑曜石。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:1175"
 msgid "I need more iron. "
-msgstr ""
+msgstr "我需要更多生鐵。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:11AA"
 msgid "I need more brimstone. "
-msgstr ""
+msgstr "我需要更多硫磺。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:11E1"
 msgid "I need more daemon bone. "
-msgstr ""
+msgstr "我需要更多惡魔之骨。"
 
+# P13 batch 6
 #. , after "Conflagration"
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0581:13E6"
 msgid "{var08}"
-msgstr ""
+msgstr "{var08}"
 
+# P13 batch 6
 #. , after "Conflagration"
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0581:13F7"
 msgid "{var08}"
-msgstr ""
+msgstr "{var08}"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:198C"
 msgid "Fool! Had I not been here, you could have killed yourself, and that would have displeased the Master. "
-msgstr ""
+msgstr "蠢貨！要不是我在這裡，你可能就把自己害死了，那會讓大師不高興的。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:19E0"
 msgid "Never use more Daemon Bone than your spell calls for. "
-msgstr ""
+msgstr "惡魔之骨絕不能用得比法術需要的多。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:1A2D"
 msgid "Never use more Brimstone than your spell calls for. "
-msgstr ""
+msgstr "硫磺絕不能用得比法術需要的多。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "bark 0581:1A75"
 msgid "Now, continue your test. I tire of your bumbling. "
-msgstr ""
+msgstr "好了，繼續你的考驗。我受夠你笨手笨腳了。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "ask 0581"
 msgid "Yes. "
-msgstr ""
+msgstr "是。"
 
+# P13 batch 6
 #. , after "Conflagration"
 msgctxt "ask 0581"
 msgid "No. "
-msgstr ""
+msgstr "否。"
 
+# P13 batch 6
 #. value of {var08}: "Excellent! " | "Good. "
 #. parameter value inserted into sentence templates
 msgctxt "param 0581:var08"
 msgid "Excellent! "
-msgstr ""
+msgstr "太好了！"
 
+# P13 batch 6
 #. value of {var08}: "Excellent! " | "Good. "
 #. parameter value inserted into sentence templates
 msgctxt "param 0581:var08"
 msgid "Good. "
-msgstr ""
+msgstr "很好。"

@@ -10,47 +10,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 021A:0167"
 msgid "raw kith filet "
-msgstr ""
+msgstr "生奇斯怪蛛肉排"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 021A:0193"
 msgid "kith filet "
-msgstr ""
+msgstr "奇斯怪蛛肉排"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 021A:01BB"
 msgid "cheese "
-msgstr ""
+msgstr "乳酪"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 021A:01E9"
 msgid "cheese "
-msgstr ""
+msgstr "乳酪"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 021A:0225"
 msgid "mushroom "
-msgstr ""
+msgstr "蘑菇"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 021A:0252"
 msgid "tuber "
-msgstr ""
+msgstr "塊莖"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 021A:0279"
 msgid "bread "
-msgstr ""
+msgstr "麵包"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 021A:0297"
 msgid "food "
-msgstr ""
+msgstr "食物"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 021A:02C3"
 msgid "Mmmm... "
-msgstr ""
+msgstr "嗯……好吃。"

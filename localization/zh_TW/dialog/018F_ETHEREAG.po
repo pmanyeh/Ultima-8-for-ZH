@@ -10,37 +10,44 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018F:00AE"
 msgid "eye of newt "
-msgstr ""
+msgstr "蠑螈之眼"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018F:00EC"
 msgid "bat wing "
-msgstr ""
+msgstr "蝙蝠翅膀"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018F:012C"
 msgid "snake skin "
-msgstr ""
+msgstr "蛇皮"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018F:016E"
 msgid "dragon blood "
-msgstr ""
+msgstr "龍血"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018F:01B4"
 msgid "jar of newt eyes "
-msgstr ""
+msgstr "蠑螈之眼罐"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018F:01DD"
 msgid "jar "
-msgstr ""
+msgstr "罐子"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 018F:0296"
 msgid "empty "
-msgstr ""
+msgstr "空的"

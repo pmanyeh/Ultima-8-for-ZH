@@ -10,57 +10,68 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 01BA:00B2"
 msgid "obelisk tip "
-msgstr ""
+msgstr "方尖碑尖端"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 01BA:00E6"
 msgid "the Heart of Earth "
-msgstr ""
+msgstr "大地之心"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 01BA:011C"
 msgid "the Tear of the Seas "
-msgstr ""
+msgstr "海洋之淚"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 01BA:014F"
 msgid "the Breath of Air "
-msgstr ""
+msgstr "狂風之息"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 01BA:0184"
 msgid "the Tongue of Flame "
-msgstr ""
+msgstr "烈焰之舌"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 01BA:031D"
 msgid "I feel very powerful... "
-msgstr ""
+msgstr "我覺得充滿了力量……"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 01BA:042F"
 msgid "No! This is not possible! "
-msgstr ""
+msgstr "不！這不可能！"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 01BA:06B6"
 msgid "No! I have been defeated! No mortal could defeat me. I shall return and destroy you live one! "
-msgstr ""
+msgstr "不！我竟然被打敗了！凡人不可能打敗我。我會回來毀了你的，活人！"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 01BA:0851"
 msgid "Hmm..."
-msgstr ""
+msgstr "嗯……"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 01BA:08DB"
 msgid "You will regret this day! "
-msgstr ""
+msgstr "你會後悔今天的！"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 01BA:0B65"
 msgid "What have you done, oh ungrateful child, your greed breaks my heart! "
-msgstr ""
+msgstr "你做了什麼，忘恩負義的孩子啊，你的貪婪讓我心碎！"

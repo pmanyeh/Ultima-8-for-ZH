@@ -10,27 +10,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0319:00BA"
 msgid "glowing obelisk tip "
-msgstr ""
+msgstr "發光的方尖碑尖端"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0319:00F2"
 msgid "glowing Heart of Earth "
-msgstr ""
+msgstr "發光的大地之心"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0319:012C"
 msgid "glowing Tear of the Seas "
-msgstr ""
+msgstr "發光的海洋之淚"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0319:0164"
 msgid "glowing Breath of Wind "
-msgstr ""
+msgstr "發光的狂風之息"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0319:019D"
 msgid "glowing Tongue of Flame "
-msgstr ""
+msgstr "發光的烈焰之舌"

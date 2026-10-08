@@ -10,12 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02A0:00BC"
 msgid "broken lever "
-msgstr ""
+msgstr "損壞的拉桿"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02A0:00DB"
 msgid "lever "
-msgstr ""
+msgstr "拉桿"

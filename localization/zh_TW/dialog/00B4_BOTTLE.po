@@ -10,52 +10,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00B4:00B0"
 msgid "Blackwine "
-msgstr ""
+msgstr "黑酒"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00B4:00DB"
 msgid "Hurricane "
-msgstr ""
+msgstr "颶風酒"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00B4:010D"
 msgid "Breath o' Spirit "
-msgstr ""
+msgstr "靈息酒"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00B4:013A"
 msgid "Cloven Hoof "
-msgstr ""
+msgstr "魔蹄酒"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00B4:0169"
 msgid "Tenebraen Ale "
-msgstr ""
+msgstr "泰尼伯瑞麥酒"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00B4:0189"
 msgid "bottle "
-msgstr ""
+msgstr "瓶子"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00B4:01DA"
 msgid "Burp... "
-msgstr ""
+msgstr "嗝……"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00B4:030C"
 msgid "Zzzzz... "
-msgstr ""
+msgstr "呼呼……"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00B4:0552"
 msgid "It's empty... "
-msgstr ""
+msgstr "是空的……"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00B4:0671"
 msgid "Burp... "
-msgstr ""
+msgstr "嗝……"

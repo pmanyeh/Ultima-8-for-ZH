@@ -10,47 +10,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02FE:009A"
 msgid "potion "
-msgstr ""
+msgstr "藥水"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 02FE:00E0"
 msgid "it's empty... "
-msgstr ""
+msgstr "是空的……"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 02FE:0137"
 msgid "Augh! "
-msgstr ""
+msgstr "呃啊！"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 02FE:016E"
 msgid "I feel much better! "
-msgstr ""
+msgstr "我覺得好多了！"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 02FE:01F0"
 msgid "I have regained power! "
-msgstr ""
+msgstr "我恢復力量了！"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 02FE:023F"
 msgid "Yummm... "
-msgstr ""
+msgstr "嗯，好吃……"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 02FE:02BC"
 msgid "I feel better! "
-msgstr ""
+msgstr "我覺得好一點了！"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 02FE:03A0"
 msgid "Zzzzz... "
-msgstr ""
+msgstr "呼呼……"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 02FE:05EF"
 msgid "I feel like fighting! "
-msgstr ""
+msgstr "我想打一架！"

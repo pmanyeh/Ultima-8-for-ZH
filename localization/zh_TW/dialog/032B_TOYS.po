@@ -10,27 +10,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 032B:00A7"
 msgid "doll "
-msgstr ""
+msgstr "洋娃娃"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 032B:00D4"
 msgid "doll "
-msgstr ""
+msgstr "洋娃娃"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 032B:0109"
 msgid "wooden torax "
-msgstr ""
+msgstr "木製托拉克斯獸"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 032B:013A"
 msgid "toy kith "
-msgstr ""
+msgstr "奇斯怪蛛玩具"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 032B:0170"
 msgid "stuffed torax "
-msgstr ""
+msgstr "托拉克斯獸標本"

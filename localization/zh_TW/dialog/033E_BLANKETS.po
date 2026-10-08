@@ -10,17 +10,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033E:00AA"
 msgid "blanket "
-msgstr ""
+msgstr "毯子"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033E:00DA"
 msgid "blanket "
-msgstr ""
+msgstr "毯子"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033E:010A"
 msgid "blanket "
-msgstr ""
+msgstr "毯子"

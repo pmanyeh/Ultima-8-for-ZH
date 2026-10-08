@@ -10,7 +10,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 031A:009F"
 msgid "fire shroom "
-msgstr ""
+msgstr "火焰菇"

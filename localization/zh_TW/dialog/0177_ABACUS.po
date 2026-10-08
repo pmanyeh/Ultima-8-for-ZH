@@ -10,19 +10,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0177:009A"
 msgid "abacus "
-msgstr ""
+msgstr "算盤"
 
+# P13 batch 6
 #. event 01 (use (talk))
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0177:0143"
 msgid "You have {num} obsidian coins "
-msgstr ""
+msgstr "你有{num}枚黑曜石幣"
 
+# P13 batch 6
 #. event 01 (use (talk))
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0177:0143"
 msgid "You have {num} obsidian coin"
-msgstr ""
+msgstr "你有{num}枚黑曜石幣"

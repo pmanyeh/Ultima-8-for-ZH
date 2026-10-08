@@ -10,18 +10,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 msgctxt "bark 0583:2523"
 msgid "You have failed the first test, Disciple. Prepare to die. "
-msgstr ""
+msgstr "你沒通過第一項考驗，門徒。準備受死吧。"
 
+# P13 batch 6
 msgctxt "bark 0583:257D"
 msgid "Nicely done, Disciple. Now the Explosion... "
-msgstr ""
+msgstr "做得好，門徒。現在是爆炸術……"
 
+# P13 batch 6
 msgctxt "bark 0583:25EF"
 msgid "You have failed the second test, Disciple. Prepare to die. "
-msgstr ""
+msgstr "你沒通過第二項考驗，門徒。準備受死吧。"
 
+# P13 batch 6
 msgctxt "bark 0583:2670"
 msgid "Good technique, you could stand a little refinement though. Now summon a daemon... "
-msgstr ""
+msgstr "技巧不錯，不過還可以再精進一點。現在召喚一隻惡魔……"

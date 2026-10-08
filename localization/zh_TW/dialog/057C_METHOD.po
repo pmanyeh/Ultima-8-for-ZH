@@ -10,210 +10,251 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. , after ""
 msgctxt "bark 057C:06D5"
 msgid "Bye bye!!!!! "
-msgstr ""
+msgstr "掰掰！！！！！"
 
+# P13 batch 6
 #. , after ""
 msgctxt "bark 057C:0CFF"
 msgid "Thought I heard someone... "
-msgstr ""
+msgstr "我好像聽到有人……"
 
+# P13 batch 6
 #. , after ""
 msgctxt "bark 057C:0D20"
 msgid "Oh well... "
-msgstr ""
+msgstr "唉，算了……"
 
+# P13 batch 6
 #. , after ""
 msgctxt "bark 057C:0D43"
 msgid "Hello...? "
-msgstr ""
+msgstr "有人嗎……？"
 
+# P13 batch 6
 #. , after ""
 msgctxt "bark 057C:0D6E"
 msgid "Is someone there...? "
-msgstr ""
+msgstr "有人在那裡嗎……？"
 
+# P13 batch 6
 #. , after ""
 msgctxt "bark 057C:0F40"
 msgid "Thought I heard someone... "
-msgstr ""
+msgstr "我好像聽到有人……"
 
+# P13 batch 6
 #. , after ""
 msgctxt "bark 057C:0F61"
 msgid "Oh well... "
-msgstr ""
+msgstr "唉，算了……"
 
+# P13 batch 6
 #. , after ""
 msgctxt "bark 057C:0F84"
 msgid "Hello...? "
-msgstr ""
+msgstr "有人嗎……？"
 
+# P13 batch 6
 #. , after ""
 msgctxt "bark 057C:0FAF"
 msgid "Is someone there...? "
-msgstr ""
+msgstr "有人在那裡嗎……？"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Vardion!"
-msgstr ""
+msgstr "瓦爾迪恩！"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Bane!"
-msgstr ""
+msgstr "貝恩！"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "No, of course not Master. "
-msgstr ""
+msgstr "不，當然不是，大師。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Well, just a little. "
-msgstr ""
+msgstr "嗯，只有一點點。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Hmmm? What do you mean? "
-msgstr ""
+msgstr "嗯？你是什麼意思？"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Nothing Gorgrond. Just be quiet. "
-msgstr ""
+msgstr "沒什麼，戈格隆德。安靜點就是了。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Yes, Master. "
-msgstr ""
+msgstr "是，大師。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Vardion..."
-msgstr ""
+msgstr "瓦爾迪恩……"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Bane..."
-msgstr ""
+msgstr "貝恩……"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Provide the -Acolyte- with a candle. "
-msgstr ""
+msgstr "給這位「學徒」一根蠟燭。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "I told him... "
-msgstr ""
+msgstr "我跟他說過了……"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Do it. "
-msgstr ""
+msgstr "照做。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Thank you, First Acolyte. "
-msgstr ""
+msgstr "謝謝你，第一學徒。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "You are most gracious, Master. "
-msgstr ""
+msgstr "您真是寬宏大量，大師。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Resume your position. "
-msgstr ""
+msgstr "回到你的位置上。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Fool! I will do it myself. "
-msgstr ""
+msgstr "蠢貨！我自己來。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "I said kneel, Acolyte! "
-msgstr ""
+msgstr "我說了跪下，學徒！"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Acolytes... you are dismissed. "
-msgstr ""
+msgstr "學徒們……你們可以退下了。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Except for you. "
-msgstr ""
+msgstr "你除外。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Yes, you. "
-msgstr ""
+msgstr "對，就是你。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Wait, I'm going... "
-msgstr ""
+msgstr "等等，我這就走……"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Yes, you are. "
-msgstr ""
+msgstr "對，你這就走。"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "If I could just ask... "
-msgstr ""
+msgstr "能不能讓我問一下……"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "I said begone! "
-msgstr ""
+msgstr "我說了滾！"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Master, I must speak with you... "
-msgstr ""
+msgstr "大師，我得跟您談談……"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "No, you musn't. Begone! "
-msgstr ""
+msgstr "不，你不必。滾吧！"
 
+# P13 batch 6
 #. said for PYROS (006D), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Farewell, Acolyte. "
-msgstr ""
+msgstr "再會，學徒。"
 
+# P13 batch 6
 #. said for PENT (007C), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "Something's wrong. "
-msgstr ""
+msgstr "有點不對勁。"
 
+# P13 batch 6
 #. said for PENT (007C), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "I've come for you, Sorcerer! "
-msgstr ""
+msgstr "我是來找你的，巫師！"
 
+# P13 batch 6
 #. said for BOTTLE (00B4), event 01 (use (talk))
 msgctxt "bark 057C:088A"
 msgid "hic... "
-msgstr ""
+msgstr "嗝……"
 
+# P13 batch 6
 #. said for AVATAR (0401), event 00 (look)
 msgctxt "bark 057C:088A"
 msgid "Choose the Guardian speech. (0 exits)"
-msgstr ""
+msgstr "選擇守護者的台詞。（0 離開）"
 
+# P13 batch 6
 #. said for AVATAR (0401), event 00 (look)
 msgctxt "bark 057C:088A"
 msgid "Select spell caster. "
-msgstr ""
+msgstr "選擇施法者。"
 
 # P13 batch 1
 #. said for EXCUTION (0483), event 07 (hatch)
@@ -251,147 +292,176 @@ msgctxt "bark 057C:088A"
 msgid "Very well. Carry on with the execution! "
 msgstr "很好。繼續行刑！"
 
+# P13 batch 6
 #. said for FREE (0581)
 msgctxt "bark 057C:088A"
 msgid "An Flam Ort!"
-msgstr ""
+msgstr "An Flam Ort！"
 
+# P13 batch 6
 #. said for ETHRSPEL (0585)
 msgctxt "bark 057C:088A"
 msgid "In Quas Wis!"
-msgstr ""
+msgstr "In Quas Wis！"
 
+# P13 batch 6
 #. said for ETHRSPEL (0585)
 msgctxt "bark 057C:088A"
 msgid "Kal Des Flam Ylem!"
-msgstr ""
+msgstr "Kal Des Flam Ylem！"
 
+# P13 batch 6
 #. said for ETHRSPEL (0585)
 msgctxt "bark 057C:088A"
 msgid "Kal Xen!"
-msgstr ""
+msgstr "Kal Xen！"
 
+# P13 batch 6
 #. said for ETHRSPEL (0585)
 msgctxt "bark 057C:088A"
 msgid "Who shall I destroy, Master? "
-msgstr ""
+msgstr "要我毀滅誰，主人？"
 
+# P13 batch 6
 #. said for ETHRSPEL (0585)
 msgctxt "bark 057C:088A"
 msgid "Yes, Master? "
-msgstr ""
+msgstr "是，主人？"
 
+# P13 batch 6
 #. said for ETHRSPEL (0585)
 msgctxt "bark 057C:088A"
 msgid "You will be my victim! "
-msgstr ""
+msgstr "你將成為我的犧牲品！"
 
+# P13 batch 6
 #. said for ETHRSPEL (0585)
 msgctxt "bark 057C:088A"
 msgid "Kal Vas Grav Corp!"
-msgstr ""
+msgstr "Kal Vas Grav Corp！"
 
+# P13 batch 6
 #. said for ETHRSPEL (0585)
 msgctxt "bark 057C:088A"
 msgid "Ort Grav Por!"
-msgstr ""
+msgstr "Ort Grav Por！"
 
+# P13 batch 6
 #. said for ETHRSPEL (0585)
 msgctxt "bark 057C:088A"
 msgid "In Vas Ort Corp!"
-msgstr ""
+msgstr "In Vas Ort Corp！"
 
+# P13 batch 6
 #. said for ETHRSPEL (0585)
 msgctxt "bark 057C:088A"
 msgid "What have I done? "
-msgstr ""
+msgstr "我做了什麼？"
 
+# P13 batch 6
 #. said for ERTHSPEL (0586)
 msgctxt "bark 057C:088A"
 msgid "Kal Corp Xen!"
-msgstr ""
+msgstr "Kal Corp Xen！"
 
+# P13 batch 6
 #. said for DAEMSCEN (058A)
 msgctxt "bark 057C:088A"
 msgid "AAAAAAAAUUUUUUUUGH! "
-msgstr ""
+msgstr "啊啊啊啊啊啊啊——！"
 
+# P13 batch 6
 #. said for DAEMSCEN (058A)
 msgctxt "bark 057C:088A"
 msgid "Aaaaauuuuuuugh! "
-msgstr ""
+msgstr "啊啊啊啊——！"
 
+# P13 batch 6
 #. said for DAEMSCEN (058A)
 msgctxt "bark 057C:088A"
 msgid "In Flam!"
-msgstr ""
+msgstr "In Flam！"
 
+# P13 batch 6
 #. said for DAEMSCEN (058A)
 msgctxt "bark 057C:088A"
 msgid "Kal Flam Bal Zen!"
-msgstr ""
+msgstr "Kal Flam Bal Zen！"
 
+# P13 batch 6
 #. said for DAEMSCEN (058A)
 msgctxt "bark 057C:088A"
 msgid "An Flam!"
-msgstr ""
+msgstr "An Flam！"
 
+# P13 batch 6
 #. said for CALGUARD (058B)
 msgctxt "bark 057C:088A"
 msgid "No, wait... I can explain! "
-msgstr ""
+msgstr "不，等等……我可以解釋！"
 
+# P13 batch 6
 #. said for CALGUARD (058B)
 msgctxt "bark 057C:088A"
 msgid "This one? "
-msgstr ""
+msgstr "這個？"
 
+# P13 batch 6
 #. said for ? (0596)
 msgctxt "bark 057C:088A"
 msgid "In Wis"
-msgstr ""
+msgstr "In Wis"
 
+# P13 batch 6
 #. said for ? (0596)
 msgctxt "bark 057C:088A"
 msgid "In Mani"
-msgstr ""
+msgstr "In Mani"
 
+# P13 batch 6
 #. said for ? (0596)
 msgctxt "bark 057C:088A"
 msgid "Kal Ort Xen"
-msgstr ""
+msgstr "Kal Ort Xen"
 
+# P13 batch 6
 #. said for ? (0596)
 msgctxt "bark 057C:088A"
 msgid "Vas In Mani"
-msgstr ""
+msgstr "Vas In Mani"
 
+# P13 batch 6
 #. said for ? (0596)
 msgctxt "bark 057C:088A"
 msgid "Quas An Lor"
-msgstr ""
+msgstr "Quas An Lor"
 
+# P13 batch 6
 #. said for ? (0596)
 msgctxt "bark 057C:088A"
 msgid "An Vas Hur Por"
-msgstr ""
+msgstr "An Vas Hur Por"
 
+# P13 batch 6
 #. said for ? (0596)
 msgctxt "bark 057C:088A"
 msgid "Vas Hur Por"
-msgstr ""
+msgstr "Vas Hur Por"
 
+# P13 batch 6
 #. said for ? (0596)
 msgctxt "bark 057C:088A"
 msgid "An Quas Lor"
-msgstr ""
+msgstr "An Quas Lor"
 
+# P13 batch 6
 #. said for ? (0596)
 msgctxt "bark 057C:088A"
 msgid "In Sanct An Jux"
-msgstr ""
+msgstr "In Sanct An Jux"
 
+# P13 batch 6
 #. said for ? (0596)
 msgctxt "bark 057C:088A"
 msgid "Ort Lor"
-msgstr ""
+msgstr "Ort Lor"

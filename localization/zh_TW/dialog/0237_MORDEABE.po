@@ -10,42 +10,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0237:00AF"
 msgid "Mordea's bed "
-msgstr ""
+msgstr "莫爾迪亞的床"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0237:00E7"
 msgid "Mordea the Tempest "
-msgstr ""
+msgstr "風暴使者莫爾迪亞"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0237:010D"
 msgid "Mordea"
-msgstr ""
+msgstr "莫爾迪亞"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0237:0135"
 msgid "Tempest "
-msgstr ""
+msgstr "風暴使者"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0237:015D"
 msgid "sleeping woman "
-msgstr ""
+msgstr "沉睡的女人"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 0237:032C"
 msgid "Who dares to awaken the Tempest! "
-msgstr ""
+msgstr "是誰竟敢吵醒風暴使者！"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 0237:0353"
 msgid "Ahhh, Sorry... "
-msgstr ""
+msgstr "啊，抱歉……"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 0237:0397"
 msgid "Sorry!?! Feel a touch of a Tempest's power! "
-msgstr ""
+msgstr "抱歉！？嘗嘗風暴使者的力量吧！"

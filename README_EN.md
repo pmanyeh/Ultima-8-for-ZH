@@ -20,20 +20,20 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 ## Translation progress
 
 <!-- progress:start -->
-**Overall (by English characters): `██████████████░░░░░░` 70.4%** (5,449 / 6,995 entries, updated 2026-10-09)
+**Overall (by English characters): `███████████████░░░░░` 76.1%** (6,692 / 6,995 entries, updated 2026-10-09)
 
 | Kind | Translated / total (entries) | English characters | Progress |
 |---|---|---|---|
-| Lines and item names | 3,738 / 4,827 | 375,375 | 92.0% |
-| Conversation answers | 1,672 / 1,863 | 36,829 | 95.4% |
+| Lines and item names | 4,800 / 4,827 | 375,375 | 99.7% |
+| Conversation answers | 1,820 / 1,863 | 36,829 | 99.7% |
 | Books | 1 / 87 | 116,622 | 0.2% |
 | Scrolls | 1 / 22 | 7,864 | 1.0% |
 | Gravestones | 2 / 67 | 2,609 | 1.1% |
 | Plaques | 2 / 63 | 1,410 | 2.3% |
-| Sentence pieces | 21 / 54 | 505 | 38.6% |
+| Sentence pieces | 54 / 54 | 505 | 100.0% |
 | Interface | 12 / 12 | 152 | 100.0% |
 
-Characters and scenes done: Aramina, Arcadion, Bane, Bane2, Basket, Bentic, Beren, Berenhch, Child, Obsidian coins, Corinth, Cyrrus, Devon, Execution scene, Fight, Food, Gorgrond, Gate guard, Guard10, Guard2, Guard3, Guard4, Guard5, Guard6, Guard7, Guard8, Guard9, Guardman, Guard_ew, Gwillim, Hydros, Jenna, Keyonec, Kilandra, Korick, Lithos, Malchir, Mordea, Morefish, Mythran, Orlok, Pent, Pesant1, Pesant2, Pesant3, Pyros, Rhian, Shaana, Stellos, Stratos, Tarna, Toran, Torwin, Vardion, Vardion2, Vividos, Winchns
+Characters and scenes done: Abacus, Agware, Airfocus, Altar, Altar_ew, Amostat, Anctones, Anvil, Aorta, Apastat, Appear, Aramina, Arcadion, Armguard, Armor, Axe, Axe2, Axeblade, Backpack, Bag, Bane, Bane2, Barentry, Barrel, Basebook, Basescrl, Basket, Bathstuf, Bellows, Benchew, Bentic, Beren, Berenhch, Bgate, Bigdemst, Bigugly, Bladstrk, Blankets, Boat, Bones, Bones2, Bones3, Bones4, Bookbloo, Bottle, Branches, Brock, Brokchar, Broken, Brokstf1, Bug, Burndout, Calguard, Campfire, Candlbra, Candle, Canopy, Canopyew, Canopytp, Cauldron, Chair, Chest_ew, Chest_ns, Child, Chimney, Chopblk, Cloth, Clothes, Clothing, Codew, Codns, Obsidian coins, Corinth, Cuffs, Cup, Cusion, Cyrrus, Daemspel, Dagger, Dagger2, Dart, Dartbord, Deadcloz, Deadew, Deadns, Deathdis, Deceiver, Demnstat, Demon, Deskew, Deskns, Deskpict, Devon, Door_ns, Dtable, Dummy, Ebrock, Endgate, Endgate2, Endhydro, Endlamp, Endlith, Endskul, Endstrat, Erthitem, Erthreag, Erthspel, Ethereag, Evilsorc, Ewbpaint, Ewcrops, Ewhollog, Ewlamptp, Ewshelf, Ewshfsid, Ewspaint, Execution scene, Eye, Fallrock, Fan, Febarsew, Febarsns, Fenalia, Fgrenade, Fight, Firefeld, Fireglob, Fireitem, Firepit, Fireplac, Fireplew, Fireplns, Firereag, Fireshld, Fireshro, Firespel, Fireswmp, Firewood, Fish, Fish2, Fishbonz, Fishnet, Fishpole, Flamstng, Flask, Floatin, Flour, Food, Free, Ftableew, Ftablens, Gargoyle, Gateskul, Gemofpro, Ghost, Ghosthed, Ghoul, Girlsstu, Golem, Gorgrond, Graveii, Grave_ew, Greentre, Grenade, Grimoire, Gate guard, Guard10, Guard2, Guard3, Guard4, Guard5, Guard6, Guard7, Guard8, Guard9, Guardman, Guard_ew, Gwillim, Hammer, Hamostr, Hay, Helmet, Hourglas, Hydros, Intern, Ironman, Jbox, Jenna, Jewelry, Jug, Kegew, Kegns, Key, Keyonec, Keyring, Kilandra, Kingbdew, Kingbdns, Kith, Korgfang, Korick, Lamp1, Lamp2, Lamp3, Lamppost, Lava, Lavasink, Layghoul, Lchst_ew, Lchst_ns, Legging, Legs, Lever, Lithos, Litlmush, Logbook2, Logbook3, Logbook4, Logo, Loom, Lothalt, Lothcorp, Lothlay, Mace, Mace2, Magarm, Magarmr2, Magarms, Maghelm, Maglegs, Magscrol, Magshld, Malchir, Marble, Method, Mir, Monfast, Mordea, Mordeabe, Mordstat, Morebrok, Morefish, Morefood, Move, Mushcap, Mushgrup, Mushroom, Mythran, Nec1, Nitstand, Nsbpaint, Nscrops, Nshollog, Nslamptp, Nsrunwod, Nsshelf, Nsshfsid, Nsspaint, Nssticks, Oaktblew, Oaktblns, Odistat, Offsup, Opnbdrol, Orlok, Oven, Pedestal, Pent, Pesant1, Pesant2, Pesant3, Plaqueew, Platefoo, Pole, Potion, Potplant, Potspans, Protectr, Pulchnew, Pulchnns, Pyros, Rainbarl, Rat, Recall, Rhian, Rope, Sabre, Schair, Scimitar, Scimokg, Screamer, Sgargl, Shaana, Shchimne, Shield, Shortmsh, Silvore, Sinking, Skeleton, Skulcand, Skullhea, Skulz, Slayer, Smalmush, Sorchat, Spelcmbt, Spider, Spiky, Spitter, Spout, Stalag, Statue, Statue1, Statuet, Stellos, Stmite, Stovpipe, Strathat, Stratos, Straw, Sword, Sword2, Tablware, Tallcand, Tankard, Tapestew, Tapestns, Tarna, Thurgist, Tomb, Toran, Torax, Torch, Tortchar, Tortrack, Torwin, Tossrock, Toys, Trap, Tree, Trialhat, Tring, Troll, Troodle, Troughew, Troughns, Trowel, Vanish, Vardion, Vardion2, Vase, Vivalter, Vivdagr, Vividos, Wallswit, Wardew, Wardns, Wbench, Well, Winchew, Winchns, Wool, Woundtor, Wtable, Wtableew, Wthrone, _
 <!-- progress:end -->
 
 The translation follows the story: the first batch is the opening (Devon → the execution on the docks of Tenebrae). Names and terms are kept consistent in the [authority file](localization/zh_TW/authority.tsv).

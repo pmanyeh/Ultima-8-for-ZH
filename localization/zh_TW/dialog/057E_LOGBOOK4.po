@@ -10,66 +10,82 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 msgctxt "bark 057E:00E1"
 msgid "There will be only one Tempest! "
-msgstr ""
+msgstr "風暴使者只能有一個！"
 
+# P13 batch 6
 msgctxt "bark 057E:010C"
 msgid "Then let it be so! "
-msgstr ""
+msgstr "那就這樣吧！"
 
+# P13 batch 6
 msgctxt "bark 057E:0157"
 msgid "Die, Devon! "
-msgstr ""
+msgstr "去死吧，戴文！"
 
+# P13 batch 6
 msgctxt "bark 057E:038D"
 msgid "Your evil must end, Mordea! "
-msgstr ""
+msgstr "你的罪惡必須結束，莫爾迪亞！"
 
+# P13 batch 6
 msgctxt "bark 057E:04D6"
 msgid "I will kill you! "
-msgstr ""
+msgstr "我要殺了你！"
 
+# P13 batch 6
 msgctxt "bark 057E:080C"
 msgid "May the Lurker welcome you... as she has your victims. "
-msgstr ""
+msgstr "願潛伏者迎接你……就像她迎接你的那些受害者一樣。"
 
+# P13 batch 6
 msgctxt "bark 057E:0847"
 msgid "Oh, my head! "
-msgstr ""
+msgstr "噢，我的頭！"
 
+# P13 batch 6
 msgctxt "bark 057E:0A85"
 msgid "Avatar! At long last Mordea's tyranical rule is over! "
-msgstr ""
+msgstr "聖者！莫爾迪亞的暴政終於結束了！"
 
+# P13 batch 6
 msgctxt "bark 057E:0AB9"
 msgid "Now, I must be the Tempest. "
-msgstr ""
+msgstr "現在，我必須成為風暴使者。"
 
+# P13 batch 6
 msgctxt "bark 057E:0B0B"
 msgid "I must use my powers to undo the evils of Mordea's reign. "
-msgstr ""
+msgstr "我必須用我的力量，消除莫爾迪亞統治時的種種罪惡。"
 
+# P13 batch 6
 msgctxt "bark 057E:0B5D"
 msgid "I make it my duty to bring prosperity to all of Tenebrae. "
-msgstr ""
+msgstr "我要以讓整個泰尼伯瑞繁榮昌盛為己任。"
 
+# P13 batch 6
 msgctxt "bark 057E:0BB7"
 msgid "Thanks to your efforts our fair city is free from her oppression. "
-msgstr ""
+msgstr "多虧了你的努力，我們美麗的城市才擺脫了她的壓迫。"
 
+# P13 batch 6
 msgctxt "bark 057E:0C27"
 msgid "Though I know your destiny lies elsewhere, you will always be welcome here in Tenebrae. "
-msgstr ""
+msgstr "雖然我知道你的命運在別處，但泰尼伯瑞永遠歡迎你。"
 
+# P13 batch 6
 msgctxt "bark 057E:0CB3"
 msgid "Now I must leave. I need time away from Tenebrae to contemplate all of the recent events. "
-msgstr ""
+msgstr "現在我得走了。我需要離開泰尼伯瑞一段時間，好好想想最近發生的一切。"
 
+# P13 batch 6
 msgctxt "bark 057E:0D12"
 msgid "I will return when the time is right and take my place as the Tempest. "
-msgstr ""
+msgstr "時機成熟時，我會回來接任風暴使者。"
 
+# P13 batch 6
 msgctxt "bark 057E:0D59"
 msgid "Goodbye, my friend. May our paths cross again. "
-msgstr ""
+msgstr "再見，朋友。願我們後會有期。"

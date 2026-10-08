@@ -10,205 +10,246 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 msgctxt "ask 057F"
 msgid "Devon is the rightful heir! "
-msgstr ""
+msgstr "戴文才是合法的繼承人！"
 
+# P13 batch 6
 msgctxt "ask 057F"
 msgid "The tyrant Mordea has no birthright! "
-msgstr ""
+msgstr "暴君莫爾迪亞根本沒有繼承權！"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "bark 057F:0150"
 msgid "Pardon? "
-msgstr ""
+msgstr "你說什麼？"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "bark 057F:0167"
 msgid "What? "
-msgstr ""
+msgstr "什麼？"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "bark 057F:017D"
 msgid "Huh? "
-msgstr ""
+msgstr "嗯？"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "bark 057F:0194"
 msgid "Ahhh? "
-msgstr ""
+msgstr "啊？"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "bark 057F:02E7"
 msgid "I should slay you right now for such heresy! "
-msgstr ""
+msgstr "說出這種異端邪說，我現在就該殺了你！"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "bark 057F:0333"
 msgid "Stay your hand, Darion. He'll soon feed the Lurker. "
-msgstr ""
+msgstr "住手，達里恩。他很快就會去餵潛伏者了。"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "bark 057F:036C"
 msgid "Yes, my lady. "
-msgstr ""
+msgstr "是，夫人。"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "bark 057F:0396"
 msgid "Me? A Tempest...? "
-msgstr ""
+msgstr "我？風暴使者……？"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "bark 057F:03D7"
 msgid "Avatar, this is not the time for levity. "
-msgstr ""
+msgstr "聖者，現在不是開玩笑的時候。"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "bark 057F:0414"
 msgid "Get on with it! "
-msgstr ""
+msgstr "快說重點！"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "bark 057F:043F"
 msgid "As you wish, my lady. "
-msgstr ""
+msgstr "遵命，夫人。"
 
+# P13 batch 6
 #. , after "Devon is the rightful heir! "
 msgctxt "ask 057F"
 msgid "I have proof! "
-msgstr ""
+msgstr "我有證據！"
 
+# P13 batch 6
 #. , after "The tyrant Mordea has no birthright! "
 msgctxt "bark 057F:0649"
 msgid "You shall not blaspheme the Tempest! "
-msgstr ""
+msgstr "不准你褻瀆風暴使者！"
 
+# P13 batch 6
 #. , after "The tyrant Mordea has no birthright! "
 msgctxt "bark 057F:067D"
 msgid "Sheath your weapon, Darion! "
-msgstr ""
+msgstr "把武器收起來，達里恩！"
 
+# P13 batch 6
 #. , after "The tyrant Mordea has no birthright! "
 msgctxt "bark 057F:06D7"
 msgid "I will rid us of this ill-mannered brute! "
-msgstr ""
+msgstr "我要除掉這個沒禮貌的粗人！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:08AA"
 msgid "I have a book that not only proves Devon is the rightful Tempest, "
-msgstr ""
+msgstr "我有一本書，不但證明戴文才是合法的風暴使者，"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0900"
 msgid "but also that his powers are stronger than those of Mordea's! "
-msgstr ""
+msgstr "還證明他的力量比莫爾迪亞更強！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:095E"
 msgid "Mordea and Devon have the same father, but Devon was the first birth! "
-msgstr ""
+msgstr "莫爾迪亞和戴文是同一個父親，但戴文是長子！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0992"
 msgid "He is the rightful Tempest! "
-msgstr ""
+msgstr "他才是合法的風暴使者！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:09DC"
 msgid "You lie! "
-msgstr ""
+msgstr "你說謊！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0A36"
 msgid "Mordea, I locked that book safely away! "
-msgstr ""
+msgstr "莫爾迪亞，我明明把那本書鎖得好好的！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0B00"
 msgid "Ooops! "
-msgstr ""
+msgstr "糟了！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0B57"
 msgid "Fool! Now the whole world knows the secret! "
-msgstr ""
+msgstr "蠢貨！現在全世界都知道這個祕密了！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0B9B"
 msgid "Forgive me, Lady Mordea! "
-msgstr ""
+msgstr "原諒我，莫爾迪亞夫人！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0BC2"
 msgid "I forgive you. "
-msgstr ""
+msgstr "我原諒你。"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0C7D"
 msgid "That must be the book Salkind kept hidden away in the evidence chamber! "
-msgstr ""
+msgstr "那一定是薩金德藏在證物室裡的那本書！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0CDF"
 msgid "That explains why he kept it locked in his secret study under the palace! "
-msgstr ""
+msgstr "難怪他把它鎖在宮殿底下的祕密書房裡！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0E76"
 msgid "Yes! Devon -is- the rightful heir to the throne! "
-msgstr ""
+msgstr "沒錯！戴文「才是」王位的合法繼承人！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0EB0"
 msgid "But the truth will serve him not! "
-msgstr ""
+msgstr "但真相救不了他！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0EFD"
 msgid "His head will still rest in the belly of the Lurker! "
-msgstr ""
+msgstr "他的頭照樣會躺在潛伏者的肚子裡！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0F46"
 msgid "Proceed with the execution! "
-msgstr ""
+msgstr "繼續行刑！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0F77"
 msgid "No! "
-msgstr ""
+msgstr "不！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0FAB"
 msgid "No? Do you dare to defy me? "
-msgstr ""
+msgstr "不？你竟敢違抗我？"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:0FE6"
 msgid "I will not execute the true Tempest! "
-msgstr ""
+msgstr "我不會處決真正的風暴使者！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:10D1"
 msgid "Darion, do you defy me too? "
-msgstr ""
+msgstr "達里恩，你也要違抗我嗎？"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:111A"
 msgid "I cannot kill him, my Lady. He is -the- Tempest. "
-msgstr ""
+msgstr "我不能殺他，夫人。他「才是」風暴使者。"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:1256"
 msgid "If that is how it must be, you will all suffer my wrath! "
-msgstr ""
+msgstr "既然如此，你們全都要承受我的怒火！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:12AC"
 msgid "Foolish brother! You think your powers are greater than mine! "
-msgstr ""
+msgstr "愚蠢的哥哥！你以為你的力量比我強！"
 
+# P13 batch 6
 #. , after "I have proof! "
 msgctxt "bark 057F:12F9"
 msgid "Use them if you dare... To save your miserable life! "
-msgstr ""
+msgstr "有種就用啊……救救你那條可憐的命吧！"

@@ -10,58 +10,72 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 msgctxt "bark 0580:043A"
 msgid "...And for treasonous plots against the fair Lady Mordea... "
-msgstr ""
+msgstr "……以及密謀叛逆，危害美麗的莫爾迪亞夫人……"
 
+# P13 batch 6
 msgctxt "bark 0580:0491"
 msgid "...And for treasonous plots against the fair Lady Mordea... "
-msgstr ""
+msgstr "……以及密謀叛逆，危害美麗的莫爾迪亞夫人……"
 
+# P13 batch 6
 msgctxt "bark 0580:04F5"
 msgid "Hail, Lady Mordea! "
-msgstr ""
+msgstr "參見莫爾迪亞夫人！"
 
+# P13 batch 6
 msgctxt "bark 0580:05C8"
 msgid "We bring you a thief! "
-msgstr ""
+msgstr "我們帶來一個小偷！"
 
+# P13 batch 6
 msgctxt "bark 0580:06A4"
 msgid "Watch it! "
-msgstr ""
+msgstr "小心點！"
 
+# P13 batch 6
 msgctxt "bark 0580:0753"
 msgid "We caught him breaking into the evidence chamber! "
-msgstr ""
+msgstr "我們抓到他闖進證物室！"
 
+# P13 batch 6
 msgctxt "bark 0580:0776"
 msgid "Well done! "
-msgstr ""
+msgstr "做得好！"
 
+# P13 batch 6
 msgctxt "bark 0580:07B6"
 msgid "The block always welcomes another neck. "
-msgstr ""
+msgstr "斬首木墩永遠歡迎多一個脖子。"
 
+# P13 batch 6
 msgctxt "bark 0580:07F5"
 msgid "I am sorry to see you here, my friend. "
-msgstr ""
+msgstr "很遺憾在這裡見到你，朋友。"
 
+# P13 batch 6
 msgctxt "bark 0580:083F"
 msgid "It appears we will both become victims of Mordea. "
-msgstr ""
+msgstr "看來我們都要成為莫爾迪亞的犧牲品了。"
 
+# P13 batch 6
 msgctxt "bark 0580:085E"
 msgid "Please... "
-msgstr ""
+msgstr "拜託……"
 
+# P13 batch 6
 msgctxt "bark 0580:0993"
 msgid "Yes, yes, we must attend to Devon's beheading first! "
-msgstr ""
+msgstr "好，好，我們得先處理戴文的斬首！"
 
+# P13 batch 6
 msgctxt "bark 0580:0A5E"
 msgid "Goodbye, my friend. "
-msgstr ""
+msgstr "再見，朋友。"
 
+# P13 batch 6
 msgctxt "bark 0580:0A96"
 msgid "May Lithos forgive our spirits. "
-msgstr ""
+msgstr "願利索斯寬恕我們的靈魂。"

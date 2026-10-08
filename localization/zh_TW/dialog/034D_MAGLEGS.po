@@ -10,7 +10,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 034D:00A2"
 msgid "magic leggings "
-msgstr ""
+msgstr "魔法護腿"

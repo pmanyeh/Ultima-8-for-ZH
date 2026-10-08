@@ -10,7 +10,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 07 (hatch)
 msgctxt "bark 04A6:013C"
 msgid "Do not be so foolish as to think you have the power to defeat me! "
-msgstr ""
+msgstr "別蠢到以為你有力量打敗我！"

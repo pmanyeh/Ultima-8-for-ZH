@@ -10,47 +10,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0254:00B4"
 msgid "gemstone ring "
-msgstr ""
+msgstr "寶石戒指"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0254:00E7"
 msgid "gemstone necklace "
-msgstr ""
+msgstr "寶石項鍊"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0254:0115"
 msgid "amethyst gem "
-msgstr ""
+msgstr "紫水晶"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0254:0143"
 msgid "dark diamond "
-msgstr ""
+msgstr "暗鑽石"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0254:0170"
 msgid "stone amber "
-msgstr ""
+msgstr "琥珀石"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0254:019E"
 msgid "dancing ruby "
-msgstr ""
+msgstr "躍動紅寶石"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0254:01D2"
 msgid "obsidian starstone "
-msgstr ""
+msgstr "黑曜星石"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0254:0202"
 msgid "bright diamond "
-msgstr ""
+msgstr "亮鑽石"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0254:0223"
 msgid "jewelry "
-msgstr ""
+msgstr "珠寶"

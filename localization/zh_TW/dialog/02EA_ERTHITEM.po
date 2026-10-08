@@ -10,52 +10,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02EA:00B2"
 msgid "Death Speak "
-msgstr ""
+msgstr "與亡者交談"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02EA:00E1"
 msgid "Mask of Death "
-msgstr ""
+msgstr "死亡面具"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02EA:010D"
 msgid "Rock Flesh "
-msgstr ""
+msgstr "岩石之膚"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02EA:013A"
 msgid "Summon Dead "
-msgstr ""
+msgstr "召喚亡者"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02EA:0167"
 msgid "Open Ground "
-msgstr ""
+msgstr "裂地術"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02EA:0195"
 msgid "Create Golem "
-msgstr ""
+msgstr "創造魔像"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02EA:01C6"
 msgid "Withstand Death "
-msgstr ""
+msgstr "抵禦死亡"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02EA:01F3"
 msgid "Grant Peace "
-msgstr ""
+msgstr "賜予安息"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02EA:021F"
 msgid "Call Quake "
-msgstr ""
+msgstr "引發地震"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02EA:024E"
 msgid "Meteor Shower "
-msgstr ""
+msgstr "流星雨"

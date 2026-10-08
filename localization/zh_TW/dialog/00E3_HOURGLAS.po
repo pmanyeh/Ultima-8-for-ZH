@@ -10,47 +10,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00E3:0149"
 msgid "clock "
-msgstr ""
+msgstr "時鐘"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E3:0282"
 msgid "This clock is broken "
-msgstr ""
+msgstr "這個時鐘壞了"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E3:0282"
 msgid "The time is now Bloodwatch."
-msgstr ""
+msgstr "現在是血巡守。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E3:0282"
 msgid "The time is now FirstEbb."
-msgstr ""
+msgstr "現在是初退潮。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E3:0282"
 msgid "The time is now DayTide."
-msgstr ""
+msgstr "現在是晝潮。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E3:0282"
 msgid "The time is now ThreeMoons."
-msgstr ""
+msgstr "現在是三月時。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E3:0282"
 msgid "The time is now LastEbb."
-msgstr ""
+msgstr "現在是終退潮。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E3:0282"
 msgid "The time is now EvenTide."
-msgstr ""
+msgstr "現在是暮潮。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E3:0282"
 msgid "The time is now "
-msgstr ""
+msgstr "現在是"

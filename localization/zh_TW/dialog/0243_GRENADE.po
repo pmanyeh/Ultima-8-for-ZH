@@ -10,12 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0243:00C5"
 msgid "lit flask of oil "
-msgstr ""
+msgstr "點燃的油瓶"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0243:00EB"
 msgid "flask of oil "
-msgstr ""
+msgstr "油瓶"

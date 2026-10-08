@@ -10,74 +10,92 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 msgctxt "bark 058B:017C"
 msgid "Knave, I find you guilty of theft. "
-msgstr ""
+msgstr "無賴，我判你偷竊罪成立。"
 
+# P13 batch 6
 msgctxt "bark 058B:01BC"
 msgid "Knave, I find you guilty of assault. "
-msgstr ""
+msgstr "無賴，我判你傷害罪成立。"
 
+# P13 batch 6
 msgctxt "bark 058B:021C"
 msgid "And so... I sentence you to death. "
-msgstr ""
+msgstr "因此……我判你死刑。"
 
+# P13 batch 6
 msgctxt "bark 058B:0297"
 msgid "I call upon the power of the Cabal and consign you to the flames! "
-msgstr ""
+msgstr "我召喚密謀會的力量，將你交付烈焰！"
 
+# P13 batch 6
 msgctxt "bark 058B:0710"
 msgid "What foul deed is this? "
-msgstr ""
+msgstr "這是什麼惡行？"
 
+# P13 batch 6
 msgctxt "bark 058B:075A"
 msgid "You did this! "
-msgstr ""
+msgstr "是你幹的！"
 
+# P13 batch 6
 msgctxt "bark 058B:07ED"
 msgid "Knave, I find you guilty of murder. "
-msgstr ""
+msgstr "無賴，我判你謀殺罪成立。"
 
+# P13 batch 6
 msgctxt "bark 058B:0856"
 msgid "What seems to be the problem? "
-msgstr ""
+msgstr "出了什麼問題？"
 
+# P13 batch 6
 msgctxt "bark 058B:08E5"
 msgid "This person is a thief! "
-msgstr ""
+msgstr "這個人是小偷！"
 
+# P13 batch 6
 msgctxt "bark 058B:0917"
 msgid "This person attacked me! "
-msgstr ""
+msgstr "這個人攻擊我！"
 
+# P13 batch 6
 msgctxt "bark 058B:094D"
 msgid "That person is a thief! "
-msgstr ""
+msgstr "那個人是小偷！"
 
+# P13 batch 6
 msgctxt "bark 058B:097F"
 msgid "That person attacked me! "
-msgstr ""
+msgstr "那個人攻擊我！"
 
+# P13 batch 6
 msgctxt "bark 058B:0A76"
 msgid "Yes. What are you going to do about it? "
-msgstr ""
+msgstr "是啊。你打算怎麼辦？"
 
+# P13 batch 6
 msgctxt "bark 058B:0ABA"
 msgid "Fear not. I shall take care of this matter. "
-msgstr ""
+msgstr "別擔心。這件事交給我處理。"
 
+# P13 batch 6
 msgctxt "bark 058B:0AFA"
 msgid "Knave, I find you guilty of theft. "
-msgstr ""
+msgstr "無賴，我判你偷竊罪成立。"
 
+# P13 batch 6
 msgctxt "bark 058B:0B3A"
 msgid "Knave, I find you guilty of assault. "
-msgstr ""
+msgstr "無賴，我判你傷害罪成立。"
 
+# P13 batch 6
 msgctxt "bark 058B:0B75"
 msgid "And so... I sentence you to death. "
-msgstr ""
+msgstr "因此……我判你死刑。"
 
+# P13 batch 6
 msgctxt "bark 058B:0BF0"
 msgid "I call upon the power of the Cabal and consign you to the flames! "
-msgstr ""
+msgstr "我召喚密謀會的力量，將你交付烈焰！"

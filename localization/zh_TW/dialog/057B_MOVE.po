@@ -10,6 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 msgctxt "bark 057B:016C"
 msgid "Greetings Disciple. "
-msgstr ""
+msgstr "你好，門徒。"

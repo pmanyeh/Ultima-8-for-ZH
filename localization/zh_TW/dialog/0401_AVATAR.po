@@ -10,683 +10,817 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Demo"
-msgstr ""
+msgstr "示範"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Spell Book"
-msgstr ""
+msgstr "魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Information"
-msgstr ""
+msgstr "資訊"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Enemy Caster"
-msgstr ""
+msgstr "敵方施法者"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Time"
-msgstr ""
+msgstr "時間"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Key"
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Staff"
-msgstr ""
+msgstr "法杖"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Call Guards"
-msgstr ""
+msgstr "呼叫衛兵"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Blow up!"
-msgstr ""
+msgstr "炸掉！"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Kill me"
-msgstr ""
+msgstr "殺了我"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "EndGame"
-msgstr ""
+msgstr "結局"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Jump ahead."
-msgstr ""
+msgstr "跳關。"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "ask 0401"
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
+# P13 batch 6
 #. event 00 (look), after "Create"
 #. answer compared by the conversation code
 msgctxt "ask 0401"
 msgid "Create"
-msgstr ""
+msgstr "建立"
 
+# P13 batch 6
 #. event 00 (look), after "Create"
 msgctxt "bark 0401:0207"
 msgid "Enter type number. (2-851 are valid) "
-msgstr ""
+msgstr "輸入類型編號。（有效範圍 2-851）"
 
+# P13 batch 6
 #. event 00 (look), after "Create"
 msgctxt "bark 0401:0243"
 msgid "Enter frame number. "
-msgstr ""
+msgstr "輸入影格編號。"
 
+# P13 batch 6
 #. event 00 (look), after "Create"
 msgctxt "bark 0401:0289"
 msgid "Default quality and quantity? "
-msgstr ""
+msgstr "使用預設品質與數量？"
 
+# P13 batch 6
 #. event 00 (look), after "Create"
 msgctxt "bark 0401:02D1"
 msgid "Enter quality. "
-msgstr ""
+msgstr "輸入品質。"
 
+# P13 batch 6
 #. event 00 (look), after "Create"
 msgctxt "bark 0401:0309"
 msgid "Enter quantity. "
-msgstr ""
+msgstr "輸入數量。"
 
+# P13 batch 6
 #. event 00 (look), after "Create"
 msgctxt "bark 0401:035C"
 msgid "Select target to create item near. "
-msgstr ""
+msgstr "選擇要在哪個目標旁建立物品。"
 
+# P13 batch 6
 #. event 00 (look), after "Create"
 msgctxt "bark 0401:03C8"
 msgid "Create failed. "
-msgstr ""
+msgstr "建立失敗。"
 
+# P13 batch 6
 #. event 00 (look), after "EndGame"
 msgctxt "ask 0401"
 msgid "Create Blackrock Fragments"
-msgstr ""
+msgstr "建立黑石碎片"
 
+# P13 batch 6
 #. event 00 (look), after "EndGame"
 msgctxt "ask 0401"
 msgid "Create Energized Fragments"
-msgstr ""
+msgstr "建立充能碎片"
 
+# P13 batch 6
 #. event 00 (look), after "EndGame"
 msgctxt "ask 0401"
 msgid "Nevermind"
-msgstr ""
+msgstr "算了"
 
+# P13 batch 6
 #. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "Run Pyros"
-msgstr ""
+msgstr "執行派羅斯"
 
+# P13 batch 6
 #. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "Run Daemon"
-msgstr ""
+msgstr "執行惡魔"
 
+# P13 batch 6
 #. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "After Daemon"
-msgstr ""
+msgstr "惡魔之後"
 
+# P13 batch 6
 #. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "Make Symbols"
-msgstr ""
+msgstr "製作符印"
 
+# P13 batch 6
 #. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "Pyros"
-msgstr ""
+msgstr "派羅斯"
 
+# P13 batch 6
 #. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "Malchir Death"
-msgstr ""
+msgstr "馬爾奇爾之死"
 
+# P13 batch 6
 #. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "Stratos"
-msgstr ""
+msgstr "史特拉托斯"
 
+# P13 batch 6
 #. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "Execution"
-msgstr ""
+msgstr "處決"
 
+# P13 batch 6
 #. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "Casting"
-msgstr ""
+msgstr "施法"
 
+# P13 batch 6
 #. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "Guardian"
-msgstr ""
+msgstr "守護者"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "bark 0401:0977"
 msgid "Item is invalid. "
-msgstr ""
+msgstr "物品無效。"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "bark 0401:09B1"
 msgid "Item is not an Npc. "
-msgstr ""
+msgstr "物品不是 NPC。"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "bark 0401:09F7"
 msgid "Npc is not a mage. "
-msgstr ""
+msgstr "NPC 不是法師。"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "ask 0401"
 msgid "Enter Cast"
-msgstr ""
+msgstr "進入施法"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "ask 0401"
 msgid "Turn"
-msgstr ""
+msgstr "轉向"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "ask 0401"
 msgid "North"
-msgstr ""
+msgstr "北"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "ask 0401"
 msgid "Northeast"
-msgstr ""
+msgstr "東北"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "ask 0401"
 msgid "East"
-msgstr ""
+msgstr "東"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "ask 0401"
 msgid "Southeast"
-msgstr ""
+msgstr "東南"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "ask 0401"
 msgid "South"
-msgstr ""
+msgstr "南"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "ask 0401"
 msgid "Southwest"
-msgstr ""
+msgstr "西南"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "ask 0401"
 msgid "West"
-msgstr ""
+msgstr "西"
 
+# P13 batch 6
 #. event 00 (look), after "Casting"
 msgctxt "ask 0401"
 msgid "Northwest"
-msgstr ""
+msgstr "西北"
 
+# P13 batch 6
 #. event 00 (look), after "Enter Cast"
 msgctxt "ask 0401"
 msgid "Exit Cast"
-msgstr ""
+msgstr "離開施法"
 
+# P13 batch 6
 #. event 00 (look), after "Enter Cast"
 msgctxt "ask 0401"
 msgid "Cast One"
-msgstr ""
+msgstr "施法一"
 
+# P13 batch 6
 #. event 00 (look), after "Enter Cast"
 msgctxt "ask 0401"
 msgid "Cast Two"
-msgstr ""
+msgstr "施法二"
 
+# P13 batch 6
 #. event 00 (look), after "Enter Cast"
 msgctxt "ask 0401"
 msgid "Cast Three"
-msgstr ""
+msgstr "施法三"
 
+# P13 batch 6
 #. event 00 (look), after "Run Pyros"
 msgctxt "ask 0401"
 msgid "Bane dead"
-msgstr ""
+msgstr "貝恩死亡"
 
+# P13 batch 6
 #. event 00 (look), after "Run Pyros"
 msgctxt "ask 0401"
 msgid "Vardion dead"
-msgstr ""
+msgstr "瓦爾迪恩死亡"
 
+# P13 batch 6
 #. event 00 (look), after "After Daemon"
 msgctxt "ask 0401"
 msgid "Bane won."
-msgstr ""
+msgstr "貝恩勝。"
 
+# P13 batch 6
 #. event 00 (look), after "After Daemon"
 msgctxt "ask 0401"
 msgid "Vardion won."
-msgstr ""
+msgstr "瓦爾迪恩勝。"
 
+# P13 batch 6
 #. event 00 (look), after "Vardion won."
 msgctxt "bark 0401:0F6B"
 msgid "Done! "
-msgstr ""
+msgstr "完成！"
 
+# P13 batch 6
 #. event 00 (look), after "Run Daemon"
 msgctxt "bark 0401:0FD3"
 msgid "Done! "
-msgstr ""
+msgstr "完成！"
 
+# P13 batch 6
 #. event 00 (look), after "Destroy"
 #. answer compared by the conversation code
 msgctxt "ask 0401"
 msgid "Destroy"
-msgstr ""
+msgstr "摧毀"
 
+# P13 batch 6
 #. event 00 (look), after "Destroy"
 msgctxt "bark 0401:122F"
 msgid "Select the Avatar to exit delete mode. "
-msgstr ""
+msgstr "選擇聖者以離開刪除模式。"
 
+# P13 batch 6
 #. event 00 (look), after "Destroy"
 msgctxt "bark 0401:1297"
 msgid "Destroy failed : item is Npc. "
-msgstr ""
+msgstr "摧毀失敗：物品是 NPC。"
 
+# P13 batch 6
 #. event 00 (look), after "Destroy"
 msgctxt "bark 0401:12CA"
 msgid "Destroy failed : No item. "
-msgstr ""
+msgstr "摧毀失敗：沒有物品。"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "bark 0401:1365"
 msgid "Spell caster must be an Npc. "
-msgstr ""
+msgstr "施法者必須是 NPC。"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "bark 0401:13AF"
 msgid "Spell caster may not be the Avatar. "
-msgstr ""
+msgstr "施法者不能是聖者。"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "bark 0401:13FC"
 msgid "Spell caster must be a Sorcerer. "
-msgstr ""
+msgstr "施法者必須是巫師。"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Ignite"
-msgstr ""
+msgstr "點燃術"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Extinguish"
-msgstr ""
+msgstr "熄火術"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Flame Bolt"
-msgstr ""
+msgstr "烈焰箭"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Endure Heat"
-msgstr ""
+msgstr "耐熱術"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Fire Shield"
-msgstr ""
+msgstr "火焰護盾"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Armor Of Flames"
-msgstr ""
+msgstr "烈焰護甲"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Create Fire"
-msgstr ""
+msgstr "造火術"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Explosion"
-msgstr ""
+msgstr "爆炸術"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Summon Daemon"
-msgstr ""
+msgstr "召喚惡魔"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Banish Daemon"
-msgstr ""
+msgstr "驅逐惡魔"
 
+# P13 batch 6
 #. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Conflagration"
-msgstr ""
+msgstr "烈焰焚燒"
 
+# P13 batch 6
 #. event 00 (look), after "Spell Book"
 msgctxt "ask 0401"
 msgid "Earth"
-msgstr ""
+msgstr "土"
 
+# P13 batch 6
 #. event 00 (look), after "Spell Book"
 msgctxt "ask 0401"
 msgid "Air"
-msgstr ""
+msgstr "風"
 
+# P13 batch 6
 #. event 00 (look), after "Spell Book"
 msgctxt "ask 0401"
 msgid "Fire"
-msgstr ""
+msgstr "火"
 
+# P13 batch 6
 #. event 00 (look), after "Spell Book"
 msgctxt "ask 0401"
 msgid "Ether"
-msgstr ""
+msgstr "以太"
 
+# P13 batch 6
 #. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Death Speak"
-msgstr ""
+msgstr "與亡者交談"
 
+# P13 batch 6
 #. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Mask of Death"
-msgstr ""
+msgstr "死亡面具"
 
+# P13 batch 6
 #. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Rock Flesh"
-msgstr ""
+msgstr "岩石之膚"
 
+# P13 batch 6
 #. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Summon Undead"
-msgstr ""
+msgstr "召喚不死者"
 
+# P13 batch 6
 #. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Open Ground"
-msgstr ""
+msgstr "裂地術"
 
+# P13 batch 6
 #. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Create Golem"
-msgstr ""
+msgstr "創造魔像"
 
+# P13 batch 6
 #. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Withstand Death"
-msgstr ""
+msgstr "抵禦死亡"
 
+# P13 batch 6
 #. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Grant Peace"
-msgstr ""
+msgstr "賜予安息"
 
+# P13 batch 6
 #. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Call Quake"
-msgstr ""
+msgstr "引發地震"
 
+# P13 batch 6
 #. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Meteor Shower"
-msgstr ""
+msgstr "流星雨"
 
+# P13 batch 6
 #. event 00 (look), after "Water"
 #. answer compared by the conversation code
 msgctxt "ask 0401"
 msgid "Water"
-msgstr ""
+msgstr "水"
 
+# P13 batch 6
 #. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Divination"
-msgstr ""
+msgstr "占卜術"
 
+# P13 batch 6
 #. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Healing Touch"
-msgstr ""
+msgstr "治癒之觸"
 
+# P13 batch 6
 #. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Aerial Servant"
-msgstr ""
+msgstr "風之僕役"
 
+# P13 batch 6
 #. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Restortation"
-msgstr ""
+msgstr "復原術"
 
+# P13 batch 6
 #. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Fade From Sight"
-msgstr ""
+msgstr "隱匿行蹤"
 
+# P13 batch 6
 #. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Air Walk"
-msgstr ""
+msgstr "輕風漫步"
 
+# P13 batch 6
 #. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Hear Truth"
-msgstr ""
+msgstr "聆聽真言"
 
+# P13 batch 6
 #. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Intervention"
-msgstr ""
+msgstr "庇佑之光"
 
+# P13 batch 6
 #. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Reveal"
-msgstr ""
+msgstr "現形術"
 
+# P13 batch 6
 #. event 00 (look), after "Fire"
 msgctxt "ask 0401"
 msgid "Offense"
-msgstr ""
+msgstr "攻擊"
 
+# P13 batch 6
 #. event 00 (look), after "Fire"
 msgctxt "ask 0401"
 msgid "Defense and Other"
-msgstr ""
+msgstr "防禦與其他"
 
+# P13 batch 6
 #. event 00 (look), after "Defense and Other"
 msgctxt "ask 0401"
 msgid "Flash"
-msgstr ""
+msgstr "閃光術"
 
+# P13 batch 6
 #. event 00 (look), after "Ether"
 msgctxt "ask 0401"
 msgid "Confusion Blast"
-msgstr ""
+msgstr "混亂衝擊"
 
+# P13 batch 6
 #. event 00 (look), after "Ether"
 msgctxt "ask 0401"
 msgid "Summon Creature"
-msgstr ""
+msgstr "召喚生物"
 
+# P13 batch 6
 #. event 00 (look), after "Ether"
 msgctxt "ask 0401"
 msgid "Death Blast"
-msgstr ""
+msgstr "死亡衝擊"
 
+# P13 batch 6
 #. event 00 (look), after "Ether"
 msgctxt "ask 0401"
 msgid "Call Destruction"
-msgstr ""
+msgstr "呼喚毀滅"
 
+# P13 batch 6
 #. event 00 (look), after "Ether"
 msgctxt "ask 0401"
 msgid "Etherial Travel"
-msgstr ""
+msgstr "以太漫遊"
 
+# P13 batch 6
 #. event 00 (look), after "Ether"
 msgctxt "ask 0401"
 msgid "Devastation"
-msgstr ""
+msgstr "浩劫術"
 
+# P13 batch 6
 #. event 00 (look), after "Give"
 #. answer compared by the conversation code
 msgctxt "ask 0401"
 msgid "Give"
-msgstr ""
+msgstr "給予"
 
+# P13 batch 6
 #. event 00 (look), after "Give"
 msgctxt "bark 0401:257D"
 msgid "Enter type number. "
-msgstr ""
+msgstr "輸入類型編號。"
 
+# P13 batch 6
 #. event 00 (look), after "Give"
 msgctxt "bark 0401:25B9"
 msgid "Enter frame number. "
-msgstr ""
+msgstr "輸入影格編號。"
 
+# P13 batch 6
 #. event 00 (look), after "Give"
 msgctxt "bark 0401:25FF"
 msgid "Default quality and quantity? "
-msgstr ""
+msgstr "使用預設品質與數量？"
 
+# P13 batch 6
 #. event 00 (look), after "Give"
 msgctxt "bark 0401:2647"
 msgid "Enter quality. "
-msgstr ""
+msgstr "輸入品質。"
 
+# P13 batch 6
 #. event 00 (look), after "Give"
 msgctxt "bark 0401:267F"
 msgid "Enter quantity. "
-msgstr ""
+msgstr "輸入數量。"
 
+# P13 batch 6
 #. event 00 (look), after "Give"
 msgctxt "bark 0401:26CC"
 msgid "Select container to give item(s) to. "
-msgstr ""
+msgstr "選擇要放入物品的容器。"
 
+# P13 batch 6
 #. event 00 (look), after "Give"
 msgctxt "bark 0401:2727"
 msgid "Item(s) given. "
-msgstr ""
+msgstr "物品已給予。"
 
+# P13 batch 6
 #. event 00 (look), after "Give"
 msgctxt "bark 0401:2754"
 msgid "Can't give item(s). "
-msgstr ""
+msgstr "無法給予物品。"
 
+# P13 batch 6
 #. event 00 (look), after "Give"
 msgctxt "bark 0401:277E"
 msgid "Not a container. "
-msgstr ""
+msgstr "不是容器。"
 
+# P13 batch 6
 #. event 00 (look), after "Contents"
 #. answer compared by the conversation code
 msgctxt "ask 0401"
 msgid "Contents"
-msgstr ""
+msgstr "內容物"
 
+# P13 batch 6
 #. event 00 (look), after "Contents"
 msgctxt "bark 0401:27AE"
 msgid "Avatar: "
-msgstr ""
+msgstr "聖者："
 
+# P13 batch 6
 #. event 00 (look), after "Contents"
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0401:27ED"
 msgid "{num} "
-msgstr ""
+msgstr "{num}"
 
+# P13 batch 6
 #. event 00 (look), after "Contents"
 msgctxt "bark 0401:283D"
 msgid "Backpack not equipped! "
-msgstr ""
+msgstr "沒有裝備背包！"
 
+# P13 batch 6
 #. event 00 (look), after "Contents"
 msgctxt "bark 0401:2873"
 msgid "Backpack: "
-msgstr ""
+msgstr "背包："
 
+# P13 batch 6
 #. event 00 (look), after "Contents"
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0401:28B2"
 msgid "{num} "
-msgstr ""
+msgstr "{num}"
 
+# P13 batch 6
 #. event 00 (look), after "Take"
 #. answer compared by the conversation code
 msgctxt "ask 0401"
 msgid "Take"
-msgstr ""
+msgstr "取出"
 
+# P13 batch 6
 #. event 00 (look), after "Take"
 msgctxt "bark 0401:28ED"
 msgid "Enter type number. "
-msgstr ""
+msgstr "輸入類型編號。"
 
+# P13 batch 6
 #. event 00 (look), after "Take"
 msgctxt "bark 0401:2929"
 msgid "Enter frame number. "
-msgstr ""
+msgstr "輸入影格編號。"
 
+# P13 batch 6
 #. event 00 (look), after "Take"
 msgctxt "bark 0401:296F"
 msgid "Default quality and quantity? "
-msgstr ""
+msgstr "使用預設品質與數量？"
 
+# P13 batch 6
 #. event 00 (look), after "Take"
 msgctxt "bark 0401:29B7"
 msgid "Enter quality. "
-msgstr ""
+msgstr "輸入品質。"
 
+# P13 batch 6
 #. event 00 (look), after "Take"
 msgctxt "bark 0401:29EF"
 msgid "Enter quantity. "
-msgstr ""
+msgstr "輸入數量。"
 
+# P13 batch 6
 #. event 00 (look), after "Take"
 msgctxt "bark 0401:2A3E"
 msgid "Select container to take item(s) from. "
-msgstr ""
+msgstr "選擇要取出物品的容器。"
 
+# P13 batch 6
 #. event 00 (look), after "Take"
 msgctxt "bark 0401:2A99"
 msgid "Item(s) taken. "
-msgstr ""
+msgstr "物品已取出。"
 
+# P13 batch 6
 #. event 00 (look), after "Take"
 msgctxt "bark 0401:2AC6"
 msgid "Can't take item(s). "
-msgstr ""
+msgstr "無法取出物品。"
 
+# P13 batch 6
 #. event 00 (look), after "Take"
 msgctxt "bark 0401:2AF0"
 msgid "Not a container. "
-msgstr ""
+msgstr "不是容器。"
 
 #. event 00 (look), after "Information"
 #. sentence template: keep the {placeholders}
@@ -736,95 +870,113 @@ msgctxt "bark 0401:2CE5"
 msgid "Map number: {num}~X: {num},~Y: {num},~Z: {num},*Type num: {num},~Frame: {num} "
 msgstr ""
 
+# P13 batch 6
 #. event 00 (look), after "Information"
 msgctxt "bark 0401:2D0E"
 msgid "Not a valid item. "
-msgstr ""
+msgstr "不是有效的物品。"
 
+# P13 batch 6
 #. event 00 (look), after "Time"
 msgctxt "bark 0401:2D4D"
 msgid "Bloodwatch "
-msgstr ""
+msgstr "血巡守"
 
+# P13 batch 6
 #. event 00 (look), after "Time"
 msgctxt "bark 0401:2D77"
 msgid "Firstebb "
-msgstr ""
+msgstr "初退潮"
 
+# P13 batch 6
 #. event 00 (look), after "Time"
 msgctxt "bark 0401:2DA0"
 msgid "Daytide "
-msgstr ""
+msgstr "晝潮"
 
+# P13 batch 6
 #. event 00 (look), after "Time"
 msgctxt "bark 0401:2DCC"
 msgid "Threemoons "
-msgstr ""
+msgstr "三月時"
 
+# P13 batch 6
 #. event 00 (look), after "Time"
 msgctxt "bark 0401:2DF5"
 msgid "Lastebb "
-msgstr ""
+msgstr "終退潮"
 
+# P13 batch 6
 #. event 00 (look), after "Time"
 msgctxt "bark 0401:2E1F"
 msgid "Eventide "
-msgstr ""
+msgstr "暮潮"
 
+# P13 batch 6
 #. event 00 (look), after "Key"
 msgctxt "bark 0401:2E8A"
 msgid "You no longer have the key. "
-msgstr ""
+msgstr "你不再擁有鑰匙。"
 
+# P13 batch 6
 #. event 00 (look), after "Key"
 msgctxt "bark 0401:2EC6"
 msgid "You now have the key. "
-msgstr ""
+msgstr "你現在擁有鑰匙。"
 
+# P13 batch 6
 #. event 00 (look), after "Staff"
 msgctxt "bark 0401:2F14"
 msgid "You haven't returned the staff. "
-msgstr ""
+msgstr "你還沒歸還法杖。"
 
+# P13 batch 6
 #. event 00 (look), after "Staff"
 msgctxt "bark 0401:2F56"
 msgid "You have returned the staff. "
-msgstr ""
+msgstr "你已歸還法杖。"
 
+# P13 batch 6
 #. event 00 (look), after "Call Guards"
 msgctxt "bark 0401:2FBA"
 msgid "Did I kill the person? "
-msgstr ""
+msgstr "我殺了那個人嗎？"
 
+# P13 batch 6
 #. event 00 (look), after "Call Guards"
 msgctxt "bark 0401:303E"
 msgid "Did I steal something? "
-msgstr ""
+msgstr "我偷了東西嗎？"
 
+# P13 batch 6
 #. event 00 (look), after "Call Guards"
 msgctxt "bark 0401:30BA"
 msgid "Help! Guards! "
-msgstr ""
+msgstr "救命！衛兵！"
 
+# P13 batch 6
 #. event 00 (look), after "Call Guards"
 msgctxt "bark 0401:3132"
 msgid "No one can hear your screams. "
-msgstr ""
+msgstr "沒有人聽得到你的尖叫。"
 
+# P13 batch 6
 #. event 00 (look), after "Kill me"
 msgctxt "bark 0401:31CC"
 msgid "Not an Npc. "
-msgstr ""
+msgstr "不是 NPC。"
 
+# P13 batch 6
 #. event 00 (look), after "Kill me"
 msgctxt "bark 0401:31F8"
 msgid "Not an valid item. "
-msgstr ""
+msgstr "不是有效的物品。"
 
+# P13 batch 6
 #. event 00 (look), after "Jump ahead."
 msgctxt "bark 0401:3263"
 msgid "Been there. Done that."
-msgstr ""
+msgstr "去過了，做過了。"
 
 #. event 00 (look), after "Jump ahead."
 msgctxt "ask 0401"
@@ -876,15 +1028,17 @@ msgctxt "ask 0401"
 msgid "bokchoi"
 msgstr ""
 
+# P13 batch 6
 #. event 00 (look), after "Jump ahead."
 msgctxt "ask 0401"
 msgid "Nevermind!"
-msgstr ""
+msgstr "算了！"
 
+# P13 batch 6
 #. event 00 (look), after "gorf" or "qwlep" or "zmeket" or "drewmor" or "nwats" or "yzurov" or "igran" or "bledyup" or "bokchoi"
 msgctxt "bark 0401:3635"
 msgid "Bzzzzt! Thank you for playing!"
-msgstr ""
+msgstr "嗶嗶——！感謝遊玩！"
 
 # P13 batch 1
 #. event 15 (guardianBark)

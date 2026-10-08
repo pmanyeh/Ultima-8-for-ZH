@@ -10,32 +10,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00E4:0099"
 msgid "flask "
-msgstr ""
+msgstr "酒壺"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E4:00DC"
 msgid "It's empty. "
-msgstr ""
+msgstr "是空的。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E4:0111"
 msgid "It's empty. "
-msgstr ""
+msgstr "是空的。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E4:015F"
 msgid "Argh! It's poison! "
-msgstr ""
+msgstr "呃啊！有毒！"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E4:01C8"
 msgid "Ahh! That feels better! "
-msgstr ""
+msgstr "啊！舒服多了！"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00E4:025E"
 msgid "Hmm... I wonder what that did. "
-msgstr ""
+msgstr "嗯……不知道那有什麼效果。"

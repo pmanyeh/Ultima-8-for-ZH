@@ -10,38 +10,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 msgctxt "bark 0574:02CF"
 msgid "Now I shall char the flesh from your bones! "
-msgstr ""
+msgstr "現在我要把你骨頭上的肉燒焦！"
 
+# P13 batch 6
 msgctxt "bark 0574:032C"
 msgid "Burn, fool! "
-msgstr ""
+msgstr "燒吧，蠢貨！"
 
+# P13 batch 6
 msgctxt "bark 0574:038B"
 msgid "You will die! "
-msgstr ""
+msgstr "你會死的！"
 
+# P13 batch 6
 msgctxt "bark 0574:0403"
 msgid "Do not think that you can run from me! "
-msgstr ""
+msgstr "別以為你逃得掉！"
 
+# P13 batch 6
 msgctxt "bark 0574:046C"
 msgid "Ha! Do not run from me! "
-msgstr ""
+msgstr "哈！別想逃！"
 
+# P13 batch 6
 msgctxt "bark 0574:04D4"
 msgid "Pyros will devour you! "
-msgstr ""
+msgstr "派羅斯會吞了你！"
 
+# P13 batch 6
 msgctxt "bark 0574:076B"
 msgid "You will die this day, fool! "
-msgstr ""
+msgstr "你今天就會死，蠢貨！"
 
+# P13 batch 6
 msgctxt "bark 0574:07CF"
 msgid "Knave, Pyros will feast upon you! "
-msgstr ""
+msgstr "無賴，派羅斯會飽餐你一頓！"
 
+# P13 batch 6
 msgctxt "bark 0574:0826"
 msgid "Feel the Fire, dolt! "
-msgstr ""
+msgstr "嘗嘗火焰吧，蠢材！"

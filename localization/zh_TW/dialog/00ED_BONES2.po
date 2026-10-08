@@ -10,12 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00ED:009C"
 msgid "skeleton "
-msgstr ""
+msgstr "骷髏"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00ED:0105"
 msgid "Do not disturb my rest! "
-msgstr ""
+msgstr "別打擾我的安息！"

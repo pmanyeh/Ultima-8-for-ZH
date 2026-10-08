@@ -10,267 +10,320 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 026F:009F"
 msgid "Necromancer "
-msgstr ""
+msgstr "死靈法師"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:019C"
 msgid "I will help you no further, live one. You must continue with your test. "
-msgstr ""
+msgstr "我不會再幫你了，活人。你必須繼續你的考驗。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:027C"
 msgid "You who would join me here at the right hand of Lithos. You who seek my knowledge. You who have taken but your first steps upon the path of Necromancy. Come closer, living one, so that we may speak. "
-msgstr ""
+msgstr "你這想在此與我同列利索斯右手邊的人。你這尋求我知識的人。你這才剛踏上死靈術之路第一步的人。靠近一點，活人，好讓我們交談。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:02AB"
 msgid "Are you a Necromancer? "
-msgstr ""
+msgstr "你是死靈法師嗎？"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0340"
 msgid "But of course I am. You have done well to find me, yet there is much left for you to find. You have not yet been truly tested. "
-msgstr ""
+msgstr "我當然是。你能找到我算是不錯，但還有很多東西等著你去找。你還沒真正接受過考驗。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0386"
 msgid "In what manner will I be tested, Necromancer? "
-msgstr ""
+msgstr "我會接受什麼樣的考驗，死靈法師？"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0445"
 msgid "Your testing has already begun. The rest is for you to discover. If you prove yourself worthy, you will learn enough of our magical art to gain an audience with Lithos. "
-msgstr ""
+msgstr "你的考驗已經開始了。剩下的要你自己去發掘。如果你證明自己夠格，就能學到足夠的魔法技藝，獲准晉見利索斯。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:047F"
 msgid "Yes, I need to speak with Lithos! "
-msgstr ""
+msgstr "是的，我需要跟利索斯談談！"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0558"
 msgid "Yes, and so your testing has begun. You will meet other Necromancers here.  Each of us will in turn teach you a spell. You will need to use each new spell in order to reach the next Necromancer. "
-msgstr ""
+msgstr "是的，所以你的考驗已經開始了。你會在這裡遇到其他死靈法師。我們每個人會輪流教你一道法術。你必須用每道新學的法術，才能到達下一位死靈法師那裡。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:05A7"
 msgid "What will happen if I don't learn the spells properly? "
-msgstr ""
+msgstr "要是我沒學好法術會怎樣？"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:067D"
 msgid "Then you will die before you meet the next Necromancer. Do not falter, apprentice. You have come this far, there is no going back. In order to return to the surface world you must go forward. "
-msgstr ""
+msgstr "那你就會在見到下一位死靈法師之前死去。別動搖，學徒。你已經走到這一步，沒有回頭路了。要回到地面世界，你就必須往前走。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:06AE"
 msgid "I am ready, Necromancer. "
-msgstr ""
+msgstr "我準備好了，死靈法師。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0813"
 msgid "Good. The first spell that you will learn was written by my hand many generations ago. It is called Mask of Death. When you cast this spell upon yourself, your enemies shall think that you are dead. To cast this spell, you will need Wood and Executioner's Hood. Speak the words Quas Corp, and you appear to all who behold you as dead. "
-msgstr ""
+msgstr "很好。你要學的第一道法術，是我在許多代以前親手寫下的，叫做死亡面具。對自己施展這道法術，你的敵人就會以為你死了。要施展它，你需要木頭和劊子手兜帽草。唸出咒文「Quas Corp」，所有看見你的人都會以為你已經死了。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0851"
 msgid "And this will help me in some manner? "
-msgstr ""
+msgstr "這對我會有什麼幫助嗎？"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:098F"
 msgid "Leave your doubts behind, young one, and trust in your elders. If, per chance, you did find a barrier of stalagmites upon a short wall which did block your way; you will now find that the stalagmites are gone. Your way to the next Necromancer is clear. Now, be gone. There is much for you to do. "
-msgstr ""
+msgstr "拋開你的疑慮，年輕人，信任你的長輩吧。如果你碰巧在一道矮牆上發現擋住去路的石筍，現在你會發現那些石筍已經消失了。通往下一位死靈法師的路已經暢通。現在去吧，你還有很多事要做。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0AB7"
 msgid "You have learned the spell that you needed from me, live one. There is nought else for you here. Go now and complete your journey. If you are unable to do that, then you are unfit to be a Necromancer and will meet your deserved fate. Be gone. "
-msgstr ""
+msgstr "你已經從我這裡學到你需要的法術了，活人。這裡沒別的東西給你了。現在去完成你的旅程吧。如果你辦不到，那你就不配當死靈法師，也會遭遇你應得的命運。去吧。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0B33"
 msgid "So you have survived your test long enough to meet me. I am Bentos, seventh Necromancer of Lithos. "
-msgstr ""
+msgstr "你在考驗中活得夠久，見到我了。我是班托斯，利索斯的第七位死靈法師。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0B7D"
 msgid "Greetings, Bentos. I have come to learn from you. "
-msgstr ""
+msgstr "你好，班托斯。我是來向你學習的。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0CD7"
 msgid "And so you shall. The way of the Necromancer is difficult. You will be assailed in many ways. And so will this happen before you next meet a Necromancer. Learn these words, Rel Sanct Ylem. Those words, and Wood and Dirt, will make you become as hard as stone. Now you must continue upon your way. May Lithos smile upon you. "
-msgstr ""
+msgstr "你會學到的。死靈法師之道艱難險阻，你會遭到各種攻擊，在見到下一位死靈法師之前也會如此。學會這些咒文：「Rel Sanct Ylem」。這些咒文加上木頭和泥土，就能讓你堅硬如石。現在你必須繼續上路了。願利索斯對你微笑。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0D60"
 msgid "I can not help you. You know this to be true, so be gone from here. "
-msgstr ""
+msgstr "我幫不了你。你知道這是真的，所以離開這裡吧。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0E94"
 msgid "Well, well...You are progressing well, student. Please forgive those who attacked you. Your test must be a difficult one. Already you have learned Mask of Death and Rock Flesh from the Necromancers who wrote them. Are you now ready to learn my spell? "
-msgstr ""
+msgstr "好，好……你進步得很好，學生。請原諒那些攻擊你的人，你的考驗必須是艱難的。你已經從撰寫死亡面具和岩石之膚的死靈法師那裡學到了這兩道法術。現在你準備好學我的法術了嗎？"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0EBE"
 msgid "Yes, Necromancer. "
-msgstr ""
+msgstr "是的，死靈法師。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0FA2"
 msgid "Very well, always remember that no matter how mighty you may feel, everyone eventually needs help in battle. Take Blood, Bone, and Wood. Speak the words Kal Corp Xen. Focus this power and help will arrive. "
-msgstr ""
+msgstr "很好。永遠記住，不管你覺得自己有多強大，每個人在戰鬥中終究都需要幫助。拿血、碎骨和木頭，唸出咒文「Kal Corp Xen」。集中這股力量，援助就會到來。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:0FEA"
 msgid "What kind of help will this bring, Necromancer? "
-msgstr ""
+msgstr "這會帶來什麼樣的援助，死靈法師？"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:106A"
 msgid "This spell will summon your deceased brethren to your aid. It may also help you find that which you seek. "
-msgstr ""
+msgstr "這道法術會召喚你已故的同胞來助你一臂之力。它也許還能幫你找到你所追尋的東西。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1095"
 msgid "Deceased brethren? "
-msgstr ""
+msgstr "已故的同胞？"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:117D"
 msgid "Yes, student. Once you have joined the Necromantic order, you will never again be alone. You shall always have company of the dead to comfort you. But enough talk. You must continue on your journey. Fare well. "
-msgstr ""
+msgstr "是的，學生。一旦加入死靈法師教團，你就再也不會孤單。永遠會有亡者陪伴、安慰你。不過話說夠了，你必須繼續你的旅程。保重。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1248"
 msgid "You have returned in vain. I can not help you any further. Go your own way. "
-msgstr ""
+msgstr "你回來也是白費。我不能再幫你了。走你自己的路吧。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:12AF"
 msgid "You are coming closer to your goal, live one. "
-msgstr ""
+msgstr "你離目標越來越近了，活人。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:12F1"
 msgid "I have worked hard to do so, Necromancer. "
-msgstr ""
+msgstr "我很努力才走到這一步，死靈法師。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:13AF"
 msgid "Do not think that the rest of your path will be an easy one, apprentice!  There is something about you that I do not trust. I doubt your devotion to the Mountain King. "
-msgstr ""
+msgstr "別以為你剩下的路會很好走，學徒！你身上有某種讓我信不過的東西。我懷疑你對山之王的忠誠。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:13E2"
 msgid "I am devoted, Necromancer. "
-msgstr ""
+msgstr "我很忠誠，死靈法師。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:14AF"
 msgid "Silence! I did not ask to hear your hollow voice. I was told to give my spell unto you and I will do so. But know that if Lithos consults me, I will tell Him that I do not trust you. "
-msgstr ""
+msgstr "安靜！我沒叫你開口說那些空話。我奉命把我的法術傳給你，我會照辦。但要知道，如果利索斯問起我，我會告訴祂我不信任你。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:14E2"
 msgid "I understand, Necromancer. "
-msgstr ""
+msgstr "我明白，死靈法師。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:160F"
 msgid "I do not care that you understand, meat. Listen to me then be gone. Often will you be assailed by enemies. Carry with you Executioner's Hood and Blackmoor. Blend the reagents and focus your magic on the ground. Say the words, In Vas Corp and grant eternal peace\tupon your enemy. "
-msgstr ""
+msgstr "我才不在乎你明不明白，肉塊。聽我說完就走。你會常常遭到敵人攻擊。隨身帶著劊子手兜帽草和黑沼草。把材料調和，把你的魔力集中在地面上，唸出咒文「In Vas Corp」，賜予你的敵人永恆的安息。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:163F"
 msgid "Thank you, Necromancer. "
-msgstr ""
+msgstr "謝謝你，死靈法師。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1690"
 msgid "Go now, and Pray to the Mountain King that you are worthy. "
-msgstr ""
+msgstr "現在去吧，向山之王祈禱你夠格。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1792"
 msgid "Surely you must realize that I can not help you any further. The path is yours alone to follow. You must walk it alone. Fare well. "
-msgstr ""
+msgstr "你一定明白我不能再幫你了。這條路只屬於你，你必須獨自走下去。保重。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:182A"
 msgid "Well, apprentice, you have nearly completed your test. You seem to have fared well, young one. "
-msgstr ""
+msgstr "好了，學徒，你的考驗快完成了。看來你表現得不錯，年輕人。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1872"
 msgid "Thank you, Necromancer. The road has been hard. "
-msgstr ""
+msgstr "謝謝你，死靈法師。這一路很艱辛。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1975"
 msgid "And harder still will it become, live one. Your final test is at hand. The next Necromancer you seek is Galious. If you prove yourself worthy, Galious will provide you with that which you need to gain an audience with the Mountain King. "
-msgstr ""
+msgstr "而且還會更艱辛，活人。你的最後考驗就在眼前。你要找的下一位死靈法師是加利烏斯。如果你證明自己夠格，加利烏斯會給你晉見山之王所需的東西。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:19A6"
 msgid "I am ready, Necromancer. "
-msgstr ""
+msgstr "我準備好了，死靈法師。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1B49"
 msgid "Galious will be the judge of that, live one. Now, listen carefully. For without my knowledge, you will never live to see Galious. A Necromancer deals always with death. Yet sometimes the Necromancer must be able to resist death in order to continue to serve his master. Therefore, when the time arrives, take Wood, Dirt and Blackmoor. Say the words Vas An Corp and focus this magic upon yourself. "
-msgstr ""
+msgstr "那要由加利烏斯來判斷，活人。現在仔細聽好，因為沒有我的知識，你永遠活不到見加利烏斯的那一天。死靈法師總是與死亡打交道，但有時死靈法師必須能抵抗死亡，才能繼續侍奉他的主人。所以，時候到了，就拿木頭、泥土和黑沼草，唸出咒文「Vas An Corp」，把這股魔力集中在自己身上。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1B89"
 msgid "How will I know when to use this spell? "
-msgstr ""
+msgstr "我要怎麼知道什麼時候該用這道法術？"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1C5A"
 msgid "That I can not tell you. You must decide this for yourself, but be warned: You may only use this spell once. Therefore; use it wisely. You must now go. Good fortune upon you, apprentice. "
-msgstr ""
+msgstr "這我不能告訴你。你必須自己決定，但要注意：這道法術你只能用一次。所以，要明智地使用。你現在必須走了。願好運與你同在，學徒。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1DCB"
 msgid "You know that I can not help you. Nor would I choose to do so if I could. You have the spell which I have given you. If, for whatever reason, you can not raise the Golem, that is your burden. You alone must shoulder it or solve it. Farewell. "
-msgstr ""
+msgstr "你知道我幫不了你。就算我能，我也不會選擇幫你。你已經有我給你的法術了。如果你因為任何原因喚不起魔像，那是你的負擔，你必須獨自承擔或解決。再會。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1EB0"
 msgid "You have reached me and therefore proven yourself worthy. Lithos has instructed me to give a spell which would allow you to gain entrance to the Hall of the Mountain King. "
-msgstr ""
+msgstr "你來到我這裡，就證明了你夠格。利索斯吩咐我傳授你一道法術，讓你能進入山之王大廳。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1EE6"
 msgid "Is that where Lithos resides? "
-msgstr ""
+msgstr "利索斯就住在那裡嗎？"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:1FEC"
 msgid "You already know that, apprentice. Do not let your excitement cloud your mind. The Hall is guarded by doors which no living creature may open. In order to gain entrance, you must raise a golem of the very element which is our lord, Lithos. "
-msgstr ""
+msgstr "你早就知道了，學徒。別讓興奮沖昏了頭。大廳由活物打不開的門守護著。要進去，你必須用我們的主——利索斯——本身的元素喚起一具魔像。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:201B"
 msgid "A golem made of earth. "
-msgstr ""
+msgstr "用土做成的魔像。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:2207"
 msgid "Yes. Now listen carefully, for like the other Necromancers, I will only tell you this spell once. Blood, Bone, Wood, Dirt and Blackmoor. Say these words of power; In Ort Ylem Xen. Focus this magic upon a broad space of mud and the golem will be created. Seek out Stone Cove. You shall reach it by way of the catacombs. Once you have found Stone Cove, there you shall need to create your golem. Only the golem shall be able to open the door which shall stand before you. "
-msgstr ""
+msgstr "是的。現在仔細聽好，因為跟其他死靈法師一樣，這道法術我只說一次。血、碎骨、木頭、泥土和黑沼草。唸出這些力量之語：「In Ort Ylem Xen」。把這股魔力集中在一大片泥地上，魔像就會成形。去找石灣，你可以經由地下墓穴到達那裡。找到石灣後，你就要在那裡創造你的魔像。只有魔像能打開擋在你面前的那扇門。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:223A"
 msgid "I understand, Necromancer. "
-msgstr ""
+msgstr "我明白，死靈法師。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 026F:228F"
 msgid "It is good that you do. Now, be gone. Go to the Mountain King. "
-msgstr ""
+msgstr "你明白就好。現在去吧，去見山之王。"

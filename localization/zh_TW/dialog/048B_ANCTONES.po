@@ -10,117 +10,140 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:02C8"
 msgid "Greetings, Avatar. We are aware of you and from where you come. We also know of what you seek. "
-msgstr ""
+msgstr "你好，聖者。我們知道你是誰，也知道你從哪裡來。我們還知道你在追尋什麼。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0353"
 msgid "And we wish to help you. You must become your destiny. "
-msgstr ""
+msgstr "而我們想幫助你。你必須成就你的命運。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0387"
 msgid "What is my destiny? "
-msgstr ""
+msgstr "我的命運是什麼？"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0452"
 msgid "That is not important now. Know that we wish to help you in your quest. Behind us lies the Tomb of Khumash-Gor. "
-msgstr ""
+msgstr "那現在並不重要。要知道我們想在你的旅程中幫助你。在我們身後的，是庫馬許·戈爾之墓。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0486"
 msgid "Who is Khumash-Gor? "
-msgstr ""
+msgstr "庫馬許·戈爾是誰？"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:057E"
 msgid "Only the most fearsome warrior who ever lived. Eons ago he was a great chieftain to our worshippers, but now he lies forever entombed in honor of his valor! "
-msgstr ""
+msgstr "他是史上最可怕的戰士。億萬年前，他是我們信徒的偉大酋長，如今為了表彰他的英勇，他被永遠埋葬於此！"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:06A6"
 msgid "With him rests an artifact that is the key to tremendous power. It is made of Blackrock, a substance with which you have considerable familiarity. The small object is shaped much like a pyramid. But be warned... "
-msgstr ""
+msgstr "與他一同長眠的，是一件通往強大力量之鑰的神器。它是用黑石做成的，那種物質你相當熟悉。這件小東西的形狀很像金字塔。不過要小心……"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:07A0"
 msgid "...for even in death, Khumash-Gor has kept the fighting spirit to which he held so tenaciously in life. He will not part readily with his possessions. "
-msgstr ""
+msgstr "……因為就算死了，庫馬許·戈爾仍保有他生前執著不放的戰鬥意志。他不會輕易交出他的東西。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:083E"
 msgid "Good luck... Avatar. "
-msgstr ""
+msgstr "祝你好運……聖者。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0A81"
 msgid "Well done, mortal.  The item of Blackrock which you now possess is the first key to unlocking tremendous power within yourself. "
-msgstr ""
+msgstr "做得好，凡人。你現在擁有的這件黑石物品，是開啟你體內強大力量的第一把鑰匙。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0AAD"
 msgid "What power? "
-msgstr ""
+msgstr "什麼力量？"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0B4A"
 msgid "Beyond Earth, Water, Air, and Fire, there is another element -- a fifth element. "
-msgstr ""
+msgstr "在土、水、風、火之外，還有另一種元素——第五元素。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0BCF"
 msgid "You have heard of it before. It is called Ether. "
-msgstr ""
+msgstr "你以前聽說過。它叫做以太。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0C7F"
 msgid "And like the others, this element will assume a form of titanic proportions. "
-msgstr ""
+msgstr "而跟其他元素一樣，這種元素也將化為泰坦般的形態。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0D38"
 msgid "You are to be that Titan -- the Titan of Ether. We know that the power is within you. "
-msgstr ""
+msgstr "你將成為那位泰坦——以太泰坦。我們知道那股力量就在你體內。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0E56"
 msgid "But is up to -you- to have the courage to use this power. You must take the power from the other Titans. You must take their worshipers, just as our followers were ripped from\tour grasp. "
-msgstr ""
+msgstr "但要不要拿出勇氣運用這股力量，就看「你」了。你必須奪取其他泰坦的力量，奪走他們的信徒，就像我們的追隨者從我們手中被奪走一樣。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:0FB3"
 msgid "Continue your quest for the powers of the other Titans, for that is the way to gain their followers. The greater the abilities you can accrue, the better chance you will have of weakening the other four and eventually standing with them as more than just an equal. "
-msgstr ""
+msgstr "繼續追尋其他泰坦的力量吧，那是贏得他們追隨者的方法。你累積的能力越強，就越有機會削弱其他四位，最終與他們並立，甚至凌駕其上。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:1044"
 msgid "Go now to find the Titans called Stratos, Hydros, and Pyros. "
-msgstr ""
+msgstr "現在去找名為史特拉托斯、海德羅斯和派羅斯的泰坦吧。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:10ED"
 msgid "You shall find Hydros in her underground Temple. The other two dwell on the surface. "
-msgstr ""
+msgstr "你會在海德羅斯的地下神廟找到她。另外兩位住在地面上。"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:110F"
 msgid "Farewell... "
-msgstr ""
+msgstr "再會……"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:1179"
 msgid "... and good haste... "
-msgstr ""
+msgstr "……一路順風……"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:11E3"
 msgid "... in your conquest! "
-msgstr ""
+msgstr "……祝你征服成功！"
 
+# P13 batch 6
 #. event 10 (enterFastArea)
 msgctxt "bark 048B:12A9"
 msgid "There is nothing more we can tell you until you have found the ancient artifact. "
-msgstr ""
+msgstr "在你找到那件古老神器之前，我們沒有別的能告訴你了。"

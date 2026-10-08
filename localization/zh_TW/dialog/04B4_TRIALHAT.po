@@ -10,17 +10,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 07 (hatch)
 msgctxt "bark 04B4:0375"
 msgid "Greetings Disciple.*You will remain within this fortress until you have found my inner sanctum, or you are dead. Even then, you shall not leave this place. Within the chamber beyond this hall you will see the fate that befalls those who fail. The Trials of the Obsidian Fortress begin now. "
-msgstr ""
+msgstr "你好，門徒。*在你找到我的內殿或死去之前，你都得待在這座要塞裡。就算如此，你也離不開這個地方。在這座大廳另一頭的房間裡，你會看到失敗者的下場。黑曜石要塞試煉現在開始。"
 
+# P13 batch 6
 #. event 07 (hatch)
 msgctxt "bark 04B4:05CF"
 msgid "Guardians! Do your duties! "
-msgstr ""
+msgstr "守衛們！盡你們的職責！"
 
+# P13 batch 6
 #. event 07 (hatch)
 msgctxt "bark 04B4:0676"
 msgid "Farewell, Disciple. I sincerely hope you survive to become an Acolyte. Good luck. "
-msgstr ""
+msgstr "再會，門徒。我衷心希望你能活下來成為學徒。祝你好運。"

@@ -10,57 +10,68 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00D6:0099"
 msgid "golem "
-msgstr ""
+msgstr "魔像"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 00D6"
 msgid "Follow "
-msgstr ""
+msgstr "跟隨"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 00D6"
 msgid "Stop "
-msgstr ""
+msgstr "停止"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 00D6"
 msgid "Move "
-msgstr ""
+msgstr "移動"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 00D6"
 msgid "Open "
-msgstr ""
+msgstr "打開"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 00D6"
 msgid "Attack "
-msgstr ""
+msgstr "攻擊"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 00D6"
 msgid "Leave "
-msgstr ""
+msgstr "離開"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 00D6"
 msgid "Grunt "
-msgstr ""
+msgstr "咕噥"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 00D6"
 msgid "Nothing "
-msgstr ""
+msgstr "沒事"
 
+# P13 batch 6
 #. event 01 (use (talk)), after "Move "
 msgctxt "bark 00D6:01DC"
 msgid "Ugh "
-msgstr ""
+msgstr "唔"
 
+# P13 batch 6
 #. event 01 (use (talk)), after "Grunt "
 msgctxt "bark 00D6:0397"
 msgid "Ugh "
-msgstr ""
+msgstr "唔"

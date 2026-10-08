@@ -10,20 +10,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0216:009B"
 msgid "bedroll "
-msgstr ""
+msgstr "睡袋"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 0216:00F0"
 msgid "This is no time to rest! "
-msgstr ""
+msgstr "現在不是休息的時候！"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 0216:012D"
 msgid "Rest for how many periods of time? "
-msgstr ""
+msgstr "要休息幾個時段？"
 
 #. event 01 (use (talk))
 msgctxt "ask 0216"

@@ -10,92 +10,110 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:00B0"
 msgid "sextant focus "
-msgstr ""
+msgstr "六分儀法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:00E9"
 msgid "pointing hand focus "
-msgstr ""
+msgstr "指路之手法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:011B"
 msgid "bracer focus "
-msgstr ""
+msgstr "護腕法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:0150"
 msgid "open hand focus "
-msgstr ""
+msgstr "開掌法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:0186"
 msgid "closed eye focus "
-msgstr ""
+msgstr "閉眼法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:01B7"
 msgid "wings focus "
-msgstr ""
+msgstr "雙翼法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:01E8"
 msgid "chain focus "
-msgstr ""
+msgstr "鎖鏈法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:0218"
 msgid "fist focus "
-msgstr ""
+msgstr "拳頭法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:024E"
 msgid "Divination focus "
-msgstr ""
+msgstr "占卜術法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:0287"
 msgid "Healing Touch focus "
-msgstr ""
+msgstr "治癒之觸法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:02C1"
 msgid "Aerial Servant focus "
-msgstr ""
+msgstr "風之僕役法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:02F8"
 msgid "Restoration focus "
-msgstr ""
+msgstr "復原術法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:0333"
 msgid "Fade From Sight focus "
-msgstr ""
+msgstr "隱匿行蹤法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:0367"
 msgid "Air Walk focus "
-msgstr ""
+msgstr "輕風漫步法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:039D"
 msgid "Hear Truth focus "
-msgstr ""
+msgstr "聆聽真言法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:03D5"
 msgid "Intervention focus "
-msgstr ""
+msgstr "庇佑之光法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:0409"
 msgid "open eye focus "
-msgstr ""
+msgstr "睜眼法器"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018C:043B"
 msgid "Reveal focus "
-msgstr ""
+msgstr "現形術法器"

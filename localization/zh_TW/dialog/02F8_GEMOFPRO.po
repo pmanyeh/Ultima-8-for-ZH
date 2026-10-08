@@ -10,7 +10,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02F8:00AA"
 msgid "blue field passage gem "
-msgstr ""
+msgstr "藍色力場通行寶石"

@@ -10,312 +10,374 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:00AF"
 msgid "template book"
-msgstr ""
+msgstr "範本之書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:00DE"
 msgid "diary  "
-msgstr ""
+msgstr "日記"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:010E"
 msgid "journal "
-msgstr ""
+msgstr "日誌"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0142"
 msgid "cheesy book "
-msgstr ""
+msgstr "打趣之書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:018A"
 msgid "The History of Necromancy Vol.I "
-msgstr ""
+msgstr "死靈術歷史卷一"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:01D3"
 msgid "The History of Necromancy Vol.II "
-msgstr ""
+msgstr "死靈術歷史卷二"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:020D"
 msgid "On Sorcerous Ways "
-msgstr ""
+msgstr "論巫術之道"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0246"
 msgid "The Art of Flame "
-msgstr ""
+msgstr "火焰之藝"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0282"
 msgid "The Tongue of Flame "
-msgstr ""
+msgstr "烈焰之舌"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:02BB"
 msgid "Ignite spellbook "
-msgstr ""
+msgstr "點燃術魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:02F8"
 msgid "Extinguish spellbook "
-msgstr ""
+msgstr "熄火術魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0330"
 msgid "Flash spellbook "
-msgstr ""
+msgstr "閃光術魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:036D"
 msgid "Flame Bolt spellbook "
-msgstr ""
+msgstr "烈焰箭魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:03AB"
 msgid "Endure Heat spellbook "
-msgstr ""
+msgstr "耐熱術魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:03E9"
 msgid "Fire Shield spellbook "
-msgstr ""
+msgstr "火焰護盾魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:042B"
 msgid "Armor of Flames spellbook "
-msgstr ""
+msgstr "烈焰護甲魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0469"
 msgid "Create Fire spellbook "
-msgstr ""
+msgstr "造火魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:04A5"
 msgid "Explosion spellbook "
-msgstr ""
+msgstr "爆炸術魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:04E5"
 msgid "Summon Daemon spellbook "
-msgstr ""
+msgstr "召喚惡魔魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0525"
 msgid "Banish Daemon spellbook "
-msgstr ""
+msgstr "驅逐惡魔魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0565"
 msgid "Conflagration spellbook "
-msgstr ""
+msgstr "烈焰焚燒魔法書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:05AB"
 msgid "The Destruction of the Temple "
-msgstr ""
+msgstr "神廟的毀滅"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:05E1"
 msgid "Earthen Magic "
-msgstr ""
+msgstr "大地魔法"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0614"
 msgid "Honor Lost "
-msgstr ""
+msgstr "失去的榮耀"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0644"
 msgid "Journal "
-msgstr ""
+msgstr "日誌"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0677"
 msgid "Kith Venom "
-msgstr ""
+msgstr "奇斯蛛毒"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:06A5"
 msgid "Rhian "
-msgstr ""
+msgstr "芮安"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:06D4"
 msgid "Voices "
-msgstr ""
+msgstr "眾聲之書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0704"
 msgid "The Eye "
-msgstr ""
+msgstr "魔眼之書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0731"
 msgid "Book "
-msgstr ""
+msgstr "書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0767"
 msgid "the Grim Book "
-msgstr ""
+msgstr "陰森之書"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:07A5"
 msgid "Journeys through Hell "
-msgstr ""
+msgstr "地獄之旅"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:07F2"
 msgid "Moriens: Necromancer, Prophet, Hero. "
-msgstr ""
+msgstr "摩瑞恩斯：死靈法師、先知、英雄"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0823"
 msgid "Read me. "
-msgstr ""
+msgstr "請閱讀我。"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0854"
 msgid "Read me. "
-msgstr ""
+msgstr "請閱讀我。"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0885"
 msgid "Read me. "
-msgstr ""
+msgstr "請閱讀我。"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:08B6"
 msgid "Read me. "
-msgstr ""
+msgstr "請閱讀我。"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0907"
 msgid "Dispelling Myths: The Truth About Magic. "
-msgstr ""
+msgstr "破除迷思：魔法的真相"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0944"
 msgid "Saga of Bone Crusher "
-msgstr ""
+msgstr "碎骨槌傳奇"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0980"
 msgid "Enemies of Tenebrae "
-msgstr ""
+msgstr "泰尼伯瑞之敵"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:09BE"
 msgid "What the Fish Tell Me "
-msgstr ""
+msgstr "魚告訴我的事"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:09F1"
 msgid "Divination "
-msgstr ""
+msgstr "占卜術"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0A27"
 msgid "Healing Touch "
-msgstr ""
+msgstr "治癒之觸"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0A5E"
 msgid "Aerial Servant "
-msgstr ""
+msgstr "風之僕役"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0A8D"
 msgid "Reveal "
-msgstr ""
+msgstr "現形術"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0AC1"
 msgid "Restoration "
-msgstr ""
+msgstr "復原術"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0AF9"
 msgid "Fade From Sight "
-msgstr ""
+msgstr "隱匿行蹤"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0B2A"
 msgid "Air Walk "
-msgstr ""
+msgstr "輕風漫步"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0B5D"
 msgid "Hear Truth "
-msgstr ""
+msgstr "聆聽真言"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0B92"
 msgid "Intervention "
-msgstr ""
+msgstr "庇佑之光"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0BC7"
 msgid "Resurrection "
-msgstr ""
+msgstr "復活術"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0C0B"
 msgid "Journal of Veras the Healer "
-msgstr ""
+msgstr "治療師維拉斯的日誌"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0C43"
 msgid "Confusion Blast "
-msgstr ""
+msgstr "混亂衝擊"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0C79"
 msgid "Meteor Shower "
-msgstr ""
+msgstr "流星雨"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0CB1"
 msgid "Summon Creature "
-msgstr ""
+msgstr "召喚生物"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0CEA"
 msgid "Call Destruction "
-msgstr ""
+msgstr "呼喚毀滅"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0D1E"
 msgid "Devastation "
-msgstr ""
+msgstr "浩劫術"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0D56"
 msgid "Ethereal Travel "
-msgstr ""
+msgstr "以太漫遊"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0D96"
 msgid "Reagents of Thaumaturgy "
-msgstr ""
+msgstr "奇蹟術材料"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0DE2"
 msgid "The Mythology of the Zealan Deities "
-msgstr ""
+msgstr "澤蘭神祇神話"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0E1D"
 msgid "The Final Sunlight "
-msgstr ""
+msgstr "最後曙光"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0120:0E3B"
 msgid "book "
-msgstr ""
+msgstr "書"

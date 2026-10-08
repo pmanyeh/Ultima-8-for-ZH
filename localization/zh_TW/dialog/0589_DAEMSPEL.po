@@ -10,38 +10,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 msgctxt "bark 0589:060D"
 msgid "Excellent. "
-msgstr ""
+msgstr "太好了。"
 
+# P13 batch 6
 msgctxt "bark 0589:06EC"
 msgid "Truly an excellent performance overall. You are worthy of the title Acolyte. Now, defend yourself from -my- daemon. Banish it and you will be ready for the Ritual of Flame. "
-msgstr ""
+msgstr "整體表現真是出色。你配得上學徒的稱號。現在，抵擋「我的」惡魔吧。驅逐牠，你就準備好參加烈焰儀式了。"
 
+# P13 batch 6
 msgctxt "bark 0589:0772"
 msgid "You have failed the third test, Disciple. Prepare to die. "
-msgstr ""
+msgstr "你沒通過第三項考驗，門徒。準備受死吧。"
 
+# P13 batch 6
 msgctxt "bark 0589:07F3"
 msgid "I did not ask you to summon a daemon, Disciple. You have failed... prepare to die. "
-msgstr ""
+msgstr "我沒叫你召喚惡魔，門徒。你失敗了……準備受死吧。"
 
+# P13 batch 6
 msgctxt "bark 0589:0F72"
 msgid "This is far better than I had hoped! If you will return to me my staff, we can begin the ceremony. Just put it anywhere, and be quick about it. "
-msgstr ""
+msgstr "這比我預期的好太多了！把法杖還給我，我們就能開始儀式。隨便放哪都行，動作快。"
 
+# P13 batch 6
 msgctxt "bark 0589:1035"
 msgid "Drop the staff. We must leave now, Acolyte. "
-msgstr ""
+msgstr "放下法杖。我們得走了，學徒。"
 
+# P13 batch 6
 msgctxt "bark 0589:10D1"
 msgid "I said drop it. This is your last warning, Acolyte. I do not need you so much that I will accept your insubordination. "
-msgstr ""
+msgstr "我說了放下。這是最後警告，學徒。我還沒需要你到能容忍你抗命的地步。"
 
+# P13 batch 6
 msgctxt "bark 0589:116E"
 msgid "I see. You wish to test me. Well, I have passed or I have failed. But in either case, it won't matter to you. You will be dead! "
-msgstr ""
+msgstr "我明白了。你想考驗我。好吧，不管我是通過還是失敗，對你來說都無所謂了。你會死！"
 
+# P13 batch 6
 msgctxt "bark 0589:120A"
 msgid "I did not ask you to banish a daemon, Disciple. You have failed... prepare to die. "
-msgstr ""
+msgstr "我沒叫你驅逐惡魔，門徒。你失敗了……準備受死吧。"

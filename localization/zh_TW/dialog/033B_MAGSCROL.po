@@ -10,47 +10,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033B:00B5"
 msgid "default scroll "
-msgstr ""
+msgstr "預設捲軸"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033B:00FC"
 msgid "scroll of dispelling magic portals "
-msgstr ""
+msgstr "驅散傳送門捲軸"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033B:0139"
 msgid "scroll of trap detection "
-msgstr ""
+msgstr "偵測陷阱捲軸"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033B:0178"
 msgid "scroll of trap destruction "
-msgstr ""
+msgstr "摧毀陷阱捲軸"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033B:01AE"
 msgid "scroll of healing "
-msgstr ""
+msgstr "治癒捲軸"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033B:01E8"
 msgid "scroll of restoration "
-msgstr ""
+msgstr "復原捲軸"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033B:0223"
 msgid "scroll of invisibility "
-msgstr ""
+msgstr "隱形捲軸"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033B:025F"
 msgid "Restore to sight scroll "
-msgstr ""
+msgstr "復明捲軸"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033B:0288"
 msgid "magic scroll "
-msgstr ""
+msgstr "魔法捲軸"

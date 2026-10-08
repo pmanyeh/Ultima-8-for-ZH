@@ -10,13 +10,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 0F (calledFromAnim)
 msgctxt "bark 04BB:0123"
 msgid "Monster egg could not find hatcher!"
-msgstr ""
+msgstr "怪物蛋找不到孵化者！"
 
+# P13 batch 6
 #. event 0F (calledFromAnim)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 04BB:0165"
 msgid "Egg quality is {num}."
-msgstr ""
+msgstr "蛋的品質是{num}。"

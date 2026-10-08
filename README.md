@@ -20,20 +20,20 @@
 ## 翻譯進度
 
 <!-- progress:start -->
-**整體進度（以英文字元計）：`██████████████░░░░░░` 70.4%**（5,449 / 6,995 條，更新於 2026-10-09）
+**整體進度（以英文字元計）：`███████████████░░░░░` 76.1%**（6,692 / 6,995 條，更新於 2026-10-09）
 
 | 類別 | 已翻譯 / 全部（條） | 英文字元 | 進度 |
 |---|---|---|---|
-| 台詞與物品名稱 | 3,738 / 4,827 | 375,375 | 92.0% |
-| 對話選項 | 1,672 / 1,863 | 36,829 | 95.4% |
+| 台詞與物品名稱 | 4,800 / 4,827 | 375,375 | 99.7% |
+| 對話選項 | 1,820 / 1,863 | 36,829 | 99.7% |
 | 書 | 1 / 87 | 116,622 | 0.2% |
 | 捲軸 | 1 / 22 | 7,864 | 1.0% |
 | 墓碑 | 2 / 67 | 2,609 | 1.1% |
 | 牌匾 | 2 / 63 | 1,410 | 2.3% |
-| 句子參數 | 21 / 54 | 505 | 38.6% |
+| 句子參數 | 54 / 54 | 505 | 100.0% |
 | 介面文字 | 12 / 12 | 152 | 100.0% |
 
-已完成的角色與場景：阿拉米娜、阿卡迪昂、貝恩、Bane2、Basket、班提克、貝倫、Berenhch、Child、黑曜石幣、柯林斯、席勒斯、戴文、處決場景、Fight、Food、戈格隆德、城門衛兵、Guard10、Guard2、Guard3、Guard4、Guard5、Guard6、Guard7、Guard8、Guard9、Guardman、Guard_ew、威廉、海德羅斯、珍娜、Keyonec、奇蘭卓、科里克、利索斯、馬爾奇爾、莫爾迪亞、Morefish、米斯蘭、歐洛克、Pent、Pesant1、Pesant2、Pesant3、派羅斯、芮安、夏娜、史泰洛斯、史特拉托斯、塔娜、托蘭、托溫、瓦爾迪恩、Vardion2、維維多斯、Winchns
+已完成的角色與場景：Abacus、Agware、Airfocus、Altar、Altar_ew、Amostat、Anctones、Anvil、Aorta、Apastat、Appear、阿拉米娜、阿卡迪昂、Armguard、Armor、Axe、Axe2、Axeblade、Backpack、Bag、貝恩、Bane2、Barentry、Barrel、Basebook、Basescrl、Basket、Bathstuf、Bellows、Benchew、班提克、貝倫、Berenhch、Bgate、Bigdemst、Bigugly、Bladstrk、Blankets、Boat、Bones、Bones2、Bones3、Bones4、Bookbloo、Bottle、Branches、Brock、Brokchar、Broken、Brokstf1、Bug、Burndout、Calguard、Campfire、Candlbra、Candle、Canopy、Canopyew、Canopytp、Cauldron、Chair、Chest_ew、Chest_ns、Child、Chimney、Chopblk、Cloth、Clothes、Clothing、Codew、Codns、黑曜石幣、柯林斯、Cuffs、Cup、Cusion、席勒斯、Daemspel、Dagger、Dagger2、Dart、Dartbord、Deadcloz、Deadew、Deadns、Deathdis、Deceiver、Demnstat、Demon、Deskew、Deskns、Deskpict、戴文、Door_ns、Dtable、Dummy、Ebrock、Endgate、Endgate2、Endhydro、Endlamp、Endlith、Endskul、Endstrat、Erthitem、Erthreag、Erthspel、Ethereag、Evilsorc、Ewbpaint、Ewcrops、Ewhollog、Ewlamptp、Ewshelf、Ewshfsid、Ewspaint、處決場景、Eye、Fallrock、Fan、Febarsew、Febarsns、Fenalia、Fgrenade、Fight、Firefeld、Fireglob、Fireitem、Firepit、Fireplac、Fireplew、Fireplns、Firereag、Fireshld、Fireshro、Firespel、Fireswmp、Firewood、Fish、Fish2、Fishbonz、Fishnet、Fishpole、Flamstng、Flask、Floatin、Flour、Food、Free、Ftableew、Ftablens、Gargoyle、Gateskul、Gemofpro、Ghost、Ghosthed、Ghoul、Girlsstu、Golem、戈格隆德、Graveii、Grave_ew、Greentre、Grenade、Grimoire、城門衛兵、Guard10、Guard2、Guard3、Guard4、Guard5、Guard6、Guard7、Guard8、Guard9、Guardman、Guard_ew、威廉、Hammer、Hamostr、Hay、Helmet、Hourglas、海德羅斯、Intern、Ironman、Jbox、珍娜、Jewelry、Jug、Kegew、Kegns、Key、Keyonec、Keyring、奇蘭卓、Kingbdew、Kingbdns、Kith、Korgfang、科里克、Lamp1、Lamp2、Lamp3、Lamppost、Lava、Lavasink、Layghoul、Lchst_ew、Lchst_ns、Legging、Legs、Lever、利索斯、Litlmush、Logbook2、Logbook3、Logbook4、Logo、Loom、Lothalt、Lothcorp、Lothlay、Mace、Mace2、Magarm、Magarmr2、Magarms、Maghelm、Maglegs、Magscrol、Magshld、馬爾奇爾、Marble、Method、Mir、Monfast、莫爾迪亞、Mordeabe、Mordstat、Morebrok、Morefish、Morefood、Move、Mushcap、Mushgrup、Mushroom、米斯蘭、Nec1、Nitstand、Nsbpaint、Nscrops、Nshollog、Nslamptp、Nsrunwod、Nsshelf、Nsshfsid、Nsspaint、Nssticks、Oaktblew、Oaktblns、Odistat、Offsup、Opnbdrol、歐洛克、Oven、Pedestal、Pent、Pesant1、Pesant2、Pesant3、Plaqueew、Platefoo、Pole、Potion、Potplant、Potspans、Protectr、Pulchnew、Pulchnns、派羅斯、Rainbarl、Rat、Recall、芮安、Rope、Sabre、Schair、Scimitar、Scimokg、Screamer、Sgargl、夏娜、Shchimne、Shield、Shortmsh、Silvore、Sinking、Skeleton、Skulcand、Skullhea、Skulz、Slayer、Smalmush、Sorchat、Spelcmbt、Spider、Spiky、Spitter、Spout、Stalag、Statue、Statue1、Statuet、史泰洛斯、Stmite、Stovpipe、Strathat、史特拉托斯、Straw、Sword、Sword2、Tablware、Tallcand、Tankard、Tapestew、Tapestns、塔娜、Thurgist、Tomb、托蘭、Torax、Torch、Tortchar、Tortrack、托溫、Tossrock、Toys、Trap、Tree、Trialhat、Tring、Troll、Troodle、Troughew、Troughns、Trowel、Vanish、瓦爾迪恩、Vardion2、Vase、Vivalter、Vivdagr、維維多斯、Wallswit、Wardew、Wardns、Wbench、Well、Winchew、Winchns、Wool、Woundtor、Wtable、Wtableew、Wthrone、_
 <!-- progress:end -->
 
 翻譯順序依劇情進行：第一批是開場（戴文 → 泰尼伯瑞碼頭的處決）。人名、地名等譯名統一記錄在[權威檔](localization/zh_TW/authority.tsv)。

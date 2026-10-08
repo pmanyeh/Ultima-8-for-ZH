@@ -10,52 +10,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0341:009F"
 msgid "recall item "
-msgstr ""
+msgstr "召回石"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 0341:018B"
 msgid "What is your destination? "
-msgstr ""
+msgstr "你的目的地是哪裡？"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 0341"
 msgid "Central Tenebrae "
-msgstr ""
+msgstr "泰尼伯瑞中區"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 0341"
 msgid "Plateau "
-msgstr ""
+msgstr "高原"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 0341"
 msgid "Upper Catacombs "
-msgstr ""
+msgstr "上層地下墓穴"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 0341"
 msgid "Hall of the Mountain King "
-msgstr ""
+msgstr "山之王大廳"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 0341"
 msgid "Argentrock Isle "
-msgstr ""
+msgstr "白銀之岩島"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 0341"
 msgid "Carthax Lake "
-msgstr ""
+msgstr "卡薩斯湖"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 0341"
 msgid "Daemon's Crag "
-msgstr ""
+msgstr "惡魔崖"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "ask 0341"
 msgid "Nowhere "
-msgstr ""
+msgstr "哪裡都不去"

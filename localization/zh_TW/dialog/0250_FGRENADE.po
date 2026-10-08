@@ -10,17 +10,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0250:00BD"
 msgid "fire gem "
-msgstr ""
+msgstr "火焰寶石"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0250:00E8"
 msgid "chaos gem "
-msgstr ""
+msgstr "混沌寶石"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0250:010E"
 msgid "unstable gem "
-msgstr ""
+msgstr "不穩定寶石"

@@ -10,37 +10,45 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 msgctxt "bark 0178:00FB"
 msgid "I'm hungry! "
-msgstr ""
+msgstr "我餓了！"
 
+# P13 batch 6
 msgctxt "bark 0178:0136"
 msgid "I'm very hungry. "
-msgstr ""
+msgstr "我好餓。"
 
+# P13 batch 6
 msgctxt "bark 0178:016C"
 msgid "I must eat! "
-msgstr ""
+msgstr "我得吃東西！"
 
+# P13 batch 6
 msgctxt "bark 0178:01B3"
 msgid "I wish I had some chocolate. "
-msgstr ""
+msgstr "真希望有塊巧克力。"
 
+# P13 batch 6
 msgctxt "bark 0178:01F5"
 msgid "I'm so hungry I could eat a live kith. "
-msgstr ""
+msgstr "我餓到能生吞一隻奇斯怪蛛。"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0178:028F"
 msgid "plant bud "
-msgstr ""
+msgstr "植物花苞"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0178:02BC"
 msgid "pipe "
-msgstr ""
+msgstr "煙斗"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 0178:02FB"
 msgid "Yucchh. "
-msgstr ""
+msgstr "噁。"

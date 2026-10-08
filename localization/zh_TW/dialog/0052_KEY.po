@@ -10,117 +10,140 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:00AC"
 msgid "key blank "
-msgstr ""
+msgstr "空白鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:00E4"
 msgid "silver mine key "
-msgstr ""
+msgstr "銀礦鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:0110"
 msgid "key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:013C"
 msgid "key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:0168"
 msgid "key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:0194"
 msgid "key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:01D4"
 msgid "Key of the Conventicler "
-msgstr ""
+msgstr "集會所之鑰"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:020B"
 msgid "Disciple's key "
-msgstr ""
+msgstr "門徒之鑰"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:0241"
 msgid "Acolyte's key "
-msgstr ""
+msgstr "學徒之鑰"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:0276"
 msgid "Master's key "
-msgstr ""
+msgstr "大師之鑰"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:02A2"
 msgid "Key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:02CE"
 msgid "Key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:02FA"
 msgid "Key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:0326"
 msgid "Key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:0352"
 msgid "Key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:0386"
 msgid "Devon's key "
-msgstr ""
+msgstr "戴文之鑰"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:03B2"
 msgid "Key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:03DE"
 msgid "Key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:040A"
 msgid "Key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:0436"
 msgid "Key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:0462"
 msgid "Key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:048E"
 msgid "Key "
-msgstr ""
+msgstr "鑰匙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0052:04AB"
 msgid "key "
-msgstr ""
+msgstr "鑰匙"

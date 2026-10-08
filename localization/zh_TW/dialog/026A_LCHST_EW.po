@@ -10,7 +10,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 026A:00A0"
 msgid "locked chest "
-msgstr ""
+msgstr "上鎖的箱子"

@@ -10,32 +10,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018E:00B5"
 msgid "volcanic ash "
-msgstr ""
+msgstr "火山灰"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018E:00E1"
 msgid "pumice "
-msgstr ""
+msgstr "浮岩"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018E:010F"
 msgid "obsidian "
-msgstr ""
+msgstr "黑曜石"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018E:0139"
 msgid "iron "
-msgstr ""
+msgstr "生鐵"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018E:0168"
 msgid "brimstone "
-msgstr ""
+msgstr "硫磺"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018E:0199"
 msgid "daemon bone "
-msgstr ""
+msgstr "惡魔之骨"

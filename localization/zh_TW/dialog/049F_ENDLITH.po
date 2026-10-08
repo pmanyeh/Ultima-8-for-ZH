@@ -10,7 +10,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 07 (hatch)
 msgctxt "bark 049F:01B4"
 msgid "You have betrayed me, live one, and for that you must die! "
-msgstr ""
+msgstr "你背叛了我，活人，為此你必須死！"

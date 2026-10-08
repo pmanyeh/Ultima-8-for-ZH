@@ -66,56 +66,65 @@ msgctxt "bark 018B:0300"
 msgid "{num} piles of dirt"
 msgstr "{num} 堆泥土"
 
+# P13 batch 6
 #. event 00 (look)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 018B:0300"
 msgid "{num} executioner's hoods"
-msgstr ""
+msgstr "{num}株劊子手兜帽草"
 
+# P13 batch 6
 #. event 00 (look)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 018B:0300"
 msgid "{num} executioner's hood"
-msgstr ""
+msgstr "{num}株劊子手兜帽草"
 
+# P13 batch 6
 #. event 00 (look)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 018B:0300"
 msgid "{num} sliced executioner's hoods"
-msgstr ""
+msgstr "{num}片切好的劊子手兜帽草"
 
+# P13 batch 6
 #. event 00 (look)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 018B:0300"
 msgid "{num} sliced executioner's hood"
-msgstr ""
+msgstr "{num}片切好的劊子手兜帽草"
 
+# P13 batch 6
 #. event 00 (look)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 018B:0300"
 msgid "{num} pile of blackmoor"
-msgstr ""
+msgstr "{num}堆黑沼草"
 
+# P13 batch 6
 #. event 00 (look)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 018B:0300"
 msgid "{num} piles of blackmoor"
-msgstr ""
+msgstr "{num}堆黑沼草"
 
+# P13 batch 6
 #. event 00 (look)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 018B:0300"
 msgid "{num} deadman's elbow s"
-msgstr ""
+msgstr "{num}根死人肘"
 
+# P13 batch 6
 #. event 00 (look)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 018B:0300"
 msgid "{num} deadman's elbow "
-msgstr ""
+msgstr "{num}根死人肘"
 
+# P13 batch 6
 #. event 00 (look)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 018B:0300"
 msgid "{num}"
-msgstr ""
+msgstr "{num}"

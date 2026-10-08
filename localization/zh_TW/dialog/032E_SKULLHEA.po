@@ -10,7 +10,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 032E:00A7"
 msgid "The Skull of Quakes "
-msgstr ""
+msgstr "地震頭骨"

@@ -10,47 +10,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033D:00AD"
 msgid "wash basin "
-msgstr ""
+msgstr "洗臉盆"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033D:00DF"
 msgid "water jug "
-msgstr ""
+msgstr "水罐"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033D:010D"
 msgid "towel "
-msgstr ""
+msgstr "毛巾"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033D:013B"
 msgid "towel "
-msgstr ""
+msgstr "毛巾"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033D:0169"
 msgid "towel "
-msgstr ""
+msgstr "毛巾"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033D:0197"
 msgid "razor "
-msgstr ""
+msgstr "剃刀"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033D:01C4"
 msgid "soap "
-msgstr ""
+msgstr "肥皂"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033D:01F1"
 msgid "soap "
-msgstr ""
+msgstr "肥皂"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 033D:0220"
 msgid "mirror "
-msgstr ""
+msgstr "鏡子"

@@ -10,7 +10,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 020F:00A2"
 msgid "stepping stone "
-msgstr ""
+msgstr "踏腳石"

@@ -10,7 +10,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0335:00AB"
 msgid "Scimitar of Khumash-Gor "
-msgstr ""
+msgstr "庫馬許·戈爾彎刀"

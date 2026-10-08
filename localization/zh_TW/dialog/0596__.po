@@ -10,113 +10,140 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am at Programmer's Playland! "
-msgstr ""
+msgstr "法器顯示我在程式設計師樂園！"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am by the docks of Tenebrae. "
-msgstr ""
+msgstr "法器顯示我在泰尼伯瑞的碼頭邊。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am near Fishermans Reef. "
-msgstr ""
+msgstr "法器顯示我在漁夫礁附近。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am at north of Tenebrae in the Valley. "
-msgstr ""
+msgstr "法器顯示我在泰尼伯瑞北方的山谷。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am on the East Road outside of Tenebrae. "
-msgstr ""
+msgstr "法器顯示我在泰尼伯瑞城外的東路上。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am on the Plateau. "
-msgstr ""
+msgstr "法器顯示我在高原上。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am at the Daemon's Crag. "
-msgstr ""
+msgstr "法器顯示我在惡魔崖。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am at the Brimstone Cliffs. "
-msgstr ""
+msgstr "法器顯示我在硫磺懸崖。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am at the Lava River. "
-msgstr ""
+msgstr "法器顯示我在熔岩河。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am at Carthax Lake. "
-msgstr ""
+msgstr "法器顯示我在卡薩斯湖。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am at Treasure Cove. "
-msgstr ""
+msgstr "法器顯示我在寶藏灣。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am at Stone Cove. "
-msgstr ""
+msgstr "法器顯示我在石灣。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am in the Obsidian Fortress. "
-msgstr ""
+msgstr "法器顯示我在黑曜石要塞裡。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am in the Hall of the Mountain King. "
-msgstr ""
+msgstr "法器顯示我在山之王大廳裡。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am on Argentrock Isle. "
-msgstr ""
+msgstr "法器顯示我在白銀之岩島上。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am in West Tenebrae. "
-msgstr ""
+msgstr "法器顯示我在泰尼伯瑞西區。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am in central Tenebrae. "
-msgstr ""
+msgstr "法器顯示我在泰尼伯瑞中區。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am in east Tenebrae. "
-msgstr ""
+msgstr "法器顯示我在泰尼伯瑞東區。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am on the Plain of Fire. "
-msgstr ""
+msgstr "法器顯示我在火之平原上。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am on the Plain of Water. "
-msgstr ""
+msgstr "法器顯示我在水之平原上。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am on the Plain of Air. "
-msgstr ""
+msgstr "法器顯示我在風之平原上。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am on the Plain of Earth. "
-msgstr ""
+msgstr "法器顯示我在土之平原上。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am in the Upper Catacombs. "
-msgstr ""
+msgstr "法器顯示我在上層地下墓穴裡。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am in the Lower Catacombs. "
-msgstr ""
+msgstr "法器顯示我在下層地下墓穴裡。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am in the Pit of the Dead. "
-msgstr ""
+msgstr "法器顯示我在亡者深坑裡。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am in the Shrine of the Ancient Ones. "
-msgstr ""
+msgstr "法器顯示我在遠古眾神神殿裡。"
 
+# P13 batch 6
 msgctxt "bark 0596:082E"
 msgid "The focus reads that I am totally lost! "
-msgstr ""
+msgstr "法器顯示我完全迷路了！"
 
 # P11 POC: dynamic strings (proposed terms, see authority.tsv)
 #. sentence template: keep the {placeholders}
@@ -124,149 +151,175 @@ msgctxt "bark 0596:0B87"
 msgid "Also it reads that the hour is currently  {part1},  the day is  {part2}, the {num} day of the month of {part3}. "
 msgstr "上面還顯示：現在的時辰是 {part1}，今天是 {part2}，{part3} 月第 {num} 天。"
 
+# P13 batch 6
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0596:0BD9"
 msgid "I have been in Pagan for roughly {num} days."
-msgstr ""
+msgstr "我來佩根大約{num}天了。"
 
+# P13 batch 6
 msgctxt "bark 0596:0E65"
 msgid "The animal must be closer! "
-msgstr ""
+msgstr "動物得靠近一點才行！"
 
+# P13 batch 6
 msgctxt "bark 0596:1AAE"
 msgid "I am carrying too much! "
-msgstr ""
+msgstr "我帶的東西太多了！"
 
+# P13 batch 6
 msgctxt "bark 0596:1AF9"
 msgid "I have no backpack! "
-msgstr ""
+msgstr "我沒有背包！"
 
+# P13 batch 6
 msgctxt "bark 0596:20E3"
 msgid "The animal must be closer! "
-msgstr ""
+msgstr "動物得靠近一點才行！"
 
+# P13 batch 6
 #. value of {part1}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part1"
 msgid "Bloodwatch"
-msgstr ""
+msgstr "血巡守"
 
+# P13 batch 6
 #. value of {part1}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part1"
 msgid "Firstebb"
-msgstr ""
+msgstr "初退潮"
 
+# P13 batch 6
 #. value of {part1}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part1"
 msgid "Daytide"
-msgstr ""
+msgstr "晝潮"
 
+# P13 batch 6
 #. value of {part1}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part1"
 msgid "Threemoons"
-msgstr ""
+msgstr "三月時"
 
+# P13 batch 6
 #. value of {part1}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part1"
 msgid "Lastebb"
-msgstr ""
+msgstr "終退潮"
 
+# P13 batch 6
 #. value of {part1}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part1"
 msgid "Eventide"
-msgstr ""
+msgstr "暮潮"
 
+# P13 batch 6
 #. value of {part1}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part1"
 msgid "very late"
-msgstr ""
+msgstr "深夜"
 
+# P13 batch 6
 #. value of {part2}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part2"
 msgid "Guarday"
-msgstr ""
+msgstr "守護日"
 
+# P13 batch 6
 #. value of {part2}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part2"
 msgid "Earthday"
-msgstr ""
+msgstr "大地日"
 
+# P13 batch 6
 #. value of {part2}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part2"
 msgid "Waterday"
-msgstr ""
+msgstr "海洋日"
 
+# P13 batch 6
 #. value of {part2}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part2"
 msgid "Airday"
-msgstr ""
+msgstr "天空日"
 
+# P13 batch 6
 #. value of {part2}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part2"
 msgid "Fireday"
-msgstr ""
+msgstr "火焰日"
 
+# P13 batch 6
 #. value of {part2}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part2"
 msgid "Blackday"
-msgstr ""
+msgstr "黑暗日"
 
+# P13 batch 6
 #. value of {part2}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part2"
 msgid "GuardDay"
-msgstr ""
+msgstr "守護日"
 
+# P13 batch 6
 #. value of {part3}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part3"
 msgid "Stonemark"
-msgstr ""
+msgstr "石痕月"
 
+# P13 batch 6
 #. value of {part3}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part3"
 msgid "Skyrock"
-msgstr ""
+msgstr "天岩月"
 
+# P13 batch 6
 #. value of {part3}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part3"
 msgid "Windbreak"
-msgstr ""
+msgstr "斷風月"
 
+# P13 batch 6
 #. value of {part3}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part3"
 msgid "Stormpeak"
-msgstr ""
+msgstr "暴峰月"
 
+# P13 batch 6
 #. value of {part3}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part3"
 msgid "Firefall"
-msgstr ""
+msgstr "落火月"
 
+# P13 batch 6
 #. value of {part3}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part3"
 msgid "DarkFlame"
-msgstr ""
+msgstr "暗焰月"
 
+# P13 batch 6
 #. value of {part3}: one of 7 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 0596:part3"
 msgid "StoneMark"
-msgstr ""
+msgstr "石痕月"

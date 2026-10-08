@@ -10,12 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 002C:00A0"
 msgid "Amoras"
-msgstr ""
+msgstr "阿莫拉斯"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 002C:00C7"
 msgid "female statue "
-msgstr ""
+msgstr "女性雕像"

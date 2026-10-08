@@ -10,32 +10,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0253:00B6"
 msgid "quill pen "
-msgstr ""
+msgstr "羽毛筆"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0253:00E8"
 msgid "ink bottle "
-msgstr ""
+msgstr "墨水瓶"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0253:0114"
 msgid "seal "
-msgstr ""
+msgstr "印章"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0253:0145"
 msgid "parchment "
-msgstr ""
+msgstr "羊皮紙"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0253:0174"
 msgid "balance scale "
-msgstr ""
+msgstr "天平"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0253:019D"
 msgid "office supplies "
-msgstr ""
+msgstr "辦公用具"

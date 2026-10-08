@@ -10,7 +10,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 02F4:00F6"
 msgid "Ouch! -That- must have hurt, Avatar! "
-msgstr ""
+msgstr "哎喲！「那一下」一定很痛吧，聖者！"

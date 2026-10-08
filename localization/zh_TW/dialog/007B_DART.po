@@ -10,32 +10,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 007B:0286"
 msgid "dart "
-msgstr ""
+msgstr "飛鏢"
 
+# P13 batch 6
 #. event 05 (hit)
 msgctxt "bark 007B:0320"
 msgid "Hey, watch it! "
-msgstr ""
+msgstr "喂，小心點！"
 
+# P13 batch 6
 #. event 05 (hit)
 msgctxt "bark 007B:0351"
 msgid "Go play somewhere else! "
-msgstr ""
+msgstr "去別的地方玩！"
 
+# P13 batch 6
 #. event 05 (hit)
 msgctxt "bark 007B:039C"
 msgid "Ouch! "
-msgstr ""
+msgstr "好痛！"
 
+# P13 batch 6
 #. event 05 (hit)
 msgctxt "bark 007B:03BA"
 msgid "Yow! "
-msgstr ""
+msgstr "哎唷！"
 
+# P13 batch 6
 #. event 05 (hit)
 msgctxt "bark 007B:0456"
 msgid "Bull's eye! "
-msgstr ""
+msgstr "正中紅心！"

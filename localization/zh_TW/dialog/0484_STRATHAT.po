@@ -10,7 +10,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 07 (hatch)
 msgctxt "bark 0484:038C"
 msgid "Oh, dear Child, you must not do this. I have given so much and asked only for the devotion of my children. Now you will rob me of even that. Ah, thoughtless child, you break my heart with your actions. "
-msgstr ""
+msgstr "噢，親愛的孩子，你不能這麼做。我付出了這麼多，只求我的孩子們的虔誠。如今你連這個都要奪走。啊，輕率的孩子，你的所作所為讓我心碎。"

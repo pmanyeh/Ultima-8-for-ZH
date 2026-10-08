@@ -10,17 +10,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 011C:00B0"
 msgid "plate of food "
-msgstr ""
+msgstr "食物餐盤"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 011C:00D5"
 msgid "empty plate "
-msgstr ""
+msgstr "空餐盤"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 011C:0110"
 msgid "Mmmm... "
-msgstr ""
+msgstr "嗯……好吃。"

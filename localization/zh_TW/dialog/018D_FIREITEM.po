@@ -37,35 +37,41 @@ msgctxt "bark 018D:0462"
 msgid "wand "
 msgstr "魔杖"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018D:0462"
 msgid "rod "
-msgstr ""
+msgstr "權杖"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018D:0462"
 msgid "staff "
-msgstr ""
+msgstr "法杖"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018D:0462"
 msgid "talisman "
-msgstr ""
+msgstr "護符"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 018D:0462"
 msgid "symbol "
-msgstr ""
+msgstr "符印"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 018D:04F6"
 msgid "I wonder what this is supposed to do. "
-msgstr ""
+msgstr "不知道這東西是做什麼用的。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 018D:054F"
 msgid "The focus must be held to invoke its power. "
-msgstr ""
+msgstr "必須手持法器才能發動它的力量。"
 
 # P11 POC: dynamic strings (proposed terms, see authority.tsv)
 #. value of {part1}: one of 5 pieces
@@ -109,47 +115,54 @@ msgctxt "param 018D:part2"
 msgid "ignite "
 msgstr "點燃術"
 
+# P13 batch 6
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "extinguish "
-msgstr ""
+msgstr "熄火術"
 
+# P13 batch 6
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "flash "
-msgstr ""
+msgstr "閃光術"
 
+# P13 batch 6
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "flame bolt "
-msgstr ""
+msgstr "烈焰箭"
 
+# P13 batch 6
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "endure heat "
-msgstr ""
+msgstr "耐熱術"
 
+# P13 batch 6
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "fire shield "
-msgstr ""
+msgstr "火焰護盾"
 
+# P13 batch 6
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "armor of flames "
-msgstr ""
+msgstr "烈焰護甲"
 
+# P13 batch 6
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "create fire "
-msgstr ""
+msgstr "造火術"
 
 # P11 POC: dynamic strings (proposed terms, see authority.tsv)
 #. value of {part2}: one of 12 pieces
@@ -158,20 +171,23 @@ msgctxt "param 018D:part2"
 msgid "explosion "
 msgstr "爆炸術"
 
+# P13 batch 6
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "summon daemon "
-msgstr ""
+msgstr "召喚惡魔"
 
+# P13 batch 6
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "banish daemon "
-msgstr ""
+msgstr "驅逐惡魔"
 
+# P13 batch 6
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "conflagration "
-msgstr ""
+msgstr "烈焰焚燒"

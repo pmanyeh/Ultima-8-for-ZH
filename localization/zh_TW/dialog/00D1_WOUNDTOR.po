@@ -10,12 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00D1:00BA"
 msgid "Wounded Torax "
-msgstr ""
+msgstr "受傷的托拉克斯獸"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00D1:00E0"
 msgid "Healed Torax "
-msgstr ""
+msgstr "痊癒的托拉克斯獸"

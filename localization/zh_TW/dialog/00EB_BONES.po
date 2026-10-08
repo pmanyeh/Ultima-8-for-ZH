@@ -10,12 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 00EB:009C"
 msgid "skeleton "
-msgstr ""
+msgstr "骷髏"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 00EB:010F"
 msgid "Do not defile my bones, live one! "
-msgstr ""
+msgstr "別褻瀆我的骨骸，活人！"

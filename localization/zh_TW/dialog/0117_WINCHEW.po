@@ -10,12 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0117:0099"
 msgid "winch "
-msgstr ""
+msgstr "絞盤"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 0117:00E4"
 msgid "locked "
-msgstr ""
+msgstr "上鎖了"

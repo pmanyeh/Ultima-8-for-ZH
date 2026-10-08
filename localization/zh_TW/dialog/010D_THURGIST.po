@@ -10,97 +10,116 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 010D:00EF"
 msgid "dead theurgist "
-msgstr ""
+msgstr "死去的神術師"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 010D:0112"
 msgid "theurgist "
-msgstr ""
+msgstr "神術師"
 
+# P13 batch 6
 #. event 11 (leaveFastArea)
 msgctxt "bark 010D:01BA"
 msgid "Help me, Stratos! I am attacked! "
-msgstr ""
+msgstr "救救我，史特拉托斯！有人攻擊我！"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:02E3"
 msgid "Hello... "
-msgstr ""
+msgstr "你好……"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:0303"
 msgid "Good day... "
-msgstr ""
+msgstr "日安……"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:03C5"
 msgid "Any stories you tell will make me homesick, so I'd best not chat with you. "
-msgstr ""
+msgstr "你說的任何故事都會讓我想家，所以我最好別跟你聊。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:043E"
 msgid "Sorry, I would speak with you, but I am in a hurry. "
-msgstr ""
+msgstr "抱歉，我很想跟你聊，但我在趕時間。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:047E"
 msgid "Talk to me later when my duties are done. "
-msgstr ""
+msgstr "等我忙完再跟我說吧。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:04D8"
 msgid "No time to talk now. "
-msgstr ""
+msgstr "現在沒空說話。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:050E"
 msgid "I have my studies to attend to. "
-msgstr ""
+msgstr "我還得去讀書。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:0570"
 msgid "I'd best not speak with you. "
-msgstr ""
+msgstr "我最好別跟你說話。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:05CA"
 msgid "Strangers are a distraction that we do not need here on Argentrock. "
-msgstr ""
+msgstr "在白銀之岩，我們不需要陌生人來讓人分心。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:05FD"
 msgid "I'd best be about my duties. "
-msgstr ""
+msgstr "我最好去做我的事了。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:0663"
 msgid "I can not help you at this time. "
-msgstr ""
+msgstr "我現在幫不了你。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:06A9"
 msgid "If you need assistance, try talking to Stellos. "
-msgstr ""
+msgstr "如果你需要幫忙，試著去找史泰洛斯談談。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:06FA"
 msgid "He knows everything, for he has been around for 200 years. "
-msgstr ""
+msgstr "他什麼都知道，因為他已經活了兩百年。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:072A"
 msgid "I'm sure he can help you. "
-msgstr ""
+msgstr "我相信他能幫你。"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:07C8"
 msgid "I can not talk to you for I have taken a vow of silence so that I may meditate better... "
-msgstr ""
+msgstr "我不能跟你說話，因為我立誓禁語，好讓我能專心冥想……"
 
+# P13 batch 6
 #. event 01 (use (talk))
 msgctxt "bark 010D:07FF"
 msgid "Oooops... "
-msgstr ""
+msgstr "哎呀……"

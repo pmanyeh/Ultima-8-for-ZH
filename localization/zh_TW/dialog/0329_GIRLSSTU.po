@@ -10,42 +10,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0329:00AA"
 msgid "perfume "
-msgstr ""
+msgstr "香水"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0329:00DA"
 msgid "perfume "
-msgstr ""
+msgstr "香水"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0329:010A"
 msgid "perfume "
-msgstr ""
+msgstr "香水"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0329:0138"
 msgid "brush "
-msgstr ""
+msgstr "刷子"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0329:0166"
 msgid "brush "
-msgstr ""
+msgstr "刷子"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0329:0194"
 msgid "brush "
-msgstr ""
+msgstr "刷子"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0329:01C3"
 msgid "mirror "
-msgstr ""
+msgstr "鏡子"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 0329:01F2"
 msgid "mirror "
-msgstr ""
+msgstr "鏡子"

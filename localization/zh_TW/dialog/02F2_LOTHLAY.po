@@ -10,12 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 6
 #. event 00 (look)
 msgctxt "bark 02F2:009A"
 msgid "Lothian"
-msgstr ""
+msgstr "羅西安"
 
+# P13 batch 6
 #. event 06 (gotHit)
 msgctxt "bark 02F2:0140"
 msgid "Mountain King, I call Your name. Save me from this interloper! "
-msgstr ""
+msgstr "山之王，我呼喚祢的名。救我脫離這個闖入者！"
