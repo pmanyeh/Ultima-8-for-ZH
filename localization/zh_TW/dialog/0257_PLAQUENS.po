@@ -23,7 +23,7 @@ msgstr ""
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0149"
 msgid "THE PALACE*OF THE TEMPEST "
-msgstr "Tempest 宮殿"
+msgstr "風暴使者宮殿"
 
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0179"

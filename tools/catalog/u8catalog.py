@@ -273,9 +273,9 @@ def all_po_files(lang):
     return sorted(out)
 
 
-AUTHORITY_COLUMNS = ["category", "english", "translation", "status", "count", "example", "note"]
+AUTHORITY_COLUMNS = ["category", "english", "translation", "status", "count", "example", "note", "annotate"]
 CATEGORIES = ["person", "place", "item", "spell", "creature", "title", "faction", "other"]
-STATUSES = ["keep", "approved", "proposed", "todo"]
+STATUSES = ["keep", "approved", "proposed", "todo", "ignore"]
 
 
 def authority_path(lang):
@@ -415,7 +415,7 @@ def cmd_terms(a):
             row["category"], row["count"], row["example"] = c[0], str(c[1]), c[2]
         if o:
             # hand-edited fields win; counts and examples are refreshed
-            for k in ("category", "translation", "status", "note"):
+            for k in ("category", "translation", "status", "note", "annotate"):
                 if o[k]:
                     row[k] = o[k]
             if not c:
@@ -433,8 +433,12 @@ def cmd_terms(a):
                 "#             (guessed for new entries: please check)\n"
                 "# translation the one translation to use everywhere\n"
                 "# status      keep = stays English, approved = use translation,\n"
-                "#             proposed = suggestion, todo = not decided\n"
+                "#             proposed = suggestion, todo = not decided,\n"
+                "#             ignore = not a name (a capitalised word at the start of a sentence)\n"
                 "# count       occurrences in the game text, example = one context\n"
+                "# annotate    the first time the name is shown in a conversation (or book), the\n"
+                "#             game adds the English: \u4e0d\u5217\u985b\u5c3c\u4e9e(Britannia). yes / no; empty = yes for\n"
+                "#             person, place and faction, no for the other categories\n"
                 "# `u8catalog.py check` warns when an approved / keep term is not used.\n")
         f.write("\t".join(AUTHORITY_COLUMNS) + "\n")
         for r in rows:

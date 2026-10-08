@@ -5,732 +5,767 @@
 #             (guessed for new entries: please check)
 # translation the one translation to use everywhere
 # status      keep = stays English, approved = use translation,
-#             proposed = suggestion, todo = not decided
+#             proposed = suggestion, todo = not decided,
+#             ignore = not a name (a capitalised word at the start of a sentence)
 # count       occurrences in the game text, example = one context
+# annotate    the first time the name is shown in a conversation (or book), the
+#             game adds the English: 不列顛尼亞(Britannia). yes / no; empty = yes for
+#             person, place and faction, no for the other categories
 # `u8catalog.py check` warns when an approved / keep term is not used.
-category	english	translation	status	count	example	note
-person	Aramina		todo	14	bark 040D:0110	
-person	Arcadion		todo	6	bark 0439:00ED	
-person	Bane		todo	18	bark 041D:030A	
-person	Bentic		keep	38	bark 040C:00B9	sage, library in east Tenebrae
-person	Beren		todo	14	bark 0420:0479	
-person	Bloodwatch		todo	7	bark 0401:2D4D	
-person	Corinth		todo	17	bark 040F:00A2	
-person	Cyrrus		todo	48	bark 0416:0114	
-person	Darion		todo	10	bark 0405:1B26	
-person	Daytide		todo	2	bark 0401:2DA0	
-person	Devon		keep	39	bark 0402:009F	fisherman
-person	Eventide		todo	6	bark 0401:2E1F	
-person	Firstebb		todo	6	bark 0401:2D77	
-person	Fisherwoman		todo	1	bark 0410:017B	
-person	Gorgrond		todo	11	bark 041F:02CF	
-person	Gwillim		todo	26	bark 040E:00A1	
-person	Herdsman		todo	2	bark 040E:00C3	
-person	Holy Cyrrus		todo	4	bark 0416:00EE	
-person	Hydros		keep	50	bark 0050:02D5	Titan of water
-person	Jenna		todo	23	bark 0418:0115	
-person	Kilandra		todo	20	bark 0410:0120	
-person	Korick		todo	7	bark 0409:00DE	
-person	Lastebb		todo	5	bark 0401:2DF5	
-person	Lithos		keep	123	bark 00E8:0344	Titan of earth
-person	Mage		todo	1	bark 0415:1049	
-person	Malchir		todo	17	bark 041B:013E	
-person	Master Sorcerer		todo	8	bark 041B:0225	
-person	Mordea		keep	124	bark 0237:010D	the Lady, Tempest
-person	Mythran		todo	20	bark 0421:00A1	
-person	Orlok		todo	27	bark 040A:00EA	
-person	Salkind		todo	26	bark 0403:00C6	
-person	Select		todo	1	bark 0401:122F	
-person	Seneschal		todo	5	bark 0403:01B5	
-person	Shaana		todo	7	bark 0413:00E2	
-person	Sorcerer		todo	105	bark 041C:0406	
-person	Stellos		todo	25	bark 0417:00EB	
-person	Tarna		todo	4	bark 0408:009F	
-person	Threemoons		todo	6	bark 0401:2DCC	
-person	Torwin		todo	37	bark 041A:00B2	
-person	Vardion		todo	23	bark 041C:031B	
-person	Vividos		todo	9	bark 0415:102B	
-person	Woman		todo	1	bark 040F:00C1	
-person	Xavier		todo	7	bark 0419:00E7	
-place	Sea of Rains	雨之海	approved	12	bark 0402:0B7A	
-place	Tenebrae		keep	117	bark 0120:0980	city
-item	A Letter to New Acolytes		todo	1	bark 0265:1125	
-item	A strange hole		todo	1	bark 02F7:00A3	
-item	abacus		todo	1	bark 0177:009A	
-item	Acolyte's key		todo	1	bark 0052:0241	
-item	Aerial Servant		todo	7	bark 0120:0A5E	
-item	Air Walk		todo	7	bark 0120:0B2A	
-item	altar		todo	2	bark 01AD:0099	
-item	Altar of Focus		todo	2	bark 00CE:00A2	
-item	amethyst gem		todo	1	bark 0254:0115	
-item	Amoras		todo	3	bark 002C:00A0	
-item	Ancient Book		todo	1	bark 0265:081D	
-item	anvil		todo	1	bark 01B8:0099	
-item	Apathas		todo	3	bark 0255:00A1	
-item	arm guards		todo	1	bark 0212:009E	
-item	armor		todo	1	bark 020B:0099	
-item	Armor of Flames spellbook		todo	2	bark 0120:042B	
-item	axe		todo	2	bark 00F4:0097	
-item	axe blade		todo	1	bark 02C5:009D	
-item	backpack		todo	1	bark 0211:009C	
-item	bag		todo	1	bark 027D:0097	
-item	balance scale		todo	1	bark 0253:0174	
-item	Banish Daemon spellbook		todo	2	bark 0120:0525	
-item	barrel		todo	1	bark 0073:009A	
-item	basket		todo	1	bark 00B9:009A	
-item	bat wing		todo	1	bark 018F:00EC	
-item	bed		todo	4	bark 00AF:0097	
-item	bedroll		todo	2	bark 0216:009B	
-item	beggar		todo	1	bark 0344:00CB	
-item	bell ringer		todo	2	bark 02B6:009F	
-item	bellows		todo	1	bark 0140:009B	
-item	bench		todo	2	bark 00E2:0099	
-item	Bentic's journal		todo	1	bark 025F:00A4	
-item	black gate		todo	1	bark 02AD:009E	
-item	Blackwine	黑酒	proposed	4	bark 00B4:00B0	P11 POC
-item	Blade of Striking		todo	1	bark 0333:00A5	
-item	blanket		todo	3	bark 033E:00AA	
-item	blood	血	proposed	1	bark 0347:0099	P11 POC
-item	blue field passage gem		todo	1	bark 02F8:00AA	
-item	boat		todo	1	bark 027E:0098	
-item	Bone Crusher		todo	11	bark 032F:00A0	
-item	Book		todo	5	bark 0120:0731	
-item	book		todo	2	bark 0120:0E3B	
-item	bottle		todo	1	bark 00B4:0189	
-item	bread		todo	1	bark 021A:0279	
-item	Breath o' Spirit	靈息酒	proposed	1	bark 00B4:010D	P11 POC
-item	bright diamond		todo	1	bark 0254:0202	
-item	brimstone		todo	1	bark 018E:0168	
-item	broken chair		todo	1	bark 022A:00A0	
-item	broken lever		todo	1	bark 02A0:00BC	
-item	brush		todo	3	bark 0329:0138	
-item	burned out fire		todo	1	bark 02A2:00A3	
-item	Call Destruction		todo	4	bark 0120:0CEA	
-item	Call Quake		todo	1	bark 02EA:021F	
-item	campfire		todo	1	bark 010B:009C	
-item	candelabra		todo	1	bark 01C4:009E	
-item	candle		todo	1	bark 01C6:009A	
-item	candlestick		todo	1	bark 01C5:009F	
-item	canopy		todo	3	bark 01BD:009A	
-item	captains journal		todo	1	bark 0265:0747	
-item	cauldron		todo	1	bark 00E0:009C	
-item	ceremonial dagger		todo	1	bark 023B:00A5	
-item	changeling		todo	1	bark 0165:009E	
-item	chaos gem		todo	1	bark 0250:00E8	
-item	cheese		todo	2	bark 021A:01BB	
-item	cheesy book		todo	2	bark 0120:0142	
-item	chest		todo	2	bark 004E:0099	
-item	chest of drawers		todo	2	bark 00CB:00A4	
-item	child		todo	1	bark 02C4:010A	
-item	chimney		todo	2	bark 02D1:009B	
-item	chopping block		todo	1	bark 0246:00A2	
-item	Chronicle of Pagan		todo	1	bark 0265:0D10	
-item	clock		todo	1	bark 00E3:0149	
-item	cloth		todo	1	bark 0218:0099	
-item	clothes		todo	1	bark 0337:009B	
-item	clothing		todo	1	bark 0241:009D	
-item	Cloven Hoof	魔蹄酒	proposed	3	bark 00B4:013A	P11 POC
-item	Conflagration spellbook		todo	2	bark 0120:0565	
-item	Confusion Blast		todo	3	bark 0120:0C43	
-item	cooked fish		todo	1	bark 0219:00D8	
-item	cooked Torax ribs		todo	1	bark 0219:0137	
-item	Create Fire spellbook		todo	2	bark 0120:0469	
-item	Create Golem		todo	1	bark 02EA:0195	
-item	crops		todo	2	bark 0289:0099	
-item	cup		todo	1	bark 00B6:0097	
-item	cushion		todo	1	bark 032C:009B	
-item	daemon		todo	2	bark 0060:009A	
-item	daemon bone		todo	1	bark 018E:0199	
-item	daemon statue		todo	1	bark 02AC:00A1	
-item	dagger		todo	2	bark 00F5:009A	
-item	dancing ruby		todo	1	bark 0254:019E	
-item	dark diamond		todo	1	bark 0254:0143	
-item	dart		todo	1	bark 007B:0286	
-item	dart board		todo	1	bark 02BE:009E	
-item	dead beggar		todo	1	bark 0344:00AB	
-item	dead body		todo	2	bark 00DA:009D	
-item	dead child		todo	1	bark 02C4:00EB	
-item	dead guardsman		todo	12	bark 023E:00AE	
-item	dead man's clothes		todo	1	bark 0202:00A6	
-item	dead peasant		todo	2	bark 02C3:00ED	
-item	dead theurgist		todo	1	bark 010D:00EF	
-item	death disk		todo	1	bark 02EE:009E	
-item	Death Speak		todo	5	bark 02EA:00B2	
-item	debris		todo	3	bark 01D7:009A	
-item	Deceiver		todo	2	bark 0336:009C	
-item	default scroll		todo	1	bark 033B:00B5	
-item	demon statue		todo	1	bark 0260:00A0	
-item	desk		todo	2	bark 00CD:0098	
-item	Devastation		todo	3	bark 0120:0D1E	
-item	Devon's key		todo	1	bark 0052:0386	
-item	diary		todo	2	bark 0120:00DE	
-item	Disciple's key		todo	1	bark 0052:020B	
-item	Divination		todo	3	bark 0120:09F1	
-item	doll		todo	2	bark 032B:00A7	
-item	dragon blood		todo	1	bark 018F:016E	
-item	dummy		todo	1	bark 02DB:0099	
-item	Earth Titan		todo	9	bark 01B1:009F	
-item	Earthen Magic		todo	4	bark 0120:05E1	
-item	empty plate		todo	1	bark 011C:00D5	
-item	Endure Heat spellbook		todo	2	bark 0120:03AB	
-item	Enemies of Tenebrae		todo	2	bark 0120:0980	
-item	Ethereal Travel		todo	4	bark 0120:0D56	
-item	Explosion spellbook		todo	2	bark 0120:04A5	
-item	Extinguish spellbook		todo	2	bark 0120:02F8	
-item	eye of newt		todo	1	bark 018F:00AE	
-item	Fade From Sight		todo	3	bark 0120:0AF9	
-item	fan		todo	1	bark 032D:0097	
-item	female statue		todo	1	bark 002C:00C7	
-item	Finding the Wisdom of Stratos		todo	1	bark 0265:1037	
-item	fire field		todo	1	bark 0190:009E	
-item	fire gem		todo	1	bark 0250:00BD	
-item	fire globe		todo	1	bark 02BF:009E	
-item	fire pit		todo	1	bark 013E:01F6	
-item	fire shield		todo	1	bark 0239:009F	
-item	Fire Shield spellbook		todo	2	bark 0120:03E9	
-item	fire shroom		todo	1	bark 031A:009F	
-item	fireplace		todo	3	bark 0114:009D	
-item	firewood		todo	1	bark 0346:009C	
-item	fish		todo	4	bark 0051:0098	
-item	fish bones		todo	1	bark 02E3:009E	
-item	fishing net		todo	1	bark 024C:009F	
-item	fishing pole		todo	1	bark 024D:00A0	
-item	Flame Bolt spellbook		todo	2	bark 0120:036D	
-item	Flame Sting		todo	1	bark 0331:009F	
-item	Flash spellbook		todo	2	bark 0120:0330	
-item	flask		todo	1	bark 00E4:0099	
-item	flask of oil		todo	1	bark 0243:00EB	
-item	floating platform		todo	3	bark 0268:00A5	
-item	food		todo	1	bark 021A:0297	
-item	gargoyle		todo	2	bark 0026:009C	
-item	gate		todo	2	bark 0282:0098	
-item	gemstone necklace		todo	1	bark 0254:00E7	
-item	gemstone ring		todo	1	bark 0254:00B4	
-item	ghost		todo	1	bark 019B:0099	
-item	ghost head		todo	1	bark 019D:009E	
-item	ghoul		todo	2	bark 008E:0099	
-item	glowing Breath of Wind		todo	1	bark 0319:0164	
-item	glowing Heart of Earth		todo	1	bark 0319:00F2	
-item	glowing obelisk tip		todo	1	bark 0319:00BA	
-item	glowing Tear of the Seas		todo	1	bark 0319:012C	
-item	glowing Tongue of Flame		todo	1	bark 0319:019D	
-item	golem		todo	1	bark 00D6:0099	
-item	Grant Peace		todo	1	bark 02EA:01F3	
-item	gravestone		todo	3	bark 00C5:009E	
-item	guardsman		todo	12	bark 023E:00D1	
-item	hammer		todo	1	bark 021C:009A	
-item	hay		todo	1	bark 02CF:0097	
-item	Healed Torax		todo	1	bark 00D1:00E0	
-item	Healing Touch		todo	3	bark 0120:0A27	
-item	Hear Truth		todo	3	bark 0120:0B5D	
-item	helmet		todo	1	bark 0213:009A	
-item	hollow log		todo	2	bark 029A:009E	
-item	Honor Lost		todo	2	bark 0120:0614	
-item	Human Remains		todo	1	bark 0274:00A1	
-item	Hurricane	颶風酒	proposed	2	bark 00B4:00DB	P11 POC
-item	Ignite spellbook		todo	2	bark 0120:02BB	
-item	ink bottle		todo	1	bark 0253:00E8	
-item	Intervention		todo	5	bark 0120:0B92	
-item	iron		todo	1	bark 018E:0139	
-item	iron bars		todo	2	bark 0261:009D	
-item	jar		todo	1	bark 018F:01DD	
-item	jar of newt eyes		todo	1	bark 018F:01B4	
-item	jewelry		todo	1	bark 0254:0223	
-item	jewelry box		todo	1	bark 0074:009F	
-item	Journal		todo	4	bark 0120:0644	
-item	journal		todo	3	bark 0120:010E	
-item	Journal of Veras the Healer		todo	2	bark 0120:0C0B	
-item	Journeys through Hell		todo	2	bark 0120:07A5	
-item	jug		todo	1	bark 00B7:0097	
-item	keg		todo	2	bark 00B1:0097	
-item	Key		todo	13	bark 0052:02A2	
-item	key		todo	5	bark 0052:0110	
-item	key blank		todo	1	bark 0052:00AC	
-item	Key of the Caretaker		todo	4	bark 00E8:00B7	
-item	Key of the Conventicler		todo	1	bark 0052:01D4	
-item	Key of the Necromancer		todo	1	bark 00E8:0129	
-item	Key of the Scion		todo	2	bark 00E8:00ED	
-item	keyring		todo	1	bark 004F:009B	
-item	kith		todo	1	bark 004C:0098	
-item	kith filet		todo	1	bark 021A:0193	
-item	kith silk		todo	1	bark 0144:009D	
-item	Kith Venom		todo	2	bark 0120:0677	
-item	Korghin's Fang		todo	1	bark 0334:00A2	
-item	lamp		todo	4	bark 0043:0098	
-item	leggings		todo	1	bark 0214:009C	
-item	legs		todo	1	bark 0167:0098	
-item	lever		todo	1	bark 02A0:00DB	
-item	lit flask of oil		todo	1	bark 0243:00C5	
-item	locked chest		todo	2	bark 026A:00A0	
-item	longsword		todo	1	bark 01A4:009D	
-item	loom		todo	1	bark 0143:0098	
-item	Lothian		todo	29	bark 0102:009A	
-item	mace		todo	2	bark 00F1:0098	
-item	magic arm guards		todo	1	bark 034C:00A4	
-item	magic armor		todo	2	bark 0040:009F	
-item	magic helm		todo	1	bark 034B:009E	
-item	magic leggings		todo	1	bark 034D:00A2	
-item	magic scroll		todo	1	bark 033B:0288	
-item	magic shield		todo	1	bark 034A:00A0	
-item	magical cube		todo	1	bark 015A:0105	
-item	magical sphere		todo	1	bark 015A:00B4	
-item	magical tetrahedron		todo	1	bark 015A:00E4	
-item	male statue		todo	2	bark 0081:00C4	
-item	Mandril		todo	4	bark 0338:009B	
-item	Mask of Death		todo	3	bark 02EA:00E1	
-item	Master's key		todo	1	bark 0052:0276	
-item	Meteor Shower		todo	5	bark 0120:0C79	
-item	mirror		todo	4	bark 013F:009A	
-item	molten rock		todo	1	bark 006F:009F	
-item	Mordea the Tempest		todo	1	bark 0237:00E7	
-item	Mordea's bed		todo	1	bark 0237:00AF	
-item	mushroom		todo	7	bark 0041:009D	
-item	nightstand		todo	1	bark 0147:009E	
-item	obelisk tip		todo	1	bark 01BA:00B2	
-item	obsidian	黑曜石	proposed	1	bark 018E:010F	P11 POC
-item	obsidian starstone		todo	1	bark 0254:01D2	
-item	Odion		todo	4	bark 0081:009F	
-item	office supplies		todo	1	bark 0253:019D	
-item	On Sorcerous Ways		todo	2	bark 0120:020D	
-item	Open Ground		todo	2	bark 02EA:0167	
-item	oven		todo	1	bark 0118:0098	
-item	painting		todo	5	bark 00EA:009C	
-item	parchment		todo	1	bark 0253:0145	
-item	peasant		todo	2	bark 02C3:010E	
-item	pedestal		todo	1	bark 0275:009C	
-item	perfume		todo	3	bark 0329:00AA	
-item	pipe		todo	1	bark 0178:02BC	
-item	plant bud		todo	1	bark 0178:028F	
-item	plaque		todo	2	bark 0257:009A	
-item	plate of food		todo	1	bark 011C:00B0	
-item	pole		todo	1	bark 0311:0098	
-item	pot		todo	1	bark 00B0:0097	
-item	potion		todo	1	bark 02FE:009A	
-item	potted plant		todo	1	bark 02F1:00A0	
-item	Protector		todo	2	bark 0332:009D	
-item	pumice		todo	1	bark 018E:00E1	
-item	Pyros, Lord of Flame		todo	1	bark 006D:00A8	
-item	quill pen		todo	1	bark 0253:00B6	
-item	rain barrel		todo	1	bark 0299:009F	
-item	Raising Your Children Correctly		todo	1	bark 0265:0FF1	
-item	raw kith filet		todo	1	bark 021A:0167	
-item	razor		todo	1	bark 033D:0197	
-item	Read me		todo	8	bark 0120:0823	
-item	Reagents of Thaumaturgy		todo	3	bark 0120:0D96	
-item	recall item		todo	1	bark 0341:009F	
-item	Restoration		todo	3	bark 0120:0AC1	
-item	Restore to sight scroll		todo	2	bark 009F:0257	
-item	Resurrection		todo	3	bark 0120:0BC7	
-item	Reveal		todo	3	bark 0120:0A8D	
-item	Rhian		todo	13	bark 0120:06A5	
-item	rock		todo	2	bark 031C:0098	
-item	Rock Flesh		todo	2	bark 02EA:010D	
-item	rolling sphere		todo	1	bark 00D7:00A2	
-item	rope		todo	1	bark 0215:0098	
-item	sabre		todo	1	bark 021E:0099	
-item	sack of flour		todo	1	bark 014D:00A1	
-item	Saga of Bone Crusher		todo	2	bark 0120:0944	
-item	scimitar		todo	1	bark 021D:009C	
-item	Scimitar of Khumash-Gor		todo	1	bark 0335:00AB	
-item	screamer		todo	1	bark 02F9:009B	
-item	Scroll		todo	2	bark 009F:00AD	
-item	scroll		todo	1	bark 009F:027A	
-item	scroll of dispelling magic portals		todo	2	bark 009F:00F4	
-item	scroll of healing		todo	2	bark 009F:01A6	
-item	scroll of invisibility		todo	2	bark 009F:021B	
-item	scroll of restoration		todo	2	bark 009F:01E0	
-item	scroll of trap destruction		todo	2	bark 009F:0170	
-item	scroll of trap detection		todo	2	bark 009F:0131	
-item	seal		todo	1	bark 0253:0114	
-item	seeker		todo	1	bark 01FD:009A	
-item	shackle		todo	1	bark 0134:009B	
-item	shelf		todo	4	bark 010C:0099	
-item	shield		todo	1	bark 021B:009A	
-item	silver mine key		todo	1	bark 0052:00E4	
-item	silver ore		todo	1	bark 024A:009E	
-item	silverware		todo	1	bark 00B8:009E	
-item	skeleton		todo	5	bark 0077:009C	
-item	skellot		todo	1	bark 0326:009B	
-item	skull		todo	3	bark 014B:0099	
-item	skull candle		todo	1	bark 025D:00A0	
-item	Slayer		todo	16	bark 0330:009A	
-item	sleeping woman		todo	1	bark 0237:015D	
-item	snake skin		todo	1	bark 018F:012C	
-item	soap		todo	2	bark 033D:01C4	
-item	spider		todo	1	bark 0327:009A	
-item	spiky sphere		todo	1	bark 0108:00A0	
-item	spitter		todo	1	bark 031B:009B	
-item	spout		todo	1	bark 00B3:0099	
-item	stalactite		todo	1	bark 014A:009E	
-item	stalagmite		todo	1	bark 0303:009E	
-item	statue		todo	2	bark 0113:009A	
-item	statue of Mordea		todo	1	bark 02BC:00A4	
-item	statuette		todo	1	bark 032A:009D	
-item	stepping stone		todo	2	bark 020F:00A2	
-item	sticks		todo	1	bark 0256:009A	
-item	stone amber		todo	1	bark 0254:0170	
-item	stone chair		todo	1	bark 00DD:009F	
-item	Stone throne		todo	1	bark 0121:00A0	
-item	stove pipe		todo	1	bark 02D3:009E	
-item	Stratos, the Air Titan		todo	1	bark 0181:00B1	
-item	straw		todo	1	bark 02D0:0099	
-item	stuffed torax		todo	1	bark 032B:0170	
-item	Summon Creature		todo	3	bark 0120:0CB1	
-item	Summon Daemon spellbook		todo	2	bark 0120:04E5	
-item	Summon Dead		todo	1	bark 02EA:013A	
-item	switch		todo	1	bark 01F9:009A	
-item	sword		todo	1	bark 00F3:0099	
-item	table		todo	7	bark 00E1:0099	
-item	tableware		todo	1	bark 00B5:009D	
-item	tankard		todo	1	bark 00B2:009B	
-item	tapestry		todo	2	bark 0148:009C	
-item	template book		todo	1	bark 0120:00AF	
-item	Tenebraen Ale	Tenebrae 麥酒	proposed	2	bark 00B4:0169	P11 POC
-item	The Art of Flame		todo	2	bark 0120:0246	
-item	the Breath of Air		todo	1	bark 01BA:014F	
-item	The Destruction of the Temple		todo	2	bark 0120:05AB	
-item	The Eye		todo	2	bark 0120:0704	
-item	The Final Sunlight		todo	2	bark 0120:0E1D	
-item	the Grim Book		todo	2	bark 0120:0767	
-item	the Heart of Earth		todo	1	bark 01BA:00E6	
-item	The Mysteries of Lithos		todo	1	bark 0265:0FA9	
-item	The Mythology of the Zealan Deities		todo	2	bark 0120:0DE2	
-item	The Objective History of Pagan		todo	1	bark 0265:0F69	
-item	The Skull of Quakes		todo	1	bark 032E:00A7	
-item	the Tear of the Seas		todo	1	bark 01BA:011C	
-item	The Tongue of Flame		todo	2	bark 0120:0282	
-item	the Tongue of Flame		todo	1	bark 01BA:0184	
-item	The Warrior and the Acolyte		todo	1	bark 0265:1169	
-item	theurgist		todo	1	bark 010D:0112	
-item	Toran		todo	19	bark 0061:009A	
-item	torax		todo	1	bark 0078:0099	
-item	Torax ribs		todo	1	bark 0219:0104	
-item	torch		todo	1	bark 0238:009A	
-item	torture chair		todo	1	bark 0136:00A1	
-item	torture rack		todo	1	bark 0135:00A0	
-item	Torwin's ring		todo	1	bark 0340:00A1	
-item	towel		todo	3	bark 033D:010D	
-item	toy kith		todo	1	bark 032B:013A	
-item	tree		todo	4	bark 0039:0098	
-item	troll		todo	1	bark 0053:0099	
-item	trough		todo	2	bark 0111:009A	
-item	trowel		todo	1	bark 0342:009A	
-item	tuber		todo	1	bark 021A:0252	
-item	unstable gem		todo	1	bark 0250:010E	
-item	vase		todo	1	bark 00E5:0098	
-item	Voices		todo	2	bark 0120:06D4	
-item	volcanic ash		todo	1	bark 018E:00B5	
-item	wall lamp		todo	3	bark 013A:009D	
-item	wardrobe		todo	2	bark 0132:009C	
-item	wash basin		todo	1	bark 033D:00AD	
-item	water jug		todo	1	bark 033D:00DF	
-item	Water Titan		todo	3	bark 0050:009F	
-item	well		todo	1	bark 0298:0099	
-item	WHAT THE FISH TELL ME		todo	1	bark 0265:00B8	
-item	What the Fish Tell Me		todo	2	bark 0120:09BE	
-item	winch		todo	2	bark 0116:0099	
-item	Withstand Death		todo	1	bark 02EA:01C6	
-item	wood	木頭	proposed	1	bark 0290:0098	P11 POC
-item	wooden chair		todo	1	bark 00DE:00A1	
-item	wooden throne		todo	1	bark 00DF:00A1	
-item	wooden torax		todo	1	bark 032B:0109	
-item	Wounded Torax		todo	1	bark 00D1:00BA	
-item	Zealan ceremonial shield		todo	1	bark 033C:00AC	
-spell	Aerial Servant focus		todo	1	bark 018C:02C1	
-spell	Air Walk focus		todo	1	bark 018C:0367	
-spell	bracer		todo	1	bark 018C:011B	
-spell	bracer focus		todo	1	bark 018C:011B	
-spell	chain		todo	1	bark 018C:01E8	
-spell	chain focus		todo	1	bark 018C:01E8	
-spell	closed eye		todo	1	bark 018C:0186	
-spell	closed eye focus		todo	1	bark 018C:0186	
-spell	Divination focus		todo	1	bark 018C:024E	
-spell	Fade From Sight focus		todo	1	bark 018C:0333	
-spell	fist		todo	1	bark 018C:0218	
-spell	fist focus		todo	1	bark 018C:0218	
-spell	Healing Touch focus		todo	1	bark 018C:0287	
-spell	Hear Truth focus		todo	1	bark 018C:039D	
-spell	Intervention focus		todo	1	bark 018C:03D5	
-spell	open eye		todo	1	bark 018C:0409	
-spell	open eye focus		todo	1	bark 018C:0409	
-spell	open hand		todo	1	bark 018C:0150	
-spell	open hand focus		todo	1	bark 018C:0150	
-spell	pointing hand		todo	1	bark 018C:00E9	
-spell	pointing hand focus		todo	1	bark 018C:00E9	
-spell	Restoration focus		todo	1	bark 018C:02F8	
-spell	Reveal focus		todo	1	bark 018C:043B	
-spell	sextant		todo	1	bark 018C:00B0	
-spell	sextant focus		todo	1	bark 018C:00B0	
-spell	wings		todo	1	bark 018C:01B7	
-spell	wings focus		todo	1	bark 018C:01B7	
-title	Avatar	聖者	approved	23	ask 02C3	as in the Ultima VII Chinese translation
-title	barkeep		todo	1	bark 040A:013D	
-title	barmaid		todo	1	bark 0418:0162	
-title	corpse		todo	1	bark 0403:01E1	
-title	corpse of Aramina		todo	1	bark 040D:00B1	
-title	daemon Sorcerer		todo	1	bark 0439:01D8	
-title	dead daemon		todo	1	bark 0439:0204	
-title	dead daemon Sorcerer		todo	1	bark 0439:01B4	
-title	dead Korick		todo	1	bark 0409:00AD	
-title	dead mage		todo	5	bark 041B:024F	
-title	dead Master Sorcerer		todo	1	bark 041B:0201	
-title	dead Seneschal		todo	1	bark 0403:0192	
-title	dead Sorcerer		todo	5	bark 041C:03E4	
-title	dead woman		todo	2	bark 0410:00E2	
-title	executioner		todo	1	bark 0413:010E	
-title	fisherman		todo	1	bark 0402:00CC	
-title	girl		todo	1	bark 040D:015C	
-title	guard		todo	1	bark 0408:00BE	
-title	librarian		todo	1	bark 040C:0146	
-title	Lurker		keep	42	bark 0344:0A8F	name for Hydros
-title	mage		todo	6	bark 041B:0268	
-title	man		todo	11	bark 0402:00EC	
-title	monk		todo	4	bark 0416:0139	
-title	Mountain King	山之王	approved	69	bark 00E8:0400	Lithos
-title	servant		todo	1	bark 040D:013B	
-title	servant Aramina		todo	1	bark 040D:00E6	
-title	Tempest		keep	100	bark 0237:0135	title / school of magic
-title	the deceased Bane		todo	1	bark 041D:0373	
-title	the deceased Gorgrond		todo	1	bark 041F:0336	
-title	the deceased Vardion		todo	1	bark 041C:038A	
-title	the late Cyrrus		todo	1	bark 0416:00B1	
-title	Titan	泰坦	approved	33	bark 0181:00CF	
-title	weaver		todo	1	bark 0412:0133	
-title	woman		todo	5	bark 0407:0128	
-faction	Necromancer	死靈法師	approved	75	bark 026F:009F	
-faction	Necromancers	死靈法師	approved	59	bark 026F:0558	
-other	Acolyte		todo	45	bark 0265:1169	
-other	Acolyte of Stratos		todo	3	book 0593:C6C3	
-other	Acolytes		todo	15	bark 006D:0974	
-other	Adept		todo	10	bark 0181:09EF	
-other	Air		todo	14	ask 0181	
-other	Air Titan		todo	4	bark 0181:00B1	
-other	Ale		todo	3	bark 00B4:0169	
-other	Ancient Necromancers		todo	3	bark 0415:8617	
-other	Ancient Ones		todo	5	bark 0409:3889	
-other	Aphelion		todo	18	bark 058A:3107	
-other	Argent Rock		todo	4	bark 0416:3385	
-other	Argentrock		todo	8	bark 010D:05CA	
-other	Argentrock Isle		todo	10	bark 0408:23B7	
-other	Ariel		todo	3	book 025F:046D	
-other	Armor of Flames		todo	3	bark 058A:396F	
-other	Art of Flame		todo	3	bark 0120:0246	
-other	As		todo	4	book 0572:1CFE	
-other	Ash		todo	13	bark 0421:0B35	
-other	Ate		todo	3	book 0592:4668	
-other	Bane's Truename		todo	4	bark 056F:1811	
-other	Bat Wing		todo	4	bark 0421:0BCB	
-other	Blackmoor		todo	7	bark 026F:160F	
-other	Blackrock		todo	10	ask 0402	
-other	Blast		todo	4	bark 0120:0C43	
-other	Blood	血	proposed	4	bark 026F:0FA2	P11 POC
-other	Bloody Bobby		todo	3	bark 040A:A8A4	
-other	Blowhard		todo	4	ask 0405	
-other	Bolt		todo	4	bark 0120:036D	
-other	Bone	碎骨	proposed	5	bark 026F:0FA2	P11 POC
-other	Both Perivolcanae		todo	6	book 0593:3E72	
-other	Breath		todo	3	bark 040A:0DE3	
-other	Breath of Wind		todo	20	bark 0181:0491	
-other	Brimstone		todo	8	bark 0421:0B35	
-other	Britannia	Britannia	proposed	4	bark 0401:3F04	P12 POC: kept English for now (check the old Chinese manual)
-other	Brother Xavier		todo	7	ask 0417	
-other	Burning Path		todo	4	bark 0439:0903	
-other	Cabal		todo	13	ask 041D	
-other	Call		todo	3	bark 041D:3D41	
-other	Calling		todo	5	bark 041C:4D99	
-other	Candles		todo	12	book 0593:3B35	
-other	Captain of the Guard		todo	3	bark 0405:1AE4	
-other	Carthax Lake		todo	3	bark 0596:082E	
-other	Caster		todo	5	ask 0401	
-other	Casting		todo	7	scroll 0579:08B5	
-other	Catacombs		todo	6	ask 0341	
-other	Celidia		todo	5	book 025F:046D	
-other	Ceremony of Eternity		todo	5	bark 0415:045E	
-other	City of the Dead		todo	7	bark 0415:6B35	
-other	Corodin		todo	4	bark 041D:2297	
-other	Creature		todo	3	bark 0120:0CB1	
-other	Daemion		todo	13	bark 041C:4A14	
-other	Daemon		todo	18	bark 0120:04E5	
-other	Daemon Bone		todo	4	bark 0581:19E0	
-other	Daemon's Crag		todo	7	bark 041D:0B47	
-other	Daemons		todo	3	ask 041C	
-other	Day Twenty		todo	3	book 0572:10D5	
-other	DayTide		todo	4	book 0592:442C	
-other	Death		todo	14	book 017A:0C32	
-other	Destroyer		todo	24	bark 0420:487B	
-other	Destruction		todo	3	bark 0120:0CEA	
-other	Destruction of the Temple		todo	3	bark 0120:05AB	
-other	Dibeyer		todo	4	book 017A:0C32	
-other	Dirt	泥土	proposed	4	bark 026F:0CD7	P11 POC
-other	Disciple		todo	36	bark 041B:04DD	
-other	Disciples		todo	5	bark 041C:1353	
-other	Door		todo	3	bark 0044:00FE	
-other	Dragon Blood		todo	3	bark 0421:0BCB	
-other	Dungbreath		todo	7	bark 041F:0B4B	
-other	Earth		todo	16	bark 00E8:0344	
-other	East Road		todo	3	bark 0421:42C2	
-other	Elder Tongue		todo	4	ask 041D	
-other	Element		todo	3	bark 041D:2A23	
-other	Elements		todo	8	bark 041D:1CE8	
-other	Elsmil		todo	5	book 0577:0893	
-other	Enchanted		todo	6	scroll 0579:05B9	
-other	Enclave		todo	15	bark 041C:154C	
-other	Endure Heat		todo	4	bark 058A:248F	
-other	Enlightenment		todo	6	bark 0416:256D	
-other	Ether		todo	3	bark 0421:14E1	
-other	Executioner's Hood		todo	7	bark 026F:0813	
-other	Explosion	爆炸	proposed	5	bark 041B:0699	P11 POC
-other	Extinguish		todo	5	bark 058A:383C	
-other	Eye		todo	10	bark 0120:0704	
-other	Final Sunlight		todo	3	bark 0120:0E1D	
-other	Fire		todo	55	bark 006D:1056	
-other	Fire Shield		todo	3	bark 058A:396F	
-other	First Acolyte		todo	20	bark 006D:43DB	
-other	Flam		todo	5	ask 0581	
-other	Flam Corp Xen		todo	3	ask 0581	
-other	Flame Bolt		todo	6	bark 041B:0699	
-other	Flames		todo	5	bark 0120:042B	
-other	Flash		todo	4	bark 058A:248F	
-other	Foci		todo	12	ask 0416	
-other	Focus		todo	30	bark 00CE:00A2	
-other	Furthermore		todo	3	bark 0421:4794	
-other	Galious		todo	4	bark 026F:1975	
-other	Golem		todo	3	bark 026F:1DCB	
-other	Gor		todo	9	bark 0335:00AB	
-other	Great Air Titan		todo	3	bark 0417:2752	
-other	Great Temple		todo	4	bark 0421:921A	
-other	Grommet		todo	3	book 0572:2949	
-other	Guard		todo	3	bark 0405:1B7B	
-other	Guardian	Guardian	proposed	20	ask 0420	P12 POC: kept English for now (check the old Chinese manual)
-other	Guilty		todo	11	book 017A:0C32	
-other	Hall		todo	4	bark 026F:1FEC	
-other	Hall of Eternity		todo	4	bark 0415:68B5	
-other	Hall of the Mountain King		todo	4	bark 026F:1EB0	
-other	Heart of Earth		todo	8	bark 01BA:00E6	
-other	Heat		todo	4	bark 0120:03AB	
-other	Hell		todo	3	bark 0120:07A5	
-other	Helped		todo	3	book 0592:455C	
-other	Hero		todo	3	bark 0120:07F2	
-other	History of Necromancy Vol		todo	4	bark 0120:018A	
-other	Honorable Stellos		todo	5	bark 0181:0CFE	
-other	Hoof		todo	4	bark 00B4:013A	
-other	However		todo	4	book 0577:0893	
-other	Ignite	點燃	proposed	6	bark 006D:324F	P11 POC
-other	Initiate		todo	6	bark 0417:3B3B	
-other	Iron		todo	8	ask 0421	
-other	Jelly		todo	4	book 0592:293B	
-other	Jely		todo	3	book 0593:0611	
-other	John Blowhard		todo	17	bark 0405:5F97	
-other	Kalen		todo	16	bark 0402:4F1A	
-other	Keldan		todo	9	book 025F:046D	
-other	Khumash		todo	8	bark 0335:00AB	
-other	Kith		todo	8	bark 040E:1345	
-other	Knarl		todo	5	book 0592:30FD	
-other	Kram		todo	3	book 0592:06F0	
-other	Ladyship		todo	13	bark 0403:0EA2	
-other	Ladyship Mordea		todo	5	bark 042E:0651	
-other	Lleu		todo	3	bark 040F:195B	
-other	Lost		todo	3	bark 0120:0614	
-other	Maedron		todo	3	bark 041D:2297	
-other	Master		todo	46	ask 006D	
-other	Master Malchir		todo	9	bark 041D:454B	
-other	Mesostel Pa		todo	10	book 0593:4179	
-other	Mesostel Ze		todo	10	bark 058A:3309	
-other	Mesostelae		todo	3	bark 058A:3222	
-other	Monkey's Fist		todo	3	bark 040A:8614	
-other	Morduin		todo	4	bark 041C:4ADF	
-other	Morgaelin		todo	9	ask 041D	
-other	Moriens		todo	57	bark 0415:1B8D	
-other	Mouth of the Daemon		todo	3	bark 0439:1F9B	
-other	Mystic Voice		todo	11	ask 0416	
-other	Mythology of the Zealan Deities		todo	3	bark 0120:0DE2	
-other	Necromancy		todo	8	bark 026F:027C	
-other	Necromantic		todo	6	bark 026F:117D	
-other	Nobbit		todo	4	book 0592:06F0	
-other	Nothing		todo	7	book 0592:442C	
-other	Npc		todo	4	bark 0401:09B1	
-other	Obsidian		todo	11	bark 0409:08D4	
-other	Obsidian Fortress		todo	7	bark 041B:04DD	
-other	Order		todo	3	bark 0417:26B8	
-other	Order of Enlightenment		todo	5	bark 0402:2CB9	
-other	Ort Flam		todo	3	ask 0581	
-other	Pagan	Pagan	proposed	57	bark 0265:0D10	P12 POC: kept English for now (check the old Chinese manual)
-other	Pagans		todo	30	bark 041F:32E4	
-other	Perivolcan Pa		todo	4	book 0593:4492	
-other	Perivolcan Ze		todo	4	book 0593:4179	
-other	Perivolcanae		todo	9	bark 058A:33E6	
-other	Pig Iron		todo	3	bark 0421:0B35	
-other	Pit of Death		todo	13	bark 040A:7DE1	
-other	Plateau		todo	9	bark 040C:24BF	
-other	Prophet		todo	3	bark 0120:07F2	
-other	Pumice		todo	11	bark 0421:0B35	
-other	Punishment		todo	12	book 017A:0C32	
-other	Pyros		todo	33	bark 006D:04D0	
-other	Ritual of Fire		todo	4	bark 058A:12CB	
-other	Salem		todo	7	book 0572:10D5	
-other	Sanct An Por		todo	6	bark 006D:3B7D	
-other	Scion		todo	10	bark 00E8:00ED	
-other	Sea		todo	4	bark 040A:5DC9	
-other	Serpent Scale		todo	5	bark 0421:0BCB	
-other	Servant		todo	4	bark 0120:0A5E	
-other	ShadowLander		todo	3	book 0592:06F0	
-other	Shattered Skull		todo	3	bark 0408:0CCE	
-other	Shield		todo	4	bark 0120:03E9	
-other	Shower		todo	4	bark 0120:0C79	
-other	Sight		todo	4	bark 0120:0AF9	
-other	Skull of Quakes		todo	3	bark 032E:00A7	
-other	Sorcerer's Enclave		todo	12	bark 041C:0A01	
-other	Sorcerers		todo	42	bark 0402:4F1A	
-other	Sorcerous		todo	5	bark 041D:18F2	
-other	Sorcerous Ways		todo	3	bark 0120:020D	
-other	Sorcery		todo	28	bark 006D:4613	
-other	Spirit		todo	4	bark 040A:0DE3	
-other	Stone Cove		todo	6	bark 026F:2207	
-other	Stratos		todo	90	bark 010D:01BA	
-other	Strem		todo	3	bark 040A:A111	
-other	Suddenly		todo	3	book 0577:246E	
-other	Tear of the Seas		todo	4	bark 01BA:011C	
-other	Tempestry		todo	14	ask 0050	
-other	Tempests		todo	5	bark 040A:4D6D	
-other	Temple		todo	10	bark 048B:10ED	
-other	Tenebraens		todo	5	bark 0408:27C8	
-other	Tenebrea		todo	3	book 017A:0C32	
-other	Test of Centeredness		todo	18	ask 0416	
-other	Test of Wisdom		todo	11	ask 0416	
-other	Thaumaturgy		todo	12	bark 0120:0D96	
-other	Theurgist		todo	26	bark 040E:1F92	
-other	Theurgists		todo	27	bark 0408:0A36	
-other	Theurgy		todo	3	bark 0421:564D	
-other	Third Test		todo	8	ask 0416	
-other	Titan of Air		todo	4	bark 0181:0774	
-other	Titan of Earth		todo	3	bark 041C:3E95	
-other	Titan of Fire		todo	5	bark 006D:43DB	
-other	Titanic		todo	6	bark 0415:3E95	
-other	Titans		todo	91	bark 0402:2E2E	
-other	Tomb		todo	4	ask 0415	
-other	Tongue		todo	5	book 0593:39B9	
-other	Tongue of Flame		todo	8	bark 006D:1056	
-other	Torax		todo	6	bark 00D1:00BA	
-other	Touch		todo	4	bark 0120:0A27	
-other	Travel		todo	3	bark 0120:0D56	
-other	Trecian		todo	4	bark 040A:A111	
-other	Trials		todo	4	bark 0439:18CD	
-other	Trials of the Obsidian Fortress		todo	4	bark 041F:2239	
-other	Troll		todo	5	book 0572:07C7	
-other	Trolls		todo	4	book 0572:07C7	
-other	Truename		todo	22	bark 041C:4A14	
-other	Truth		todo	4	bark 0120:0B5D	
-other	Upper Catacombs		todo	6	bark 0415:80F4	
-other	Using		todo	3	scroll 0579:05B9	
-other	Valley		todo	3	ask 0409	
-other	Varkus		todo	5	scroll 0579:05B9	
-other	Ventac		todo	3	bark 040C:0951	
-other	Vermin		todo	3	scroll 0579:103E	
-other	Vol		todo	3	bark 0265:108D	
-other	Walk		todo	4	bark 0120:0B2A	
-other	Water		todo	8	bark 041C:23E9	
-other	Windy Point		todo	5	bark 0416:2D33	
-other	Wood	木頭	proposed	5	bark 026F:0813	P11 POC
-other	Yevaud		todo	5	book 0593:CEA1	
-other	Zealan		todo	11	bark 040F:1D11	
-other	Zealans		todo	44	bark 0402:4F1A	
+category	english	translation	status	count	example	note	annotate
+person	Aramina	阿拉米娜	proposed	14	bark 040D:0110	Lady Mordea's servant	
+person	Arcadion	阿卡迪昂	proposed	6	bark 0439:00ED	daemon in the sword	
+person	Ariel	阿里爾	proposed	3	book 025F:046D	historical figure	
+person	Armin	阿明	proposed	3	book 017A:0C32	name in Salkind's logbook	
+person	Bane	貝恩	proposed	20	bark 041D:030A	sorcerer at Daemon's Crag	
+person	Bentic	班提克	proposed	38	bark 040C:00B9	sage, library in east Tenebrae	
+person	Beren	貝倫	proposed	14	bark 0420:0479	sorcerer guard	
+person	Bloody Bobby	血腥鮑比	proposed	3	bark 040A:A8A4	pirate in tales	
+person	Brandem	布蘭登	proposed	3	book 017A:0C32	name in Salkind's logbook	
+person	Brother Xavier	薩維爾修士	proposed	7	ask 0417	theurgist monk	
+person	Celidia	瑟莉迪亞	proposed	5	book 025F:046D	historical figure in records	
+person	Corinth	柯林斯	proposed	17	bark 040F:00A2	farmer/herdsman	
+person	Corodin	科羅丁	proposed	4	bark 041D:2297	sorcerer in history	
+person	Cyrrus	席勒斯	proposed	48	bark 0416:0114	theurgist initiate	
+person	Daemion	戴蒙	proposed	17	bark 041C:4A14	daemon/sorcerer	
+person	Darion	達里恩	proposed	10	bark 0405:1B26	Captain of the Guard	
+person	dead Korick	死去的科里克	proposed	1	bark 0409:00AD		no
+person	Devon	戴文	proposed	39	bark 0402:009F	fisherman	
+person	Dibeyer	狄貝耶	proposed	6	book 017A:0C32	historical author	
+person	Elsmil	艾爾斯米爾	proposed	5	book 0577:0893	figure in book	
+person	Galious	加利烏斯	proposed	4	bark 026F:1975	former Master Necromancer	
+person	Gorgrond	戈格隆德	proposed	11	bark 041F:02CF	sorcerer disciple	
+person	Grommet	格羅梅特	proposed	3	book 0572:2949	character in book	
+person	Guardian	守護者	approved	29	bark 041C:1D8D	Universal Ultima term	
+person	Gwillim	威廉	proposed	26	bark 040E:00A1	herdsman in Tenebrae	
+person	Hermes	赫密士	proposed	3	book 017A:0C32	name in Salkind's logbook	
+person	Honorable Stellos	尊貴的史泰洛斯	proposed	5	bark 0181:0CFE	head theurgist	
+person	Hydros	海德羅斯	proposed	50	bark 0050:02D5	Titan of water	
+person	Jenna	珍娜	proposed	23	bark 0418:0115	barmaid in Tenebrae	
+person	John Blowhard	吹牛大王約翰	proposed	17	bark 0405:5F97	Orlok's nickname/sailor	
+person	Kalen	卡倫	proposed	16	bark 0402:4F1A	sailor/historical figure	
+person	Keldan	凱爾丹	proposed	9	book 025F:046D	historical author	
+person	Khumash	庫馬許	proposed	8	bark 0335:00AB	ancient Zealan warrior	
+person	Kilandra	奇蘭卓	proposed	20	bark 0410:0120	old fisherwoman	
+person	Knarl	納爾	proposed	5	book 0592:30FD	character in book	
+person	Korick	科里克	proposed	7	bark 0409:00DE	blacksmith in Tenebrae	
+person	Kram	克拉姆	proposed	3	book 0592:06F0	character in book	
+person	Ladyship Mordea	莫爾迪亞夫人	proposed	5	bark 042E:0651	Lady Mordea	
+person	Lithos	利索斯	proposed	123	bark 00E8:0344	Titan of earth	
+person	Lleu	勒烏	proposed	3	bark 040F:195B	NPC/figure	
+person	Lord British	不列顛王	approved	0		Universal Ultima term	
+person	Lothian	羅西安	proposed	29	bark 0102:009A	deceased Scion	
+person	Maedron	梅德隆	proposed	3	bark 041D:2297	sorcerer disciple	
+person	Malchir	馬爾奇爾	proposed	18	bark 041B:013E	Master Sorcerer	
+person	Master Malchir	馬爾奇爾大巫師	proposed	11	bark 041D:454B	Master Sorcerer	
+person	Mordea	莫爾迪亞	proposed	125	bark 0237:010D	the Lady, Tempest	
+person	Mordea the Tempest	風暴使者莫爾迪亞	proposed	1	bark 0237:00E7	Mordea title	
+person	Mordra	莫德拉	proposed	16	bark 041C:2096	mage who vanished (Vardion)	
+person	Morduin	莫杜因	proposed	4	bark 041C:4ADF	historical sorcerer	
+person	Moriens	摩瑞恩斯	proposed	57	bark 0415:1B8D	former Necromancer master	
+person	Mythran	米斯蘭	proposed	20	bark 0421:00A1	scholar/mage on plateau	
+person	Nobbit	諾比特	proposed	4	book 0592:06F0	character in book	
+person	Orlok	歐洛克	proposed	27	bark 040A:00EA	barkeep in Tenebrae	
+person	Pyros	派羅斯	proposed	34	bark 006D:04D0	Titan of fire	
+person	Pyros, Lord of Flame	派羅斯，烈焰之主	proposed	1	bark 006D:00A8	Pyros full title	
+person	Rhian	芮安	proposed	13	bark 0120:06A5	widow of Toran	
+person	Sabriane	莎布莉安	proposed	3	ask 056F	target of the daemon (DAEMSCEN)	
+person	Salem	薩勒姆	proposed	7	book 0572:10D5	character in book	
+person	Salkind	薩金德	proposed	27	bark 0403:00C6	Seneschal of Tenebrae	
+person	Shaana	夏娜	proposed	7	bark 0413:00E2	Executioner	
+person	Stellos	史泰洛斯	proposed	25	bark 0417:00EB	head of theurgists	
+person	Stratos	史特拉托斯	proposed	90	bark 010D:01BA	Titan of air	
+person	Stratos, the Air Titan	史特拉托斯，天空泰坦	proposed	1	bark 0181:00B1	Stratos full title	
+person	Strem	史特雷姆	proposed	3	bark 040A:A111	pirate in tales	
+person	Tarna	塔娜	proposed	4	bark 0408:009F	guard in Tenebrae	
+person	the deceased Bane	已故的貝恩	proposed	1	bark 041D:0373		no
+person	the deceased Gorgrond	已故的戈格隆德	proposed	1	bark 041F:0336		no
+person	the deceased Vardion	已故的瓦爾迪恩	proposed	1	bark 041C:038A		no
+person	The Guardian	守護者	approved	0		Universal Ultima term	
+person	the late Cyrrus	已故的席勒斯	proposed	1	bark 0416:00B1		no
+person	Toran	托蘭	proposed	20	bark 0061:009A	executed citizen	
+person	Torwin	托溫	proposed	37	bark 041A:00B2	theurgist brother of Cyrrus	
+person	Trecian	特雷西安	proposed	4	bark 040A:A111	historical figure	
+person	Vardion	瓦爾迪恩	proposed	25	bark 041C:031B	First Acolyte of sorcery	
+person	Varkus	瓦庫斯	proposed	5	scroll 0579:05B9	author in scroll	
+person	Ventac	溫塔克	proposed	3	bark 040C:0951	historical figure	
+person	Vividos	維維多斯	proposed	9	bark 0415:102B	Scion of Necromancers	
+person	Xavier	薩維爾	proposed	7	bark 0419:00E7	theurgist monk	
+person	Yevaud	葉瓦德	proposed	5	book 0593:CEA1	ancient dragon in book	
+person	Zoch	佐克	proposed	3	book 017A:0C32	name in Salkind's logbook	
+place	Argent Rock	白銀之岩	proposed	4	bark 0416:3385	Theurgist monastery	
+place	Argentrock	白銀之岩	proposed	8	bark 010D:05CA		
+place	Argentrock Isle	白銀之岩島	proposed	10	bark 0408:23B7		
+place	Britannia	不列顛尼亞	approved	4	bark 0401:3F04	Universal Ultima term	
+place	Burning Path	燃燒之道	proposed	4	bark 0439:0903	path in Daemon's Crag	
+place	Carthax Lake	卡薩斯湖	proposed	0	bark 0596:082E	lake where Hydros resides	
+place	Catacombs	地下墓穴	proposed	6	ask 0341	Tenebrae catacombs	no
+place	City of the Dead	亡者之城	proposed	7	bark 0415:6B35	lower catacombs	
+place	Daemon's Crag	惡魔崖	proposed	7	bark 041D:0B47	Sorcerer enclave	
+place	East Road	東路	proposed	3	bark 0421:42C2	road in Tenebrae	no
+place	Enclave	巫師聚落	proposed	16	bark 041C:154C	Sorcerer settlement	
+place	Great Temple	宏偉神廟	proposed	4	bark 0421:921A		no
+place	Hall	大廳	proposed	4	bark 026F:1FEC		no
+place	Hall of Eternity	永恆大廳	proposed	4	bark 0415:68B5	Necromancer hall	
+place	Hall of the Mountain King	山之王大廳	proposed	4	bark 026F:1EB0	Lithos's domain	
+place	Hell	地獄	proposed	3	bark 0120:07A5	place in book title	no
+place	Morgaelin	摩加林	proposed	9	ask 041D	ancient Zealan name of Pagan	
+place	Mouth of the Daemon	惡魔之口	proposed	3	bark 0439:1F9B	entrance in Daemon's Crag	
+place	Obsidian Fortress	黑曜石要塞	proposed	7	bark 041B:04DD	Sorcerer fortress	
+place	Pagan	佩根	proposed	57	bark 0265:0D10	world of Pagan	
+place	Pit of Death	死亡深坑	proposed	13	bark 040A:7DE1	cemetery pit	
+place	Plateau	高原	proposed	9	bark 040C:24BF	Mythran's plateau	no
+place	Sea	大海	proposed	4	bark 040A:5DC9		no
+place	Sea of Rains	雨之海	approved	12	bark 0402:0B7A		
+place	Serpent Isle	巨蛇之島	approved	0		Universal Ultima term	
+place	Sorcerer's Enclave	巫師聚落	proposed	13	bark 041C:0A01	Daemon's Crag	
+place	Sosaria	索沙利亞	approved	0		Universal Ultima term	
+place	Stone Cove	石灣	proposed	6	bark 026F:2207	coastal cove	
+place	Temple	神廟	proposed	10	bark 048B:10ED		no
+place	Tenebrae	泰尼伯瑞	proposed	117	bark 0120:0980	city	
+place	Tenebrea	泰尼伯瑞	proposed	4	book 017A:0C32	variant spelling of Tenebrae	
+place	Tomb	陵墓	proposed	4	ask 0415		no
+place	Upper Catacombs	上層地下墓穴	proposed	4	bark 0415:80F4		no
+place	Valley	山谷	proposed	3	ask 0409		no
+place	Windy Point	狂風角	proposed	5	bark 0416:2D33	cliff on Argentrock	
+item	A Letter to New Acolytes	致新學徒的一封信	proposed	1	bark 0265:1125	book	
+item	A strange hole	奇怪的洞	proposed	1	bark 02F7:00A3	object/terrain	
+item	abacus	算盤	proposed	1	bark 0177:009A		
+item	Acolyte's key	學徒之鑰	proposed	1	bark 0052:0241		
+item	Ale	麥酒	proposed	4	bark 00B4:0169	drink	
+item	altar	祭壇	proposed	2	bark 01AD:0099		
+item	Altar of Focus	法器祭壇	proposed	2	bark 00CE:00A2		
+item	amethyst gem	紫水晶	proposed	1	bark 0254:0115		
+item	Ancient Book	古籍	proposed	1	bark 0265:081D		
+item	anvil	鐵砧	proposed	1	bark 01B8:0099		
+item	arm guards	護臂	proposed	1	bark 0212:009E		
+item	armor	護甲	proposed	1	bark 020B:0099		
+item	Armor of Flames spellbook	烈焰護甲魔法書	proposed	2	bark 0120:042B		
+item	Ash	火山灰	proposed	15	bark 0421:0B35	reagent	
+item	axe	斧頭	proposed	2	bark 00F4:0097		
+item	axe blade	斧刃	proposed	1	bark 02C5:009D		
+item	backpack	背包	proposed	1	bark 0211:009C		
+item	bag	袋子	proposed	1	bark 027D:0097		
+item	balance scale	天平	proposed	1	bark 0253:0174		
+item	Banish Daemon spellbook	驅逐惡魔魔法書	proposed	2	bark 0120:0525	Sorcery spellbook	
+item	barrel	木桶	proposed	1	bark 0073:009A		
+item	basket	籃子	proposed	1	bark 00B9:009A		
+item	Bat Wing	蝙蝠翅膀	proposed	6	bark 0421:0BCB	reagent	
+item	bat wing	蝙蝠翅膀	proposed	1	bark 018F:00EC	reagent	
+item	bed	床	proposed	4	bark 00AF:0097		
+item	bedroll	睡袋	proposed	2	bark 0216:009B		
+item	bell ringer	敲鐘器	proposed	2	bark 02B6:009F		
+item	bellows	風箱	proposed	1	bark 0140:009B		
+item	bench	長凳	proposed	2	bark 00E2:0099		
+item	Bentic's journal	班提克的日誌	proposed	1	bark 025F:00A4		
+item	black gate	黑門	proposed	1	bark 02AD:009E		
+item	Blackmoor	黑沼草	proposed	9	bark 026F:160F	reagent	
+item	Blackrock	黑石	approved	10	ask 0402	Universal Ultima term	yes
+item	Blackwine	黑酒	proposed	4	bark 00B4:00B0	drink in Tenebrae	
+item	Blade of Striking	打擊之刃	proposed	1	bark 0333:00A5	magic weapon	
+item	blanket	毯子	proposed	3	bark 033E:00AA		
+item	Blood	血	proposed	4	bark 026F:0FA2	reagent	
+item	blood	血	proposed	1	bark 0347:0099	reagent	
+item	blue field passage gem	藍色力場通行寶石	proposed	1	bark 02F8:00AA		
+item	boat	小船	proposed	1	bark 027E:0098		
+item	Bone	碎骨	proposed	7	bark 026F:0FA2	reagent	
+item	Bone Crusher	碎骨槌	proposed	11	bark 032F:00A0	magic warhammer	
+item	Book	書	proposed	5	bark 0120:0731		
+item	book	書	proposed	2	bark 0120:0E3B		
+item	bottle	瓶子	proposed	1	bark 00B4:0189		
+item	bread	麵包	proposed	1	bark 021A:0279		
+item	Breath o' Spirit	靈息酒	proposed	1	bark 00B4:010D	drink in Tenebrae	
+item	Breath of Wind	狂風之息	proposed	20	bark 0181:0491	Stratos Titan artifact	yes
+item	bright diamond	亮鑽石	proposed	1	bark 0254:0202		
+item	Brimstone	硫磺	proposed	10	bark 0421:0B35	reagent	
+item	brimstone	硫磺	proposed	1	bark 018E:0168	reagent	
+item	broken chair	破損的椅子	proposed	1	bark 022A:00A0		
+item	broken lever	損壞的拉桿	proposed	1	bark 02A0:00BC		
+item	brush	刷子	proposed	3	bark 0329:0138		
+item	burned out fire	熄滅的營火	proposed	1	bark 02A2:00A3		
+item	campfire	營火	proposed	1	bark 010B:009C		
+item	candelabra	枝狀燭台	proposed	1	bark 01C4:009E		
+item	candle	蠟燭	proposed	1	bark 01C6:009A		
+item	Candles	蠟燭	proposed	12	book 0593:3B35	candles heading in ritual book	
+item	candlestick	燭台	proposed	1	bark 01C5:009F		
+item	canopy	床幔	proposed	3	bark 01BD:009A		
+item	captains journal	船長日誌	proposed	1	bark 0265:0747		
+item	cauldron	大鍋	proposed	1	bark 00E0:009C		
+item	ceremonial dagger	儀式匕首	proposed	1	bark 023B:00A5		
+item	chaos gem	混沌寶石	proposed	1	bark 0250:00E8		
+item	cheese	乳酪	proposed	2	bark 021A:01BB		
+item	cheesy book	打趣之書	proposed	2	bark 0120:0142		
+item	chest	箱子	proposed	2	bark 004E:0099		
+item	chest of drawers	抽屜櫃	proposed	2	bark 00CB:00A4		
+item	chimney	煙囪	proposed	2	bark 02D1:009B		
+item	chopping block	斬首木墩	proposed	1	bark 0246:00A2		
+item	Chronicle of Pagan	佩根編年史	proposed	1	bark 0265:0D10		
+item	clock	時鐘	proposed	1	bark 00E3:0149		
+item	cloth	布料	proposed	1	bark 0218:0099		
+item	clothes	衣物	proposed	1	bark 0337:009B		
+item	clothing	服裝	proposed	1	bark 0241:009D		
+item	Cloven Hoof	魔蹄酒	proposed	3	bark 00B4:013A	drink in Tenebrae	
+item	Conflagration spellbook	烈焰焚燒魔法書	proposed	2	bark 0120:0565	Sorcery spellbook	
+item	cooked fish	烤魚	proposed	1	bark 0219:00D8		
+item	cooked Torax ribs	烤托拉克斯肋排	proposed	1	bark 0219:0137		
+item	Create Fire spellbook	造火魔法書	proposed	2	bark 0120:0469	Sorcery spellbook	
+item	crops	農作物	proposed	2	bark 0289:0099		
+item	cup	杯子	proposed	1	bark 00B6:0097		
+item	cushion	靠墊	proposed	1	bark 032C:009B		
+item	Daemon Bone	惡魔之骨	proposed	4	bark 0581:19E0	reagent	
+item	daemon bone	惡魔之骨	proposed	1	bark 018E:0199	reagent	
+item	daemon statue	惡魔雕像	proposed	1	bark 02AC:00A1		
+item	dagger	匕首	proposed	2	bark 00F5:009A		
+item	dancing ruby	躍動紅寶石	proposed	1	bark 0254:019E		
+item	dark diamond	暗鑽石	proposed	1	bark 0254:0143		
+item	dart	飛鏢	proposed	1	bark 007B:0286		
+item	dart board	飛鏢靶	proposed	1	bark 02BE:009E		
+item	dead man's clothes	死者衣服	proposed	1	bark 0202:00A6		
+item	death disk	死靈之碟	proposed	1	bark 02EE:009E	sorcery/necromancy disk	
+item	debris	殘骸	proposed	3	bark 01D7:009A		
+item	Deceiver	欺詐者	proposed	2	bark 0336:009C	magic sword	
+item	default scroll	預設捲軸	proposed	1	bark 033B:00B5		
+item	demon statue	惡魔雕像	proposed	1	bark 0260:00A0		
+item	desk	書桌	proposed	2	bark 00CD:0098		
+item	Destruction of the Temple	神廟的毀滅	proposed	3	bark 0120:05AB	book	
+item	Devon's key	戴文之鑰	proposed	1	bark 0052:0386		
+item	diary	日記	proposed	2	bark 0120:00DE		
+item	Dirt	泥土	proposed	4	bark 026F:0CD7	reagent	
+item	Disciple's key	門徒之鑰	proposed	1	bark 0052:020B		
+item	doll	洋娃娃	proposed	2	bark 032B:00A7		
+item	Door	門	proposed	3	bark 0044:00FE		
+item	Dragon Blood	龍血	proposed	5	bark 0421:0BCB	reagent	
+item	dragon blood	龍血	proposed	1	bark 018F:016E	reagent	
+item	dummy	訓練假人	proposed	1	bark 02DB:0099		
+item	empty plate	空餐盤	proposed	1	bark 011C:00D5		
+item	Endure Heat spellbook	耐熱術魔法書	proposed	2	bark 0120:03AB		
+item	Enemies of Tenebrae	泰尼伯瑞之敵	proposed	2	bark 0120:0980	book	
+item	Executioner's Hood	劊子手兜帽草	proposed	9	bark 026F:0813	reagent	
+item	Explosion spellbook	爆炸術魔法書	proposed	2	bark 0120:04A5		
+item	Extinguish spellbook	熄火術魔法書	proposed	2	bark 0120:02F8		
+item	Eye	魔眼	proposed	10	bark 0120:0704		
+item	Eye of Newt	蠑螈之眼	proposed	4	bark 0421:0BCB	reagent (same as eye of newt)	
+item	eye of newt	蠑螈之眼	proposed	1	bark 018F:00AE	reagent	
+item	fan	扇子	proposed	1	bark 032D:0097		
+item	female statue	女性雕像	proposed	1	bark 002C:00C7		
+item	Final Sunlight	最後曙光	proposed	3	bark 0120:0E1D	book/concept	
+item	Finding the Wisdom of Stratos	尋求史特拉托斯的智慧	proposed	1	bark 0265:1037	book	
+item	fire field	火之領域	proposed	1	bark 0190:009E	hazard	
+item	fire gem	火焰寶石	proposed	1	bark 0250:00BD		
+item	fire globe	火球寶珠	proposed	1	bark 02BF:009E		
+item	fire pit	火坑	proposed	1	bark 013E:01F6		
+item	fire shield	火焰護盾	proposed	1	bark 0239:009F		
+item	Fire Shield spellbook	火焰護盾魔法書	proposed	2	bark 0120:03E9		
+item	fire shroom	火焰菇	proposed	1	bark 031A:009F		
+item	fireplace	壁爐	proposed	3	bark 0114:009D		
+item	firewood	柴火	proposed	1	bark 0346:009C		
+item	fish	魚	proposed	4	bark 0051:0098		
+item	fish bones	魚骨	proposed	1	bark 02E3:009E		
+item	fishing net	漁網	proposed	1	bark 024C:009F		
+item	fishing pole	釣竿	proposed	1	bark 024D:00A0		
+item	Flame Bolt spellbook	烈焰箭魔法書	proposed	2	bark 0120:036D		
+item	Flame Sting	烈焰之刺	proposed	1	bark 0331:009F	magic weapon	
+item	Flash spellbook	閃光術魔法書	proposed	2	bark 0120:0330		
+item	flask	酒壺	proposed	1	bark 00E4:0099		
+item	flask of oil	油瓶	proposed	1	bark 0243:00EB		
+item	floating platform	浮動平台	proposed	3	bark 0268:00A5		
+item	food	食物	proposed	1	bark 021A:0297		
+item	gate	大門	proposed	2	bark 0282:0098		
+item	gemstone necklace	寶石項鍊	proposed	1	bark 0254:00E7		
+item	gemstone ring	寶石戒指	proposed	1	bark 0254:00B4		
+item	glowing Breath of Wind	發光的狂風之息	proposed	1	bark 0319:0164		
+item	glowing Heart of Earth	發光的大地之心	proposed	1	bark 0319:00F2		
+item	glowing obelisk tip	發光的方尖碑尖端	proposed	1	bark 0319:00BA		
+item	glowing Tear of the Seas	發光的海洋之淚	proposed	1	bark 0319:012C		
+item	glowing Tongue of Flame	發光的烈焰之舌	proposed	1	bark 0319:019D		
+item	gravestone	墓碑	proposed	3	bark 00C5:009E		
+item	hammer	鐵鎚	proposed	1	bark 021C:009A		
+item	hay	乾草	proposed	1	bark 02CF:0097		
+item	Heart of Earth	大地之心	proposed	8	bark 01BA:00E6	Lithos Titan artifact	yes
+item	helmet	頭盔	proposed	1	bark 0213:009A		
+item	History of Necromancy Vol	死靈術歷史卷	proposed	4	bark 0120:018A	book	
+item	hollow log	空心木	proposed	2	bark 029A:009E		
+item	Honor Lost	失去的榮耀	proposed	2	bark 0120:0614	book	
+item	Hoof	魔蹄酒	proposed	5	bark 00B4:013A	short for Cloven Hoof	
+item	Human Remains	人類遺骸	proposed	1	bark 0274:00A1		
+item	Hurricane	颶風酒	proposed	2	bark 00B4:00DB	drink in Tenebrae	
+item	Ignite spellbook	點燃術魔法書	proposed	2	bark 0120:02BB		
+item	ink bottle	墨水瓶	proposed	1	bark 0253:00E8		
+item	Iron	生鐵	proposed	8	ask 0421	reagent	
+item	iron	生鐵	proposed	1	bark 018E:0139	reagent	
+item	iron bars	鐵欄杆	proposed	2	bark 0261:009D		
+item	jar	罐子	proposed	1	bark 018F:01DD		
+item	jar of newt eyes	蠑螈之眼罐	proposed	1	bark 018F:01B4		
+item	Jelly	肉凍	proposed	4	book 0592:293B	food recipe in book	
+item	Jely	肉凍	proposed	3	book 0593:0611	food recipe in book	
+item	jewelry	珠寶	proposed	1	bark 0254:0223		
+item	jewelry box	珠寶盒	proposed	1	bark 0074:009F		
+item	Journal	日誌	proposed	4	bark 0120:0644		
+item	journal	日誌	proposed	3	bark 0120:010E		
+item	Journal of Veras the Healer	治療師維拉斯的日誌	proposed	2	bark 0120:0C0B	book	
+item	Journeys through Hell	地獄之旅	proposed	2	bark 0120:07A5	book	
+item	jug	水罐	proposed	1	bark 00B7:0097		
+item	keg	小木桶	proposed	2	bark 00B1:0097		
+item	Key	鑰匙	proposed	13	bark 0052:02A2		
+item	key	鑰匙	proposed	5	bark 0052:0110		
+item	key blank	空白鑰匙	proposed	1	bark 0052:00AC		
+item	Key of the Caretaker	看守人之鑰	proposed	4	bark 00E8:00B7		
+item	Key of the Conventicler	集會所之鑰	proposed	1	bark 0052:01D4		
+item	Key of the Necromancer	死靈法師之鑰	proposed	1	bark 00E8:0129		
+item	Key of the Scion	傳人之鑰	proposed	2	bark 00E8:00ED		
+item	keyring	鑰匙圈	proposed	1	bark 004F:009B		
+item	kith filet	奇斯怪蛛肉排	proposed	1	bark 021A:0193		
+item	kith silk	奇斯蛛絲	proposed	1	bark 0144:009D	material	
+item	Kith Venom	奇斯蛛毒	proposed	2	bark 0120:0677	poison/reagent	
+item	Korghin's Fang	科爾金之牙	proposed	1	bark 0334:00A2	magic weapon	
+item	lamp	油燈	proposed	4	bark 0043:0098		
+item	leggings	護腿	proposed	1	bark 0214:009C		
+item	legs	腿部	proposed	1	bark 0167:0098	corpse part	
+item	lever	拉桿	proposed	1	bark 02A0:00DB		
+item	lit flask of oil	點燃的油瓶	proposed	1	bark 0243:00C5		
+item	locked chest	上鎖的箱子	proposed	2	bark 026A:00A0		
+item	longsword	長劍	proposed	1	bark 01A4:009D		
+item	loom	織布機	proposed	1	bark 0143:0098		
+item	mace	釘頭槌	proposed	2	bark 00F1:0098		
+item	magic arm guards	魔法護臂	proposed	1	bark 034C:00A4		
+item	magic armor	魔法護甲	proposed	2	bark 0040:009F		
+item	magic helm	魔法頭盔	proposed	1	bark 034B:009E		
+item	magic leggings	魔法護腿	proposed	1	bark 034D:00A2		
+item	magic scroll	魔法捲軸	proposed	1	bark 033B:0288		
+item	magic shield	魔法盾	proposed	1	bark 034A:00A0		
+item	magical cube	魔法立方體	proposed	1	bark 015A:0105	relic	
+item	magical sphere	魔法球體	proposed	1	bark 015A:00B4	relic	
+item	magical tetrahedron	魔法四面體	proposed	1	bark 015A:00E4	relic	
+item	male statue	男性雕像	proposed	2	bark 0081:00C4		
+item	Mandril	曼德里爾	proposed	4	bark 0338:009B	magic warhammer	
+item	Master's key	大師之鑰	proposed	1	bark 0052:0276		
+item	mirror	鏡子	proposed	4	bark 013F:009A		
+item	molten rock	熔岩石	proposed	1	bark 006F:009F		
+item	Monkey's Fist	猴拳酒	proposed	3	bark 040A:8614	drink mentioned by Orlok	
+item	Mordea's bed	莫爾迪亞的床	proposed	1	bark 0237:00AF		
+item	mushroom	蘑菇	proposed	7	bark 0041:009D		
+item	Mythology of the Zealan Deities	澤蘭神祇神話	proposed	3	bark 0120:0DE2	book	
+item	nightstand	床頭櫃	proposed	1	bark 0147:009E		
+item	obelisk tip	方尖碑尖端	proposed	1	bark 01BA:00B2	blackrock obelisk tip	
+item	Obsidian	黑曜石	proposed	12	bark 0409:08D4	reagent/material	
+item	obsidian	黑曜石	proposed	1	bark 018E:010F	reagent	
+item	obsidian starstone	黑曜星石	proposed	1	bark 0254:01D2	gem	
+item	office supplies	辦公用具	proposed	1	bark 0253:019D		
+item	On Sorcerous Ways	論巫術之道	proposed	2	bark 0120:020D	book	
+item	oven	烤爐	proposed	1	bark 0118:0098		
+item	painting	畫像	proposed	5	bark 00EA:009C		
+item	parchment	羊皮紙	proposed	1	bark 0253:0145		
+item	pedestal	底座	proposed	1	bark 0275:009C		
+item	perfume	香水	proposed	3	bark 0329:00AA		
+item	Pig Iron	生鐵	proposed	5	bark 0421:0B35	reagent	
+item	pipe	煙斗	proposed	1	bark 0178:02BC		
+item	plant bud	植物花苞	proposed	1	bark 0178:028F		
+item	plaque	牌匾	proposed	2	bark 0257:009A		
+item	plate of food	食物餐盤	proposed	1	bark 011C:00B0		
+item	pole	長桿	proposed	1	bark 0311:0098		
+item	pot	鍋子	proposed	1	bark 00B0:0097		
+item	potion	藥水	proposed	1	bark 02FE:009A		
+item	potted plant	盆栽	proposed	1	bark 02F1:00A0		
+item	Protector	守護者之劍	proposed	2	bark 0332:009D	magic weapon	
+item	Pumice	浮岩	proposed	13	bark 0421:0B35	reagent	
+item	pumice	浮岩	proposed	1	bark 018E:00E1	reagent	
+item	quill pen	羽毛筆	proposed	1	bark 0253:00B6		
+item	rain barrel	集雨桶	proposed	1	bark 0299:009F		
+item	Raising Your Children Correctly	正確教養你的孩子	proposed	1	bark 0265:0FF1	book	
+item	raw kith filet	生奇斯怪蛛肉排	proposed	1	bark 021A:0167		
+item	razor	剃刀	proposed	1	bark 033D:0197		
+item	Read me	請閱讀我	proposed	8	bark 0120:0823	book/scroll	
+item	Reagents of Thaumaturgy	奇蹟術材料	proposed	3	bark 0120:0D96		
+item	recall item	召回石	proposed	1	bark 0341:009F	Mythran's Recall Device	
+item	Restore to sight scroll	復明捲軸	proposed	2	bark 009F:0257		
+item	rock	岩石	proposed	2	bark 031C:0098		
+item	rod	權杖	proposed	1	bark 018D:0462	sorcery focus kind (FIREITEM)	
+item	rolling sphere	滾石球	proposed	1	bark 00D7:00A2		
+item	rope	繩子	proposed	1	bark 0215:0098		
+item	sabre	軍刀	proposed	1	bark 021E:0099		
+item	sack of flour	麵粉袋	proposed	1	bark 014D:00A1		
+item	Saga of Bone Crusher	碎骨槌傳奇	proposed	2	bark 0120:0944	book	
+item	scimitar	彎刀	proposed	1	bark 021D:009C		
+item	Scimitar of Khumash-Gor	庫馬許·戈爾彎刀	proposed	1	bark 0335:00AB	magic weapon	
+item	Scroll	捲軸	proposed	2	bark 009F:00AD		
+item	scroll	捲軸	proposed	1	bark 009F:027A		
+item	scroll of dispelling magic portals	驅散傳送門捲軸	proposed	2	bark 009F:00F4		
+item	scroll of healing	治癒捲軸	proposed	2	bark 009F:01A6		
+item	scroll of invisibility	隱形捲軸	proposed	2	bark 009F:021B		
+item	scroll of restoration	復原捲軸	proposed	2	bark 009F:01E0		
+item	scroll of trap destruction	摧毀陷阱捲軸	proposed	2	bark 009F:0170		
+item	scroll of trap detection	偵測陷阱捲軸	proposed	2	bark 009F:0131		
+item	seal	印章	proposed	1	bark 0253:0114		
+item	Serpent Scale	蛇鱗	proposed	7	bark 0421:0BCB	reagent	
+item	shackle	腳鐐	proposed	1	bark 0134:009B		
+item	Shattered Skull	碎裂頭骨	proposed	3	bark 0408:0CCE		
+item	shelf	架子	proposed	4	bark 010C:0099		
+item	Shield	盾牌	proposed	4	bark 0120:03E9		
+item	shield	盾牌	proposed	1	bark 021B:009A		
+item	silver mine key	銀礦鑰匙	proposed	1	bark 0052:00E4		
+item	silver ore	銀礦石	proposed	1	bark 024A:009E		
+item	silverware	銀製餐具	proposed	1	bark 00B8:009E		
+item	skull	頭骨	proposed	3	bark 014B:0099		
+item	skull candle	頭骨蠟燭	proposed	1	bark 025D:00A0		
+item	Skull of Quakes	地震頭骨	proposed	3	bark 032E:00A7		
+item	Slayer	屠殺者	proposed	16	bark 0330:009A	magic warhammer	
+item	snake skin	蛇皮	proposed	1	bark 018F:012C		
+item	soap	肥皂	proposed	2	bark 033D:01C4		
+item	spiky sphere	刺球	proposed	1	bark 0108:00A0		
+item	spout	水嘴	proposed	1	bark 00B3:0099		
+item	staff	法杖	proposed	1	bark 018D:0462	sorcery focus kind (FIREITEM)	
+item	stalactite	鐘乳石	proposed	1	bark 014A:009E		
+item	stalagmite	石筍	proposed	1	bark 0303:009E		
+item	statue	雕像	proposed	2	bark 0113:009A		
+item	statue of Mordea	莫爾迪亞雕像	proposed	1	bark 02BC:00A4		
+item	statuette	小雕像	proposed	1	bark 032A:009D		
+item	stepping stone	踏腳石	proposed	2	bark 020F:00A2		
+item	sticks	樹枝	proposed	1	bark 0256:009A		
+item	stone amber	琥珀石	proposed	1	bark 0254:0170		
+item	stone chair	石椅	proposed	1	bark 00DD:009F		
+item	Stone throne	石王座	proposed	1	bark 0121:00A0		
+item	stove pipe	爐管	proposed	1	bark 02D3:009E		
+item	straw	稻草	proposed	1	bark 02D0:0099		
+item	stuffed torax	托拉克斯獸標本	proposed	1	bark 032B:0170		
+item	Summon Daemon spellbook	召喚惡魔魔法書	proposed	2	bark 0120:04E5	Sorcery spellbook	
+item	switch	開關	proposed	1	bark 01F9:009A		
+item	sword	劍	proposed	1	bark 00F3:0099		
+item	symbol	符印	proposed	1	bark 018D:0462	sorcery focus kind (FIREITEM)	
+item	table	桌子	proposed	7	bark 00E1:0099		
+item	tableware	餐具	proposed	1	bark 00B5:009D		
+item	talisman	護符	proposed	1	bark 018D:0462	sorcery focus kind (FIREITEM)	
+item	tankard	大酒杯	proposed	1	bark 00B2:009B		
+item	tapestry	掛毯	proposed	2	bark 0148:009C		
+item	Tear of the Seas	海洋之淚	proposed	4	bark 01BA:011C	Hydros Titan artifact	yes
+item	template book	範本之書	proposed	1	bark 0120:00AF		
+item	Tenebraen Ale	泰尼伯瑞麥酒	proposed	2	bark 00B4:0169	drink in Tenebrae	
+item	the Breath of Air	狂風之息	proposed	1	bark 01BA:014F		yes
+item	The Destruction of the Temple	神廟的毀滅	proposed	2	bark 0120:05AB	book	
+item	The Eye	魔眼之書	proposed	2	bark 0120:0704	ancient eye artifact/book	
+item	The Final Sunlight	最後曙光	proposed	2	bark 0120:0E1D		
+item	the Grim Book	陰森之書	proposed	2	bark 0120:0767	book	
+item	the Heart of Earth	大地之心	proposed	1	bark 01BA:00E6		yes
+item	The Mysteries of Lithos	利索斯的奧秘	proposed	1	bark 0265:0FA9	book	
+item	The Mythology of the Zealan Deities	澤蘭神祇神話	proposed	2	bark 0120:0DE2	book	
+item	The Objective History of Pagan	佩根客觀歷史	proposed	1	bark 0265:0F69	book	
+item	The Skull of Quakes	地震頭骨	proposed	1	bark 032E:00A7	necromancy artifact	
+item	the Tear of the Seas	海洋之淚	proposed	1	bark 01BA:011C		yes
+item	The Tongue of Flame	烈焰之舌	proposed	2	bark 0120:0282		yes
+item	the Tongue of Flame	烈焰之舌	proposed	1	bark 01BA:0184		yes
+item	The Warrior and the Acolyte	戰士與學徒	proposed	1	bark 0265:1169	book	
+item	Tongue of Flame	烈焰之舌	proposed	8	bark 006D:1056	Pyros Titan artifact	yes
+item	Torax ribs	托拉克斯肋排	proposed	1	bark 0219:0104		
+item	torch	火把	proposed	1	bark 0238:009A		
+item	torture chair	刑椅	proposed	1	bark 0136:00A1		
+item	torture rack	拷問架	proposed	1	bark 0135:00A0		
+item	Torwin's ring	托溫的戒指	proposed	1	bark 0340:00A1		
+item	towel	毛巾	proposed	3	bark 033D:010D		
+item	toy kith	奇斯怪蛛玩具	proposed	1	bark 032B:013A		
+item	tree	樹	proposed	4	bark 0039:0098		
+item	trough	水槽	proposed	2	bark 0111:009A		
+item	trowel	小泥鏟	proposed	1	bark 0342:009A		
+item	tuber	塊莖	proposed	1	bark 021A:0252		
+item	unstable gem	不穩定寶石	proposed	1	bark 0250:010E		
+item	vase	花瓶	proposed	1	bark 00E5:0098		
+item	Voices	眾聲之書	proposed	2	bark 0120:06D4	book	
+item	volcanic ash	火山灰	proposed	1	bark 018E:00B5	reagent	
+item	wall lamp	壁燈	proposed	3	bark 013A:009D		
+item	wand	魔杖	proposed	1	bark 018D:0462	sorcery focus kind (FIREITEM)	
+item	wardrobe	衣櫃	proposed	2	bark 0132:009C		
+item	wash basin	洗臉盆	proposed	1	bark 033D:00AD		
+item	water jug	水罐	proposed	1	bark 033D:00DF		
+item	well	水井	proposed	1	bark 0298:0099		
+item	WHAT THE FISH TELL ME	魚告訴我的事	proposed	1	bark 0265:00B8	book	
+item	What the Fish Tell Me	魚告訴我的事	proposed	2	bark 0120:09BE	book	
+item	winch	絞盤	proposed	2	bark 0116:0099		
+item	Wood	木頭	proposed	5	bark 026F:0813	reagent	
+item	wood	木頭	proposed	1	bark 0290:0098	reagent	
+item	wooden chair	木椅	proposed	1	bark 00DE:00A1		
+item	wooden throne	木王座	proposed	1	bark 00DF:00A1		
+item	wooden torax	木製托拉克斯獸	proposed	1	bark 032B:0109		
+item	Zealan ceremonial shield	澤蘭儀式盾牌	proposed	1	bark 033C:00AC		
+spell	Aerial Servant	風之僕役	proposed	7	bark 0120:0A5E	Theurgy spell	
+spell	Aerial Servant focus	風之僕役法器	proposed	1	bark 018C:02C1		
+spell	Air Walk	輕風漫步	proposed	7	bark 0120:0B2A	Theurgy spell	
+spell	Air Walk focus	輕風漫步法器	proposed	1	bark 018C:0367		
+spell	Armor of Flames	烈焰護甲	proposed	3	bark 058A:396F	Sorcery spell	
+spell	Art of Flame	火焰之藝	proposed	3	bark 0120:0246		
+spell	Blast	衝擊術	proposed	4	bark 0120:0C43		
+spell	Bolt	飛彈術	proposed	4	bark 0120:036D		
+spell	bracer	護腕	proposed	1	bark 018C:011B	focus item	
+spell	bracer focus	護腕法器	proposed	1	bark 018C:011B		
+spell	Call	呼喚術	proposed	3	bark 041D:3D41		
+spell	Call Destruction	呼喚毀滅	proposed	4	bark 0120:0CEA	Thaumaturgy spell	
+spell	Call Quake	引發地震	proposed	1	bark 02EA:021F	Necromancy spell	
+spell	Calling	召喚術	proposed	5	bark 041C:4D99		
+spell	chain	鎖鏈	proposed	1	bark 018C:01E8	focus item	
+spell	chain focus	鎖鏈法器	proposed	1	bark 018C:01E8		
+spell	closed eye	閉眼	proposed	1	bark 018C:0186	focus item	
+spell	closed eye focus	閉眼法器	proposed	1	bark 018C:0186		
+spell	Confusion Blast	混亂衝擊	proposed	3	bark 0120:0C43	Thaumaturgy spell	
+spell	Create Golem	創造魔像	proposed	1	bark 02EA:0195	Necromancy spell	
+spell	Death Speak	與亡者交談	proposed	5	bark 02EA:00B2	Necromancy spell	
+spell	Destruction	毀滅術	proposed	3	bark 0120:0CEA		
+spell	Devastation	浩劫術	proposed	3	bark 0120:0D1E	Thaumaturgy spell	
+spell	Divination	占卜術	proposed	3	bark 0120:09F1	Theurgy spell	
+spell	Divination focus	占卜術法器	proposed	1	bark 018C:024E		
+spell	Endure Heat	耐熱術	proposed	4	bark 058A:248F	Sorcery spell	
+spell	Ethereal Travel	以太漫遊	proposed	4	bark 0120:0D56	Thaumaturgy spell	
+spell	Explosion	爆炸術	proposed	5	bark 041B:0699	Sorcery spell	
+spell	Extinguish	熄火術	proposed	5	bark 058A:383C	Sorcery spell	
+spell	Fade From Sight	隱匿行蹤	proposed	3	bark 0120:0AF9	Theurgy spell	
+spell	Fade From Sight focus	隱匿行蹤法器	proposed	1	bark 018C:0333		
+spell	Fire Shield	火焰護盾	proposed	3	bark 058A:396F	Sorcery spell	
+spell	fist	拳頭	proposed	1	bark 018C:0218	focus item	
+spell	fist focus	拳頭法器	proposed	1	bark 018C:0218		
+spell	Flame Bolt	烈焰箭	proposed	6	bark 041B:0699	Sorcery spell	
+spell	Flash	閃光術	proposed	4	bark 058A:248F	Sorcery spell	
+spell	Foci	法器	proposed	12	ask 0416	theurgy focus objects	
+spell	Focus	法器	proposed	30	bark 00CE:00A2		
+spell	Grant Peace	賜予安息	proposed	1	bark 02EA:01F3	Necromancy spell	
+spell	Healing Touch	治癒之觸	proposed	3	bark 0120:0A27	Theurgy spell	
+spell	Healing Touch focus	治癒之觸法器	proposed	1	bark 018C:0287		
+spell	Hear Truth	聆聽真言	proposed	3	bark 0120:0B5D	Theurgy spell	
+spell	Hear Truth focus	聆聽真言法器	proposed	1	bark 018C:039D		
+spell	Ignite	點燃術	proposed	6	bark 006D:324F	Sorcery spell	
+spell	Intervention	庇佑之光	proposed	5	bark 0120:0B92	Theurgy spell (divine intervention)	
+spell	Intervention focus	庇佑之光法器	proposed	1	bark 018C:03D5		
+spell	Mask of Death	死亡面具	proposed	3	bark 02EA:00E1	Necromancy spell	
+spell	Meteor Shower	流星雨	proposed	5	bark 0120:0C79	Thaumaturgy spell	
+spell	open eye	睜眼	proposed	1	bark 018C:0409	focus item	
+spell	open eye focus	睜眼法器	proposed	1	bark 018C:0409		
+spell	Open Ground	裂地術	proposed	2	bark 02EA:0167	Necromancy spell	
+spell	open hand	開掌	proposed	1	bark 018C:0150	focus item	
+spell	open hand focus	開掌法器	proposed	1	bark 018C:0150		
+spell	pointing hand	指路之手	proposed	1	bark 018C:00E9	focus item	
+spell	pointing hand focus	指路之手法器	proposed	1	bark 018C:00E9		
+spell	Restoration	復原術	proposed	3	bark 0120:0AC1	Theurgy spell	
+spell	Restoration focus	復原術法器	proposed	1	bark 018C:02F8		
+spell	Resurrection	復活術	proposed	3	bark 0120:0BC7	Theurgy spell	
+spell	Reveal	現形術	proposed	3	bark 0120:0A8D	Theurgy spell	
+spell	Reveal focus	現形術法器	proposed	1	bark 018C:043B		
+spell	Rock Flesh	岩石之膚	proposed	2	bark 02EA:010D	Necromancy spell	
+spell	sextant	六分儀	proposed	1	bark 018C:00B0	focus item	
+spell	sextant focus	六分儀法器	proposed	1	bark 018C:00B0		
+spell	Shower	流星雨	proposed	4	bark 0120:0C79		
+spell	Summon Creature	召喚生物	proposed	3	bark 0120:0CB1	Thaumaturgy spell	
+spell	Summon Dead	召喚亡者	proposed	1	bark 02EA:013A	Necromancy spell	
+spell	The Art of Flame	火焰之藝	proposed	2	bark 0120:0246		
+spell	wings	雙翼	proposed	1	bark 018C:01B7	focus item	
+spell	wings focus	雙翼法器	proposed	1	bark 018C:01B7		
+spell	Withstand Death	抵禦死亡	proposed	1	bark 02EA:01C6	Necromancy spell	
+creature	changeling	變形怪	proposed	1	bark 0165:009E	shape-shifting monster	
+creature	Creature	生物	proposed	3	bark 0120:0CB1		
+creature	Daemon	惡魔	proposed	18	bark 0120:04E5		
+creature	daemon	惡魔	proposed	2	bark 0060:009A	daemon	
+creature	daemon Sorcerer	惡魔巫師	proposed	1	bark 0439:01D8	daemon possessing/practicing sorcery	
+creature	Daemons	惡魔	proposed	3	ask 041C		
+creature	dead daemon	死去的惡魔	proposed	1	bark 0439:0204		
+creature	dead daemon Sorcerer	死去的惡魔巫師	proposed	1	bark 0439:01B4		
+creature	gargoyle	石像鬼	proposed	2	bark 0026:009C		
+creature	ghost	幽靈	proposed	1	bark 019B:0099		
+creature	ghost head	幽靈頭顱	proposed	1	bark 019D:009E		
+creature	ghoul	食屍鬼	proposed	2	bark 008E:0099	flesh-eating undead	
+creature	Golem	魔像	proposed	3	bark 026F:1DCB		
+creature	golem	魔像	proposed	1	bark 00D6:0099	animated clay/rock entity	
+creature	Healed Torax	痊癒的托拉克斯獸	proposed	1	bark 00D1:00E0		
+creature	Kith	奇斯怪蛛	proposed	8	bark 040E:1345		yes
+creature	kith	奇斯怪蛛	proposed	1	bark 004C:0098	poisonous arachnid beast	yes
+creature	screamer	尖叫魔	proposed	1	bark 02F9:009B	wailing floating spirit	
+creature	seeker	探索者	proposed	1	bark 01FD:009A	tentacled creature	
+creature	skeleton	骷髏	proposed	5	bark 0077:009C	animated bones	
+creature	skellot	骸骨怪	proposed	1	bark 0326:009B	skeletal beast	
+creature	spider	蜘蛛	proposed	1	bark 0327:009A		
+creature	spitter	噴吐怪	proposed	1	bark 031B:009B	acid/poison spitting plant/beast	
+creature	Torax	托拉克斯獸	proposed	6	bark 00D1:00BA		yes
+creature	torax	托拉克斯獸	proposed	1	bark 0078:0099	Pagan indigenous reptilian herd beast	yes
+creature	Troll	巨魔	proposed	5	book 0572:07C7		
+creature	troll	巨魔	proposed	1	bark 0053:0099	cave troll	
+creature	Trolls	巨魔	proposed	4	book 0572:07C7		
+creature	Vermin	害蟲	proposed	3	scroll 0579:103E	pests/vermin	
+creature	Wounded Torax	受傷的托拉克斯獸	proposed	1	bark 00D1:00BA		
+title	Acolyte	學徒	proposed	45	bark 0265:1169		
+title	Acolyte of Stratos	史特拉托斯學徒	proposed	3	book 0593:C6C3		
+title	Acolytes	學徒	proposed	15	bark 006D:0974		
+title	Adept	行家法師	proposed	10	bark 0181:09EF	high-ranking mage	
+title	Air Titan	天空泰坦	proposed	4	bark 0181:00B1	Stratos	yes
+title	Avatar	聖者	approved	23	ask 02C3	Universal Ultima term	yes
+title	barkeep	酒保	proposed	1	bark 040A:013D		
+title	barmaid	女侍	proposed	1	bark 0418:0162		
+title	beggar	乞丐	proposed	1	bark 0344:00CB		
+title	Blowhard	吹牛大王	proposed	4	ask 0405	John Blowhard	
+title	Captain of the Guard	衛兵隊長	proposed	3	bark 0405:1AE4		
+title	Caster	施法者	proposed	5	ask 0401		
+title	child	小孩	proposed	1	bark 02C4:010A		
+title	corpse	屍體	proposed	1	bark 0403:01E1		
+title	corpse of Aramina	阿拉米娜的屍體	proposed	1	bark 040D:00B1		
+title	dead beggar	死去的乞丐	proposed	1	bark 0344:00AB		
+title	dead body	死者遺體	proposed	2	bark 00DA:009D		
+title	dead child	死去的小孩	proposed	1	bark 02C4:00EB		
+title	dead guardsman	死去的衛兵	proposed	12	bark 023E:00AE		
+title	dead mage	死去的法師	proposed	5	bark 041B:024F		
+title	dead Master Sorcerer	死去的大巫師	proposed	1	bark 041B:0201		
+title	dead peasant	死去的農民	proposed	2	bark 02C3:00ED		
+title	dead Seneschal	死去的總管	proposed	1	bark 0403:0192		
+title	dead Sorcerer	死去的巫師	proposed	5	bark 041C:03E4		
+title	dead theurgist	死去的神術師	proposed	1	bark 010D:00EF		
+title	dead woman	死去的女人	proposed	2	bark 0410:00E2		
+title	Destroyer	毀滅者	proposed	24	bark 0420:487B	apocalyptic entity in Pagan myth	yes
+title	Disciple	門徒	proposed	41	bark 041B:04DD		
+title	Disciples	門徒	proposed	5	bark 041C:1353		
+title	Earth Titan	大地泰坦	proposed	9	bark 01B1:009F	Lithos	yes
+title	Earthling	地球人	proposed	10	bark 056F:1980	how Vardion calls the Avatar	
+title	executioner	劊子手	proposed	1	bark 0413:010E		
+title	First Acolyte	第一學徒	proposed	21	bark 006D:43DB	Vardion	
+title	fisherman	漁夫	proposed	1	bark 0402:00CC		
+title	Fisherwoman	漁婦	proposed	1	bark 0410:017B		
+title	fisherwoman	漁婦	proposed	0			
+title	girl	女孩	proposed	1	bark 040D:015C		
+title	Great Air Titan	偉大的天空泰坦	proposed	3	bark 0417:2752	Stratos	yes
+title	Guard	衛兵	proposed	3	bark 0405:1B7B		
+title	guard	衛兵	proposed	1	bark 0408:00BE		
+title	guardsman	衛兵	proposed	12	bark 023E:00D1		
+title	Herdsman	牧民	proposed	2	bark 040E:00C3		
+title	Hero	英雄	proposed	3	bark 0120:07F2		
+title	Holy Cyrrus	聖席勒斯	proposed	4	bark 0416:00EE		
+title	Initiate	見習者	proposed	6	bark 0417:3B3B		
+title	Ladyship	夫人	proposed	13	bark 0403:0EA2	title of address	
+title	librarian	圖書館員	proposed	1	bark 040C:0146		
+title	Lurker	潛伏者	proposed	42	bark 0344:0A8F	name for Hydros	yes
+title	Mage	法師	proposed	1	bark 0415:1049		
+title	mage	法師	proposed	6	bark 041B:0268		
+title	man	男人	proposed	11	bark 0402:00EC		
+title	Master	大師	proposed	47	ask 006D		
+title	Master Sorcerer	大巫師	proposed	8	bark 041B:0225	Malchir	
+title	milady	女士	approved	0		Universal Ultima term	
+title	milord	大人	approved	0		Universal Ultima term	
+title	monk	修士	proposed	4	bark 0416:0139		
+title	Mountain King	山之王	approved	69	bark 00E8:0400	Lithos title	yes
+title	Mystic Voice	神秘之聲	proposed	11	ask 0416	Stratos	yes
+title	peasant	農民	proposed	2	bark 02C3:010E		
+title	Prophet	先知	proposed	3	bark 0120:07F2		
+title	Scion	傳人	proposed	10	bark 00E8:00ED	chosen one/successor	yes
+title	Seneschal	總管	proposed	5	bark 0403:01B5	Salkind	yes
+title	Servant	僕人	proposed	4	bark 0120:0A5E		
+title	servant	僕人	proposed	1	bark 040D:013B		
+title	servant Aramina	女僕阿拉米娜	proposed	1	bark 040D:00E6		
+title	ShadowLander	影地人	proposed	3	book 0592:06F0	dweller of the Shadowlands	yes
+title	sleeping woman	沉睡的女人	proposed	1	bark 0237:015D		
+title	Tempest	風暴使者	proposed	100	bark 0237:0135	title / school of magic	yes
+title	theurgist	神術師	proposed	1	bark 010D:0112		
+title	Titan	泰坦	approved	33	bark 0181:00CF		yes
+title	Titan of Air	天空泰坦	proposed	4	bark 0181:0774	Stratos	yes
+title	Titan of Earth	大地泰坦	proposed	3	bark 041C:3E95	Lithos	yes
+title	Titan of Fire	火焰泰坦	proposed	5	bark 006D:43DB	Pyros	yes
+title	Water Titan	海洋泰坦	proposed	3	bark 0050:009F	Hydros	yes
+title	weaver	織工	proposed	1	bark 0412:0133		
+title	Woman	女人	proposed	1	bark 040F:00C1		
+title	woman	女人	proposed	5	bark 0407:0128		
+faction	Ancient Necromancers	古代死靈法師	proposed	3	bark 0415:8617		
+faction	Ancient Ones	遠古眾神	proposed	5	bark 0409:3889	Zealan ancient gods	
+faction	Britannian	不列顛尼亞人	proposed	7	bark 056F:19BA	people of Britannia	
+faction	Cabal	密謀會	proposed	14	ask 041D	sorcerer cabal	
+faction	Fellowship	友誼會	approved	0		Universal Ultima term	
+faction	Necromancer	死靈法師	approved	75	bark 026F:009F		
+faction	Necromancers	死靈法師	approved	59	bark 026F:0558		
+faction	Order	修會	proposed	3	bark 0417:26B8	short for Order of Enlightenment	
+faction	Order of Enlightenment	啟蒙修會	proposed	5	bark 0402:2CB9	Theurgist order	
+faction	Pagans	佩根人	proposed	30	bark 041F:32E4	people of Pagan	
+faction	Sorcerer	巫師	proposed	107	bark 041C:0406	fire mage	
+faction	Sorcerers	巫師	proposed	44	bark 0402:4F1A		
+faction	Tempests	風暴使者	proposed	5	bark 040A:4D6D		
+faction	Tenebraens	泰尼伯瑞人	proposed	5	bark 0408:27C8	citizens of Tenebrae	
+faction	Theurgist	神術師	proposed	26	bark 040E:1F92	air mage	
+faction	Theurgists	神術師	proposed	27	bark 0408:0A36		
+faction	Titans	泰坦	proposed	91	bark 0402:2E2E	elemental titans	
+faction	Zealan	澤蘭人	proposed	11	bark 040F:1D11	ancient Pagan people	
+faction	Zealans	澤蘭人	proposed	44	bark 0402:4F1A		
+other	Air	風	proposed	14	ask 0181		
+other	Amoras	阿莫拉斯	proposed	3	bark 002C:00A0	Zealan goddess of love	
+other	Apathas	阿帕瑟斯	proposed	3	bark 0255:00A1	Zealan god of apathy	
+other	Aphelion	遠日石柱	proposed	18	bark 058A:3107	sorcery ritual boundary	
+other	As		ignore	4	book 0572:1CFE	sentence connector in book	
+other	Ate		ignore	3	book 0592:4668	verb in book	
+other	Bane's Truename	貝恩的真名	proposed	4	bark 056F:1811		
+other	Bloodwatch	血巡守	proposed	7	bark 0401:2D4D	Tenebrae watch period (night)	yes
+other	Both Perivolcanae	兩座環火石柱	proposed	6	book 0593:3E72		
+other	Breath	氣息	proposed	3	bark 040A:0DE3		
+other	Casting	施法	proposed	7	scroll 0579:08B5	casting magic heading	
+other	Ceremony of Eternity	永恆儀式	proposed	5	bark 0415:045E	necromancer burial ritual	
+other	Day Twenty	第二十天	proposed	3	book 0572:10D5	date entry in diary	
+other	DayTide	晝潮	proposed	5	bark 00E3:0282		yes
+other	Daytide	晝潮	proposed	1	bark 0401:2DA0	Tenebrae tidal period (midday)	yes
+other	Death	死亡	proposed	18	book 017A:0C32	concept in book	
+other	Dungbreath	臭糞之息	proposed	14	bark 041F:0B4B	insult by Gorgrond	
+other	Earth	土	proposed	16	bark 00E8:0344		
+other	Earthen Magic	大地魔法	proposed	4	bark 0120:05E1		
+other	Egg		ignore	4	bark 0401:2CE5	debug text	
+other	Elder Tongue	古老之語	proposed	6	ask 041D	ancient language of Sorcery	yes
+other	Element	元素	proposed	3	bark 041D:2A23		
+other	Elements	元素	proposed	8	bark 041D:1CE8		
+other	Enchanted	附魔的	proposed	6	scroll 0579:05B9	item quality	
+other	Enlightenment	啟蒙	proposed	6	bark 0416:256D	Theurgist ideal	
+other	Ether	以太	proposed	3	bark 0421:14E1	ethereal realm	
+other	Eventide	暮潮	proposed	5	bark 0401:2E1F	Tenebrae tidal period (nightfall)	yes
+other	Fined		ignore	3	book 017A:0C32	word in Salkind's logbook	
+other	Fire	火	proposed	63	bark 006D:1056		
+other	Fire of the Sky	天空之火	proposed	3	bark 0595:0481	meaning of the name Daemion	
+other	Firstebb	初退潮	proposed	5	bark 0401:2D77	Tenebrae tidal period (early day)	yes
+other	Flam	Flam	proposed	5	ask 0581	Word of Power (Flame)	
+other	Flam Corp Xen	Flam Corp Xen	proposed	3	ask 0581	Words of Power (Flame Death Creature)	
+other	Flames	烈焰	proposed	5	bark 0120:042B		
+other	Frame		ignore	8	bark 0401:2CE5	debug text	
+other	Furthermore		ignore	3	bark 0421:4794	sentence connector	
+other	Gor	戈爾	proposed	9	bark 0335:00AB	part of Khumash-Gor	
+other	Guilty		ignore	16	book 017A:0C32	legal verdict in book	
+other	Heat	熱	proposed	4	bark 0120:03AB		
+other	Helped		ignore	3	book 0592:455C	verb in book	
+other	However		ignore	4	book 0577:0893	sentence connector	
+other	Lastebb	終退潮	proposed	4	bark 0401:2DF5	Tenebrae tidal period (evening)	yes
+other	Lost	失去	proposed	3	bark 0120:0614	in book title	
+other	Mesostel Pa	派中立石柱	proposed	10	book 0593:4179	sorcery obelisk pillar	
+other	Mesostel Ze	澤中立石柱	proposed	10	bark 058A:3309	sorcery obelisk pillar	
+other	Mesostelae	中立石柱	proposed	3	bark 058A:3222	sorcery obelisk pillars	
+other	Moongate	月之門	approved	0		Universal Ultima term	yes
+other	Necromancy	死靈術	proposed	8	bark 026F:027C	magic of Lithos	yes
+other	Necromantic	死靈術的	proposed	6	bark 026F:117D		
+other	Nothing		ignore	7	book 0592:442C	in guard log: Nothing to report	
+other	Npc		ignore	4	bark 0401:09B1	NPC in debug message	
+other	Odion	歐迪恩	proposed	4	bark 0081:009F	Zealan god of hatred	
+other	Ort Flam	Ort Flam	proposed	3	ask 0581	Words of Power (Magic Flame)	
+other	Perivolcan Pa	派環火石柱	proposed	4	book 0593:4492	sorcery perimeter obelisk	
+other	Perivolcan Ze	澤環火石柱	proposed	4	book 0593:4179	sorcery perimeter obelisk	
+other	Perivolcanae	環火石柱	proposed	9	bark 058A:33E6		
+other	Punishment	懲罰	proposed	17	book 017A:0C32	concept in law book	
+other	Qual		ignore	4	bark 0401:2CE5	debug text	
+other	Quan		ignore	4	bark 0401:2CE5	debug text	
+other	Ritual of Fire	火之儀式	proposed	5	bark 058A:12CB	sorcery summoning ritual	
+other	Sanct An Por	Sanct An Por	proposed	6	bark 006D:3B7D	Words of Power (Protection Movement)	
+other	Select		ignore	1	bark 0401:122F	debug delete mode verb: Select the Avatar	
+other	Sight	視覺	proposed	4	bark 0120:0AF9		
+other	Sorcerous	巫術的	proposed	5	bark 041D:18F2		
+other	Sorcerous Ways	巫術之道	proposed	3	bark 0120:020D		
+other	Sorcery	巫術	proposed	29	bark 006D:4613	magic of Pyros	yes
+other	Spirit	靈魂	proposed	4	bark 040A:0DE3		
+other	Suddenly		ignore	3	book 0577:246E	sentence starter in book	
+other	Tempestry	風暴術	proposed	14	ask 0050	magic of Hydros	yes
+other	Test of Centeredness	專注考驗	proposed	18	ask 0416	Theurgist trial	
+other	Test of Wisdom	智慧考驗	proposed	11	ask 0416	Theurgist trial	
+other	Thaumaturgy	奇蹟術	proposed	12	bark 0120:0D96	fifth magic of the Avatar	yes
+other	Theurgy	神術	proposed	3	bark 0421:564D	magic of Stratos	yes
+other	Third Test	第三考驗	proposed	8	ask 0416	Theurgist trial	
+other	Threemoons	三月時	proposed	5	bark 0401:2DCC	Tenebrae celestial period (afternoon)	yes
+other	Titanic	泰坦的	proposed	6	bark 0415:3E95		
+other	Tongue	舌頭	proposed	5	book 0593:39B9	part of Tongue of Flame / language	
+other	Touch	觸覺	proposed	4	bark 0120:0A27		
+other	Travel	漫遊	proposed	3	bark 0120:0D56		
+other	Trials	試煉	proposed	4	bark 0439:18CD		
+other	Trials of the Obsidian Fortress	黑曜石要塞試煉	proposed	4	bark 041F:2239		
+other	Truename	真名	proposed	23	bark 041C:4A14	true name of a daemon or sorcerer	yes
+other	Truth	真理	proposed	4	bark 0120:0B5D		
+other	Type		ignore	8	bark 0401:2CE5	debug text	
+other	Using		ignore	3	scroll 0579:05B9	verb in scroll	
+other	Vol		ignore	3	bark 0265:108D	volume in book title	
+other	Walk	漫步	proposed	4	bark 0120:0B2A		
+other	Water	水	proposed	8	bark 041C:23E9		
+other	Writing		ignore	3	book 017A:0C32	word in Salkind's logbook	

@@ -107,7 +107,7 @@ msgstr "符印"
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "ignite "
-msgstr "點燃"
+msgstr "點燃術"
 
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates
@@ -156,7 +156,7 @@ msgstr ""
 #. parameter value inserted into sentence templates
 msgctxt "param 018D:part2"
 msgid "explosion "
-msgstr "爆炸"
+msgstr "爆炸術"
 
 #. value of {part2}: one of 12 pieces
 #. parameter value inserted into sentence templates

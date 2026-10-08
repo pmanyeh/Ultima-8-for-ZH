@@ -991,7 +991,7 @@ msgstr ""
 # P12 POC: Guardian taunt with speech (E666.FLX)
 msgctxt "bark 0401:3C96"
 msgid "Enjoying your stay on Pagan, Avatar? "
-msgstr "在 Pagan 過得還愉快嗎，聖者？"
+msgstr "在佩根過得還愉快嗎，聖者？"
 
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3CEB"
@@ -1058,7 +1058,7 @@ msgstr ""
 # P12 POC: Guardian taunt with speech (E666.FLX)
 msgctxt "bark 0401:410E"
 msgid "Soon I shall be able to call Britannia mine. It seems, Avatar, that you are missed here. Why, I believe I hear Lord British crying out for you now... "
-msgstr "很快我就能把 Britannia 據為己有了。看來，聖者，這裡的人很想念你呢。哎呀，我好像聽見 Lord British 正在呼喚你了……"
+msgstr "很快我就能把不列顛尼亞據為己有了。看來，聖者，這裡的人很想念你呢。哎呀，我好像聽見不列顛王正在呼喚你了……"
 
 #. event 15 (guardianBark)
 msgctxt "bark 0401:417B"

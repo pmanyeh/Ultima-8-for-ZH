@@ -16,6 +16,12 @@ Checks (errors stop the build, nothing is written):
   - no plural entries
   - the same context + English text only once across all files
   - the header Language matches --lang (when the header has one)
+Names (authority.tsv in an input directory, see localization/README.md):
+  every translated name becomes a "term" entry (key: the Chinese name in
+  UTF-8, value: the English shown after it the first time, or "-" for a name
+  that is only matched so that the names inside it are not annotated).
+  Annotated: annotate = yes, or empty for person, place and faction.
+
 Skipped with a note (the game shows English for these):
   - untranslated (empty msgstr) and fuzzy entries, obsolete (#~) entries
 
@@ -309,14 +315,54 @@ def collect(lang, inputs):
     return out, stats
 
 
-def write_mo(path, lang, entries):
+ANNOTATE_CATEGORIES = ("person", "place", "faction")
+CJK_RE = re.compile(r"[\u3400-\u9fff\uf900-\ufaff]")
+
+
+def collect_terms(inputs):
+    """{Chinese name: English or "-"} from authority.tsv in the input directories."""
+    candidates = {}
+    for d in inputs:
+        path = os.path.join(d, "authority.tsv")
+        if not os.path.isdir(d) or not os.path.exists(path):
+            continue
+        cols = None
+        for line in open(path, encoding="utf-8"):
+            line = line.rstrip("\n")
+            if not line or line.startswith("#"):
+                continue
+            f = line.split("\t")
+            if cols is None:
+                cols = f            # the column names
+                continue
+            row = dict(zip(cols, f + [""] * (len(cols) - len(f))))
+            zh = row.get("translation", "")
+            if row.get("status") not in ("approved", "proposed") or len(zh) < 2 or not CJK_RE.search(zh):
+                continue
+            annotate = row.get("annotate", "") == "yes" or \
+                (row.get("annotate", "") == "" and row.get("category") in ANNOTATE_CATEGORIES)
+            count = int(row.get("count") or 0)
+            candidates.setdefault(zh, []).append(
+                (annotate, row.get("status") == "approved", -len(row["english"]), count, row["english"]))
+    terms = {}
+    for zh, rows in candidates.items():
+        # annotated, approved, the shortest English (singular), the most frequent
+        rows.sort(reverse=True)
+        terms[zh] = rows[0][4] if rows[0][0] else "-"
+    return terms
+
+
+def write_mo(path, lang, entries, terms=None):
     header = ("Content-Type: text/plain; charset=UTF-8\n"
               "Content-Transfer-Encoding: 8bit\n"
               f"Language: {lang}\n"
               "X-Generator: u8 po_compile.py\n")
     items = [(b"", header.encode("utf-8"))]
     # key = context (ASCII) + EOT + English in the game's encoding
-    items += sorted((k.encode(GAME_ENCODING), v.encode("utf-8")) for k, v in entries.items())
+    keys = [(k.encode(GAME_ENCODING), v.encode("utf-8")) for k, v in entries.items()]
+    # names: the key is Chinese, so UTF-8
+    keys += [(("term\x04" + zh).encode("utf-8"), en.encode("utf-8")) for zh, en in (terms or {}).items()]
+    items += sorted(keys)
     n = len(items)
     orig_table = 28
     trans_table = orig_table + 8 * n
@@ -353,9 +399,11 @@ def main():
     except POError as e:
         print(f"ERROR:\n{e}", file=sys.stderr)
         sys.exit(1)
-    size = write_mo(a.output, a.lang, entries)
+    terms = collect_terms(a.inputs)
+    size = write_mo(a.output, a.lang, entries, terms)
+    annotated = sum(v != "-" for v in terms.values())
     print(f"{a.output}: {stats['translated']} entries ({stats['templates']} templates) "
-          f"from {stats['files']} files, {size} bytes "
+          f"from {stats['files']} files, {len(terms)} names ({annotated} annotated), {size} bytes "
           f"(skipped: {stats['untranslated']} untranslated, {stats['fuzzy']} fuzzy, "
           f"{stats['obsolete']} obsolete)")
 

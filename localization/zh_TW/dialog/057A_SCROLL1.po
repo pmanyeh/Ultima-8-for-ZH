@@ -12,7 +12,7 @@ msgstr ""
 
 msgctxt "scroll 057A:00DE"
 msgid "~Shopping list~~Torax ribs~Kith filet~Cheese~Fish~Blue Mushrooms~Butter~Salt"
-msgstr "~購物清單~~Torax 肋排~Kith 菲力~起司~魚~藍蘑菇~奶油~鹽"
+msgstr "~購物清單~~托拉克斯肋排~奇斯怪蛛肉排~乳酪~魚~藍蘑菇~奶油~鹽"
 
 msgctxt "scroll 057A:026C"
 msgid "I can go no further. These blasted magical walls have taken my strength, and I am afraid, my life. ~Too late have I discovered a way to detect the walls without cost to myself.~These humble mushrooms that litter the floor awake the wall's power when tossed at them! ~Alas, I can only eat these mushrooms. Perhaps they may bring me strength to escape this cavern..."

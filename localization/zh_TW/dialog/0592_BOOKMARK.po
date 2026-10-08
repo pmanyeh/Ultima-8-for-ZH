@@ -52,7 +52,7 @@ msgstr ""
 
 msgctxt "book 0592:442C"
 msgid "GUARD LOG: ~~Bloodwatch: Nothing to report. ~~Firstebb: Nothing to report. ~~DayTide: Nothing to report. ~~Threemoons: Nothing to report. ~~Lastebb: More of the same. ~~Eventide: Take a guess... "
-msgstr "衛兵日誌：~~Bloodwatch：無事可報。~~Firstebb：無事可報。~~DayTide：無事可報。~~Threemoons：無事可報。~~Lastebb：老樣子。~~Eventide：你猜呢……"
+msgstr "衛兵日誌：~~血巡守：無事可報。~~初退潮：無事可報。~~晝潮：無事可報。~~三月時：無事可報。~~終退潮：老樣子。~~暮潮：你猜呢……"
 
 msgctxt "book 0592:455C"
 msgid "GUARD LOG: ~~Bloodwatch: Nothing to report. ~~Firstebb: Flogged some peasants. ~~DayTide: Broke up a fight. Probably broke the sod's nose. ~~Threemoons: Nothing to report. ~~Lastebb: Helped peasant remember where he hid his taxes. Heh, heh... ~~Eventide: Guard changed. "

@@ -44,6 +44,14 @@ msgstr "我是 Devon，我奇特的朋友。很高興看到你好多了，{name}
 - **`{partN}`**：組合太多（例如魔杖的「種類 × 法術 × 次數」、時間 focus 的「時辰 × 星期 × 月份」）時，句子拆成片段，各片段是 `param CCCC:partN`。譯文可以調整順序：`{part1}of {part2}with {num} uses remaining` → `{part2}{part1}（剩 {num} 次）`。
 - 同一位置有多個句型都符合時，遊戲採用固定文字最多的那一個；完全相同的整句條目優先於句型。
 
+### 專有名詞的英文（自動加註）
+
+- 譯文**只寫中文名稱**，例如「不列顛尼亞」，不要自己加英文。
+- 遊戲在**同一次對話**中第一次顯示某個名稱時，會自動加上英文：「不列顛尼亞(Britannia)」。之後在同一次對話中再出現，就只顯示中文。書、捲軸、墓碑、牌匾則是每次打開時重新計算。
+- 對話選項不加註。
+- 哪些名稱要加註由權威檔決定：`annotate` 欄為 `yes`，或空白且分類是 person、place、faction 的名稱。名稱以最長的符合為準，所以「守護者之劍」裡的「守護者」不會被加註。
+- 設定 `localization_annotate=false` 可以關閉這個功能。
+
 ### 長度與顯示時間
 
 - 台詞框 194×55 px：英文一頁 5 行，中文（Cubic 11、行距 18 px）一頁 3 行、每行約 16 字。超過就自動分頁，不必手動加 `*`。
@@ -80,7 +88,7 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 
 ## 權威檔（`authority.tsv`）
 
-欄位：`category`、`english`、`translation`、`status`、`count`、`example`、`note`（tab 分隔）。
+欄位：`category`、`english`、`translation`、`status`、`count`、`example`、`note`、`annotate`（tab 分隔）。
 
 | status | 意思 |
 |---|---|
@@ -88,6 +96,9 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 | `approved` | 使用 `translation` 的譯名 |
 | `proposed` | 建議，尚未確定 |
 | `todo` | 尚未決定 |
+| `ignore` | 不是專有名詞（句首的大寫單字、除錯訊息等） |
+
+`annotate` 欄：`yes` / `no` / 空白（person、place、faction 預設加註），見上方「專有名詞的英文」。
 
 - 候選詞由 `terms` 指令自動收集（查看名稱、魔法的 focus、全部文字中反覆出現的大寫名詞），`category` 是猜測的，需要人工確認。
 - `check` 會對 `keep` 與 `approved` 的詞檢查：英文中出現這個詞，譯文卻沒有使用規定的譯名 → 警告。
