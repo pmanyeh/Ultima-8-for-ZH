@@ -10,749 +10,894 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 2
 #. event 00 (look)
 msgctxt "bark 040D:00B1"
 msgid "corpse of Aramina "
-msgstr ""
+msgstr "阿拉米娜的屍體"
 
+# P13 batch 2
 #. event 00 (look)
 msgctxt "bark 040D:00E6"
 msgid "servant Aramina "
-msgstr ""
+msgstr "女僕阿拉米娜"
 
+# P13 batch 2
 #. event 00 (look)
 msgctxt "bark 040D:0110"
 msgid "Aramina"
-msgstr ""
+msgstr "阿拉米娜"
 
+# P13 batch 2
 #. event 00 (look)
 msgctxt "bark 040D:013B"
 msgid "servant "
-msgstr ""
+msgstr "僕人"
 
+# P13 batch 2
 #. event 00 (look)
 msgctxt "bark 040D:015C"
 msgid "girl "
-msgstr ""
+msgstr "女孩"
 
+# P13 batch 2
 #. event 13 (justMoved)
 msgctxt "bark 040D:036B"
 msgid "I would not do that if I were you! "
-msgstr ""
+msgstr "換作是我，可不會那麼做！"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:0424"
 msgid "Beren, help me! "
-msgstr ""
+msgstr "貝倫，救我！"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:0450"
 msgid "Help me, Sorcerer! "
-msgstr ""
+msgstr "救救我，巫師！"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:061F"
 msgid "May I help you? "
-msgstr ""
+msgstr "有什麼需要嗎？"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:066E"
 msgid "Leave my home, stranger! "
-msgstr ""
+msgstr "離開我家，陌生人！"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:06C0"
 msgid "Yes, my friend? "
-msgstr ""
+msgstr "什麼事，朋友？"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:070E"
 msgid "Why are you in my home? "
-msgstr ""
+msgstr "你為什麼在我家？"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:074E"
 msgid "Can I get you anything? "
-msgstr ""
+msgstr "需要我拿點什麼給你嗎？"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:07A8"
 msgid "I'm afraid I must ask you to leave. "
-msgstr ""
+msgstr "恐怕我得請你離開了。"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:07EC"
 msgid "I'm warning you! "
-msgstr ""
+msgstr "我警告你！"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:0847"
 msgid "Are you lost, my friend? "
-msgstr ""
+msgstr "你迷路了嗎，朋友？"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:0871"
 msgid "Out of my house! "
-msgstr ""
+msgstr "滾出我家！"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:08D0"
 msgid "You try my patience! "
-msgstr ""
+msgstr "你在考驗我的耐性！"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:096C"
 msgid "I must remember to get some butter. "
-msgstr ""
+msgstr "我得記得去買點奶油。"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:0993"
 msgid "hmmmm "
-msgstr ""
+msgstr "嗯……"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:09FF"
 msgid "No rest for the weary. "
-msgstr ""
+msgstr "累死了也不得休息。"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:0A3E"
 msgid "I must change the bed linens. "
-msgstr ""
+msgstr "我得換床單了。"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:0AA5"
 msgid "Oh, my poor back. "
-msgstr ""
+msgstr "噢，我可憐的背。"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:0AFE"
 msgid "I just want to sit down for a moment. "
-msgstr ""
+msgstr "我只想坐下來歇一會兒。"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:0B3B"
 msgid "I sure could use a day off. "
-msgstr ""
+msgstr "真想放一天假。"
 
+# P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "bark 040D:0B71"
 msgid "Oh, my aching bones. "
-msgstr ""
+msgstr "噢，我這身痠痛的骨頭。"
 
+# P13 batch 2
 #. event 01 (use (talk))
 msgctxt "bark 040D:11A3"
 msgid "AAhhhhhh! 'Tis another dead one! AAAAHHHHHHHHH! "
-msgstr ""
+msgstr "啊啊啊啊！又一個死人！啊啊啊啊啊啊！"
 
+# P13 batch 2
 #. event 01 (use (talk))
 msgctxt "bark 040D:124E"
 msgid "I'd love to stay and talk, but Devon needs me right now, and...well, you know. Talk to you later, Ta-ta! "
-msgstr ""
+msgstr "我很想留下來聊聊，可是戴文現在需要我，而且……嗯，你懂的。晚點再聊，拜拜！"
 
+# P13 batch 2
 #. event 01 (use (talk))
 msgctxt "bark 040D:12B1"
 msgid "I am sorry, but I can not talk to you now. I must attend to her ladyship. "
-msgstr ""
+msgstr "抱歉，我現在不能跟你說話。我得去服侍夫人。"
 
+# P13 batch 2
 #. event 01 (use (talk))
 msgctxt "bark 040D:1312"
 msgid "Find me later at my house in east Tenebrae, I will be there at bloodwatch. "
-msgstr ""
+msgstr "晚點到泰尼伯瑞東區我家來找我，血巡守時我會在家。"
 
+# P13 batch 2
 #. event 01 (use (talk))
 msgctxt "bark 040D:136A"
 msgid "How may I serve you, stranger? "
-msgstr ""
+msgstr "有什麼能為你效勞的，陌生人？"
 
+# P13 batch 2
 #. event 01 (use (talk))
 msgctxt "ask 040D"
 msgid "bye "
-msgstr ""
+msgstr "告辭"
 
+# P13 batch 2
 #. event 01 (use (talk))
 msgctxt "bark 040D:13C6"
 msgid "Good morrow to you. "
-msgstr ""
+msgstr "你也早安。"
 
+# P13 batch 2
 #. event 01 (use (talk))
 msgctxt "ask 040D"
 msgid "What do you know of treasure? "
-msgstr ""
+msgstr "你知道寶藏的事嗎？"
 
+# P13 batch 2
 #. event 01 (use (talk))
 msgctxt "bark 040D:147A"
 msgid "Good day to you, stranger. "
-msgstr ""
+msgstr "日安，陌生人。"
 
+# P13 batch 2
 #. event 01 (use (talk))
 #. sentence template: keep the {placeholders}
 msgctxt "bark 040D:14DE"
 msgid "'Tis a grand day, friend {name}."
-msgstr ""
+msgstr "今天天氣真好，{name}朋友。"
 
+# P13 batch 2
 #. event 01 (use (talk))
 msgctxt "ask 040D"
 msgid "I'm looking for a dagger. "
-msgstr ""
+msgstr "我在找一把匕首。"
 
+# P13 batch 2
 #. event 01 (use (talk))
 msgctxt "ask 040D"
 msgid "What miserable weather this is. "
-msgstr ""
+msgstr "這天氣真糟。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "By what are you called? "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "By what are you called? "
-msgstr ""
+msgstr "該怎麼稱呼你？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "By what are you called? "
 msgctxt "bark 040D:1689"
 msgid "Forgive me for not introducing myself earlier. My name is Aramina. "
-msgstr ""
+msgstr "請原諒我沒有早點自我介紹。我叫阿拉米娜。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "By what are you called? "
 msgctxt "bark 040D:16B6"
 msgid "My name is Aramina. "
-msgstr ""
+msgstr "我叫阿拉米娜。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What do you do here? "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "What do you do here? "
-msgstr ""
+msgstr "你在這裡做什麼？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What do you do here? "
 msgctxt "bark 040D:1772"
 msgid "I am merely a servant here. "
-msgstr ""
+msgstr "我只是這裡的僕人。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What do you do here? "
 msgctxt "ask 040D"
 msgid "Tell me about the palace. "
-msgstr ""
+msgstr "說說宮殿。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Tell me about the palace. "
 msgctxt "bark 040D:182D"
 msgid "This is the home of our Tempest, the Lady Mordea. "
-msgstr ""
+msgstr "這是我們的風暴使者莫爾迪亞夫人的居所。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Tell me about the palace. "
 msgctxt "ask 040D"
 msgid "Tell me of Lady Mordea. "
-msgstr ""
+msgstr "說說莫爾迪亞夫人。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Tell me of Lady Mordea. "
 msgctxt "bark 040D:1925"
 msgid "Well, it is not good for me to speak of my employer behind her back, but I will tell you she is a hard woman. "
-msgstr ""
+msgstr "嗯，在背後議論主人不太好，不過我可以告訴你，她是個冷酷的女人。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Tell me of Lady Mordea. "
 msgctxt "ask 040D"
 msgid "Why do you say she is hard? "
-msgstr ""
+msgstr "你為什麼說她冷酷？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Why do you say she is hard? "
 msgctxt "bark 040D:1A73"
 msgid "She will stop at nothing to preserve her power here. Nothing, not even murder. She hardly notices my existence. At least she does not take pleasure in tormenting me like her seneschal does. "
-msgstr ""
+msgstr "為了保住她在這裡的權力，她不擇手段。什麼都做得出來，連謀殺也不例外。她幾乎沒注意到我的存在。至少她不像她的總管那樣，以折磨我為樂。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Why do you say she is hard? "
 msgctxt "ask 040D"
 msgid "Tell me of the seneschal. "
-msgstr ""
+msgstr "說說那位總管。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Murder? "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "Murder? "
-msgstr ""
+msgstr "謀殺？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Murder? "
 msgctxt "bark 040D:1B74"
 msgid "Murder? Did I say murder? Oh no, I meant nothing like that. I meant mother, that's it, mother. She is like a mother to her people. "
-msgstr ""
+msgstr "謀殺？我說了謀殺嗎？噢不，我不是那個意思。我是說「模範」，對，模範。她是人民的模範，就像母親一樣。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Murder? "
 msgctxt "bark 040D:1C21"
 msgid "(I think she trumps up charges against people who question her authority and then uses the laws of execution to eliminate them...legal murder.) "
-msgstr ""
+msgstr "（我想她會捏造罪名，陷害那些質疑她權威的人，再用處決的法律除掉他們……合法的謀殺。）"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Tell me of the seneschal. "
 msgctxt "bark 040D:1CCE"
 msgid "Salkind is her  seneschal. (Salkind, that evil, perverted man, is her seneschal.) "
-msgstr ""
+msgstr "薩金德是她的總管。（薩金德，那個邪惡的變態，是她的總管。）"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Tell me of the seneschal. "
 msgctxt "bark 040D:1D01"
 msgid "Salkind is her seneschal. "
-msgstr ""
+msgstr "薩金德是她的總管。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Tell me of the seneschal. "
 msgctxt "ask 040D"
 msgid "Tell me of Salkind. "
-msgstr ""
+msgstr "說說薩金德。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "She wishes to preserve power? "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "She wishes to preserve power? "
-msgstr ""
+msgstr "她想保住權力？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "She wishes to preserve power? "
 msgctxt "bark 040D:1DF2"
 msgid "The power of the Tempestry, milord. The power to control the weather. This is, indeed, great power. "
-msgstr ""
+msgstr "風暴使者之力，大人。控制天氣的力量。這確實是很強大的力量。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "She wishes to preserve power? "
 msgctxt "ask 040D"
 msgid "Tell me of the Tempestry. "
-msgstr ""
+msgstr "說說風暴術。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Tell me of the Tempestry. "
 msgctxt "bark 040D:1EFF"
 msgid "Tempestry, milord? Surely you have heard of it. It is the power that is transferred through the bloodline of the Tempests. "
-msgstr ""
+msgstr "風暴術，大人？您一定聽說過吧。那是透過風暴使者的血脈傳承的力量。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Tell me of the Tempestry. "
 msgctxt "ask 040D"
 msgid "What power is transferred? "
-msgstr ""
+msgstr "傳承的是什麼力量？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What do you mean by 'bloodline'? "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "What do you mean by 'bloodline'? "
-msgstr ""
+msgstr "你說的「血脈」是什麼意思？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What do you mean by 'bloodline'? "
 msgctxt "bark 040D:1FEB"
 msgid "It is inherited, father to son, mother to daughter. "
-msgstr ""
+msgstr "就是世襲，父傳子，母傳女。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What power is transferred? "
 msgctxt "bark 040D:20E9"
 msgid "As I said, milord, the power to control the weather. While at times, a good thing, it can be a powerful weapon to hold over the people's heads. "
-msgstr ""
+msgstr "就像我說的，大人，是控制天氣的力量。這有時是好事，但也可能成為懸在人民頭上的強大武器。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What power is transferred? "
 msgctxt "ask 040D"
 msgid "She holds it over her people's heads? "
-msgstr ""
+msgstr "她拿它壓在人民頭上？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "She holds it over her people's heads? "
 msgctxt "bark 040D:229D"
 msgid "I mean...I mean it is a powerful tool to help the people's herds... of torax, that is. (Yes, she threatens to make the weather bad, or worse yet, send them to the Lurker, if they don't do her bidding.) Please, ask me no more. I am afraid Salkind will punish me. "
-msgstr ""
+msgstr "我是說……我是說，它是幫助人民照料牲口頭數的有力工具……我是指托拉克斯獸啦。（沒錯，誰要是不聽她的命令，她就威脅要讓天氣變壞，甚至更糟，把他們送給潛伏者。）拜託，別再問我了。我怕薩金德會懲罰我。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "She holds it over her people's heads? "
 msgctxt "bark 040D:234A"
 msgid "I mean...I mean it is a powerful tool to help the people's herds.... of torax, that is. Please, ask me no more. I am afraid Salkind will punish me. "
-msgstr ""
+msgstr "我是說……我是說，它是幫助人民照料牲口頭數的有力工具……我是指托拉克斯獸啦。拜託，別再問我了。我怕薩金德會懲罰我。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "She holds it over her people's heads? "
 msgctxt "ask 040D"
 msgid "Salkind punishes you? "
-msgstr ""
+msgstr "薩金德會懲罰你？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Salkind punishes you? "
 msgctxt "bark 040D:24B7"
 msgid "Punished? No, no, not punished...er, pampered, yes, that's it, pampered by... Salkind. (He is a horrid man who delights in tormenting me. He says lewd things and puts his hands on me. There is nothing I can do.) "
-msgstr ""
+msgstr "懲罰？不，不，不是懲罰……呃，是寵、寵愛，對，就是被……薩金德寵愛。（他是個可怕的男人，以折磨我為樂。他說下流的話，還對我毛手毛腳。我什麼也做不了。）"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Salkind punishes you? "
 msgctxt "bark 040D:2553"
 msgid "Punished? No, no, not punished... er,pampered, yes that's it, pampered by...Salkind. Please, friend, I do not wish to speak of it. "
-msgstr ""
+msgstr "懲罰？不，不，不是懲罰……呃，是寵、寵愛，對，就是被……薩金德寵愛。拜託，朋友，我不想談這件事。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Tell me of Salkind. "
 msgctxt "bark 040D:2616"
 msgid "He sets me to difficult tasks, then delights in tormenting me until I am barely able to complete them. "
-msgstr ""
+msgstr "他交給我困難的差事，然後以折磨我為樂，讓我幾乎無法完成。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Tell me of Salkind. "
 msgctxt "ask 040D"
 msgid "How does he torment you? "
-msgstr ""
+msgstr "他怎麼折磨你？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What difficult tasks does he give you? "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "What difficult tasks does he give you? "
-msgstr ""
+msgstr "他交給你什麼困難的差事？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What difficult tasks does he give you? "
 msgctxt "bark 040D:2843"
 msgid "No, no, certainly not difficult, rather, challenging, That's it, he gives me challenging tasks. For instance, he will give me a very small brush and tell me to clean the floor of his room. Then he will arrive, his boots muddy from his walks along the shore, and track mud all over the floor I just cleaned. He then points the dirt out to me and chastises me for poor work, calling me a no good slackard. "
-msgstr ""
+msgstr "不，不，當然不是困難，應該說是有挑戰性，對，他交給我有挑戰性的差事。比如說，他會給我一把很小的刷子，叫我刷他房間的地板。然後他走進來，靴子上沾滿在海邊散步時踩的泥巴，在我剛刷乾淨的地板上踩得到處都是。接著他指著那些泥巴，罵我做事馬虎，說我是個沒用的懶骨頭。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "How does he torment you? "
 msgctxt "bark 040D:299F"
 msgid "Perhaps 'torment' is too strong a word. Actually, he is quite the joker. For instance, just today he was walking down the hall toward me when he suddenly cornered me and began to pinch and grab my body. Don't you think that is funny? "
-msgstr ""
+msgstr "也許「折磨」這個詞太重了。其實他很愛開玩笑。比如說，就在今天，他沿著走廊朝我走來，突然把我逼到角落，開始在我身上又捏又抓。你不覺得那很好笑嗎？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "How does he torment you? "
 msgctxt "ask 040D"
 msgid "no "
-msgstr ""
+msgstr "不覺得"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "yes "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "yes "
-msgstr ""
+msgstr "覺得"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "yes "
 msgctxt "bark 040D:2A59"
 msgid "Oh,...well...I guess perhaps some find it humorous. I must be back to my chores now. "
-msgstr ""
+msgstr "噢……嗯……我想或許有人覺得那很好笑吧。我得回去做事了。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "no "
 msgctxt "bark 040D:2B3E"
 msgid "No? Really? Truly, I didn't find it very humorous either. But he finds it hilarious. So, I smile and try my best to stay out of his way. There is precious little I can do. "
-msgstr ""
+msgstr "不覺得？真的嗎？老實說，我也不覺得好笑。可是他覺得好笑極了。所以我只能陪笑，盡量避開他。我能做的實在少之又少。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "no "
 msgctxt "ask 040D"
 msgid "Slap him! "
-msgstr ""
+msgstr "賞他一巴掌！"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Speak up about it! "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "Speak up about it! "
-msgstr ""
+msgstr "把這件事說出來！"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Speak up about it! "
 msgctxt "bark 040D:2C98"
 msgid "Oh, you are very nice, and I appreciate your concern, however, who would I speak to? Lady Mordea? No, she dotes on him. Darion? He simply would not believe me. No, my friend, I need this job. Speaking of keeping my job, I need to get back to work. "
-msgstr ""
+msgstr "噢，你人真好，謝謝你的關心，可是我要跟誰說呢？莫爾迪亞夫人？不，她很寵他。達里恩？他根本不會相信我。不，朋友，我需要這份工作。說到保住工作，我得回去做事了。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Slap him! "
 msgctxt "bark 040D:2DCD"
 msgid "No, my friend, I have no desire to lose my job nor my head, for to strike the seneschal would be considered treason. I would be beheaded before the next morning. Well, I must get back to work now. "
-msgstr ""
+msgstr "不，朋友，我既不想丟了工作，也不想丟了腦袋，因為打總管會被當成叛國。不到隔天早上我就會被砍頭了。好了，我得回去做事了。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "It is good to see you smile, Aramina. "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "It is good to see you smile, Aramina. "
-msgstr ""
+msgstr "真高興看到你笑了，阿拉米娜。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "It is good to see you smile, Aramina. "
 msgctxt "bark 040D:2E95"
 msgid "I have you to thank for it. You did save Devon, didn't you? "
-msgstr ""
+msgstr "這都要謝謝你。是你救了戴文，對吧？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "It is good to see you smile, Aramina. "
 msgctxt "ask 040D"
 msgid "Well, it was nothing, really. "
-msgstr ""
+msgstr "嗯，其實沒什麼。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What is your name? "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "What is your name? "
-msgstr ""
+msgstr "你叫什麼名字？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What is your name? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 040D:2F7C"
 msgid "I am Aramina, my friend. I work here in the palace for Devon. You're {name}, aren't you? Devon speaks of you often."
-msgstr ""
+msgstr "我是阿拉米娜，朋友。我在宮殿裡替戴文做事。你是{name}，對吧？戴文常常提到你。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What is your name? "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 040D"
 msgid "Yes, I am {name}."
-msgstr ""
+msgstr "是的，我是{name}。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "bark 040D:2FFB"
 msgid "Yes, I knew it was you. Did you really save him?"
-msgstr ""
+msgstr "是啊，我就知道是你。你真的救了他嗎？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Yes, I did. " or "Well, it was nothing, really. "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "Yes, I did. "
-msgstr ""
+msgstr "是的，我救了他。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Yes, I did. " or "Well, it was nothing, really. "
 msgctxt "bark 040D:30DC"
 msgid "Oh, I can't thank you enough. He is so... so... well, just dreamy. "
-msgstr ""
+msgstr "噢，我真不知道該怎麼謝你才好。他是那麼……那麼……嗯，簡直像夢一樣迷人。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Yes, I did. " or "Well, it was nothing, really. "
 msgctxt "ask 040D"
 msgid "Did you say ... 'dreamy'? "
-msgstr ""
+msgstr "你是說……「像夢一樣迷人」？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Did you say ... 'dreamy'? "
 msgctxt "bark 040D:3292"
 msgid "Uh huh. He is the nicest man. He never torments me like that nasty old Salkind did. Why he even asked me to eat supper with him the other night ... in the dining room no less. Then we went for a walk outside and he picked a flower for me...ME! a simple servant girl...did you ever hear of anything so romantic? I just can't get over it ... "
-msgstr ""
+msgstr "嗯哼。他是最好的男人了。他從不像那個討厭的老薩金德那樣折磨我。哎呀，前幾天晚上他還邀我跟他一起吃晚餐……而且是在餐廳裡呢。然後我們到外面散步，他還為我摘了一朵花……為「我」！一個普通的女僕……你聽過這麼浪漫的事嗎？我到現在都還回不過神來……"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Did you say ... 'dreamy'? "
 msgctxt "ask 040D"
 msgid "Uhm, ... I've got to leave now. "
-msgstr ""
+msgstr "呃……我得走了。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Uhm, ... I've got to leave now. "
 msgctxt "bark 040D:3373"
 msgid "...and those eyes. Did you ever see eyes like that? They're just so blue, I could get lost in them. I tell you ... "
-msgstr ""
+msgstr "……還有那雙眼睛。你見過那樣的眼睛嗎？好藍好藍，我都要迷失在裡面了。我跟你說……"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Have you met Devon? "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "Have you met Devon? "
-msgstr ""
+msgstr "你見過戴文嗎？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Have you met Devon? "
 msgctxt "bark 040D:340F"
 msgid "Devon? Well, I know him but I've never actually met him. But I think I'd like to. "
-msgstr ""
+msgstr "戴文？嗯，我知道他，但從來沒真正見過面。不過我想我會想見見他。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Have you met Devon? "
 msgctxt "ask 040D"
 msgid "You know of him? "
-msgstr ""
+msgstr "你知道他？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "You'd like to meet him? "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "You'd like to meet him? "
-msgstr ""
+msgstr "你想見他？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "You'd like to meet him? "
 msgctxt "bark 040D:34FD"
 msgid "Once, when I was sent to the store to purchase something for Lady Mordea, he was there. I thought he had the nicest smile. "
-msgstr ""
+msgstr "有一次我被派去商店替莫爾迪亞夫人買東西，他也在那裡。我覺得他的笑容真好看。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "You know of him? "
 msgctxt "bark 040D:35A0"
 msgid "I've seen him and I know his name. I rarely get to meet anyone outside. "
-msgstr ""
+msgstr "我見過他，也知道他的名字。我很少有機會認識外面的人。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "You know of him? "
 msgctxt "ask 040D"
 msgid "I know Devon. "
-msgstr ""
+msgstr "我認識戴文。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I know Devon. "
 msgctxt "bark 040D:36D9"
 msgid "You do? Oh, is he as nice as he looks? He has such a nice smile. And his eyes, they're blue aren't they? I really think he's handsome. Do you think that you might mention me to him next time you see him? "
-msgstr ""
+msgstr "真的嗎？噢，他是不是跟看起來一樣好？他的笑容好迷人。還有他的眼睛，是藍色的，對吧？我真的覺得他好帥。下次你見到他時，能不能跟他提提我？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I know Devon. "
 msgctxt "ask 040D"
 msgid "I'm sorry, I can not. "
-msgstr ""
+msgstr "抱歉，我不能。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Of course I will. "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "Of course I will. "
-msgstr ""
+msgstr "當然會。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Of course I will. "
 msgctxt "bark 040D:3783"
 msgid "That is very thoughtful of you. Now, I must get back to work. "
-msgstr ""
+msgstr "你真體貼。好了，我得回去做事了。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I'm sorry, I can not. "
 msgctxt "bark 040D:38CE"
 msgid "Oh ... well, I guess I understand, me being a lowly servant and all. He probably wouldn't be interested in me anyway. I'm just a silly girl for even dreaming it. Now, if you'll excuse me, sir, I must get back to work. There are floors yet to be scrubbed. "
-msgstr ""
+msgstr "噢……嗯，我想我明白，畢竟我只是個卑微的女僕。反正他大概也不會對我有興趣。我連做這種夢都太傻了。好了，失陪了，先生，我得回去做事了，還有地板要刷呢。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I'm looking for a dagger. "
 msgctxt "bark 040D:3994"
 msgid "A dagger? Hmmm, I saw a dagger once. Mordea kept it in a chest in her room. I have the key. Would you like it? "
-msgstr ""
+msgstr "匕首？嗯，我見過一把匕首。莫爾迪亞把它放在她房裡的一個箱子裡。我有鑰匙。你要嗎？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I'm looking for a dagger. "
 msgctxt "ask 040D"
 msgid "No, thank you anyway. "
-msgstr ""
+msgstr "不用了，還是謝謝你。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I'm looking for a dagger. "
 msgctxt "bark 040D:3A46"
 msgid "A dagger? I know nothing of daggers. I am just a servant to the Lady. "
-msgstr ""
+msgstr "匕首？我對匕首一無所知。我只是夫人的僕人。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I'm looking for a dagger. "
 msgctxt "ask 040D"
 msgid "Are you certain? "
-msgstr ""
+msgstr "你確定嗎？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Yes! "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "Yes! "
-msgstr ""
+msgstr "要！"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Yes! "
 msgctxt "bark 040D:3B53"
 msgid "My, it must be an important dagger for you to get that excited over it. Oh well, it always made me feel most uneasy. Well, here is the key. "
-msgstr ""
+msgstr "哎呀，那一定是把很重要的匕首，你才會這麼激動。算了，那東西一直讓我很不安。好吧，鑰匙給你。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "No, thank you anyway. "
 msgctxt "bark 040D:3C34"
 msgid "Suit yourself. "
-msgstr ""
+msgstr "隨你吧。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I need help. "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "I need help. "
-msgstr ""
+msgstr "我需要幫忙。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I need help. "
 msgctxt "bark 040D:3CE2"
 msgid "I am not surprised by that, m'lord. Many people are in need of help these days. "
-msgstr ""
+msgstr "我並不意外，大人。這年頭很多人都需要幫忙。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I need help. "
 msgctxt "ask 040D"
 msgid "Others are in need of help? "
-msgstr ""
+msgstr "其他人也需要幫忙？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Others are in need of help? "
 msgctxt "bark 040D:3DF4"
 msgid "Not due to Lady Mordea, mind you. I-I'm certain that anyone out there who suffers or is hungry is in such a state due to their own laziness. "
-msgstr ""
+msgstr "請注意，這可不是莫爾迪亞夫人造成的。我、我相信外面那些受苦挨餓的人，都是因為自己懶惰才落到那種地步的。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Are you certain? "
 msgctxt "bark 040D:3EE0"
 msgid "Yes, mmm... Look, I do not want to get into any trouble, m'lord. Please, do not ask me to do anything that might cause me to anger the Lady. "
-msgstr ""
+msgstr "是的，嗯……聽我說，我不想惹上任何麻煩，大人。拜託，別要我做任何可能惹夫人生氣的事。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Are you certain? "
 msgctxt "ask 040D"
 msgid "Never mind. "
-msgstr ""
+msgstr "算了。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Never mind. "
 msgctxt "bark 040D:3FA0"
 msgid "Very well, thank you. "
-msgstr ""
+msgstr "好的，謝謝你。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "You won't get into trouble. "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "You won't get into trouble. "
-msgstr ""
+msgstr "你不會惹上麻煩的。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "You won't get into trouble. "
 msgctxt "bark 040D:409D"
 msgid "Ohh, I do not know why, but I am going to trust you. Mordea keeps a very special dagger in a locked chest. You will find the chest in a small closet near her bed. "
-msgstr ""
+msgstr "噢，我也不知道為什麼，但我決定相信你。莫爾迪亞把一把非常特別的匕首鎖在一個箱子裡。那個箱子就在她床邊的小衣櫥裡。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "You won't get into trouble. "
 msgctxt "ask 040D"
 msgid "It's in a chest? "
-msgstr ""
+msgstr "在箱子裡？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "It's in a chest? "
 msgctxt "bark 040D:4188"
 msgid "Yes and I have the key. I will give you the key, but you must promise not to tell -anyone- where you got it. "
-msgstr ""
+msgstr "是的，而且我有鑰匙。我可以把鑰匙給你，但你得保證不告訴「任何人」你是從哪裡拿到的。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "It's in a chest? "
 msgctxt "ask 040D"
 msgid "I can't promise that. "
-msgstr ""
+msgstr "這我不能保證。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I promise. "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "I promise. "
-msgstr ""
+msgstr "我保證。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I promise. "
 msgctxt "bark 040D:4220"
 msgid "Very well, here it is. "
-msgstr ""
+msgstr "好吧，給你。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I promise. "
 msgctxt "bark 040D:4280"
 msgid "Do what you will with it, but remember: You did not get that key from me. "
-msgstr ""
+msgstr "隨你怎麼用它，但記住：這把鑰匙不是從我這裡拿的。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "I can't promise that. "
 msgctxt "bark 040D:4376"
 msgid "Well, then I can not give you the key. Farewell. "
-msgstr ""
+msgstr "那我就不能把鑰匙給你。再會。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What miserable weather this is. "
 msgctxt "bark 040D:447F"
 msgid "Yes, it is terrible. We've had leaks in the roof and walls, and people tracking mud all through the palace. It makes it twice as hard for me. "
-msgstr ""
+msgstr "是啊，糟透了。屋頂和牆壁都在漏水，大家還把泥巴踩得整座宮殿都是。這讓我的工作加倍辛苦。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What do you know of treasure? "
 msgctxt "bark 040D:45A7"
 msgid "Only what I've heard from Orlok. And no one can believe what he says. Though, now that I think about it, I heard Salkind mention something about a magic hammer that he wanted to find. "
-msgstr ""
+msgstr "只知道從歐洛克那裡聽來的。而他說的話誰也不能信。不過，現在想起來，我聽過薩金德提到一把他想找的魔法鎚。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What do you know of treasure? "
 msgctxt "ask 040D"
 msgid "What magic hammer? "
-msgstr ""
+msgstr "什麼魔法鎚？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What did Salkind say? "
 #. answer compared by the conversation code
 msgctxt "ask 040D"
 msgid "What did Salkind say? "
-msgstr ""
+msgstr "薩金德說了什麼？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What did Salkind say? "
 msgctxt "bark 040D:472A"
 msgid "Oh, he said he was going to get a couple of strong men to dig for treasure they heard about from Orlok. I can't imagine why they would want to do that. Everyone knows you can't trust Orlok's stories. But, I guess Salkind did. "
-msgstr ""
+msgstr "噢，他說要找幾個壯漢，去挖他們從歐洛克那裡聽來的寶藏。我真想不通他們為什麼要這麼做。大家都知道歐洛克的故事不能信。不過，我想薩金德信了。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What did Salkind say? "
 msgctxt "ask 040D"
 msgid "Did he say where? "
-msgstr ""
+msgstr "他說了在哪裡嗎？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Did he say where? "
 msgctxt "bark 040D:4841"
 msgid "I don't remember exactly, something about a stand of mushrooms to the south of town. Wait, don't tell me you are going chasing after one of Orlok's stories! "
-msgstr ""
+msgstr "我記不太清楚了，好像是城南的一片蘑菇叢。等等，你該不會也要去追歐洛克的故事吧！"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Did he say where? "
 msgctxt "ask 040D"
 msgid "Yes, I believe there is treasure there. "
-msgstr ""
+msgstr "是的，我相信那裡有寶藏。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Yes, I believe there is treasure there. "
 msgctxt "bark 040D:4A23"
 msgid "If there was treasure there to be found, Salkind would have found it, he is just that kind of a lucky weasel. But I know he didn't find anything for he came back with his robes ripped and in a foul temper which I felt the brunt of for several days. I think it had to do with the dangerous beasts that live in the wilds. "
-msgstr ""
+msgstr "如果那裡真有寶藏，薩金德早就找到了，他就是那種走狗運的黃鼠狼。但我知道他什麼也沒找到，因為他回來時長袍被撕破了，脾氣壞得要命，害我好幾天都首當其衝。我想那跟住在荒野裡的危險野獸有關。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Yes, I believe there is treasure there. "
 msgctxt "ask 040D"
 msgid "Dangerous beasts? "
-msgstr ""
+msgstr "危險的野獸？"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "Dangerous beasts? "
 msgctxt "bark 040D:4B3D"
 msgid "Oh yes, I heard several of the men who went with Salkind talking about trolls and such they encountered. If you must go, please, be careful. "
-msgstr ""
+msgstr "噢，是啊，我聽到跟薩金德去的幾個男人在談論他們碰到的巨魔之類的東西。如果你非去不可，請務必小心。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "What magic hammer? "
 msgctxt "bark 040D:4C59"
 msgid "You know, the one Orlok says his great-great-great-granpappy fought off the water Titan with. I think Orlok would give his great-great-great-granpappy credit with creating this world, if he could. "
-msgstr ""
+msgstr "你知道的，就是歐洛克說他曾曾曾祖父用來擊退海洋泰坦的那把。要是可以的話，我看歐洛克連創造這個世界的功勞都會算在他曾曾曾祖父頭上。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "bye "
 msgctxt "bark 040D:4CB2"
 msgid "Thank you, sir. "
-msgstr ""
+msgstr "謝謝您，先生。"
 
+# P13 batch 2
 #. event 01 (use (talk)), after "bye "
 msgctxt "bark 040D:4D60"
 msgid "Why is this open? "
-msgstr ""
+msgstr "這個怎麼開著？"
