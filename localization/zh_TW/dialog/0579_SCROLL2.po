@@ -10,54 +10,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 8
 msgctxt "scroll 0579:0168"
 msgid "SCROLL OF DISPELLING MAGICAL PORTALS.~By Mythran ~~This scroll has been constructed to unravel the countermagics used to seal all types of portals, including doors and sealed walls. Do not store in damp areas."
-msgstr ""
+msgstr "驅散傳送門捲軸~米斯蘭製~~本捲軸用於解除封印各類傳送門的反制魔法，包括門與封住的牆壁。請勿存放於潮濕處。"
 
+# P13 batch 8
 msgctxt "bark 0579:0310"
 msgid "Hmmmm... Perhaps an additional item is needed. "
-msgstr ""
+msgstr "嗯……也許還需要別的東西。"
 
+# P13 batch 8
 msgctxt "bark 0579:041D"
 msgid "Hmmmm... Nothing found. "
-msgstr ""
+msgstr "嗯……什麼都沒找到。"
 
+# P13 batch 8
 msgctxt "scroll 0579:05B9"
 msgid "DETECTION SCROLL OF TRAPPED CHESTS.~Enchanted by Varkus ~ ~Caster! ~Using this scroll will forewarn you of all trap laden chests. "
-msgstr ""
+msgstr "偵測陷阱寶箱捲軸~瓦庫斯附魔~~施法者注意！~使用本捲軸，可預先察覺所有設有陷阱的箱子。"
 
+# P13 batch 8
 msgctxt "bark 0579:06D4"
 msgid "No chests around here... "
-msgstr ""
+msgstr "這附近沒有箱子……"
 
+# P13 batch 8
 msgctxt "bark 0579:071C"
 msgid "No traps detected! "
-msgstr ""
+msgstr "沒有偵測到陷阱！"
 
+# P13 batch 8
 msgctxt "scroll 0579:08B5"
 msgid "DESTRUCTION SCROLL OF TRAPS IN CHESTS.~Enchanted by Varkus ~ ~Caster! ~Casting this scroll will destroy traps within all nearby chests. ~Beware! You do so at your own risk! "
-msgstr ""
+msgstr "摧毀寶箱陷阱捲軸~瓦庫斯附魔~~施法者注意！~施展本捲軸，可摧毀附近所有箱子內的陷阱。~小心！使用後果自負！"
 
+# P13 batch 8
 msgctxt "bark 0579:09E7"
 msgid "No chests around here... "
-msgstr ""
+msgstr "這附近沒有箱子……"
 
+# P13 batch 8
 msgctxt "bark 0579:0A2F"
 msgid "No traps detected! "
-msgstr ""
+msgstr "沒有偵測到陷阱！"
 
+# P13 batch 8
 msgctxt "scroll 0579:0BB6"
 msgid "SCROLL OF HEALING~Enchanted by Varkus ~ ~Caster! ~Casting this scroll will improve the quality of your health, and heal many of your minor wounds. ~Use only as directed. "
-msgstr ""
+msgstr "治癒捲軸~瓦庫斯附魔~~施法者注意！~施展本捲軸可改善你的健康狀況，治好許多輕傷。~請依指示使用。"
 
+# P13 batch 8
 msgctxt "scroll 0579:0DC7"
 msgid "SCROLL OF RESTORATION~Enchanted by Varkus ~ ~Caster! ~Casting this scroll will restore you to full health, and heal your major wounds. ~Beware! If you are already at prime health, this powerful magic may weaken you. ~Use only as directed. "
-msgstr ""
+msgstr "復原捲軸~瓦庫斯附魔~~施法者注意！~施展本捲軸可使你完全恢復健康，治好重傷。~小心！若你已處於最佳狀態，這強大的魔法可能反而會削弱你。~請依指示使用。"
 
+# P13 batch 8
 msgctxt "scroll 0579:103E"
 msgid "SCROLL OF INVISIBILITY~Enchanted by Magethief Vermin ~~In casting this scroll my friend you will become as clear as the wind itself. Mind that you practice stealth, for any noises you make may give you away. Mind to that you act quickly, lest this magic wear away while you are about your devious acts.~~%Vermin. "
-msgstr ""
+msgstr "隱形捲軸~法師盜賊弗明附魔~~朋友，施展本捲軸，你就會變得像風一樣透明。記得行事要隱密，因為你發出的任何聲響都可能讓你露餡。也記得動作要快，免得你幹壞事幹到一半，魔法就失效了。~~%弗明"
 
+# P13 batch 8
 msgctxt "scroll 0579:12DA"
 msgid "SCROLL OF REVISIBILITY~Enchanted by Magethief Vermin ~Casting this scroll my friend will reveal any hidden treasure around you. Mind you though, do not cast this while you thieve, for you too will be revealed.~~%Vermin. "
-msgstr ""
+msgstr "現形捲軸~法師盜賊弗明附魔~朋友，施展本捲軸，就能讓你身邊隱藏的寶物現形。不過可要注意，偷東西時千萬別用，因為連你也會現形。~~%弗明"

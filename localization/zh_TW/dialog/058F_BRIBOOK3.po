@@ -10,6 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 8
 msgctxt "book 058F:0396"
 msgid "If ye have found me then first ye must have found my brother. Well ye have done to come this far but farther ye must go. Now that ye have heard the call of the Slayer ye can not resist its siren song. Many have been mastered by the Slayer's awesome might, but none ever master the Slayer completely. So, clever must ye be to hold the Slayer as thine ally. Strength alone shan't bind it to thy will. And just when ye think ye have the thing mastered, it fools ye again. Leaving ye twisting in the dark\tgrasping for thy wits. Up ahead ye shall find diverging path. In one branch will ye find another in my family tree. In the other branch will ye find a hard road empty of all but pain. Remember what we have told ye of wisdom, most especially if ye choose the wrong branch."
-msgstr ""
+msgstr "汝若找到了吾，必定已先找到吾的兄弟。汝能走到此處，實屬不易，但還得繼續前行。既已聽見屠殺者的召喚，汝便無法抗拒它的魅惑之歌。許多人被屠殺者驚人的威力所駕馭，卻從無人能完全駕馭屠殺者。因此，汝必須足夠聰明，才能讓屠殺者成為汝的盟友。單憑力氣，無法使它屈從汝的意志。就在汝以為已將它馴服之際，它又會再次愚弄汝，讓汝在黑暗中輾轉掙扎，苦苦思索。前方將有一條岔路。一條分支上，汝會找到吾家族譜中的另一人；另一條分支上，則是一條除了痛苦一無所有的艱辛之路。記住吾等告訴汝的智慧之言，尤其當汝選錯了路的時候。"

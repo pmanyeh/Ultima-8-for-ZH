@@ -10,57 +10,68 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 8
 #. event 00 (look)
 msgctxt "bark 025F:00A4"
 msgid "Bentic's journal "
-msgstr ""
+msgstr "班提克的日誌"
 
+# P13 batch 8
 #. event 01 (use (talk))
 msgctxt "book 025F:046D"
 msgid "Bentic's Journal: ~~In my investigations of the royal bloodline I have uncovered many facts---facts have lead me to more questions. ~~Keldan the farmer, son of Treal. Forced to marry Lord Kean's daughter, Celidia. Why would royalty want such a simple man? ~~Keldan and Ariel... Did Celidia ever know? If so, when did she find out? And how? ~~Ariel had a child, a son. Did Keldan send her away to protect them from Celidia, or did Celidia order it?~~ ~Celidia demanded a child. Mordea is born with the powers of Tempestry. Yet Lord Kean was no Tempest, nor was his wife... ~~But where is Keldan and Ariel's son? Both mother and child sent to live with the fishermen... ~~Devon knows not his own father... Could Devon be a Tempest?!!? ~~If so, by his being the first birth, his powers would be stronger than Mordea's! ~~I must investigate this further, though if Mordea should uncover my quest, my life will be forfeit..."
-msgstr ""
+msgstr "班提克的日誌：~~在調查王室血脈的過程中，我發現了許多事實——而這些事實又引出了更多疑問。~~農夫凱爾丹，特雷爾之子。被迫娶了基恩大人的女兒瑟莉迪亞。王室為什麼會想要這樣一個平凡的人？~~凱爾丹與阿里爾……瑟莉迪亞知道嗎？如果知道，她是什麼時候發現的？又是怎麼發現的？~~阿里爾生了一個孩子，是個兒子。是凱爾丹為了保護他們免受瑟莉迪亞傷害而把她送走，還是瑟莉迪亞下的命令？~~~瑟莉迪亞要求生一個孩子。莫爾迪亞生來就擁有風暴術的力量。然而基恩大人並不是風暴使者，他的妻子也不是……~~那凱爾丹和阿里爾的兒子在哪裡？母子倆都被送去跟漁民一起生活……~~戴文不知道自己的父親是誰……戴文會不會是風暴使者？！！？~~如果是，因為他是長子，他的力量會比莫爾迪亞更強！~~我必須進一步調查，但要是莫爾迪亞發現我在追查此事，我就性命不保了……"
 
+# P13 batch 8
 #. event 01 (use (talk))
 msgctxt "bark 025F:05E7"
 msgid "Uh-oh... "
-msgstr ""
+msgstr "糟了……"
 
+# P13 batch 8
 #. event 01 (use (talk))
 msgctxt "bark 025F:0648"
 msgid "Swine! You have cheated to this point! "
-msgstr ""
+msgstr "豬玀！你是靠作弊才走到這一步的！"
 
+# P13 batch 8
 #. event 01 (use (talk))
 msgctxt "bark 025F:0691"
 msgid "If I allow you to continue you will ruin the game! "
-msgstr ""
+msgstr "要是讓你繼續下去，你會毀了這個遊戲！"
 
+# P13 batch 8
 #. event 01 (use (talk))
 msgctxt "bark 025F:06CB"
 msgid "You must not be allowed to do so... "
-msgstr ""
+msgstr "絕不能讓你得逞……"
 
+# P13 batch 8
 #. event 01 (use (talk))
 msgctxt "bark 025F:071D"
 msgid "Thief! I knew you were not to be trusted! "
-msgstr ""
+msgstr "小偷！我就知道你信不過！"
 
+# P13 batch 8
 #. event 01 (use (talk))
 msgctxt "bark 025F:075F"
 msgid "Will you come quietly...? ~Or in pieces...? "
-msgstr ""
+msgstr "你是要乖乖跟我們走……？~還是要被大卸八塊……？"
 
+# P13 batch 8
 #. event 01 (use (talk))
 msgctxt "ask 025F"
 msgid "I'll go quietly. "
-msgstr ""
+msgstr "我乖乖跟你們走。"
 
+# P13 batch 8
 #. event 01 (use (talk))
 msgctxt "ask 025F"
 msgid "Try to take me! "
-msgstr ""
+msgstr "有種就來抓我！"
 
+# P13 batch 8
 #. event 01 (use (talk)), after "I'll go quietly. "
 msgctxt "bark 025F:0818"
 msgid "We will escort you to Lady Mordea. "
-msgstr ""
+msgstr "我們會押送你去見莫爾迪亞夫人。"

@@ -10,6 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 8
 msgctxt "book 0590:03A1"
 msgid "If ye be strong of arm, swift of leg, and valorous of heart; then read on But, if ye not be all these things; shrink away from what is contained within me. For the knowledge which lies within my family does contain such power as to burn ye into cinders if ye be not worthy. If you have ever doubted thy strength, go now and look no further. For if ye be false, the slayer shall devour all thy blood in one clean lick. But if ye be truly worthy, the Slayer shall come forth with ye in fierce tempest and like a Jove shall it strike down thine enemies. Now ye have been warned. If you wish to take up the quest to find the Slayer, then proceed. Tread ye upon the path that was brought ye this far and look for my twin. Find the one who is identical to me, and he shall lead ye further."
-msgstr ""
+msgstr "汝若臂力強健、腿腳迅捷、心懷勇氣，便請讀下去。但汝若並非如此，就遠離吾所記載之事吧。因為吾家族所藏的知識蘊含強大力量，若汝不配，必將化為灰燼。汝若曾懷疑過自己的力量，現在就離開，莫再尋覓。因為汝若虛偽不實，屠殺者將一口舔盡汝的鮮血。但汝若真正配得上，屠殺者將如狂暴風暴般與汝同行，如天神般擊倒汝的敵人。汝已受到警告。若汝願踏上尋找屠殺者的旅程，便繼續前行吧。沿著將汝帶到此處的路走下去，尋找吾的孿生兄弟。找到與吾一模一樣的那一位，他將引領汝更進一步。"

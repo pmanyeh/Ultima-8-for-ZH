@@ -14,58 +14,72 @@ msgctxt "scroll 057A:00DE"
 msgid "~Shopping list~~Torax ribs~Kith filet~Cheese~Fish~Blue Mushrooms~Butter~Salt"
 msgstr "~購物清單~~托拉克斯肋排~奇斯怪蛛肉排~乳酪~魚~藍蘑菇~奶油~鹽"
 
+# P13 batch 8
 msgctxt "scroll 057A:026C"
 msgid "I can go no further. These blasted magical walls have taken my strength, and I am afraid, my life. ~Too late have I discovered a way to detect the walls without cost to myself.~These humble mushrooms that litter the floor awake the wall's power when tossed at them! ~Alas, I can only eat these mushrooms. Perhaps they may bring me strength to escape this cavern..."
-msgstr ""
+msgstr "我走不動了。這些該死的魔法牆耗盡了我的力氣，恐怕連我的命也要賠上。~我發現得太晚了，原來有辦法不必付出代價就能察覺這些牆。~散落在地上的這些不起眼的蘑菇，只要朝牆扔過去，就會喚醒牆的力量！~唉，我現在只能吃這些蘑菇了。也許它們能給我力氣，讓我逃出這個洞穴……"
 
+# P13 batch 8
 msgctxt "scroll 057A:0401"
 msgid "I lie here awaiting the end. I know now that I will never see Lithos, curse these frail bones of mine. My strength is not great enough to withstand these tests. My only hope is that my twin brother will make it though without me. My hopes and spirit rest with him... ~Should anyone find this note, please tell him of my passing. ~          Thank you,~            Bryan"
-msgstr ""
+msgstr "我躺在這裡等待終結。我現在知道，我永遠見不到利索斯了，都怪我這副孱弱的骨頭。我的力氣不足以熬過這些考驗。我唯一的希望，是我的雙胞胎兄弟能在沒有我的情況下撐過去。我的希望與精神都寄託在他身上……~若有人發現這張紙條，請告訴他我已離世。~謝謝你，~布萊恩"
 
+# P13 batch 8
 msgctxt "scroll 057A:058A"
 msgid "I lie here awaiting the end. I know now that I will never see Lithos, curse these frail bones of mine. My strength is not great enough to withstand these tests. My only hope is that my twin brother will make it though without me. My hopes and spirit rest with him... ~Should anyone find this note, please tell him of my passing. ~          Thank you,~Bruce"
-msgstr ""
+msgstr "我躺在這裡等待終結。我現在知道，我永遠見不到利索斯了，都怪我這副孱弱的骨頭。我的力氣不足以熬過這些考驗。我唯一的希望，是我的雙胞胎兄弟能在沒有我的情況下撐過去。我的希望與精神都寄託在他身上……~若有人發現這張紙條，請告訴他我已離世。~謝謝你，~布魯斯"
 
+# P13 batch 8
 msgctxt "scroll 057A:0693"
 msgid "Have trust in things you cannot see~ For in the smallest you must believe.~~ Cast stone into flame and you shall find~ All your doubts left behind~~ Cross the impossible to the great beyond~ And only 'til then can you carry on.~"
-msgstr ""
+msgstr "對看不見的事物要有信心~即使最微小的，你也必須相信。~~將石頭擲入火焰，你將發現~所有疑慮都拋在身後~~跨越不可能，抵達彼岸~唯有如此，你才能繼續前行。~"
 
+# P13 batch 8
 msgctxt "scroll 057A:0862"
 msgid "This Scroll, while in possession of one (1) Toliver P. Barkley, and only for the period between the first (1st) day of the second (2nd) month of the year, to the third (3rd) week of the seventh (7th) month of the year, for two (2) years, (and two years only) marks the ownership of one (1) medium sized, three (3) year old, four (4) footed, six (6) foot long, single-minded, smelly torax, that is known in these parts as George.~"
-msgstr ""
+msgstr "本捲軸由壹（1）位托利佛．P．巴克利持有期間，且僅限於每年第二（2）個月的第一（1）天起，至第七（7）個月的第三（3）週止，為期兩（2）年（且僅限兩年），證明其擁有壹（1）頭中等體型、三（3）歲、四（4）條腿、身長六（6）呎、一根筋、臭烘烘、在本地被稱為喬治的托拉克斯獸。~"
 
+# P13 batch 8
 msgctxt "scroll 057A:0AA8"
 msgid "Dear Sir-~ It has come to my attention that the floors of your bloody catacombs have proven to be rather faulty if not downright dangerous. Why, when I was there just two days past, visiting my one and only beautiful daughter, who lies interred there, my lovely wife, Forencia, fell through the floor to her death! I can only recommend that you close the catacombs until the floors can be made safer, for I truly would have to hunt you down and indeed cease your beating heart should another of my kin fall to their death.~~ Yours Truly,~ Sysaphus~"
-msgstr ""
+msgstr "敬啟者：~本人注意到，貴處那該死的地下墓穴地板就算不是危險至極，也相當不牢靠。就在兩天前，我去探望安葬在那裡、我唯一的美麗女兒時，我可愛的妻子佛倫西亞竟然踩穿地板摔死了！我只能建議您關閉地下墓穴，直到地板修得安全為止，因為若再有我的親人摔死，我真的會把您揪出來，讓您那顆跳動的心臟停止跳動。~~謹啟，~西薩弗斯~"
 
+# P13 batch 8
 msgctxt "scroll 057A:0CEE"
 msgid "Dear Sir-~ It has come to my attention that the floors of your bloody catacombs have proven to be rather faulty if not downright dangerous. Why, when I was there just two days past, visiting my one and only beautiful daughter, who lies interred there, my lovely wife, Forencia, fell through the floor to her death! I can only recommend that you close the catacombs until the floors can be made safer, for I truly would have to hunt you down and indeed cease your beating heart should another of my kin fall to their death.~~ Yours Truly,~ Sysaphus~"
-msgstr ""
+msgstr "敬啟者：~本人注意到，貴處那該死的地下墓穴地板就算不是危險至極，也相當不牢靠。就在兩天前，我去探望安葬在那裡、我唯一的美麗女兒時，我可愛的妻子佛倫西亞竟然踩穿地板摔死了！我只能建議您關閉地下墓穴，直到地板修得安全為止，因為若再有我的親人摔死，我真的會把您揪出來，讓您那顆跳動的心臟停止跳動。~~謹啟，~西薩弗斯~"
 
+# P13 batch 8
 msgctxt "scroll 057A:0DE8"
 msgid "Mental note:~ Fix floors (those water puddles weaken mortar)~ Clean cobwebs~ Remove all trash (have Pedert take all food out)~ Have Jaynela write letter to Sysaphus~ Talk to Vugrinec about bandage wearing in public.~"
-msgstr ""
+msgstr "備忘：~修地板（那些水窪會讓灰漿變弱）~清蜘蛛網~清掉所有垃圾（叫佩德特把食物全拿出去）~叫潔妮拉寫信給西薩弗斯~跟武格里涅茨談談在公共場合纏繃帶的事。~"
 
+# P13 batch 8
 msgctxt "scroll 057A:0FB9"
 msgid "From my experiments I have found that potions act in the following manner: ~Yellow: Heals, but only in small measures. ~Red: Also heals, but beware! Its strength will do damage to those not in need of its power. ~Orange: restores Mana in times of need. ~Green: Its taste is quite revolting! ~Blue: Provides restful slumber. ~Purple: Provides protection in combat. Very useful against undead. ~Black: Causes drinker to be invisible."
-msgstr ""
+msgstr "根據我的實驗，我發現藥水的效果如下：~黃色：治療，但效果很少。~紅色：也能治療，但要小心！不需要它的人喝了，它的強大力量反而會造成傷害。~橘色：在需要時恢復魔力。~綠色：味道相當噁心！~藍色：讓人安穩入睡。~紫色：在戰鬥中提供保護，對付不死者非常有用。~黑色：讓飲用者隱形。"
 
+# P13 batch 8
 msgctxt "scroll 057A:11B3"
 msgid "Most Honorable Lady Mordea,~ I have heard that the Skull of Quakes has been removed from the Upper Catacombs. I had believed that it would be safe within the Catacombs, for it is the only place it is used. Pray tell me, my Lady, what do you suggest I do about this situation? I have heard rumors that it presently may be within the Shrine, but I have grave doubts about it. I await your swift answer and am assured of your graciousness in this matter. ~~%Lieutenant Vittek"
-msgstr ""
+msgstr "最尊貴的莫爾迪亞夫人：~我聽說地震頭骨已經被人從上層地下墓穴拿走了。我原本以為它在地下墓穴裡會很安全，因為那是唯一用得到它的地方。夫人，請您告訴我，您建議我該如何處理這個情況？我聽到傳言說它現在可能在神殿裡，但我對此深表懷疑。靜候您的迅速回覆，並深信您會在此事上寬厚以待。~~%維泰克中尉"
 
+# P13 batch 8
 msgctxt "scroll 057A:1261"
 msgid "Lieutenant Vittek-~ See that you meet me at the Docks as soon as you can. I have a solution to the missing Skull of Quakes dilemma.~ -Mordea"
-msgstr ""
+msgstr "維泰克中尉：~盡快到碼頭來見我。地震頭骨失蹤的難題，我有解決辦法了。~——莫爾迪亞"
 
+# P13 batch 8
 msgctxt "scroll 057A:155D"
 msgid "...I have barely the strength to write, my heart pounds and my legs can no longer hold me. I fear the desire to possess such wonderous magic has consumed my very soul for I have pursued it until I have not the strength to stand. Even now, as I lay here gasping my final breath, the armor taunts me, coming just close enough for me to see its beauty and then dancing away from my grasp.If I only had a magical way to capture this armor, like how the Theurgists use their magic to move items from afar! A way in which one might retrieve it using hands of magic rather than flesh. To the finder of this note, I wish you luck, for the treasure which shines before you has been naught but a curse of death for me.~%% Graner the Warrior"
-msgstr ""
+msgstr "……我幾乎沒有力氣寫字了，心臟狂跳，雙腿再也撐不住我。我怕是想擁有那奇妙魔法的慾望吞噬了我的靈魂，因為我一路追逐它，追到連站都站不起來。就算現在，我躺在這裡嚥下最後一口氣，那副盔甲仍在嘲弄我，靠得剛好讓我看見它的美，然後又舞動著逃離我的掌握。要是我有魔法能捉住這副盔甲就好了，就像神術師用魔法隔空移動物品那樣！用魔法之手而非血肉之手去取回它。給發現這張紙條的人：祝你好運，因為在你眼前閃耀的寶物，對我而言不過是死亡的詛咒。~%%戰士格雷納"
 
+# P13 batch 8
 msgctxt "scroll 057A:1906"
 msgid "My time above this ground draws nigh. My dearest lord, the Mountain King calls me, and I must go. Soon I shall shed this mortal coil and join Lithos for life ever lasting. Yet before I go I must fulfill my final charge as Necromancer. ~My final duty is this, my spell. The spell which shall by my addition to the magic of the Earthen Power, may Lithos be praised. For time immorial, students of the power of Earth shall this spell learn. From my undead lips shall they hear how to coax the Lord of all Earth to shake His mighty body and make all fall before the user of Earthen Magic. ~To call Quakes; combine the sacred reagents of bone, wood, dirt, and blackmoor. Invoke the power of magic upon these reagents when enclosed within a bag. Then will you be enabled to call upon the power of Lithos. ~This then is my final act as Necromancer. I await the call of the Mountain King. ~Lothian, Necromancer."
-msgstr ""
+msgstr "我在這片大地上的時日將盡。我最親愛的主——山之王——在召喚我，我必須去了。很快我就會擺脫這副凡軀，與利索斯同享永生。但在離去之前，我必須完成身為死靈法師的最後使命。~我最後的職責，就是我的法術。這道法術將是我為大地之力的魔法所做的貢獻，願利索斯受讚美。從今以後，研習大地之力的學生都將學習這道法術。他們將從我不死的雙唇聽到，如何引誘萬土之主搖動祂強大的身軀，讓一切在大地魔法的使用者面前倒下。~要引發地震，就把神聖的材料——碎骨、木頭、泥土和黑沼草——混合在一起。把這些材料裝進袋子裡，對它們發動魔法之力。之後你就能召喚利索斯的力量。~這就是我身為死靈法師的最後一件事。我靜候山之王的召喚。~死靈法師羅西安"
 
+# P13 batch 8
 msgctxt "scroll 057A:1B81"
 msgid "Trecaste, ~~%I have read Yradan's book at your suggestion and agree -- some of those shrines must still exist, at least in part. The others and I believe this quest is of enough importance to warrant immediate attention.  What lies buried within the shrines could be the key to freedom. Go quickly, and worry not for expenses. I have sent with this message what should be enough obsidian to pay for any costs you incur. ~%Be warned to travel with caution and discretion. The agents of the Titans, both human and otherwise, are numerous. Do not make your mission known. Good luck, my friend. ~~%%Drokar"
-msgstr ""
+msgstr "特雷卡斯特：~~%我照你的建議讀了伊拉丹的書，也同意你的看法——那些神殿中，有些一定還存在，至少部分還在。其他人和我都認為，這項任務重要到必須立刻處理。埋藏在神殿中的東西，可能就是自由的關鍵。快去吧，別擔心花費。我隨信附上了足夠支付你一切開銷的黑曜石幣。~%務必小心謹慎地行事。泰坦的爪牙眾多，有人類，也有非人類。別讓人知道你的任務。祝你好運，朋友。~~%%德洛卡"

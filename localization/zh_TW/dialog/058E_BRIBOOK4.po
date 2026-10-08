@@ -10,6 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 8
 msgctxt "book 058E:0250"
 msgid "Feel good for having found me yet more trouble does lie ahead. Now ye do truly enter the resting place of the Slayer. Soon will ye be within reach of the Slayer. The Slayer, whose cruel head does strike fear within the hearts of those who oppose it. Be ye not be there yet. Quick and nimble must be the person commands the force of the Slayer. Look again for one of my line. Should ye find my cousin, then ye should learn where the Slayer awaits."
-msgstr ""
+msgstr "找到吾，汝可暗自欣喜，然前方尚有更多艱險。如今汝真正踏入了屠殺者的安息之所，很快便能觸及屠殺者。屠殺者，其殘酷的斧首令所有與之為敵者心生恐懼。汝尚未抵達。駕馭屠殺者之力者，必須身手敏捷。再去尋找吾的一位族人吧。若汝找到吾的堂親，便能得知屠殺者在何處等候。"

@@ -10,6 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 8
 msgctxt "book 058D:02F7"
 msgid "Well have ye done to reach this far. Behind me lies the entrance way of the Slayer's chamber. But for the last time, be ye warned: Many are those who have tred this ground before ye. Many have come seeking the Slayer, and jealous are they of others who seek what they prize. Go ye now into the chamber, for theSlayer beckons. The Slayer, whose fine oaken body be so strong as to withstand the Titanic forces that would try to tame it. Ye have come seeking this treasure. Ye have now gotten what ye have sought. Be careful that it does not kill ye, for the Slayer will not travel with ye unless it deems ye worthy."
-msgstr ""
+msgstr "汝能走到此處，實屬不易。吾身後便是屠殺者之室的入口。然吾最後一次警告汝：在汝之前踏足此地者多矣。前來尋求屠殺者者眾，且皆嫉妒他人覬覦其心頭之寶。現在進入那間密室吧，屠殺者正在召喚。屠殺者，其精良的橡木之軀堅固無比，足以抵擋妄圖馴服它的泰坦之力。汝為尋此寶而來，如今已得償所願。務必當心，莫讓它殺了汝，因為除非屠殺者認為汝配得上，否則它不會與汝同行。"
