@@ -10,1471 +10,1756 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:0171"
 msgid "Mountain King, I call Your name. Save me from this interloper! "
-msgstr ""
+msgstr "山之王，我呼喚祢的名。救我脫離這個闖入者！"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:045E"
 msgid "Thank you, my friend. You have done good service this day. And your timing could not be better. For, as you can see, Lothian lies upon the altar barely clinging to life. For your service, I will grant you the boon which you did ask of me. I will introduce you to the Necromancer. But first, stand witness to the Ceremony of Eternity. For the time has come for Lothian and I to perform the ceremony. Please follow my instructions closely. Are you prepared, Lothian? "
-msgstr ""
+msgstr "謝謝你，朋友。你今天立了大功，而且來得正是時候。你也看到了，羅西安躺在祭壇上，只剩一口氣。為了報答你，我會實現你向我提出的請求，帶你去見死靈法師。不過首先，請你見證永恆儀式。羅西安和我舉行儀式的時刻已經到了。請仔細照我的指示做。你準備好了嗎，羅西安？"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:04D3"
 msgid "All of my life I have prepared for this, Vividos. I beg you now, send me to the Mountain King. "
-msgstr ""
+msgstr "我這一生都在為此做準備，維維多斯。我求你，現在就送我到山之王那裡去。"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:051F"
 msgid "Very well, please, my friend, stand beside the altar. "
-msgstr ""
+msgstr "好的。朋友，請站到祭壇旁邊。"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:05EC"
 msgid "Please kneel before the Altar of Passage. "
-msgstr ""
+msgstr "請在往生祭壇前跪下。"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:070B"
 msgid "Lord Lithos, Mountain King, eldest and mightiest of the four Titans, we come forth to send your faithful servant Lothian into your waiting arms. Tell us now, Lord of the Underworld, does this, our sacrifice please you? "
-msgstr ""
+msgstr "利索斯大人，山之王，四位泰坦中最年長、最強大者，我們前來將祢忠實的僕人羅西安送入祢等待的懷抱。冥界之主啊，請告訴我們，我們的這份獻祭可令祢滿意？"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:078B"
 msgid "Yes, Lord! Take me! I am ready to greet you, Mountain King! "
-msgstr ""
+msgstr "是的，大人！帶走我吧！我已準備好迎接祢，山之王！"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:08A1"
 msgid "Let all rejoice, for Lithos is pleased with this, our sacrifice. Now, prepare to greet the ambassadors from Lithos' realm. "
-msgstr ""
+msgstr "眾人歡欣吧，利索斯對我們的獻祭很滿意。現在，準備迎接來自利索斯國度的使者。"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:08EA"
 msgid "Kal Corp"
-msgstr ""
+msgstr "Kal Corp"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:0A3F"
 msgid "The dead now surround you, Lothian. Prepare yourself for your Lord. "
-msgstr ""
+msgstr "亡者如今環繞著你，羅西安。準備好迎接你的主吧。"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:0A70"
 msgid "The grave opens before me! "
-msgstr ""
+msgstr "墳墓在我面前敞開了！"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:0AE0"
 msgid "Be you cleansed for death. Lithos awaits you. "
-msgstr ""
+msgstr "為死亡潔淨你自己吧。利索斯在等著你。"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:0B5D"
 msgid "Sweet dagger, I am your sheath. Wear me now, lovely blade! "
-msgstr ""
+msgstr "甜美的匕首，我就是你的劍鞘。現在就刺入我吧，可愛的刀刃！"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:0BBE"
 msgid "Go you now to the Mountain King! From life to death. From death to Lithos! "
-msgstr ""
+msgstr "現在就去山之王那裡吧！從生到死，從死到利索斯！"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:0C1C"
 msgid "Ex Ort Corp. Ort Des Lithos!"
-msgstr ""
+msgstr "Ex Ort Corp. Ort Des Lithos！"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:0E3F"
 msgid "Now shall we bow in reverence of deeds here done, and to the awesome might of the Mountain King. "
-msgstr ""
+msgstr "現在，讓我們為此地所完成之事，也為山之王無比的威能，虔敬地鞠躬。"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:0E83"
 msgid "All is done. Lothian may now join her lord. "
-msgstr ""
+msgstr "一切都完成了。羅西安現在可以與她的主同在了。"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:0EC5"
 msgid "Arise, my friend. "
-msgstr ""
+msgstr "起來吧，朋友。"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0415:0F47"
 msgid "You may now greet the Necromancer my friend, for I am he. "
-msgstr ""
+msgstr "朋友，你現在可以拜見死靈法師了，因為我就是。"
 
+# P13 batch 3
 #. event 00 (look)
 msgctxt "bark 0415:102B"
 msgid "Vividos"
-msgstr ""
+msgstr "維維多斯"
 
+# P13 batch 3
 #. event 00 (look)
 msgctxt "bark 0415:1049"
 msgid "Mage "
-msgstr ""
+msgstr "法師"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1406"
 msgid "Hello? "
-msgstr ""
+msgstr "你好？"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1489"
 msgid "Can I help you? "
-msgstr ""
+msgstr "有什麼我能幫忙的嗎？"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:14EB"
 msgid "PRAISE LITHOS!! "
-msgstr ""
+msgstr "讚美利索斯！！"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:157C"
 msgid "Do you require my assistance? "
-msgstr ""
+msgstr "你需要我幫忙嗎？"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:15BB"
 msgid "Very well then... "
-msgstr ""
+msgstr "那好吧……"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:162A"
 msgid "Blessed are the children of Lithos. "
-msgstr ""
+msgstr "利索斯的子民有福了。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1662"
 msgid "Oh, to be with Lithos. "
-msgstr ""
+msgstr "噢，真想與利索斯同在。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:16D6"
 msgid "Ahh, the life of the Necromancer. "
-msgstr ""
+msgstr "啊，死靈法師的生活。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1717"
 msgid "The ground is cool and good today. "
-msgstr ""
+msgstr "今天的土地涼爽宜人。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1776"
 msgid "I wonder...? "
-msgstr ""
+msgstr "不知道……？"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:17CA"
 msgid "What is my lord doing right now? "
-msgstr ""
+msgstr "我的主現在在做什麼呢？"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1810"
 msgid "Oh mighty Lithos, forgive my fragility. "
-msgstr ""
+msgstr "噢，偉大的利索斯，請原諒我的軟弱。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1851"
 msgid "My, the undead are restless today. "
-msgstr ""
+msgstr "哎呀，今天的不死者躁動不安。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1A82"
 msgid "Hello? "
-msgstr ""
+msgstr "你好？"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1B05"
 msgid "Can I help you? "
-msgstr ""
+msgstr "有什麼我能幫忙的嗎？"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1B8D"
 msgid "One can almost feel Moriens' presence in these walls. "
-msgstr ""
+msgstr "在這些牆壁之間，幾乎能感覺到摩瑞恩斯的存在。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1C1E"
 msgid "Do you require my assistance? "
-msgstr ""
+msgstr "你需要我幫忙嗎？"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1C5D"
 msgid "Very well then... "
-msgstr ""
+msgstr "那好吧……"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1CB9"
 msgid "I do worry so... "
-msgstr ""
+msgstr "我真是擔心……"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1CF1"
 msgid "Oh, to be with Lithos. "
-msgstr ""
+msgstr "噢，真想與利索斯同在。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1D69"
 msgid "Powerful indeed is the Mountain King. "
-msgstr ""
+msgstr "山之王真是強大。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1DA9"
 msgid "Tred lightly here on holy ground. "
-msgstr ""
+msgstr "在這片聖地上請放輕腳步。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1E0D"
 msgid "I do worry so...? "
-msgstr ""
+msgstr "我真是擔心……？"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1E79"
 msgid "There are so many people who do not show Lithos respect. "
-msgstr ""
+msgstr "有好多人都不尊敬利索斯。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1EBF"
 msgid "Oh mighty Lithos, forgive my fragility. "
-msgstr ""
+msgstr "噢，偉大的利索斯，請原諒我的軟弱。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0415:1F07"
 msgid "I must read Moriens book again very soon. "
-msgstr ""
+msgstr "我得盡快再讀一次摩瑞恩斯的書。"
 
+# P13 batch 3
 #. event 01 (use (talk))
 msgctxt "bark 0415:1FD4"
 msgid "Hello again, my friend. "
-msgstr ""
+msgstr "又見面了，朋友。"
 
+# P13 batch 3
 #. event 01 (use (talk))
 msgctxt "bark 0415:2021"
 msgid "Ah, a stranger. Have you come to the tomb to learn? "
-msgstr ""
+msgstr "啊，一位陌生人。你是來陵墓學習的嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk))
 msgctxt "bark 0415:21CD"
 msgid "YOU!! You stole the Heart of Earth! You betrayed the Mountain King and now he has forsaken us!! He tears the land apart. He has sent his army of the dead to walk above the ground and it is all because of you!! Give the Heart of Earth back now and he may spare us. If not, all is lost. Go!! Get away from here and return to the Mountain King what is His!!! "
-msgstr ""
+msgstr "是你！！你偷走了大地之心！你背叛了山之王，現在祂拋棄了我們！！祂把大地撕裂，派出祂的亡者大軍在地面上行走，這全都是因為你！！現在就把大地之心還回來，祂也許會饒過我們。不然一切都完了。走！！離開這裡，把屬於山之王的東西還給祂！！！"
 
+# P13 batch 3
 #. event 01 (use (talk))
 msgctxt "ask 0415"
 msgid "I have the dagger. "
-msgstr ""
+msgstr "匕首在我這裡。"
 
+# P13 batch 3
 #. event 01 (use (talk))
 msgctxt "ask 0415"
 msgid "Tell me of Lithos. "
-msgstr ""
+msgstr "說說利索斯。"
 
+# P13 batch 3
 #. event 01 (use (talk))
 msgctxt "ask 0415"
 msgid "What Tomb? "
-msgstr ""
+msgstr "什麼陵墓？"
 
+# P13 batch 3
 #. event 01 (use (talk))
 msgctxt "ask 0415"
 msgid "Yes, I'm here to learn. "
-msgstr ""
+msgstr "是的，我是來學習的。"
 
+# P13 batch 3
 #. event 01 (use (talk))
 msgctxt "ask 0415"
 msgid "Learn about what? "
-msgstr ""
+msgstr "學習什麼？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Farewell. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What Tomb? "
 msgctxt "bark 0415:238D"
 msgid "What Tomb? Why -the- Tomb. The Tomb of Moriens. "
-msgstr ""
+msgstr "什麼陵墓？當然是「那座」陵墓啊。摩瑞恩斯之墓。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What Tomb? "
 msgctxt "ask 0415"
 msgid "The Tomb of Moriens? "
-msgstr ""
+msgstr "摩瑞恩斯之墓？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The Tomb of Moriens? "
 msgctxt "bark 0415:244B"
 msgid "Yes! Moriens, the Great One, was interred here, within these very walls. "
-msgstr ""
+msgstr "是的！偉大的摩瑞恩斯就安葬在這裡，就在這幾面牆之內。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The Tomb of Moriens? "
 msgctxt "ask 0415"
 msgid "What do you mean by interred? "
-msgstr ""
+msgstr "你說的安葬是什麼意思？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I'm here to learn. "
 msgctxt "bark 0415:2535"
 msgid "Oh my! This is excellent news! Well, I shall teach you all about our mysteries and traditions. "
-msgstr ""
+msgstr "哎呀！這真是好消息！那麼，我會教你我們所有的奧祕與傳統。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I'm here to learn. "
 msgctxt "ask 0415"
 msgid "What mysteries? "
-msgstr ""
+msgstr "什麼奧祕？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What do you mean by interred? "
 msgctxt "bark 0415:2616"
 msgid "Buried, then given over to Lithos, the Mountain King. Long has it been since Moriens joined Lithos. "
-msgstr ""
+msgstr "就是埋葬，然後交給山之王利索斯。摩瑞恩斯與利索斯同在，已經很久很久了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What do you mean by interred? "
 msgctxt "ask 0415"
 msgid "Who is Lithos? "
-msgstr ""
+msgstr "利索斯是誰？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Who is Lithos? "
 msgctxt "bark 0415:2757"
 msgid "What a jest you play, my friend! As if any one could not know of the Mountain King. How could a person live and not know of the Earth Titan? You have a sharp wit, friend. "
-msgstr ""
+msgstr "你真會開玩笑，朋友！好像真有人不知道山之王似的。一個人活在世上，怎麼可能不知道大地泰坦呢？你真是機智，朋友。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "How long has it been? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "How long has it been? "
-msgstr ""
+msgstr "有多久了？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "How long has it been? "
 msgctxt "bark 0415:2809"
 msgid "Oh, generations ago, too many to count. Moriens is the ancient father of all Necromancers. "
-msgstr ""
+msgstr "噢，那是好多代以前的事了，多到數不清。摩瑞恩斯是所有死靈法師的遠祖。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Learn about what? "
 msgctxt "bark 0415:28A9"
 msgid "Learn the way of the Necromancer. Learn our traditions and mysteries! "
-msgstr ""
+msgstr "學習死靈法師之道。學習我們的傳統與奧祕！"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Necromancer? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Necromancer? "
-msgstr ""
+msgstr "死靈法師？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Necromancer? "
 msgctxt "bark 0415:297E"
 msgid "Lothian is the current Necromancer. But you probably already knew that. "
-msgstr ""
+msgstr "羅西安是現任的死靈法師。不過你大概已經知道了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Necromancer? "
 msgctxt "ask 0415"
 msgid "I need to speak to the Necromancer. "
-msgstr ""
+msgstr "我需要跟死靈法師談談。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Necromancer? "
 msgctxt "ask 0415"
 msgid "Lothian?"
-msgstr ""
+msgstr "羅西安？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I need to speak to the Necromancer. "
 msgctxt "bark 0415:2A90"
 msgid "I am sorry but that is impossible. The Necromancer is very ill and she is not receiving anyone. "
-msgstr ""
+msgstr "很抱歉，那是不可能的。死靈法師病得很重，不見任何人。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I need to speak to the Necromancer. "
 msgctxt "ask 0415"
 msgid "She's too sick to see me? "
-msgstr ""
+msgstr "她病得沒辦法見我？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "She's too sick to see me? "
 msgctxt "bark 0415:2BAE"
 msgid "Yes. In fact, she has been slipping in and out of consciousness lately. Even if you were to see her, she probably would not be awake. "
-msgstr ""
+msgstr "是的。事實上，她最近時昏時醒。就算你見到她，她大概也不會醒著。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Lothian?"
 msgctxt "bark 0415:2C57"
 msgid "Long has she been the Necromancer. Lothian has loyally served since I was but a boy. "
-msgstr ""
+msgstr "她當死靈法師已經很久了。從我還是個孩子起，羅西安就一直忠心侍奉。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Traditions. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Traditions. "
-msgstr ""
+msgstr "傳統。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Traditions. "
 msgctxt "bark 0415:2D32"
 msgid "Our lives are very structured. We must perform our rites very precisely lest they be not accepted. Yet sometimes such precision can create problems. "
-msgstr ""
+msgstr "我們的生活非常有規矩。我們必須非常精確地執行儀式，以免不被接受。不過有時候，這種精確也會帶來問題。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Traditions. "
 msgctxt "ask 0415"
 msgid "What problems? "
-msgstr ""
+msgstr "什麼問題？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What mysteries? "
 msgctxt "bark 0415:2E3A"
 msgid "I can not tell someone who is not of our order about our mysteries. You could learn all if you were to join the order and become a novice. "
-msgstr ""
+msgstr "我不能把我們的奧祕告訴不屬於我們教團的人。如果你加入教團、成為見習生，就能學到一切。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What mysteries? "
 msgctxt "ask 0415"
 msgid "What is a novice? "
-msgstr ""
+msgstr "見習生是什麼？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is a novice? "
 msgctxt "bark 0415:2F13"
 msgid "A novice is someone who has newly joined the order and has just begun to learn. "
-msgstr ""
+msgstr "見習生就是剛加入教團、才開始學習的人。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Join your order? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Join your order? "
-msgstr ""
+msgstr "加入你們的教團？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Join your order? "
 msgctxt "bark 0415:2FAE"
 msgid "Few people join our order. Life here is not easy but it is rewarding. "
-msgstr ""
+msgstr "很少人加入我們的教團。這裡的生活並不輕鬆，但很有收穫。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Not accepted. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Not accepted. "
-msgstr ""
+msgstr "不被接受。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Not accepted. "
 msgctxt "bark 0415:306A"
 msgid "As you are not of our order, I can not tell you much. Suffice to say that titanic forces are often fickle. "
-msgstr ""
+msgstr "既然你不是我們教團的人，我不能告訴你太多。只能說，泰坦的力量往往變幻莫測。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Not accepted. "
 msgctxt "ask 0415"
 msgid "Titanic forces? "
-msgstr ""
+msgstr "泰坦的力量？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Titanic forces? "
 msgctxt "bark 0415:317E"
 msgid "You have many questions, my friend! I was the same when first I came to the Tomb. Unfortunately, I can answer little since, as I have said, you are not of our order. "
-msgstr ""
+msgstr "你的問題真多，朋友！我剛來陵墓時也是這樣。可惜，就像我說的，你不是我們教團的人，所以我能回答的不多。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What problems? "
 msgctxt "bark 0415:325F"
 msgid "As I said, in our rituals, everything must be done at the right time with the right tools. Unfortunately, we are missing a most important tool. "
-msgstr ""
+msgstr "就像我說的，在我們的儀式中，一切都得在正確的時間、用正確的工具進行。不幸的是，我們少了一件最重要的工具。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What problems? "
 msgctxt "ask 0415"
 msgid "Missing a tool? "
-msgstr ""
+msgstr "少了一件工具？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Missing a tool? "
 msgctxt "bark 0415:3320"
 msgid "Yes, our ceremonial dagger. It was taken from us by that power mad witch, Mordea. "
-msgstr ""
+msgstr "是的，我們的儀式匕首。它被那個權力薰心的女巫莫爾迪亞奪走了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Missing a tool? "
 msgctxt "ask 0415"
 msgid "Mordea took the dagger? "
-msgstr ""
+msgstr "莫爾迪亞拿走了匕首？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Missing a tool? "
 msgctxt "ask 0415"
 msgid "Mordea is dead. "
-msgstr ""
+msgstr "莫爾迪亞死了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Mordea took the dagger? "
 msgctxt "bark 0415:347A"
 msgid "Yes! Never before have we had to worry about such things. People have always feared the cemetery and respected our work. But not long ago, Mordea came here with an armed force and took the dagger. "
-msgstr ""
+msgstr "是的！我們以前從來不必擔心這種事。人們一向畏懼墓地，也尊重我們的工作。可是不久前，莫爾迪亞帶著武裝部隊來到這裡，奪走了匕首。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Mordea took the dagger? "
 msgctxt "ask 0415"
 msgid "People respected your work? "
-msgstr ""
+msgstr "人們尊重你們的工作？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "People respected your work? "
 msgctxt "bark 0415:35DD"
 msgid "Oh yes, we were respected and feared. The Necromancers have always been held in just regard as one of the great powers of the world. It has taken one so obsessed with power as Mordea to lessen the people's regard for us. "
-msgstr ""
+msgstr "噢，是的，我們受人尊重，也受人畏懼。死靈法師一向被公認為世上的強大勢力之一。直到出了莫爾迪亞這樣一個執迷於權力的人，人們對我們的敬重才減少了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "People respected your work? "
 msgctxt "ask 0415"
 msgid "People's regard has lessened? "
-msgstr ""
+msgstr "人們的敬重減少了？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "People feared you? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "People feared you? "
-msgstr ""
+msgstr "人們畏懼你們？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "People feared you? "
 msgctxt "bark 0415:374C"
 msgid "It is only natural that people fear forces that they do not understand. Of course they have never had a reason to fear us. Those of our order have always been benevolent, unlike the followers of Pyros or the Lurker. "
-msgstr ""
+msgstr "人們畏懼自己不了解的力量，這是很自然的。當然，他們從來沒有理由畏懼我們。我們教團的人一向心懷善意，不像派羅斯或潛伏者的追隨者。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "People feared you? "
 msgctxt "ask 0415"
 msgid "The Lurker? "
-msgstr ""
+msgstr "潛伏者？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Pyros? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Pyros? "
-msgstr ""
+msgstr "派羅斯？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Pyros? "
 msgctxt "bark 0415:384F"
 msgid "Please, speak not of that malevolent demon! I should not have mentioned his name. All the world would he consume in his flame if he were allowed! "
-msgstr ""
+msgstr "拜託，別提那個邪惡的惡魔！我不該提起他的名字的。要是放任他，他會用他的火焰吞噬整個世界！"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Pyros? "
 msgctxt "ask 0415"
 msgid "Is Pyros a Titan? "
-msgstr ""
+msgstr "派羅斯是泰坦嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Is Pyros a Titan? "
 msgctxt "bark 0415:38EA"
 msgid "Please, I asked you not to speak of him. "
-msgstr ""
+msgstr "拜託，我請你別提他了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The Lurker? "
 msgctxt "bark 0415:39C4"
 msgid "The water Titan. Damned be her and all who follow her. That is Mordea's station; to follow that watery spirit and oppress all in her way. "
-msgstr ""
+msgstr "海洋泰坦。願她和她所有的追隨者都受詛咒。那就是莫爾迪亞的身分：追隨那個水之靈，壓迫所有擋在她路上的人。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Your order is a great power? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Your order is a great power? "
-msgstr ""
+msgstr "你們的教團是強大的勢力？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Your order is a great power? "
 msgctxt "bark 0415:3AC7"
 msgid "What greater power could there be than the power of the land itself? We who follow the Mountain King are peaceful, but when we are pressed we can wield our power well. "
-msgstr ""
+msgstr "還有什麼力量比大地本身的力量更強大呢？我們這些追隨山之王的人愛好和平，但被逼急了，我們也能好好運用我們的力量。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Your order is a great power? "
 msgctxt "ask 0415"
 msgid "What about Mordea? "
-msgstr ""
+msgstr "那莫爾迪亞呢？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What about Mordea? "
 msgctxt "bark 0415:3BB8"
 msgid "It would do more harm than good for the Necromancer to wage war with Mordea. Even though Mordea is power mad. "
-msgstr ""
+msgstr "死靈法師要是跟莫爾迪亞開戰，只會弊大於利。即使莫爾迪亞權力薰心。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What about Mordea? "
 msgctxt "ask 0415"
 msgid "More harm than good? "
-msgstr ""
+msgstr "弊大於利？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "People's regard has lessened? "
 msgctxt "bark 0415:3CB6"
 msgid "Yes, I am sad to say. We shall yet win them back, however. Lithos will lead us out of these dark times and show to all His power and majesty. "
-msgstr ""
+msgstr "是的，我很難過地這麼說。不過我們終究會贏回人心的。利索斯會帶領我們走出這段黑暗時期，向所有人展現祂的力量與威嚴。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "People's regard has lessened? "
 msgctxt "ask 0415"
 msgid "Power and majesty? "
-msgstr ""
+msgstr "力量與威嚴？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Power and majesty? "
 msgctxt "bark 0415:3DB5"
 msgid "You must understand that we do not seek to rule all, such as Mordea does. We simply wish all to respect and revere Lithos. "
-msgstr ""
+msgstr "你必須明白，我們不像莫爾迪亞那樣想統治一切。我們只是希望所有人都尊敬、崇拜利索斯。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "More harm than good? "
 msgctxt "bark 0415:3E95"
 msgid "Think of the destruction that would occur if two Titanic forces were to lock themselves in combat. The destruction would be terrible. "
-msgstr ""
+msgstr "想想看，要是兩股泰坦之力纏鬥在一起，會造成多大的破壞。那破壞將會非常可怕。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Why is this dagger special? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Why is this dagger special? "
-msgstr ""
+msgstr "這把匕首有什麼特別？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Why is this dagger special? "
 msgctxt "bark 0415:3F67"
 msgid "It was given to Moriens by the Mountain King Himself. We can not perform our ceremonies with any other dagger. "
-msgstr ""
+msgstr "它是山之王親手賜給摩瑞恩斯的。我們不能用其他匕首舉行儀式。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Power mad? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Power mad? "
-msgstr ""
+msgstr "權力薰心？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Power mad? "
 msgctxt "bark 0415:408C"
 msgid "I don't care who hears me say it! Mordea is evil and power hungry! Long has she been a tyrant but now she has gone too far! Now that she has the dagger, we can not perform our rites without her approval. "
-msgstr ""
+msgstr "我才不在乎誰聽到我這麼說！莫爾迪亞邪惡又貪戀權力！她當暴君已經很久了，但這次她太過分了！現在匕首在她手上，沒有她的許可，我們就無法舉行儀式。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Power mad? "
 msgctxt "ask 0415"
 msgid "You need her approval? "
-msgstr ""
+msgstr "你們需要她的許可？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "She has gone too far? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "She has gone too far? "
-msgstr ""
+msgstr "她太過分了？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "She has gone too far? "
 msgctxt "bark 0415:415F"
 msgid "What Mordea has done violates generations of tradition and work. "
-msgstr ""
+msgstr "莫爾迪亞的所作所為，違背了好幾代以來的傳統與心血。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You need her approval? "
 msgctxt "bark 0415:4263"
 msgid "Yes! Without her approval, we can not perform our rituals. We can not work under such conditions! We need to get the dagger back soon or there will be great danger. "
-msgstr ""
+msgstr "是的！沒有她的許可，我們就無法舉行儀式。在這種情況下我們沒辦法工作！我們必須盡快把匕首拿回來，否則會有大危險。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You need her approval? "
 msgctxt "ask 0415"
 msgid "What kind of danger? "
-msgstr ""
+msgstr "什麼樣的危險？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What kind of danger? "
 msgctxt "bark 0415:4371"
 msgid "I truly can not tell you. The Mountain King's temper is, well, titanic. He may rip the land apart should we anger him. "
-msgstr ""
+msgstr "我真的不能告訴你。山之王的脾氣，嗯，可以說是泰坦級的。要是我們激怒了祂，祂可能會把大地撕裂。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What kind of danger? "
 msgctxt "ask 0415"
 msgid "Anger him? "
-msgstr ""
+msgstr "激怒祂？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Rip the land apart? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Rip the land apart? "
-msgstr ""
+msgstr "把大地撕裂？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Rip the land apart? "
 msgctxt "bark 0415:44A8"
 msgid "Oh yes, earthquakes, fissures, landslides, the power of the Earth Titan is very great. I have never seen the power of His wrath before, but I have heard terrible stories. "
-msgstr ""
+msgstr "噢，是的，地震、地裂、山崩，大地泰坦的力量非常強大。我從沒親眼見過祂發怒的威力，但聽過一些可怕的故事。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Rip the land apart? "
 msgctxt "ask 0415"
 msgid "What stories? "
-msgstr ""
+msgstr "什麼故事？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What stories? "
 msgctxt "bark 0415:458C"
 msgid "In the days before Moriens agreed to serve the Mountain King, our lord did often rend the land as was His pleasure. "
-msgstr ""
+msgstr "在摩瑞恩斯同意侍奉山之王之前，我們的主常常隨心所欲地撕裂大地。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What stories? "
 msgctxt "ask 0415"
 msgid "Why did he do this? "
-msgstr ""
+msgstr "祂為什麼這麼做？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Why did he do this? "
 msgctxt "bark 0415:4661"
 msgid "Please, I do not have time to talk of this. I need to get the dagger back before Lothian dies. "
-msgstr ""
+msgstr "拜託，我沒時間談這個。我得在羅西安死前把匕首拿回來。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Anger him? "
 msgctxt "bark 0415:4729"
 msgid "Yes. If I am not able to perform the appropriate ceremony upon Lothian, I will greatly disappoint, and anger, my Lord. "
-msgstr ""
+msgstr "是的。要是我無法為羅西安舉行適當的儀式，我的主會非常失望，也會非常憤怒。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Get the dagger back. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Get the dagger back. "
-msgstr ""
+msgstr "把匕首拿回來。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Get the dagger back. "
 msgctxt "bark 0415:4826"
 msgid "How? Lothian is very ill and I must stay by her side. Besides, neither of us are trained warriors to challenge Mordea's guards. How could we possibly retrieve the dagger? "
-msgstr ""
+msgstr "怎麼拿？羅西安病得很重，我得守在她身邊。再說，我們兩個都不是受過訓練的戰士，對付不了莫爾迪亞的衛兵。我們怎麼可能把匕首拿回來？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Get the dagger back. "
 msgctxt "ask 0415"
 msgid "Stay by her side. "
-msgstr ""
+msgstr "守在她身邊？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I'll get the dagger. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "I'll get the dagger. "
-msgstr ""
+msgstr "我去拿匕首。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I'll get the dagger. "
 msgctxt "bark 0415:48CB"
 msgid "Will you truly? "
-msgstr ""
+msgstr "你真的願意？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I'll get the dagger. "
 msgctxt "ask 0415"
 msgid "No. "
-msgstr ""
+msgstr "不。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Yes. "
-msgstr ""
+msgstr "是的。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes. "
 msgctxt "bark 0415:49D4"
 msgid "Thank you! I have heard that Mordea keeps the dagger in her chambers. You will know the dagger by its golden hilt and serpentine blade. Please hurry, for soon we shall need the dagger! "
-msgstr ""
+msgstr "謝謝你！我聽說莫爾迪亞把匕首放在她的寢宮裡。你只要看到金色的劍柄和蛇形的刀刃，就知道是那把匕首了。請快一點，我們很快就需要那把匕首了！"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes. "
 msgctxt "ask 0415"
 msgid "May I meet the Necromancer? "
-msgstr ""
+msgstr "我能見死靈法師嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes. "
 msgctxt "bark 0415:4A6C"
 msgid "That is a cruel jest. We need the dagger soon else we shall all suffer. "
-msgstr ""
+msgstr "這玩笑太殘忍了。我們必須盡快拿到匕首，不然大家都要受苦。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Stay by her side. "
 msgctxt "bark 0415:4B63"
 msgid "It is as I have said, our ceremonies must occur at the correct time. I can tell you no more than that except to say that I must be present when Lothian dies. "
-msgstr ""
+msgstr "就像我說的，我們的儀式必須在正確的時間舉行。我只能告訴你這麼多，此外就是羅西安死時我必須在場。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I meet the Necromancer? "
 msgctxt "bark 0415:4C13"
 msgid "If you bring to me the dagger, I will get you an audience with the Necromancer. "
-msgstr ""
+msgstr "如果你把匕首帶來給我，我就安排你晉見死靈法師。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Mordea is dead. "
 msgctxt "bark 0415:4CE8"
 msgid "She is truly dead? Oh praise be to the Mountain King! Perhaps now we may get our dagger back and avert certain danger. "
-msgstr ""
+msgstr "她真的死了？噢，讚美山之王！也許現在我們能拿回匕首，避開那場必然的危險了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Mordea is dead. "
 msgctxt "ask 0415"
 msgid "You may get the dagger back. "
-msgstr ""
+msgstr "你們也許能拿回匕首。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What kind of dagger? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "What kind of dagger? "
-msgstr ""
+msgstr "什麼樣的匕首？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What kind of dagger? "
 msgctxt "bark 0415:4E13"
 msgid "It is a very special dagger. This dagger was given to us by the Mountain King so that we may perform a very special ceremony. Without the dagger, I can not perform the ceremony. "
-msgstr ""
+msgstr "那是一把非常特別的匕首。是山之王賜給我們的，讓我們能舉行一場非常特別的儀式。沒有那把匕首，我就無法舉行儀式。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You may get the dagger back. "
 msgctxt "bark 0415:4EC4"
 msgid "Unfortunately, I can not leave here. You see, I must stay by Lothian's side. "
-msgstr ""
+msgstr "可惜我不能離開這裡。你知道，我必須守在羅西安身邊。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Farewell. "
 msgctxt "bark 0415:4F68"
 msgid "Farewell, friend. "
-msgstr ""
+msgstr "再會，朋友。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have the dagger. "
 msgctxt "bark 0415:5060"
 msgid "Truly?! You have the dagger? Bless you, my friend, bless you! Your timing is perfect for I need the dagger immediately! May I please have the dagger? "
-msgstr ""
+msgstr "真的？！匕首在你那裡？願你蒙福，朋友，願你蒙福！你來得正是時候，我馬上就需要那把匕首！能請你把匕首給我嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "How are you today, Vividos? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "How are you today, Vividos? "
-msgstr ""
+msgstr "你今天好嗎，維維多斯？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "How are you today, Vividos? "
 msgctxt "bark 0415:519B"
 msgid "Not well, I fear. Our problem still exists and Lothian nears her end. Have you managed to get the dagger away from Mordea? "
-msgstr ""
+msgstr "恐怕不太好。我們的問題還沒解決，羅西安也快不行了。你從莫爾迪亞那裡拿到匕首了嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "How are you today, Vividos? "
 msgctxt "ask 0415"
 msgid "No, I don't have the dagger. "
-msgstr ""
+msgstr "不，我沒拿到匕首。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No, I don't have the dagger. "
 msgctxt "bark 0415:531A"
 msgid "Oh. I was hoping that you had retrieved the dagger for me. I am terribly afraid of what may happen if I do not get it soon. You did promise to get the dagger. Please do so as soon as possible. "
-msgstr ""
+msgstr "噢。我本來還希望你替我拿回匕首了。要是不能盡快拿到，我真怕會出什麼事。你答應過要去拿匕首的。請盡快辦到。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What problem? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "What problem? "
-msgstr ""
+msgstr "什麼問題？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What problem? "
 msgctxt "bark 0415:5476"
 msgid "Have you completely forgotten the discussion which we had when first we met? By the power of the Mountain King, man, how could you forget my plight when your own safety is at stake? Mordea has stolen our ceremonial dagger and you promised to retrieve it. "
-msgstr ""
+msgstr "你把我們初次見面時談的事全忘了嗎？以山之王的力量起誓，老兄，事關你自己的安危，你怎麼能忘了我的困境？莫爾迪亞偷走了我們的儀式匕首，而你答應過要把它拿回來。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What problem? "
 msgctxt "ask 0415"
 msgid "I was but joking, friend. "
-msgstr ""
+msgstr "我只是開玩笑的，朋友。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I was but joking, friend. "
 msgctxt "bark 0415:55C8"
 msgid "I do remember from our first meeting that you have a sharp wit, but to say such a thing is more cruel than funny. By Lithos' eyes, please hold your jests until our crisis has past. "
-msgstr ""
+msgstr "我記得初次見面時你就很機智，可是說這種話與其說好笑，不如說殘忍。以利索斯之眼起誓，請等我們的危機過去再開玩笑吧。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Oh yes, I do remember. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Oh yes, I do remember. "
-msgstr ""
+msgstr "噢，對，我記得。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Oh yes, I do remember. "
 msgctxt "bark 0415:56D7"
 msgid "How very nice of you to recall! Please listen closely, if you do not retrieve the dagger, I can not inter people. If I can not inter people, Lithos will become very upset. "
-msgstr ""
+msgstr "你記得真是太好了！請仔細聽好：如果你不把匕首拿回來，我就無法安葬死者。如果我無法安葬死者，利索斯會非常不高興。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Oh yes, I do remember. "
 msgctxt "ask 0415"
 msgid "What will happen if Lithos becomes upset? "
-msgstr ""
+msgstr "利索斯不高興的話會怎樣？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What will happen if Lithos becomes upset? "
 msgctxt "bark 0415:58BE"
 msgid "I probably should not tell you this, since you are not a member of our order, but these are dire times. Lithos may rend the ground underneath our very feet. He may bring great landslides to destroy Tenebrae. He may create quakes that kill us all. Lithos is great and powerful and we do not want him to become upset. "
-msgstr ""
+msgstr "你不是我們教團的成員，我大概不該告訴你這些，但現在情況危急。利索斯可能會撕裂我們腳下的大地，可能會引發大山崩摧毀泰尼伯瑞，也可能會造成地震把我們全都殺死。利索斯偉大而強大，我們可不希望祂不高興。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What will happen if Lithos becomes upset? "
 msgctxt "ask 0415"
 msgid "Could this really happen? "
-msgstr ""
+msgstr "這真的會發生嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "That sounds terrible. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "That sounds terrible. "
-msgstr ""
+msgstr "聽起來真可怕。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "That sounds terrible. "
 msgctxt "bark 0415:59E5"
 msgid "Of course it sounds terrible! This is why I am so frantic! Now please, go and retrieve the dagger as you promised! "
-msgstr ""
+msgstr "當然可怕！所以我才這麼著急！現在拜託，照你答應的去把匕首拿回來！"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Could this really happen? "
 msgctxt "bark 0415:5AD8"
 msgid "I do not believe your questions! Is this another one of your jokes? Of course it could happen! Please leave me now. I am too un-nerved to speak. "
-msgstr ""
+msgstr "真不敢相信你會問這種問題！這又是你的玩笑嗎？當然會發生！現在請你離開吧，我心慌意亂，說不下去了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Is Lothian dying? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Is Lothian dying? "
-msgstr ""
+msgstr "羅西安快死了嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Is Lothian dying? "
 msgctxt "bark 0415:5B84"
 msgid "Yes, she's dying! I told you that when last you were here. "
-msgstr ""
+msgstr "是的，她快死了！你上次來時我就告訴過你了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of Lithos. "
 msgctxt "bark 0415:5CB8"
 msgid "I am sorry friend, but I do not have time to tell you anything of the Mountain King that you can not already know. After you have retrieved the dagger for me, I will tell you in great length of our lord, the Earth Titan. "
-msgstr ""
+msgstr "抱歉，朋友，關於山之王，你不可能不知道的事，我現在沒時間跟你說。等你替我拿回匕首後，我會好好跟你詳談我們的主——大地泰坦。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of Lithos. "
 msgctxt "bark 0415:5D2A"
 msgid "Did you wish to continue this conversation, my friend? "
-msgstr ""
+msgstr "朋友，你還想繼續談嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of Lithos. "
 msgctxt "ask 0415"
 msgid "You murdered that woman! "
-msgstr ""
+msgstr "你謀殺了那個女人！"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of Lithos. "
 msgctxt "ask 0415"
 msgid "Hello, Necromancer. "
-msgstr ""
+msgstr "你好，死靈法師。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of Lithos. "
 msgctxt "ask 0415"
 msgid "I have brought you the reagents, Necromancer. "
-msgstr ""
+msgstr "我把材料帶來了，死靈法師。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of Lithos. "
 msgctxt "ask 0415"
 msgid "I have met the Mountain King. "
-msgstr ""
+msgstr "我見到山之王了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of Lithos. "
 msgctxt "ask 0415"
 msgid "I have interred Lothian, Necromancer. "
-msgstr ""
+msgstr "我已經安葬了羅西安，死靈法師。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of Lithos. "
 msgctxt "ask 0415"
 msgid "What must I do? "
-msgstr ""
+msgstr "我必須做什麼？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of Lithos. "
 msgctxt "ask 0415"
 msgid "I have seen the Birthplace of Moriens. "
-msgstr ""
+msgstr "我見過摩瑞恩斯的誕生地了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You are the Necromancer? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "You are the Necromancer? "
-msgstr ""
+msgstr "你就是死靈法師？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You are the Necromancer? "
 msgctxt "bark 0415:6066"
 msgid "I am now. With Lothian's passage, I step forward and take her place. As Lothian's Scion, I was next in the Necromantic line of succession. "
-msgstr ""
+msgstr "現在是了。隨著羅西安的逝去，我挺身接替她的位置。身為羅西安的傳人，我是死靈法師繼承順位的下一位。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You are the Necromancer? "
 msgctxt "ask 0415"
 msgid "What is a Scion? "
-msgstr ""
+msgstr "傳人是什麼？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You murdered that woman! "
 msgctxt "bark 0415:6116"
 msgid "I killed her, yes. But I did not murder her. "
-msgstr ""
+msgstr "我殺了她，沒錯。但我並沒有謀殺她。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You murdered that woman! "
 msgctxt "ask 0415"
 msgid "Why did you have to stab her? "
-msgstr ""
+msgstr "你為什麼非刺死她不可？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Why did you have to stab her? "
 msgctxt "bark 0415:6219"
 msgid "Have you not heard a word that I have said? The Ceremony of Eternity is one of our most sacred rites. It is Lithos' law! "
-msgstr ""
+msgstr "我說的話你一個字都沒聽進去嗎？永恆儀式是我們最神聖的儀式之一。這是利索斯的律法！"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is a Scion? "
 msgctxt "bark 0415:6349"
 msgid "A Scion is the Necromancer's chosen successor. It is normal for the Necromancer's first apprentice to be the Scion. It is sad to say, but I was Lothian's only apprentice. Now, I am in need of an apprentice. "
-msgstr ""
+msgstr "傳人就是死靈法師選定的繼承人。通常死靈法師的第一個學徒就是傳人。說來難過，我是羅西安唯一的學徒。現在，我需要一個學徒了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is a Scion? "
 msgctxt "ask 0415"
 msgid "You need an apprentice? "
-msgstr ""
+msgstr "你需要一個學徒？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Well what's the difference? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Well what's the difference? "
-msgstr ""
+msgstr "那有什麼差別？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Well what's the difference? "
 msgctxt "bark 0415:64B2"
 msgid "Murdering some one is to take their life against their will. Lothian had known nearly her entire life that, when it was her time of passage, she would be killed in this fashion. The same will happen to me when it is my time. "
-msgstr ""
+msgstr "謀殺是違背一個人的意願奪走他的性命。羅西安幾乎一輩子都知道，等她往生的時候到了，她就會以這種方式被殺。等我的時候到了，我也會一樣。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Well what's the difference? "
 msgctxt "ask 0415"
 msgid "The same will happen to you? "
-msgstr ""
+msgstr "你也會一樣？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Why were you the only apprentice? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Why were you the only apprentice? "
-msgstr ""
+msgstr "為什麼你是唯一的學徒？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Why were you the only apprentice? "
 msgctxt "bark 0415:6612"
 msgid "It is as I have said: many people fear us, and many more can not live so demanding and structured life as is necessary of one who serves the Mountain King. "
-msgstr ""
+msgstr "就像我說的：很多人畏懼我們，而更多人過不了侍奉山之王所必需的那種嚴苛又規矩的生活。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Why were you the only apprentice? "
 msgctxt "ask 0415"
 msgid "Why do people fear you? "
-msgstr ""
+msgstr "人們為什麼畏懼你們？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Why do people fear you? "
 msgctxt "bark 0415:673A"
 msgid "Many people are ignorant and do not understand what we do. They think that we live with corpses and that we are diseased. All of this is foolishness. "
-msgstr ""
+msgstr "很多人無知，不了解我們在做什麼。他們以為我們跟屍體住在一起，以為我們身上帶著病。這些全是無稽之談。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "So that is the Ceremony of Eternity? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "So that is the Ceremony of Eternity? "
-msgstr ""
+msgstr "這就是永恆儀式？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "So that is the Ceremony of Eternity? "
 msgctxt "bark 0415:68B5"
 msgid "Yes, the ceremony must be performed as Lithos has commanded. You see, as Lothian was Necromancer, she will be permitted into the Hall of Eternity. In order to be allowed into this most hallowed of places, the Necromancers must be prepared in the Ceremony of Eternity. "
-msgstr ""
+msgstr "是的，儀式必須依照利索斯的命令舉行。你知道，羅西安身為死靈法師，將獲准進入永恆大廳。要獲准進入這個最神聖的地方，死靈法師必須先經過永恆儀式的準備。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "So that is the Ceremony of Eternity? "
 msgctxt "ask 0415"
 msgid "What is the Hall of Eternity? "
-msgstr ""
+msgstr "永恆大廳是什麼？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have seen the Birthplace of Moriens. "
 msgctxt "bark 0415:69A5"
 msgid "That is well. I hope that your experience was as wonderful as my own. "
-msgstr ""
+msgstr "那很好。希望你的經歷跟我的一樣美妙。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is the Hall of Eternity? "
 msgctxt "bark 0415:6B35"
 msgid "The Hall of Eternity is a special place within the City of the Dead. The City of the Dead is a place where only Necromancers are allowed. It is there that Lithos sits upon His throne and consults His Necromancers, and dispenses His judgement. The Hall is a most prestigious place. "
-msgstr ""
+msgstr "永恆大廳是亡者之城裡一個特別的地方。亡者之城只有死靈法師能進入。利索斯就在那裡坐在祂的王座上，與祂的死靈法師商議，並做出祂的裁決。那座大廳是最崇高的地方。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is the Hall of Eternity? "
 msgctxt "ask 0415"
 msgid "The City of the Dead? "
-msgstr ""
+msgstr "亡者之城？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The City of the Dead? "
 msgctxt "bark 0415:6C59"
 msgid "Yes, the heart of Lithos' realm. The City of the Dead is where all Necromancers who have been interred go and live on in death under Lithos' gentle rule. "
-msgstr ""
+msgstr "是的，那是利索斯國度的中心。所有安葬過的死靈法師都會前往亡者之城，在利索斯溫和的統治下，於死後繼續生活。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You need an apprentice? "
 msgctxt "bark 0415:6D64"
 msgid "Yes, I do. While we are on this subject, it occurs to me that you are a man of exceptional qualities, both physical and spiritual. Would you wish to become my apprentice? "
-msgstr ""
+msgstr "是的，我需要。說到這個，我想到你無論身體還是心靈，都具備非凡的資質。你願意成為我的學徒嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You need an apprentice? "
 msgctxt "ask 0415"
 msgid "No, thank you. "
-msgstr ""
+msgstr "不用了，謝謝。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I am honored. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Yes, I am honored. "
-msgstr ""
+msgstr "願意，這是我的榮幸。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I am honored. "
 msgctxt "bark 0415:6E6E"
 msgid "Good, then it is so done. As my apprentice, I would have you begin your studies immediately. Much must be learned before one can wield the magic of a Necromancer. "
-msgstr ""
+msgstr "很好，那就這麼定了。身為我的學徒，我要你立刻開始學習。要能施展死靈法師的魔法，必須先學會很多東西。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I am honored. "
 msgctxt "ask 0415"
 msgid "I'll learn magic? "
-msgstr ""
+msgstr "我會學魔法？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What must I do? "
 msgctxt "bark 0415:703E"
 msgid "First you must gather some reagents for me. Return them to me and I will teach you of their magical properties. There will be other tasks to follow. If you accomplish all of them correctly, then I shall make you my apprentice, and most likely, the Scion. After that, you shall make a pilgrimage. "
-msgstr ""
+msgstr "首先，你必須替我蒐集一些材料。把它們帶回來給我，我就教你它們的魔法特性。之後還會有其他任務。如果你全都正確完成，我就收你為學徒，而且很可能還會立你為傳人。在那之後，你要去朝聖。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What must I do? "
 msgctxt "ask 0415"
 msgid "A pilgrimage? "
-msgstr ""
+msgstr "朝聖？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "A pilgrimage? "
 msgctxt "bark 0415:7146"
 msgid "Do not concern yourself with that now. There is much that must be done before you may even think about your holy pilgrimage. "
-msgstr ""
+msgstr "現在先別擔心那件事。在你能考慮神聖的朝聖之前，還有很多事要做。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No, thank you. "
 msgctxt "bark 0415:7250"
 msgid "This saddens me. I do think that you would make a fine apprentice, and eventually, Necromancer. Is your mind completely made up, are you certain that you do not wish to be my apprentice? "
-msgstr ""
+msgstr "這讓我很難過。我真的認為你會是個好學徒，最終也會是個好死靈法師。你已經完全決定了嗎？你確定不想當我的學徒？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No, thank you. "
 msgctxt "ask 0415"
 msgid "Well, perhaps I should be your apprentice. "
-msgstr ""
+msgstr "嗯，也許我該當你的學徒。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I am certain. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Yes, I am certain. "
-msgstr ""
+msgstr "是的，我確定。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I am certain. "
 msgctxt "bark 0415:7385"
 msgid "Very well, I am sure you have good reason for your decision. I am, however, very busy and must get on with my duties. Thank you very much for your help, but I must be on my way. "
-msgstr ""
+msgstr "好吧，我相信你這麼決定一定有你的理由。不過我很忙，得去處理我的職務了。非常感謝你的幫忙，但我得走了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Well, perhaps I should be your apprentice. "
 msgctxt "bark 0415:74B2"
 msgid "Good, then it is done. As my apprentice, I would have you begin your studies immediately. Much must be learned before one can wield the magic of the Necromancer. "
-msgstr ""
+msgstr "很好，那就這麼定了。身為我的學徒，我要你立刻開始學習。要能施展死靈法師的魔法，必須先學會很多東西。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I'll learn magic? "
 msgctxt "bark 0415:7600"
 msgid "Indeed you will, my apprentice. By the time that you have completed your studies, you will be capable of more than you ever dreamed possible. "
-msgstr ""
+msgstr "確實會，我的學徒。等你完成學業時，你的能力將超乎你最大膽的夢想。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I'll learn magic? "
 msgctxt "ask 0415"
 msgid "There is much to learn. "
-msgstr ""
+msgstr "要學的東西真多。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "There is much to learn. "
 msgctxt "bark 0415:771E"
 msgid "Indeed there is, apprentice. That is why you must consult the library freely and often. There you will learn much of our order, our history, and our magic. "
-msgstr ""
+msgstr "確實很多，學徒。所以你必須經常、儘管去查閱圖書館。在那裡，你會學到很多關於我們教團、我們的歷史與魔法的知識。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "There is much to learn. "
 msgctxt "ask 0415"
 msgid "Will you help me learn? "
-msgstr ""
+msgstr "你會幫我學習嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where is the library? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Where is the library? "
-msgstr ""
+msgstr "圖書館在哪裡？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where is the library? "
 msgctxt "bark 0415:7823"
 msgid "It is located just upstairs. Feel free to use it at any time. I expect to see you there quite often. "
-msgstr ""
+msgstr "就在樓上。隨時都可以使用。我希望常在那裡看到你。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Will you help me learn? "
 msgctxt "bark 0415:78DD"
 msgid "Yes, of course, my student. It is part of my responsibility to teach you all that I know. "
-msgstr ""
+msgstr "是的，當然，我的學生。把我所知道的一切教給你，是我的職責之一。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What reagents do you need? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "What reagents do you need? "
-msgstr ""
+msgstr "你需要什麼材料？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What reagents do you need? "
 msgctxt "bark 0415:79C6"
 msgid "I need for you to bring me a sample of Executioner's Hood from a place of danger and fallen sticks from a place where spirits roam. "
-msgstr ""
+msgstr "我需要你從危險之地帶一株劊子手兜帽草回來，再從幽魂遊蕩之地帶些掉落的樹枝回來。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What reagents do you need? "
 msgctxt "ask 0415"
 msgid "Where spirits roam? "
-msgstr ""
+msgstr "幽魂遊蕩之地？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where spirits roam? "
 msgctxt "bark 0415:7B65"
 msgid "Yes, that is very important. Go to Western Tenebrae. There you will find the sticks, better known as `deadman's elbows,' that I need. "
-msgstr ""
+msgstr "是的，這點非常重要。到泰尼伯瑞西區去，你會在那裡找到我需要的樹枝，一般人叫它「死人肘」。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "These items are -magical-? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "These items are -magical-? "
-msgstr ""
+msgstr "這些東西有「魔力」？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "These items are -magical-? "
 msgctxt "bark 0415:7C9E"
 msgid "Each taken individually, the item's magical properties are inert. However, when blended together under the proper conditions and intonements, their magical qualities are unlocked. All of this you will learn in time. "
-msgstr ""
+msgstr "單獨一樣東西時，它們的魔法特性是沉睡的。但只要在適當的條件和吟誦下調和在一起，它們的魔力就會被釋放出來。這一切你遲早都會學到。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What does Executioner's Hood look like? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "What does Executioner's Hood look like? "
-msgstr ""
+msgstr "劊子手兜帽草長什麼樣子？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What does Executioner's Hood look like? "
 msgctxt "bark 0415:7DAF"
 msgid "It is a black, leafy plant. It grows nearby, between the Graveyard and Tenebrae. Look for the hood under a large tree. It is a rare plant, so look closely. "
-msgstr ""
+msgstr "那是一種黑色、葉子茂密的植物，就長在附近，介於墓地和泰尼伯瑞之間。到一棵大樹下找找。它很稀有，所以要仔細找。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The same will happen to you? "
 msgctxt "bark 0415:7EE5"
 msgid "Of course. When my time comes to be sent to meet the Mountain King, my first apprentice will perform the Ceremony of Eternity and prepare me for my journey. It is the way of the Necromancer. "
-msgstr ""
+msgstr "當然。等我被送去晉見山之王的時候到了，我的第一個學徒就會舉行永恆儀式，為我的旅程做好準備。這就是死靈法師之道。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have brought you the reagents, Necromancer. "
 msgctxt "bark 0415:7F73"
 msgid "Give them to me. "
-msgstr ""
+msgstr "把它們給我。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have brought you the reagents, Necromancer. "
 msgctxt "bark 0415:80F4"
 msgid "You have done well, my apprentice. For your efforts and your obvious learning, I have something for you. This is the Key of the Caretaker. It will allow you entry into the Upper Catacombs. There you must go to learn more of our art. "
-msgstr ""
+msgstr "你做得很好，我的學徒。為了你的努力和明顯的學習成果，我有樣東西要給你。這是看守人之鑰，能讓你進入上層地下墓穴。你必須到那裡去，學習更多我們的技藝。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is the Key of the Caretaker? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "What is the Key of the Caretaker? "
-msgstr ""
+msgstr "看守人之鑰是什麼？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is the Key of the Caretaker? "
 msgctxt "bark 0415:83CA"
 msgid "The Key is an item of power which will allow you to cast the spells which you will learn in the Catacombs. In order to cast spells, you must place the proper reagents in a bag, close the bag, and then invoke the power of the key on the closed bag. When you open the bag, you will find a magic talisman within. When you invoke the magic of the talisman, you cast the spell. "
-msgstr ""
+msgstr "這把鑰匙是一件力量之物，能讓你施展你將在地下墓穴學到的法術。要施法，你必須把適當的材料放進一個袋子，把袋子闔上，然後對闔上的袋子發動鑰匙的力量。打開袋子時，你會發現裡面有一個魔法護符。發動護符的魔力，就能施展法術。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is in the Catacombs? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "What is in the Catacombs? "
-msgstr ""
+msgstr "地下墓穴裡有什麼？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is in the Catacombs? "
 msgctxt "bark 0415:84F5"
 msgid "There you will find the ancient Necromancers. Those who travelled the path of the Necromancer long before you or I. My  ancient ancestors will teach you what you need to know of our magic. "
-msgstr ""
+msgstr "你會在那裡找到古代死靈法師，也就是早在你我之前就走上死靈法師之路的人。我的遠祖們會教你關於我們魔法你需要知道的一切。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is in the Catacombs? "
 msgctxt "ask 0415"
 msgid "Can you not teach me magic? "
-msgstr ""
+msgstr "你不能教我魔法嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "How am I to find them? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "How am I to find them? "
-msgstr ""
+msgstr "我要怎麼找到他們？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "How am I to find them? "
 msgctxt "bark 0415:8617"
 msgid "With good faith and a strong heart. Do not worry, apprentice. The Ancient Necromancers will make themselves known to you. "
-msgstr ""
+msgstr "憑著虔誠的信仰和堅強的心。別擔心，學徒。古代死靈法師會向你現身的。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Can you not teach me magic? "
 msgctxt "bark 0415:8794"
 msgid "I can, and in years to come I will. However, the first level of spells you must learn from the ancient Necromancers. Those who first created the spells that you will learn will teach them to you. If you pass their tests, you will learn their magic. Then you must come back to me. "
-msgstr ""
+msgstr "我可以，而且往後幾年我會教你。不過，第一階的法術你必須向古代死靈法師學習。由當初創造這些法術的人親自教你。如果你通過他們的考驗，就能學會他們的魔法。然後你必須回到我這裡來。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where are the upper catacombs? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Where are the upper catacombs? "
-msgstr ""
+msgstr "上層地下墓穴在哪裡？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where are the upper catacombs? "
 msgctxt "bark 0415:8951"
 msgid "You will find the entrance to the catacombs through the very rock itself. You will need the Open Earth spell, which you can find in the library, and the Key of the Caretaker. Go you then just north of here. There you will find a small hall. Cast the Open Earth spell upon the rock face and you shall gain entrance to the the catacombs. "
-msgstr ""
+msgstr "地下墓穴的入口就在岩石本身裡面。你需要裂地術——你可以在圖書館找到它——還有看守人之鑰。從這裡往北走，你會找到一個小廳堂。對岩壁施展裂地術，你就能進入地下墓穴了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where are the upper catacombs? "
 msgctxt "ask 0415"
 msgid "The spell is in the library? "
-msgstr ""
+msgstr "法術在圖書館裡？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The spell is in the library? "
 msgctxt "bark 0415:8A79"
 msgid "Yes, there you find much that will help you. For in order that you may speak to the Necromancers, there is another spell which you must learn. "
-msgstr ""
+msgstr "是的，你在那裡會找到很多對你有幫助的東西。因為要跟死靈法師們說話，你還必須學會另一道法術。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The spell is in the library? "
 msgctxt "ask 0415"
 msgid "What other spell? "
-msgstr ""
+msgstr "另一道什麼法術？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What other spell? "
 msgctxt "bark 0415:8BFB"
 msgid "As the Necromancers are, to be certain, dead, you must cast Death Speak upon their sacred corpses. Only then shall you hear the voices of wisdom from their lifeless mouths. This spell you shall also find in the library. "
-msgstr ""
+msgstr "既然那些死靈法師當然都已經死了，你必須對他們神聖的遺體施展與亡者交談。唯有如此，你才能從他們毫無生氣的口中聽到智慧之聲。這道法術你也能在圖書館找到。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is there that will help me? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "What is there that will help me? "
-msgstr ""
+msgstr "那裡有什麼能幫助我？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What is there that will help me? "
 msgctxt "bark 0415:8D42"
 msgid "In the library, there are books of knowledge. Not only spells that you must learn, but also the history of our Necromantic order. In the library you will also find many reagents which you may use when learning to cast spells. "
-msgstr ""
+msgstr "圖書館裡有記載知識的書，不只有你必須學的法術，還有我們死靈法師教團的歷史。在圖書館裡，你也會找到許多學習施法時可以用的材料。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have met the Mountain King. "
 msgctxt "bark 0415:8E48"
 msgid "And since you are still alive, I can see that He and His Ancient Necromancers did approve of you. Now, I have something else for you, my apprentice. "
-msgstr ""
+msgstr "既然你還活著，我就知道祂和祂的古代死靈法師們認可了你。現在，我還有一樣東西要給你，我的學徒。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have met the Mountain King. "
 msgctxt "ask 0415"
 msgid "You have something for me? "
-msgstr ""
+msgstr "你有東西要給我？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The journey was difficult. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "The journey was difficult. "
-msgstr ""
+msgstr "這趟旅程很艱辛。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The journey was difficult. "
 msgctxt "bark 0415:8F45"
 msgid "Yes, I remember when I met the Mountain King. I too found the journey most difficult. Yet, all has been worth the effort. "
-msgstr ""
+msgstr "是啊，我還記得我晉見山之王的時候。我也覺得那趟旅程非常艱辛。不過，一切都很值得。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You have something for me? "
 msgctxt "bark 0415:9009"
 msgid "Not yet, my apprentice. Did Lithos tell you that there is one last task for you to perform? "
-msgstr ""
+msgstr "還沒，我的學徒。利索斯有沒有告訴你，你還有最後一項任務要完成？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You have something for me? "
 msgctxt "ask 0415"
 msgid "No, he didn't. "
-msgstr ""
+msgstr "不，祂沒說。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No, he didn't. "
 msgctxt "bark 0415:919F"
 msgid "He did not? I do not believe you. The Mountain King instructed me to ask you if He had told you what you must do. He told me He instructed you to inter Lothian. If you did not perform this task, you were to be expelled from His order. Now you lie to me. Therefore, you must go from here. Never return here again. "
-msgstr ""
+msgstr "祂沒說？我不相信你。山之王吩咐我問你，祂有沒有告訴你必須做什麼。祂告訴我，祂已經吩咐你去安葬羅西安。如果你不完成這項任務，就要被逐出祂的教團。現在你竟然對我說謊。所以，你必須離開這裡，永遠別再回來。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, he did. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Yes, he did. "
-msgstr ""
+msgstr "是的，祂說了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, he did. "
 msgctxt "bark 0415:9224"
 msgid "What did He tell you? "
-msgstr ""
+msgstr "祂跟你說了什麼？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, he did. "
 msgctxt "ask 0415"
 msgid "I must inter Lothian. "
-msgstr ""
+msgstr "我必須安葬羅西安。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I must inter Lothian. "
 msgctxt "bark 0415:938D"
 msgid "That is correct, apprentice. Take this, the Key of the Scion. By touching this item to Lothian, you will make her body acceptable for interment, as commanded in our covenant with Lithos. Know that this Key will also permit access through many doors within the Catacombs. "
-msgstr ""
+msgstr "沒錯，學徒。拿著這個，傳人之鑰。用它碰觸羅西安，就能讓她的遺體依照我們與利索斯的盟約，成為可以安葬的狀態。要知道，這把鑰匙也能讓你通過地下墓穴裡的許多扇門。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I must inter Lothian. "
 msgctxt "bark 0415:93D3"
 msgid "Thank you, Necromancer. "
-msgstr ""
+msgstr "謝謝你，死靈法師。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I must inter Lothian. "
 msgctxt "bark 0415:941C"
 msgid "You did not give me a key, Necromancer. "
-msgstr ""
+msgstr "你沒給我鑰匙啊，死靈法師。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I must inter Lothian. "
 msgctxt "ask 0415"
 msgid "Where is Lothian? "
-msgstr ""
+msgstr "羅西安在哪裡？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where is Lothian? "
 msgctxt "bark 0415:950C"
 msgid "You will find her outside of the tomb, near the Northeast corner of the building. There her body awaits you to send it to the Mountain King. "
-msgstr ""
+msgstr "她在陵墓外面，靠近建築的東北角。她的遺體就在那裡，等著你把它送到山之王那裡去。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Another key? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Another key? "
-msgstr ""
+msgstr "又一把鑰匙？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Another key? "
 msgctxt "bark 0415:95EE"
 msgid "Yes, but as you have seen, these keys are not what one normally thinks of as a key. This is not so much a physical key as it is a spiritual one. "
-msgstr ""
+msgstr "是的，不過你也看到了，這些鑰匙不是一般人所想的那種鑰匙。與其說是實體的鑰匙，不如說是靈性的鑰匙。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Farewell. "
 msgctxt "bark 0415:9654"
 msgid "Farewell, apprentice. "
-msgstr ""
+msgstr "再會，學徒。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Farewell. "
 msgctxt "bark 0415:9682"
 msgid "Farewell, my friend. "
-msgstr ""
+msgstr "再會，朋友。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have interred Lothian, Necromancer. "
 msgctxt "bark 0415:97FF"
 msgid "You have done well, my apprentice. You have shown yourself well. You have served with bravery and great knowledge. I have decided to name you Scion and thereby officially name you my heir in the Necromatic line. Now, you are ready to make your pilgrimage. "
-msgstr ""
+msgstr "你做得很好，我的學徒。你表現得很出色，以勇氣和淵博的學識效力。我決定立你為傳人，從而正式指定你為死靈法師一脈的繼承人。現在，你已經準備好去朝聖了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have interred Lothian, Necromancer. "
 msgctxt "ask 0415"
 msgid "Oh yes, my pilgrimage. "
-msgstr ""
+msgstr "噢，對了，我的朝聖。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Hello, Necromancer. "
 msgctxt "bark 0415:98E4"
 msgid "Greetings to you, my apprentice. I trust that all is well? "
-msgstr ""
+msgstr "你好，我的學徒。一切都好吧？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Hello, Necromancer. "
 msgctxt "ask 0415"
 msgid "No, things are not well. "
-msgstr ""
+msgstr "不，情況不太好。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I am well. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Yes, I am well. "
-msgstr ""
+msgstr "是的，我很好。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I am well. "
 msgctxt "bark 0415:99AD"
 msgid "Good, good. Lithos does provide well for His followers. "
-msgstr ""
+msgstr "很好，很好。利索斯確實會好好照顧祂的追隨者。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No, things are not well. "
 msgctxt "bark 0415:9A59"
 msgid "Well, trust in Lithos and everything will work out. "
-msgstr ""
+msgstr "嗯，信靠利索斯，一切都會好轉的。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Oh yes, my pilgrimage. "
 msgctxt "bark 0415:9B7D"
 msgid "Yes, your pilgrimage. It is customary for the Scion to make a pilgrimage to the birthplace of Moriens. There, the Scion does pay homage to Moriens and hope for a visitation. "
-msgstr ""
+msgstr "是的，你的朝聖。按照慣例，傳人要到摩瑞恩斯的誕生地朝聖。傳人在那裡向摩瑞恩斯致敬，並期盼得到顯靈。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Oh yes, my pilgrimage. "
 msgctxt "ask 0415"
 msgid "A visitation? "
-msgstr ""
+msgstr "顯靈？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "A visitation? "
 msgctxt "bark 0415:9CF1"
 msgid "Yes, well do I remember my pilgrimage. Long did I travel, and such an adventure it was. And when I arrived at the holy birthplace, I did see a most magnificent thing. It was so wonderous that first I thought myself to be mad. "
-msgstr ""
+msgstr "是的，我還清楚記得我的朝聖。我走了很遠的路，那真是一場冒險。當我抵達那神聖的誕生地時，我看到了最壯麗的景象。那景象太神奇了，起初我還以為自己瘋了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "A visitation? "
 msgctxt "ask 0415"
 msgid "What did you see? "
-msgstr ""
+msgstr "你看到了什麼？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What did you see? "
 msgctxt "bark 0415:9E60"
 msgid "Perhaps it is best that I do not tell you. I would not wish to color your expectations. After all, everyone comes away from their pilgrimage with a different experience. But be certain that your experience shall be a profound one. "
-msgstr ""
+msgstr "也許我最好別告訴你。我不想影響你的期待。畢竟每個人朝聖回來的經歷都不一樣。但可以確定的是，你的經歷將會非常深刻。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Was it dangerous? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Was it dangerous? "
-msgstr ""
+msgstr "危險嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Was it dangerous? "
 msgctxt "bark 0415:9F0D"
 msgid "What kind of a question is that from a man who has already performed such great deeds? "
-msgstr ""
+msgstr "一個已經立下這麼多偉大功績的人，怎麼會問這種問題？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where is this place? "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Where is this place? "
-msgstr ""
+msgstr "那個地方在哪裡？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where is this place? "
 msgctxt "bark 0415:9FC0"
 msgid "You must return to the Upper Catacombs. Once there, seek out the signs that mark the way. "
-msgstr ""
+msgstr "你必須回到上層地下墓穴。到了那裡，尋找標示道路的記號。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Thank you, Necromancer. "
 #. answer compared by the conversation code
 msgctxt "ask 0415"
 msgid "Thank you, Necromancer. "
-msgstr ""
+msgstr "謝謝你，死靈法師。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Thank you, Necromancer. "
 msgctxt "bark 0415:A050"
 msgid "Say no more, Scion. You have earned your status. "
-msgstr ""
+msgstr "不必多說，傳人。這是你應得的地位。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Thank you, Necromancer. "
 msgctxt "bark 0415:A0BC"
 msgid "Did you wish to continue this conversation? "
-msgstr ""
+msgstr "你還想繼續談嗎？"

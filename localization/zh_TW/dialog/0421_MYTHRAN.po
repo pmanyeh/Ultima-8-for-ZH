@@ -10,1403 +10,1670 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 3
 #. event 00 (look)
 msgctxt "bark 0421:00A1"
 msgid "Mythran"
-msgstr ""
+msgstr "米斯蘭"
 
+# P13 batch 3
 #. event 00 (look)
 msgctxt "bark 0421:00C6"
 msgid "mage "
-msgstr ""
+msgstr "法師"
 
+# P13 batch 3
 #. event 00 (look)
 msgctxt "bark 0421:00E3"
 msgid "man "
-msgstr ""
+msgstr "男人"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0421:021A"
 msgid "Very well. "
-msgstr ""
+msgstr "很好。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0421:038A"
 msgid "There is only one spell which I have bothered to transcribe onto scrolls. This spell enables the caster to dispel magics that seal entryways and portals. Unlike other spells, you do not need to learn this spell before casting it. However, the magics upon the scroll will disappear after you read it, so you may use each spell of opening once. "
-msgstr ""
+msgstr "我只費心把一種法術抄寫到捲軸上。這種法術能讓施法者驅散封住入口與傳送門的魔法。和其他法術不同，你不必先學會就能施展。不過，捲軸上的魔力在你唸過之後就會消失，所以每張開啟之術只能用一次。"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "bark 0421:03E0"
 msgid "You wish to buy the Scroll of Dispelling Magical Portals? "
-msgstr ""
+msgstr "你想買驅散傳送門捲軸嗎？"
 
+# P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "ask 0421"
 msgid "Nay. "
-msgstr ""
+msgstr "不。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Aye. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Aye. "
-msgstr ""
+msgstr "是的。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Aye. "
 msgctxt "bark 0421:04D0"
 msgid "Since the ink and parchment do have a cost to them, as well as the time I take to transcribe the magical words, I must ask you for 50 obsidians. "
-msgstr ""
+msgstr "墨水和羊皮紙都要成本，抄寫咒文也要花我時間，所以我得向你收五十枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Aye. "
 msgctxt "bark 0421:052B"
 msgid "As you know, I must charge you 50 obsidians for the scroll. "
-msgstr ""
+msgstr "如你所知，這張捲軸我得收你五十枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "" or "Nay. "
 msgctxt "bark 0421:0595"
 msgid "Perhaps you wish to discuss something other than scrolls. "
-msgstr ""
+msgstr "也許你想談談捲軸以外的事。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "" or "Nay. "
 msgctxt "ask 0421"
 msgid "I cannot pay that. "
-msgstr ""
+msgstr "我付不起。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "I will pay that. "
-msgstr ""
+msgstr "我付。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:0685"
 msgid "Excellent. Use this well. "
-msgstr ""
+msgstr "很好。好好運用它。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:06CF"
 msgid "Excellent. Use this well. "
-msgstr ""
+msgstr "很好。好好運用它。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:079A"
 msgid "My friend, it seems you have not the obsidian for this. Of course, I realize you were not attempting to fool me, but perhaps you should return later when you can pay the fee. "
-msgstr ""
+msgstr "朋友，看來你的黑曜石幣不夠。當然，我明白你並不是想騙我，不過也許等你付得起費用時再來吧。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I cannot pay that. "
 msgctxt "bark 0421:0832"
 msgid "I am sorry that I cannot help you then. Perhaps you should return later when you can pay the fee. "
-msgstr ""
+msgstr "那我很抱歉幫不上忙了。也許等你付得起費用時再來吧。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:088F"
 msgid "Perhaps you wish to discuss something other than scrolls. "
-msgstr ""
+msgstr "也許你想談談捲軸以外的事。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:0925"
 msgid "Do you wish to purchase the reagents of Necromancy, Sorcery, or those specific to Thaumaturgy? "
-msgstr ""
+msgstr "你想買死靈術、巫術的材料，還是奇蹟術專用的材料？"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:09DE"
 msgid "You do realize that I only have reagents for the spells I teach. Do you wish to purchase the reagents of Necromancy, Sorcery, or those specific to Thaumaturgy? "
-msgstr ""
+msgstr "你應該明白，我只有我所教授法術的材料。你想買死靈術、巫術的材料，還是奇蹟術專用的材料？"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "ask 0421"
 msgid "Nevermind. "
-msgstr ""
+msgstr "算了。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Necromancy. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Necromancy. "
-msgstr ""
+msgstr "死靈術。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Necromancy. "
 msgctxt "bark 0421:0AA8"
 msgid "Do you wish to buy Bone, Executioner's Hood, or Blackmoor? "
-msgstr ""
+msgstr "你想買碎骨、劊子手兜帽草，還是黑沼草？"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Sorcery. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Sorcery. "
-msgstr ""
+msgstr "巫術。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Sorcery. "
 msgctxt "bark 0421:0B35"
 msgid "Do you wish to buy Obsidian, Brimstone, Pumice, Ash, or Pig Iron? "
-msgstr ""
+msgstr "你想買黑曜石、硫磺、浮岩、火山灰，還是生鐵？"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Thaumaturgy. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Thaumaturgy. "
-msgstr ""
+msgstr "奇蹟術。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Thaumaturgy. "
 msgctxt "bark 0421:0BCB"
 msgid "Do you wish to buy Eye of Newt, Bat Wing, Serpent Scale, or Dragon Blood? "
-msgstr ""
+msgstr "你想買蠑螈之眼、蝙蝠翅膀、蛇鱗，還是龍血？"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Nevermind. "
 msgctxt "bark 0421:0C24"
 msgid "Very well. "
-msgstr ""
+msgstr "很好。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Blackmoor. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Blackmoor. "
-msgstr ""
+msgstr "黑沼草。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Executioner's Hood. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Executioner's Hood. "
-msgstr ""
+msgstr "劊子手兜帽草。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Pig Iron. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Pig Iron. "
-msgstr ""
+msgstr "生鐵。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Ash. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Ash. "
-msgstr ""
+msgstr "火山灰。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Dragon Blood. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Dragon Blood. "
-msgstr ""
+msgstr "龍血。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Bone. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Bone. "
-msgstr ""
+msgstr "碎骨。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Pumice. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Pumice. "
-msgstr ""
+msgstr "浮岩。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Brimstone. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Brimstone. "
-msgstr ""
+msgstr "硫磺。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Eye of Newt. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Eye of Newt. "
-msgstr ""
+msgstr "蠑螈之眼。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Bat Wing. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Bat Wing. "
-msgstr ""
+msgstr "蝙蝠翅膀。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Serpent Scale. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Serpent Scale. "
-msgstr ""
+msgstr "蛇鱗。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Obsidian. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Obsidian. "
-msgstr ""
+msgstr "黑曜石。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "Nevermind. "
 msgctxt "bark 0421:101E"
 msgid "Very well. "
-msgstr ""
+msgstr "很好。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:107A"
 msgid "Perhaps you are not truly interested in reagents. "
-msgstr ""
+msgstr "也許你並不是真的對材料有興趣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Blackmoor ."
-msgstr ""
+msgstr "黑沼草我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Blackmoor ."
-msgstr ""
+msgstr "黑沼草我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Executioner's Hood ."
-msgstr ""
+msgstr "劊子手兜帽草我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Executioner's Hood ."
-msgstr ""
+msgstr "劊子手兜帽草我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Pig Iron ."
-msgstr ""
+msgstr "生鐵我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Pig Iron ."
-msgstr ""
+msgstr "生鐵我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Ash ."
-msgstr ""
+msgstr "火山灰我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Ash ."
-msgstr ""
+msgstr "火山灰我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Dragon Blood ."
-msgstr ""
+msgstr "龍血我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Dragon Blood ."
-msgstr ""
+msgstr "龍血我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Bone ."
-msgstr ""
+msgstr "碎骨我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Bone ."
-msgstr ""
+msgstr "碎骨我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Pumice ."
-msgstr ""
+msgstr "浮岩我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Pumice ."
-msgstr ""
+msgstr "浮岩我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Brimstone ."
-msgstr ""
+msgstr "硫磺我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Brimstone ."
-msgstr ""
+msgstr "硫磺我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Eye of Newt ."
-msgstr ""
+msgstr "蠑螈之眼我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Eye of Newt ."
-msgstr ""
+msgstr "蠑螈之眼我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Bat Wing ."
-msgstr ""
+msgstr "蝙蝠翅膀我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Bat Wing ."
-msgstr ""
+msgstr "蝙蝠翅膀我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Serpent Scale ."
-msgstr ""
+msgstr "蛇鱗我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Serpent Scale ."
-msgstr ""
+msgstr "蛇鱗我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the Obsidian ."
-msgstr ""
+msgstr "黑曜石我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the Obsidian ."
-msgstr ""
+msgstr "黑曜石我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coins for the ."
-msgstr ""
+msgstr "這個我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1123"
 msgid "I must ask {num} obsidian coin for the ."
-msgstr ""
+msgstr "這個我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:120A"
 msgid "Excellent. Use this well. "
-msgstr ""
+msgstr "很好。好好運用它。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:1253"
 msgid "Excellent. Use this well. "
-msgstr ""
+msgstr "很好。好好運用它。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:1324"
 msgid "My friend, it seems you have not the obsidian for this. Of course, I realize you were not attempting to fool me, but perhaps you should return later when you can pay the fee. "
-msgstr ""
+msgstr "朋友，看來你的黑曜石幣不夠。當然，我明白你並不是想騙我，不過也許等你付得起費用時再來吧。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I cannot pay that. "
 msgctxt "bark 0421:13BF"
 msgid "I am sorry that I cannot help you then. Perhaps you should return later when you can pay the fee. "
-msgstr ""
+msgstr "那我很抱歉幫不上忙了。也許等你付得起費用時再來吧。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:141E"
 msgid "Perhaps you are not so interested in reagents after all. "
-msgstr ""
+msgstr "也許你終究對材料沒那麼有興趣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:14E1"
 msgid "You are ready for the final spell that I can teach you -- the spell that permits travel through the very Ether itself. "
-msgstr ""
+msgstr "你已經準備好學習我能教你的最後一道法術了——能讓你穿越以太本身的法術。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:1533"
 msgid "It is too early for you to learn another spell. "
-msgstr ""
+msgstr "現在學下一道法術還太早。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:15BA"
 msgid "You are ready for your fifth lesson in Thaumaturgy -- the spell of complete devastation. "
-msgstr ""
+msgstr "你已經準備好上奇蹟術的第五課了——徹底毀滅的法術。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:160C"
 msgid "It is too early for you to learn another spell. "
-msgstr ""
+msgstr "現在學下一道法術還太早。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:1673"
 msgid "You are ready for your fourth spell -- Call Destruction. "
-msgstr ""
+msgstr "你已經準備好學第四道法術了——呼喚毀滅。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:16C5"
 msgid "It is too early for you to learn another spell. "
-msgstr ""
+msgstr "現在學下一道法術還太早。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:174A"
 msgid "You are ready for your third lesson in Thaumaturgy -- the spell of creature summoning. "
-msgstr ""
+msgstr "你已經準備好上奇蹟術的第三課了——召喚生物的法術。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:179C"
 msgid "It is too early for you to learn another spell. "
-msgstr ""
+msgstr "現在學下一道法術還太早。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:1800"
 msgid "You are ready for your second spell -- Meteor Shower. "
-msgstr ""
+msgstr "你已經準備好學第二道法術了——流星雨。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:1851"
 msgid "It is too early for you to learn another spell. "
-msgstr ""
+msgstr "現在學下一道法術還太早。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:18BF"
 msgid "You are ready for your first lesson in Thaumaturgy -- the blast of confusion. "
-msgstr ""
+msgstr "你已經準備好上奇蹟術的第一課了——混亂衝擊。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:1955"
 msgid "As you know, my friend, I am still forced to charge a modicum of obsidian for the knowledge I impart. "
-msgstr ""
+msgstr "如你所知，朋友，我傳授的知識仍不得不收取少許黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:1A95"
 msgid "Before we begin, I must confess that the eternal pursuit of knowledge, despite the solitude I afford myself on this dreary island, is costly. As I result, I am afraid I must charge you a modest fee to help defray the cost of my studies. Please accept my humble apologies for this inconvenience. "
-msgstr ""
+msgstr "開始之前，我必須承認，儘管我在這座陰鬱的島上獨居，永無止境地追求知識仍然所費不貲。因此，恐怕我得向你收取一筆小小的費用，以貼補我研究的開銷。造成不便，請接受我誠摯的歉意。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:1AD8"
 msgid "I must ask {num} in obsidian chits."
-msgstr ""
+msgstr "我得收{num}枚黑曜石幣。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:1C2B"
 msgid "Excellent. We can now begin. "
-msgstr ""
+msgstr "很好。我們現在可以開始了。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:1C78"
 msgid "Excellent. We can now begin. "
-msgstr ""
+msgstr "很好。我們現在可以開始了。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:1D1C"
 msgid "Here is the book that describes the process by which you cast the spell. Study it well and you shall quickly master the necessary aspects. "
-msgstr ""
+msgstr "這本書記載了施展這道法術的步驟。好好研讀，你很快就能掌握要領。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:1D74"
 msgid "Do not forget that you will need reagents for your spells. "
-msgstr ""
+msgstr "別忘了你施法還需要材料。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:1EAB"
 msgid "As you will learn from the book I have given you, each spell has particular components, in this case reagents, that are a required part of casting the spell. I can sell some of these to you if you wish, but only after you have read the spell and determined what reagents you will need. "
-msgstr ""
+msgstr "從我給你的書中你會學到，每道法術都有特定的成分，在這裡就是材料，是施法時不可或缺的。如果你需要，我可以賣你一些，但得等你讀過法術、確定需要哪些材料之後。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
 msgctxt "bark 0421:1F7B"
 msgid "My friend, it seems you have not the obsidian for this. Of course, I realize you were not attempting to fool me, but perhaps you should return later when you -can- pay the fee. "
-msgstr ""
+msgstr "朋友，看來你的黑曜石幣不夠。當然，我明白你並不是想騙我，不過也許等你「付得起」費用時再來吧。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after "I cannot pay that. "
 msgctxt "bark 0421:2016"
 msgid "I am sorry that I cannot help you then. Perhaps you should return later when you can pay the fee. "
-msgstr ""
+msgstr "那我很抱歉幫不上忙了。也許等你付得起費用時再來吧。"
 
+# P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0421:2072"
 msgid "Perhaps you are not so interested in magic after all. "
-msgstr ""
+msgstr "也許你終究對魔法沒那麼有興趣。"
 
+# P13 batch 3
 #. event 01 (use (talk))
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:20DE"
 msgid "Good day, {name}."
-msgstr ""
+msgstr "日安，{name}。"
 
+# P13 batch 3
 #. event 01 (use (talk))
 msgctxt "bark 0421:20FE"
 msgid "Hello. "
-msgstr ""
+msgstr "你好。"
 
+# P13 batch 3
 #. event 01 (use (talk))
 msgctxt "ask 0421"
 msgid "What an unusual house. "
-msgstr ""
+msgstr "好奇特的房子。"
 
+# P13 batch 3
 #. event 01 (use (talk))
 msgctxt "ask 0421"
 msgid "Goodbye. "
-msgstr ""
+msgstr "再見。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What an unusual house. "
 msgctxt "bark 0421:2309"
 msgid "Unusual? I do not see anything unusual about my living quarters. It does not differ from any other extra-dimensional abode. "
-msgstr ""
+msgstr "奇特？我看不出我的住處有什麼奇特的。它跟其他異次元住所沒什麼兩樣。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0421:2399"
 msgid "I am sorry, was my response unclear? You did hear me, I trust. "
-msgstr ""
+msgstr "抱歉，我的回答不夠清楚嗎？我相信你有聽到我說的話吧。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0421:2424"
 msgid "Very well. Your mind is filled with many thoughts other than what we are discussing. We can resume this later. "
-msgstr ""
+msgstr "好吧。你腦中充滿了與我們討論無關的念頭。我們可以晚點再繼續。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I ask your name? "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "May I ask your name? "
-msgstr ""
+msgstr "請問你的名字是？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I ask your name? "
 msgctxt "bark 0421:24BA"
 msgid "You may ask indeed, stranger. I am Mythran. By what name do you go, young one? "
-msgstr ""
+msgstr "當然可以問，陌生人。我是米斯蘭。年輕人，你叫什麼名字？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I ask your name? "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 0421"
 msgid "I am called {name}."
-msgstr ""
+msgstr "我叫{name}。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I ask your name? "
 msgctxt "ask 0421"
 msgid "I do not wish to say."
-msgstr ""
+msgstr "我不想說。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I do not wish to say." or "Je préfère ne point le dire." or "Das will ich Euch lieber nicht verraten."
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Je préfère ne point le dire."
-msgstr ""
+msgstr "我不想說。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I do not wish to say." or "Je préfère ne point le dire." or "Das will ich Euch lieber nicht verraten."
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Das will ich Euch lieber nicht verraten."
-msgstr ""
+msgstr "我不想說。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I do not wish to say." or "Je préfère ne point le dire." or "Das will ich Euch lieber nicht verraten."
 msgctxt "bark 0421:2618"
 msgid "Very well then. Please tell me your business with me so that I may return to my activities. "
-msgstr ""
+msgstr "那好吧。請告訴我你找我有什麼事，好讓我回去做我的事。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I do not wish to say."
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:26DB"
 msgid "Greetings, {name}. And how might I assist you?"
-msgstr ""
+msgstr "你好，{name}。我能怎麼幫你？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:276D"
 msgid "Ah, I see, you do not wish to converse with me. I am sorry for your interruption. "
-msgstr ""
+msgstr "啊，我明白了，你不想跟我交談。很抱歉打擾了你。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "ask 0421"
 msgid "I have many questions. "
-msgstr ""
+msgstr "我有很多問題。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "ask 0421"
 msgid "I wish to buy scrolls. "
-msgstr ""
+msgstr "我想買捲軸。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "ask 0421"
 msgid "I wish to learn spells. "
-msgstr ""
+msgstr "我想學法術。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "ask 0421"
 msgid "I wish to buy reagents. "
-msgstr ""
+msgstr "我想買材料。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "ask 0421"
 msgid "I wish to buy more reagents. "
-msgstr ""
+msgstr "我想再買些材料。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have many questions. "
 msgctxt "bark 0421:2A62"
 msgid "Ah, good. It is always important to ask questions. That way one will never run out of things to learn. I cannot refuse one who has traversed ghoul-filled passages to meet with my hospitality. What are some of these questions? "
-msgstr ""
+msgstr "啊，很好。提問永遠很重要，這樣人就永遠不愁沒東西可學。一個穿過滿是食屍鬼的通道來接受我款待的人，我可不能拒絕。你有哪些問題？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have many questions. "
 msgctxt "ask 0421"
 msgid "What do you do? "
-msgstr ""
+msgstr "你是做什麼的？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have many questions. "
 msgctxt "ask 0421"
 msgid "How can I leave Pagan? "
-msgstr ""
+msgstr "我要怎麼離開佩根？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have many questions. "
 msgctxt "ask 0421"
 msgid "Is there a haunted grove? "
-msgstr ""
+msgstr "有沒有鬧鬼的樹林？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I have many questions. "
 msgctxt "ask 0421"
 msgid "What about Pagan history? "
-msgstr ""
+msgstr "佩根的歷史呢？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I wish to buy scrolls. "
 msgctxt "bark 0421:2BB3"
 msgid "Ah, yes. "
-msgstr ""
+msgstr "啊，好的。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0421:2C2D"
 msgid "I am sorry, was my response unclear? You did hear me, I trust. "
-msgstr ""
+msgstr "抱歉，我的回答不夠清楚嗎？我相信你有聽到我說的話吧。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0421:2CB8"
 msgid "Very well. Your mind is filled with many thoughts other than what we are discussing. We can resume this later. "
-msgstr ""
+msgstr "好吧。你腦中充滿了與我們討論無關的念頭。我們可以晚點再繼續。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I wish to buy reagents. " or "I wish to buy more reagents. "
 msgctxt "bark 0421:2D85"
 msgid "Very well. "
-msgstr ""
+msgstr "很好。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Is there a haunted grove? "
 msgctxt "bark 0421:2E7B"
 msgid "A haunted grove of trees? Well, I have heard such rumors applied to a circle of dead trees here on the plateau, though I will not confirm the existence of undead there. "
-msgstr ""
+msgstr "鬧鬼的樹林？嗯，我聽過這類傳聞，說的是這片高原上一圈枯死的樹，不過那裡有沒有不死者，我可不敢證實。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What do you do? "
 msgctxt "bark 0421:2FBE"
 msgid "That is an interesting question. I do many things. I suppose I spend most of my time studying and exploring the mind. I do not believe that thoughts should be confined within the skull, so I study a little bit of everything. "
-msgstr ""
+msgstr "這是個有趣的問題。我做很多事。我想我大部分的時間都花在研究和探索心智上。我不認為思想應該被侷限在頭骨裡，所以我什麼都研究一點。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What do you do? "
 msgctxt "ask 0421"
 msgid "What do you study? "
-msgstr ""
+msgstr "你在研究什麼？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What do you study? "
 msgctxt "bark 0421:3107"
 msgid "To tell you would take nearly as much time as I have spent collecting the information. Suffice it to say that I try to learn as much about everything as I can. Of course, my preference is to study magic. "
-msgstr ""
+msgstr "要告訴你，所花的時間幾乎跟我蒐集這些知識的時間一樣長。總之，我盡可能學習一切事物。當然，我最偏好的還是研究魔法。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What do you study? "
 msgctxt "ask 0421"
 msgid "Magic? "
-msgstr ""
+msgstr "魔法？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Magic? " or "I wish to learn spells. "
 msgctxt "bark 0421:31B2"
 msgid "You wish to learn spells from me? "
-msgstr ""
+msgstr "你想跟我學法術嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Magic? " or "I wish to learn spells. "
 msgctxt "bark 0421:3219"
 msgid "Perhaps in the future I will have the time to show you. "
-msgstr ""
+msgstr "也許將來我會有時間教你。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me about Pagan. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Tell me about Pagan. "
-msgstr ""
+msgstr "說說佩根。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me about Pagan. "
 msgctxt "bark 0421:32F4"
 msgid "Your question is quite broad in scope. Do you wish me to talk about the city, the island, or all of Pagan? "
-msgstr ""
+msgstr "你的問題範圍相當廣。你要我談這座城市、這座島，還是整個佩根？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What about Pagan history? "
 msgctxt "bark 0421:33CF"
 msgid "The history of this land is quite long, and there is much I can tell you. Where would you prefer I start? "
-msgstr ""
+msgstr "這片土地的歷史相當悠久，我能告訴你的很多。你希望我從哪裡說起？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Do you know of The Guardian? "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Do you know of The Guardian? "
-msgstr ""
+msgstr "你知道守護者嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Do you know of The Guardian? "
 msgctxt "bark 0421:35B1"
 msgid "Ah, interesting question. Indeed I do. Furthermore, I know that -you- know of him as well. However, you will find that no one else on Pagan has heard anything other than that this mysterious Guardian spoke to the early Pagans to warn them of disaster. Perhaps, some other time and place, we may speak further on this subject. Ask of it no more for now, please. "
-msgstr ""
+msgstr "啊，有趣的問題。我確實知道。而且我還知道「你」也知道他。不過你會發現，佩根上其他人所知道的，只有這位神祕的守護者曾對早期的佩根人說話，警告他們災難將至。也許改天換個地方，我們可以再深入談談這個話題。現在請別再問了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "How can I leave Pagan? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:3830"
 msgid "I have never had anyone ask such a question, {name}. Do you truly wish a means off this world? Or are you simply testing the limits of my knowledge? I ask this because finding the answer would be extremely tedious, and I do not plan to toil for no reason."
-msgstr ""
+msgstr "從來沒有人問過我這種問題，{name}。你真的想找方法離開這個世界嗎？還是只是在試探我學識的極限？我這麼問，是因為找出答案將會極為繁瑣，而我不打算白費力氣。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "How can I leave Pagan? "
 msgctxt "bark 0421:3830"
 msgid "I have never had anyone ask such a question. Do you truly wish a means off this world? Or are you simply testing the limits of my knowledge? I ask this because finding the answer would be extremely tedious, and I do not plan to toil for no reason. "
-msgstr ""
+msgstr "從來沒有人問過我這種問題。你真的想找方法離開這個世界嗎？還是只是在試探我學識的極限？我這麼問，是因為找出答案將會極為繁瑣，而我不打算白費力氣。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I plan to leave Pagan. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "I plan to leave Pagan. "
-msgstr ""
+msgstr "我打算離開佩根。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I plan to leave Pagan. "
 msgctxt "bark 0421:3B26"
 msgid "That 'tis, indeed, a tremendous task you are planning to undertake. I, myself, have given considerable thought to finding ways to cross into what you would call `other worlds.' I have not yet uncovered a solution. However, I -have- come to the conclusion that it is the power of the Titans that makes such travel impossible even for one with my command of the arcane. Therefore, it is reasonable to assume that to depart from Pagan, one must master the powers of all four of the Titans. I suppose the best place to begin is with one of the schools of magic. Have you spoken with the Necromancers?"
-msgstr ""
+msgstr "你打算進行的，確實是一項艱鉅的任務。我自己也曾認真思考過，如何穿越到你所謂的「其他世界」。我還沒找到辦法。不過，我「已經」得出一個結論：正是泰坦的力量，讓這種旅行即使對我這樣精通奧祕的人也不可能實現。因此，合理的推斷是：要離開佩根，就必須掌握全部四位泰坦的力量。我想最好的起點，是從某個魔法流派開始。你跟死靈法師談過了嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I plan to leave Pagan. "
 msgctxt "ask 0421"
 msgid "No, I have not. "
-msgstr ""
+msgstr "不，還沒有。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I have. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Yes, I have. "
-msgstr ""
+msgstr "是的，談過了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I have. "
 msgctxt "bark 0421:3CD4"
 msgid "Then I expect you still have much more to learn about the powers of Necromancy. With enough study, perhaps, you will be able to master the abilities Lithos grants to his followers and use them to locate the other mages. Only by seeking the talents of all four Titans will you have any hope of succeeding in your mission. "
-msgstr ""
+msgstr "那我想你對死靈術的力量還有很多要學。只要充分研習，也許你就能掌握利索斯賜予追隨者的能力，並藉此找到其他的法師。唯有尋求四位泰坦全部的力量，你的任務才有成功的希望。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I have. "
 msgctxt "bark 0421:3E6D"
 msgid "Then I expect you will have more to learn more about the powers of Necromancy. In fact, you must attempt to acquire those powers for yourself. With enough study, perhaps, you will be able to master the abilities Lithos grants to his followers and use them to locate the other mages. Only by seeking the talents of all four Titans will you have any hope of succeeding in your mission. "
-msgstr ""
+msgstr "那我想你對死靈術的力量還有更多要學。事實上，你必須設法親自獲得那些力量。只要充分研習，也許你就能掌握利索斯賜予追隨者的能力，並藉此找到其他的法師。唯有尋求四位泰坦全部的力量，你的任務才有成功的希望。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No, I have not. "
 msgctxt "bark 0421:3F2B"
 msgid "That is the answer you wish to give me? How sad. Oh well, nevermind. "
-msgstr ""
+msgstr "這就是你要給我的答案？真可悲。唉，算了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No, I have not. "
 msgctxt "bark 0421:404E"
 msgid "I suggest you begin with the Necromancers, then. Speak with Vividos about becoming his apprentice. I realize the thought of dealing with the rituals of death may seem distasteful, but I expect it is something to which you must become accustomed if you wish to succeed. "
-msgstr ""
+msgstr "那我建議你從死靈法師開始。去找維維多斯，談談當他學徒的事。我明白，一想到要跟死亡儀式打交道，或許會讓你覺得反感，但我想你若要成功，就必須習慣這些。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No, I have not. "
 msgctxt "bark 0421:4194"
 msgid "Then I suggest you begin with them. Speak with Vividos about becoming his apprentice once Lothian has passed on her powers to him. I realize the thought of dealing with the rituals of death may seem distasteful, but I expect it is something to which you must become accustomed if you wish to succeed. "
-msgstr ""
+msgstr "那我建議你從他們開始。等羅西安把她的力量傳給維維多斯之後，去找他談談當他學徒的事。我明白，一想到要跟死亡儀式打交道，或許會讓你覺得反感，但我想你若要成功，就必須習慣這些。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where are the Necromancers? "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Where are the Necromancers? "
-msgstr ""
+msgstr "死靈法師在哪裡？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where are the Necromancers? "
 msgctxt "bark 0421:42C2"
 msgid "They reside in the cemetery. I believe you will wish to take the East Road from the city. I suggest you go with care, for many of the walking dead also reside in the graveyard. "
-msgstr ""
+msgstr "他們住在墓地。我想你會想從城裡走東路過去。我建議你小心行事，因為墓地裡也住著許多行屍。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "This was a test. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "This was a test. "
-msgstr ""
+msgstr "這只是個測試。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "This was a test. "
 msgctxt "bark 0421:4382"
 msgid "I do not like to be tested. Perhaps you should give me time to renew my desire to speak with you. "
-msgstr ""
+msgstr "我不喜歡被測試。也許你該給我一點時間，讓我重新提起跟你說話的興致。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:4448"
 msgid "May you fare well, stranger to this land. If there is anything in my house that will aid you on your journeys, feel free to help yourself. "
-msgstr ""
+msgstr "祝你一路順風，這片土地的異鄉人。我家裡若有任何能幫助你旅程的東西，請儘管拿去用。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:4794"
 msgid "Wait. Before you go, my friend, I wish to give you two items that I believe will assist you in your travels. The first is an item of recall I acquired many years ago. When you find yourself in trouble, you may use this item to teleport to my front door. Througout the world there are other disks to which you can also be transported if you so wish, providing you can visualize these places. How powerful this item is, I cannot say, for I do not know whether other, stronger powers may prevent it from functioning at certain times.~Furthermore, I wish to give you this potion of healing, which will magically aid the recovery of your wounds. I will try to have others for you as you make return visits, but since the cost to me in time and energy is great, I will not have one for you every time you visit me."
-msgstr ""
+msgstr "等等。朋友，你走之前，我想給你兩樣東西，我相信它們對你的旅程會有幫助。第一樣是我多年前得到的召回石。遇到麻煩時，你可以用它瞬間傳送到我家門口。世界各地還有其他圓盤，只要你能在腦中想像出那些地方，也可以傳送過去。至於它的力量有多強，我說不準，因為我不知道是否有其他更強大的力量，會在某些時候讓它失效。~此外，我還想給你這瓶治療藥水，它能以魔法幫助你的傷口癒合。你再來拜訪時，我會盡量為你準備，不過這要耗費我大量的時間和精力，所以不是每次你來都會有。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:4811"
 msgid "Excellent. Use this well. "
-msgstr ""
+msgstr "很好。好好運用它。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:4843"
 msgid "Here. "
-msgstr ""
+msgstr "給你。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:488F"
 msgid "I will set it down for you. "
-msgstr ""
+msgstr "我替你放在地上。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:48B9"
 msgid "Again, fare well. "
-msgstr ""
+msgstr "再一次，祝你一路順風。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:4A32"
 msgid "Better than wasting your time and mine with a lengthy story when we could be discussing more interesting matters, let me simply suggest that you read my essay on the subject. The book should be around here somewhere. Most likely I have left it upstairs. Feel free to borrow it if you wish. "
-msgstr ""
+msgstr "與其浪費你我的時間講一段冗長的故事，不如把時間拿來討論更有趣的事。我就直接建議你讀讀我寫的這方面的論文吧。那本書應該就在這附近，多半是被我留在樓上了。你想借的話儘管拿去。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:4AC0"
 msgid "Have we not already discussed this subject enough? Ah, very well, what is it you wish to know? "
-msgstr ""
+msgstr "這個話題我們不是已經談夠了嗎？啊，好吧，你想知道什麼？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "ask 0421"
 msgid "Enough about Pagan. "
-msgstr ""
+msgstr "佩根的事就談到這裡吧。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Are they not all the same? "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Are they not all the same? "
-msgstr ""
+msgstr "它們不都是同一個嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Are they not all the same? "
 msgctxt "bark 0421:4CA1"
 msgid "Indeed, no, although many people use -- or should I say misuse -- the word `Pagan' to mean the world, the island, and, for a few ethnocentrics, the city. In actuality, Pagan is only the name for the world. "
-msgstr ""
+msgstr "不，並不是。雖然很多人用——或者該說誤用——「佩根」這個詞來指這個世界、這座島，甚至少數自我中心的人還用它來指這座城市。實際上，佩根只是這個世界的名字。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Actually, I meant the people. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Actually, I meant the people. "
-msgstr ""
+msgstr "其實，我是說這裡的人。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Actually, I meant the people. "
 msgctxt "bark 0421:4DDC"
 msgid "To be honest, I know little about the people. A few come to visit me for my knowledge. And even fewer to buy my scrolls. I do know a little about the mages of Pagan. Is it them you are interested in knowing? "
-msgstr ""
+msgstr "老實說，我對這裡的人所知甚少。有少數人會為了我的學識來拜訪我，來買我捲軸的人更少。不過我對佩根的法師倒是略知一二。你有興趣了解的是他們嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Actually, I meant the people. "
 msgctxt "ask 0421"
 msgid "You sell scrolls? "
-msgstr ""
+msgstr "你賣捲軸？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Tell me of the mages. "
-msgstr ""
+msgstr "說說法師們。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
 msgctxt "bark 0421:4FDD"
 msgid "There are four of what I call 'schools' of magic on Pagan -- one for each of the Titans. The study of death and the ground is called Necromancy. It is the Necromancer who is responsible for carrying out the pact with Lithos by burying the dead and sending their spirits to him. "
-msgstr ""
+msgstr "佩根有四個我稱為魔法「流派」的派別——每位泰坦各有一個。研究死亡與大地的叫做死靈術。死靈法師負責履行與利索斯的契約：埋葬死者，並把他們的靈魂送到他那裡。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
 msgctxt "bark 0421:513E"
 msgid "The current Necromancer, Vividos, is fairly new to his position. This means that he has been away from the city for only a few years, and is, therefore, less reclusive. In time, however, he will have forgotten most of his social graces, and the people will find dealing with him as distasteful as they did his predecessors. "
-msgstr ""
+msgstr "現任的死靈法師維維多斯接任不久。這表示他離開城市才幾年，所以還沒那麼孤僻。不過假以時日，他就會忘掉大部分的社交禮儀，人們也會跟對待他的前任一樣，覺得跟他打交道很討厭。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
 msgctxt "bark 0421:51F9"
 msgid "The current Necromancer, Lothian, is very old. I expect she soon will be passing her role to her Apprentice. Vividos should handle the responsibility quite well. "
-msgstr ""
+msgstr "現任的死靈法師羅西安已經非常老了。我想她很快就會把職位傳給她的學徒。維維多斯應該能把這份職責處理得很好。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
 msgctxt "bark 0421:53C6"
 msgid "Tempestry's main focus is water, though its aspect does involve combining with Hydros' sister Titan, Stratos, making storms as much a part of Tempestry as is the sea. Unlike the other schools, Tempestry is not learned. It is passed on through the bloodline. The eldest living Tempest possesses the greatest amount of power. However, as long as a younger Tempest's spell does not contradict an elder's, the younger's magic will work fully. "
-msgstr ""
+msgstr "風暴術主要掌管水，不過它也結合了海德羅斯的姊妹泰坦史特拉托斯的力量，所以暴風雨和大海一樣，都是風暴術的一部分。跟其他流派不同，風暴術無法學習，只能透過血統傳承。在世最年長的風暴使者擁有最強大的力量。不過，只要年輕風暴使者的法術不跟年長者的相衝突，年輕者的魔法就能完全生效。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
 msgctxt "bark 0421:5489"
 msgid "Since there seems to be little cap on the powers of Tempestry, I am glad for the Pagans that Devon now rules Tenebrae. You should be commended for your role in that. "
-msgstr ""
+msgstr "既然風暴術的力量似乎沒什麼上限，我很為佩根人慶幸，如今統治泰尼伯瑞的是戴文。你在這件事上的功勞值得嘉許。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
 msgctxt "bark 0421:5556"
 msgid "Since there seems to be little cap on the powers of Tempestry, it is a true tragedy that Mordea rules the city. I hope for the sake of the people that her reign is not a long one. "
-msgstr ""
+msgstr "既然風暴術的力量似乎沒什麼上限，由莫爾迪亞統治這座城市真是一場悲劇。為了人民著想，我希望她的統治不會太長久。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
 msgctxt "bark 0421:564D"
 msgid "Stellos was the first follower of Stratos. His Order of Enlightenment teaches Theurgy, the study of the winds. He is a good and learned man, if you will permit me a judgement of ethics, who freely uses his powers of healing. "
-msgstr ""
+msgstr "史泰洛斯是史特拉托斯的第一位追隨者。他的啟蒙修會教授神術，也就是研究風的學問。容我做個道德上的評價：他是個善良又博學的人，毫不吝惜地運用他的治癒之力。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
 msgctxt "bark 0421:577C"
 msgid "The fourth school, Sorcery, involves the Titan of Fire. I have never spoken to Malchir in person, but I feel the Sorcerers' reputation for deceit is unchanged by his rise to power. Take care when dealing with those who consort with Pyros, for it seems they become as wicked as he. "
-msgstr ""
+msgstr "第四個流派是巫術，與火焰泰坦有關。我從未當面跟馬爾奇爾談過，但我覺得巫師們狡詐的名聲，並沒有因為他掌權而改變。跟那些與派羅斯往來的人打交道時要小心，因為他們似乎會變得跟他一樣邪惡。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
 msgctxt "bark 0421:57FD"
 msgid "Those are the mages of the four schools. Of course, they do not represent -all- aspects of magic on Pagan. "
-msgstr ""
+msgstr "這些就是四個流派的法師。當然，他們並不代表佩根魔法的「全部」面貌。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
 msgctxt "ask 0421"
 msgid "What other magic exists? "
-msgstr ""
+msgstr "還有什麼其他的魔法？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What other magic exists? "
 msgctxt "bark 0421:5938"
 msgid "There is what I call Thaumaturgy. It is not tied to any of the Titans, but borrows bits and pieces from any form of magic you can imagine. I am a practitioner of Thaumaturgy. "
-msgstr ""
+msgstr "還有我稱為奇蹟術的魔法。它不屬於任何一位泰坦，而是從你想像得到的各種魔法中東借一點、西取一些。我就是奇蹟術的修習者。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What other magic exists? "
 msgctxt "ask 0421"
 msgid "Can you teach me Thaumaturgy? "
-msgstr ""
+msgstr "你能教我奇蹟術嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Can you teach me Thaumaturgy? "
 msgctxt "bark 0421:5A02"
 msgid "You wish to learn spells from me? "
-msgstr ""
+msgstr "你想跟我學法術嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Can you teach me Thaumaturgy? "
 msgctxt "bark 0421:5AA3"
 msgid "You are not ready yet, my friend. Perhaps, with a little more time to adjust to this world, you will be prepared. "
-msgstr ""
+msgstr "你還沒準備好，朋友。也許再多花點時間適應這個世界，你就準備好了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "You sell scrolls? "
 msgctxt "bark 0421:5B25"
 msgid "Indeed, I do. Do you wish to purchase some? "
-msgstr ""
+msgstr "確實有。你想買一些嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The city. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "The city. "
-msgstr ""
+msgstr "這座城市。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The city. "
 msgctxt "bark 0421:5D57"
 msgid "Ah, Tenebrae. The city was not settled until near the end of the war between the Pagans and Zealans. After the Titans defeated the Destroyer, most of the world lay in such ruin and disarray that the few people who were left on the island congregated into a single community. They called their city Tenebrae, meaning 'city of eternal twilight.' At first the Necromancers held rulership, but once Kalen became a Tempest as well, the people elected to have their leaders come from that line. "
-msgstr ""
+msgstr "啊，泰尼伯瑞。這座城市直到佩根人與澤蘭人的戰爭接近尾聲時才有人定居。泰坦擊敗毀滅者之後，世界大多陷入一片廢墟與混亂，島上僅存的少數人便聚集成一個聚落。他們把這座城市命名為泰尼伯瑞，意思是「永恆暮光之城」。起初由死靈法師掌權，但自從卡倫也成為風暴使者後，人民便選擇由那一脈的人來擔任領袖。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The city. "
 msgctxt "ask 0421"
 msgid "Who is Kalen? "
-msgstr ""
+msgstr "卡倫是誰？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The island. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "The island. "
-msgstr ""
+msgstr "這座島。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "The island. "
 msgctxt "bark 0421:5EAE"
 msgid "The island is called Morgaelin, same as the mountain -- or volcano -- from which it sprang. As far as the people know, this is the only piece of land remaining after the Titans vanquished the Destroyer. "
-msgstr ""
+msgstr "這座島叫做摩加林，跟它所由生成的那座山——或者說火山——同名。據人們所知，這是泰坦擊敗毀滅者之後唯一剩下的一塊土地。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "All of Pagan. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "All of Pagan. "
-msgstr ""
+msgstr "整個佩根。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "All of Pagan. "
 msgctxt "bark 0421:5F6D"
 msgid "Much of this I have already told you from our discussion of Pagan's history. "
-msgstr ""
+msgstr "這些我大多在談佩根歷史時跟你說過了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "All of Pagan. "
 msgctxt "bark 0421:62F2"
 msgid "The lands of this world once spanned great distances. At that time, the people were prosperous and -- for the most part -- unified. However, when the words of warning came from a mysterious being called the Guardian, the population split into two factions: the Zealans, who believed in the ancient traditions, and Pagans, who felt that the Guardian's words meant the end of things that were.~The two factions fell to fighting against each other, while the very forces of the elements began to take form and grow. When a malevolent entity called the Destroyer attempted to conquer the world, the elements, who had amassed Titanic levels of power, rose to battle it. During the struggle, the lands were demolished, leaving only a few peoples scattered across a single island -- this island. Shortly thereafter the Zealans fell to their enemies, and the world became known as Pagan."
-msgstr ""
+msgstr "這個世界的土地曾經遼闊無邊。那時人民富足，而且——大體上——團結一致。然而，當一個名叫守護者的神祕存在傳來警告後，人民分裂成兩派：信奉古老傳統的澤蘭人，以及認為守護者的話意味著舊世界即將終結的佩根人。~兩派人馬彼此征戰，而元素之力也開始成形、壯大。當一個名叫毀滅者的邪惡存在企圖征服世界時，已累積了泰坦級力量的元素們起身與它交戰。在這場鬥爭中，大地被摧毀殆盡，只剩下少數人散居在唯一的一座島上——就是這座島。不久之後，澤蘭人敗給了他們的敵人，這個世界從此被稱為佩根。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Who is Kalen? "
 msgctxt "bark 0421:6462"
 msgid "He was the first Tempest. An early hero to the people, his life as a Necromancer was filled with some amount of tragedy. When we have time I will relate the history of this world to you, then you will have a better understanding. "
-msgstr ""
+msgstr "他是第一位風暴使者，也是人民早期的英雄。他身為死靈法師的一生充滿了些許悲劇。等我們有時間，我再跟你講述這個世界的歷史，那時你就會更明白了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Enough about Pagan. "
 msgctxt "bark 0421:64A4"
 msgid "Very well. "
-msgstr ""
+msgstr "很好。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Enough about Pagan. "
 msgctxt "ask 0421"
 msgid "No. "
-msgstr ""
+msgstr "沒有。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes. "
 #. answer compared by the conversation code
 msgctxt "ask 0421"
 msgid "Yes. "
-msgstr ""
+msgstr "有。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No. "
 msgctxt "bark 0421:65A4"
 msgid "Perhaps another time, then. "
-msgstr ""
+msgstr "那就改天吧。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No. "
 msgctxt "ask 0421"
 msgid "Hello, Mythran. "
-msgstr ""
+msgstr "你好，米斯蘭。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No. "
 msgctxt "ask 0421"
 msgid "Hello again. "
-msgstr ""
+msgstr "又見面了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Hello, Mythran. " or "Hello again. "
 msgctxt "bark 0421:677A"
 msgid "Good to see you, my friend. Is there some assistance I can give you? "
-msgstr ""
+msgstr "很高興見到你，朋友。有什麼我能幫忙的嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Hello, Mythran. " or "Hello again. "
 msgctxt "ask 0421"
 msgid "I want to learn magic. "
-msgstr ""
+msgstr "我想學魔法。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Hello, Mythran. " or "Hello again. "
 msgctxt "ask 0421"
 msgid "May I have another potion? "
-msgstr ""
+msgstr "能再給我一瓶藥水嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I wish to buy scrolls. "
 msgctxt "bark 0421:69E3"
 msgid "Ah, yes. "
-msgstr ""
+msgstr "啊，好的。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I have another potion? "
 msgctxt "bark 0421:6A9C"
 msgid "Aye, my friend, I have had time to concoct another. "
-msgstr ""
+msgstr "是的，朋友，我有空調製了另一瓶。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I have another potion? "
 msgctxt "bark 0421:6AF5"
 msgid "Here. "
-msgstr ""
+msgstr "給你。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I have another potion? "
 msgctxt "bark 0421:6B41"
 msgid "I will set it down for you. "
-msgstr ""
+msgstr "我替你放在地上。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I have another potion? "
 msgctxt "bark 0421:6BC7"
 msgid "Nay, my friend, I have not had the time to concoct another. Perhaps it will be ready for your next visit. "
-msgstr ""
+msgstr "不，朋友，我還沒空調製另一瓶。也許你下次來時就準備好了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0421:6C31"
 msgid "I am sorry, was my response unclear? You did hear me, I trust. "
-msgstr ""
+msgstr "抱歉，我的回答不夠清楚嗎？我相信你有聽到我說的話吧。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0421:6CBC"
 msgid "Very well. Your mind is filled with many thoughts other than what we are discussing. We can resume this later. "
-msgstr ""
+msgstr "好吧。你腦中充滿了與我們討論無關的念頭。我們可以晚點再繼續。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I wish to buy reagents. " or "I wish to buy more reagents. "
 msgctxt "bark 0421:6D89"
 msgid "Very well. "
-msgstr ""
+msgstr "很好。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Tell me about Pagan. "
 msgctxt "bark 0421:6E3C"
 msgid "Your question is quite broad in scope. Do you wish me to talk about the city, the island, or all of Pagan? "
-msgstr ""
+msgstr "你的問題範圍相當廣。你要我談這座城市、這座島，還是整個佩根？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Do you know of The Guardian? "
 msgctxt "bark 0421:6F17"
 msgid "Ah, interesting question. Perhaps some other time I can better answer that. Ask of it no more, please. "
-msgstr ""
+msgstr "啊，有趣的問題。也許改天我能回答得更好。請別再問了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What do you do? "
 msgctxt "bark 0421:705D"
 msgid "That is an interesting question. I do many things. I suppose I spend most of my time studying and exploring the mind. I do not believe that thoughts should be confined within the skull, so I study a little bit of everything. "
-msgstr ""
+msgstr "這是個有趣的問題。我做很多事。我想我大部分的時間都花在研究和探索心智上。我不認為思想應該被侷限在頭骨裡，所以我什麼都研究一點。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What do you study? "
 msgctxt "bark 0421:71A6"
 msgid "To tell you would take nearly as much time as I have spent collecting the information. Suffice it to say that I try to learn as much about everything as I can. Of course, my preference is to study magic. "
-msgstr ""
+msgstr "要告訴你，所花的時間幾乎跟我蒐集這些知識的時間一樣長。總之，我盡可能學習一切事物。當然，我最偏好的還是研究魔法。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Magic? " or "I wish to learn spells. "
 msgctxt "bark 0421:7251"
 msgid "You wish to learn spells from me? "
-msgstr ""
+msgstr "你想跟我學法術嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Magic? " or "I wish to learn spells. "
 msgctxt "bark 0421:72B8"
 msgid "Perhaps in the future I will have the time to show you. "
-msgstr ""
+msgstr "也許將來我會有時間教你。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "How can I leave Pagan? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:753D"
 msgid "I have never had anyone ask such a question, {name}. Do you truly wish a means off this world? Or are you simply testing the limits of my knowledge? I ask this because finding the answer would be extremely tedious, and I do not plan to toil for no reason."
-msgstr ""
+msgstr "從來沒有人問過我這種問題，{name}。你真的想找方法離開這個世界嗎？還是只是在試探我學識的極限？我這麼問，是因為找出答案將會極為繁瑣，而我不打算白費力氣。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "How can I leave Pagan? "
 msgctxt "bark 0421:753D"
 msgid "I have never had anyone ask such a question. Do you truly wish a means off this world? Or are you simply testing the limits of my knowledge? I ask this because finding the answer would be extremely tedious, and I do not plan to toil for no reason. "
-msgstr ""
+msgstr "從來沒有人問過我這種問題。你真的想找方法離開這個世界嗎？還是只是在試探我學識的極限？我這麼問，是因為找出答案將會極為繁瑣，而我不打算白費力氣。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I plan to leave Pagan. "
 msgctxt "bark 0421:7833"
 msgid "That 'tis, indeed, a tremendous task you are planning to undertake. I, myself, have given considerable thought to finding ways to cross into what you would call `other worlds.' I have not yet uncovered a solution. However, I -have- come to the conclusion that it is the power of the Titans that makes such travel impossible even for one with my command of the arcane. Therefore, it is reasonable to assume that to depart from Pagan, one must master the powers of all four of the Titans. I suppose the best place to begin is with one of the schools of magic. Have you spoken with the Necromancers?"
-msgstr ""
+msgstr "你打算進行的，確實是一項艱鉅的任務。我自己也曾認真思考過，如何穿越到你所謂的「其他世界」。我還沒找到辦法。不過，我「已經」得出一個結論：正是泰坦的力量，讓這種旅行即使對我這樣精通奧祕的人也不可能實現。因此，合理的推斷是：要離開佩根，就必須掌握全部四位泰坦的力量。我想最好的起點，是從某個魔法流派開始。你跟死靈法師談過了嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I have. "
 msgctxt "bark 0421:79E1"
 msgid "Then I expect you still have much more to learn about the powers of Necromancy. With enough study, perhaps, you will be able to master the abilities Lithos grants to his followers and use them to locate the other mages. Only by seeking the talents of all four Titans will you have any hope of succeeding in your mission. "
-msgstr ""
+msgstr "那我想你對死靈術的力量還有很多要學。只要充分研習，也許你就能掌握利索斯賜予追隨者的能力，並藉此找到其他的法師。唯有尋求四位泰坦全部的力量，你的任務才有成功的希望。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes, I have. "
 msgctxt "bark 0421:7B7A"
 msgid "Then I expect you will have more to learn more about the powers of Necromancy. In fact, you must attempt to acquire those powers for yourself. With enough study, perhaps, you will be able to master the abilities Lithos grants to his followers and use them to locate the other mages. Only by seeking the talents of all four Titans will you have any hope of succeeding in your mission. "
-msgstr ""
+msgstr "那我想你對死靈術的力量還有更多要學。事實上，你必須設法親自獲得那些力量。只要充分研習，也許你就能掌握利索斯賜予追隨者的能力，並藉此找到其他的法師。唯有尋求四位泰坦全部的力量，你的任務才有成功的希望。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No, I have not. "
 msgctxt "bark 0421:7D05"
 msgid "Then I suggest you begin with them. Speak with Vividos about becoming his apprentice. I realize the thought of dealing with the rituals of death may seem distasteful, but I expect it is something to which you must become accustomed if you wish to succeed. "
-msgstr ""
+msgstr "那我建議你從他們開始。去找維維多斯，談談當他學徒的事。我明白，一想到要跟死亡儀式打交道，或許會讓你覺得反感，但我想你若要成功，就必須習慣這些。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No, I have not. "
 msgctxt "bark 0421:7E4B"
 msgid "Then I suggest you begin with them. Speak with Vividos about becoming his apprentice once Lothian has passed on her powers to him. I realize the thought of dealing with the rituals of death may seem distasteful, but I expect it is something to which you must become accustomed if you wish to succeed. "
-msgstr ""
+msgstr "那我建議你從他們開始。等羅西安把她的力量傳給維維多斯之後，去找他談談當他學徒的事。我明白，一想到要跟死亡儀式打交道，或許會讓你覺得反感，但我想你若要成功，就必須習慣這些。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Where are the Necromancers? "
 msgctxt "bark 0421:7F79"
 msgid "They reside in the cemetery. I believe you will wish to take the East Road from the city. I suggest you go with care, for many of the walking dead also reside in the graveyard. "
-msgstr ""
+msgstr "他們住在墓地。我想你會想從城裡走東路過去。我建議你小心行事，因為墓地裡也住著許多行屍。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "This was a test. "
 msgctxt "bark 0421:8039"
 msgid "I do not like to be tested. Perhaps you should give me time to renew my desire to speak with you. "
-msgstr ""
+msgstr "我不喜歡被測試。也許你該給我一點時間，讓我重新提起跟你說話的興致。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Is there a haunted grove? "
 msgctxt "bark 0421:812E"
 msgid "A haunted grove of trees? Well, I have heard such rumors applied to a circle of dead trees here on the plateau, though I will not confirm the existence of undead there. "
-msgstr ""
+msgstr "鬧鬼的樹林？嗯，我聽過這類傳聞，說的是這片高原上一圈枯死的樹，不過那裡有沒有不死者，我可不敢證實。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "What about Pagan history? "
 msgctxt "bark 0421:8204"
 msgid "The history of this land is quite long, and there is much I can tell you. Where would you prefer I start? "
-msgstr ""
+msgstr "這片土地的歷史相當悠久，我能告訴你的很多。你希望我從哪裡說起？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:8394"
 msgid "Good evening, my friend, and farewell. "
-msgstr ""
+msgstr "晚安，朋友，再會。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:8394"
 msgid "Good morning, my friend, and farewell. "
-msgstr ""
+msgstr "早安，朋友，再會。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:8394"
 msgid "Good day, my friend, and farewell. "
-msgstr ""
+msgstr "日安，朋友，再會。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:8654"
 msgid "Wait. Before you go, my friend, I wish to give you two items that I believe will assist you in your travels. The first is an item of recall I acquire many years ago. When you find yourself in trouble, you may use this item to teleport to my front door. How powerful this item is, I cannot say, for I do not know whether other, stronger powers may prevent it from functioning at certain times.~Furthermore, I wish to give you this potion of healing, which will magically aid the recovery of your wounds. I will try to have others for you as you make return visits, but since the cost to me in time and energy is great, I will not have one for you every time you visit me."
-msgstr ""
+msgstr "等等。朋友，你走之前，我想給你兩樣東西，我相信它們對你的旅程會有幫助。第一樣是我多年前得到的召回石。遇到麻煩時，你可以用它瞬間傳送到我家門口。至於它的力量有多強，我說不準，因為我不知道是否有其他更強大的力量，會在某些時候讓它失效。~此外，我還想給你這瓶治療藥水，它能以魔法幫助你的傷口癒合。你再來拜訪時，我會盡量為你準備，不過這要耗費我大量的時間和精力，所以不是每次你來都會有。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:86D1"
 msgid "Excellent. Use this well. "
-msgstr ""
+msgstr "很好。好好運用它。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:8703"
 msgid "Here. "
-msgstr ""
+msgstr "給你。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:874F"
 msgid "I will set it down for you. "
-msgstr ""
+msgstr "我替你放在地上。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:8779"
 msgid "Again, fare well. "
-msgstr ""
+msgstr "再一次，祝你一路順風。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Hello, Mythran. " or "Hello again. "
 msgctxt "bark 0421:8946"
 msgid "Ah, greetings, traveler. How fare things? "
-msgstr ""
+msgstr "啊，你好，旅人。一切可好？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Hello, Mythran. " or "Hello again. "
 msgctxt "ask 0421"
 msgid "Things are well. "
-msgstr ""
+msgstr "一切都好。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Hello, Mythran. " or "Hello again. "
 msgctxt "ask 0421"
 msgid "I want to recreate the obelisk. "
-msgstr ""
+msgstr "我想重建方尖碑。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Hello, Mythran. " or "Hello again. "
 msgctxt "ask 0421"
 msgid "I found this with the Sorcerers. "
-msgstr ""
+msgstr "我在巫師那裡找到了這個。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I wish to buy scrolls. "
 msgctxt "bark 0421:8B32"
 msgid "Ah, yes. "
-msgstr ""
+msgstr "啊，好的。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0421:8BAC"
 msgid "I am sorry, was my response unclear? You did hear me, I trust. "
-msgstr ""
+msgstr "抱歉，我的回答不夠清楚嗎？我相信你有聽到我說的話吧。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0421:8C37"
 msgid "Very well. Your mind is filled with many thoughts other than what we are discussing. We can resume this later. "
-msgstr ""
+msgstr "好吧。你腦中充滿了與我們討論無關的念頭。我們可以晚點再繼續。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I have another potion? "
 msgctxt "bark 0421:8CEF"
 msgid "Aye, my friend, I have had time to concoct another. "
-msgstr ""
+msgstr "是的，朋友，我有空調製了另一瓶。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I have another potion? "
 msgctxt "bark 0421:8D48"
 msgid "Here. "
-msgstr ""
+msgstr "給你。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I have another potion? "
 msgctxt "bark 0421:8D94"
 msgid "I will set it down for you. "
-msgstr ""
+msgstr "我替你放在地上。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "May I have another potion? "
 msgctxt "bark 0421:8E1A"
 msgid "Nay, my friend, I have not had the time to concoct another. Perhaps it will be ready for your next visit. "
-msgstr ""
+msgstr "不，朋友，我還沒空調製另一瓶。也許你下次來時就準備好了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I wish to buy reagents. " or "I wish to buy more reagents. "
 msgctxt "bark 0421:8ED8"
 msgid "Very well. "
-msgstr ""
+msgstr "很好。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I wish to learn spells. "
 msgctxt "bark 0421:8F4C"
 msgid "You wish to learn spells from me? "
-msgstr ""
+msgstr "你想跟我學法術嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I wish to learn spells. "
 msgctxt "bark 0421:8FB3"
 msgid "Perhaps in the future I will have the time to show you. "
-msgstr ""
+msgstr "也許將來我會有時間教你。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I want to recreate the obelisk. "
 msgctxt "bark 0421:921A"
 msgid "Recreate the obelisk? Do you mean that you wish reconstruct the Blackrock obelisk of the Great Temple? Of course! You are hoping to use the conduit as a way to leave Pagan! I know just the spell you will need. You must cast the Ethereal Travel spell. I do not know where the spell will send you on your first attempt, though I expect the Titans will intervene and direct your journey. Should you encounter and defeat them, know that you would have the worship and admiration of all Pagans. Good luck... "
-msgstr ""
+msgstr "重建方尖碑？你是說想重建宏偉神廟的黑石方尖碑嗎？當然了！你是希望利用那個通道離開佩根！我正好知道你需要的法術。你必須施展以太漫遊。我不知道第一次施法會把你送到哪裡，不過我想泰坦們會介入並左右你的旅程。如果你遇上他們並擊敗他們，要知道你將受到所有佩根人的崇拜與景仰。祝你好運……"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Things are well. "
 msgctxt "bark 0421:92B8"
 msgid "I am very glad to hear that. "
-msgstr ""
+msgstr "聽到這個我很高興。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Things are well. "
 msgctxt "bark 0421:939F"
 msgid "By the way, considering the tumultuous effect you have had on Pagan, may I commend you on your ability to rouse, or should I say anger, the Titans. "
-msgstr ""
+msgstr "對了，考慮到你在佩根掀起的軒然大波，容我稱讚你喚醒——或者該說激怒——泰坦的本事。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Things are well. "
 msgctxt "bark 0421:94C0"
 msgid "By the way, I hope you realize the effect of taking the Breath of Wind. The citizens have little in the way of healing now. Please understand that I do not disagree with your choice of action, but I wanted to be sure you are cognizant of the ramifications. "
-msgstr ""
+msgstr "對了，希望你明白拿走狂風之息造成的影響。現在居民幾乎得不到治療了。請理解，我並不反對你的選擇，只是想確定你清楚這麼做的後果。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Things are well. "
 msgctxt "bark 0421:9562"
 msgid "By the way, I notice your presence carries with it a tremendous impact, so to speak. I assume the quakes are your responsibility. "
-msgstr ""
+msgstr "對了，我注意到你的存在可以說帶來了巨大的「震撼」。我猜那些地震是你造成的吧。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Things are well. "
 msgctxt "bark 0421:95AE"
 msgid "Is there perhaps something you wish to discuss? "
-msgstr ""
+msgstr "你有什麼想談的嗎？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "No. "
 msgctxt "bark 0421:9646"
 msgid "Very well, then, I shall return to my work. "
-msgstr ""
+msgstr "那好吧，我要回去工作了。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Yes. "
 msgctxt "bark 0421:96AB"
 msgid "Very well, then, and what would that be? "
-msgstr ""
+msgstr "那好吧，是什麼事呢？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I found this with the Sorcerers. "
 msgctxt "bark 0421:9743"
 msgid "That piece of black stone? "
-msgstr ""
+msgstr "那塊黑色的石頭？"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I found this with the Sorcerers. "
 msgctxt "bark 0421:9825"
 msgid "It is not obsidian, that much is obvious. I wonder if it could be... You say it came from the Sorcerers, eh? It is possible you have found one of the Fragments of the obelisk in the Ancient Temple. "
-msgstr ""
+msgstr "它不是黑曜石，這點很明顯。我在想它會不會是……你說它是從巫師那裡來的，是嗎？你有可能找到了遠古神廟裡那座方尖碑的碎片之一。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "I found this with the Sorcerers. "
 msgctxt "bark 0421:98F8"
 msgid "Somewhere I have a book that might delve into greater detail. You're welcome to it if you can find it. I would strongly suggest that you study it closely before we continue our discussion. "
-msgstr ""
+msgstr "我有一本書可能談得更詳細，就放在某個地方。如果你找得到，歡迎拿去。我強烈建議你在我們繼續討論之前，先仔細研讀它。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0421:99F0"
 msgid "Farewell and good luck, {name}."
-msgstr ""
+msgstr "再會，祝你好運，{name}。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:9CB2"
 msgid "Wait. Before you go, my friend, I wish to give you two items that I believe will assist you in your travels. The first is an item of recall I acquire many years ago. When you find yourself in trouble, you may use this item to teleport to my front door. How powerful this item is, I cannot say, for I do not know whether other, stronger powers may prevent it from functioning at certain times.~Furthermore, I wish to give you this potion of healing, which will magically aid the recovery of your wounds. I will try to have others for you as you make return visits, but since the cost to me in time and energy is great, I will not have one for you every time you visit me."
-msgstr ""
+msgstr "等等。朋友，你走之前，我想給你兩樣東西，我相信它們對你的旅程會有幫助。第一樣是我多年前得到的召回石。遇到麻煩時，你可以用它瞬間傳送到我家門口。至於它的力量有多強，我說不準，因為我不知道是否有其他更強大的力量，會在某些時候讓它失效。~此外，我還想給你這瓶治療藥水，它能以魔法幫助你的傷口癒合。你再來拜訪時，我會盡量為你準備，不過這要耗費我大量的時間和精力，所以不是每次你來都會有。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:9D2F"
 msgid "Excellent. Use this well. "
-msgstr ""
+msgstr "很好。好好運用它。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:9D61"
 msgid "Here. "
-msgstr ""
+msgstr "給你。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:9DAD"
 msgid "I will set it down for you. "
-msgstr ""
+msgstr "我替你放在地上。"
 
+# P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0421:9DD7"
 msgid "Again, fare well. "
-msgstr ""
+msgstr "再一次，祝你一路順風。"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0421:9F42"
 msgid "I do not wish to do this. "
-msgstr ""
+msgstr "我不想這麼做。"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0421:9F6C"
 msgid "Kal Vas Grav Corp!"
-msgstr ""
+msgstr "Kal Vas Grav Corp！"
 
+# P13 batch 3
 #. event 11 (leaveFastArea)
 msgctxt "bark 0421:A115"
 msgid "A pity... "
-msgstr ""
+msgstr "真可惜……"

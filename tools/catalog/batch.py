@@ -110,6 +110,9 @@ def cmd_apply(a):
         where = f"{a.file}:{b['line']}"
         ctx = canonical_context(b["ctx"])
         found = index.get((ctx, norm(b.get("en", ""))), [])
+        if len(found) > 1:
+            # entries that differ only in spacing: the exact English decides
+            found = [f for f in found if f[1].msgid == b.get("en", "")]
         if len(found) != 1:
             errors.append(f"{where}: {len(found)} entries for {b['ctx']} {b.get('en', '')[:50]!r}")
             continue
