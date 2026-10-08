@@ -10,150 +10,179 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 042D:00AE"
 msgid "dead guardsman "
-msgstr ""
+msgstr "死去的衛兵"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 042D:00D1"
 msgid "guardsman "
-msgstr ""
+msgstr "衛兵"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 042D:01C4"
 msgid "Guardsman! "
-msgstr ""
+msgstr "衛兵！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 042D:027D"
 msgid "The Titans are angry! Run to safety and pray for their mercy! "
-msgstr ""
+msgstr "泰坦們發怒了！快逃到安全的地方，祈求他們開恩吧！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 042D:02FA"
 msgid "For the sake of Lithos, we are beset by the dead! Find shelter, stranger. "
-msgstr ""
+msgstr "看在利索斯的分上，死人把我們包圍了！快找地方躲起來，陌生人。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 042D:0344"
 msgid "What is it now? "
-msgstr ""
+msgstr "又怎麼了？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 042D:0384"
 msgid "What do you want? "
-msgstr ""
+msgstr "你想幹嘛？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 042D:03B9"
 msgid "What! Again with questions! "
-msgstr ""
+msgstr "什麼！又要問問題！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 042D:03EE"
 msgid "What do you want, stranger? "
-msgstr ""
+msgstr "你想幹嘛，陌生人？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 042D"
 msgid "Bye "
-msgstr ""
+msgstr "再見"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 #. answer compared by the conversation code
 msgctxt "ask 042D"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 042D:04FF"
 msgid "My name is none of your concern. What -is- your concern is staying out of trouble. "
-msgstr ""
+msgstr "我叫什麼不關你的事。你該關心的是別惹麻煩。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 #. answer compared by the conversation code
 msgctxt "ask 042D"
 msgid "What is your duty? "
-msgstr ""
+msgstr "你的職責是什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 042D:05B4"
 msgid "My duty is to protect the Tempest, Devon, though I doubt he needs it with his powers. "
-msgstr ""
+msgstr "我的職責是保護風暴使者戴文，不過以他的力量，我懷疑他根本不需要保護。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 042D:065E"
 msgid "My duty is to protect her Ladyship, Mordea, though I doubt she needs it with her powers. You would have to be insane to think of assaulting her. "
-msgstr ""
+msgstr "我的職責是保護莫爾迪亞夫人，不過以她的力量，我懷疑她根本不需要保護。只有瘋子才會想攻擊她。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 #. answer compared by the conversation code
 msgctxt "ask 042D"
 msgid "Where am I? "
-msgstr ""
+msgstr "這是哪裡？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:06C8"
 msgid "Try to listen this time! "
-msgstr ""
+msgstr "這次給我仔細聽好！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:0701"
 msgid "You are in central Tenebrae. "
-msgstr ""
+msgstr "你在泰尼伯瑞的中心區。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:0769"
 msgid "This direction leads to the palace. "
-msgstr ""
+msgstr "這個方向通往宮殿。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:07F6"
 msgid "Since you're new here I'd suggest you stay clear of it! "
-msgstr ""
+msgstr "既然你剛來，我建議你離那裡遠一點！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:0837"
 msgid "It is a quiet place without Mordea. "
-msgstr ""
+msgstr "少了莫爾迪亞，那裡安靜多了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:08A6"
 msgid "You should head east or west, for the palace holds only trouble for the likes of you. "
-msgstr ""
+msgstr "你該往東或往西走，像你這種人去宮殿只會惹上麻煩。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:090F"
 msgid "To the East is where the rich folks live. "
-msgstr ""
+msgstr "東邊是有錢人住的地方。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:098D"
 msgid "On that side is a library and a weapons trainer. "
-msgstr ""
+msgstr "那一邊有圖書館和武術教練。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:09F6"
 msgid "And that is where all the poor sods live. "
-msgstr ""
+msgstr "那邊是窮光蛋們住的地方。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:0A7F"
 msgid "There is the smithy and a tavern in that direction as well. "
-msgstr ""
+msgstr "那個方向也有鐵匠鋪和酒館。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:0B13"
 msgid "I must be getting back to duty, now. Mayhaps later we'll meet at the Shattered Skull. "
-msgstr ""
+msgstr "我得回去執勤了。說不定晚點我們會在碎裂頭骨酒館碰面。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 042D:0B89"
 msgid "Now, move along so I can return to duty. "
-msgstr ""
+msgstr "好了，快走吧，我還得回去執勤。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 042D:0BD9"
 msgid "I go back to duty now. "
-msgstr ""
+msgstr "我要回去執勤了。"

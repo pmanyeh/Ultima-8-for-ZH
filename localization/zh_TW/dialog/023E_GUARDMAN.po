@@ -10,164 +10,196 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 023E:00AE"
 msgid "dead guardsman "
-msgstr ""
+msgstr "死去的衛兵"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 023E:00D1"
 msgid "guardsman "
-msgstr ""
+msgstr "衛兵"
 
+# P13 batch 1
 #. event 11 (leaveFastArea)
 msgctxt "bark 023E:01EC"
 msgid "Guardsmen, to arms! "
-msgstr ""
+msgstr "衛兵們，拿起武器！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 023E:027C"
 msgid "Away! I will not speak with you. "
-msgstr ""
+msgstr "走開！我不會跟你說話。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 023E:02AD"
 msgid "Guardsman! "
-msgstr ""
+msgstr "衛兵！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 023E:0301"
 msgid "What can I do for you? "
-msgstr ""
+msgstr "有什麼事嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 023E:0336"
 msgid "How may I be of assistance? "
-msgstr ""
+msgstr "有什麼需要我效勞的嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 023E"
 msgid "Bye "
-msgstr ""
+msgstr "再見"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 #. answer compared by the conversation code
 msgctxt "ask 023E"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 023E:0415"
 msgid "I am a guardsman in the service of our Tempest. "
-msgstr ""
+msgstr "我是為我們的風暴使者效力的衛兵。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 023E:0447"
 msgid "Proud am I to to serve him. "
-msgstr ""
+msgstr "能為他效力，我很自豪。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 023E:0491"
 msgid "I am a guardsman in the service of her ladyship. "
-msgstr ""
+msgstr "我是為夫人效力的衛兵。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 #. answer compared by the conversation code
 msgctxt "ask 023E"
 msgid "What is your duty? "
-msgstr ""
+msgstr "你的職責是什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 023E:051F"
 msgid "My duty is to protect Tenebrae. "
-msgstr ""
+msgstr "我的職責是保護泰尼伯瑞。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 023E:0586"
 msgid "I have sworn to die in defense of our city against any horde that should attact. "
-msgstr ""
+msgstr "我發誓，不論哪一路大軍來犯，我都要至死捍衛我們的城市。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 023E:05EC"
 msgid "My duty is to insure the peace and tranquility of Tenebrea is not disturbed. "
-msgstr ""
+msgstr "我的職責是確保泰尼伯瑞的和平與安寧不受打擾。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 023E:066A"
 msgid "My duty is to control the populus, to insure that the peace is kept for her ladyship. "
-msgstr ""
+msgstr "我的職責是管束百姓，為夫人維持治安。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 023E:06A9"
 msgid "Why are you asking so many questions? "
-msgstr ""
+msgstr "你為什麼問這麼多問題？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 023E:06DF"
 msgid "Did Mordea send you to test me? "
-msgstr ""
+msgstr "是莫爾迪亞派你來試探我的嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 023E:072B"
 msgid "I'd best be about my duties... "
-msgstr ""
+msgstr "我最好去執勤了……"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:07DC"
 msgid "Nice taling with you. "
-msgstr ""
+msgstr "很高興跟你聊天。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:082B"
 msgid "In your travels take care you do not step on any ghouls. "
-msgstr ""
+msgstr "旅途中小心，別踩到食屍鬼了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:0878"
 msgid "Join me in a drink at Orlok's later if you stop by. "
-msgstr ""
+msgstr "你要是晚點經過歐洛克的店，就跟我一起喝一杯吧。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:08BE"
 msgid "Fine. I must get back to work. "
-msgstr ""
+msgstr "好吧。我得回去工作了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:08E7"
 msgid "Stay out of trouble! "
-msgstr ""
+msgstr "別惹麻煩！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:0A73"
 msgid "No fighting around here! "
-msgstr ""
+msgstr "這裡不准打架！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:0A9B"
 msgid "Stop, or else! "
-msgstr ""
+msgstr "住手，否則後果自負！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:0B1D"
 msgid "Move along... "
-msgstr ""
+msgstr "走吧走吧……"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:0B55"
 msgid "Stay out of trouble... "
-msgstr ""
+msgstr "別惹麻煩……"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:0B8A"
 msgid "Watch for undead... "
-msgstr ""
+msgstr "小心不死者……"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:0BC6"
 msgid "Curse these tight boots... "
-msgstr ""
+msgstr "這雙緊死人的靴子……"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 023E:0C23"
 msgid "Boy, this weapon gets heavy... "
-msgstr ""
+msgstr "天哪，這把武器越拿越重……"

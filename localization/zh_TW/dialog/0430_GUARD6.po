@@ -10,110 +10,131 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0430:00AE"
 msgid "dead guardsman "
-msgstr ""
+msgstr "死去的衛兵"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0430:00D1"
 msgid "guardsman "
-msgstr ""
+msgstr "衛兵"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0430:01C4"
 msgid "Guardsman! "
-msgstr ""
+msgstr "衛兵！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0430:026E"
 msgid "The Titans are seeking revenge! We are doomed! "
-msgstr ""
+msgstr "泰坦們要復仇了！我們完了！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0430:0306"
 msgid "The very earth shakes and spits up the dead! We must repent for whatever misdeed we have commmitted. "
-msgstr ""
+msgstr "大地在震動，還把死人吐了出來！不管我們犯了什麼錯，都得懺悔才行。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0430:0362"
 msgid "Why is it always -me- you bother? "
-msgstr ""
+msgstr "為什麼你老是來煩「我」？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0430:03A7"
 msgid "What can I do for you? "
-msgstr ""
+msgstr "有什麼事嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0430:03E1"
 msgid "Stop with the questions already. "
-msgstr ""
+msgstr "別再問問題了。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0430:0416"
 msgid "What do you want, stranger? "
-msgstr ""
+msgstr "你想幹嘛，陌生人？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0430"
 msgid "Bye "
-msgstr ""
+msgstr "再見"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 #. answer compared by the conversation code
 msgctxt "ask 0430"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 0430:04ED"
 msgid "Why do you want to know? "
-msgstr ""
+msgstr "你為什麼想知道？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 0430:054D"
 msgid "Only mindless twits go around asking every stranger they meet their name. "
-msgstr ""
+msgstr "只有沒腦子的笨蛋，才會逢人就問名字。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 #. answer compared by the conversation code
 msgctxt "ask 0430"
 msgid "What is your duty? "
-msgstr ""
+msgstr "你的職責是什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 0430:05DC"
 msgid "I watch over the new Tempest, Devon, of course. "
-msgstr ""
+msgstr "我當然是守護新的風暴使者戴文。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 0430:0622"
 msgid "I watch over her Ladyship Mordea, of course! "
-msgstr ""
+msgstr "我當然是守護莫爾迪亞夫人！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 #. answer compared by the conversation code
 msgctxt "ask 0430"
 msgid "Where am I? "
-msgstr ""
+msgstr "這是哪裡？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 0430:06A2"
 msgid "You are in the palace and home to the Tempest. "
-msgstr ""
+msgstr "你在宮殿裡，這裡是風暴使者的住所。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 0430:06E1"
 msgid "Go ask someone who wants to help you. "
-msgstr ""
+msgstr "去問想幫你的人吧。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 0430:072D"
 msgid "To you too. "
-msgstr ""
+msgstr "你也是。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 0430:07B9"
 msgid "If it is true what I heard -- that you had a part in deposing Mordea -- let me offer my thanks. "
-msgstr ""
+msgstr "如果我聽說的是真的——你出了一份力，推翻了莫爾迪亞——那請接受我的感謝。"

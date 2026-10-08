@@ -10,120 +10,143 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0433:00B0"
 msgid "dead guardsman "
-msgstr ""
+msgstr "死去的衛兵"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0433:00D3"
 msgid "guardsman "
-msgstr ""
+msgstr "衛兵"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0433:01C6"
 msgid "Guardsman! "
-msgstr ""
+msgstr "衛兵！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0433:02B1"
 msgid "'Tis the wrath of the Titans that rains upon us. May they have mercy, for we are all to die! Run while you can. "
-msgstr ""
+msgstr "降在我們身上的是泰坦的怒火。願他們開恩，因為我們都要死了！能逃就快逃吧。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0433:0353"
 msgid "Hold! You are not undead. I suggest you find a haven and hide, stranger. The walking dead march upon the city! "
-msgstr ""
+msgstr "站住！你不是不死者。我建議你找個避難所躲起來，陌生人。活死人朝城裡進軍了！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0433:03A3"
 msgid "What is it this time? "
-msgstr ""
+msgstr "這次又怎麼了？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0433:03E8"
 msgid "What can I do for you? "
-msgstr ""
+msgstr "有什麼事嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0433:0417"
 msgid "What! More questions! "
-msgstr ""
+msgstr "什麼！還有問題！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0433:044C"
 msgid "What do you want, stranger? "
-msgstr ""
+msgstr "你想幹嘛，陌生人？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0433"
 msgid "Bye "
-msgstr ""
+msgstr "再見"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 #. answer compared by the conversation code
 msgctxt "ask 0433"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 0433:0523"
 msgid "Why do you want to know? "
-msgstr ""
+msgstr "你為什麼想知道？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 0433:0587"
 msgid "Only fools and meddlers go around asking every stranger they meet their name. "
-msgstr ""
+msgstr "只有傻瓜和愛管閒事的人，才會逢人就問名字。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 #. answer compared by the conversation code
 msgctxt "ask 0433"
 msgid "What is your duty? "
-msgstr ""
+msgstr "你的職責是什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 0433:0615"
 msgid "My job is to guard the new Tempest, of course. "
-msgstr ""
+msgstr "我的工作當然是守衛新的風暴使者。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 0433:0661"
 msgid "My job is to guard her Ladyship Mordea, of course! "
-msgstr ""
+msgstr "我的工作當然是守衛莫爾迪亞夫人！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 #. answer compared by the conversation code
 msgctxt "ask 0433"
 msgid "Where am I? "
-msgstr ""
+msgstr "這是哪裡？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 0433:06D8"
 msgid "You are in the palace of the Tempest. "
-msgstr ""
+msgstr "你在風暴使者的宮殿裡。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 0433:0728"
 msgid "Look, I do not have time for idle chat with strangers. "
-msgstr ""
+msgstr "聽著，我沒空跟陌生人閒聊。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 0433:076A"
 msgid "Push off, before Mordea has both our heads. "
-msgstr ""
+msgstr "快滾吧，免得莫爾迪亞把我們倆的頭都砍了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 0433:07CC"
 msgid "I must be about my duties anyway. "
-msgstr ""
+msgstr "反正我也得去執勤了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 0433:082C"
 msgid "Oh, I heard you had a part in ridding us of Mordea. "
-msgstr ""
+msgstr "噢，聽說你出了一份力，幫我們擺脫了莫爾迪亞。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 0433:086F"
 msgid "Do not tell anyone I said this, but, thanks. "
-msgstr ""
+msgstr "別跟任何人說是我講的，不過，謝了。"

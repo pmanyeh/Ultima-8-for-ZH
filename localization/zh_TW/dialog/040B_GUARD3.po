@@ -10,105 +10,125 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 040B:00AE"
 msgid "dead guardsman "
-msgstr ""
+msgstr "死去的衛兵"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 040B:00D1"
 msgid "guardsman "
-msgstr ""
+msgstr "衛兵"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 040B:01C2"
 msgid "Guardsman! "
-msgstr ""
+msgstr "衛兵！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 040B:026F"
 msgid "Run for you life, fool! The Titans have gone mad! "
-msgstr ""
+msgstr "快逃命吧，笨蛋！泰坦們發瘋了！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 040B:0319"
 msgid "Lithos makes the land quake and the dead rise. Run, fool, and hide before the very city falls to the undead onslaught. "
-msgstr ""
+msgstr "利索斯讓大地震動、讓死者復活。快逃吧，笨蛋，在整座城被不死者攻陷之前躲起來。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 040B:035D"
 msgid "What now? "
-msgstr ""
+msgstr "又怎麼了？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 040B:03A2"
 msgid "What can I do for you? "
-msgstr ""
+msgstr "有什麼事嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 040B:03DB"
 msgid "What questions do you have now? "
-msgstr ""
+msgstr "你現在又有什麼問題？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 040B:0410"
 msgid "What do you want, stranger? "
-msgstr ""
+msgstr "你想幹嘛，陌生人？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 040B"
 msgid "Bye "
-msgstr ""
+msgstr "再見"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 #. answer compared by the conversation code
 msgctxt "ask 040B"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 040B:053D"
 msgid "I am the one who is going to be poking a certain meddler with a halberd, if he does not mind his\town business. "
-msgstr ""
+msgstr "我就是那個要拿長戟戳某個多管閒事傢伙的人，如果他不管好自己的事的話。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 040B:055F"
 msgid "Understand? "
-msgstr ""
+msgstr "懂了嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 #. answer compared by the conversation code
 msgctxt "ask 040B"
 msgid "What is your duty? "
-msgstr ""
+msgstr "你的職責是什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 040B:0633"
 msgid "What does it look like? My job is pounding these cobblestones back down into the dirt. They keep coming out of the roadway. "
-msgstr ""
+msgstr "你看不出來嗎？我的工作就是把這些鵝卵石敲回土裡。它們老是從路面冒出來。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 040B:0651"
 msgid "Fool... "
-msgstr ""
+msgstr "笨蛋……"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 #. answer compared by the conversation code
 msgctxt "ask 040B"
 msgid "Where am I? "
-msgstr ""
+msgstr "這是哪裡？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 040B:06B9"
 msgid "What do I look like? A guide? "
-msgstr ""
+msgstr "我看起來像什麼？嚮導嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "
 msgctxt "bark 040B:06F4"
 msgid "Leave me, I must be about my duties! "
-msgstr ""
+msgstr "走開，我得去執勤了！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 040B:0752"
 msgid "Fine. I must get back to work. "
-msgstr ""
+msgstr "好吧。我得回去工作了。"

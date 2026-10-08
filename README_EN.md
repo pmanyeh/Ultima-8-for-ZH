@@ -20,12 +20,12 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 ## Translation progress
 
 <!-- progress:start -->
-**Overall (by English characters): `██░░░░░░░░░░░░░░░░░░` 9.1%** (732 / 6,944 entries, updated 2026-10-08)
+**Overall (by English characters): `██░░░░░░░░░░░░░░░░░░` 11.2%** (1,003 / 6,944 entries, updated 2026-10-08)
 
 | Kind | Translated / total (entries) | English characters | Progress |
 |---|---|---|---|
-| Lines and item names | 517 / 4,828 | 375,387 | 12.1% |
-| Conversation answers | 184 / 1,811 | 35,841 | 9.5% |
+| Lines and item names | 734 / 4,828 | 375,387 | 14.8% |
+| Conversation answers | 238 / 1,811 | 35,841 | 11.5% |
 | Books | 1 / 87 | 116,622 | 0.2% |
 | Scrolls | 1 / 22 | 7,864 | 1.0% |
 | Gravestones | 2 / 67 | 2,609 | 1.1% |
@@ -33,7 +33,7 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 | Sentence pieces | 13 / 54 | 505 | 23.8% |
 | Interface | 12 / 12 | 152 | 100.0% |
 
-Characters and scenes done: Basket, Obsidian coins, Devon, Execution scene, Fight, Food, Gate guard, Mordea, Morefish, Rhian, Shaana, Tarna, Toran, Winchns
+Characters and scenes done: Basket, Obsidian coins, Devon, Execution scene, Fight, Food, Gate guard, Guard10, Guard2, Guard3, Guard4, Guard5, Guard6, Guard7, Guard8, Guard9, Guardman, Guard_ew, Mordea, Morefish, Rhian, Shaana, Tarna, Toran, Winchns
 <!-- progress:end -->
 
 The translation follows the story: the first batch is the opening (Devon → the execution on the docks of Tenebrae). Names and terms are kept consistent in the [authority file](localization/zh_TW/authority.tsv).

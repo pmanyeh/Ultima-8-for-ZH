@@ -10,236 +10,281 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 043B:00B0"
 msgid "dead guardsman "
-msgstr ""
+msgstr "死去的衛兵"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 043B:00D3"
 msgid "guardsman "
-msgstr ""
+msgstr "衛兵"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 043B:0209"
 msgid "Run for cover. The Titans have gone mad! "
-msgstr ""
+msgstr "快找地方躲。泰坦們發瘋了！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 043B:0296"
 msgid "Run for your very life -- the ground shakes and the dead have come to the claim the city! "
-msgstr ""
+msgstr "快逃命吧——大地在震動，死者要來佔領這座城了！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 043B:031E"
 msgid "Hold, you! "
-msgstr ""
+msgstr "你，站住！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 043B:0347"
 msgid "Hold, stranger! "
-msgstr ""
+msgstr "站住，陌生人！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 043B:036D"
 msgid "Guardsman! "
-msgstr ""
+msgstr "衛兵！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 043B:03A1"
 msgid "Aye. What do you want? "
-msgstr ""
+msgstr "嗯。你想幹嘛？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 043B:03C9"
 msgid "Aye, stranger? "
-msgstr ""
+msgstr "嗯，陌生人？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 043B"
 msgid "What is the problem? "
-msgstr ""
+msgstr "有什麼問題嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 043B"
 msgid "Bye. "
-msgstr ""
+msgstr "再見。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is the problem? "
 msgctxt "bark 043B:0512"
 msgid "That is what I wish to ask you! What do you know about Bentic the Scholar? "
-msgstr ""
+msgstr "這正是我要問你的！你對學者班提克知道多少？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is the problem? "
 msgctxt "ask 043B"
 msgid "What concern is it of yours? "
-msgstr ""
+msgstr "這關你什麼事？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "We have spoken. "
 #. answer compared by the conversation code
 msgctxt "ask 043B"
 msgid "We have spoken. "
-msgstr ""
+msgstr "我們談過話。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "We have spoken. "
 msgctxt "bark 043B:06AD"
 msgid "Then know this: For conducting forbidden research, Bentic's head rests deep within the realm of the Lurker upon the command of the Lady Mordea. Know also that as his confidant all of your actions are under observation. Now answer this: What do you know of the fisherman named Devon? "
-msgstr ""
+msgstr "那你聽好了：因為從事禁忌的研究，班提克的頭已奉莫爾迪亞夫人之命，沉入潛伏者領域的深處。你也要知道，身為他的知己，你的一舉一動都在監視之下。現在回答我：你對那個叫戴文的漁夫知道多少？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Nothing. " or "I know nothing of Bentic. "
 #. answer compared by the conversation code
 msgctxt "ask 043B"
 msgid "Nothing. "
-msgstr ""
+msgstr "什麼都不知道。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Nothing. " or "I know nothing of Bentic. "
 #. answer compared by the conversation code
 msgctxt "ask 043B"
 msgid "I know nothing of Bentic. "
-msgstr ""
+msgstr "我不認識班提克。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Nothing. " or "I know nothing of Bentic. "
 msgctxt "bark 043B:0897"
 msgid "You lie! You have been seen speaking to him. Know this: For conducting forbidden research, Bentic's head rests deep within the realm of the Lurker upon the command of the Lady Mordea. Know also that as his confidant all of your actions are under observation. Now answer this: What do you know of the fisherman named Devon? "
-msgstr ""
+msgstr "你說謊！有人看到你跟他說話。你聽好了：因為從事禁忌的研究，班提克的頭已奉莫爾迪亞夫人之命，沉入潛伏者領域的深處。你也要知道，身為他的知己，你的一舉一動都在監視之下。現在回答我：你對那個叫戴文的漁夫知道多少？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Nothing. " or "I know nothing of Bentic. "
 msgctxt "bark 043B:0997"
 msgid "Then know this and be warned: For conducting forbidden research, the scholar's head rests deep within the realm of the Lurker upon the command of the Lady Mordea. Now answer this: What do you know of the fisherman named Devon? "
-msgstr ""
+msgstr "那你聽好，並引以為戒：因為從事禁忌的研究，那位學者的頭已奉莫爾迪亞夫人之命，沉入潛伏者領域的深處。現在回答我：你對那個叫戴文的漁夫知道多少？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I have met him. "
 #. answer compared by the conversation code
 msgctxt "ask 043B"
 msgid "I have met him. "
-msgstr ""
+msgstr "我見過他。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I have met him. "
 msgctxt "bark 043B:0AE1"
 msgid "Then let me also inform you that he has been placed under arrest and imprisoned. For your association with him you are also under suspicion. Be very careful whom you choose as friends from now on. "
-msgstr ""
+msgstr "那我也告訴你，他已經被逮捕入獄了。因為你和他有往來，你也有嫌疑。從現在起，交朋友可要非常小心。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I have met him. "
 msgctxt "ask 043B"
 msgid "May I go now? "
-msgstr ""
+msgstr "我現在可以走了嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why was Devon arrested? "
 #. answer compared by the conversation code
 msgctxt "ask 043B"
 msgid "Why was Devon arrested? "
-msgstr ""
+msgstr "戴文為什麼被逮捕？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why was Devon arrested? "
 msgctxt "bark 043B:0BA6"
 msgid "I do not have such answers. Ask him yourself! "
-msgstr ""
+msgstr "我不知道答案。你自己去問他！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is Devon? "
 #. answer compared by the conversation code
 msgctxt "ask 043B"
 msgid "Who is Devon? "
-msgstr ""
+msgstr "戴文是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is Devon? "
 msgctxt "bark 043B:0BF1"
 msgid "Again you lie to me! "
-msgstr ""
+msgstr "你又對我說謊！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is Devon? "
 msgctxt "bark 043B:0CFE"
 msgid "Others have seen you with him, so do not pretend you have forgotten the fisherman. He has been placed under arrest and imprisoned. For your association with him you are also under suspicion. Be very careful whom you\tchoose as friends from now on. "
-msgstr ""
+msgstr "有人看到你跟他在一起，所以別裝作忘了那個漁夫。他已經被逮捕入獄了。因為你和他有往來，你也有嫌疑。從現在起，交朋友可要非常小心。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What concern is it of yours? "
 msgctxt "bark 043B:0DC0"
 msgid "Do not risk your worthless life with such boldness. Now answer the question! "
-msgstr ""
+msgstr "別這麼大膽，拿你那條賤命冒險。現在回答問題！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What concern is it of yours? "
 msgctxt "ask 043B"
 msgid "No! "
-msgstr ""
+msgstr "不！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "No! "
 msgctxt "bark 043B:0E82"
 msgid "Then die for your insolence! "
-msgstr ""
+msgstr "那就為你的無禮去死吧！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 #. answer compared by the conversation code
 msgctxt "ask 043B"
 msgid "What is your name? "
-msgstr ""
+msgstr "你叫什麼名字？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "bark 043B:0F56"
 msgid "Never you mind such things. Better to be worried about your own hide. "
-msgstr ""
+msgstr "這種事你別管。你最好擔心你自己吧。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "bark 043B:0FE1"
 msgid "What an odd question. 'Tis not -my- name that is important. You should be more concerned about your own business. "
-msgstr ""
+msgstr "真是個奇怪的問題。重要的不是「我」的名字。你最好多關心你自己的事。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you guard? "
 #. answer compared by the conversation code
 msgctxt "ask 043B"
 msgid "What do you guard? "
-msgstr ""
+msgstr "你守衛什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you guard? "
 msgctxt "bark 043B:106D"
 msgid "What a peculiar mind for questions you have. "
-msgstr ""
+msgstr "你的腦袋還真會想問題。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you guard? "
 msgctxt "bark 043B:10AD"
 msgid "I guard Devon and city, of course. "
-msgstr ""
+msgstr "我當然是守衛戴文和這座城。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you guard? "
 msgctxt "bark 043B:10EE"
 msgid "I guard her Ladyship Mordea, of course! "
-msgstr ""
+msgstr "我當然是守衛莫爾迪亞夫人！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where does this road lead? "
 #. answer compared by the conversation code
 msgctxt "ask 043B"
 msgid "Where does this road lead? "
-msgstr ""
+msgstr "這條路通往哪裡？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where does this road lead? "
 msgctxt "bark 043B:11A3"
 msgid "We have already discussed that, now haven't we. Do not waste my time. "
-msgstr ""
+msgstr "這件事我們已經談過了，不是嗎？別浪費我的時間。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where does this road lead? "
 msgctxt "bark 043B:12A4"
 msgid "You should know. I have seen you on your way to the cemetery. An eerie place, if you ask me, but your business is your own as long as you cause no trouble. "
-msgstr ""
+msgstr "你應該知道才對。我看過你往墓地去。要我說，那是個陰森的地方，不過只要你不惹麻煩，你的事就是你自己的事。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where does this road lead? "
 msgctxt "bark 043B:12FA"
 msgid "To the east lies the cemetery. An eerie place if you ask me. "
-msgstr ""
+msgstr "往東是墓地。要我說，那是個陰森的地方。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where does this road lead? "
 msgctxt "ask 043B"
 msgid "Eerie? How eerie? "
-msgstr ""
+msgstr "陰森？怎麼個陰森法？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Eerie? How eerie? "
 msgctxt "bark 043B:14EF"
 msgid "'Tis not safe for sane men to be there. The cemetery is where the Necromancers inter the dead. Lithos may demand it, but I think it takes a twisted mind to perform the tasks they do. Some say that Lithos lets the Necromancers keep a few of the dead around to serve them. And late at night, I, myself, have often heard sounds that would freeze your bones. Beware to any who go there. "
-msgstr ""
+msgstr "正常人待在那裡可不安全。墓地是死靈法師埋葬死者的地方。也許是利索斯要求的，但我認為，要做他們那種工作，心理一定很扭曲。有人說，利索斯讓死靈法師留下一些死者供他們差遣。到了深夜，我自己就常常聽到讓人毛骨悚然的聲音。去那裡的人可要小心。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "May I go now? "
 msgctxt "bark 043B:1588"
 msgid "Yes, I have no more questions. Be off with you, and stay clear of trouble! "
-msgstr ""
+msgstr "好，我沒有問題了。走吧，別惹麻煩！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye. "
 msgctxt "bark 043B:160F"
 msgid "Aye. Enough of these questions. "
-msgstr ""
+msgstr "嗯。問題問夠了。"
