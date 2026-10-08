@@ -10,926 +10,1109 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041C:0159"
 msgid "You are unworthy to remain here. Die, fool! "
-msgstr ""
+msgstr "你不配留在這裡。去死吧，蠢貨！"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041C:01AF"
 msgid "Don't touch that. "
-msgstr ""
+msgstr "別碰那個。"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041C:020E"
 msgid "While you are here, you will leave my things be. "
-msgstr ""
+msgstr "你在這裡的時候，不准碰我的東西。"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041C:026B"
 msgid "I warn you. I will kill you for this behavior. "
-msgstr ""
+msgstr "我警告你。你再這樣，我就殺了你。"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041C:02A1"
 msgid "You will die... now! "
-msgstr ""
+msgstr "你死定了……就是現在！"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041C:031B"
 msgid "Vardion the dead Sorcerer "
-msgstr ""
+msgstr "死去的巫師瓦爾迪恩"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041C:0349"
 msgid "Vardion the Sorcerer "
-msgstr ""
+msgstr "巫師瓦爾迪恩"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041C:038A"
 msgid "the deceased Vardion "
-msgstr ""
+msgstr "已故的瓦爾迪恩"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041C:03AA"
 msgid "Vardion"
-msgstr ""
+msgstr "瓦爾迪恩"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041C:03E4"
 msgid "dead Sorcerer "
-msgstr ""
+msgstr "死去的巫師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041C:0406"
 msgid "Sorcerer "
-msgstr ""
+msgstr "巫師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041C:0435"
 msgid "dead mage "
-msgstr ""
+msgstr "死去的法師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041C:0453"
 msgid "mage "
-msgstr ""
+msgstr "法師"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041C"
 msgid "Tell me of this place. "
-msgstr ""
+msgstr "說說這個地方。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041C"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041C"
 msgid "What do you do? "
-msgstr ""
+msgstr "你是做什麼的？"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041C"
 msgid "Yes, I am prepared. "
-msgstr ""
+msgstr "是的，我準備好了。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041C"
 msgid "Let me think on it more. "
-msgstr ""
+msgstr "讓我再考慮一下。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041C"
 msgid "I won't do your dirty work! "
-msgstr ""
+msgstr "我才不替你幹骯髒事！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Farewell. "
 #. answer compared by the conversation code
 msgctxt "ask 041C"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Farewell. "
 msgctxt "bark 041C:08B5"
 msgid "Are you finished? "
-msgstr ""
+msgstr "說完了嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of this place. "
 msgctxt "bark 041C:0A01"
 msgid "How can it be that you do not know of the Sorcerer's Enclave? "
-msgstr ""
+msgstr "你怎麼會不知道巫師聚落？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of this place. "
 msgctxt "ask 041C"
 msgid "I am a stranger here. "
-msgstr ""
+msgstr "我是外地人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of this place. "
 msgctxt "ask 041C"
 msgid "I know. I'm just asking you. "
-msgstr ""
+msgstr "我知道。我只是問問你。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of this place. "
 msgctxt "ask 041C"
 msgid "Just answer my question. "
-msgstr ""
+msgstr "回答我的問題就是了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Just answer my question. "
 msgctxt "bark 041C:0AC7"
 msgid "What?! How dare you! "
-msgstr ""
+msgstr "什麼？！你好大的膽子！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I know. I'm just asking you. "
 msgctxt "bark 041C:0B4A"
 msgid "Fine then, you've no need to ask me your tiresome questions. "
-msgstr ""
+msgstr "那好，你也用不著問我這些煩人的問題了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I am a stranger here. "
 msgctxt "bark 041C:0C06"
 msgid "You are a stranger indeed, but regardless, I will tell you because you need to be aware of the danger you are in while here. "
-msgstr ""
+msgstr "你的確是外地人，不過我還是會告訴你，因為你得知道你在這裡有多危險。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I am a stranger here. "
 msgctxt "ask 041C"
 msgid "First Acolyte. What is that? "
-msgstr ""
+msgstr "第一學徒？那是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I am a stranger here. "
 msgctxt "bark 041C:0DBC"
 msgid "This is the Sorcerer's Enclave. As First Acolyte, it is my duty to make sure that the Sorcerers learn about the Fire and keep the old ways alive. "
-msgstr ""
+msgstr "這裡是巫師聚落。身為第一學徒，我的職責是確保巫師們學習火焰之道，並讓古老的傳統延續下去。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I am a stranger here. "
 msgctxt "bark 041C:0DBC"
 msgid "This is the Sorcerer's Enclave. We Sorcerers gather here to learn about the Fire and keep the old ways alive. "
-msgstr ""
+msgstr "這裡是巫師聚落。我們巫師聚集在此，學習火焰之道，並讓古老的傳統延續下去。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I am a stranger here. "
 msgctxt "ask 041C"
 msgid "Tell me about Sorcerers. "
-msgstr ""
+msgstr "說說巫師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I am a stranger here. "
 msgctxt "ask 041C"
 msgid "Tell me of the Fire. "
-msgstr ""
+msgstr "說說火焰。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I am a stranger here. "
 msgctxt "ask 041C"
 msgid "Old ways? "
-msgstr ""
+msgstr "古老的傳統？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are you? " or "What do you do? "
 msgctxt "bark 041C:0ED9"
 msgid "I am Vardion, First Acolyte of Sorcerer's Enclave. Keep this in mind, and we'll have no strife. "
-msgstr ""
+msgstr "我是瓦爾迪恩，巫師聚落的第一學徒。記住這一點，我們就不會有衝突。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are you? " or "What do you do? "
 msgctxt "ask 041C"
 msgid "What is an Acolyte? "
-msgstr ""
+msgstr "學徒是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about Sorcerers. "
 msgctxt "bark 041C:102D"
 msgid "Sorcerers are practitioners of the element of Fire. We are not to be trifled with. "
-msgstr ""
+msgstr "巫師是修習火元素的人。我們可不是好惹的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about Sorcerers. "
 msgctxt "ask 041C"
 msgid "What is an element? "
-msgstr ""
+msgstr "元素是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about Sorcerers. "
 msgctxt "ask 041C"
 msgid "Must you treat me like a child? "
-msgstr ""
+msgstr "你非得把我當小孩嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Fire. "
 msgctxt "bark 041C:1180"
 msgid "Fire is all consuming. It lives within the mountain, and burns within your own body. It is the element I give my life to study. "
-msgstr ""
+msgstr "火焰吞噬一切。它活在山中，也在你的身體裡燃燒。這是我奉獻一生研究的元素。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Old ways? "
 msgctxt "bark 041C:125E"
 msgid "The old ways are the rituals and ceremonies that we use to bind the Lord of Flame to our wills. "
-msgstr ""
+msgstr "古老的傳統，就是我們用來把烈焰之主束縛於我們意志之下的儀式與典禮。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Old ways? "
 msgctxt "ask 041C"
 msgid "What rituals and ceremonies? "
-msgstr ""
+msgstr "什麼儀式與典禮？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Old ways? "
 msgctxt "ask 041C"
 msgid "Who is the Lord of Flame? "
-msgstr ""
+msgstr "烈焰之主是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an Acolyte? "
 msgctxt "bark 041C:1353"
 msgid "Acolytes are chosen from amongst the Disciples to assist the Master in the old ways. "
-msgstr ""
+msgstr "學徒是從門徒中挑選出來，協助大師舉行古老儀式的人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an Acolyte? "
 msgctxt "ask 041C"
 msgid "What is a Disciple? "
-msgstr ""
+msgstr "門徒是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an Acolyte? "
 msgctxt "ask 041C"
 msgid "Who or what is the Master? "
-msgstr ""
+msgstr "大師是誰，或者說是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an Acolyte? "
 msgctxt "bark 041C:1425"
 msgid "One is chosen from their number to become the First Acolyte. I have that honor and duty. "
-msgstr ""
+msgstr "從他們之中再選出一人成為第一學徒。我就肩負這份榮耀與職責。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "First Acolyte. What is that? "
 msgctxt "bark 041C:154C"
 msgid "It is a position of respect amonst my kind. I handle the affairs of the Enclave, and our dealings with Tenebrae. This gives the Master more time to commit to his research and spellcraft. "
-msgstr ""
+msgstr "那是我們同類之間受人尊敬的地位。我處理聚落的事務，以及我們與泰尼伯瑞的往來。這讓大師有更多時間投入他的研究與施法技藝。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "First Acolyte. What is that? "
 msgctxt "ask 041C"
 msgid "You have dealings with Tenebrae? "
-msgstr ""
+msgstr "你們跟泰尼伯瑞有往來？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "First Acolyte. What is that? "
 msgctxt "ask 041C"
 msgid "What does the Master research? "
-msgstr ""
+msgstr "大師在研究什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "First Acolyte. What is that? "
 msgctxt "ask 041C"
 msgid "Spellcraft? Tell me more of this. "
-msgstr ""
+msgstr "施法技藝？多說一點。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an element? "
 msgctxt "bark 041C:16B5"
 msgid "What do you mean 'What is an element?' Where do you come from that you could possibly be so ignorant? "
-msgstr ""
+msgstr "你說「元素是什麼」是什麼意思？你是從哪裡來的，怎麼會無知到這種地步？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an element? "
 msgctxt "ask 041C"
 msgid "You don't want to know. "
-msgstr ""
+msgstr "你不會想知道的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an element? "
 msgctxt "ask 041C"
 msgid "Far away. "
-msgstr ""
+msgstr "很遠的地方。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an element? "
 msgctxt "ask 041C"
 msgid "The other side of the island. "
-msgstr ""
+msgstr "島的另一邊。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an element? "
 msgctxt "ask 041C"
 msgid "I sailed from another island. "
-msgstr ""
+msgstr "我從另一座島航行過來。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an element? "
 msgctxt "ask 041C"
 msgid "I come from another world. "
-msgstr ""
+msgstr "我來自另一個世界。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You don't want to know. "
 msgctxt "bark 041C:17BD"
 msgid "Yes, actually I do. "
-msgstr ""
+msgstr "不，其實我想知道。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You don't want to know. "
 msgctxt "ask 041C"
 msgid "I cannot tell you. "
-msgstr ""
+msgstr "我不能告訴你。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot tell you. "
 msgctxt "bark 041C:189D"
 msgid "I will respect your privacy, however, I might also ask you to respect mine when you question me. "
-msgstr ""
+msgstr "我會尊重你的隱私，不過你問我問題時，我也可能會要求你尊重我的隱私。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot tell you. "
 msgctxt "ask 041C"
 msgid "I still cannot tell you. "
-msgstr ""
+msgstr "我還是不能告訴你。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I still cannot tell you. "
 msgctxt "bark 041C:1948"
 msgid "Fine then, but I will remember this. "
-msgstr ""
+msgstr "好吧，但我會記住這件事。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Far away. "
 msgctxt "bark 041C:199E"
 msgid "That I can believe. Go on. "
-msgstr ""
+msgstr "這我相信。說下去。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The other side of the island. "
 msgctxt "bark 041C:1A30"
 msgid "The other side of the island is inhospitable, stranger. "
-msgstr ""
+msgstr "島的另一邊可是荒涼不毛之地，陌生人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The other side of the island. "
 msgctxt "bark 041C:1A64"
 msgid "Do not lie to me again. "
-msgstr ""
+msgstr "別再對我說謊。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The other side of the island. "
 msgctxt "bark 041C:1AB9"
 msgid "How am I to trust you if you keep attempting to deceive me. "
-msgstr ""
+msgstr "你老是想騙我，叫我怎麼信任你？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I sailed from another island. "
 msgctxt "bark 041C:1B76"
 msgid "That is quite unlikely. No one has sailed here for several generations. "
-msgstr ""
+msgstr "那不太可能。好幾代以來都沒人航行到這裡了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I sailed from another island. "
 msgctxt "bark 041C:1BAA"
 msgid "Do not lie to me again. "
-msgstr ""
+msgstr "別再對我說謊。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I sailed from another island. "
 msgctxt "bark 041C:1BFF"
 msgid "How am I to trust you if you keep attempting to deceive me. "
-msgstr ""
+msgstr "你老是想騙我，叫我怎麼信任你？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I come from another world. "
 msgctxt "bark 041C:1D8D"
 msgid "By the Guardian! I've found a world traveler. "
-msgstr ""
+msgstr "守護者在上！我竟遇上了一位穿越世界的旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I come from another world. "
 msgctxt "bark 041C:1D8D"
 msgid "Although you are not completely honest, I do believe you. It would appear that I've found a world traveler. "
-msgstr ""
+msgstr "雖然你並不完全誠實，但這次我相信你。看來我遇上了一位穿越世界的旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I come from another world. "
 msgctxt "bark 041C:1D8D"
 msgid "I really don't know whether or not to believe you. But if what you say is true, it would seem that I've found a world traveler. "
-msgstr ""
+msgstr "我真不知道該不該相信你。不過如果你說的是真的，那我似乎遇上了一位穿越世界的旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I come from another world. "
 msgctxt "bark 041C:1D8D"
 msgid "I've found a world traveler. "
-msgstr ""
+msgstr "我遇上了一位穿越世界的旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I come from another world. "
 msgctxt "bark 041C:1E14"
 msgid "My grandmother always said that there were other worlds out there. It's a shame she couldn't be here to see proof. "
-msgstr ""
+msgstr "我祖母總說外面還有其他世界。可惜她不在這裡，看不到證據。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I come from another world. "
 msgctxt "ask 041C"
 msgid "Did she die? "
-msgstr ""
+msgstr "她死了嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I come from another world. "
 msgctxt "ask 041C"
 msgid "What happened to her? "
-msgstr ""
+msgstr "她怎麼了？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I come from another world. "
 msgctxt "ask 041C"
 msgid "Where is she now? "
-msgstr ""
+msgstr "她現在在哪裡？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I come from another world. "
 msgctxt "ask 041C"
 msgid "Who was your grandmother? "
-msgstr ""
+msgstr "你祖母是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041C:2096"
 msgid "No.  She just vanished one day.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
-msgstr ""
+msgstr "不。她有一天就這麼消失了，沒人知道她在哪裡。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "bark 041C:2096"
 msgid "No.  She just vanished one day.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
-msgstr ""
+msgstr "不。她有一天就這麼消失了，沒人知道她在哪裡。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041C:2096"
 msgid "No.  She just vanished one day.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
-msgstr ""
+msgstr "不。她有一天就這麼消失了。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "bark 041C:2096"
 msgid "No.  She just vanished one day.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
-msgstr ""
+msgstr "不。她有一天就這麼消失了。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041C:2096"
 msgid "No.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
-msgstr ""
+msgstr "不。沒人知道她在哪裡。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "bark 041C:2096"
 msgid "No.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
-msgstr ""
+msgstr "不。沒人知道她在哪裡。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041C:2096"
 msgid "No.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
-msgstr ""
+msgstr "不。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "bark 041C:2096"
 msgid "No.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
-msgstr ""
+msgstr "不。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041C:2096"
 msgid " She just vanished one day.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
-msgstr ""
+msgstr "她有一天就這麼消失了，沒人知道她在哪裡。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "bark 041C:2096"
 msgid " She just vanished one day.  No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
-msgstr ""
+msgstr "她有一天就這麼消失了，沒人知道她在哪裡。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041C:2096"
 msgid " She just vanished one day.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
-msgstr ""
+msgstr "她有一天就這麼消失了。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "bark 041C:2096"
 msgid " She just vanished one day.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
-msgstr ""
+msgstr "她有一天就這麼消失了。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041C:2096"
 msgid " No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
-msgstr ""
+msgstr "沒人知道她在哪裡。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "bark 041C:2096"
 msgid " No one knows where she is.  Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
-msgstr ""
+msgstr "沒人知道她在哪裡。她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041C:2096"
 msgid " Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  {name}."
-msgstr ""
+msgstr "她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "bark 041C:2096"
 msgid " Her name was Mordra. She was a powerful mage, maybe she found the way to leave this world, perhaps she went to yours,  traveler. "
-msgstr ""
+msgstr "她叫莫德拉，是個強大的法師。也許她找到了離開這個世界的方法，說不定還去了你的世界，旅人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "ask 041C"
 msgid "I don't think so. "
-msgstr ""
+msgstr "我不這麼認為。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "ask 041C"
 msgid "Perhaps. "
-msgstr ""
+msgstr "也許吧。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I don't think so. " or "Perhaps. "
 msgctxt "bark 041C:2127"
 msgid "What is your world called, my friend? "
-msgstr ""
+msgstr "你的世界叫什麼名字，朋友？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I don't think so. " or "Perhaps. "
 msgctxt "ask 041C"
 msgid "Earth. "
-msgstr ""
+msgstr "地球。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I don't think so. " or "Perhaps. "
 msgctxt "ask 041C"
 msgid "Britannia. "
-msgstr ""
+msgstr "不列顛尼亞。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I don't think so. " or "Perhaps. "
 msgctxt "ask 041C"
 msgid "I cannot say. "
-msgstr ""
+msgstr "我不能說。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Earth. "
 msgctxt "bark 041C:21F8"
 msgid "How curious. Your world is named after one of the elements. This Earth must be a dark place indeed, filled with death. "
-msgstr ""
+msgstr "真奇怪。你的世界是以一種元素命名的。這個「土」之星想必是個充滿死亡的黑暗之地。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Britannia. "
 msgctxt "bark 041C:2276"
 msgid "What an odd sounding name. But strangely enough, it sounds familiar. "
-msgstr ""
+msgstr "真是個聽起來奇怪的名字。不過說也奇怪，聽起來還挺耳熟的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot say. "
 msgctxt "bark 041C:2310"
 msgid "Of course. I understand, it's a trade secret. You wouldn't want just anyone travelling there. "
-msgstr ""
+msgstr "當然。我明白，那是行業機密。你不會想讓隨便什麼人都跑到那裡去。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot say. "
 msgctxt "bark 041C:2376"
 msgid "Now I believe you asked me, of all things, what an element is. "
-msgstr ""
+msgstr "好了，我記得你問了我一個再奇怪不過的問題：元素是什麼。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot say. "
 msgctxt "bark 041C:23E9"
 msgid "The elements number four: Earth, Water, Air, and Fire. And each has a power intrinsic to it. "
-msgstr ""
+msgstr "元素共有四種：土、水、風、火。每一種都有其固有的力量。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot say. "
 msgctxt "ask 041C"
 msgid "Tell me more of Earth. "
-msgstr ""
+msgstr "多說說土。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot say. "
 msgctxt "ask 041C"
 msgid "What can you say of Water? "
-msgstr ""
+msgstr "關於水，你能說些什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot say. "
 msgctxt "ask 041C"
 msgid "I wish to know about Air. "
-msgstr ""
+msgstr "我想了解風。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Must you treat me like a child? "
 msgctxt "bark 041C:2552"
 msgid "While you are in my Enclave, I will treat you however I please. But in truth I seek only to give warning to those uninitiated in our ways. "
-msgstr ""
+msgstr "你在我的聚落裡，我愛怎麼對待你就怎麼對待你。不過說實話，我只是想給不了解我們規矩的人一點警告。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What rituals and ceremonies? "
 msgctxt "bark 041C:2634"
 msgid "These rituals are shown to Sorcerers only. I will not reveal them to an outsider. To do so is punishable by death. "
-msgstr ""
+msgstr "這些儀式只讓巫師看。我不會透露給外人。洩漏者死罪。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is the Lord of Flame? "
 msgctxt "bark 041C:272C"
 msgid "The Lord of Flame is the Father of the Daemons. He is the charnel pit from which all Fire comes. "
-msgstr ""
+msgstr "烈焰之主是惡魔之父。他是一切火焰湧出的屍骸深淵。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is the Lord of Flame? "
 msgctxt "ask 041C"
 msgid "Father of Daemons? "
-msgstr ""
+msgstr "惡魔之父？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is a Disciple? "
 msgctxt "bark 041C:283B"
 msgid "A Disciple is a Sorcerer who has not been made an Acolyte. "
-msgstr ""
+msgstr "門徒是還沒被選為學徒的巫師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who or what is the Master? "
 msgctxt "bark 041C:296A"
 msgid "Master Malchir is the leader of our Enclave, but do not bother him with idle questions. He is a busy man and does not take kindly to interruptions of his work. "
-msgstr ""
+msgstr "馬爾奇爾大巫師是我們聚落的領袖，但別拿無聊的問題去煩他。他很忙，不喜歡工作被打斷。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You have dealings with Tenebrae? "
 msgctxt "bark 041C:2B17"
 msgid "Of course, dullard. Do you think we have the time to grow our own food? Make our own clothing? Craft our own buildings? We give Tenebrae the sure knowledge that the Lord of Flame will remain bound and that the volcano will remain dormant. In return they free us from the necessity of handling our more basic needs. "
-msgstr ""
+msgstr "當然有，笨蛋。你以為我們有時間自己種糧食？自己做衣服？自己蓋房子？我們向泰尼伯瑞保證烈焰之主會一直被束縛、火山會一直沉睡。作為回報，他們讓我們不必為基本的生活所需操心。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You have dealings with Tenebrae? "
 msgctxt "ask 041C"
 msgid "You extort from the Tenebraens. "
-msgstr ""
+msgstr "你們在勒索泰尼伯瑞人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You have dealings with Tenebrae? "
 msgctxt "ask 041C"
 msgid "Shrewd bargaining on both sides. "
-msgstr ""
+msgstr "雙方都很會討價還價。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What does the Master research? "
 msgctxt "bark 041C:2CAE"
 msgid "That is not your business. And don't bother to ask him. He won't tell you and will most likely be angered by your interruption. And if he is angry, I will be angry. Do you take my meaning? "
-msgstr ""
+msgstr "那不關你的事。也別去問他。他不會告訴你，而且多半會因為你打擾他而發怒。他要是發怒，我也會發怒。你懂我的意思嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What does the Master research? "
 msgctxt "bark 041C:2D03"
 msgid "Good. I'm glad that you do. "
-msgstr ""
+msgstr "很好。很高興你懂。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What does the Master research? "
 msgctxt "bark 041C:2DB1"
 msgid "Well, then. Let me be more explicit. If you anger Malchir, it is my duty to see that the source of his irritation is removed. Forcibly if necessary. "
-msgstr ""
+msgstr "那好，我說得更明白一點。你要是激怒了馬爾奇爾，我的職責就是確保惹他生氣的東西被除掉。必要時就用武力。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Spellcraft? Tell me more of this. "
 msgctxt "bark 041C:2E69"
 msgid "Spells are our means of releasing and controlling the power of Fire. "
-msgstr ""
+msgstr "法術是我們釋放並控制火焰之力的手段。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me more of Earth. "
 msgctxt "bark 041C:2FB5"
 msgid "Earth is useful to Fire. It forms the channels through which Fire flows and provides the fuel by which it burns. The Mountain King and Lord of Flame have almost no conflict of wills. "
-msgstr ""
+msgstr "土對火有用。它形成火焰流動的通道，也提供燃燒的燃料。山之王與烈焰之主的意志幾乎沒有衝突。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me more of Earth. "
 msgctxt "ask 041C"
 msgid "Tell me of the Mountain King? "
-msgstr ""
+msgstr "說說山之王吧？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can you say of Water? "
 msgctxt "bark 041C:30E8"
 msgid "That element is anathema to Fire as the Lurker is the nemesis of the Lord of Flame. "
-msgstr ""
+msgstr "那種元素是火的大忌，就像潛伏者是烈焰之主的死敵。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can you say of Water? "
 msgctxt "ask 041C"
 msgid "Tell me of the Lurker? "
-msgstr ""
+msgstr "說說潛伏者吧？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I wish to know about Air. "
 msgctxt "bark 041C:3264"
 msgid "What is there to know? Air is at the beck and call of both Pyros and despised Hydros, and all but ignored by Lithos. Stratos is as weak as the those who follow her. "
-msgstr ""
+msgstr "有什麼好知道的？風任由派羅斯和可憎的海德羅斯使喚，利索斯則幾乎不理它。史特拉托斯跟她的追隨者一樣軟弱。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I wish to know about Air. "
 msgctxt "ask 041C"
 msgid "Who is Pyros? "
-msgstr ""
+msgstr "派羅斯是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I wish to know about Air. "
 msgctxt "ask 041C"
 msgid "Hydros, who is that? "
-msgstr ""
+msgstr "海德羅斯是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I wish to know about Air. "
 msgctxt "ask 041C"
 msgid "Who would Lithos be? "
-msgstr ""
+msgstr "利索斯又是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I wish to know about Air. "
 msgctxt "ask 041C"
 msgid "Tell me more of Stratos. "
-msgstr ""
+msgstr "多說說史特拉托斯。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Father of Daemons? "
 msgctxt "bark 041C:3387"
 msgid "Yes. All Daemons owe allegiance to Pyros for they are born when a life is ended in flames. "
-msgstr ""
+msgstr "沒錯。所有惡魔都效忠於派羅斯，因為牠們是在生命於火焰中終結時誕生的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You extort from the Tenebraens. "
 msgctxt "bark 041C:34ED"
 msgid "With that single statement you have proven your total lack of understanding of our position. Perhaps I should introduce you to our patron Titan personally. I am quite sure that the Lord of Flame could teach you our value. "
-msgstr ""
+msgstr "光憑這一句話，你就證明了你完全不了解我們的處境。也許我該親自把你介紹給我們的守護泰坦。我相信烈焰之主能讓你明白我們的價值。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "bark 041C:35C7"
 msgid "Your perceptions are both insightful and correct. Perhaps you have what it takes to become a Sorcerer. Does this prospect intrigue you? "
-msgstr ""
+msgstr "你的見解既有洞察力又正確。也許你有成為巫師的資質。這個前景讓你感興趣嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "bark 041C:3669"
 msgid "Excellent! I will personally see to your tutoring... that is after you perform one small service for me. "
-msgstr ""
+msgstr "太好了！我會親自指導你……不過得等你先替我辦一件小事。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "ask 041C"
 msgid "And what might that be? "
-msgstr ""
+msgstr "什麼事？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "ask 041C"
 msgid "I see. You need a lackey. "
-msgstr ""
+msgstr "我懂了。你需要一個跑腿的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "ask 041C"
 msgid "Wait. I only said I was intrigued. "
-msgstr ""
+msgstr "等等。我只是說我感興趣。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "ask 041C"
 msgid "Whatever you want, I'll do. "
-msgstr ""
+msgstr "你要我做什麼，我都做。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "bark 041C:3790"
 msgid "I see. You are one who is willing to be a kith brought to slaughter. The Fire does not burn in your heart as it does in mine. "
-msgstr ""
+msgstr "我明白了。你甘願當一隻被牽去屠宰的奇斯怪蛛。火焰在你心中燃燒得不如在我心中那樣熾烈。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "bark 041C:3817"
 msgid "Your lack of interest is echoed by mine. I don't really think you have what it takes to be one of us, anyway. "
-msgstr ""
+msgstr "你沒興趣，我也一樣。反正我也不認為你有資格成為我們的一員。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "bark 041C:38A9"
 msgid "So you have said before. Have you reconsidered your decision not to assist me? Will you seek the knowledge I wish? "
-msgstr ""
+msgstr "你之前就這麼說過了。你重新考慮過不幫我的決定了嗎？你願意去找我要的情報嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "ask 041C"
 msgid "I am sorry, but I must decline. "
-msgstr ""
+msgstr "抱歉，我必須拒絕。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Mountain King? "
 msgctxt "bark 041C:3A1D"
 msgid "Of course, how could one be born in Pagan and not know of the Earth Titan. His Necromancers attend to the dead and put them beneath the ground to become his servants. His dominion is over the land and death. "
-msgstr ""
+msgstr "當然，生在佩根的人怎麼可能不知道大地泰坦。他的死靈法師照料死者，把他們埋到地下成為他的僕人。他掌管大地與死亡。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Mountain King? "
 msgctxt "ask 041C"
 msgid "What do you know of Necromancers? "
-msgstr ""
+msgstr "你對死靈法師知道些什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Lurker? "
 msgctxt "bark 041C:3BCC"
 msgid "That foul entity long ago attempted to claim all the lands beneath her dark waters. She was thwarted by a Necromancer who became the first Tempest. Were it not for the Tempests, we Sorcerers would have no other choice than to release the Lord of Flame to do battle with her. "
-msgstr ""
+msgstr "那個邪惡的存在很久以前企圖讓所有土地沉入她黑暗的水底。一位後來成為第一任風暴使者的死靈法師阻止了她。要不是有風暴使者，我們巫師就別無選擇，只能釋放烈焰之主跟她決一死戰。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Lurker? "
 msgctxt "ask 041C"
 msgid "What can you say about Tempests? "
-msgstr ""
+msgstr "關於風暴使者，你能說些什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is Pyros? "
 msgctxt "bark 041C:3D11"
 msgid "Pyros is the name of the Lord of Flame, Titan of Fire. "
-msgstr ""
+msgstr "派羅斯是烈焰之主，也就是火焰泰坦的名字。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Hydros, who is that? "
 msgctxt "bark 041C:3DD3"
 msgid "That accursed name belongs to the Lurker, Titan of Water. "
-msgstr ""
+msgstr "那個可憎的名字屬於潛伏者，也就是海洋泰坦。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who would Lithos be? "
 msgctxt "bark 041C:3E95"
 msgid "He is called the Mountain King and is the Titan of Earth. "
-msgstr ""
+msgstr "他被稱為山之王，是大地泰坦。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me more of Stratos. "
 msgctxt "bark 041C:3FB5"
 msgid "She is the Titan of Air and is followed by the Order of Enlightment. A group of misguided mages, called Theurgists, led by a blind, old man. "
-msgstr ""
+msgstr "她是天空泰坦，追隨她的是啟蒙修會——一群被誤導的法師，叫做神術師，由一個瞎眼老頭帶領。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me more of Stratos. "
 msgctxt "ask 041C"
 msgid "Order of Enlightment? "
-msgstr ""
+msgstr "啟蒙修會？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me more of Stratos. "
 msgctxt "ask 041C"
 msgid "What do you know of Theurgists? "
-msgstr ""
+msgstr "你對神術師知道些什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me more of Stratos. "
 msgctxt "ask 041C"
 msgid "Tell me of this 'blind, old man.' "
-msgstr ""
+msgstr "說說這個「瞎眼老頭」。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "And what might that be? "
 msgctxt "bark 041C:40FB"
 msgid "I will tell you only once a deal has been struck. Fear not. I won't make you do something you will regret. Are you prepared to undertake my task? "
-msgstr ""
+msgstr "等我們談妥了，我才會告訴你。別擔心，我不會叫你做會讓你後悔的事。你準備好接下我的任務了嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I see. You need a lackey. "
 msgctxt "bark 041C:423A"
 msgid "I have no need of a lackey. The task I require to be fulfilled will take skill and guile. And if you think of yourself as a lackey, I have no need of you. "
-msgstr ""
+msgstr "我不需要跑腿的。我要人完成的任務需要技巧與機智。如果你把自己當成跑腿的，那我也不需要你。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Wait. I only said I was intrigued. "
 msgctxt "bark 041C:42F7"
 msgid "Then stop wasting my time! When you wish to deal in earnest, you may return. Until that time, you are dismissed. "
-msgstr ""
+msgstr "那就別浪費我的時間！等你真心想談再回來。在那之前，你可以退下了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Whatever you want, I'll do. "
 msgctxt "bark 041C:441B"
 msgid "Your enthusiasm is encouraging, however, your blind acceptance does not give me much faith in your ability to accomplish the task I've set for you. Ah, well. Only one way to find out. Are you prepared to undertake my task? "
-msgstr ""
+msgstr "你的熱忱令人鼓舞，不過你這樣盲目答應，倒讓我對你完成我交付任務的能力沒什麼信心。唉，好吧，只有一個辦法能知道。你準備好接下我的任務了嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you know of Necromancers? "
 msgctxt "bark 041C:44F9"
 msgid "They are the practitioners of the magic of death. "
-msgstr ""
+msgstr "他們是修習死亡魔法的人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can you say about Tempests? "
 msgctxt "bark 041C:45E6"
 msgid "Naught but that they provide a service to the people by keeping the storms that plague Pagan away from this island. "
-msgstr ""
+msgstr "只知道他們讓侵襲佩根的暴風雨遠離這座島，算是為人民提供了一項服務。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Order of Enlightment? "
 msgctxt "bark 041C:4699"
 msgid "They style themselves as a religious order, following their Mystic Voice. "
-msgstr ""
+msgstr "他們自稱是宗教修會，追隨他們的神秘之聲。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Order of Enlightment? "
 msgctxt "ask 041C"
 msgid "What is this Mystic Voice? "
-msgstr ""
+msgstr "這個神秘之聲是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you know of Theurgists? "
 msgctxt "bark 041C:47D3"
 msgid "They practice healing arts and it is said that their leader can even bring the dead back to life. All in all, they are a coven of weak fools afraid to die for a cause. "
-msgstr ""
+msgstr "他們修習治療之術，據說他們的領袖甚至能讓死人復活。總而言之，他們是一群不敢為理想而死的軟弱蠢貨。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of this 'blind, old man.' "
 msgctxt "bark 041C:48F8"
 msgid "Stellos is his name and some say he's lived forever. I must give credit to this rumor, for he was an old man when I was a boy, and he hasn't changed a bit as I've become a man. "
-msgstr ""
+msgstr "他叫史泰洛斯，有人說他永遠不會死。這傳言我倒是有幾分相信，因為我還是個孩子時他就已經是個老頭了，而我長大成人，他卻一點也沒變。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, I am prepared. "
 msgctxt "bark 041C:4A14"
 msgid "Excellent. The pact has been made. You will now be my Disciple. I sense that you are one of the rare individuals who the Fire has chosen. The Fire gives you the Truename: Daemion. "
-msgstr ""
+msgstr "很好。契約已經訂下了。你現在是我的門徒了。我感覺得到，你是被火焰選中的少數人之一。火焰賜你真名：戴蒙。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, I am prepared. "
 msgctxt "bark 041C:4ADF"
 msgid "Hold tightly to that name. It is your strength and also your weakness. My Truename is Morduin. I give it to you so that you may learn Sorcery from me. Reveal it upon pain of death. "
-msgstr ""
+msgstr "牢牢守住這個名字。它是你的力量，也是你的弱點。我的真名是莫杜因。我告訴你，是為了讓你能跟我學巫術。洩漏者死。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, I am prepared. "
 msgctxt "bark 041C:4BB7"
 msgid "The task you must perform is to gain the Truename of Bane. She is a deceptive and conniving wench. Do not be fooled by her apparent friendliness. It's a ruse. She is power hungry and ambitious. "
-msgstr ""
+msgstr "你必須完成的任務，是取得貝恩的真名。她是個狡詐又工於心計的女人。別被她表面上的友善騙了，那是詭計。她貪戀權力，野心勃勃。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, I am prepared. "
 msgctxt "bark 041C:4CAD"
 msgid "It is my belief that she seeks the death of the Master and myself in order to become the most powerful Sorcerer of Pagan. This is not a problem in and of itself. It is how she intends to go about it that causes the problem. "
-msgstr ""
+msgstr "我相信她想要大師和我的命，好成為佩根最強大的巫師。這本身並不是問題，問題在於她打算用什麼手段。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, I am prepared. "
 msgctxt "bark 041C:4D99"
 msgid "Were she to issue the Calling and challenge by the proper methods, I would surely defeat her, but knowing this, she intends to strike clandestinely. The factions that exist in the Enclave will war if this happens. "
-msgstr ""
+msgstr "要是她按正當程序發出召喚、向我挑戰，我一定能打敗她。但她也心知肚明，所以打算暗中下手。要是這樣，聚落裡的各派系就會開戰。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, I am prepared. "
 msgctxt "bark 041C:4E6C"
 msgid "The possibility of losing control of the Lord of Flame will vastly increase and should this catastrophe come to pass, Pagan will be doomed.*You must hurry. I know not when she will attack. "
-msgstr ""
+msgstr "失去對烈焰之主控制的可能性會大大增加，要是這場災難真的發生，佩根就完了。*你得快點。我不知道她什麼時候會動手。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Let me think on it more. "
 msgctxt "bark 041C:4EF3"
 msgid "You will not! I will have my answer now. "
-msgstr ""
+msgstr "不行！我現在就要你的答覆。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Let me think on it more. "
 msgctxt "ask 041C"
 msgid "I cannot accept an unknown task. "
-msgstr ""
+msgstr "我不能接受一個不知道內容的任務。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Let me think on it more. "
 msgctxt "bark 041C:5011"
 msgid "Very well, but remember, I am not a patient man. Do not delay over long, or I may retract my offer. "
-msgstr ""
+msgstr "好吧，但記住，我可不是有耐心的人。別拖太久，不然我可能會收回我的提議。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Let me think on it more. "
 msgctxt "bark 041C:5068"
 msgid "Be swift. I grow weary of waiting upon your answer. "
-msgstr ""
+msgstr "快點。我已經等你的答覆等得不耐煩了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Let me think on it more. "
 msgctxt "bark 041C:50DA"
 msgid "This capricious behavior begins to anger me. I will not endure it any further. "
-msgstr ""
+msgstr "你這反覆無常的態度開始惹惱我了。我不會再忍下去。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I won't do your dirty work! "
 msgctxt "bark 041C:517D"
 msgid "Dolt! You will regret ever having come to our Enclave! Prepare yourself for death! "
-msgstr ""
+msgstr "蠢材！你會後悔來到我們的聚落！準備受死吧！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is this Mystic Voice? "
 msgctxt "bark 041C:51E7"
 msgid "It is the alias of Stratos. "
-msgstr ""
+msgstr "那是史特拉托斯的別名。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot accept an unknown task. "
 msgctxt "bark 041C:52C7"
 msgid "I can understand your qualms, but put them to rest. I only seek a specific piece of information. Will you aid me? "
-msgstr ""
+msgstr "我能理解你的疑慮，不過放心吧。我只是要一項特定的情報。你願意幫我嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I am sorry, but I must decline. "
 msgctxt "bark 041C:53DA"
 msgid "Very well. Perhaps you will reconsider with time. "
-msgstr ""
+msgstr "好吧。也許過段時間你會重新考慮。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after ""
 msgctxt "bark 041C:5490"
 msgid "I can't understand you. What did you say? "
-msgstr ""
+msgstr "我聽不懂。你說什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after ""
 msgctxt "bark 041C:55D2"
 msgid "If it would not be too much to ask, Master, I would like to become your First Acolyte. I have experience in dealing with the duties involved, and I promise you will not find my abilities wanting. Will you accept me? "
-msgstr ""
+msgstr "如果不算奢求的話，大師，我想成為您的第一學徒。我有處理相關職責的經驗，我保證您不會覺得我能力不足。您願意接受我嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after ""
 msgctxt "bark 041C:563A"
 msgid "Thank you, Master! You won't regret this decision. "
-msgstr ""
+msgstr "謝謝您，大師！您不會後悔這個決定的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after ""
 msgctxt "bark 041C:56BB"
 msgid "I understand, Master. I won't take any more of your time. Whatever I have is, of course, yours to take. "
-msgstr ""
+msgstr "我明白，大師。我不會再占用您的時間了。我的一切，當然都任由您取用。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after ""
 msgctxt "bark 041C:5764"
 msgid "I hope I am performing my duties to your satisfaction. But I will attempt to improve them further. I must go now to return to my studies. "
-msgstr ""
+msgstr "希望我履行職責能讓您滿意。不過我會設法做得更好。我現在得回去研習了。"

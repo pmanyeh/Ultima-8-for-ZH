@@ -10,784 +10,940 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 msgctxt "bark 056F:00AB"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 5
 #. sentence template: keep the {placeholders}
 msgctxt "ask 056F"
 msgid "I am {name}."
-msgstr ""
+msgstr "我是{name}。"
 
+# P13 batch 5
 msgctxt "ask 056F"
 msgid "It is of little import. "
-msgstr ""
+msgstr "那不重要。"
 
+# P13 batch 5
 msgctxt "ask 056F"
 msgid "It is my business, not yours. "
-msgstr ""
+msgstr "那是我的事，不是你的事。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 056F:01E9"
 msgid "I don't care what your name is. I want to know who you are that you feel free to enter into the Sorcerer's Enclave without -my- permission. "
-msgstr ""
+msgstr "我不在乎你叫什麼名字。我想知道你是什麼人，竟敢未經「我」的許可就擅闖巫師聚落。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 056F"
 msgid "What do you want from me? "
-msgstr ""
+msgstr "你想從我這裡得到什麼？"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 056F"
 msgid "I merely seek knowledge. "
-msgstr ""
+msgstr "我只是在尋求知識。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 056F"
 msgid "I am a great hero! "
-msgstr ""
+msgstr "我是個偉大的英雄！"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 056F"
 msgid "I go where I will. "
-msgstr ""
+msgstr "我想去哪就去哪。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 056F"
 msgid "Why do I need -your- permission? "
-msgstr ""
+msgstr "我為什麼需要「你的」許可？"
 
+# P13 batch 5
 #. , after "Some call me the Avatar. "
 #. answer compared by the conversation code
 msgctxt "ask 056F"
 msgid "Some call me the Avatar. "
-msgstr ""
+msgstr "有人叫我聖者。"
 
+# P13 batch 5
 #. , after "Some call me the Avatar. "
 msgctxt "bark 056F:0343"
 msgid "Avatar? Strange title. Now, what I want to know is why you feel free to enter into the Sorcerer's Enclave without -my- permission. "
-msgstr ""
+msgstr "聖者？奇怪的稱號。好了，我想知道的是，你為什麼敢未經「我」的許可就擅闖巫師聚落。"
 
+# P13 batch 5
 #. , after "It is of little import. "
 msgctxt "bark 056F:0460"
 msgid "That's as it may be, but I will know who you are if you wish to remain here. "
-msgstr ""
+msgstr "或許吧，但你要是想留在這裡，我就得知道你是誰。"
 
+# P13 batch 5
 #. , after "It is my business, not yours. "
 msgctxt "bark 056F:0536"
 msgid "Is that so? You try my patience, and I have no patience. Begone fool! "
-msgstr ""
+msgstr "是嗎？你在考驗我的耐性，而我根本沒有耐性。滾吧，蠢貨！"
 
+# P13 batch 5
 #. , after "What do you want from me? "
 msgctxt "bark 056F:05B3"
 msgid "What I want is an intelligent response, intruder. "
-msgstr ""
+msgstr "我要的是一個有腦子的回答，入侵者。"
 
+# P13 batch 5
 #. , after "I merely seek knowledge. "
 msgctxt "bark 056F:0666"
 msgid "We don't give it away at the Enclave. It is earned. Tell me why you are here. "
-msgstr ""
+msgstr "在聚落裡，知識不是白送的，得靠自己掙來。告訴我你為什麼在這裡。"
 
+# P13 batch 5
 #. , after "Why do I need -your- permission? "
 msgctxt "bark 056F:070C"
 msgid "Because I run this place... for all intents and purposes. "
-msgstr ""
+msgstr "因為這地方是我在管……實際上是這樣。"
 
+# P13 batch 5
 #. , after "I go where I will. "
 msgctxt "bark 056F:07D8"
 msgid "Ah some Fire in you after all! But in truth, while you are here, you go only where I say. Understood? "
-msgstr ""
+msgstr "啊，你身上終究還是有點火氣！不過說真的，你在這裡的時候，只能去我准許的地方。明白嗎？"
 
+# P13 batch 5
 #. , after "I go where I will. "
 msgctxt "bark 056F:0828"
 msgid "Good. I'm glad we see eye to eye. "
-msgstr ""
+msgstr "很好。很高興我們看法一致。"
 
+# P13 batch 5
 #. , after "I go where I will. "
 msgctxt "bark 056F:0893"
 msgid "I did not misspeak myself. You go where I allow you or you die. It's that simple. "
-msgstr ""
+msgstr "我沒說錯。你只能去我准許的地方，不然就死。就這麼簡單。"
 
+# P13 batch 5
 #. , after "I am a great hero! "
 msgctxt "bark 056F:0923"
 msgid "Maybe where you come from, but here you're nothing unless I say you're something. "
-msgstr ""
+msgstr "在你來的地方也許是，但在這裡，除非我說你是個人物，否則你什麼都不是。"
 
+# P13 batch 5
 #. , after "I am a great hero! "
 msgctxt "ask 056F"
 msgid "Ah, I see. "
-msgstr ""
+msgstr "啊，我懂了。"
 
+# P13 batch 5
 #. , after "I am a great hero! "
 msgctxt "ask 056F"
 msgid "No really, I am a great hero. "
-msgstr ""
+msgstr "不，真的，我是個偉大的英雄。"
 
+# P13 batch 5
 #. , after "I am a great hero! "
 msgctxt "ask 056F"
 msgid "This from one who is nothing. "
-msgstr ""
+msgstr "這話竟出自一個什麼都不是的人。"
 
+# P13 batch 5
 #. , after "No really, I am a great hero. "
 msgctxt "bark 056F:09E6"
 msgid "Yes, yes, yes. I'm sure you are, child. "
-msgstr ""
+msgstr "是是是。我相信你是，孩子。"
 
+# P13 batch 5
 #. , after "This from one who is nothing. "
 msgctxt "bark 056F:0A8B"
 msgid "I have no qualms about killing you, fool. In fact, I might gain pleasure from the exercise. "
-msgstr ""
+msgstr "殺了你我一點都不會內疚，蠢貨。事實上，這活動說不定還能讓我樂一樂。"
 
+# P13 batch 5
 #. , after "This from one who is nothing. "
 msgctxt "ask 056F"
 msgid "You take pleasure in pain? "
-msgstr ""
+msgstr "你以痛苦為樂？"
 
+# P13 batch 5
 #. , after "This from one who is nothing. "
 msgctxt "ask 056F"
 msgid "Aye, exercise would do you good. "
-msgstr ""
+msgstr "是啊，活動活動對你有好處。"
 
+# P13 batch 5
 #. , after "Ah, I see. "
 msgctxt "bark 056F:0B35"
 msgid "Good. I'm glad that you do. "
-msgstr ""
+msgstr "很好。很高興你懂。"
 
+# P13 batch 5
 #. , after "Aye, exercise would do you good. "
 msgctxt "bark 056F:0BE3"
 msgid "What do you mean by that, knave? I could burn you to ashes, if I had a mind to. "
-msgstr ""
+msgstr "你這話什麼意思，無賴？只要我有心，就能把你燒成灰。"
 
+# P13 batch 5
 #. , after "Aye, exercise would do you good. "
 msgctxt "ask 056F"
 msgid "I mean, perhaps you should eat less. "
-msgstr ""
+msgstr "我是說，也許你該少吃點。"
 
+# P13 batch 5
 #. , after "Aye, exercise would do you good. "
 msgctxt "ask 056F"
 msgid "If only you had a mind. "
-msgstr ""
+msgstr "只可惜你沒有「心」也沒有腦。"
 
+# P13 batch 5
 #. , after "You take pleasure in pain? "
 msgctxt "bark 056F:0D13"
 msgid "Only that of my enemies. I was merely saying that you should have a care for your own welfare. Insulting your betters can be hazardous to your health. "
-msgstr ""
+msgstr "只以敵人的痛苦為樂。我只是說，你該為自己的安危著想。侮辱比你高明的人，可是有害健康的。"
 
+# P13 batch 5
 #. , after "You take pleasure in pain? "
 msgctxt "ask 056F"
 msgid "I didn't know you cared. "
-msgstr ""
+msgstr "我不知道你這麼關心我。"
 
+# P13 batch 5
 #. , after "You take pleasure in pain? "
 msgctxt "ask 056F"
 msgid "You think you are my better? "
-msgstr ""
+msgstr "你以為你比我高明？"
 
+# P13 batch 5
 #. , after "I didn't know you cared. "
 msgctxt "bark 056F:0DAC"
 msgid "I don't. "
-msgstr ""
+msgstr "我才不關心。"
 
+# P13 batch 5
 #. , after "You think you are my better? "
 msgctxt "bark 056F:0E4D"
 msgid "It is a true fact. You are a stranger, whereas I lead these people... for the most part. "
-msgstr ""
+msgstr "這是事實。你是外地人，而我領導這些人……大致上是這樣。"
 
+# P13 batch 5
 #. , after "I mean, perhaps you should eat less. "
 msgctxt "bark 056F:0EF9"
 msgid "Are you insinuating that my physique is less than ideal? I could break you like a dry twig. "
-msgstr ""
+msgstr "你是在暗示我的體格不夠理想嗎？我能像折斷枯枝一樣折斷你。"
 
+# P13 batch 5
 #. , after "I mean, perhaps you should eat less. "
 msgctxt "ask 056F"
 msgid "What physique? I see no physique. "
-msgstr ""
+msgstr "什麼體格？我沒看到什麼體格。"
 
+# P13 batch 5
 #. , after "I mean, perhaps you should eat less. "
 msgctxt "ask 056F"
 msgid "Your physique is ideal... for a cow. "
-msgstr ""
+msgstr "你的體格很理想……對一頭母牛來說。"
 
+# P13 batch 5
 #. , after "What physique? I see no physique. "
 msgctxt "bark 056F:1006"
 msgid "You play the fool to make jest at my expense, but be wary. I will not take more of your insolence. "
-msgstr ""
+msgstr "你裝瘋賣傻拿我開玩笑，但給我小心點。我不會再忍受你的無禮。"
 
+# P13 batch 5
 #. , after "What physique? I see no physique. "
 msgctxt "ask 056F"
 msgid "I am not insolent, merely honest. "
-msgstr ""
+msgstr "我不是無禮，只是誠實。"
 
+# P13 batch 5
 #. , after "What physique? I see no physique. "
 msgctxt "ask 056F"
 msgid "But I've just begun to be insolent. "
-msgstr ""
+msgstr "可是我才剛開始無禮呢。"
 
+# P13 batch 5
 #. , after "Your physique is ideal... for a cow. "
 msgctxt "bark 056F:110F"
 msgid "I don't know what this -cow- you speak of is, but I mislike your tone. Run along, boy. "
-msgstr ""
+msgstr "我不知道你說的「母牛」是什麼，但我不喜歡你的口氣。滾吧，小子。"
 
+# P13 batch 5
 #. , after "If only you had a mind. "
 msgctxt "bark 056F:11A9"
 msgid "I am a forgiving man, but you go too far. I will not take more of your isolence. "
-msgstr ""
+msgstr "我是個寬宏大量的人，但你太過分了。我不會再忍受你的無禮。"
 
+# P13 batch 5
 #. , after "I am not insolent, merely honest. "
 msgctxt "bark 056F:129C"
 msgid "Honesty can be as deadly as deceit if it is not tempered by wisdom. "
-msgstr ""
+msgstr "不以智慧調和的誠實，跟欺騙一樣致命。"
 
+# P13 batch 5
 #. , after "I am not insolent, merely honest. "
 msgctxt "ask 056F"
 msgid "Deceit... a thing you know well? "
-msgstr ""
+msgstr "欺騙……是你很熟悉的東西？"
 
+# P13 batch 5
 #. , after "I am not insolent, merely honest. "
 msgctxt "ask 056F"
 msgid "What do you know of wisdom? "
-msgstr ""
+msgstr "你懂什麼智慧？"
 
+# P13 batch 5
 #. , after "But I've just begun to be insolent. "
 msgctxt "bark 056F:13A5"
 msgid "Your skull will make a fine flagon when I'm done with you. Prepare to meet the Lord of Flame, infidel! "
-msgstr ""
+msgstr "等我收拾完你，你的頭骨正好拿來當酒壺。準備去見烈焰之主吧，異教徒！"
 
+# P13 batch 5
 #. , after "Deceit... a thing you know well? "
 msgctxt "bark 056F:146F"
 msgid "Know one thing, infidel, I never -- ever break my word. Why should I defend myself before one such as you? Leave me be. "
-msgstr ""
+msgstr "記住一件事，異教徒，我從不——從不食言。我何必在你這種人面前為自己辯護？別來煩我。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1513"
 msgid "Your tenure on Pagan has ended, dolt! I remand you into the care of the Lord of Flame. "
-msgstr ""
+msgstr "你在佩根的日子到頭了，蠢材！我把你交給烈焰之主照顧。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:155E"
 msgid "Answer me, stranger. "
-msgstr ""
+msgstr "回答我，陌生人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:15A5"
 msgid "You will answer me or you will leave. "
-msgstr ""
+msgstr "要嘛回答我，要嘛滾。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:15F8"
 msgid "I give you one last chance to answer me promptly. "
-msgstr ""
+msgstr "我給你最後一次機會，馬上回答我。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:166A"
 msgid "I'm not your servant and I refuse to wait upon you! Go now, and do not disturb me again. "
-msgstr ""
+msgstr "我不是你的僕人，我才不等你！現在就走，別再來煩我。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:16D3"
 msgid "Now then, I am a busy man. What do you want of me? "
-msgstr ""
+msgstr "那麼，我很忙。你找我有什麼事？"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1746"
 msgid "What do you need, Disciple? "
-msgstr ""
+msgstr "你需要什麼，門徒？"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:17CB"
 msgid "Well, do you have her Truename? "
-msgstr ""
+msgstr "怎麼樣，你拿到她的真名了嗎？"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1811"
 msgid "Do you know what Bane's Truename is? "
-msgstr ""
+msgstr "你知道貝恩的真名是什麼了嗎？"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:184B"
 msgid "Have you accomplished your task? "
-msgstr ""
+msgstr "你完成任務了嗎？"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:18A2"
 msgid "How can I help you, friend? "
-msgstr ""
+msgstr "有什麼我能幫你的，朋友？"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 056F:190F"
 msgid "Good tidings,  {name}."
-msgstr ""
+msgstr "你好，{name}。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:190F"
 msgid "Good tidings,  my alien friend. "
-msgstr ""
+msgstr "你好，我的異鄉朋友。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1947"
 msgid "Greetings, offworlder. "
-msgstr ""
+msgstr "你好，異界人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1980"
 msgid "Greetings, Earthling. "
-msgstr ""
+msgstr "你好，地球人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:19BA"
 msgid "Greetings, Britannian. "
-msgstr ""
+msgstr "你好，不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1A2A"
 msgid "I have no time for idle conversation. Ask your questions and be done with it. "
-msgstr ""
+msgstr "我沒空閒聊。有問題就問，問完就走。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1A61"
 msgid "What do you want now? "
-msgstr ""
+msgstr "你又要做什麼？"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1A81"
 msgid "What?! "
-msgstr ""
+msgstr "什麼？！"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1ACD"
 msgid "Well. Are you prepared to undertake my task? "
-msgstr ""
+msgstr "怎麼樣？你準備好接下我的任務了嗎？"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1B0A"
 msgid "Will you undertake my task? "
-msgstr ""
+msgstr "你願意接下我的任務嗎？"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1B4C"
 msgid "The task awaits. Are you ready to begin? "
-msgstr ""
+msgstr "任務在等著你。你準備好開始了嗎？"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1BC0"
 msgid "Depart now or face my wrath. I do not take kindly to mischievous interlopers. "
-msgstr ""
+msgstr "現在就走，不然就承受我的怒火。我最討厭搗亂的闖入者。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1C0C"
 msgid "Leave this place. You are not needed here. "
-msgstr ""
+msgstr "離開這裡。這裡不需要你。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1C55"
 msgid "Go now, for we have nothing further to discuss. "
-msgstr ""
+msgstr "現在就走吧，我們沒什麼好談的了。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1CD6"
 msgid "You have earned my wrath. I hold back your destruction now only by sheer force of will. "
-msgstr ""
+msgstr "你已經惹怒我了。我現在全憑意志力，才忍住沒毀了你。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1D1E"
 msgid "You tempt your fate by remaining here. "
-msgstr ""
+msgstr "你留在這裡是在拿你的命開玩笑。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1D92"
 msgid "I find you unfit to walk upon this Enclave's soil. Leave now and your life will be spared. "
-msgstr ""
+msgstr "我認為你不配踏上這座聚落的土地。現在離開，就饒你一命。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1E31"
 msgid "The foolish are said to die young. I don't expect you'll see your elder years. "
-msgstr ""
+msgstr "俗話說，愚者早死。我看你是活不到老了。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1E7D"
 msgid "Do not disturb me or my Sorcerers further. "
-msgstr ""
+msgstr "別再打擾我和我的巫師們。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1EA3"
 msgid "Leave me be. "
-msgstr ""
+msgstr "別來煩我。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1F42"
 msgid "I have been lenient up until now. If you so much as breathe in my direction... make no mistake... you will regret it. "
-msgstr ""
+msgstr "到目前為止我一直很寬容。你要是敢朝我這邊喘一口氣……別懷疑……你會後悔的。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1FAB"
 msgid "If you return, I will become angered. You won't like me when I'm angry. "
-msgstr ""
+msgstr "你要是再回來，我就會生氣。我生氣起來，你可不會喜歡。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:1FDF"
 msgid "Go now, and do not return. "
-msgstr ""
+msgstr "現在就走，別再回來。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2019"
 msgid "Farewell, Disciple. "
-msgstr ""
+msgstr "再會，門徒。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:205E"
 msgid "Return when you seek more training. "
-msgstr ""
+msgstr "需要更多訓練時再來吧。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:20AD"
 msgid "If I could only remember where I put the brimstone... "
-msgstr ""
+msgstr "要是我能想起我把硫磺放哪就好了……"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:20F6"
 msgid "Leave me and accomplish your task. "
-msgstr ""
+msgstr "離開這裡，去完成你的任務。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2144"
 msgid "When you have Bane's Truename, return to me. "
-msgstr ""
+msgstr "拿到貝恩的真名後，再回來找我。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2189"
 msgid "Go now. Do not return without her Truename. "
-msgstr ""
+msgstr "現在就去。沒拿到她的真名就別回來。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Keep the Fire burning,   offworlder. Earthling. Britannian. "
-msgstr ""
+msgstr "讓火焰永燃吧，異界人。地球人。不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Keep the Fire burning,   offworlder. Earthling. "
-msgstr ""
+msgstr "讓火焰永燃吧，異界人。地球人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Keep the Fire burning,   offworlder. Britannian. "
-msgstr ""
+msgstr "讓火焰永燃吧，異界人。不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Keep the Fire burning,   offworlder. "
-msgstr ""
+msgstr "讓火焰永燃吧，異界人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Keep the Fire burning,   Earthling. Britannian. "
-msgstr ""
+msgstr "讓火焰永燃吧，地球人。不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Keep the Fire burning,   Earthling. "
-msgstr ""
+msgstr "讓火焰永燃吧，地球人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Keep the Fire burning,   Britannian. "
-msgstr ""
+msgstr "讓火焰永燃吧，不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Keep the Fire burning,   "
-msgstr ""
+msgstr "讓火焰永燃吧，"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Go with the Guardian,   offworlder. Earthling. Britannian. "
-msgstr ""
+msgstr "願守護者與你同行，異界人。地球人。不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Go with the Guardian,   offworlder. Earthling. "
-msgstr ""
+msgstr "願守護者與你同行，異界人。地球人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Go with the Guardian,   offworlder. Britannian. "
-msgstr ""
+msgstr "願守護者與你同行，異界人。不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Go with the Guardian,   offworlder. "
-msgstr ""
+msgstr "願守護者與你同行，異界人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Go with the Guardian,   Earthling. Britannian. "
-msgstr ""
+msgstr "願守護者與你同行，地球人。不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Go with the Guardian,   Earthling. "
-msgstr ""
+msgstr "願守護者與你同行，地球人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Go with the Guardian,   Britannian. "
-msgstr ""
+msgstr "願守護者與你同行，不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Go with the Guardian,   "
-msgstr ""
+msgstr "願守護者與你同行，"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Farewell,  offworlder. Earthling. Britannian. "
-msgstr ""
+msgstr "再會，異界人。地球人。不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Farewell,  offworlder. Earthling. "
-msgstr ""
+msgstr "再會，異界人。地球人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Farewell,  offworlder. Britannian. "
-msgstr ""
+msgstr "再會，異界人。不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Farewell,  offworlder. "
-msgstr ""
+msgstr "再會，異界人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Farewell,  Earthling. Britannian. "
-msgstr ""
+msgstr "再會，地球人。不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Farewell,  Earthling. "
-msgstr ""
+msgstr "再會，地球人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Farewell,  Britannian. "
-msgstr ""
+msgstr "再會，不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2270"
 msgid "Farewell,  "
-msgstr ""
+msgstr "再會，"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:22BA"
 msgid "Disturb the Sorcerers here at your own risk. "
-msgstr ""
+msgstr "打擾這裡的巫師，後果自負。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:22F4"
 msgid "Now, what was I doing... "
-msgstr ""
+msgstr "我剛才在做什麼來著……"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2335"
 msgid "I must remember to replace the wards... "
-msgstr ""
+msgstr "我得記得更換結界……"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2492"
 msgid "I really must be about my business, Earthling. "
-msgstr ""
+msgstr "我真的得去忙我的事了，地球人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2492"
 msgid "I really must be about my business, Britannian. "
-msgstr ""
+msgstr "我真的得去忙我的事了，不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 056F:2492"
 msgid "I really must be about my business, {name}."
-msgstr ""
+msgstr "我真的得去忙我的事了，{name}。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2492"
 msgid "I really must be about my business, my offworlder friend. "
-msgstr ""
+msgstr "我真的得去忙我的事了，我的異界朋友。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2492"
 msgid "I must return to my work, Earthling. "
-msgstr ""
+msgstr "我得回去工作了，地球人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2492"
 msgid "I must return to my work, Britannian. "
-msgstr ""
+msgstr "我得回去工作了，不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 056F:2492"
 msgid "I must return to my work, {name}."
-msgstr ""
+msgstr "我得回去工作了，{name}。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2492"
 msgid "I must return to my work, my offworlder friend. "
-msgstr ""
+msgstr "我得回去工作了，我的異界朋友。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2492"
 msgid "When your thoughts are collected come and speak with me, Earthling. "
-msgstr ""
+msgstr "等你想清楚了，再來找我談，地球人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2492"
 msgid "When your thoughts are collected come and speak with me, Britannian. "
-msgstr ""
+msgstr "等你想清楚了，再來找我談，不列顛尼亞人。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 056F:2492"
 msgid "When your thoughts are collected come and speak with me, {name}."
-msgstr ""
+msgstr "等你想清楚了，再來找我談，{name}。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2492"
 msgid "When your thoughts are collected come and speak with me, my offworlder friend. "
-msgstr ""
+msgstr "等你想清楚了，再來找我談，我的異界朋友。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:24D8"
 msgid "I grow weary of your games. Leave me be. "
-msgstr ""
+msgstr "我受夠你的把戲了。別來煩我。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:2539"
 msgid "Speak to me only when you have something to say, or not at all. "
-msgstr ""
+msgstr "有話要說再跟我說，沒有就閉嘴。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "bark 056F:258E"
 msgid "I cannot abide your ill manners. Or is it perhaps slow wit? "
-msgstr ""
+msgstr "我受不了你的無禮。還是說，你只是腦筋遲鈍？"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "ask 056F"
 msgid "I must learn to hold my tongue. "
-msgstr ""
+msgstr "我得學會管住自己的嘴。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "ask 056F"
 msgid "Forgive me. I have offended you. "
-msgstr ""
+msgstr "原諒我。我冒犯你了。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "ask 056F"
 msgid "Do not turn away from me, rogue. "
-msgstr ""
+msgstr "別轉身不理我，惡棍。"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "ask 056F"
 msgid "You will do as I say, knave! "
-msgstr ""
+msgstr "照我說的做，無賴！"
 
+# P13 batch 5
 #. , after "What do you know of wisdom? "
 msgctxt "ask 056F"
 msgid "Never mind. "
-msgstr ""
+msgstr "算了。"
 
+# P13 batch 5
 #. , after "I must learn to hold my tongue. "
 msgctxt "bark 056F:2711"
 msgid "I would have to agree. "
-msgstr ""
+msgstr "這點我不得不同意。"
 
+# P13 batch 5
 #. , after "Forgive me. I have offended you. "
 msgctxt "bark 056F:2814"
 msgid "I am not so thin-skinned as to be offended by your remarks, but it shows prudence that you saw them to be offensive and can accept fault for your error. What do you want? "
-msgstr ""
+msgstr "我可沒那麼小心眼，會被你的話冒犯。不過你能看出那些話冒犯人，還能認錯，這表示你還算謹慎。你要做什麼？"
 
+# P13 batch 5
 #. , after "Do not turn away from me, rogue. "
 msgctxt "bark 056F:28CD"
 msgid "You will not adress me in such a manner! I am not accustomed to being ordered by inferiors. "
-msgstr ""
+msgstr "不准你用這種口氣跟我說話！我可不習慣被下等人命令。"
 
+# P13 batch 5
 #. , after "You will do as I say, knave! "
 msgctxt "bark 056F:29D2"
 msgid "By the blood of the Destroyer! I'll have your eyes for a necklace! "
-msgstr ""
+msgstr "以毀滅者之血起誓！我要把你的眼珠子做成項鍊！"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 056F:2AC4"
 msgid "Something you said was wrong. Giant, blue letters appeared, blazing across the sky. It's a sign from Pyros! "
-msgstr ""
+msgstr "你說的話有個地方不對。巨大的藍色字母出現了，在天空中熊熊燃燒。這是派羅斯的徵兆！"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 056F:2B94"
 msgid "What is it?! You must hurry. We have no time to waste. I must begin the ritual, now. "
-msgstr ""
+msgstr "是什麼？！你得快點。我們沒時間浪費了。我必須馬上開始儀式。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 056F:2C42"
 msgid "There is no time for conversation. You must get her Truename. Only that will allow me to avert the coming disaster, and quite possibly my own death. "
-msgstr ""
+msgstr "沒時間聊天了。你必須拿到她的真名。只有那樣，我才能避免即將到來的災難，還很可能保住我自己的命。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 056F"
 msgid "I don't know it yet. "
-msgstr ""
+msgstr "我還不知道。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 056F"
 msgid " Sabriane."
-msgstr ""
+msgstr "莎布莉安。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 056F"
 msgid " Bane."
-msgstr ""
+msgstr "貝恩。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 056F"
 msgid " Daemion."
-msgstr ""
+msgstr "戴蒙。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 056F"
 msgid " Morduin."
-msgstr ""
+msgstr "莫杜因。"
 
+# P13 batch 5
 #. , after " Bane."
 msgctxt "bark 056F:2D7A"
 msgid "That name has no use to me, dolt. I said get her Truename. Go! Do not return without it. "
-msgstr ""
+msgstr "那個名字對我沒用，蠢材。我說了要她的真名。去！沒拿到就別回來。"
 
+# P13 batch 5
 #. , after " Daemion."
 msgctxt "bark 056F:2E1E"
 msgid "Fool! That is most definitely not her Truename. And if you don't get it quickly, you'll have no use for yours. "
-msgstr ""
+msgstr "蠢貨！那絕對不是她的真名。要是你不趕快弄到，你自己的真名也用不著了。"
 
+# P13 batch 5
 #. , after " Morduin."
 msgctxt "bark 056F:2EC2"
 msgid "How can one be so stupid? Must I be surrounded by incompetents? Get Bane's Truename, or face the consequences. "
-msgstr ""
+msgstr "怎麼有人能這麼蠢？難道我身邊全是些無能的傢伙？去弄到貝恩的真名，不然就等著承擔後果。"
 
+# P13 batch 5
 #. , after "I don't know it yet. "
 msgctxt "bark 056F:2F67"
 msgid "Do not waste time with your lies. Get me her Truename or you'll die before she can kill me! "
-msgstr ""
+msgstr "別拿你的謊話浪費時間。去給我弄到她的真名，不然在她殺我之前，你就先死了！"
 
+# P13 batch 5
 #. , after "I don't know it yet. "
 msgctxt "bark 056F:2FEC"
 msgid "I have had enough of you, fool! There won't be enough of you left to inter when I'm done with you! "
-msgstr ""
+msgstr "我受夠你了，蠢貨！等我收拾完你，你剩下的東西連埋都不夠埋！"
 
+# P13 batch 5
 #. , after " Sabriane."
 msgctxt "bark 056F:3085"
 msgid "A weak name for a weakling Sorcerer. Watch now what a real Sorcerer can do, my Disciple. "
-msgstr ""
+msgstr "軟弱的巫師配軟弱的名字。看好了，我的門徒，看看真正的巫師能做什麼。"
 
+# P13 batch 5
 #. , after " Sabriane."
 msgctxt "bark 056F:31A2"
 msgid "If you have her Truename and won't reveal it, you are breaching our contract. If you don't know it, you are insolent. In either case, I will not wait upon your leisure. Return only when you can give me Bane's Truename. "
-msgstr ""
+msgstr "如果你拿到了她的真名卻不肯說，那你就是違約。如果你不知道，那你就是無禮。不管哪一種，我都不會等你慢慢來。等你能告訴我貝恩的真名時再回來。"

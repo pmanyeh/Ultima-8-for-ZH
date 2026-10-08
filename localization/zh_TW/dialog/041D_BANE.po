@@ -10,693 +10,831 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041D:0158"
 msgid "I see you are a thief. Then perish as one. "
-msgstr ""
+msgstr "原來你是個賊。那就像賊一樣死吧。"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041D:01AE"
 msgid "Leave that alone. "
-msgstr ""
+msgstr "別碰那個。"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041D:01FC"
 msgid "Will you leave my things alone? "
-msgstr ""
+msgstr "你能別碰我的東西嗎？"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041D:0254"
 msgid "You are close to death my foolish friend. "
-msgstr ""
+msgstr "你離死不遠了，我愚蠢的朋友。"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041D:0293"
 msgid "Your death is your own doing. "
-msgstr ""
+msgstr "你的死是你自找的。"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041D:030A"
 msgid "Bane the dead Sorcerer "
-msgstr ""
+msgstr "死去的巫師貝恩"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041D:0335"
 msgid "Bane the Sorcerer "
-msgstr ""
+msgstr "巫師貝恩"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041D:0373"
 msgid "the deceased Bane "
-msgstr ""
+msgstr "已故的貝恩"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041D:0390"
 msgid "Bane"
-msgstr ""
+msgstr "貝恩"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041D:03CA"
 msgid "dead Sorcerer "
-msgstr ""
+msgstr "死去的巫師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041D:03EC"
 msgid "Sorcerer "
-msgstr ""
+msgstr "巫師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041D:041B"
 msgid "dead mage "
-msgstr ""
+msgstr "死去的法師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041D:0439"
 msgid "mage "
-msgstr ""
+msgstr "法師"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041D"
 msgid "Tell me of the Enclave and Morgaelin. "
-msgstr ""
+msgstr "說說巫師聚落和摩加林。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041D"
 msgid "What is a Truename? "
-msgstr ""
+msgstr "真名是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041D"
 msgid "Tell me of the Elder Tongue. "
-msgstr ""
+msgstr "說說古老之語。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041D"
 msgid "I agree to your terms. "
-msgstr ""
+msgstr "我同意你的條件。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041D"
 msgid "What else can you offer? "
-msgstr ""
+msgstr "你還能提供什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041D"
 msgid "I will not be your spy, lady. "
-msgstr ""
+msgstr "我不會當你的間諜，女士。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041D"
 msgid "I do not trust -your- motives. "
-msgstr ""
+msgstr "我不信任「你的」動機。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041D"
 msgid "Let me think on it. "
-msgstr ""
+msgstr "讓我考慮一下。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Farewell. "
 #. answer compared by the conversation code
 msgctxt "ask 041D"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Farewell. "
 msgctxt "bark 041D:0985"
 msgid "Is there anything else that you would wish to discuss? "
-msgstr ""
+msgstr "還有什麼想談的嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Enclave and Morgaelin. "
 msgctxt "bark 041D:0B47"
 msgid "The Sorcerer's Enclave sits in the arms of Daemon's Crag, over-topped by Mount Morgaelin. The volcano is the namesake of the island. "
-msgstr ""
+msgstr "巫師聚落坐落在惡魔崖的懷抱中，上方聳立著摩加林山。這座島就是以這座火山命名的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Enclave and Morgaelin. "
 msgctxt "ask 041D"
 msgid "Tell me about Sorcerers. "
-msgstr ""
+msgstr "說說巫師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Enclave and Morgaelin. "
 msgctxt "ask 041D"
 msgid "Why is the crag named after Daemons? "
-msgstr ""
+msgstr "這座山崖為什麼以惡魔命名？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Enclave and Morgaelin. "
 msgctxt "ask 041D"
 msgid "Does Morgaelin have a meaning? "
-msgstr ""
+msgstr "摩加林有什麼含意嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is a Truename? "
 msgctxt "bark 041D:0D35"
 msgid "I see by your question that you are unlearned in the ways of Sorcery, and Sorcerers for that matter. A Truename is the name given a Sorcerer when she begins her training. The names you chose later or were given before have no power. I am called Bane, although that is not my Truename. "
-msgstr ""
+msgstr "從你的問題看來，你對巫術之道一無所知，對巫師也是。真名是巫師開始修習時被賜予的名字。在那之前得到的名字，或是之後自己取的名字，都沒有力量。大家叫我貝恩，不過那不是我的真名。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is a Truename? "
 msgctxt "ask 041D"
 msgid "What is your Truename? "
-msgstr ""
+msgstr "你的真名是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is a Truename? "
 msgctxt "ask 041D"
 msgid "What is Sorcery? "
-msgstr ""
+msgstr "巫術是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is a Truename? "
 msgctxt "ask 041D"
 msgid "Power over what? "
-msgstr ""
+msgstr "對什麼的力量？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Elder Tongue. "
 msgctxt "bark 041D:0F1D"
 msgid "That is my speciality, for I am an avid student of the language and all languages for that matter. The Elder Tongue allows Sorcerers such as myself to unleash or bind Fire. All Acolytes must learn it to create the enchanted tools of our trade. "
-msgstr ""
+msgstr "那正是我的專長，因為我熱衷於研究這種語言，其實所有語言我都熱衷。古老之語讓像我這樣的巫師能夠釋放或束縛火焰。所有學徒都必須學會它，才能製作我們這一行的附魔工具。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Elder Tongue. "
 msgctxt "ask 041D"
 msgid "What do you mean by Fire? "
-msgstr ""
+msgstr "你說的火是什麼意思？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Elder Tongue. "
 msgctxt "ask 041D"
 msgid "What is an Acolyte? "
-msgstr ""
+msgstr "學徒是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Elder Tongue. "
 msgctxt "ask 041D"
 msgid "Enchanted tools? "
-msgstr ""
+msgstr "附魔工具？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about Sorcerers. "
 msgctxt "bark 041D:10E1"
 msgid "If you wish, but know this: the real power of the Truename will only be given to one initiated in our ways. Would you know about the current Sorcerers, or perhaps some of those that went before? "
-msgstr ""
+msgstr "如果你想知道，那好，但要記住：真名真正的力量，只會傳給入了我們門的人。你想知道現在的巫師，還是以前的巫師？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about Sorcerers. "
 msgctxt "ask 041D"
 msgid "Current. "
-msgstr ""
+msgstr "現在的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about Sorcerers. "
 msgctxt "ask 041D"
 msgid "Those that went before. "
-msgstr ""
+msgstr "以前的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is the crag named after Daemons? "
 msgctxt "bark 041D:1224"
 msgid "Long ago, this was the place where the first Daemon appeared. Would you care to hear the tale? "
-msgstr ""
+msgstr "很久以前，這裡是第一隻惡魔出現的地方。你想聽這個故事嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is the crag named after Daemons? "
 msgctxt "bark 041D:12E3"
 msgid "A man and his only daughter, Arianna, were pursued up this crag by Zealans who wished to take his life... and more from his daughter. "
-msgstr ""
+msgstr "有個男人和他唯一的女兒艾莉安娜，被澤蘭人追趕到這座山崖上。那些澤蘭人想要他的命……還想從他女兒身上得到更多。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is the crag named after Daemons? "
 msgctxt "bark 041D:1359"
 msgid "The Zealans cornered the man and his child upon the cliffs overlooking the fiery river of lava. "
-msgstr ""
+msgstr "澤蘭人把男人和他的孩子逼到俯瞰著火紅熔岩河的懸崖上。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is the crag named after Daemons? "
 msgctxt "bark 041D:142A"
 msgid "At last seeing all hope of escape vanish, the man decided that he would rather his daughter go to a quick, if painful death, than go to the fate the brutish Zealans had in store for her. "
-msgstr ""
+msgstr "眼看逃脫的希望全都破滅，男人決定，與其讓女兒落入那些粗暴的澤蘭人手中受辱，不如讓她死個痛快，即使那會很痛苦。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is the crag named after Daemons? "
 msgctxt "bark 041D:149E"
 msgid "Tears in his eyes, he threw his lovely daughter into the lava and turned to face the Zealans. "
-msgstr ""
+msgstr "他含著眼淚，把他可愛的女兒拋進熔岩，轉身面對澤蘭人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is the crag named after Daemons? "
 msgctxt "bark 041D:1538"
 msgid "Just as they were about to finish off the badly wounded man, a hideous, redish beast leaped out of the lava and slew them to a man. "
-msgstr ""
+msgstr "就在他們要了結那個身受重傷的男人時，一頭醜惡的紅色野獸從熔岩中躍出，把他們殺得一個不剩。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is the crag named after Daemons? "
 msgctxt "bark 041D:15D8"
 msgid "The beast turned upon the wounded man. As it was almost upon him, he yelled out,*`In the name of my beloved Arianna, please leave me be.` "
-msgstr ""
+msgstr "那頭野獸轉向受傷的男人。就在牠快撲到他身上時，他大喊：*「以我心愛的艾莉安娜之名，請放過我吧。」"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is the crag named after Daemons? "
 msgctxt "bark 041D:167F"
 msgid "At the dying man's last word, the Daemon vanished in a cloud of brimstone. As fortune would have it, the man lived a while yet to tell his tale. "
-msgstr ""
+msgstr "垂死的男人話一說完，那隻惡魔就消失在一團硫磺煙霧中。幸運的是，那個男人又活了一段時間，把他的故事流傳了下來。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is the crag named after Daemons? "
 msgctxt "bark 041D:16C6"
 msgid "Very well, it is truly a tale of woe. "
-msgstr ""
+msgstr "好吧，那真是個悲傷的故事。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Does Morgaelin have a meaning? "
 msgctxt "bark 041D:17B1"
 msgid "Yes, indeed it does. It means Dark Jewel in the tongue of the Elders. You are a curious sort, aren't you? "
-msgstr ""
+msgstr "是的，確實有。在古老之語中，它的意思是「黑暗寶石」。你還真好奇，對吧？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is Sorcery? "
 msgctxt "bark 041D:18F2"
 msgid "Sorcery is the art of manipulating Fire. It is not an easy path to take as you can see by the scars that mark those of my Sorcerous kind, however, it does have its rewards. "
-msgstr ""
+msgstr "巫術是操控火焰的技藝。從我們這些巫師身上的傷疤就看得出來，這不是一條好走的路，不過確實有它的回報。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Power over what? "
 msgctxt "bark 041D:1A61"
 msgid "Why, over the Fire of course. The Truename of the Sorcerer is melded to the spell to give it meaning. The Truename of the Daemon binds it to the Sorcerer's will. Even the most powerful Daemon, the Lord of Flame himself, may be commanded so... if one also has the Tongue of Fire. "
-msgstr ""
+msgstr "哎，當然是對火焰的力量。巫師的真名融入法術，賦予它意義。惡魔的真名則把牠束縛於巫師的意志之下。就連最強大的惡魔——烈焰之主本身——也能這樣被號令……前提是還得有烈焰之舌。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Power over what? "
 msgctxt "ask 041D"
 msgid "What exactly is a Daemon? "
-msgstr ""
+msgstr "惡魔到底是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Power over what? "
 msgctxt "ask 041D"
 msgid "Tell me about this Lord of Flame. "
-msgstr ""
+msgstr "說說這位烈焰之主。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Power over what? "
 msgctxt "ask 041D"
 msgid "What is the Tongue of Fire? "
-msgstr ""
+msgstr "烈焰之舌是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is your Truename? "
 msgctxt "bark 041D:1C13"
 msgid "Not so quickly, Daemion. Perhaps when we have grown accustomed to each other more, I shall reveal that to you. Until that time, it shall remain mine, and mine only. "
-msgstr ""
+msgstr "別這麼心急，戴蒙。等我們彼此更熟悉一點，也許我會告訴你。在那之前，它只屬於我，只屬於我一個人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by Fire? "
 msgctxt "bark 041D:1CE8"
 msgid "Fire is the most powerful and destructive of the Elements, as the Lord of Flame is the most potent of the Titans. "
-msgstr ""
+msgstr "火是元素中最強大、最具毀滅性的，就像烈焰之主是泰坦中最強大的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by Fire? "
 msgctxt "ask 041D"
 msgid "Tell me of the Elements? "
-msgstr ""
+msgstr "說說元素吧？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by Fire? "
 msgctxt "ask 041D"
 msgid "What is a Titan? "
-msgstr ""
+msgstr "泰坦是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by Fire? "
 msgctxt "ask 041D"
 msgid "What do you know of the Titans? "
-msgstr ""
+msgstr "你對泰坦知道些什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an Acolyte? "
 msgctxt "bark 041D:1E71"
 msgid "I for one am an Acolyte Sorcerer. Acolytes, are the group of Sorcerers that the Master calls upon to aid him in the performance of his Sorcery. "
-msgstr ""
+msgstr "我就是一名學徒巫師。學徒是大師施展巫術時，召來協助他的一群巫師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is an Acolyte? "
 msgctxt "ask 041D"
 msgid "Tell me of your Master. "
-msgstr ""
+msgstr "說說你們的大師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Enchanted tools? "
 msgctxt "bark 041D:1F59"
 msgid "Wands, rods, staves and other unperishable metal paraphernalia are the trappings of a Sorcerer. "
-msgstr ""
+msgstr "魔杖、權杖、法杖，以及其他不會毀損的金屬器具，都是巫師的行頭。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Current. "
 msgctxt "bark 041D:2047"
 msgid "The living Sorcerers of the Cabal are divided into two groups: the body and the will. The body is made up of all the Acolytes and the will is that of the Master. "
-msgstr ""
+msgstr "密謀會在世的巫師分為兩部分：身體與意志。身體由所有學徒組成，意志則屬於大師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Current. "
 msgctxt "ask 041D"
 msgid "What is the Cabal? "
-msgstr ""
+msgstr "密謀會是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Current. "
 msgctxt "ask 041D"
 msgid "Who are the Acolytes? "
-msgstr ""
+msgstr "學徒有哪些人？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Those that went before. "
 msgctxt "bark 041D:21E5"
 msgid "The history of Sorcerers is not a subject I am too familiar with. Those who spend their time delving into the greatness of long dead mages cannot become great themselves. "
-msgstr ""
+msgstr "巫師的歷史不是我很熟悉的話題。把時間花在鑽研早已死去的法師有多偉大的人，自己是成不了偉大的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Those that went before. "
 msgctxt "bark 041D:2297"
 msgid "However, I do know that a powerful man, called Maedron by some, had the foresight and wisdom to overthrow the tyrannical leadership of the dullard Corodin. "
-msgstr ""
+msgstr "不過我確實知道，有個被一些人稱為梅德隆的強大男人，有遠見也有智慧，推翻了蠢材科羅丁的暴虐統治。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Those that went before. "
 msgctxt "bark 041D:2365"
 msgid "Corodin was the first, but not the best, leader of the Cabal. Maedron set the precedent for The Calling by challenging Corodin to a Sorcerous duel, and defeating him by wit and might. "
-msgstr ""
+msgstr "科羅丁是密謀會的第一任領袖，但不是最好的。梅德隆向科羅丁發起巫術決鬥，以智慧與力量擊敗了他，開創了「召喚術」的先例。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Those that went before. "
 msgctxt "ask 041D"
 msgid "Do you know more about Maedron? "
-msgstr ""
+msgstr "你對梅德隆還知道些什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Those that went before. "
 msgctxt "ask 041D"
 msgid "Tell me more of Corodin. "
-msgstr ""
+msgstr "再多說說科羅丁。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Those that went before. "
 msgctxt "ask 041D"
 msgid "The Calling? "
-msgstr ""
+msgstr "召喚術？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What exactly is a Daemon? "
 msgctxt "bark 041D:24E2"
 msgid "A Daemon is the essence of a man or woman who has been vanquished by flame. It is almost mindless and filled with a destructive rage that consumes all it sees. "
-msgstr ""
+msgstr "惡魔是被火焰吞噬的男人或女人的精魂。牠幾乎沒有心智，滿懷毀滅性的狂怒，吞噬眼前的一切。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What exactly is a Daemon? "
 msgctxt "bark 041D:2575"
 msgid "It owes allegiance to the Lord of Flame, and can be made a servant by a Sorcerer with the knowledge and power to control it. "
-msgstr ""
+msgstr "牠效忠於烈焰之主，而具備控制牠的知識與力量的巫師，可以讓牠成為僕人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about this Lord of Flame. "
 msgctxt "bark 041D:26F2"
 msgid "The Lord of Flame is none other than the Titan of the Element of Fire. He was bound to the will of the Sorcerers, long ago, and remains bound to this very day. It is by his chained might that we control our Sorcery. "
-msgstr ""
+msgstr "烈焰之主正是火元素的泰坦。很久以前，他被束縛於巫師的意志之下，至今仍是如此。我們正是靠著他被鎖住的力量來掌控我們的巫術。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is the Tongue of Fire? "
 msgctxt "bark 041D:2833"
 msgid "I know very little about it save that it is the focus of the Sorcerer's ability to control the Lord of Flame. "
-msgstr ""
+msgstr "我對它所知甚少，只知道它是巫師控制烈焰之主的能力關鍵。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Elements? "
 msgctxt "bark 041D:2954"
 msgid "I have never met an outlander before, but you must be from far away to not know of the Elements. Far away indeed. Nonetheless, be welcome for I will tell of them if you wish it. Do you? "
-msgstr ""
+msgstr "我從沒見過外地人，但你連元素都不知道，一定是從很遠的地方來的。真的很遠。不過還是歡迎你，你想知道的話，我就告訴你。你想知道嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Elements? "
 msgctxt "bark 041D:2A23"
 msgid "The first is Earth: a base and slow Element, its power is over death and the land. It mixes well with Fire, but I mislike the feel of it, personally. "
-msgstr ""
+msgstr "第一個是土：一種低賤而遲緩的元素，掌管死亡與大地。它跟火很合得來，但我個人不喜歡它的感覺。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Elements? "
 msgctxt "bark 041D:2B22"
 msgid "Water is next: it is, of course, unloved by those who follow the Sorcerous path. But I cannot in good faith call it a weak Element, for its bailiwick extends throughout the deep seas and the Air is a fond cohort of it in the storms. "
-msgstr ""
+msgstr "接下來是水：走巫術之路的人當然不喜歡它。但憑良心說，我不能說它是弱小的元素，因為它的領域遍及深海，而在暴風雨中，風又是它的好搭檔。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Elements? "
 msgctxt "bark 041D:2BE3"
 msgid "The Air follows: Water and Fire use it as they will, while Earth all but ignores it. Do not take it lightly, however, for life is its power and none can exist without it. "
-msgstr ""
+msgstr "再來是風：水和火隨意使喚它，土則幾乎不理它。不過可別小看它，因為生命就是它的力量，沒有它，誰也活不了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Elements? "
 msgctxt "bark 041D:2D19"
 msgid "Fire is last, but also the greatest: as a Sorcerer, I know well the caress of the flame. Its power is in the undoing of all that exists, but it also has the ability to create. Does not a blacksmith use it to forge a better steel? Does not a baker use it to make the bread that feeds him? "
-msgstr ""
+msgstr "最後是火，也是最偉大的：身為巫師，我深知火焰的撫觸。它的力量在於毀滅一切存在，但它也有創造的能力。鐵匠不是用它鍛造出更好的鋼嗎？麵包師傅不是用它烤出餵飽自己的麵包嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Elements? "
 msgctxt "bark 041D:2DDC"
 msgid "Good. To expound upon things of this nature gives one a pedantic and scholarly aire. I am neither of these things, as I prefer to be considered a woman of deeds. "
-msgstr ""
+msgstr "很好。詳述這類事情會讓人顯得迂腐、學究氣。我兩者都不是，我比較希望別人把我看成行動派的女人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is a Titan? "
 msgctxt "bark 041D:2E87"
 msgid "I -- What? Do you mean to tell me you know not what the Titans are? "
-msgstr ""
+msgstr "我——什麼？你是說你不知道泰坦是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is a Titan? "
 msgctxt "bark 041D:2F77"
 msgid "Well, it's simple enough. They are only the most powerful beings in all of Pagan. Were they not bound by or in contract with the people, as in times before, they would be gods to us. "
-msgstr ""
+msgstr "嗯，很簡單。他們不過是全佩根最強大的存在。要不是像從前那樣被人們束縛或與人們立約，他們對我們來說就是神。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is a Titan? "
 msgctxt "bark 041D:300A"
 msgid "It is good that you do know, for I did not think that one could come from so far as to be ignorant of the Titans. "
-msgstr ""
+msgstr "好在你知道，我還以為不會有人從遠到連泰坦都不知道的地方來。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you know of the Titans? "
 msgctxt "bark 041D:3127"
 msgid "I know the names and titles by which the people adress them, and the Elements they have reign over. Other than this I cannot... or will not tell you... at least, not yet. "
-msgstr ""
+msgstr "我知道人們如何稱呼他們，知道他們的名號，以及他們掌管的元素。除此之外，我不能……或者說不願告訴你……至少現在還不行。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is the Cabal? "
 msgctxt "bark 041D:323D"
 msgid "The Cabal is simply the term we Sorcerers use to mean our kind, collectively. It is made up of one Master, one First Acolyte, three other Acolytes, and various other Disciples. "
-msgstr ""
+msgstr "密謀會只是我們巫師用來統稱我們這類人的名稱。它由一位大師、一位第一學徒、另外三位學徒，以及許多門徒組成。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is the Cabal? "
 msgctxt "ask 041D"
 msgid "What do you mean by First Acolyte? "
-msgstr ""
+msgstr "你說的第一學徒是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is the Cabal? "
 msgctxt "ask 041D"
 msgid "What is a Disciple? "
-msgstr ""
+msgstr "門徒是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are the Acolytes? "
 msgctxt "bark 041D:33E9"
 msgid "The Acolytes are poorly led by the First Acolyte who is more beast than man. His name is Vardion, and you would do well to avoid him, as his odor can be most offensive. "
-msgstr ""
+msgstr "學徒們由第一學徒帶領，領導得一塌糊塗，他與其說是人，不如說是野獸。他叫瓦爾迪恩，你最好離他遠一點，因為他身上的味道實在讓人受不了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are the Acolytes? "
 msgctxt "bark 041D:34A8"
 msgid "I, of course, am also one of the Acolytes, then there is Gorgrond. Sometimes a bit slow of wit, and easily led astray by those that he thinks are of greater importance. "
-msgstr ""
+msgstr "當然，我也是學徒之一，然後還有戈格隆德。他有時腦筋有點遲鈍，很容易被他認為比較重要的人帶壞。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are the Acolytes? "
 msgctxt "bark 041D:3561"
 msgid "Lastly, there is Beren. A man to be trusted. He is as good as his word, and his word is beyond reproach. You could do worse than to take his advice in all things. "
-msgstr ""
+msgstr "最後是貝倫，一個值得信任的人。他說到做到，而他的話無可挑剔。凡事聽他的建議，準沒錯。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are the Acolytes? "
 msgctxt "ask 041D"
 msgid "Tell me more of Vardion. "
-msgstr ""
+msgstr "再多說說瓦爾迪恩。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are the Acolytes? "
 msgctxt "ask 041D"
 msgid "Do you know more about Gorgrond? "
-msgstr ""
+msgstr "你對戈格隆德還知道些什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are the Acolytes? "
 msgctxt "ask 041D"
 msgid "What else can you say of Beren. "
-msgstr ""
+msgstr "關於貝倫，你還能說些什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of your Master. "
 msgctxt "bark 041D:3711"
 msgid "Malchir is a wily one, but his self-interest is counter to my own outgoing nature. He should become more concerned with the other Sorcerers instead of always hiding himself away. "
-msgstr ""
+msgstr "馬爾奇爾很狡猾，但他的自私跟我外向的個性正好相反。他應該多關心其他巫師，而不是老把自己藏起來。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of your Master. "
 msgctxt "bark 041D:37BA"
 msgid "Nonetheless, he makes a fine and powerful Master otherwise. Other Acolytes malicious comments are unwarranted and you should take no heed of them. "
-msgstr ""
+msgstr "儘管如此，除此之外他還是一位優秀而強大的大師。其他學徒的惡意批評毫無根據，你不必理會。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of your Master. "
 msgctxt "ask 041D"
 msgid "Malicious comments? "
-msgstr ""
+msgstr "惡意批評？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me more of Corodin. "
 msgctxt "bark 041D:38B5"
 msgid "Truly, I know little else of the man. He died ages ago and before that he did little to recommend him to memory. "
-msgstr ""
+msgstr "說真的，我對那個人所知不多。他很久以前就死了，在那之前也沒做過什麼值得人記住的事。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Do you know more about Maedron? "
 msgctxt "bark 041D:39A8"
 msgid "He was a great Sorcerer, quite possibly the greatest. It was his insight that brought about the magical formulae we use in our Sorcery. "
-msgstr ""
+msgstr "他是位偉大的巫師，很可能是最偉大的。我們巫術所用的魔法公式，就是出自他的洞見。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Do you know more about Maedron? "
 msgctxt "bark 041D:3A9D"
 msgid "He created the Elder Tongue to aid in the manipulation of Fire and our modern spellcraft. In truth, I wish I could have been one of his contemporaries, for there is no telling what great mysteries were lost upon his death. "
-msgstr ""
+msgstr "他創造了古老之語，用來輔助操控火焰與我們現代的施法技藝。說真的，我真希望能跟他生在同一個時代，因為誰也不知道他死後失傳了多少偉大的奧祕。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The Calling? "
 msgctxt "bark 041D:3C62"
 msgid "The Calling is a challenge from one Sorcerer to another, and invariably ends in the death of one of the participants. No other form of arbitration is allowed, save as the Master deems fitting. It is the way by which we keep peace amongst ourselves. "
-msgstr ""
+msgstr "召喚術是一名巫師向另一名巫師發出的挑戰，結局必定是其中一方死亡。除非大師認為合適，否則不允許任何其他形式的仲裁。這就是我們維持內部和平的方式。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The Calling? "
 msgctxt "bark 041D:3D41"
 msgid "The rules of issuing a Call are as follows: No Sorcerer may Call upon another without the permission of the Master, except when the Master Calls or is Called. Only an Acolyte may Call upon the Master. "
-msgstr ""
+msgstr "發出召喚的規則如下：未經大師許可，任何巫師都不得召喚另一名巫師，除非是大師發出召喚或被召喚。只有學徒可以召喚大師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The Calling? "
 msgctxt "bark 041D:3DB5"
 msgid "A Sorcerer who breaks these simple rules can usually number his remaining days upon one hand. "
-msgstr ""
+msgstr "違反這些簡單規則的巫師，剩下的日子通常一隻手就數得完。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "bark 041D:3E94"
 msgid "The First Acolyte is chosen to be the Master's second in command, and tends to the daily affairs of running the Enclave. "
-msgstr ""
+msgstr "第一學徒被選為大師的副手，負責處理聚落的日常事務。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "bark 041D:3F01"
 msgid "The Master needs someone who understands people. Someone with a vision for the future. "
-msgstr ""
+msgstr "大師需要一個懂人心的人，一個對未來有遠見的人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "bark 041D:3FA7"
 msgid "Vardion, our current First Acolyte,  is not this someone. Far to the contrary. He lingers in the past. "
-msgstr ""
+msgstr "我們現任的第一學徒瓦爾迪恩可不是這樣的人。恰恰相反，他活在過去。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "bark 041D:3FA7"
 msgid "Vardion, is not this someone. Far to the contrary. He lingers in the past. "
-msgstr ""
+msgstr "瓦爾迪恩可不是這樣的人。恰恰相反，他活在過去。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "bark 041D:4038"
 msgid "Observing out-dated traditions for tradition's sake... but I digress.*Perhaps you grow bored with this line of conversation? "
-msgstr ""
+msgstr "為了傳統而墨守過時的傳統……不過我扯遠了。*也許你對這個話題感到厭煩了？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "ask 041D"
 msgid "No, please go on. "
-msgstr ""
+msgstr "不，請繼續說。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "ask 041D"
 msgid "Can we change the subject? "
-msgstr ""
+msgstr "我們能換個話題嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "ask 041D"
 msgid "Yes, I'm sorry, I have. "
-msgstr ""
+msgstr "是的，抱歉，我是有點煩了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "ask 041D"
 msgid "Not bored, just disinterested. "
-msgstr ""
+msgstr "不是厭煩，只是沒興趣。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "bark 041D:417D"
 msgid "Are you still wary of discussing this further? "
-msgstr ""
+msgstr "你還是不太想繼續談這件事嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "bark 041D:4236"
 msgid "Perhaps you are this someone. "
-msgstr ""
+msgstr "也許你就是那個人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is a Disciple? "
 msgctxt "bark 041D:432E"
 msgid "A Disciple is a Sorcerer, and therefore a full member of the Cabal, but they have not been inducted into the select group called Acolytes. "
-msgstr ""
+msgstr "門徒是巫師，因此是密謀會的正式成員，但還沒被選入名為學徒的精英群體。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is a Disciple? "
 msgctxt "bark 041D:43C8"
 msgid "Not to champion my own meager abilities, but only the most powerful and... or skilled Disciples are allowed to join into our ranks. "
-msgstr ""
+msgstr "我不是要吹噓自己微薄的能力，但只有最強大以及……或者說最有技巧的門徒，才能加入我們的行列。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me more of Vardion. "
 msgctxt "bark 041D:454B"
 msgid "Not to put too fine a point on it, he is a brutish, overbearing, pompous lout. In other words, I find his presence intolerable and if Master Malchir were not so engrossed in his own affairs, I feel sure that he would allow me to issue The Calling to Vardion, even if he is the First Acolyte. "
-msgstr ""
+msgstr "說白了，他是個粗暴、霸道、自大的蠢貨。換句話說，我實在受不了他。要不是馬爾奇爾大巫師那麼專注於自己的事，我相信他一定會允許我對瓦爾迪恩發出召喚，就算他是第一學徒也一樣。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Do you know more about Gorgrond? "
 msgctxt "bark 041D:470D"
 msgid "He is as simple-minded as he is magically powerful... in a raw, and unskilled fashion. He is the perfect tool, which is why, I believe, he was made an Acolyte. Certainly, he is useful to those in a position to manipulate him. "
-msgstr ""
+msgstr "他的魔力有多強，腦袋就有多簡單……他的力量粗糙、毫無技巧。他是完美的工具，我想這就是他被選為學徒的原因。對那些能操縱他的人來說，他確實很有用。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What else can you say of Beren. "
 msgctxt "bark 041D:485B"
 msgid "Naught but good. His mind is quick, his body a finely crafted work, his magical skill and power are only slightly beneath my own. Taken altogether, quite a remarkable fellow. I would trust him with my life, were I you. "
-msgstr ""
+msgstr "只有好話。他思緒敏捷，身材精雕細琢，魔法技藝與力量只比我稍遜一籌。總而言之，是個相當了不起的人。換作是你，我會把性命託付給他。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Malicious comments? "
 msgctxt "bark 041D:4918"
 msgid "It would only perpetuate these comments to give them voice, therefore I shall refrain. "
-msgstr ""
+msgstr "把那些話說出口只會讓它們流傳下去，所以我不說。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No, please go on. "
 msgctxt "bark 041D:49FA"
 msgid "I will entrust to you further knowledge of our predicament. I have reason to believe that Vardion is preparing to assassinate the Master. "
-msgstr ""
+msgstr "我要把我們的困境再多告訴你一些。我有理由相信，瓦爾迪恩正準備暗殺大師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No, please go on. "
 msgctxt "bark 041D:4AFA"
 msgid "He thinks that Malchir breaks with too many of the old traditions but fears his power. Should he kill Malchir and become Master, he will return the Enclave to the days when Sorcerers were shunned by the rest of the island's populace. "
-msgstr ""
+msgstr "他認為馬爾奇爾打破了太多舊傳統，卻又畏懼他的力量。要是他殺了馬爾奇爾、成為大師，就會讓聚落倒退回巫師被島上其他居民排斥的年代。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No, please go on. "
 msgctxt "bark 041D:4BF1"
 msgid "To get to the point at hand, I must ask a favor of you. I need someone to enter into the confidences of the First Acolyte and acquire from him his Truename. This will aid me in performing a scrying to know Vardion's motives. "
-msgstr ""
+msgstr "說到正題，我必須請你幫個忙。我需要有人去取得第一學徒的信任，從他那裡得到他的真名。這能幫助我施展占卜，看清瓦爾迪恩的動機。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No, please go on. "
 msgctxt "bark 041D:4C87"
 msgid "Will you do this?*If so, I can offer you a position as a Disciple... or even Acolyte, should Vardion's intentions be murderous. "
-msgstr ""
+msgstr "你願意嗎？*如果願意，我可以給你門徒的地位……要是瓦爾迪恩真有殺意，甚至能讓你當上學徒。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Can we change the subject? "
 msgctxt "bark 041D:4DFD"
 msgid "Of course. I am truly sorry to embroil you in the affairs of what must be, to you, a strange people indeed. Please forgive my temporary indiscretion. "
-msgstr ""
+msgstr "當然。真抱歉把你捲進對你來說一定很陌生的一群人的事務裡。請原諒我一時的失言。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, I'm sorry, I have. "
 msgctxt "bark 041D:4E64"
 msgid "Please... let me bore you no further. "
-msgstr ""
+msgstr "那麼……我就不再讓你厭煩了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Not bored, just disinterested. "
 msgctxt "bark 041D:4F0C"
 msgid "As your interest wanes, so does my civility. Please go before I say something you might regret. "
-msgstr ""
+msgstr "你的興趣減退，我的禮貌也跟著減退。請在我說出會讓你後悔的話之前離開。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I agree to your terms. "
 msgctxt "bark 041D:5026"
 msgid "Good. You are perceptive and wise, my Daemion. Firstly, in order to become a Disciple Sorcerer, you must have an Acolyte for a sponsor. I shall be that for you. Secondly, as your sponsor, I will give you a Truename... "
-msgstr ""
+msgstr "很好。你既敏銳又聰明，我的戴蒙。首先，要成為門徒巫師，你必須有一位學徒當你的保薦人，我就當你的保薦人。其次，身為你的保薦人，我要賜給你一個真名……"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I agree to your terms. "
 msgctxt "bark 041D:5139"
 msgid "Daemion you are to me, and Daemion you shall be to the Fire. My inner sight judged your name correctly it would seem. I have always had that ability. To lend power to your Truename, I must reveal mine to you. Sabriane it is, and it means Well of Stars. "
-msgstr ""
+msgstr "你對我而言是戴蒙，對火焰而言也將是戴蒙。看來我的內在之眼判斷得沒錯，我一向有這種能力。為了賦予你的真名力量，我必須向你透露我的真名。我的真名是莎布莉安，意思是「群星之井」。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I agree to your terms. "
 msgctxt "bark 041D:51FC"
 msgid "Now your first task as my Disciple is to enter into the confidences of our illustrious First Acolyte and get from him his Truename. I care not how you do this, just get it. "
-msgstr ""
+msgstr "現在，你身為我門徒的第一項任務，就是取得我們那位了不起的第一學徒的信任，從他那裡得到他的真名。我不在乎你用什麼方法，拿到就對了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What else can you offer? "
 msgctxt "bark 041D:5310"
 msgid "I have made a far greater offer than you apparently are capable of understanding. To become a Sorcerer is to become one with power. Take that as you will, as you take leave of these premises. "
-msgstr ""
+msgstr "我開出的條件，顯然遠超過你所能理解的。成為巫師，就是與力量合而為一。隨你怎麼理解吧，現在請你離開這裡。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I will not be your spy, lady. "
 msgctxt "bark 041D:53CC"
 msgid "That is your choice, my ignorant friend. My offer still stands, but perhaps you are not the one I should give it to. "
-msgstr ""
+msgstr "那是你的選擇，我無知的朋友。我的提議依然有效，但也許你不是我該提議的人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I do not trust -your- motives. "
 msgctxt "bark 041D:5491"
 msgid "It is not my motives that should be in question. You are the stranger here. And if I wished it, I could have you thrown out! "
-msgstr ""
+msgstr "該受質疑的不是我的動機。你才是這裡的陌生人。只要我願意，就能叫人把你丟出去！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Let me think on it. "
 msgctxt "bark 041D:5535"
 msgid "I apologize for placing this pressure on you, but it is of dire consequence. I will await your answer. "
-msgstr ""
+msgstr "抱歉給你這麼大的壓力，但這件事攸關重大。我會等你的答覆。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after ""
 msgctxt "bark 041D:55E0"
 msgid "I can't understand you. What did you say? "
-msgstr ""
+msgstr "我聽不懂。你說什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after ""
 msgctxt "bark 041D:5719"
 msgid "If it would not be too much to ask, Master, I would like to become your First Acolyte. I can learn the duties involved very quickly, and I promise you will not find my abilities wanting. Will you accept me? "
-msgstr ""
+msgstr "如果不算奢求的話，大師，我想成為您的第一學徒。相關的職責我能學得很快，我保證您不會覺得我能力不足。您願意接受我嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after ""
 msgctxt "bark 041D:5781"
 msgid "Thank you, Master! You won't regret this decision. "
-msgstr ""
+msgstr "謝謝您，大師！您不會後悔這個決定的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after ""
 msgctxt "bark 041D:5802"
 msgid "I understand, Master. I won't take any more of your time. Whatever I have is, of course, yours to take. "
-msgstr ""
+msgstr "我明白，大師。我不會再占用您的時間了。我的一切，當然都任由您取用。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after ""
 msgctxt "bark 041D:58AB"
 msgid "I hope I am performing my duties to your satisfaction. But I will attempt to improve them further. I must go now to return to my studies. "
-msgstr ""
+msgstr "希望我履行職責能讓您滿意。不過我會設法做得更好。我現在得回去研習了。"

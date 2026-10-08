@@ -10,366 +10,440 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 msgctxt "bark 0595:0123"
 msgid "Ah. A stranger comes to the Enclave. How rare.*You are also a stranger to the island of Morgaelin.*Are you not? "
-msgstr ""
+msgstr "啊。有陌生人來到聚落了，真是難得。*你也是初來摩加林島的吧。*不是嗎？"
 
+# P13 batch 5
 msgctxt "bark 0595:0239"
 msgid "So I thought. And what might you be called, my friend? "
-msgstr ""
+msgstr "我就知道。那麼，朋友，你叫什麼名字？"
 
+# P13 batch 5
 msgctxt "bark 0595:0239"
 msgid "How odd, I've never seen one like you before.*What might you be called, my friend? "
-msgstr ""
+msgstr "真奇怪，我從沒見過像你這樣的人。*朋友，你叫什麼名字？"
 
+# P13 batch 5
 msgctxt "bark 0595:0239"
 msgid "Your silence is understood, but fear not, I intend you no harm.*What might you be called, my friend? "
-msgstr ""
+msgstr "我明白你的沉默，但別擔心，我無意傷害你。*朋友，你叫什麼名字？"
 
+# P13 batch 5
 #. sentence template: keep the {placeholders}
 msgctxt "ask 0595"
 msgid "I am {name}."
-msgstr ""
+msgstr "我是{name}。"
 
+# P13 batch 5
 msgctxt "ask 0595"
 msgid "It is of no matter. "
-msgstr ""
+msgstr "那不重要。"
 
+# P13 batch 5
 msgctxt "ask 0595"
 msgid "You are not my friend, lady. "
-msgstr ""
+msgstr "你不是我的朋友，女士。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0481"
 msgid "What an interesting name. I shall be sure to make note of it. However, you have need of a name  that has meaning in the Elder Tongue. I sense that your name should be Daemion. It means Fire of the Sky.*Do you like it? "
-msgstr ""
+msgstr "真是個有趣的名字。我一定會記下來。不過，你需要一個在古老之語中有意義的名字。我感覺你的名字應該是戴蒙，意思是「天空之火」。*你喜歡嗎？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0481"
 msgid "Ah, I shall be if only you wish it , but there is no reason for you to reveal your name to me. I would prefer to give you one  that has meaning in the Elder Tongue. I sense that your name should be Daemion. It means Fire of the Sky.*Do you like it? "
-msgstr ""
+msgstr "啊，只要你願意，我就會是你的朋友。不過你沒有理由向我透露你的名字。我寧可給你一個在古老之語中有意義的名字。我感覺你的名字應該是戴蒙，意思是「天空之火」。*你喜歡嗎？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0481"
 msgid "I see you are a humble one , but there is no reason for you to reveal your name to me. I would prefer to give you one  that has meaning in the Elder Tongue. I sense that your name should be Daemion. It means Fire of the Sky.*Do you like it? "
-msgstr ""
+msgstr "看來你是個謙虛的人。不過你沒有理由向我透露你的名字。我寧可給你一個在古老之語中有意義的名字。我感覺你的名字應該是戴蒙，意思是「天空之火」。*你喜歡嗎？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:05C5"
 msgid "It gladdens me to hear it.  Perhaps later, when you have earned it, you will be given a Truename. Daemion seems right and will suffice for now. With what may I assist you? "
-msgstr ""
+msgstr "聽你這麼說我很高興。也許等你日後有了資格，就會被賜予真名。眼下戴蒙這個名字似乎正合適，暫時就這樣吧。有什麼我能幫你的？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:05C5"
 msgid "Nonetheless, it is what I shall call you. You may respond or not as you see fit.  Perhaps later, when you have earned it, you will be given a Truename. Daemion seems right and will suffice for now. With what may I assist you? "
-msgstr ""
+msgstr "不管怎樣，我就這麼叫你了。你要不要回應隨你。也許等你日後有了資格，就會被賜予真名。眼下戴蒙這個名字似乎正合適，暫時就這樣吧。有什麼我能幫你的？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:075F"
 msgid "To what do I owe the pleasure of your presence, Daemion? *Have you decided to become my Disciple? "
-msgstr ""
+msgstr "是什麼風把你吹來了，戴蒙？*你決定當我的門徒了嗎？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:075F"
 msgid "To what do I owe the pleasure of your presence, Daemion? "
-msgstr ""
+msgstr "是什麼風把你吹來了，戴蒙？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:075F"
 msgid "How may I aid you, friend? *Have you decided to become my Disciple? "
-msgstr ""
+msgstr "有什麼我能幫你的，朋友？*你決定當我的門徒了嗎？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:075F"
 msgid "How may I aid you, friend? "
-msgstr ""
+msgstr "有什麼我能幫你的，朋友？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:075F"
 msgid "Yes? *Have you decided to become my Disciple? "
-msgstr ""
+msgstr "什麼事？*你決定當我的門徒了嗎？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:075F"
 msgid "Yes? "
-msgstr ""
+msgstr "什麼事？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:075F"
 msgid "How may I aid you, Disciple? "
-msgstr ""
+msgstr "有什麼我能幫你的，門徒？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:07D7"
 msgid "Is there something we have to discuss? Because if not, I have much to attend to. "
-msgstr ""
+msgstr "我們有什麼要談的嗎？如果沒有，我還有很多事要處理。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:084E"
 msgid "Unless you've come to apologize for your rude behavior, I have nothing to say to you. "
-msgstr ""
+msgstr "除非你是來為你的無禮道歉的，否則我跟你沒什麼好說的。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0879"
 msgid "What do you want? "
-msgstr ""
+msgstr "你想幹嘛？"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:08CE"
 msgid "Leave me be! I grow weary of your presence. "
-msgstr ""
+msgstr "別來煩我！我已經受夠你了。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0930"
 msgid "How can I make you understand?!*I do not wish to speak with you! "
-msgstr ""
+msgstr "我要怎麼說你才懂？！*我不想跟你說話！"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:09A0"
 msgid "If you do not give me peace, I shall have no other alternative than to give it to you. "
-msgstr ""
+msgstr "你要是不讓我清靜，我就只好讓你「安息」了。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:09E1"
 msgid "I will feed your entrails to my Daemon! "
-msgstr ""
+msgstr "我要把你的內臟拿去餵我的惡魔！"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0A5E"
 msgid "Return only when you have found your manners. "
-msgstr ""
+msgstr "等你學會禮貌再回來吧。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0A92"
 msgid "Leave as you wish. "
-msgstr ""
+msgstr "你想走就走吧。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0AE9"
 msgid "I cannot say I am sorry to see you go. I hope you understand. "
-msgstr ""
+msgstr "我不能說看你離開我很遺憾。希望你能理解。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0B26"
 msgid "Do not return here. "
-msgstr ""
+msgstr "別再回來了。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0B6E"
 msgid "Leave as you wish, for I wish it also. "
-msgstr ""
+msgstr "你想走就走吧，我也希望你走。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0BA3"
 msgid "Farewell, but not too well. "
-msgstr ""
+msgstr "再會，不過也別太好過。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0BDD"
 msgid "Farewell, Disciple. "
-msgstr ""
+msgstr "再會，門徒。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0C22"
 msgid "Return when you seek more training. "
-msgstr ""
+msgstr "需要更多訓練時再來吧。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0C4D"
 msgid "Goodbye, Daemion. "
-msgstr ""
+msgstr "再見，戴蒙。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0C82"
 msgid "Farewell, my Daemion. "
-msgstr ""
+msgstr "再會，我的戴蒙。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0CD7"
 msgid "Going so soon? Well, do return when it pleases you. "
-msgstr ""
+msgstr "這麼快就要走了？那好吧，想來的時候再來吧。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0CF9"
 msgid "Goodbye. "
-msgstr ""
+msgstr "再見。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0D46"
 msgid "Remember, my offer still stands, Daemion. "
-msgstr ""
+msgstr "記住，我的提議依然有效，戴蒙。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0DEB"
 msgid "I do have things to tend to, Daemion. When you have your thoughts collected, feel free to call upon me. "
-msgstr ""
+msgstr "我確實還有事要處理，戴蒙。等你想清楚了，隨時來找我。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0E59"
 msgid "If you do not seek my attention, I shall not keep yours.* Farewell, Daemion. "
-msgstr ""
+msgstr "你既然不想引起我的注意，我也不耽誤你了。*再會，戴蒙。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0ED8"
 msgid "Do you hear me? Apparently not. If so, surely you would answer. Please return when you wish to speak. "
-msgstr ""
+msgstr "你聽到我說話了嗎？顯然沒有。要是聽到了，你一定會回答。等你想說話時再來吧。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0F27"
 msgid "I do not have time for this, Daemion. "
-msgstr ""
+msgstr "我沒時間陪你耗，戴蒙。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:0F81"
 msgid "If you do not seek my attention, I shall not keep yours. "
-msgstr ""
+msgstr "你既然不想引起我的注意，我也不耽誤你了。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:100B"
 msgid "Do you hear me? Apparently not. If so, surely you would answer. Return when you have something important to say. "
-msgstr ""
+msgstr "你聽到我說話了嗎？顯然沒有。要是聽到了，你一定會回答。等你有重要的事要說再來吧。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:10A3"
 msgid "You are a most infuriating person. It would not be wise for you to remain. Some here are not as friendly as I. "
-msgstr ""
+msgstr "你真是個氣死人的傢伙。你最好別留在這裡，這裡有些人可沒我這麼友善。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:1108"
 msgid "Should you decide to seek my advice later, I will not be available. "
-msgstr ""
+msgstr "要是你以後想來請教我，我可沒空。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "bark 0595:114D"
 msgid "I am surrounded by half-wits and imbeciles! "
-msgstr ""
+msgstr "我身邊全是些蠢材和白痴！"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "ask 0595"
 msgid "Please forgive me , kind lady. "
-msgstr ""
+msgstr "請原諒我，好心的女士。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "ask 0595"
 msgid "I did not mean to give offense. "
-msgstr ""
+msgstr "我不是有意冒犯。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "ask 0595"
 msgid "I need information, woman! "
-msgstr ""
+msgstr "我需要情報，女人！"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "ask 0595"
 msgid "Nevermind. "
-msgstr ""
+msgstr "算了。"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "ask 0595"
 msgid "Tell me what I need to know, wench! "
-msgstr ""
+msgstr "把我需要知道的告訴我，娘們！"
 
+# P13 batch 5
 #. , after "You are not my friend, lady. "
 msgctxt "ask 0595"
 msgid "Please forgive me , Bane. "
-msgstr ""
+msgstr "請原諒我，貝恩。"
 
+# P13 batch 5
 #. , after "Nevermind. "
 msgctxt "bark 0595:1366"
 msgid "I'm not so sure I should...*Your manners were atrocious. But you seem sincere now. Very well. I suppose I do forgive you. Just don't let it happen again. Now then, what do you seek of me? "
-msgstr ""
+msgstr "我不確定該不該原諒你……*你剛才的態度實在惡劣。不過你現在似乎很真誠。好吧，我想我就原諒你了。只是別再犯了。那麼，你找我有什麼事？"
 
+# P13 batch 5
 #. , after "I did not mean to give offense. "
 msgctxt "bark 0595:1479"
 msgid "Well you did! But you are a foreigner. Let us not dwell on your past mistakes. Now then, what do you seek of me? "
-msgstr ""
+msgstr "你就是冒犯了！不過你是外地人。過去的錯就別再提了。那麼，你找我有什麼事？"
 
+# P13 batch 5
 #. , after "Nevermind. "
 msgctxt "bark 0595:157A"
 msgid "By Pyros' flaming eyes! Take that tone with me again, and I'll incinerate your heart where it beats within your chest. "
-msgstr ""
+msgstr "以派羅斯的火眼起誓！你要是再用那種口氣跟我說話，我就把你胸膛裡跳動的心臟燒成灰燼。"
 
+# P13 batch 5
 #. , after "Nevermind. "
 msgctxt "bark 0595:15BF"
 msgid "Your pain will be legendary, even in Pagan! "
-msgstr ""
+msgstr "你的痛苦將會成為傳說，即使在佩根也是！"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 0595:16F3"
 msgid "I believe something you said was incorrectly spelled. I don't know why I know this. It was as if giant, blue letters had appeared, blazing across the sky. "
-msgstr ""
+msgstr "我覺得你說的話裡有個字拼錯了。我也不知道我怎麼會知道。就好像有巨大的藍色字母出現，在天空中熊熊燃燒。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 0595:174A"
 msgid "Do you perchance have Vardion's Truename? "
-msgstr ""
+msgstr "你是不是拿到瓦爾迪恩的真名了？"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 0595:17EB"
 msgid "Wonderful! Give it to me and I will perform the ritual necessary to end Vardion's designs upon the Mastery. "
-msgstr ""
+msgstr "太好了！告訴我，我就舉行必要的儀式，終結瓦爾迪恩覬覦大師之位的陰謀。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 0595:1873"
 msgid "I see. You must be swift about this. If he kills the Master before I know his intentions, it will be too late. "
-msgstr ""
+msgstr "我明白了。你得動作快。要是他在我知道他的意圖之前就殺了大師，那就太遲了。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 0595"
 msgid "I don't know it yet. "
-msgstr ""
+msgstr "我還不知道。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 0595"
 msgid " Morduin."
-msgstr ""
+msgstr "莫杜因。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 0595"
 msgid " Vardion."
-msgstr ""
+msgstr "瓦爾迪恩。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 0595"
 msgid " Daemion."
-msgstr ""
+msgstr "戴蒙。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 0595"
 msgid " Sabriane."
-msgstr ""
+msgstr "莎布莉安。"
 
+# P13 batch 5
 #. , after " Vardion."
 msgctxt "bark 0595:19C2"
 msgid "You poor stupid fool. If you truly believe that Vardion is his Truename, you are of no use as a Sorcerer. "
-msgstr ""
+msgstr "你這可憐的蠢貨。要是你真以為瓦爾迪恩就是他的真名，那你當巫師根本毫無用處。"
 
+# P13 batch 5
 #. , after " Vardion."
 msgctxt "bark 0595:1A01"
 msgid "Try again. And this time do not fail me. "
-msgstr ""
+msgstr "再試一次。這次可別讓我失望。"
 
+# P13 batch 5
 #. , after " Daemion."
 msgctxt "bark 0595:1AA4"
 msgid "No, you little idiot. That is the name I gave you. Perhaps I should have called you Daemient. Fire of the Brain. "
-msgstr ""
+msgstr "不對，你這小白痴。那是我給你取的名字。也許我該叫你「戴蒙癡」，意思是「腦中之火」。"
 
+# P13 batch 5
 #. , after " Sabriane."
 msgctxt "bark 0595:1B80"
 msgid "That is my name. Have I entrusted my Truename, and the future of the Cabal to a simpering moron? Please run along now and get Vardion's Truename for me, won't you dear? "
-msgstr ""
+msgstr "那是我的名字。難道我把我的真名和密謀會的未來，託付給了一個只會傻笑的蠢蛋？現在請你快去幫我弄到瓦爾迪恩的真名吧，好嗎，親愛的？"
 
+# P13 batch 5
 #. , after "I don't know it yet. "
 msgctxt "bark 0595:1C4B"
 msgid "Do you toy with me?! I am not accustomed to having my Disciples lie to me. Get his Truename or I'll personally feed you to the Fire. "
-msgstr ""
+msgstr "你在耍我嗎？！我可不習慣我的門徒對我說謊。去弄到他的真名，不然我就親手把你丟進火裡。"
 
+# P13 batch 5
 #. , after "I don't know it yet. "
 msgctxt "bark 0595:1CC1"
 msgid "I gave fair warning. Your life has come to a close, my irritating little friend. "
-msgstr ""
+msgstr "我已經警告過你了。你的生命到此為止了，我惱人的小朋友。"
 
+# P13 batch 5
 #. , after " Morduin."
 msgctxt "bark 0595:1D88"
 msgid "Ah, yes! I should have guessed it. Dark Flame. It could have been no other. Thank you, my disciple. Now prepare to witness his undoing. "
-msgstr ""
+msgstr "啊，對了！我早該猜到的。「暗焰」，不可能是別的了。謝謝你，我的門徒。現在準備見證他的毀滅吧。"
