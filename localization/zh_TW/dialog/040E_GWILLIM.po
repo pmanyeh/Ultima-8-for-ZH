@@ -10,865 +10,1037 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 040E:00A1"
 msgid "Gwillim"
-msgstr ""
+msgstr "威廉"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 040E:00C3"
 msgid "Herdsman "
-msgstr ""
+msgstr "牧民"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 040E:0192"
 msgid "I would not do that if I were you! "
-msgstr ""
+msgstr "換作是我，可不會那麼做！"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 040E:01C8"
 msgid "Stop! Thief! "
-msgstr ""
+msgstr "站住！小偷！"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:05C7"
 msgid "Good day. "
-msgstr ""
+msgstr "日安。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:063A"
 msgid "Ahh, what a fine bunch of torax! "
-msgstr ""
+msgstr "啊，多棒的一群托拉克斯獸！"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:06A6"
 msgid "Shelby! Leave Pono alone! "
-msgstr ""
+msgstr "雪比！別去惹波諾！"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:073D"
 msgid "Have you ever seen such fine torax? "
-msgstr ""
+msgstr "你見過這麼好的托拉克斯獸嗎？"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:079D"
 msgid "How I love my flock. "
-msgstr ""
+msgstr "我真愛我的獸群。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:07DC"
 msgid "I wonder how Cyrrus is doing? "
-msgstr ""
+msgstr "不知道席勒斯過得怎麼樣？"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0861"
 msgid "This life does get a bit boring from time to time. "
-msgstr ""
+msgstr "這種生活有時還真有點無聊。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:089B"
 msgid "I hope that Cyrrus is well. "
-msgstr ""
+msgstr "希望席勒斯一切安好。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:090A"
 msgid "I enjoy caring for my flock. "
-msgstr ""
+msgstr "我喜歡照顧我的獸群。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:096C"
 msgid "Yet, I would enjoy some company now and again. "
-msgstr ""
+msgstr "不過，偶爾有人作伴也不錯。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:09C7"
 msgid "I can see my house from here! "
-msgstr ""
+msgstr "從這裡就看得到我家！"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0A0C"
 msgid "The torax certainly are playful today. "
-msgstr ""
+msgstr "托拉克斯獸今天可真愛玩。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0C4A"
 msgid "Good day. "
-msgstr ""
+msgstr "日安。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0CBD"
 msgid "Ahh, what a fine bunch of torax! "
-msgstr ""
+msgstr "啊，多棒的一群托拉克斯獸！"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0D29"
 msgid "Shelby! Leave Pono alone! "
-msgstr ""
+msgstr "雪比！別去惹波諾！"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0DC0"
 msgid "Have you ever seen such fine torax? "
-msgstr ""
+msgstr "你見過這麼好的托拉克斯獸嗎？"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0E20"
 msgid "How I love my flock. "
-msgstr ""
+msgstr "我真愛我的獸群。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0E5F"
 msgid "I wonder how Cyrrus is doing? "
-msgstr ""
+msgstr "不知道席勒斯過得怎麼樣？"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0EE4"
 msgid "This life does get a bit boring from time to time. "
-msgstr ""
+msgstr "這種生活有時還真有點無聊。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0F1E"
 msgid "I hope that Cyrrus is well. "
-msgstr ""
+msgstr "希望席勒斯一切安好。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0F8D"
 msgid "I enjoy caring for my flock. "
-msgstr ""
+msgstr "我喜歡照顧我的獸群。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:0FEF"
 msgid "Yet, I would enjoy some company now and again. "
-msgstr ""
+msgstr "不過，偶爾有人作伴也不錯。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:104A"
 msgid "I can see my house from here! "
-msgstr ""
+msgstr "從這裡就看得到我家！"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:108F"
 msgid "The torax certainly are playful today. "
-msgstr ""
+msgstr "托拉克斯獸今天可真愛玩。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:12DC"
 msgid "What are you doing here? "
-msgstr ""
+msgstr "你在這裡做什麼？"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:1345"
 msgid "Not Kith filets again! "
-msgstr ""
+msgstr "又是奇斯怪蛛肉排！"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:13B2"
 msgid "What a lovely wife I have! "
-msgstr ""
+msgstr "我的妻子真可愛！"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:1450"
 msgid "Have you ever seen such a beautiful woman? "
-msgstr ""
+msgstr "你見過這麼美的女人嗎？"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:14C7"
 msgid "I need to build a new room onto this house. "
-msgstr ""
+msgstr "我得給這房子加蓋一個房間。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:1506"
 msgid "I wonder how Cyrrus is doing? "
-msgstr ""
+msgstr "不知道席勒斯過得怎麼樣？"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:1571"
 msgid "This house is too small. "
-msgstr ""
+msgstr "這房子太小了。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:15AB"
 msgid "I hope that Cyrrus is well. "
-msgstr ""
+msgstr "希望席勒斯一切安好。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:160E"
 msgid "I need some ale. "
-msgstr ""
+msgstr "我需要來點麥酒。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:1670"
 msgid "Yet, I would enjoy some company now and again. "
-msgstr ""
+msgstr "不過，偶爾有人作伴也不錯。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:16A0"
 msgid "I had a long day. "
-msgstr ""
+msgstr "今天真漫長。"
 
+# P13 batch 5
 #. event 10 (enterFastArea)
 msgctxt "bark 040E:16CE"
 msgid "I am exhausted. "
-msgstr ""
+msgstr "我累壞了。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 040E"
 msgid "Hello, my friend. "
-msgstr ""
+msgstr "你好，朋友。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 040E"
 msgid "Greetings "
-msgstr ""
+msgstr "你好"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 040E"
 msgid "Corinth told me of the ghost. "
-msgstr ""
+msgstr "柯林斯跟我說了鬼魂的事。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 040E"
 msgid "Is there a ghost in the valley? "
-msgstr ""
+msgstr "山谷裡有鬼魂嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Farewell. "
 #. answer compared by the conversation code
 msgctxt "ask 040E"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Greetings "
 msgctxt "bark 040E:1881"
 msgid "Greetings, friend, I am Gwillim. How fare you? "
-msgstr ""
+msgstr "你好，朋友，我是威廉。你好嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Greetings "
 msgctxt "ask 040E"
 msgid "I'm fine, thanks. "
-msgstr ""
+msgstr "我很好，謝謝。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Hello, my friend. "
 msgctxt "bark 040E:1935"
 msgid "Well, it is quite good to see you. All is well for you, I hope. "
-msgstr ""
+msgstr "嗯，真高興見到你。希望你一切都好。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I'm fine, thanks. "
 msgctxt "bark 040E:19DC"
 msgid "Good and welcome! It is rare that Corinth and I get visitors here in the valley. "
-msgstr ""
+msgstr "很好，歡迎！柯林斯和我在這山谷裡很少有客人來。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I'm fine, thanks. "
 msgctxt "ask 040E"
 msgid "Who is Corinth? "
-msgstr ""
+msgstr "柯林斯是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I'm fine, thanks. "
 msgctxt "ask 040E"
 msgid "The valley "
-msgstr ""
+msgstr "山谷"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I'm fine, thanks. "
 msgctxt "ask 040E"
 msgid "You don't get visitors? "
-msgstr ""
+msgstr "你們沒什麼客人？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is Corinth? "
 msgctxt "bark 040E:1B01"
 msgid "Corinth is my wife. She is a fine lady, too. Corinth works hard every day, never complains, and has been a good mother to our son, too. "
-msgstr ""
+msgstr "柯林斯是我的妻子，她也是個好女人。柯林斯每天辛勤工作，從不抱怨，對我們的兒子也一直是個好母親。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is Corinth? "
 msgctxt "ask 040E"
 msgid "Oh yes, I've met your wife. "
-msgstr ""
+msgstr "噢，對，我見過你妻子了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is Corinth? "
 msgctxt "ask 040E"
 msgid "Where is your son? "
-msgstr ""
+msgstr "你兒子在哪裡？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is Corinth? "
 msgctxt "ask 040E"
 msgid "She sounds like a fine lady. "
-msgstr ""
+msgstr "聽起來她是個好女人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Where is your son? "
 msgctxt "bark 040E:1CE8"
 msgid "I am surprised that my wife did not talk your ear off about our son. Corinth is so proud of Cyrrus that sometimes I think that she can speak of nothing else. But make no mistake, we are law abiding folk here. We also honor Hydros as Her Ladyship does command. "
-msgstr ""
+msgstr "我還真意外我妻子沒跟你嘮叨我們兒子的事嘮叨到你耳朵長繭。柯林斯以席勒斯為傲，有時我覺得她除了他什麼都不會說。不過可別誤會，我們這裡是奉公守法的人家，也遵照夫人的命令尊崇海德羅斯。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Where is your son? "
 msgctxt "ask 040E"
 msgid "Talk my ear off? "
-msgstr ""
+msgstr "嘮叨到我耳朵長繭？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Where is your son? "
 msgctxt "ask 040E"
 msgid "Law abiding folk? "
-msgstr ""
+msgstr "奉公守法的人家？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Where is your son? "
 msgctxt "ask 040E"
 msgid "Her Ladyship? "
-msgstr ""
+msgstr "夫人？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Where is your son? "
 msgctxt "bark 040E:1E46"
 msgid "Cyrrus, that's our boy's name, joined the Theurgists not long ago. My wife was very proud of him. She has always said that Cyrrus was a natural healer. But make no mistake, we are law abiding folk here. We also honor Hydros as Her Ladyship does command. "
-msgstr ""
+msgstr "席勒斯——那是我們兒子的名字——不久前加入了神術師。我妻子很以他為傲。她總說席勒斯是天生的治療者。不過可別誤會，我們這裡是奉公守法的人家，也遵照夫人的命令尊崇海德羅斯。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Where is your son? "
 msgctxt "ask 040E"
 msgid "Who are the Theurgists? "
-msgstr ""
+msgstr "神術師是什麼人？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Talk my ear off? "
 msgctxt "bark 040E:1F92"
 msgid "I love Corinth, but if you give that woman a chance, she'll talk the legs off a Kith when it comes to that boy. Surely she told you that Cyrrus has become a Theurgist. "
-msgstr ""
+msgstr "我愛柯林斯，不過只要給那女人一個機會，一說起那孩子，她能把奇斯怪蛛的腿都說斷。她一定跟你說過席勒斯當上神術師了吧。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Talk my ear off? "
 msgctxt "ask 040E"
 msgid "Yes, Corinth did mention that Cyrrus is a Theurgist. "
-msgstr ""
+msgstr "是的，柯林斯確實提過席勒斯是神術師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Talk my ear off? "
 msgctxt "ask 040E"
 msgid "No, Corinth didn't mention Theurgists. "
-msgstr ""
+msgstr "沒有，柯林斯沒提到神術師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No, Corinth didn't mention Theurgists. "
 msgctxt "bark 040E:2127"
 msgid "Well I am greatly surprised. My wife is very proud of our son. He left here to become one of the Theurgists that I told you about. My son is quite a good healer. "
-msgstr ""
+msgstr "那我可真意外。我妻子很以我們的兒子為傲。他離開這裡，成了我跟你說過的神術師。我兒子是個相當好的治療者。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No, Corinth didn't mention Theurgists. "
 msgctxt "bark 040E:21E8"
 msgid "Well, I am greatly surprised. You see, my wife is very proud of the fact that our son has become a Theurgist. They are the healers who serve Stratos, the Titan of Air. "
-msgstr ""
+msgstr "那我可真意外。你知道，我妻子很以我們兒子當上神術師為傲。他們是侍奉天空泰坦史特拉托斯的治療者。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Oh yes, I've met your wife. "
 msgctxt "bark 040E:227F"
 msgid "Quite a lady, that Corinth. "
-msgstr ""
+msgstr "柯林斯可真是個了不起的女人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "She sounds like a fine lady. "
 msgctxt "bark 040E:2307"
 msgid "Oh she is. She certainly is. "
-msgstr ""
+msgstr "噢，她是的。她當然是。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are the Theurgists? "
 msgctxt "bark 040E:2434"
 msgid "What? Have you never heard of the Theurgists? For Lithos' sake, man, did you just fall out of the sky? The Theurgists are the disciples of Stratos, the Air Titan. I thought that everyone knew that. "
-msgstr ""
+msgstr "什麼？你沒聽過神術師？看在利索斯的分上，老兄，你是剛從天上掉下來的嗎？神術師是天空泰坦史特拉托斯的門徒。我還以為人人都知道。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Corinth did mention that Cyrrus is a Theurgist. "
 msgctxt "bark 040E:24E5"
 msgid "Well, that is where he is; Argentrock Isle. "
-msgstr ""
+msgstr "嗯，他就在那裡，白銀之岩島。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The valley "
 msgctxt "bark 040E:2689"
 msgid "It is beautiful here, is it not?  Many people say that this valley is the only truly beautiful place in the world. The beauty of the valley has made my life as a herdsman somewhat easier. Whenever I find myself feeling remorse, I contemplate the beauty of this place and it sometimes makes me feel better. "
-msgstr ""
+msgstr "這裡很美，不是嗎？很多人說這座山谷是世上唯一真正美麗的地方。山谷的美讓我的牧民生活輕鬆了一些。每當我感到悔恨時，就靜靜欣賞這裡的美景，有時心情就會好一點。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The valley "
 msgctxt "ask 040E"
 msgid "You're a herdsman? "
-msgstr ""
+msgstr "你是牧民？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The valley "
 msgctxt "ask 040E"
 msgid "How long have you lived here? "
-msgstr ""
+msgstr "你在這裡住多久了？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "How long have you lived here? "
 msgctxt "bark 040E:27A9"
 msgid "Oh, all of my life. I have strolled up to the plateau a time or two. I must go into town but twice a year. But other than that, I stay put here in the valley. "
-msgstr ""
+msgstr "噢，一輩子了。我散步到高原上去過一兩次，一年只需要進城兩次。除此之外，我都待在這山谷裡。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "How long have you lived here? "
 msgctxt "ask 040E"
 msgid "The plateau? "
-msgstr ""
+msgstr "高原？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "How long have you lived here? "
 msgctxt "ask 040E"
 msgid "Why go to town twice a year? "
-msgstr ""
+msgstr "為什麼一年要進城兩次？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The plateau? "
 msgctxt "bark 040E:28B7"
 msgid "Just take the trail that runs past our place here, and it will take you up to the plateau. Its very lovely up there. "
-msgstr ""
+msgstr "只要沿著經過我們家的那條小路走，就能上到高原。那上面很美。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why go to town twice a year? "
 msgctxt "bark 040E:29D1"
 msgid "I must sell my surplus crops and the torax which are ready for slaughter. And you be assured that while I am there, I obey all of Her Ladyship's laws. We are good, law abiding folk up here. "
-msgstr ""
+msgstr "我得去賣多餘的農作物和可以宰的托拉克斯獸。請放心，我在城裡時，夫人的每條法律我都遵守。我們這裡都是奉公守法的好人家。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Can I buy something? "
 #. answer compared by the conversation code
 msgctxt "ask 040E"
 msgid "Can I buy something? "
-msgstr ""
+msgstr "我能買點東西嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Can I buy something? "
 msgctxt "bark 040E:2AD7"
 msgid "I afraid that there is nothing to sell. The time has not yet come for harvest. Do return at harvest time and I will sell you as many mushrooms as you can buy. "
-msgstr ""
+msgstr "恐怕現在沒什麼可賣的，還沒到收成的時候。收成時再來吧，你買得起多少蘑菇，我就賣你多少。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You're a herdsman? "
 msgctxt "bark 040E:2B50"
 msgid "Just like my father before me. "
-msgstr ""
+msgstr "就跟我父親一樣。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You're a herdsman? "
 msgctxt "ask 040E"
 msgid "Your father was a herdsman? "
-msgstr ""
+msgstr "你父親是牧民？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You don't get visitors? "
 msgctxt "bark 040E:2C5F"
 msgid "Not very often. No one really has much cause to come up here, other than Shaana and Mythran. That is why I was so surprised to see you. "
-msgstr ""
+msgstr "不太常有。除了夏娜和米斯蘭，沒什麼人有理由上來這裡。所以看到你我才那麼驚訝。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You don't get visitors? "
 msgctxt "ask 040E"
 msgid "Who is Mythran? "
-msgstr ""
+msgstr "米斯蘭是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is Mythran? "
 msgctxt "bark 040E:2E04"
 msgid "Mythran is an old hermit who lives up on the plateau. Many people think that he sells magical scrolls. I do not know if that is true or not. Personally I doubt that there is anyone who does such a thing. The Titans are the only magic in the world. I believe that Mythran is just an eccentric old man. "
-msgstr ""
+msgstr "米斯蘭是住在高原上的老隱士。很多人以為他賣魔法捲軸，我不知道是真是假。我個人懷疑有誰會做那種事。泰坦是世上唯一的魔法。我相信米斯蘭只是個古怪的老頭子。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Gwillim "
 #. answer compared by the conversation code
 msgctxt "ask 040E"
 msgid "Gwillim "
-msgstr ""
+msgstr "威廉"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Gwillim "
 msgctxt "bark 040E:2E67"
 msgid "Yes, I am Gwillim. "
-msgstr ""
+msgstr "是的，我是威廉。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Law abiding folk? "
 msgctxt "bark 040E:2F0F"
 msgid "That is correct, sir. Her Ladyship's administration has never had reason to worry about us. "
-msgstr ""
+msgstr "沒錯，先生。夫人的官府從來沒理由為我們操心。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Her Ladyship? "
 msgctxt "bark 040E:3028"
 msgid "Our ruler, Lady Mordea. You need not pretend that you do not know The Lady. But be assured that I have always lived well by her mandates. You can tell Her Ladyship that all is well in this district. "
-msgstr ""
+msgstr "我們的統治者，莫爾迪亞夫人。你用不著假裝不認識夫人。不過請放心，我一向謹遵她的命令過日子。你可以告訴夫人，這一區一切安好。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Her Ladyship? "
 msgctxt "ask 040E"
 msgid "Gwillim, Mordea's dead. "
-msgstr ""
+msgstr "威廉，莫爾迪亞死了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Her Ladyship? "
 msgctxt "ask 040E"
 msgid "Tell Mordea what? "
-msgstr ""
+msgstr "告訴莫爾迪亞什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell Mordea what? "
 msgctxt "bark 040E:3137"
 msgid "Tell her that all is well here. She has no need to worry about her subjects in the valley breaking her laws. "
-msgstr ""
+msgstr "告訴她這裡一切安好。她用不著擔心山谷裡的子民會違犯她的法律。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell Mordea what? "
 msgctxt "ask 040E"
 msgid "Do you think that I work for Mordea? "
-msgstr ""
+msgstr "你以為我替莫爾迪亞做事？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell Mordea what? "
 msgctxt "ask 040E"
 msgid "You're her subjects too? "
-msgstr ""
+msgstr "你們也是她的子民？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You're her subjects too? "
 msgctxt "bark 040E:3207"
 msgid "But of course, and happy to be so. "
-msgstr ""
+msgstr "當然，而且很樂意。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Do you think that I work for Mordea? "
 msgctxt "bark 040E:3339"
 msgid "What else would a man so equipped and well armoured do but protect our ruler? But do not think that that is the reason why I have taken the time to talk to you. I welcome the company of others. "
-msgstr ""
+msgstr "一個裝備這麼齊全、護甲這麼精良的人，除了保護我們的統治者，還能做什麼？不過可別以為我是因為這樣才花時間跟你說話。我很歡迎有人作伴。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Do you think that I work for Mordea? "
 msgctxt "ask 040E"
 msgid "I don't work for Mordea. "
-msgstr ""
+msgstr "我沒替莫爾迪亞做事。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Gwillim, Mordea's dead. "
 msgctxt "bark 040E:3486"
 msgid "Really? I have not heard this. I must tell Corinth! She will be so excited, er, I mean saddened to hear of our ruler's untimely death. "
-msgstr ""
+msgstr "真的嗎？我還沒聽說。我得告訴柯林斯！她聽到我們統治者英年早逝，一定會很興奮——呃，我是說，很難過。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I don't work for Mordea. "
 msgctxt "bark 040E:353E"
 msgid "Well, that is your business, friend. It is not for me to pry into your life. "
-msgstr ""
+msgstr "嗯，那是你的事，朋友。我不該打探你的生活。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Your father was a herdsman? "
 msgctxt "bark 040E:35FF"
 msgid "My family have always been herdmen. We have lived on this land for countless generations. "
-msgstr ""
+msgstr "我家世世代代都是牧民。我們在這片土地上住了數不清多少代了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Your father was a herdsman? "
 msgctxt "ask 040E"
 msgid "Countless generations, huh? "
-msgstr ""
+msgstr "數不清多少代？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Countless generations, huh? "
 msgctxt "bark 040E:36DF"
 msgid "Yes, for as far back as anyone can remember. But I fear that I am the last. "
-msgstr ""
+msgstr "是的，從有人記得的時候起就是這樣。不過我怕我是最後一代了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Countless generations, huh? "
 msgctxt "ask 040E"
 msgid "Why are you the last? "
-msgstr ""
+msgstr "為什麼你是最後一代？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why are you the last? "
 msgctxt "bark 040E:37B2"
 msgid "Because my son has become a Theurgist and I don't have any other children. "
-msgstr ""
+msgstr "因為我兒子成了神術師，而我沒有別的孩子。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why are you the last? "
 msgctxt "ask 040E"
 msgid "Yes, you told me of the Theurgists. "
-msgstr ""
+msgstr "是啊，你跟我說過神術師的事。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why are you the last? "
 msgctxt "ask 040E"
 msgid "What's a Theurgist? "
-msgstr ""
+msgstr "神術師是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, you told me of the Theurgists. "
 msgctxt "bark 040E:38B6"
 msgid "Then you understand that Cyrrus will never be a herdsman. "
-msgstr ""
+msgstr "那你就明白，席勒斯永遠不會當牧民了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What's a Theurgist? "
 msgctxt "bark 040E:39B4"
 msgid "You have not heard of the Theurgists? They are the disciples of Stratos, the Air elemental. My son, Cyrrus, now lives with them on Argentrock Isle. "
-msgstr ""
+msgstr "你沒聽過神術師？他們是風之元素史特拉托斯的門徒。我兒子席勒斯現在跟他們一起住在白銀之岩島。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Farewell. "
 msgctxt "bark 040E:3A0D"
 msgid "Farewell "
-msgstr ""
+msgstr "再會"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Is there a ghost in the valley? "
 msgctxt "bark 040E:3AA5"
 msgid "What? Where did you hear of such things? "
-msgstr ""
+msgstr "什麼？你從哪裡聽來這種事的？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Is there a ghost in the valley? "
 msgctxt "ask 040E"
 msgid "I heard stories in town. "
-msgstr ""
+msgstr "我在城裡聽到的傳聞。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Is there a ghost in the valley? "
 msgctxt "ask 040E"
 msgid "Is it true? "
-msgstr ""
+msgstr "是真的嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I heard stories in town. "
 msgctxt "bark 040E:3B7B"
 msgid "Well don't believe everything that you hear. "
-msgstr ""
+msgstr "你可別聽到什麼都信。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I heard stories in town. "
 msgctxt "ask 040E"
 msgid "But Darion told me of the legend. "
-msgstr ""
+msgstr "可是達里恩跟我說了那個傳說。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I heard stories in town. "
 msgctxt "bark 040E:3C5C"
 msgid "I do not know why you are here or who you may be, my friend, but if you have come here looking for a ghost you may as well go back where you came from. "
-msgstr ""
+msgstr "我不知道你為什麼來、也不知道你是誰，朋友，但如果你是來找鬼魂的，那你還是從哪來回哪去吧。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I heard stories in town. "
 msgctxt "ask 040E"
 msgid "I didn't mean to upset you. "
-msgstr ""
+msgstr "我不是有意惹你不高興的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Is it true? "
 msgctxt "bark 040E:3D27"
 msgid "No, it is not. Now please, I have no wish to discuss this further. "
-msgstr ""
+msgstr "不，不是真的。好了，拜託，我不想再談這件事。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Is it true? "
 msgctxt "bark 040E:3D7C"
 msgid "No. And I really do not have time to discuss silly stories. "
-msgstr ""
+msgstr "不是。而且我真的沒空談這種無聊的故事。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "But Darion told me of the legend. "
 msgctxt "bark 040E:3E7D"
 msgid "Then Darion told you a lie, my friend. This story has gone on for far too long. People need to let this story go. I can not be bothered by such trivial\tmatters. "
-msgstr ""
+msgstr "那達里恩就是在騙你，朋友。這故事流傳太久了，大家該把它放下了。我可沒空理這種芝麻小事。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "But Darion told me of the legend. "
 msgctxt "ask 040E"
 msgid "Can you tell me the story? "
-msgstr ""
+msgstr "你能跟我說說那個故事嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Can you tell me the story? "
 msgctxt "bark 040E:3F90"
 msgid "No. Look, I do not mean to be rude, but I have no wish to discuss this further. Please, do not ask me any more about this. "
-msgstr ""
+msgstr "不能。聽著，我不是故意無禮，但我不想再談這件事了。拜託，別再問我了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Can you tell me the story? "
 msgctxt "ask 040E"
 msgid "Please tell me about the ghost. "
-msgstr ""
+msgstr "請跟我說說那個鬼魂。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Please tell me about the ghost. "
 msgctxt "bark 040E:40BC"
 msgid "No! Are you deaf? I asked you to forget this subject! I am too busy to be bothered by this! Now, leave me alone! "
-msgstr ""
+msgstr "不！你聾了嗎？我叫你忘了這件事！我忙得很，沒空理這種事！現在，別來煩我！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I didn't mean to upset you. "
 msgctxt "bark 040E:4191"
 msgid "Do not worry, friend. This ghost thing is just not a topic which I wish to discuss. "
-msgstr ""
+msgstr "別在意，朋友。只是鬼魂這件事我不想談。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Corinth told me of the ghost. "
 msgctxt "bark 040E:4208"
 msgid "She what?! "
-msgstr ""
+msgstr "她怎樣？！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Corinth told me of the ghost. "
 msgctxt "ask 040E"
 msgid "You've -seen- it? "
-msgstr ""
+msgstr "你「親眼見過」？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Corinth told me of the ghost. "
 msgctxt "ask 040E"
 msgid "Please don't get angry. "
-msgstr ""
+msgstr "請別生氣。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Please don't get angry. "
 msgctxt "bark 040E:4398"
 msgid "Do not get angry? Just because my wife told of my darkest secret? I hardly know you and yet Corinth tells you everything that I would wish to keep hidden! No, I am not angry with you. But Corinth and I shall have words when you have gone. "
-msgstr ""
+msgstr "別生氣？就因為我妻子說出了我最不可告人的祕密？我跟你幾乎素不相識，柯林斯卻把我想隱瞞的事全告訴了你！不，我不是在生你的氣。不過等你走了，我得跟柯林斯好好談談。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You've -seen- it? "
 msgctxt "bark 040E:4476"
 msgid "Did she tell you that?! I do not believe it! She knows that I do not wish for anyone to know about that damned, malignant spirit! "
-msgstr ""
+msgstr "她連這個都跟你說了？！真不敢相信！她明明知道我不想讓任何人知道那個該死的惡靈！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You've -seen- it? "
 msgctxt "ask 040E"
 msgid "So it's true? "
-msgstr ""
+msgstr "所以是真的？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You've -seen- it? "
 msgctxt "ask 040E"
 msgid "Don't get mad at Corinth. "
-msgstr ""
+msgstr "別對柯林斯發火。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "So it's true? "
 msgctxt "bark 040E:4559"
 msgid "Yes, it is true that this valley is cursed with a malign spirit. It is also true that only a fool would pursue this thing. "
-msgstr ""
+msgstr "是的，這座山谷確實受到一個惡靈詛咒。同樣真確的是，只有傻瓜才會去追那東西。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Don't get mad at Corinth. "
 msgctxt "bark 040E:4699"
 msgid "Why shouldn't I? That woman knows well that I do not want to even think about what happened with that ghost. She knows this and yet she tells the first stranger that comes through the valley something that is very personal to me. "
-msgstr ""
+msgstr "為什麼不行？那女人明明知道，鬼魂的事我連想都不願想。她明知如此，卻把對我來說這麼私密的事，告訴第一個路過山谷的陌生人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Don't get mad at Corinth. "
 msgctxt "ask 040E"
 msgid "She was trying to help. "
-msgstr ""
+msgstr "她是想幫忙。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Don't get mad at Corinth. "
 msgctxt "ask 040E"
 msgid "It was my fault. "
-msgstr ""
+msgstr "是我的錯。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "It was my fault. "
 msgctxt "bark 040E:47F4"
 msgid "I can not accept that. Corinth is a grown woman and she is fully responsible for her actions. No, if Corinth told you of this thing then she did it herself. She and I must talk later about this. "
-msgstr ""
+msgstr "我不能接受這種說法。柯林斯是個成年女人，要為自己的行為負全責。不，如果柯林斯跟你說了這件事，那就是她自己的決定。我和她晚點得好好談談。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "She was trying to help. "
 msgctxt "bark 040E:4885"
 msgid "What do you mean by that? Who was she trying to help? "
-msgstr ""
+msgstr "你這是什麼意思？她想幫誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "She was trying to help. "
 msgctxt "ask 040E"
 msgid "Me. My task is very important. "
-msgstr ""
+msgstr "幫我。我的任務非常重要。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "She was trying to help. "
 msgctxt "ask 040E"
 msgid "You, Gwillim. "
-msgstr ""
+msgstr "幫你，威廉。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Me. My task is very important. "
 msgctxt "bark 040E:4A55"
 msgid "I doubt very seriously that whatever you have to do here is all that important. You certainly have no right to come here and stir up such trouble, my friend. Corinth and I have been through very great ordeals and we will certainly make our way through you and your scheming! Now, be on your way! "
-msgstr ""
+msgstr "我非常懷疑你在這裡要做的事有那麼重要。你絕對沒有權利跑來這裡惹這種麻煩，朋友。柯林斯和我經歷過非常大的磨難，你和你的詭計我們也一定挺得過去！現在，走你的路吧！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You, Gwillim. "
 msgctxt "bark 040E:4B0E"
 msgid "Me? What was she trying to help -me- with? That is preposterous. "
-msgstr ""
+msgstr "我？她想幫「我」什麼？真是荒謬。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You, Gwillim. "
 msgctxt "ask 040E"
 msgid "She wants you to talk. "
-msgstr ""
+msgstr "她希望你能說出來。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You, Gwillim. "
 msgctxt "ask 040E"
 msgid "I don't know. "
-msgstr ""
+msgstr "我不知道。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I don't know. "
 msgctxt "bark 040E:4C56"
 msgid "Well I have a feeling that -I- know. Corinth has been laboring under the impression that I just talk about my brother, then somehow everything will be alright. "
-msgstr ""
+msgstr "嗯，我想「我」知道。柯林斯一直以為，只要我說說我兄弟的事，一切就會好起來。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I don't know. "
 msgctxt "ask 040E"
 msgid "What's wrong? "
-msgstr ""
+msgstr "怎麼了？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What's wrong? "
 msgctxt "bark 040E:4D2F"
 msgid "Nothing that concerns you. This is a family matter and I do not need for you to come here and stir up trouble. "
-msgstr ""
+msgstr "不關你的事。這是家務事，用不著你跑來這裡惹麻煩。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "She wants you to talk. "
 msgctxt "bark 040E:4E1B"
 msgid "Why? Does she think that talking about my brother's death is going to somehow bring him back? That is in the past. Nothing can be done about it now. "
-msgstr ""
+msgstr "為什麼？她以為談談我兄弟的死，就能讓他回來嗎？那都過去了，現在什麼也改變不了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "She wants you to talk. "
 msgctxt "ask 040E"
 msgid "Maybe talking helps. "
-msgstr ""
+msgstr "也許說出來會有幫助。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "She wants you to talk. "
 msgctxt "ask 040E"
 msgid "The ghost killed your brother? "
-msgstr ""
+msgstr "鬼魂殺了你兄弟？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Maybe talking helps. "
 msgctxt "bark 040E:4F44"
 msgid "I have my solitude while tending the torax to think things through. I have dealt with this matter and I did it a very long time ago. "
-msgstr ""
+msgstr "我照顧托拉克斯獸時，有獨處的時間把事情想清楚。這件事我早就處理好了，很久很久以前就處理好了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The ghost killed your brother? "
 msgctxt "bark 040E:4FD5"
 msgid "Yes. There, I told you. Now are you happy? "
-msgstr ""
+msgstr "是的。好了，我說了。現在你高興了吧？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The ghost killed your brother? "
 msgctxt "ask 040E"
 msgid "Where is the ghost? "
-msgstr ""
+msgstr "鬼魂在哪裡？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "The ghost killed your brother? "
 msgctxt "ask 040E"
 msgid "How did he die? "
-msgstr ""
+msgstr "他是怎麼死的？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Where is the ghost? "
 msgctxt "bark 040E:5151"
 msgid "Why should I tell you? So you can go there and get yourself killed like all of the others? Perhaps I should tell you. If the ghost were to kill you then you could no longer come here and create trouble between my wife and I. "
-msgstr ""
+msgstr "我為什麼要告訴你？好讓你像其他人一樣去那裡送死？也許我真該告訴你。要是鬼魂殺了你，你就不能再來這裡挑撥我和我妻子了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "How did he die? "
 msgctxt "bark 040E:5230"
 msgid "He died trying to find that damned ghost! Others have died doing the same, damn fool thing, so do not get any ideas about ghost hunting. "
-msgstr ""
+msgstr "他就是為了找那個該死的鬼魂才死的！其他人也是做同樣的蠢事送了命，所以你可別打什麼抓鬼的主意。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "How did he die? "
 msgctxt "ask 040E"
 msgid "Others have died? "
-msgstr ""
+msgstr "還有其他人死了？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "How did he die? "
 msgctxt "ask 040E"
 msgid "I want to find the ghost. "
-msgstr ""
+msgstr "我想找到那個鬼魂。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Others have died? "
 msgctxt "bark 040E:5329"
 msgid "Yes, many others. There is only one person to go after that spirit that lived and -she- lost her mind. "
-msgstr ""
+msgstr "是的，很多人。去追那個幽靈還活下來的，只有一個人，而「她」瘋了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Others have died? "
 msgctxt "ask 040E"
 msgid "How many have died? "
-msgstr ""
+msgstr "死了多少人？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Others have died? "
 msgctxt "ask 040E"
 msgid "Who is she? "
-msgstr ""
+msgstr "她是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "How many have died? "
 msgctxt "bark 040E:53EB"
 msgid "Too many for you to go off and make one more dead fool. "
-msgstr ""
+msgstr "多到不該再讓你去多添一個死掉的傻瓜。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is she? "
 msgctxt "bark 040E:55AE"
 msgid "Who? The mad woman? Her name is Kilandra and she is as mad as a keplock. Some have heard her claim to possess a key that will get you to the ghost. The woman also talks to fish, so I would not believe a word she says, but apparently the ghost and the key are not subjects she likes to brag about. She had to be pestered several times before she would even speak of it. "
-msgstr ""
+msgstr "誰？那個瘋女人？她叫奇蘭卓，瘋得不得了。有人聽她說過，她有一把能帶你找到鬼魂的鑰匙。那女人還會跟魚說話，所以她說的話我一個字都不信，不過看來鬼魂和鑰匙的事，她並不喜歡拿出來炫耀。得纏她好幾次，她才肯提。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is she? "
 msgctxt "ask 040E"
 msgid "She talks to fish? "
-msgstr ""
+msgstr "她跟魚說話？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "She talks to fish? "
 msgctxt "bark 040E:56BF"
 msgid "Yes, she talks to fish. And unless you want to wind up dead or talking to fish for the rest of your life, you'd better give up these ridiculous notions. "
-msgstr ""
+msgstr "是的，她跟魚說話。除非你想送命，或是下半輩子都跟魚說話，否則你最好打消這些荒唐的念頭。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I want to find the ghost. "
 msgctxt "bark 040E:579F"
 msgid "Look, if you are in a hurry to die, then go and insult Lady Mordea. But I will have no hand in assisting you. Do you understand? "
-msgstr ""
+msgstr "聽著，如果你急著找死，就去侮辱莫爾迪亞夫人吧。但我絕不會幫你。明白嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I want to find the ghost. "
 msgctxt "ask 040E"
 msgid "Don't worry about me. "
-msgstr ""
+msgstr "別擔心我。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I want to find the ghost. "
 msgctxt "ask 040E"
 msgid "I need help only to find it. "
-msgstr ""
+msgstr "我只需要你幫我找到它。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I want to find the ghost. "
 msgctxt "ask 040E"
 msgid "Mordea's dead, Gwillim. "
-msgstr ""
+msgstr "莫爾迪亞死了，威廉。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Mordea's dead, Gwillim. "
 msgctxt "bark 040E:58FD"
 msgid "Oh yes, I keep forgetting that. Mordead was Tempest for so long that it is difficult for me to think of anyone else as ruling Tenebrae. "
-msgstr ""
+msgstr "噢，對，我老是忘了這件事。莫爾迪亞當風暴使者太久了，我很難想像由別人來統治泰尼伯瑞。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Don't worry about me. "
 msgctxt "bark 040E:5A31"
 msgid "Oh, you are so great and powerful that you need not fear the supernatural? I suppose that you are the type of person who goes around saving worlds. Perhaps after defeating the ghost, you'll overthrow the Titans. "
-msgstr ""
+msgstr "噢，你強大到不用怕鬼怪？我看你是那種到處拯救世界的人吧。也許打敗鬼魂之後，你還要去推翻泰坦呢。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I need help only to find it. "
 msgctxt "bark 040E:5C1A"
 msgid "You really are something, aren't you? Fine, go quickly unto your death then. Follow the path that runs past my house. As the path makes its final bend before going into the cave, continue to travel forward. You will find a large pile of brush and brambles against the mountain face. This hides the entrance to the ghost's lair. Now, be gone with you. You bothered my wife and I enough... "
-msgstr ""
+msgstr "你還真了不起啊？好吧，那就快去送死吧。沿著經過我家的那條小路走。在小路進洞穴前的最後一個轉彎處，繼續往前走，你會看到山壁旁有一大堆灌木和荊棘。那後面就藏著鬼魂巢穴的入口。好了，快走吧。你已經把我和我妻子煩夠了……"
