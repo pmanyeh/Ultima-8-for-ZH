@@ -129,6 +129,11 @@ msgstr "哎，就在岸邊呀，朋友。你現在安全了，謝天謝地你還
 
 #. event 01 (use (talk)), after "Where am I? " or "Where did you find me? "
 msgctxt "ask 0402"
+msgid "What happened to me? "
+msgstr "我發生了什麼事？"
+
+#. event 01 (use (talk)), after "Where am I? " or "Where did you find me? "
+msgctxt "ask 0402"
 msgid "Shore of what? "
 msgstr "什麼的岸邊？"
 
@@ -136,6 +141,16 @@ msgstr "什麼的岸邊？"
 msgctxt "bark 0402:0B7A"
 msgid "Shore of what? Why, the shore of Tenebrae, upon the Sea of Rains. "
 msgstr "什麼的岸邊？哎，當然是泰尼伯瑞的岸邊，就在雨之海旁。"
+
+#. event 01 (use (talk)), after "Shore of what? "
+msgctxt "ask 0402"
+msgid "Tenebrae? "
+msgstr "泰尼伯瑞？"
+
+#. event 01 (use (talk)), after "Shore of what? "
+msgctxt "ask 0402"
+msgid "Sea of Rains? "
+msgstr "雨之海？"
 
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0402:0C30"
@@ -148,26 +163,24 @@ msgid "I see you otherwise occupied. I shall not waste any more of your time. Fa
 msgstr "看來你在忙別的事。我就不再耽誤你的時間了。再會。"
 
 #. event 01 (use (talk)), after "Sea of Rains? "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "Sea of Rains? "
-msgstr "雨之海？"
-
-#. event 01 (use (talk)), after "Sea of Rains? "
 msgctxt "bark 0402:0F0B"
 msgid "Obviously you do not spend any time away from the city to ask such a question. Why, 'tis nothing more than the name of the sea. The story goes that the rains are quite heavy the farther you go from the shore. It is supposed to have something to do with Mordea's powers. Part of her role as ruling Tempest is to control the rain over the city, but she feels no obligation to extend that in the distant waters. Of course, I have never had an unwanted cloud while out to sea, myself, so I suspect the name is more rumor than truth. "
 msgstr "看來你從沒離開過城裡，才會問這種問題。哎，那不過是這片海的名字罷了。傳說離岸越遠，雨就下得越大。據說這跟莫爾迪亞的力量有關。身為統治這座城的風暴使者，她的職責之一就是掌控城市上空的雨，但她覺得沒有義務把這份力量延伸到遙遠的海上。不過說真的，我自己出海時從沒遇過不想要的烏雲，所以我猜這名字多半是謠傳，不是事實。"
 
 #. event 01 (use (talk)), after "Tenebrae? "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "Tenebrae? "
-msgstr "泰尼伯瑞？"
-
-#. event 01 (use (talk)), after "Tenebrae? "
 msgctxt "bark 0402:10A0"
 msgid "Aye, Tenebrae, the City of Eternal Twilight. They say you'll never find a more lovely place and I do not disagree, save for one place. But I will say this, the farther I am from the Lady, the better I feel. I can tell by your questions that you are not from this land. Come you from another island? Or perhaps some place that is an even greater distance away. "
 msgstr "是啊，泰尼伯瑞，永恆暮光之城。人們說你再也找不到比這更美的地方了，我也不反對——只除了一個地方。不過我得說，離那位夫人越遠，我就覺得越自在。從你的問題聽得出來，你不是這片土地的人。你是從別的島來的嗎？還是從更遙遠的地方？"
+
+#. event 01 (use (talk)), after "Tenebrae? "
+msgctxt "ask 0402"
+msgid "What is the lovelier place? "
+msgstr "更美的地方是哪裡？"
+
+#. event 01 (use (talk)), after "Tenebrae? "
+msgctxt "ask 0402"
+msgid "Who is the Lady? "
+msgstr "那位夫人是誰？"
 
 #. event 01 (use (talk)), after "Tenebrae? "
 msgctxt "ask 0402"
@@ -180,26 +193,19 @@ msgid "I suspected as much, my friend, for your questions are most unusual. I mu
 msgstr "我就猜是這樣，朋友，因為你的問題實在很不尋常。我得先說，我只是個普通的漁夫，對我們這裡的風俗之類的事知道得不多。一定有其他人能告訴你更多。對了，我正好知道一個人。等你到了城裡，就去泰尼伯瑞東邊的圖書館找班提克。我這位好朋友對我們這片土地和人民幾乎無所不知。是的，他一定能幫上你的忙。"
 
 #. event 01 (use (talk)), after "What is the lovelier place? "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "What is the lovelier place? "
-msgstr "更美的地方是哪裡？"
-
-#. event 01 (use (talk)), after "What is the lovelier place? "
 msgctxt "bark 0402:14E0"
 msgid "Why, the open sea, of course! I can think of nothing more reassuring than the smell of the salt and the feel of a taut net as it fills with fish. And the weather! I hear others complain it is as fickle as the Lady, but I know no such thing. I can think of no day on the sea when the sky was not clear and the waves as gentle as a baby's hand. "
 msgstr "當然是遼闊的大海啊！我想不出有什麼比海鹽的氣味、比漁網裝滿魚時繃緊的手感更讓人安心的了。還有天氣！我聽別人抱怨說，海上的天氣跟那位夫人一樣反覆無常，但我可從沒遇過。我想不起哪一天出海時，天空不是晴朗無雲、海浪不是像嬰兒的手一樣溫柔。"
 
 #. event 01 (use (talk)), after "Who is the Lady? "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "Who is the Lady? "
-msgstr "那位夫人是誰？"
-
-#. event 01 (use (talk)), after "Who is the Lady? "
 msgctxt "bark 0402:15F3"
 msgid "You mean the Lady Mordea, my friend. She is Tempest and ruler of the city. Others call her a tyrant in whispered corners, though I held no opinion myself. Until recently, that is. "
 msgstr "你是說莫爾迪亞夫人吧，朋友。她是風暴使者，也是這座城的統治者。有人在角落裡竊竊私語，說她是暴君，不過我自己倒沒什麼看法。至少直到最近為止。"
+
+#. event 01 (use (talk)), after "Who is the Lady? "
+msgctxt "ask 0402"
+msgid "What is a Tempest? "
+msgstr "風暴使者是什麼？"
 
 #. event 01 (use (talk)), after "Who is the Lady? "
 msgctxt "ask 0402"
@@ -212,21 +218,9 @@ msgid "Lately the Lady has taken to eliminating dissension by eliminating the di
 msgstr "最近那位夫人開始用除掉異議者的方式來消除異議。她把他們處死，在碼頭上斬首。起初被殺的只有真正的罪犯，但很快地，任何表示不同意見的人都被送上了斷頭台。我為人民的自由感到擔憂。"
 
 #. event 01 (use (talk)), after "What is a Tempest? "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "What is a Tempest? "
-msgstr "風暴使者是什麼？"
-
-#. event 01 (use (talk)), after "What is a Tempest? "
 msgctxt "bark 0402:189A"
 msgid "Indeed, you ask unusual questions. However, I know so little about them, myself. In town you might find others who can offer so much more assistance. "
 msgstr "你問的問題確實很不尋常。不過，我自己對他們也所知甚少。到了城裡，你也許能找到其他能提供更多幫助的人。"
-
-#. event 01 (use (talk)), after "What happened to me? " or "Found me? "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "What happened to me? "
-msgstr "我發生了什麼事？"
 
 #. event 01 (use (talk)), after "What happened to me? " or "Found me? "
 #. answer compared by the conversation code
@@ -239,8 +233,7 @@ msgctxt "bark 0402:1A04"
 msgid "I am unsure, my friend. All I know is that I found your water-logged body in the depths of The Lurker's domain. What happened before remains a mystery. I pulled in my nets and within one I discovered you. "
 msgstr "我也不太清楚，朋友。我只知道，我是在潛伏者領域的深處發現你那泡得濕透的身體。在那之前發生了什麼，仍然是個謎。我收網的時候，就在其中一張網裡發現了你。"
 
-#. event 01 (use (talk)), after "The Lurker's domain? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "What happened to me? " or "Found me? "
 msgctxt "ask 0402"
 msgid "The Lurker's domain? "
 msgstr "潛伏者的領域？"
@@ -267,14 +260,13 @@ msgstr "沒錯！那不只代表你會喪命，你還會注定在海底徘徊，
 
 #. event 01 (use (talk)), after "Twice bad? "
 msgctxt "ask 0402"
-msgid "Who is Lithos? "
-msgstr "利索斯是誰？"
-
-#. event 01 (use (talk)), after "What pact? "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
 msgid "What pact? "
 msgstr "什麼契約？"
+
+#. event 01 (use (talk)), after "Twice bad? "
+msgctxt "ask 0402"
+msgid "Who is Lithos? "
+msgstr "利索斯是誰？"
 
 #. event 01 (use (talk)), after "What pact? "
 msgctxt "bark 0402:1D55"
@@ -359,6 +351,12 @@ msgstr "我正想問你同樣的問題呢，朋友。沒有，沒什麼新鮮事
 # P13 batch 1
 #. event 01 (use (talk)), after "Any news? "
 msgctxt "ask 0402"
+msgid "What about Toran? "
+msgstr "托蘭怎麼了？"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Any news? "
+msgctxt "ask 0402"
 msgid "Who is Toran? "
 msgstr "托蘭是誰？"
 
@@ -401,6 +399,12 @@ msgstr "他是個好人。托蘭是寶石匠，他的作品相當出色。老實
 # P13 batch 1
 #. event 01 (use (talk)), after "Who is Toran? "
 msgctxt "ask 0402"
+msgid "His wife? "
+msgstr "他的妻子？"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Who is Toran? "
+msgctxt "ask 0402"
 msgid "His son? "
 msgstr "他的兒子？"
 
@@ -409,13 +413,6 @@ msgstr "他的兒子？"
 msgctxt "bark 0402:2A9F"
 msgid "A good man, I would say. He is the gemcutter. His works are considered quite good. "
 msgstr "我覺得他是個好人。他是寶石匠，他的作品公認相當出色。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "His wife? "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "His wife? "
-msgstr "他的妻子？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "His wife? "
@@ -434,13 +431,6 @@ msgstr "他兒子面對悲傷的方式和他母親不同。托溫決定自己想
 msgctxt "bark 0402:2E2E"
 msgid "His son does not handle grief like his mother. Torwin has decided to take matters into his own hands, though only the Titans know what he will do. I suppose violence would not be out of the question. I can only hope that is not the case, for even if he could get past the guards, Mordea's abilities are more than adequate to stave off his assault. "
 msgstr "他兒子面對悲傷的方式和他母親不同。托溫決定自己想辦法，但他會做出什麼事，只有泰坦知道。我想他也不無可能訴諸暴力。我只能祈禱不會如此，因為就算他能闖過衛兵，莫爾迪亞的力量也足以擋下他的攻擊。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "What about Toran? "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "What about Toran? "
-msgstr "托蘭怎麼了？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "What about Toran? "
@@ -497,6 +487,12 @@ msgstr "我也不確定，朋友，不過我得承認，見到你真高興。我
 # P13 batch 1
 #. event 01 (use (talk)), after "What is going on? "
 msgctxt "ask 0402"
+msgid "I will help. "
+msgstr "我會幫忙。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "What is going on? "
+msgctxt "ask 0402"
 msgid "I am sorry. "
 msgstr "抱歉。"
 
@@ -505,13 +501,6 @@ msgstr "抱歉。"
 msgctxt "bark 0402:3855"
 msgid "You are sorry? I understand. You are too busy with your own troubles. "
 msgstr "抱歉？我明白了。你自己的麻煩就夠你忙的了。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "I will help. "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "I will help. "
-msgstr "我會幫忙。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "I will help. "
@@ -534,6 +523,12 @@ msgstr "如果我說話不太客氣，請你見諒。上次見面留給我的感
 # P13 batch 1
 #. event 01 (use (talk)), after "Greetings, Devon. "
 msgctxt "ask 0402"
+msgid "I will assist you. "
+msgstr "我會協助你。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Greetings, Devon. "
+msgctxt "ask 0402"
 msgid "Farewell. "
 msgstr "再會。"
 
@@ -542,13 +537,6 @@ msgstr "再會。"
 msgctxt "bark 0402:3C3C"
 msgid "Begone, coward. "
 msgstr "走吧，懦夫。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "I will assist you. "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "I will assist you. "
-msgstr "我會協助你。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "I will assist you. "
@@ -565,6 +553,12 @@ msgstr "抱歉，朋友，這次輪到我聽不懂你在說什麼了。黑石碎
 # P13 batch 1
 #. event 01 (use (talk)), after "I need the Blackrock fragment. "
 msgctxt "ask 0402"
+msgid "The Tear of the Seas. "
+msgstr "海洋之淚。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "I need the Blackrock fragment. "
+msgctxt "ask 0402"
 msgid "Who would know its location? "
 msgstr "誰會知道它在哪裡？"
 
@@ -573,13 +567,6 @@ msgstr "誰會知道它在哪裡？"
 msgctxt "bark 0402:3F74"
 msgid "To answer that, I must know what it is you are talking about. "
 msgstr "要回答這個問題，我得先知道你說的是什麼東西。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "The Tear of the Seas. "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "The Tear of the Seas. "
-msgstr "海洋之淚。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "The Tear of the Seas. "
@@ -602,15 +589,20 @@ msgstr "你的描述太模糊了。這座火山以前那麼活躍，你到處打
 # P13 batch 1
 #. event 01 (use (talk)), after "It is a large, dark stone. "
 msgctxt "ask 0402"
-msgid "May you farewell. "
-msgstr "祝你一切安好。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Yes, I do. "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
 msgid "Yes, I do. "
 msgstr "是的，我想看。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "It is a large, dark stone. "
+msgctxt "ask 0402"
+msgid "No, I do not. "
+msgstr "不，我不想。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "It is a large, dark stone. "
+msgctxt "ask 0402"
+msgid "May you farewell. "
+msgstr "祝你一切安好。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Yes, I do. "
@@ -629,13 +621,6 @@ msgstr "希望這把鑰匙幫得上忙。"
 msgctxt "bark 0402:4686"
 msgid "I hope this key helps. "
 msgstr "希望這把鑰匙幫得上忙。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "No, I do not. "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "No, I do not. "
-msgstr "不，我不想。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "No, I do not. "
@@ -675,24 +660,22 @@ msgid "I had feared as much. When the torrential rains began and the people came
 msgstr "我早就擔心會這樣。當傾盆大雨開始落下、人們跑來找我時，我卻無法讓雨停下來。那時我就知道出事了。起初，我還希望你只是找到了另一位風暴使者，一位年紀更長的。但不知為何，我就是知道、就是感覺到，事情不是那樣。告訴我，朋友，這是怎麼發生的？"
 
 # P13 batch 1
-#. event 01 (use (talk)), after "Twas my fault. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "The Lurker is free! "
 msgctxt "ask 0402"
 msgid "Twas my fault. "
 msgstr "是我的錯。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "The Lurker is free! "
+msgctxt "ask 0402"
+msgid "I know not. "
+msgstr "我不知道。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Twas my fault. "
 msgctxt "bark 0402:4F1A"
 msgid "That does not surprise me. From the day I cut you free of my fishing nets, I knew of the luck that followed you. Whether it is good luck or bad I did not know. Nor, for that matter, am I sure now. Nevertheless, the rains must cease or the land will flood again, as in the days of Kalen and the wars with the Zealans. And, my friend, I believe it is up to you to end this cataclysm. Though I am loath to suggest this, perhaps the Sorcerers who dwell across the river of lava in the catacombs can help. "
 msgstr "這並不讓我意外。從我割開漁網把你救出來的那天起，我就知道你身上帶著某種運氣。是好運還是厄運，我當時不知道，老實說，現在也還不確定。無論如何，雨一定得停，否則大地又會像卡倫時代、與澤蘭人交戰的那段日子一樣被洪水淹沒。而且，朋友，我相信要結束這場浩劫，得靠你了。雖然我很不想這麼建議，但也許住在地下墓穴裡、熔岩河對岸的巫師們能幫上忙。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "I know not. "
-#. answer compared by the conversation code
-msgctxt "ask 0402"
-msgid "I know not. "
-msgstr "我不知道。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "I know not. "

@@ -67,28 +67,32 @@ msgstr "你想幹嘛，陌生人？"
 # P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 042D"
-msgid "Bye "
-msgstr "再見"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Who are you? "
-#. answer compared by the conversation code
-msgctxt "ask 042D"
 msgid "Who are you? "
 msgstr "你是誰？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 042D"
+msgid "What is your duty? "
+msgstr "你的職責是什麼？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 042D"
+msgid "Where am I? "
+msgstr "這是哪裡？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 042D"
+msgid "Bye "
+msgstr "再見"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 042D:04FF"
 msgid "My name is none of your concern. What -is- your concern is staying out of trouble. "
 msgstr "我叫什麼不關你的事。你該關心的是別惹麻煩。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "What is your duty? "
-#. answer compared by the conversation code
-msgctxt "ask 042D"
-msgid "What is your duty? "
-msgstr "你的職責是什麼？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
@@ -101,13 +105,6 @@ msgstr "我的職責是保護風暴使者戴文，不過以他的力量，我懷
 msgctxt "bark 042D:065E"
 msgid "My duty is to protect her Ladyship, Mordea, though I doubt she needs it with her powers. You would have to be insane to think of assaulting her. "
 msgstr "我的職責是保護莫爾迪亞夫人，不過以她的力量，我懷疑她根本不需要保護。只有瘋子才會想攻擊她。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Where am I? "
-#. answer compared by the conversation code
-msgctxt "ask 042D"
-msgid "Where am I? "
-msgstr "這是哪裡？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "

@@ -178,22 +178,28 @@ def evaluate(rows, events, on_assign=None, params=None, emit=None, catalog=None,
             bark_arg = local_expr(args[0])
         elif op == 0x6B and stack:                     # string to pointer
             bark_arg = stack.pop(); pending = bool(stack)
-        elif op == 0x0E and stack and last_lit is not None:  # one-element list
-            # answers built with the player's name ("I am {name}.") are
-            # sentence templates in the list
-            if emit:
-                for e in stack[-args[1]:]:
-                    if not e.is_literal() and "name" in e.vars():
-                        emit(f"  + option \"{e.template()}\"")
-                        catalog.append(("ask", f"{cls:04X}", e.template(), "template", where))
-            stack.pop(); pending = False
+        elif op == 0x0E and stack and last_lit is not None:  # list of answers
+            # usually one element; a few lists hold several answers at once
+            # (Xavier's Test of Wisdom). Answers built with the player's name
+            # ("I am {name}.") are sentence templates in the list
+            elems = stack[-args[1]:] if args[1] > 1 else stack[-1:]
             if emit:
                 nxt = rows[i + 1][1] if i + 1 < len(rows) else None
-                if nxt == 0x1A:
-                    emit(f"  - option \"{last_lit}\"")
+                if variants and pc in variants:      # every branch (site_variants)
+                    texts = variants[pc]
                 else:
-                    emit(f"  + option \"{last_lit}\"")
-                    catalog.append(("ask", f"{cls:04X}", last_lit, "answer", where))
+                    texts = [e.template() for e in elems]
+                for t in texts:
+                    if "{" in t:
+                        if "{name}" in t and not re.search(r"\{(?!name\})", t):
+                            emit(f"  + option \"{t}\"")
+                            catalog.append(("ask", f"{cls:04X}", t, "template", where))
+                    elif nxt == 0x1A:
+                        emit(f"  - option \"{t}\"")
+                    else:
+                        emit(f"  + option \"{t}\"")
+                        catalog.append(("ask", f"{cls:04X}", t, "answer", where))
+            del stack[-len(elems):]; pending = False
         elif op == 0x26:                               # strcmp
             if last_lit is not None:
                 cond.append(last_lit)
@@ -360,7 +366,16 @@ def site_variants(rows, params, cls, max_states=MAX_STATES_PER_PC, max_variants=
                 elif op == 0x6B and stack:
                     bark_arg = stack[-1]; stack = stack[:-1]; pending = bool(stack)
                 elif op == 0x0E and stack:
-                    stack = stack[:-1]; pending = False
+                    # a list of answers: its texts in every branch
+                    # ("Please forgive me" + ", kind lady. " / ", Bane. ")
+                    elems = stack[-args[1]:] if args[1] > 1 else stack[-1:]
+                    lst = found.setdefault(pc, [])
+                    for e in elems:
+                        if UNKNOWN[0] not in e:
+                            t = Expr(list(e)).template()
+                            if t not in lst and len(lst) < max_variants:
+                                lst.append(t)
+                    stack = stack[:-len(elems)]; pending = False
                 elif op == 0x26:
                     stack = (); pending = False
                 elif op == 0x12 and pending and stack:       # return a string

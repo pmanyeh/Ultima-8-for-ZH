@@ -49,15 +49,14 @@ msgstr "你想買驅散傳送門捲軸嗎？"
 # P13 batch 3
 #. event 10 (enterFastArea)
 msgctxt "ask 0421"
-msgid "Nay. "
-msgstr "不。"
-
-# P13 batch 3
-#. event 10 (enterFastArea), after "Aye. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
 msgid "Aye. "
 msgstr "是的。"
+
+# P13 batch 3
+#. event 10 (enterFastArea)
+msgctxt "ask 0421"
+msgid "Nay. "
+msgstr "不。"
 
 # P13 batch 3
 #. event 10 (enterFastArea), after "Aye. "
@@ -80,15 +79,14 @@ msgstr "也許你想談談捲軸以外的事。"
 # P13 batch 3
 #. event 10 (enterFastArea), after "" or "Nay. "
 msgctxt "ask 0421"
-msgid "I cannot pay that. "
-msgstr "我付不起。"
-
-# P13 batch 3
-#. event 10 (enterFastArea), after "I will pay that. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
 msgid "I will pay that. "
 msgstr "我付。"
+
+# P13 batch 3
+#. event 10 (enterFastArea), after "" or "Nay. "
+msgctxt "ask 0421"
+msgid "I cannot pay that. "
+msgstr "我付不起。"
 
 # P13 batch 3
 #. event 10 (enterFastArea), after "I will pay that. "
@@ -135,15 +133,26 @@ msgstr "你應該明白，我只有我所教授法術的材料。你想買死靈
 # P13 batch 3
 #. event 10 (enterFastArea), after ""
 msgctxt "ask 0421"
-msgid "Nevermind. "
-msgstr "算了。"
-
-# P13 batch 3
-#. event 10 (enterFastArea), after "Necromancy. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
 msgid "Necromancy. "
 msgstr "死靈術。"
+
+# P13 batch 3
+#. event 10 (enterFastArea), after ""
+msgctxt "ask 0421"
+msgid "Sorcery. "
+msgstr "巫術。"
+
+# P13 batch 3
+#. event 10 (enterFastArea), after ""
+msgctxt "ask 0421"
+msgid "Thaumaturgy. "
+msgstr "奇蹟術。"
+
+# P13 batch 3
+#. event 10 (enterFastArea), after ""
+msgctxt "ask 0421"
+msgid "Nevermind. "
+msgstr "算了。"
 
 # P13 batch 3
 #. event 10 (enterFastArea), after "Necromancy. "
@@ -153,23 +162,9 @@ msgstr "你想買碎骨、劊子手兜帽草，還是黑沼草？"
 
 # P13 batch 3
 #. event 10 (enterFastArea), after "Sorcery. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "Sorcery. "
-msgstr "巫術。"
-
-# P13 batch 3
-#. event 10 (enterFastArea), after "Sorcery. "
 msgctxt "bark 0421:0B35"
 msgid "Do you wish to buy Obsidian, Brimstone, Pumice, Ash, or Pig Iron? "
 msgstr "你想買黑曜石、硫磺、浮岩、火山灰，還是生鐵？"
-
-# P13 batch 3
-#. event 10 (enterFastArea), after "Thaumaturgy. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "Thaumaturgy. "
-msgstr "奇蹟術。"
 
 # P13 batch 3
 #. event 10 (enterFastArea), after "Thaumaturgy. "
@@ -184,88 +179,76 @@ msgid "Very well. "
 msgstr "很好。"
 
 # P13 batch 3
-#. event 10 (enterFastArea), after "Blackmoor. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "Blackmoor. "
-msgstr "黑沼草。"
-
-# P13 batch 3
-#. event 10 (enterFastArea), after "Executioner's Hood. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "Executioner's Hood. "
-msgstr "劊子手兜帽草。"
-
-# P13 batch 3
-#. event 10 (enterFastArea), after "Pig Iron. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "Pig Iron. "
-msgstr "生鐵。"
-
-# P13 batch 3
-#. event 10 (enterFastArea), after "Ash. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "Ash. "
-msgstr "火山灰。"
-
-# P13 batch 3
-#. event 10 (enterFastArea), after "Dragon Blood. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "Dragon Blood. "
-msgstr "龍血。"
-
-# P13 batch 3
-#. event 10 (enterFastArea), after "Bone. "
-#. answer compared by the conversation code
+#. event 10 (enterFastArea), after "Nevermind. "
 msgctxt "ask 0421"
 msgid "Bone. "
 msgstr "碎骨。"
 
 # P13 batch 3
-#. event 10 (enterFastArea), after "Pumice. "
-#. answer compared by the conversation code
+#. event 10 (enterFastArea), after "Nevermind. "
 msgctxt "ask 0421"
-msgid "Pumice. "
-msgstr "浮岩。"
+msgid "Executioner's Hood. "
+msgstr "劊子手兜帽草。"
 
 # P13 batch 3
-#. event 10 (enterFastArea), after "Brimstone. "
-#. answer compared by the conversation code
+#. event 10 (enterFastArea), after "Nevermind. "
+msgctxt "ask 0421"
+msgid "Blackmoor. "
+msgstr "黑沼草。"
+
+# P13 batch 3
+#. event 10 (enterFastArea), after "Nevermind. "
+msgctxt "ask 0421"
+msgid "Obsidian. "
+msgstr "黑曜石。"
+
+# P13 batch 3
+#. event 10 (enterFastArea), after "Nevermind. "
 msgctxt "ask 0421"
 msgid "Brimstone. "
 msgstr "硫磺。"
 
 # P13 batch 3
-#. event 10 (enterFastArea), after "Eye of Newt. "
-#. answer compared by the conversation code
+#. event 10 (enterFastArea), after "Nevermind. "
+msgctxt "ask 0421"
+msgid "Pumice. "
+msgstr "浮岩。"
+
+# P13 batch 3
+#. event 10 (enterFastArea), after "Nevermind. "
+msgctxt "ask 0421"
+msgid "Ash. "
+msgstr "火山灰。"
+
+# P13 batch 3
+#. event 10 (enterFastArea), after "Nevermind. "
+msgctxt "ask 0421"
+msgid "Pig Iron. "
+msgstr "生鐵。"
+
+# P13 batch 3
+#. event 10 (enterFastArea), after "Nevermind. "
 msgctxt "ask 0421"
 msgid "Eye of Newt. "
 msgstr "蠑螈之眼。"
 
 # P13 batch 3
-#. event 10 (enterFastArea), after "Bat Wing. "
-#. answer compared by the conversation code
+#. event 10 (enterFastArea), after "Nevermind. "
 msgctxt "ask 0421"
 msgid "Bat Wing. "
 msgstr "蝙蝠翅膀。"
 
 # P13 batch 3
-#. event 10 (enterFastArea), after "Serpent Scale. "
-#. answer compared by the conversation code
+#. event 10 (enterFastArea), after "Nevermind. "
 msgctxt "ask 0421"
 msgid "Serpent Scale. "
 msgstr "蛇鱗。"
 
 # P13 batch 3
-#. event 10 (enterFastArea), after "Obsidian. "
-#. answer compared by the conversation code
+#. event 10 (enterFastArea), after "Nevermind. "
 msgctxt "ask 0421"
-msgid "Obsidian. "
-msgstr "黑曜石。"
+msgid "Dragon Blood. "
+msgstr "龍血。"
 
 # P13 batch 3
 #. event 10 (enterFastArea), after "Nevermind. "
@@ -640,6 +623,12 @@ msgstr "你好。"
 # P13 batch 3
 #. event 01 (use (talk))
 msgctxt "ask 0421"
+msgid "May I ask your name? "
+msgstr "請問你的名字是？"
+
+# P13 batch 3
+#. event 01 (use (talk))
+msgctxt "ask 0421"
 msgid "What an unusual house. "
 msgstr "好奇特的房子。"
 
@@ -666,13 +655,6 @@ msgstr "抱歉，我的回答不夠清楚嗎？我相信你有聽到我說的話
 msgctxt "bark 0421:2424"
 msgid "Very well. Your mind is filled with many thoughts other than what we are discussing. We can resume this later. "
 msgstr "好吧。你腦中充滿了與我們討論無關的念頭。我們可以晚點再繼續。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "May I ask your name? "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "May I ask your name? "
-msgstr "請問你的名字是？"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "May I ask your name? "
@@ -761,6 +743,12 @@ msgstr "我想再買些材料。"
 msgctxt "bark 0421:2A62"
 msgid "Ah, good. It is always important to ask questions. That way one will never run out of things to learn. I cannot refuse one who has traversed ghoul-filled passages to meet with my hospitality. What are some of these questions? "
 msgstr "啊，很好。提問永遠很重要，這樣人就永遠不愁沒東西可學。一個穿過滿是食屍鬼的通道來接受我款待的人，我可不能拒絕。你有哪些問題？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I have many questions. "
+msgctxt "ask 0421"
+msgid "Tell me about Pagan. "
+msgstr "說說佩根。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "I have many questions. "
@@ -854,13 +842,6 @@ msgstr "也許將來我會有時間教你。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Tell me about Pagan. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "Tell me about Pagan. "
-msgstr "說說佩根。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Tell me about Pagan. "
 msgctxt "bark 0421:32F4"
 msgid "Your question is quite broad in scope. Do you wish me to talk about the city, the island, or all of Pagan? "
 msgstr "你的問題範圍相當廣。你要我談這座城市、這座島，還是整個佩根？"
@@ -898,11 +879,16 @@ msgid "I have never had anyone ask such a question. Do you truly wish a means of
 msgstr "從來沒有人問過我這種問題。你真的想找方法離開這個世界嗎？還是只是在試探我學識的極限？我這麼問，是因為找出答案將會極為繁瑣，而我不打算白費力氣。"
 
 # P13 batch 3
-#. event 01 (use (talk)), after "I plan to leave Pagan. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "How can I leave Pagan? "
 msgctxt "ask 0421"
 msgid "I plan to leave Pagan. "
 msgstr "我打算離開佩根。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "How can I leave Pagan? "
+msgctxt "ask 0421"
+msgid "This was a test. "
+msgstr "這只是個測試。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "I plan to leave Pagan. "
@@ -913,15 +899,14 @@ msgstr "你打算進行的，確實是一項艱鉅的任務。我自己也曾認
 # P13 batch 3
 #. event 01 (use (talk)), after "I plan to leave Pagan. "
 msgctxt "ask 0421"
-msgid "No, I have not. "
-msgstr "不，還沒有。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Yes, I have. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
 msgid "Yes, I have. "
 msgstr "是的，談過了。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I plan to leave Pagan. "
+msgctxt "ask 0421"
+msgid "No, I have not. "
+msgstr "不，還沒有。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Yes, I have. "
@@ -954,8 +939,7 @@ msgid "Then I suggest you begin with them. Speak with Vividos about becoming his
 msgstr "那我建議你從他們開始。等羅西安把她的力量傳給維維多斯之後，去找他談談當他學徒的事。我明白，一想到要跟死亡儀式打交道，或許會讓你覺得反感，但我想你若要成功，就必須習慣這些。"
 
 # P13 batch 3
-#. event 01 (use (talk)), after "Where are the Necromancers? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "No, I have not. "
 msgctxt "ask 0421"
 msgid "Where are the Necromancers? "
 msgstr "死靈法師在哪裡？"
@@ -965,13 +949,6 @@ msgstr "死靈法師在哪裡？"
 msgctxt "bark 0421:42C2"
 msgid "They reside in the cemetery. I believe you will wish to take the East Road from the city. I suggest you go with care, for many of the walking dead also reside in the graveyard. "
 msgstr "他們住在墓地。我想你會想從城裡走東路過去。我建議你小心行事，因為墓地裡也住著許多行屍。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "This was a test. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "This was a test. "
-msgstr "這只是個測試。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "This was a test. "
@@ -1030,28 +1007,44 @@ msgstr "這個話題我們不是已經談夠了嗎？啊，好吧，你想知道
 # P13 batch 3
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "ask 0421"
-msgid "Enough about Pagan. "
-msgstr "佩根的事就談到這裡吧。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Are they not all the same? "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
 msgid "Are they not all the same? "
 msgstr "它們不都是同一個嗎？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Goodbye. "
+msgctxt "ask 0421"
+msgid "The city. "
+msgstr "這座城市。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Goodbye. "
+msgctxt "ask 0421"
+msgid "The island. "
+msgstr "這座島。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Goodbye. "
+msgctxt "ask 0421"
+msgid "All of Pagan. "
+msgstr "整個佩根。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Goodbye. "
+msgctxt "ask 0421"
+msgid "Actually, I meant the people. "
+msgstr "其實，我是說這裡的人。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Goodbye. "
+msgctxt "ask 0421"
+msgid "Enough about Pagan. "
+msgstr "佩根的事就談到這裡吧。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Are they not all the same? "
 msgctxt "bark 0421:4CA1"
 msgid "Indeed, no, although many people use -- or should I say misuse -- the word `Pagan' to mean the world, the island, and, for a few ethnocentrics, the city. In actuality, Pagan is only the name for the world. "
 msgstr "不，並不是。雖然很多人用——或者該說誤用——「佩根」這個詞來指這個世界、這座島，甚至少數自我中心的人還用它來指這座城市。實際上，佩根只是這個世界的名字。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Actually, I meant the people. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "Actually, I meant the people. "
-msgstr "其實，我是說這裡的人。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Actually, I meant the people. "
@@ -1062,15 +1055,14 @@ msgstr "老實說，我對這裡的人所知甚少。有少數人會為了我的
 # P13 batch 3
 #. event 01 (use (talk)), after "Actually, I meant the people. "
 msgctxt "ask 0421"
-msgid "You sell scrolls? "
-msgstr "你賣捲軸？"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Tell me of the mages. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
 msgid "Tell me of the mages. "
 msgstr "說說法師們。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Actually, I meant the people. "
+msgctxt "ask 0421"
+msgid "You sell scrolls? "
+msgstr "你賣捲軸？"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the mages. "
@@ -1164,13 +1156,6 @@ msgstr "確實有。你想買一些嗎？"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "The city. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "The city. "
-msgstr "這座城市。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "The city. "
 msgctxt "bark 0421:5D57"
 msgid "Ah, Tenebrae. The city was not settled until near the end of the war between the Pagans and Zealans. After the Titans defeated the Destroyer, most of the world lay in such ruin and disarray that the few people who were left on the island congregated into a single community. They called their city Tenebrae, meaning 'city of eternal twilight.' At first the Necromancers held rulership, but once Kalen became a Tempest as well, the people elected to have their leaders come from that line. "
 msgstr "啊，泰尼伯瑞。這座城市直到佩根人與澤蘭人的戰爭接近尾聲時才有人定居。泰坦擊敗毀滅者之後，世界大多陷入一片廢墟與混亂，島上僅存的少數人便聚集成一個聚落。他們把這座城市命名為泰尼伯瑞，意思是「永恆暮光之城」。起初由死靈法師掌權，但自從卡倫也成為風暴使者後，人民便選擇由那一脈的人來擔任領袖。"
@@ -1183,23 +1168,9 @@ msgstr "卡倫是誰？"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "The island. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "The island. "
-msgstr "這座島。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "The island. "
 msgctxt "bark 0421:5EAE"
 msgid "The island is called Morgaelin, same as the mountain -- or volcano -- from which it sprang. As far as the people know, this is the only piece of land remaining after the Titans vanquished the Destroyer. "
 msgstr "這座島叫做摩加林，跟它所由生成的那座山——或者說火山——同名。據人們所知，這是泰坦擊敗毀滅者之後唯一剩下的一塊土地。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "All of Pagan. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
-msgid "All of Pagan. "
-msgstr "整個佩根。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "All of Pagan. "
@@ -1228,15 +1199,14 @@ msgstr "很好。"
 # P13 batch 3
 #. event 01 (use (talk)), after "Enough about Pagan. "
 msgctxt "ask 0421"
-msgid "No. "
-msgstr "沒有。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Yes. "
-#. answer compared by the conversation code
-msgctxt "ask 0421"
 msgid "Yes. "
 msgstr "有。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Enough about Pagan. "
+msgctxt "ask 0421"
+msgid "No. "
+msgstr "沒有。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "No. "

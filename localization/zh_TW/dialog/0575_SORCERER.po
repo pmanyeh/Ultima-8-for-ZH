@@ -171,6 +171,11 @@ msgstr ""
 
 #. , after "Tell me of this place. "
 msgctxt "ask 0575"
+msgid "Why is it called an enclave? "
+msgstr ""
+
+#. , after "Tell me of this place. "
+msgctxt "ask 0575"
 msgid "Tell me of Daemon's Crag. "
 msgstr ""
 
@@ -214,12 +219,6 @@ msgstr ""
 #. , after "It does not matter. "
 msgctxt "bark 0575:129E"
 msgid "True enough. I do like to know who I am speaking to, but it doesn't really matter who you are. "
-msgstr ""
-
-#. , after "Why is it called an enclave? "
-#. answer compared by the conversation code
-msgctxt "ask 0575"
-msgid "Why is it called an enclave? "
 msgstr ""
 
 #. , after "Why is it called an enclave? "

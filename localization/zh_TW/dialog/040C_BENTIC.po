@@ -86,6 +86,18 @@ msgstr "你好！真高興又見到你。"
 # P13 batch 2
 #. event 01 (use (talk))
 msgctxt "ask 040C"
+msgid "How are you? "
+msgstr "你好嗎？"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 040C"
+msgid "What do you do? "
+msgstr "你是做什麼的？"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 040C"
 msgid "bye "
 msgstr "告辭"
 
@@ -96,17 +108,28 @@ msgid "Greetings, stranger. "
 msgstr "你好，陌生人。"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "What do you do? "
-#. answer compared by the conversation code
+#. event 01 (use (talk))
 msgctxt "ask 040C"
-msgid "What do you do? "
-msgstr "你是做什麼的？"
+msgid "What is your name? "
+msgstr "你叫什麼名字？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What do you do? "
 msgctxt "bark 040C:0756"
 msgid "By trade, I am the librarian of this city, however, I prefer to think of myself as a student of life. One who spends his time observing all facets of life. I am a great studier of people. You would be amazed at the things you may learn by simply observing your neighbors in their everyday life. "
 msgstr "就職業而言，我是這座城市的圖書館員；不過我更喜歡把自己看成一個研究人生的學生，把時間花在觀察生活的每個面向。我非常熱衷於研究人。光是觀察鄰居的日常生活，你能學到的東西就會多得讓你吃驚。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What do you do? "
+msgctxt "ask 040C"
+msgid "Tell me of the library. "
+msgstr "說說圖書館。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What do you do? "
+msgctxt "ask 040C"
+msgid "Tell me of the people. "
+msgstr "說說這裡的人。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What do you do? "
@@ -122,16 +145,15 @@ msgstr "歐洛克說你有一張藏寶圖。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What is your name? "
-#. answer compared by the conversation code
-msgctxt "ask 040C"
-msgid "What is your name? "
-msgstr "你叫什麼名字？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What is your name? "
 msgctxt "bark 040C:0951"
 msgid "My name is Bentic. It is a word of Pagan derivation. I think it originally meant 'he who toils hard', but that is not for certain. I have found a number of references to 'Ventac' in several older texts and feel that this may be the root of the name 'Bentic.' And what is your name, friend? "
 msgstr "我叫班提克。這個字源自佩根的古語，我想它原本的意思是「辛勤勞苦之人」，不過還不確定。我在幾本較古老的典籍裡找到好幾處提到「溫塔克」，覺得這或許就是「班提克」這個名字的字根。那你叫什麼名字呢，朋友？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What is your name? "
+msgctxt "ask 040C"
+msgid "What is 'Pagan'? "
+msgstr "「佩根」是什麼？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What is your name? "
@@ -143,21 +165,8 @@ msgstr "我叫{name}。"
 # P13 batch 2
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "ask 040C"
-msgid "What is 'Pagan'? "
-msgstr "「佩根」是什麼？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What is your name? "
-msgctxt "ask 040C"
 msgid "What are you reading? "
 msgstr "你在讀什麼？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "How are you? "
-#. answer compared by the conversation code
-msgctxt "ask 040C"
-msgid "How are you? "
-msgstr "你好嗎？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "How are you? "
@@ -193,15 +202,20 @@ msgstr "啊，真高興你問起。這是一部論述佩根世界的專著，涵
 # P13 batch 2
 #. event 01 (use (talk)), after "What are you reading? "
 msgctxt "ask 040C"
-msgid "Who is the author? "
-msgstr "作者是誰？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Yes, thank you. "
-#. answer compared by the conversation code
-msgctxt "ask 040C"
 msgid "Yes, thank you. "
 msgstr "好，謝謝。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What are you reading? "
+msgctxt "ask 040C"
+msgid "No, thank you. "
+msgstr "不用了，謝謝。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What are you reading? "
+msgctxt "ask 040C"
+msgid "Who is the author? "
+msgstr "作者是誰？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Yes, thank you. "
@@ -223,13 +237,6 @@ msgstr "哎呀，你身上帶的東西真多。我先替你保管，等你有空
 
 # P13 batch 2
 #. event 01 (use (talk)), after "No, thank you. "
-#. answer compared by the conversation code
-msgctxt "ask 040C"
-msgid "No, thank you. "
-msgstr "不用了，謝謝。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "No, thank you. "
 msgctxt "bark 040C:1284"
 msgid "Well, perhaps when you have more time. "
 msgstr "那麼，等你比較有空的時候吧。"
@@ -242,13 +249,6 @@ msgstr "這個……嗯，你知道的……呃，就是我。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me of the library. "
-#. answer compared by the conversation code
-msgctxt "ask 040C"
-msgid "Tell me of the library. "
-msgstr "說說圖書館。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Tell me of the library. "
 msgctxt "bark 040C:14D5"
 msgid "The library is my joy. It is where I spend all my time, studying the words left by our predecessors. You can not believe what is in these books. They contain the wisdom of many ages in them. Too many people overlook the knowledge of our past generations, because of this, we are doomed to repeat the same mistakes over and over again."
 msgstr "圖書館是我的樂趣所在。我所有的時間都花在這裡，研讀前人留下的文字。你無法想像這些書裡有些什麼，它們蘊藏著歷代的智慧。太多人忽略了先人的知識，正因如此，我們注定一再重蹈覆轍。"
@@ -258,13 +258,6 @@ msgstr "圖書館是我的樂趣所在。我所有的時間都花在這裡，研
 msgctxt "ask 040C"
 msgid "Tell me of the books. "
 msgstr "說說這些書。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Tell me of the people. "
-#. answer compared by the conversation code
-msgctxt "ask 040C"
-msgid "Tell me of the people. "
-msgstr "說說這裡的人。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me of the people. "
@@ -342,6 +335,12 @@ msgstr "離開佩根？我的天哪，我想從來沒有人問過這種事。不
 # P13 batch 2
 #. event 01 (use (talk)), after "I wish to leave Pagan. " or "Does he know how I may leave Pagan? "
 msgctxt "ask 040C"
+msgid "Who is Mythran? "
+msgstr "米斯蘭是誰？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "I wish to leave Pagan. " or "Does he know how I may leave Pagan? "
+msgctxt "ask 040C"
 msgid "Necromancer? "
 msgstr "死靈法師？"
 
@@ -350,6 +349,12 @@ msgstr "死靈法師？"
 msgctxt "bark 040C:20D9"
 msgid "Oh, they're not as bad as many of the people in this city make out. Their magic is a little macabre, I suppose, but they do have quite a bit of magic at their call. They serve Lithos, you know. "
 msgstr "噢，他們並不像城裡許多人說的那麼壞。我想他們的魔法是有點陰森，但他們確實能驅使相當強大的魔法。你知道的，他們侍奉利索斯。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Necromancer? "
+msgctxt "ask 040C"
+msgid "Who is Lithos? "
+msgstr "利索斯是誰？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Necromancer? "
@@ -377,16 +382,21 @@ msgstr "風暴使者的魔法是世襲的，而死靈法師的魔法可以透過
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Who is Mythran? "
-#. answer compared by the conversation code
-msgctxt "ask 040C"
-msgid "Who is Mythran? "
-msgstr "米斯蘭是誰？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Who is Mythran? "
 msgctxt "bark 040C:24BF"
 msgid "Mythran lives in a small house on the Plateau. He has been known to dabble in the various magical arts and is a scholar. He often makes magical scrolls and things and sells them. "
 msgstr "米斯蘭住在高原上的一間小屋裡。大家都知道他涉獵各種魔法技藝，也是位學者。他常製作魔法捲軸之類的東西拿來販售。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Who is Mythran? "
+msgctxt "ask 040C"
+msgid "Mythran practices magical arts? "
+msgstr "米斯蘭會施展魔法？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Who is Mythran? "
+msgctxt "ask 040C"
+msgid "Mythran is a scholar? "
+msgstr "米斯蘭是學者？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Who is Mythran? "
@@ -399,13 +409,6 @@ msgstr "高原在哪裡？"
 msgctxt "bark 040C:264A"
 msgid "From the palace in the center of Tenebrae, head north out of the city. Follow the path through the Valley to a cave entrance. Go through the cave. It opens on the other side of the mountain on the Plateau. "
 msgstr "從泰尼伯瑞中央的宮殿往北出城，沿著小路穿過山谷，走到一個洞穴入口。穿過洞穴，出口就在山的另一側，也就是高原上。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Mythran practices magical arts? "
-#. answer compared by the conversation code
-msgctxt "ask 040C"
-msgid "Mythran practices magical arts? "
-msgstr "米斯蘭會施展魔法？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Mythran practices magical arts? "
@@ -427,23 +430,9 @@ msgstr "當然是四大元素流派啊。有人追隨利索斯、修習他的魔
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Mythran is a scholar? "
-#. answer compared by the conversation code
-msgctxt "ask 040C"
-msgid "Mythran is a scholar? "
-msgstr "米斯蘭是學者？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Mythran is a scholar? "
 msgctxt "bark 040C:2AEE"
 msgid "Well, of sorts. He enjoys studying and reading books as I do, but he will form an opinion and tout it as perfect. He will even cite his own writings as examples of perfect creative thinking. This makes talking to him a bit ... tedious. But he is a good source of information."
 msgstr "嗯，算是吧。他和我一樣喜歡研究、讀書，但他一旦有了見解，就會把它吹捧成完美無缺，甚至引用自己的著作，當作完美創意思考的範例。這讓跟他談話變得有點……累人。不過他倒是個很好的消息來源。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Who is Lithos? "
-#. answer compared by the conversation code
-msgctxt "ask 040C"
-msgid "Who is Lithos? "
-msgstr "利索斯是誰？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Who is Lithos? "
@@ -502,15 +491,14 @@ msgstr "什麼？！噢，這太荒唐了。我胸口上當然沒有刺什麼地
 # P13 batch 2
 #. event 01 (use (talk)), after "Yes, tattooed on your chest. "
 msgctxt "ask 040C"
-msgid "Do you know of any treasure maps? "
-msgstr "你知道有什麼藏寶圖嗎？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Tell me of tattoos. "
-#. answer compared by the conversation code
-msgctxt "ask 040C"
 msgid "Tell me of tattoos. "
 msgstr "說說刺青。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Yes, tattooed on your chest. "
+msgctxt "ask 040C"
+msgid "Do you know of any treasure maps? "
+msgstr "你知道有什麼藏寶圖嗎？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me of tattoos. "
@@ -529,6 +517,12 @@ msgstr "什麼樣的圖案？"
 msgctxt "bark 040C:3535"
 msgid "While many choose the traditional anchor or skull and dagger, there are others who prefer more unusual things such as bats or intricate knotwork. "
 msgstr "很多人選擇傳統的船錨或骷髏配匕首，但也有人偏好比較不尋常的圖案，像是蝙蝠或複雜的繩結花紋。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "What sort of pictures? "
+msgctxt "ask 040C"
+msgid "Bats? "
+msgstr "蝙蝠？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What sort of pictures? "

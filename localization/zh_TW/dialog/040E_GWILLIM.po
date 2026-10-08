@@ -258,13 +258,17 @@ msgstr ""
 
 #. event 01 (use (talk)), after "I'm fine, thanks. "
 msgctxt "ask 040E"
-msgid "You don't get visitors? "
+msgid "Who is Corinth? "
 msgstr ""
 
-#. event 01 (use (talk)), after "Who is Corinth? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "I'm fine, thanks. "
 msgctxt "ask 040E"
-msgid "Who is Corinth? "
+msgid "The valley "
+msgstr ""
+
+#. event 01 (use (talk)), after "I'm fine, thanks. "
+msgctxt "ask 040E"
+msgid "You don't get visitors? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Who is Corinth? "
@@ -274,12 +278,32 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Who is Corinth? "
 msgctxt "ask 040E"
+msgid "Oh yes, I've met your wife. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Corinth? "
+msgctxt "ask 040E"
 msgid "Where is your son? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who is Corinth? "
+msgctxt "ask 040E"
+msgid "She sounds like a fine lady. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Where is your son? "
 msgctxt "bark 040E:1CE8"
 msgid "I am surprised that my wife did not talk your ear off about our son. Corinth is so proud of Cyrrus that sometimes I think that she can speak of nothing else. But make no mistake, we are law abiding folk here. We also honor Hydros as Her Ladyship does command. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is your son? "
+msgctxt "ask 040E"
+msgid "Talk my ear off? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where is your son? "
+msgctxt "ask 040E"
+msgid "Law abiding folk? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Where is your son? "
@@ -292,10 +316,9 @@ msgctxt "bark 040E:1E46"
 msgid "Cyrrus, that's our boy's name, joined the Theurgists not long ago. My wife was very proud of him. She has always said that Cyrrus was a natural healer. But make no mistake, we are law abiding folk here. We also honor Hydros as Her Ladyship does command. "
 msgstr ""
 
-#. event 01 (use (talk)), after "Talk my ear off? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Where is your son? "
 msgctxt "ask 040E"
-msgid "Talk my ear off? "
+msgid "Who are the Theurgists? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Talk my ear off? "
@@ -324,31 +347,13 @@ msgid "Well, I am greatly surprised. You see, my wife is very proud of the fact 
 msgstr ""
 
 #. event 01 (use (talk)), after "Oh yes, I've met your wife. "
-#. answer compared by the conversation code
-msgctxt "ask 040E"
-msgid "Oh yes, I've met your wife. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Oh yes, I've met your wife. "
 msgctxt "bark 040E:227F"
 msgid "Quite a lady, that Corinth. "
 msgstr ""
 
 #. event 01 (use (talk)), after "She sounds like a fine lady. "
-#. answer compared by the conversation code
-msgctxt "ask 040E"
-msgid "She sounds like a fine lady. "
-msgstr ""
-
-#. event 01 (use (talk)), after "She sounds like a fine lady. "
 msgctxt "bark 040E:2307"
 msgid "Oh she is. She certainly is. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Who are the Theurgists? "
-#. answer compared by the conversation code
-msgctxt "ask 040E"
-msgid "Who are the Theurgists? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Who are the Theurgists? "
@@ -362,14 +367,13 @@ msgid "Well, that is where he is; Argentrock Isle. "
 msgstr ""
 
 #. event 01 (use (talk)), after "The valley "
-#. answer compared by the conversation code
-msgctxt "ask 040E"
-msgid "The valley "
+msgctxt "bark 040E:2689"
+msgid "It is beautiful here, is it not?  Many people say that this valley is the only truly beautiful place in the world. The beauty of the valley has made my life as a herdsman somewhat easier. Whenever I find myself feeling remorse, I contemplate the beauty of this place and it sometimes makes me feel better. "
 msgstr ""
 
 #. event 01 (use (talk)), after "The valley "
-msgctxt "bark 040E:2689"
-msgid "It is beautiful here, is it not?  Many people say that this valley is the only truly beautiful place in the world. The beauty of the valley has made my life as a herdsman somewhat easier. Whenever I find myself feeling remorse, I contemplate the beauty of this place and it sometimes makes me feel better. "
+msgctxt "ask 040E"
+msgid "You're a herdsman? "
 msgstr ""
 
 #. event 01 (use (talk)), after "The valley "
@@ -384,13 +388,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "How long have you lived here? "
 msgctxt "ask 040E"
-msgid "Why go to town twice a year? "
+msgid "The plateau? "
 msgstr ""
 
-#. event 01 (use (talk)), after "The plateau? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "How long have you lived here? "
 msgctxt "ask 040E"
-msgid "The plateau? "
+msgid "Why go to town twice a year? "
 msgstr ""
 
 #. event 01 (use (talk)), after "The plateau? "
@@ -412,12 +415,6 @@ msgstr ""
 #. event 01 (use (talk)), after "Can I buy something? "
 msgctxt "bark 040E:2AD7"
 msgid "I afraid that there is nothing to sell. The time has not yet come for harvest. Do return at harvest time and I will sell you as many mushrooms as you can buy. "
-msgstr ""
-
-#. event 01 (use (talk)), after "You're a herdsman? "
-#. answer compared by the conversation code
-msgctxt "ask 040E"
-msgid "You're a herdsman? "
 msgstr ""
 
 #. event 01 (use (talk)), after "You're a herdsman? "
@@ -457,12 +454,6 @@ msgid "Yes, I am Gwillim. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Law abiding folk? "
-#. answer compared by the conversation code
-msgctxt "ask 040E"
-msgid "Law abiding folk? "
-msgstr ""
-
-#. event 01 (use (talk)), after "Law abiding folk? "
 msgctxt "bark 040E:2F0F"
 msgid "That is correct, sir. Her Ladyship's administration has never had reason to worry about us. "
 msgstr ""
@@ -489,18 +480,17 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Tell Mordea what? "
 msgctxt "ask 040E"
+msgid "Do you think that I work for Mordea? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell Mordea what? "
+msgctxt "ask 040E"
 msgid "You're her subjects too? "
 msgstr ""
 
 #. event 01 (use (talk)), after "You're her subjects too? "
 msgctxt "bark 040E:3207"
 msgid "But of course, and happy to be so. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Do you think that I work for Mordea? "
-#. answer compared by the conversation code
-msgctxt "ask 040E"
-msgid "Do you think that I work for Mordea? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Do you think that I work for Mordea? "
@@ -580,13 +570,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Is there a ghost in the valley? "
 msgctxt "ask 040E"
-msgid "Is it true? "
+msgid "I heard stories in town. "
 msgstr ""
 
-#. event 01 (use (talk)), after "I heard stories in town. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Is there a ghost in the valley? "
 msgctxt "ask 040E"
-msgid "I heard stories in town. "
+msgid "Is it true? "
 msgstr ""
 
 #. event 01 (use (talk)), after "I heard stories in town. "
@@ -634,8 +623,7 @@ msgctxt "bark 040E:3F90"
 msgid "No. Look, I do not mean to be rude, but I have no wish to discuss this further. Please, do not ask me any more about this. "
 msgstr ""
 
-#. event 01 (use (talk)), after "Please tell me about the ghost. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Can you tell me the story? "
 msgctxt "ask 040E"
 msgid "Please tell me about the ghost. "
 msgstr ""
@@ -657,6 +645,11 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Corinth told me of the ghost. "
 msgctxt "ask 040E"
+msgid "You've -seen- it? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Corinth told me of the ghost. "
+msgctxt "ask 040E"
 msgid "Please don't get angry. "
 msgstr ""
 
@@ -666,25 +659,18 @@ msgid "Do not get angry? Just because my wife told of my darkest secret? I hardl
 msgstr ""
 
 #. event 01 (use (talk)), after "You've -seen- it? "
-#. answer compared by the conversation code
-msgctxt "ask 040E"
-msgid "You've -seen- it? "
-msgstr ""
-
-#. event 01 (use (talk)), after "You've -seen- it? "
 msgctxt "bark 040E:4476"
 msgid "Did she tell you that?! I do not believe it! She knows that I do not wish for anyone to know about that damned, malignant spirit! "
 msgstr ""
 
 #. event 01 (use (talk)), after "You've -seen- it? "
 msgctxt "ask 040E"
-msgid "Don't get mad at Corinth. "
+msgid "So it's true? "
 msgstr ""
 
-#. event 01 (use (talk)), after "So it's true? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "You've -seen- it? "
 msgctxt "ask 040E"
-msgid "So it's true? "
+msgid "Don't get mad at Corinth. "
 msgstr ""
 
 #. event 01 (use (talk)), after "So it's true? "
@@ -699,6 +685,11 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Don't get mad at Corinth. "
 msgctxt "ask 040E"
+msgid "She was trying to help. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Don't get mad at Corinth. "
+msgctxt "ask 040E"
 msgid "It was my fault. "
 msgstr ""
 
@@ -708,25 +699,18 @@ msgid "I can not accept that. Corinth is a grown woman and she is fully responsi
 msgstr ""
 
 #. event 01 (use (talk)), after "She was trying to help. "
-#. answer compared by the conversation code
-msgctxt "ask 040E"
-msgid "She was trying to help. "
-msgstr ""
-
-#. event 01 (use (talk)), after "She was trying to help. "
 msgctxt "bark 040E:4885"
 msgid "What do you mean by that? Who was she trying to help? "
 msgstr ""
 
 #. event 01 (use (talk)), after "She was trying to help. "
 msgctxt "ask 040E"
-msgid "You, Gwillim. "
+msgid "Me. My task is very important. "
 msgstr ""
 
-#. event 01 (use (talk)), after "Me. My task is very important. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "She was trying to help. "
 msgctxt "ask 040E"
-msgid "Me. My task is very important. "
+msgid "You, Gwillim. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Me. My task is very important. "
@@ -737,6 +721,11 @@ msgstr ""
 #. event 01 (use (talk)), after "You, Gwillim. "
 msgctxt "bark 040E:4B0E"
 msgid "Me? What was she trying to help -me- with? That is preposterous. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You, Gwillim. "
+msgctxt "ask 040E"
+msgid "She wants you to talk. "
 msgstr ""
 
 #. event 01 (use (talk)), after "You, Gwillim. "
@@ -760,25 +749,18 @@ msgid "Nothing that concerns you. This is a family matter and I do not need for 
 msgstr ""
 
 #. event 01 (use (talk)), after "She wants you to talk. "
-#. answer compared by the conversation code
-msgctxt "ask 040E"
-msgid "She wants you to talk. "
-msgstr ""
-
-#. event 01 (use (talk)), after "She wants you to talk. "
 msgctxt "bark 040E:4E1B"
 msgid "Why? Does she think that talking about my brother's death is going to somehow bring him back? That is in the past. Nothing can be done about it now. "
 msgstr ""
 
 #. event 01 (use (talk)), after "She wants you to talk. "
 msgctxt "ask 040E"
-msgid "The ghost killed your brother? "
+msgid "Maybe talking helps. "
 msgstr ""
 
-#. event 01 (use (talk)), after "Maybe talking helps. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "She wants you to talk. "
 msgctxt "ask 040E"
-msgid "Maybe talking helps. "
+msgid "The ghost killed your brother? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Maybe talking helps. "
@@ -793,13 +775,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "The ghost killed your brother? "
 msgctxt "ask 040E"
-msgid "How did he die? "
+msgid "Where is the ghost? "
 msgstr ""
 
-#. event 01 (use (talk)), after "Where is the ghost? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "The ghost killed your brother? "
 msgctxt "ask 040E"
-msgid "Where is the ghost? "
+msgid "How did he die? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Where is the ghost? "
@@ -814,13 +795,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "How did he die? "
 msgctxt "ask 040E"
-msgid "I want to find the ghost. "
+msgid "Others have died? "
 msgstr ""
 
-#. event 01 (use (talk)), after "Others have died? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "How did he die? "
 msgctxt "ask 040E"
-msgid "Others have died? "
+msgid "I want to find the ghost. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Others have died? "
@@ -830,13 +810,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Others have died? "
 msgctxt "ask 040E"
-msgid "Who is she? "
+msgid "How many have died? "
 msgstr ""
 
-#. event 01 (use (talk)), after "How many have died? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Others have died? "
 msgctxt "ask 040E"
-msgid "How many have died? "
+msgid "Who is she? "
 msgstr ""
 
 #. event 01 (use (talk)), after "How many have died? "
@@ -866,6 +845,11 @@ msgstr ""
 
 #. event 01 (use (talk)), after "I want to find the ghost. "
 msgctxt "ask 040E"
+msgid "Don't worry about me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I want to find the ghost. "
+msgctxt "ask 040E"
 msgid "I need help only to find it. "
 msgstr ""
 
@@ -877,12 +861,6 @@ msgstr ""
 #. event 01 (use (talk)), after "Mordea's dead, Gwillim. "
 msgctxt "bark 040E:58FD"
 msgid "Oh yes, I keep forgetting that. Mordead was Tempest for so long that it is difficult for me to think of anyone else as ruling Tenebrae. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Don't worry about me. "
-#. answer compared by the conversation code
-msgctxt "ask 040E"
-msgid "Don't worry about me. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Don't worry about me. "

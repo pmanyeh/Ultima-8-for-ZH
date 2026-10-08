@@ -55,15 +55,20 @@ msgstr "有什麼需要我效勞的嗎？"
 # P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 023E"
-msgid "Bye "
-msgstr "再見"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Who are you? "
-#. answer compared by the conversation code
-msgctxt "ask 023E"
 msgid "Who are you? "
 msgstr "你是誰？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 023E"
+msgid "What is your duty? "
+msgstr "你的職責是什麼？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 023E"
+msgid "Bye "
+msgstr "再見"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
@@ -82,13 +87,6 @@ msgstr "能為他效力，我很自豪。"
 msgctxt "bark 023E:0491"
 msgid "I am a guardsman in the service of her ladyship. "
 msgstr "我是為夫人效力的衛兵。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "What is your duty? "
-#. answer compared by the conversation code
-msgctxt "ask 023E"
-msgid "What is your duty? "
-msgstr "你的職責是什麼？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "

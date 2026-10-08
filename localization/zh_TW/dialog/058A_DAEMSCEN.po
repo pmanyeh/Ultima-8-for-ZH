@@ -133,6 +133,16 @@ msgstr ""
 
 #. , after ""
 msgctxt "ask 058A"
+msgid "You lied to me! "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 058A"
+msgid "You are quite devious. "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 058A"
 msgid "I would learn more about Sorcery. "
 msgstr ""
 
@@ -183,14 +193,13 @@ msgid "I must return to my work, Disciple. "
 msgstr ""
 
 #. , after "You lied to me! "
-#. answer compared by the conversation code
-msgctxt "ask 058A"
-msgid "You lied to me! "
+msgctxt "bark 058A:1E31"
+msgid "And what of it? Are you here to bother me with your petty conscience? "
 msgstr ""
 
 #. , after "You lied to me! "
-msgctxt "bark 058A:1E31"
-msgid "And what of it? Are you here to bother me with your petty conscience? "
+msgctxt "ask 058A"
+msgid "Obviously, you have none. "
 msgstr ""
 
 #. , after "You lied to me! "
@@ -199,20 +208,8 @@ msgid "No, of course not. Forgive me. "
 msgstr ""
 
 #. , after "You are quite devious. "
-#. answer compared by the conversation code
-msgctxt "ask 058A"
-msgid "You are quite devious. "
-msgstr ""
-
-#. , after "You are quite devious. "
 msgctxt "bark 058A:1F57"
 msgid "I thought you would see it that way. A job needed doing, and I was the one to do it. Very simple. Now, about your training. "
-msgstr ""
-
-#. , after "Obviously, you have none. "
-#. answer compared by the conversation code
-msgctxt "ask 058A"
-msgid "Obviously, you have none. "
 msgstr ""
 
 #. , after "Obviously, you have none. "
@@ -238,6 +235,16 @@ msgstr ""
 #. , after "I would learn more about Sorcery. "
 msgctxt "bark 058A:22F0"
 msgid "Very well. I am here to teach. What would you know? "
+msgstr ""
+
+#. , after "I would learn more about Sorcery. "
+msgctxt "ask 058A"
+msgid "How will I be tested? "
+msgstr ""
+
+#. , after "I would learn more about Sorcery. "
+msgctxt "ask 058A"
+msgid "Tell me about spellcasting. "
 msgstr ""
 
 #. , after "I would learn more about Sorcery. "
@@ -287,12 +294,6 @@ msgid "You will need to bring a red candle, that you will ignite by use of Sorce
 msgstr ""
 
 #. , after "How will I be tested? "
-#. answer compared by the conversation code
-msgctxt "ask 058A"
-msgid "How will I be tested? "
-msgstr ""
-
-#. , after "How will I be tested? "
 msgctxt "bark 058A:29CD"
 msgid "First, I will test your ability to create and bind sorcerous energies to physical paraphernalia, when you can do this, I will pronounce you fit to become an Acolyte. "
 msgstr ""
@@ -313,12 +314,6 @@ msgid "Your final test will be to assist in the Ritual of Fire. Do this competen
 msgstr ""
 
 #. , after "Tell me about spellcasting. "
-#. answer compared by the conversation code
-msgctxt "ask 058A"
-msgid "Tell me about spellcasting. "
-msgstr ""
-
-#. , after "Tell me about spellcasting. "
 msgctxt "bark 058A:2D98"
 msgid "Sorcerous spellcasting is a craft. It involves binding the power of Fire into a physical focus. The foci we use are: the pentacle symbol, a metal wand, rod, or staff, and a talisman in the form of a daemon's head. "
 msgstr ""
@@ -330,18 +325,22 @@ msgstr ""
 
 #. , after "Tell me about spellcasting. "
 msgctxt "ask 058A"
+msgid "Where do I place the candles? "
+msgstr ""
+
+#. , after "Tell me about spellcasting. "
+msgctxt "ask 058A"
+msgid "Explain the foci. "
+msgstr ""
+
+#. , after "Tell me about spellcasting. "
+msgctxt "ask 058A"
 msgid "What are reagents? "
 msgstr ""
 
 #. , after "I wish to know about a spell. "
 msgctxt "bark 058A:2FA9"
 msgid "You must find the spellbook with that knowledge and research its properties. Other than that, I cannot reveal to you. "
-msgstr ""
-
-#. , after "Where do I place the candles? "
-#. answer compared by the conversation code
-msgctxt "ask 058A"
-msgid "Where do I place the candles? "
 msgstr ""
 
 #. , after "Where do I place the candles? "
@@ -397,12 +396,6 @@ msgstr ""
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:3655"
 msgid "This lesson will have to wait, Disciple. I am not prepared to teach it at the moment. Ask again when I am at my pentacle. "
-msgstr ""
-
-#. , after "Explain the foci. "
-#. answer compared by the conversation code
-msgctxt "ask 058A"
-msgid "Explain the foci. "
 msgstr ""
 
 #. , after "Explain the foci. "

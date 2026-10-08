@@ -10,87 +10,170 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 007C:04DE"
 msgid "I wonder how this pentagram is used. "
-msgstr ""
+msgstr "不知道這個五芒星陣要怎麼用。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 007C:054B"
 msgid "You are standing too close to the pentagram. "
-msgstr ""
+msgstr "你站得離五芒星陣太近了。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 007C:0590"
 msgid "I must be standing too close to the pentagram. "
-msgstr ""
+msgstr "我一定是站得離五芒星陣太近了。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 007C:0614"
 msgid "You must place a focus at the center of the pentagram to contain the spell. "
-msgstr ""
+msgstr "你必須在五芒星陣中央放一個法器來容納法術。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 007C:068A"
 msgid "Multiple foci disrupt the empowering of a spell. You may only enchant one focus at a time "
-msgstr ""
+msgstr "多個法器會干擾法術的賦能。一次只能附魔一個法器"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 007C:06F0"
 msgid "I forgot to place a focus in the center of the pentagram. "
-msgstr ""
+msgstr "我忘了在五芒星陣中央放法器。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 007C:0735"
 msgid "I have too many foci on the pentagram. "
-msgstr ""
+msgstr "我在五芒星陣上放了太多法器。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 007C:07F9"
 msgid "Make sure you are using the proper candles and they are all lit. "
-msgstr ""
+msgstr "確認你用的是正確的蠟燭，而且全都點燃了。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 007C:0858"
 msgid "I must have misplaced or forgotten to light a candle. "
-msgstr ""
+msgstr "我一定是放錯了，或是忘了點燃某根蠟燭。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Something's not right. "
 msgctxt "bark 007C:0961"
 msgid "Your candles are incorrect. "
-msgstr ""
+msgstr "你的蠟燭不對。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Something's not right. "
 msgctxt "bark 007C:09A0"
 msgid "Perhaps the candles are set incorrectly. "
-msgstr ""
+msgstr "也許蠟燭擺錯了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Something's not right. "
 msgctxt "bark 007C:0AEF"
 msgid "Indeed, your reagents were incorrect for that spell. "
-msgstr ""
+msgstr "確實，你用的材料不適合那道法術。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Something's not right. "
 msgctxt "bark 007C:0B24"
 msgid "The reagents don't seem right. "
-msgstr ""
+msgstr "材料好像不對。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Something's not right. "
 msgctxt "bark 007C:35E8"
 msgid "The pentagram must be clear of all but sorcerous components. "
-msgstr ""
+msgstr "五芒星陣上除了巫術用的材料，什麼都不能放。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Something's not right. "
 msgctxt "bark 007C:3654"
 msgid "I can't carry all that is on the pentagram. "
-msgstr ""
+msgstr "五芒星陣上的東西我拿不了那麼多。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Nevermind"
 msgctxt "ask 007C"
-msgid "Something's not right. "
-msgstr ""
+msgid "In Flam!"
+msgstr "In Flam！"
 
+# P13 batch 4
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "An Flam!"
+msgstr "An Flam！"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "Flam Por!"
+msgstr "Flam Por！"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "In Ort Flam!"
+msgstr "In Ort Flam！"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "Sanct Flam!"
+msgstr "Sanct Flam！"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "In Flam An Por!"
+msgstr "In Flam An Por！"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "Vas Sanct Flam!"
+msgstr "Vas Sanct Flam！"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "In Flam Ylem!"
+msgstr "In Flam Ylem！"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "Vas Ort Flam!"
+msgstr "Vas Ort Flam！"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "Kal Flam Corp Xen!"
+msgstr "Kal Flam Corp Xen！"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "An Flam Corp Xen!"
+msgstr "An Flam Corp Xen！"
+
+# P13 batch 4
 #. event 01 (use (talk)), after "Nevermind"
 msgctxt "ask 007C"
 msgid "Kal Vas Flam Corp Xen!"
-msgstr ""
+msgstr "Kal Vas Flam Corp Xen！"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Nevermind"
+msgctxt "ask 007C"
+msgid "Something's not right. "
+msgstr "有點不對勁。"

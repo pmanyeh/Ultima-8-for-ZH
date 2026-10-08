@@ -247,6 +247,12 @@ msgstr "歡迎，朋友。"
 # P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0417"
+msgid "Hello again, Stellos. "
+msgstr "又見面了，史泰洛斯。"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 0417"
 msgid "bye "
 msgstr "告辭"
 
@@ -255,6 +261,12 @@ msgstr "告辭"
 msgctxt "bark 0417:1425"
 msgid "Welcome, stranger. "
 msgstr "歡迎，陌生人。"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "Good day to you. "
+msgstr "祝你日安。"
 
 # P13 batch 4
 #. event 01 (use (talk))
@@ -273,6 +285,12 @@ msgstr "我通過智慧考驗了。"
 msgctxt "ask 0417"
 msgid "What do you know of the Test of Centeredness? "
 msgstr "你對專注考驗知道些什麼？"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I have passed the first two tests. "
+msgstr "我通過前兩項考驗了。"
 
 # P13 batch 4
 #. event 01 (use (talk))
@@ -319,6 +337,18 @@ msgstr "可憐的托溫。"
 # P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0417"
+msgid "I have heard the Mystic Voice. "
+msgstr "我聽見神秘之聲了。"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 0417"
+msgid "I have the Breath of Wind. "
+msgstr "我拿到狂風之息了。"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 0417"
 msgid "I found this ring. "
 msgstr "我找到了這枚戒指。"
 
@@ -336,16 +366,15 @@ msgstr "我需要治療。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Hello again, Stellos. "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
-msgid "Hello again, Stellos. "
-msgstr "又見面了，史泰洛斯。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Hello again, Stellos. "
 msgctxt "bark 0417:221E"
 msgid "It is good to hear your voice again, friend. "
 msgstr "真高興又聽到你的聲音，朋友。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Hello again, Stellos. "
+msgctxt "ask 0417"
+msgid "Who is Stratos? "
+msgstr "史特拉托斯是誰？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Hello again, Stellos. "
@@ -370,13 +399,6 @@ msgstr "那當然沒問題。"
 msgctxt "bark 0417:23BA"
 msgid "Please leave me now, I need to rest. "
 msgstr "現在請讓我一個人靜一靜，我需要休息。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Good day to you. "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
-msgid "Good day to you. "
-msgstr "祝你日安。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Good day to you. "
@@ -411,15 +433,14 @@ msgstr "我是啟蒙修會的領袖。"
 # P13 batch 4
 #. event 01 (use (talk)), after "What do you do? "
 msgctxt "ask 0417"
-msgid "Order of Enlightenment "
-msgstr "啟蒙修會"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Leader? "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
 msgid "Leader? "
 msgstr "領袖？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "What do you do? "
+msgctxt "ask 0417"
+msgid "Order of Enlightenment "
+msgstr "啟蒙修會"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Leader? "
@@ -447,13 +468,6 @@ msgstr "兩百年！"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Who is Stratos? "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
-msgid "Who is Stratos? "
-msgstr "史特拉托斯是誰？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Who is Stratos? "
 msgctxt "bark 0417:2937"
 msgid "Stratos is the greatest of the Titans, for it is through the power of Stratos that we of the Order gain our ability to heal the hurts of the world. However, this gift is not without cost. "
 msgstr "史特拉托斯是泰坦之中最偉大的，因為我們修會正是透過史特拉托斯的力量，才得以治癒世間的創傷。不過，這份恩賜並非沒有代價。"
@@ -461,15 +475,14 @@ msgstr "史特拉托斯是泰坦之中最偉大的，因為我們修會正是透
 # P13 batch 4
 #. event 01 (use (talk)), after "Who is Stratos? "
 msgctxt "ask 0417"
-msgid "What is the cost? "
-msgstr "代價是什麼？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Tell me of healing. "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
 msgid "Tell me of healing. "
 msgstr "說說治療。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Who is Stratos? "
+msgctxt "ask 0417"
+msgid "What is the cost? "
+msgstr "代價是什麼？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Tell me of healing. "
@@ -492,15 +505,14 @@ msgstr "要學，你就得加入修會。"
 # P13 batch 4
 #. event 01 (use (talk)), after "I would like to learn to heal. "
 msgctxt "ask 0417"
-msgid "I am sorry, I cannot join your order. "
-msgstr "抱歉，我不能加入你們的修會。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Then I will join your order. "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
 msgid "Then I will join your order. "
 msgstr "那我就加入你們的修會。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "I would like to learn to heal. "
+msgctxt "ask 0417"
+msgid "I am sorry, I cannot join your order. "
+msgstr "抱歉，我不能加入你們的修會。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Then I will join your order. "
@@ -559,15 +571,14 @@ msgstr "啊，所以你已經踏上啟蒙之路了。史特拉托斯會很高興
 # P13 batch 4
 #. event 01 (use (talk)), after "Tell me of the Test of Wisdom. "
 msgctxt "ask 0417"
-msgid "Where can I find the answers? "
-msgstr "我要去哪裡找答案？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Tell me the answers, please. "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
 msgid "Tell me the answers, please. "
 msgstr "請告訴我答案。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Tell me of the Test of Wisdom. "
+msgctxt "ask 0417"
+msgid "Where can I find the answers? "
+msgstr "我要去哪裡找答案？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Tell me the answers, please. "
@@ -597,16 +608,15 @@ msgstr "專注考驗是一項重要的考驗，因為它考驗你的耐力與勇
 
 # P13 batch 4
 #. event 01 (use (talk)), after "I have passed the first two tests. "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
-msgid "I have passed the first two tests. "
-msgstr "我通過前兩項考驗了。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "I have passed the first two tests. "
 msgctxt "bark 0417:3B3B"
 msgid "Yes, I know. You have proven yourself worthy to wear the title Initiate. Now you are ready to begin learning the spells that Stratos grants us. However, before you do that, you must construct your Foci. "
 msgstr "是的，我知道。你已經證明自己配得上見習者的稱號。現在你已準備好開始學習史特拉托斯賜予我們的法術。不過在那之前，你必須先打造你的法器。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "I have passed the first two tests. "
+msgctxt "ask 0417"
+msgid "What are Foci? "
+msgstr "法器是什麼？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "I have passed the first two tests. "
@@ -655,13 +665,6 @@ msgstr "銀要怎麼處理？"
 msgctxt "bark 0417:41EB"
 msgid "You must take the silver to the blacksmith, Korick, in Tenebrae. Only he has the skill to forge the Foci. But these Foci will be without power. You must return here, place them upon the Altar of Focus in the monastary and call upon the name of Stratos. If you have met with her approval, she will fill them with her power. "
 msgstr "你必須把銀帶去給泰尼伯瑞的鐵匠科里克。只有他有鍛造法器的手藝。但這些法器起初是沒有力量的。你必須回到這裡，把它們放在修道院的法器祭壇上，呼喚史特拉托斯之名。如果她認可了你，她就會為法器注入她的力量。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "What are Foci? "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
-msgid "What are Foci? "
-msgstr "法器是什麼？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "What are Foci? "
@@ -738,15 +741,14 @@ msgstr "他是我們最新的見習者之一，進步得非常快。在你之前
 # P13 batch 4
 #. event 01 (use (talk)), after "I have met Torwin. "
 msgctxt "ask 0417"
-msgid "One of your finest? "
-msgstr "你們最優秀的學生之一？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "What research is Torwin doing? "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
 msgid "What research is Torwin doing? "
 msgstr "托溫在做什麼研究？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "I have met Torwin. "
+msgctxt "ask 0417"
+msgid "One of your finest? "
+msgstr "你們最優秀的學生之一？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "What research is Torwin doing? "
@@ -781,15 +783,14 @@ msgstr "失去生命永遠是悲劇，而失去一個這麼有天分的人，對
 # P13 batch 4
 #. event 01 (use (talk)), after "Poor Torwin. "
 msgctxt "ask 0417"
-msgid "Final test? "
-msgstr "最後的考驗？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Adept? "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
 msgid "Adept? "
 msgstr "行家法師？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Poor Torwin. "
+msgctxt "ask 0417"
+msgid "Final test? "
+msgstr "最後的考驗？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Adept? "
@@ -817,13 +818,6 @@ msgstr "你必須前往狂風角，你會在那裡找到兩根黑色的柱子。
 
 # P13 batch 4
 #. event 01 (use (talk)), after "I have heard the Mystic Voice. "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
-msgid "I have heard the Mystic Voice. "
-msgstr "我聽見神秘之聲了。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "I have heard the Mystic Voice. "
 msgctxt "bark 0417:5589"
 msgid "Then you are truly an Adept. Your work and dedication have made it possible for you to reach enlightenment in less time than it has taken any other. You have done quite well. "
 msgstr "那你就真的是行家法師了。你的努力與奉獻，讓你比任何人都更快達到啟蒙。你做得非常好。"
@@ -843,6 +837,12 @@ msgstr "啊，狂風之息是史特拉托斯把力量賜給她所選子民的媒
 # P13 batch 4
 #. event 01 (use (talk)), after "What do you know of the Breath of Wind? "
 msgctxt "ask 0417"
+msgid "I must have it. "
+msgstr "我必須得到它。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "What do you know of the Breath of Wind? "
+msgctxt "ask 0417"
 msgid "I was just curious. "
 msgstr "我只是好奇。"
 
@@ -854,23 +854,9 @@ msgstr "啊，史特拉托斯的子民追求知識是好事。繼續走在這條
 
 # P13 batch 4
 #. event 01 (use (talk)), after "I must have it. "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
-msgid "I must have it. "
-msgstr "我必須得到它。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "I must have it. "
 msgctxt "bark 0417:58ED"
 msgid "Ah, I was afraid it would come to this. The Breath of Wind is found with Stratos. Although you will find it with Stratos, you cannot see it with only your eyes. There are many ways to see things. "
 msgstr "啊，我就怕會走到這一步。狂風之息就在史特拉托斯那裡。雖然它在史特拉托斯那裡，但光用眼睛是看不到的。看見事物的方法有很多種。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "I have the Breath of Wind. "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
-msgid "I have the Breath of Wind. "
-msgstr "我拿到狂風之息了。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "I have the Breath of Wind. "
@@ -881,15 +867,14 @@ msgstr "恭喜你，你完成了無人做到過的事。不過，如果我對你
 # P13 batch 4
 #. event 01 (use (talk)), after "I have the Breath of Wind. "
 msgctxt "ask 0417"
-msgid "No other has done this? "
-msgstr "沒有人做到過？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Why are you lacking enthusiasm? "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
 msgid "Why are you lacking enthusiasm? "
 msgstr "你為什麼不太熱衷？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "I have the Breath of Wind. "
+msgctxt "ask 0417"
+msgid "No other has done this? "
+msgstr "沒有人做到過？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Why are you lacking enthusiasm? "
@@ -936,15 +921,14 @@ msgstr "啊，是的。這是托溫的。它不怎麼值錢，但他非常珍惜
 # P13 batch 4
 #. event 01 (use (talk)), after "I found this ring. "
 msgctxt "ask 0417"
-msgid "No, I won't. "
-msgstr "不，我不會。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Yes, I will. "
-#. answer compared by the conversation code
-msgctxt "ask 0417"
 msgid "Yes, I will. "
 msgstr "是的，我會。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "I found this ring. "
+msgctxt "ask 0417"
+msgid "No, I won't. "
+msgstr "不，我不會。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Yes, I will. "

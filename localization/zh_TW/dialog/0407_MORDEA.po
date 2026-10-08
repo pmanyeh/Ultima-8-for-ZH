@@ -109,6 +109,12 @@ msgstr "你是在跟我說話嗎？"
 # P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0407"
+msgid "Yes, I am. "
+msgstr "是的。"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 0407"
 msgid "bye "
 msgstr "告辭"
 
@@ -132,11 +138,10 @@ msgid "How can I help you, {name}?"
 msgstr "有什麼事，{name}？"
 
 # P13 batch 1
-#. event 01 (use (talk)), after "Yes, I am. "
-#. answer compared by the conversation code
+#. event 01 (use (talk))
 msgctxt "ask 0407"
-msgid "Yes, I am. "
-msgstr "是的。"
+msgid "May I speak with you? "
+msgstr "我可以和您談談嗎？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Yes, I am. "
@@ -154,6 +159,24 @@ msgstr "我是{name}。"
 # P13 batch 1
 #. event 01 (use (talk)), after "Yes, I am. "
 msgctxt "ask 0407"
+msgid "That is not your concern. "
+msgstr "那不關你的事。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Yes, I am. "
+msgctxt "ask 0407"
+msgid "Who are you? "
+msgstr "你是誰？"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Yes, I am. "
+msgctxt "ask 0407"
+msgid "Tempest? "
+msgstr "風暴使者？"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Yes, I am. "
+msgctxt "ask 0407"
 msgid "Tell me of the Tempestry. "
 msgstr "請告訴我風暴術的事。"
 
@@ -162,6 +185,24 @@ msgstr "請告訴我風暴術的事。"
 msgctxt "bark 0407:1148"
 msgid "I know not your name nor your face. I think you are not from Tenebrae. Where are you from? "
 msgstr "我不認得你的名字，也不認得你的長相。我想你不是泰尼伯瑞的人。你從哪裡來？"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Tell me of the Tempestry. "
+msgctxt "ask 0407"
+msgid "I am from Britannia. "
+msgstr "我來自不列顛尼亞。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Tell me of the Tempestry. "
+msgctxt "ask 0407"
+msgid "I am from Earth. "
+msgstr "我來自地球。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Tell me of the Tempestry. "
+msgctxt "ask 0407"
+msgid "I am from far away. "
+msgstr "我來自很遠的地方。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Tell me of the Tempestry. "
@@ -177,23 +218,9 @@ msgstr "你在說謊。我認得我所有的子民……他們也都認得我。
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Tempest? " or "Tell me of the Tempestry. "
-#. answer compared by the conversation code
-msgctxt "ask 0407"
-msgid "Tempest? "
-msgstr "風暴使者？"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Tempest? " or "Tell me of the Tempestry. "
 msgctxt "bark 0407:133B"
 msgid "Know you not of the Tempestry and its great power? Perhaps, then you should like a taste of it. -When I feed you to the Lurker!- "
 msgstr "你不知道風暴術和它強大的力量嗎？那麼，也許你該親自嚐嚐它的滋味——等我把你餵給潛伏者的時候！"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "May I speak with you? "
-#. answer compared by the conversation code
-msgctxt "ask 0407"
-msgid "May I speak with you? "
-msgstr "我可以和您談談嗎？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "May I speak with you? "
@@ -203,23 +230,9 @@ msgstr "你的名字和長相我都不熟悉。我想你不是泰尼伯瑞的人
 
 # P13 batch 1
 #. event 01 (use (talk)), after "I am from Britannia. "
-#. answer compared by the conversation code
-msgctxt "ask 0407"
-msgid "I am from Britannia. "
-msgstr "我來自不列顛尼亞。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "I am from Britannia. "
 msgctxt "bark 0407:154E"
 msgid "I've never heard of such a place. You are either a liar or a fool. You don't look smart enough to be a liar and I will not tolerate a fool. "
 msgstr "我從沒聽過這種地方。你不是騙子就是傻瓜。你看起來不夠聰明，當不了騙子，而我是不會容忍傻瓜的。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Who are you? "
-#. answer compared by the conversation code
-msgctxt "ask 0407"
-msgid "Who are you? "
-msgstr "你是誰？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
@@ -229,36 +242,15 @@ msgstr "蠢材！我是莫爾迪亞夫人，泰尼伯瑞的風暴使者。往後
 
 # P13 batch 1
 #. event 01 (use (talk)), after "That is not your concern. "
-#. answer compared by the conversation code
-msgctxt "ask 0407"
-msgid "That is not your concern. "
-msgstr "那不關你的事。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "That is not your concern. "
 msgctxt "bark 0407:16F0"
 msgid "Knave! Keep a civil tongue in your head or I shall have it cut out and fed to the fishes! "
 msgstr "惡棍！說話給我客氣點，否則我就叫人割掉你的舌頭拿去餵魚！"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "I am from far away. "
-#. answer compared by the conversation code
-msgctxt "ask 0407"
-msgid "I am from far away. "
-msgstr "我來自很遠的地方。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "I am from far away. "
 msgctxt "bark 0407:1799"
 msgid "Do not toy with me, rogue. I will not tolerate such rudeness. Begone from my sight. "
 msgstr "別耍我，無賴。我不會容忍這種無禮。從我眼前消失。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "I am from Earth. "
-#. answer compared by the conversation code
-msgctxt "ask 0407"
-msgid "I am from Earth. "
-msgstr "我來自地球。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "I am from Earth. "

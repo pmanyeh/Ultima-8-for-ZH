@@ -67,15 +67,26 @@ msgstr "你想幹嘛，陌生人？"
 # P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 040B"
-msgid "Bye "
-msgstr "再見"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Who are you? "
-#. answer compared by the conversation code
-msgctxt "ask 040B"
 msgid "Who are you? "
 msgstr "你是誰？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 040B"
+msgid "What is your duty? "
+msgstr "你的職責是什麼？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 040B"
+msgid "Where am I? "
+msgstr "這是哪裡？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 040B"
+msgid "Bye "
+msgstr "再見"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
@@ -91,13 +102,6 @@ msgstr "懂了嗎？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
-#. answer compared by the conversation code
-msgctxt "ask 040B"
-msgid "What is your duty? "
-msgstr "你的職責是什麼？"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 040B:0633"
 msgid "What does it look like? My job is pounding these cobblestones back down into the dirt. They keep coming out of the roadway. "
 msgstr "你看不出來嗎？我的工作就是把這些鵝卵石敲回土裡。它們老是從路面冒出來。"
@@ -107,13 +111,6 @@ msgstr "你看不出來嗎？我的工作就是把這些鵝卵石敲回土裡。
 msgctxt "bark 040B:0651"
 msgid "Fool... "
 msgstr "笨蛋……"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Where am I? "
-#. answer compared by the conversation code
-msgctxt "ask 040B"
-msgid "Where am I? "
-msgstr "這是哪裡？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "

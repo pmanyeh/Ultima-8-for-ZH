@@ -49,15 +49,26 @@ msgstr "你想幹嘛……？"
 # P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 043D"
-msgid "goodbye "
-msgstr "再見"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Who are you? "
-#. answer compared by the conversation code
-msgctxt "ask 043D"
 msgid "Who are you? "
 msgstr "你是誰？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 043D"
+msgid "What is your duty? "
+msgstr "你的職責是什麼？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 043D"
+msgid "Where am I? "
+msgstr "這是哪裡？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 043D"
+msgid "goodbye "
+msgstr "再見"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
@@ -73,23 +84,9 @@ msgstr "該問名字的人是我，你這條狗！"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
-#. answer compared by the conversation code
-msgctxt "ask 043D"
-msgid "What is your duty? "
-msgstr "你的職責是什麼？"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 043D:0478"
 msgid "My job is to guard to watch out for odds folks like you. "
 msgstr "我的工作就是盯著你這種怪人。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Where am I? "
-#. answer compared by the conversation code
-msgctxt "ask 043D"
-msgid "Where am I? "
-msgstr "這是哪裡？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "

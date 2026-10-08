@@ -175,15 +175,38 @@ msgstr "我們有泰尼伯瑞麥酒、黑酒、颶風酒、靈息酒和魔蹄酒
 # P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "ask 0418"
-msgid "Nothing, thank you. "
-msgstr "不用了，謝謝。"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Tenebraean Ale "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
 msgid "Tenebraean Ale "
 msgstr "泰尼伯瑞麥酒"
+
+# P13 batch 2
+#. event 11 (leaveFastArea)
+msgctxt "ask 0418"
+msgid "Black Wine "
+msgstr "黑酒"
+
+# P13 batch 2
+#. event 11 (leaveFastArea)
+msgctxt "ask 0418"
+msgid "Hurricane "
+msgstr "颶風酒"
+
+# P13 batch 2
+#. event 11 (leaveFastArea)
+msgctxt "ask 0418"
+msgid "Breath O'Spirit "
+msgstr "靈息酒"
+
+# P13 batch 2
+#. event 11 (leaveFastArea)
+msgctxt "ask 0418"
+msgid "Cloven Hoof "
+msgstr "魔蹄酒"
+
+# P13 batch 2
+#. event 11 (leaveFastArea)
+msgctxt "ask 0418"
+msgid "Nothing, thank you. "
+msgstr "不用了，謝謝。"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Tenebraean Ale "
@@ -193,23 +216,9 @@ msgstr "我們的泰尼伯瑞麥酒是最棒的。一枚黑曜石幣。"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Black Wine "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "Black Wine "
-msgstr "黑酒"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Black Wine "
 msgctxt "bark 0418:0E08"
 msgid "The Blackwine is my favorite. It costs three obsidians. "
 msgstr "黑酒是我的最愛。三枚黑曜石幣。"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Hurricane "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "Hurricane "
-msgstr "颶風酒"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Hurricane "
@@ -219,23 +228,9 @@ msgstr "這個可別喝太多，後勁很強。一杯兩枚黑曜石幣。"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Breath O'Spirit "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "Breath O'Spirit "
-msgstr "靈息酒"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Breath O'Spirit "
 msgctxt "bark 0418:0F23"
 msgid "Oh, I think Breath O'Spirit is really an aquired taste. But if you insist, it'll be two ladies. "
 msgstr "噢，我覺得靈息酒的味道得慢慢才喝得慣。不過你堅持的話，兩枚黑曜石幣。"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Cloven Hoof "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "Cloven Hoof "
-msgstr "魔蹄酒"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Cloven Hoof "
@@ -258,15 +253,14 @@ msgstr "拿不定主意？好吧。"
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Nothing, thank you. "
 msgctxt "ask 0418"
-msgid "Never mind, thank you. "
-msgstr "算了，謝謝。"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Here is the amount. "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
 msgid "Here is the amount. "
 msgstr "錢在這裡。"
+
+# P13 batch 2
+#. event 11 (leaveFastArea), after "Nothing, thank you. "
+msgctxt "ask 0418"
+msgid "Never mind, thank you. "
+msgstr "算了，謝謝。"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Here is the amount. "
@@ -307,15 +301,44 @@ msgstr "我們這兒的廚房可好了。我們供應魚、托拉克斯獸肉乾
 # P13 batch 2
 #. event 11 (leaveFastArea), after ""
 msgctxt "ask 0418"
-msgid "Toraxen cheese "
-msgstr "托拉克斯獸乳酪"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "fish "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
 msgid "fish "
 msgstr "魚"
+
+# P13 batch 2
+#. event 11 (leaveFastArea), after ""
+msgctxt "ask 0418"
+msgid "Toraxen jerky "
+msgstr "托拉克斯獸肉乾"
+
+# P13 batch 2
+#. event 11 (leaveFastArea), after ""
+msgctxt "ask 0418"
+msgid "Kith filet "
+msgstr "奇斯怪蛛肉排"
+
+# P13 batch 2
+#. event 11 (leaveFastArea), after ""
+msgctxt "ask 0418"
+msgid "bread "
+msgstr "麵包"
+
+# P13 batch 2
+#. event 11 (leaveFastArea), after ""
+msgctxt "ask 0418"
+msgid "mushrooms "
+msgstr "蘑菇"
+
+# P13 batch 2
+#. event 11 (leaveFastArea), after ""
+msgctxt "ask 0418"
+msgid "tubers "
+msgstr "塊莖"
+
+# P13 batch 2
+#. event 11 (leaveFastArea), after ""
+msgctxt "ask 0418"
+msgid "Toraxen cheese "
+msgstr "托拉克斯獸乳酪"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "fish "
@@ -325,23 +348,9 @@ msgstr "非常新鮮，奇蘭卓今天才送來的。只要一枚黑曜石幣。
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Toraxen jerky "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "Toraxen jerky "
-msgstr "托拉克斯獸肉乾"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Toraxen jerky "
 msgctxt "bark 0418:1508"
 msgid "Hmmm, planning a long trip? It's a bit tough, but travels well. It is 3 stones a pound. "
 msgstr "嗯，打算出遠門嗎？它是有點硬，但很適合帶在路上。一磅三枚黑曜石幣。"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Kith filet "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "Kith filet "
-msgstr "奇斯怪蛛肉排"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Kith filet "
@@ -351,36 +360,15 @@ msgstr "啊，你真有品味。我們的奇斯怪蛛肉排是全國最棒的，
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "mushrooms "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "mushrooms "
-msgstr "蘑菇"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "mushrooms "
 msgctxt "bark 0418:167F"
 msgid "The Blue Mushrooms are my favorite. We can only serve them at this time because this is the only time they are in season. They will cost you only a single coin. "
 msgstr "藍蘑菇是我的最愛。只有這個時候才吃得到，因為現在正是產季。只要一枚錢幣。"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "bread "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "bread "
-msgstr "麵包"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "bread "
 msgctxt "bark 0418:16F8"
 msgid "It was baked fresh just today. You can have a serving for 1 stone. "
 msgstr "今天剛烤好的。一份一枚黑曜石幣。"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "tubers "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "tubers "
-msgstr "塊莖"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "tubers "
@@ -463,6 +451,12 @@ msgstr "算你走運，我沒當場一劍刺穿你。"
 # P13 batch 2
 #. event 01 (use (talk))
 msgctxt "ask 0418"
+msgid "I am sorry if I upset you. "
+msgstr "如果冒犯了你，我很抱歉。"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 0418"
 msgid "Just try it! "
 msgstr "有種就試試看！"
 
@@ -519,6 +513,24 @@ msgstr "需要什麼嗎？"
 # P13 batch 2
 #. event 01 (use (talk)), after "Hello, Jenna. "
 msgctxt "ask 0418"
+msgid "Why do you carry a sword? "
+msgstr "你為什麼帶著劍？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Hello, Jenna. "
+msgctxt "ask 0418"
+msgid "What do you do? "
+msgstr "你是做什麼的？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Hello, Jenna. "
+msgctxt "ask 0418"
+msgid "I'd like something to drink, please. "
+msgstr "請給我點喝的。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Hello, Jenna. "
+msgctxt "ask 0418"
 msgid "I'd like something to eat. "
 msgstr "我想吃點東西。"
 
@@ -537,15 +549,14 @@ msgstr "這還用你說。每個故事我都至少聽過一千遍了。而且我
 # P13 batch 2
 #. event 01 (use (talk)), after "Orlok sure likes his tales. "
 msgctxt "ask 0418"
-msgid "No, he hasn't. "
-msgstr "不，還沒有。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Yes, he has. "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
 msgid "Yes, he has. "
 msgstr "有，他講過了。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Orlok sure likes his tales. "
+msgctxt "ask 0418"
+msgid "No, he hasn't. "
+msgstr "不，還沒有。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Yes, he has. "
@@ -566,24 +577,22 @@ msgid "I can't believe it. I've heard some fool somehow released Hydros and now 
 msgstr "真不敢相信。我聽說有個笨蛋不知怎麼把海德羅斯放了出來，現在我們的風暴使者已經沒有能力控制天氣了。甚至有人說海德羅斯打算把整座城沖走！"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "Do they know who did it? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "What strange weather this is. "
 msgctxt "ask 0418"
 msgid "Do they know who did it? "
 msgstr "他們知道是誰幹的嗎？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What strange weather this is. "
+msgctxt "ask 0418"
+msgid "I released Hydros. "
+msgstr "是我放出海德羅斯的。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Do they know who did it? "
 msgctxt "bark 0418:2561"
 msgid "They are not sure. But when they do find out, it's going to be ugly. They probably will design some hideous torture for that person! Anyway, what can I get you? "
 msgstr "還不確定。不過等他們查出來，場面一定很難看。他們大概會為那個人設計什麼可怕的酷刑！總之，你要點什麼？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "I released Hydros. "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "I released Hydros. "
-msgstr "是我放出海德羅斯的。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I released Hydros. "
@@ -599,13 +608,6 @@ msgid "May I have something to drink? "
 msgstr "能給我點喝的嗎？"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "May I have something to drink? " or "I'd like something to drink, please. "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "I'd like something to drink, please. "
-msgstr "請給我點喝的。"
-
-# P13 batch 2
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "bark 0418:2816"
 msgid "My name is Jenna, and yours? "
@@ -613,16 +615,16 @@ msgstr "我叫珍娜，你呢？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What is your name? "
+msgctxt "ask 0418"
+msgid "That's a pretty name. "
+msgstr "真是個好聽的名字。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What is your name? "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 0418"
 msgid "My name is {name}."
 msgstr "我叫{name}。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What is your name? "
-msgctxt "ask 0418"
-msgid "Why do you carry a sword? "
-msgstr "你為什麼帶著劍？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Orlok sure likes his tales. "
@@ -638,8 +640,7 @@ msgid "Because it is mine, and I'll have you know I'm not afraid to use it. "
 msgstr "因為它是我的，而且告訴你，我可不怕用它。"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "You know how to use a sword? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Why do you carry a sword? "
 msgctxt "ask 0418"
 msgid "You know how to use a sword? "
 msgstr "你會用劍？"
@@ -653,15 +654,14 @@ msgstr "當然，被這把劍嚇得逃命的男人可不只一個！"
 # P13 batch 2
 #. event 01 (use (talk)), after "You know how to use a sword? "
 msgctxt "ask 0418"
-msgid "It is a nice blade. "
-msgstr "真是把好劍。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "You have killed men? "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
 msgid "You have killed men? "
 msgstr "你殺過人？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "You know how to use a sword? "
+msgctxt "ask 0418"
+msgid "It is a nice blade. "
+msgstr "真是把好劍。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "You have killed men? "
@@ -787,6 +787,12 @@ msgstr "是啊，這是一把好劍，一把了不起的劍。你見過更好的
 # P13 batch 2
 #. event 01 (use (talk)), after "It is a nice blade. "
 msgctxt "ask 0418"
+msgid "yes "
+msgstr "見過"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "It is a nice blade. "
+msgctxt "ask 0418"
 msgid "no "
 msgstr "沒有"
 
@@ -810,23 +816,9 @@ msgstr "我父親教的。他一直想要個兒子，結果只生了我，所以
 
 # P13 batch 2
 #. event 01 (use (talk)), after "yes "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "yes "
-msgstr "見過"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "yes "
 msgctxt "bark 0418:3918"
 msgid "You wretch! How dare you insult my grandfather's memory? You will pay for your disrespect! Now get out of my sight, before I decide to show you just how fine this blade is! "
 msgstr "你這混帳！竟敢侮辱我祖父的遺物？你會為你的無禮付出代價！趁我還沒決定讓你見識這把劍有多好之前，給我滾！"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What do you do? "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "What do you do? "
-msgstr "你是做什麼的？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What do you do? "
@@ -849,28 +841,26 @@ msgstr "是啊。這是我倉促間唯一找得到的工作。我真正想做的
 # P13 batch 2
 #. event 01 (use (talk)), after "A barmaid for now? "
 msgctxt "ask 0418"
-msgid "See the world? "
-msgstr "看看世界？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Smelly village? "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
 msgid "Smelly village? "
 msgstr "臭村子？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "A barmaid for now? "
+msgctxt "ask 0418"
+msgid "Job at short notice? "
+msgstr "倉促間找的工作？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "A barmaid for now? "
+msgctxt "ask 0418"
+msgid "See the world? "
+msgstr "看看世界？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Smelly village? "
 msgctxt "bark 0418:3C96"
 msgid "Yes, ugh. Can you not smell it? The rancid odor of fish combined with the nasty smell of those stupid torax. Sometimes I think that even if I left the smell would still be in my blood. It's terrible. "
 msgstr "是啊，噁。你聞不到嗎？魚的腐臭味，加上那些蠢托拉克斯獸的難聞氣味。有時候我覺得，就算我離開了，那味道也還會留在我的血液裡。太可怕了。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Job at short notice? "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "Job at short notice? "
-msgstr "倉促間找的工作？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Job at short notice? "
@@ -887,15 +877,14 @@ msgstr "啊，只要能看遍世界，要我付出什麼都願意，可是我不
 # P13 batch 2
 #. event 01 (use (talk)), after "See the world? "
 msgctxt "ask 0418"
-msgid "Why can't you see it? "
-msgstr "你為什麼不能？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What is there to see? "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
 msgid "What is there to see? "
 msgstr "有什麼好看的？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "See the world? "
+msgctxt "ask 0418"
+msgid "Why can't you see it? "
+msgstr "你為什麼不能？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What is there to see? "
@@ -954,8 +943,13 @@ msgid "Yes, all my life. I was born not far from the cemetery. "
 msgstr "是啊，一輩子都住這兒。我就出生在墓地附近。"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "How old are you? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Do you live here? "
+msgctxt "ask 0418"
+msgid "Tell me about the cemetery. "
+msgstr "說說墓地。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Do you live here? "
 msgctxt "ask 0418"
 msgid "How old are you? "
 msgstr "你幾歲了？"
@@ -968,13 +962,6 @@ msgstr "這是什麼問題！哼，我的年紀大到懂得怎麼用這把劍了
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me about the cemetery. "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "Tell me about the cemetery. "
-msgstr "說說墓地。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Tell me about the cemetery. "
 msgctxt "bark 0418:45FD"
 msgid "I do not like the place. 'Tis haunted. "
 msgstr "我不喜歡那個地方。那裡鬧鬼。"
@@ -982,15 +969,14 @@ msgstr "我不喜歡那個地方。那裡鬧鬼。"
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me about the cemetery. "
 msgctxt "ask 0418"
-msgid "Haunted? "
-msgstr "鬧鬼？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Where is it? "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
 msgid "Where is it? "
 msgstr "在哪裡？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Tell me about the cemetery. "
+msgctxt "ask 0418"
+msgid "Haunted? "
+msgstr "鬧鬼？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Where is it? "
@@ -1023,8 +1009,19 @@ msgid "It's a terrible place, a frightening place. The Necromancers used to be t
 msgstr "那是個可怕的地方，嚇人的地方。死靈法師以前就住在那裡。他們是很可怕的人，專門研究死人的屍體。有人說他們甚至會吃屍體！我知道唯一一個自願去那裡的人，就是米斯蘭。"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "Tell me of Mythran. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Why not go there? "
+msgctxt "ask 0418"
+msgid "Tell me about the Necromancers. "
+msgstr "說說死靈法師。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Why not go there? "
+msgctxt "ask 0418"
+msgid "They study dead bodies? "
+msgstr "他們研究屍體？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Why not go there? "
 msgctxt "ask 0418"
 msgid "Tell me of Mythran. "
 msgstr "說說米斯蘭。"
@@ -1049,23 +1046,9 @@ msgstr "我想是魔法捲軸吧。有一次我看見他念了一張捲軸，就
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me about the Necromancers. "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "Tell me about the Necromancers. "
-msgstr "說說死靈法師。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Tell me about the Necromancers. "
 msgctxt "bark 0418:4CC2"
 msgid "Great power they have, power over life and death. I shiver to think about it. "
 msgstr "他們擁有強大的力量，能掌控生死。我一想到就發抖。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "They study dead bodies? "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "They study dead bodies? "
-msgstr "他們研究屍體？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "They study dead bodies? "
@@ -1075,23 +1058,9 @@ msgstr "所以他們才住在墓地，這樣就隨時有新鮮的貨源。我想
 
 # P13 batch 2
 #. event 01 (use (talk)), after "That's a pretty name. "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "That's a pretty name. "
-msgstr "真是個好聽的名字。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "That's a pretty name. "
 msgctxt "bark 0418:4E83"
 msgid "If it is a lady's company you are after, then I am afraid you have come to the wrong establishment. "
 msgstr "如果你是來找女人作伴的，那恐怕你走錯店了。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "I am sorry if I upset you. "
-#. answer compared by the conversation code
-msgctxt "ask 0418"
-msgid "I am sorry if I upset you. "
-msgstr "如果冒犯了你，我很抱歉。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I am sorry if I upset you. "

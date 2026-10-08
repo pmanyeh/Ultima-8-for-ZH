@@ -353,15 +353,20 @@ msgstr "目前我只是個治療師。但那只是因為他們還沒認清我高
 # P13 batch 4
 #. event 01 (use (talk)), after "What do you do here? "
 msgctxt "ask 041A"
-msgid "Who will recognize your abilities? "
-msgstr "誰會認清你的能力？"
+msgid "You are a healer? "
+msgstr "你是治療師？"
 
 # P13 batch 4
-#. event 01 (use (talk)), after "What superior abilities? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "What do you do here? "
 msgctxt "ask 041A"
 msgid "What superior abilities? "
 msgstr "什麼高人一等的能力？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "What do you do here? "
+msgctxt "ask 041A"
+msgid "Who will recognize your abilities? "
+msgstr "誰會認清你的能力？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "What superior abilities? "
@@ -389,16 +394,15 @@ msgstr "噢，我是可以解釋，但我懷疑你聽得懂。很複雜的，魔
 
 # P13 batch 4
 #. event 01 (use (talk)), after "You are a healer? "
-#. answer compared by the conversation code
-msgctxt "ask 041A"
-msgid "You are a healer? "
-msgstr "你是治療師？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "You are a healer? "
 msgctxt "bark 041A:215C"
 msgid "Yes, why else would I be here? Anyway, are you in need of healing? "
 msgstr "是啊，不然我在這裡幹嘛？總之，你需要治療嗎？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "You are a healer? "
+msgctxt "ask 041A"
+msgid "aye "
+msgstr "需要"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "You are a healer? "
@@ -411,13 +415,6 @@ msgstr "不需要"
 msgctxt "bark 041A:221E"
 msgid "If you are going to be rude, then I shall not take the time to assist you. "
 msgstr "你要是這麼無禮，我就不花時間幫你了。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "aye " or "I need healing "
-#. answer compared by the conversation code
-msgctxt "ask 041A"
-msgid "aye "
-msgstr "需要"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "aye " or "I need healing "
@@ -476,15 +473,14 @@ msgstr "呃，我沒有偷。我只是想借用一下。"
 # P13 batch 4
 #. event 01 (use (talk)), after "But you knew it was Brother Xavier. "
 msgctxt "ask 041A"
-msgid "Only borrowed it? "
-msgstr "只是借用？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Did not steal it? "
-#. answer compared by the conversation code
-msgctxt "ask 041A"
 msgid "Did not steal it? "
 msgstr "沒有偷？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "But you knew it was Brother Xavier. "
+msgctxt "ask 041A"
+msgid "Only borrowed it? "
+msgstr "只是借用？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Did not steal it? "
@@ -501,15 +497,14 @@ msgstr "我需要它的魔力，為了我父親。"
 # P13 batch 4
 #. event 01 (use (talk)), after "Only borrowed it? "
 msgctxt "ask 041A"
-msgid "your father? "
-msgstr "你父親？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "the magic in it? "
-#. answer compared by the conversation code
-msgctxt "ask 041A"
 msgid "the magic in it? "
 msgstr "它的魔力？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Only borrowed it? "
+msgctxt "ask 041A"
+msgid "your father? "
+msgstr "你父親？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "the magic in it? "
@@ -526,15 +521,14 @@ msgstr "是的，我父親。他叫……呃……他生前叫托蘭，住在泰
 # P13 batch 4
 #. event 01 (use (talk)), after "your father? "
 msgctxt "ask 041A"
-msgid "Why did Mordea kill him? "
-msgstr "莫爾迪亞為什麼殺他？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Toran was your father? "
-#. answer compared by the conversation code
-msgctxt "ask 041A"
 msgid "Toran was your father? "
 msgstr "托蘭是你父親？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "your father? "
+msgctxt "ask 041A"
+msgid "Why did Mordea kill him? "
+msgstr "莫爾迪亞為什麼殺他？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Toran was your father? "

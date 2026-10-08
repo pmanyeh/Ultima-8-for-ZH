@@ -27,35 +27,30 @@ msgstr ""
 
 #. event 01 (use (talk))
 msgctxt "ask 0216"
-msgid "5"
-msgstr ""
-
-#. event 01 (use (talk)), after "0"
-#. answer compared by the conversation code
-msgctxt "ask 0216"
 msgid "0"
 msgstr ""
 
-#. event 01 (use (talk)), after "1"
-#. answer compared by the conversation code
+#. event 01 (use (talk))
 msgctxt "ask 0216"
 msgid "1"
 msgstr ""
 
-#. event 01 (use (talk)), after "2"
-#. answer compared by the conversation code
+#. event 01 (use (talk))
 msgctxt "ask 0216"
 msgid "2"
 msgstr ""
 
-#. event 01 (use (talk)), after "3"
-#. answer compared by the conversation code
+#. event 01 (use (talk))
 msgctxt "ask 0216"
 msgid "3"
 msgstr ""
 
-#. event 01 (use (talk)), after "4"
-#. answer compared by the conversation code
+#. event 01 (use (talk))
 msgctxt "ask 0216"
 msgid "4"
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0216"
+msgid "5"
 msgstr ""

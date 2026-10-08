@@ -61,6 +61,16 @@ msgid "I hope you have come to make amends. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Hydros? "
+msgctxt "ask 0050"
+msgid "I apologize. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hydros? "
+msgctxt "ask 0050"
+msgid "Never! "
+msgstr ""
+
+#. event 01 (use (talk)), after "Hydros? "
 msgctxt "bark 0050:04BA"
 msgid "There will be time for conversation when I am free. "
 msgstr ""
@@ -71,12 +81,6 @@ msgid "I have no desire for idle chatter. Find me when you are worthy of convers
 msgstr ""
 
 #. event 01 (use (talk)), after "I apologize. "
-#. answer compared by the conversation code
-msgctxt "ask 0050"
-msgid "I apologize. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I apologize. "
 msgctxt "bark 0050:0640"
 msgid "Very well, groundling, I accept your submission. Now go and reflect upon my generosity. "
 msgstr ""
@@ -84,6 +88,11 @@ msgstr ""
 #. event 01 (use (talk)), after "I wish the power of Tempestry. "
 msgctxt "bark 0050:0798"
 msgid "Ah, a wise request from one who has made the difficult journey to my current home. But alas, your desire must go unfulfilled. Trapped here as I am, I cannot help you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I wish the power of Tempestry. "
+msgctxt "ask 0050"
+msgid "What can I do? "
 msgstr ""
 
 #. event 01 (use (talk)), after "I wish the power of Tempestry. "
@@ -107,12 +116,6 @@ msgid "I will not help you. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Never! "
-#. answer compared by the conversation code
-msgctxt "ask 0050"
-msgid "Never! "
-msgstr ""
-
-#. event 01 (use (talk)), after "Never! "
 msgctxt "bark 0050:098A"
 msgid "You do not know what you say, groundling! Begone! "
 msgstr ""
@@ -120,12 +123,6 @@ msgstr ""
 #. event 01 (use (talk)), after "I will not help you. "
 msgctxt "bark 0050:0A4C"
 msgid "You do not know what you say, groundling! Begone! "
-msgstr ""
-
-#. event 01 (use (talk)), after "What can I do? " or "Could you repeat those instructions? "
-#. answer compared by the conversation code
-msgctxt "ask 0050"
-msgid "What can I do? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What can I do? " or "Could you repeat those instructions? "

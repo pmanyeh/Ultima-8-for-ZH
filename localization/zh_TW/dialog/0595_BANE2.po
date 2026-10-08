@@ -32,6 +32,10 @@ msgid "I am {name}."
 msgstr ""
 
 msgctxt "ask 0595"
+msgid "It is of no matter. "
+msgstr ""
+
+msgctxt "ask 0595"
 msgid "You are not my friend, lady. "
 msgstr ""
 
@@ -242,18 +246,37 @@ msgstr ""
 
 #. , after "You are not my friend, lady. "
 msgctxt "ask 0595"
+msgid "Please forgive me , kind lady. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "ask 0595"
+msgid "I did not mean to give offense. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "ask 0595"
+msgid "I need information, woman! "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "ask 0595"
 msgid "Nevermind. "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "ask 0595"
+msgid "Tell me what I need to know, wench! "
+msgstr ""
+
+#. , after "You are not my friend, lady. "
+msgctxt "ask 0595"
+msgid "Please forgive me , Bane. "
 msgstr ""
 
 #. , after "Nevermind. "
 msgctxt "bark 0595:1366"
 msgid "I'm not so sure I should...*Your manners were atrocious. But you seem sincere now. Very well. I suppose I do forgive you. Just don't let it happen again. Now then, what do you seek of me? "
-msgstr ""
-
-#. , after "I did not mean to give offense. "
-#. answer compared by the conversation code
-msgctxt "ask 0595"
-msgid "I did not mean to give offense. "
 msgstr ""
 
 #. , after "I did not mean to give offense. "

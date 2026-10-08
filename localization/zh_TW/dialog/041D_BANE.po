@@ -92,6 +92,26 @@ msgstr ""
 
 #. event 01 (use (talk))
 msgctxt "ask 041D"
+msgid "I agree to your terms. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041D"
+msgid "What else can you offer? "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041D"
+msgid "I will not be your spy, lady. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041D"
+msgid "I do not trust -your- motives. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041D"
 msgid "Let me think on it. "
 msgstr ""
 
@@ -118,12 +138,22 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Tell me of the Enclave and Morgaelin. "
 msgctxt "ask 041D"
+msgid "Why is the crag named after Daemons? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of the Enclave and Morgaelin. "
+msgctxt "ask 041D"
 msgid "Does Morgaelin have a meaning? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What is a Truename? "
 msgctxt "bark 041D:0D35"
 msgid "I see by your question that you are unlearned in the ways of Sorcery, and Sorcerers for that matter. A Truename is the name given a Sorcerer when she begins her training. The names you chose later or were given before have no power. I am called Bane, although that is not my Truename. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is a Truename? "
+msgctxt "ask 041D"
+msgid "What is your Truename? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What is a Truename? "
@@ -163,13 +193,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Tell me about Sorcerers. "
 msgctxt "ask 041D"
-msgid "Those that went before. "
+msgid "Current. "
 msgstr ""
 
-#. event 01 (use (talk)), after "Why is the crag named after Daemons? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Tell me about Sorcerers. "
 msgctxt "ask 041D"
-msgid "Why is the crag named after Daemons? "
+msgid "Those that went before. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Why is the crag named after Daemons? "
@@ -248,12 +277,6 @@ msgid "What is the Tongue of Fire? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What is your Truename? "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "What is your Truename? "
-msgstr ""
-
-#. event 01 (use (talk)), after "What is your Truename? "
 msgctxt "bark 041D:1C13"
 msgid "Not so quickly, Daemion. Perhaps when we have grown accustomed to each other more, I shall reveal that to you. Until that time, it shall remain mine, and mine only. "
 msgstr ""
@@ -261,6 +284,11 @@ msgstr ""
 #. event 01 (use (talk)), after "What do you mean by Fire? "
 msgctxt "bark 041D:1CE8"
 msgid "Fire is the most powerful and destructive of the Elements, as the Lord of Flame is the most potent of the Titans. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you mean by Fire? "
+msgctxt "ask 041D"
+msgid "Tell me of the Elements? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What do you mean by Fire? "
@@ -286,12 +314,6 @@ msgstr ""
 #. event 01 (use (talk)), after "Enchanted tools? "
 msgctxt "bark 041D:1F59"
 msgid "Wands, rods, staves and other unperishable metal paraphernalia are the trappings of a Sorcerer. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Current. "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "Current. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Current. "
@@ -326,6 +348,16 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Those that went before. "
 msgctxt "ask 041D"
+msgid "Do you know more about Maedron? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Those that went before. "
+msgctxt "ask 041D"
+msgid "Tell me more of Corodin. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Those that went before. "
+msgctxt "ask 041D"
 msgid "The Calling? "
 msgstr ""
 
@@ -347,12 +379,6 @@ msgstr ""
 #. event 01 (use (talk)), after "What is the Tongue of Fire? "
 msgctxt "bark 041D:2833"
 msgid "I know very little about it save that it is the focus of the Sorcerer's ability to control the Lord of Flame. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Tell me of the Elements? "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "Tell me of the Elements? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Tell me of the Elements? "
@@ -437,6 +463,16 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Who are the Acolytes? "
 msgctxt "ask 041D"
+msgid "Tell me more of Vardion. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are the Acolytes? "
+msgctxt "ask 041D"
+msgid "Do you know more about Gorgrond? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are the Acolytes? "
+msgctxt "ask 041D"
 msgid "What else can you say of Beren. "
 msgstr ""
 
@@ -456,20 +492,8 @@ msgid "Malicious comments? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Tell me more of Corodin. "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "Tell me more of Corodin. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Tell me more of Corodin. "
 msgctxt "bark 041D:38B5"
 msgid "Truly, I know little else of the man. He died ages ago and before that he did little to recommend him to memory. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Do you know more about Maedron? "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "Do you know more about Maedron? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Do you know more about Maedron? "
@@ -524,7 +548,22 @@ msgstr ""
 
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
 msgctxt "ask 041D"
-msgid "Tell me more of Vardion. "
+msgid "No, please go on. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you mean by First Acolyte? "
+msgctxt "ask 041D"
+msgid "Can we change the subject? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you mean by First Acolyte? "
+msgctxt "ask 041D"
+msgid "Yes, I'm sorry, I have. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What do you mean by First Acolyte? "
+msgctxt "ask 041D"
+msgid "Not bored, just disinterested. "
 msgstr ""
 
 #. event 01 (use (talk)), after "What do you mean by First Acolyte? "
@@ -553,12 +592,6 @@ msgid "Not to put too fine a point on it, he is a brutish, overbearing, pompous 
 msgstr ""
 
 #. event 01 (use (talk)), after "Do you know more about Gorgrond? "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "Do you know more about Gorgrond? "
-msgstr ""
-
-#. event 01 (use (talk)), after "Do you know more about Gorgrond? "
 msgctxt "bark 041D:470D"
 msgid "He is as simple-minded as he is magically powerful... in a raw, and unskilled fashion. He is the perfect tool, which is why, I believe, he was made an Acolyte. Certainly, he is useful to those in a position to manipulate him. "
 msgstr ""
@@ -571,12 +604,6 @@ msgstr ""
 #. event 01 (use (talk)), after "Malicious comments? "
 msgctxt "bark 041D:4918"
 msgid "It would only perpetuate these comments to give them voice, therefore I shall refrain. "
-msgstr ""
-
-#. event 01 (use (talk)), after "No, please go on. "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "No, please go on. "
 msgstr ""
 
 #. event 01 (use (talk)), after "No, please go on. "
@@ -600,20 +627,8 @@ msgid "Will you do this?*If so, I can offer you a position as a Disciple... or e
 msgstr ""
 
 #. event 01 (use (talk)), after "Can we change the subject? "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "Can we change the subject? "
-msgstr ""
-
-#. event 01 (use (talk)), after "Can we change the subject? "
 msgctxt "bark 041D:4DFD"
 msgid "Of course. I am truly sorry to embroil you in the affairs of what must be, to you, a strange people indeed. Please forgive my temporary indiscretion. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Yes, I'm sorry, I have. "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "Yes, I'm sorry, I have. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Yes, I'm sorry, I have. "
@@ -622,20 +637,8 @@ msgid "Please... let me bore you no further. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Not bored, just disinterested. "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "Not bored, just disinterested. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Not bored, just disinterested. "
 msgctxt "bark 041D:4F0C"
 msgid "As your interest wanes, so does my civility. Please go before I say something you might regret. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I agree to your terms. "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "I agree to your terms. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I agree to your terms. "
@@ -654,31 +657,13 @@ msgid "Now your first task as my Disciple is to enter into the confidences of ou
 msgstr ""
 
 #. event 01 (use (talk)), after "What else can you offer? "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "What else can you offer? "
-msgstr ""
-
-#. event 01 (use (talk)), after "What else can you offer? "
 msgctxt "bark 041D:5310"
 msgid "I have made a far greater offer than you apparently are capable of understanding. To become a Sorcerer is to become one with power. Take that as you will, as you take leave of these premises. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I will not be your spy, lady. "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "I will not be your spy, lady. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I will not be your spy, lady. "
 msgctxt "bark 041D:53CC"
 msgid "That is your choice, my ignorant friend. My offer still stands, but perhaps you are not the one I should give it to. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I do not trust -your- motives. "
-#. answer compared by the conversation code
-msgctxt "ask 041D"
-msgid "I do not trust -your- motives. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I do not trust -your- motives. "

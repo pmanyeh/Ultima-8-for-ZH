@@ -67,28 +67,32 @@ msgstr "你想幹嘛，陌生人？"
 # P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0432"
-msgid "Bye "
-msgstr "再見"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Who are you? "
-#. answer compared by the conversation code
-msgctxt "ask 0432"
 msgid "Who are you? "
 msgstr "你是誰？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 0432"
+msgid "What is your duty? "
+msgstr "你的職責是什麼？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 0432"
+msgid "Where am I? "
+msgstr "這是哪裡？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 0432"
+msgid "Bye "
+msgstr "再見"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 0432:055F"
 msgid "I am called Pellgun. "
 msgstr "我叫佩爾岡。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "What is your duty? "
-#. answer compared by the conversation code
-msgctxt "ask 0432"
-msgid "What is your duty? "
-msgstr "你的職責是什麼？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
@@ -101,13 +105,6 @@ msgstr "我負責保護風暴使者戴文。"
 msgctxt "bark 0432:0636"
 msgid "I am charged with protecting the Lady Mordea. "
 msgstr "我負責保護莫爾迪亞夫人。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Where am I? "
-#. answer compared by the conversation code
-msgctxt "ask 0432"
-msgid "Where am I? "
-msgstr "這是哪裡？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "

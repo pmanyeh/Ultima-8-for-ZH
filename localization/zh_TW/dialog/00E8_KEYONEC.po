@@ -10,57 +10,110 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 00E8:00B7"
 msgid "Key of the Caretaker "
-msgstr ""
+msgstr "看守人之鑰"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 00E8:00ED"
 msgid "Key of the Scion "
-msgstr ""
+msgstr "傳人之鑰"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 00E8:0129"
 msgid "Key of the Necromancer "
-msgstr ""
+msgstr "死靈法師之鑰"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 00E8:0344"
 msgid "Lord Lithos, I have come to inter Lothian into Your Earth as You have commanded. "
-msgstr ""
+msgstr "利索斯大人，我遵照祢的命令，前來將羅西安安葬於祢的大地。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 00E8:03AC"
 msgid "THIS DOES PLEASE ME WELL, LIVE ONE. "
-msgstr ""
+msgstr "此舉甚合我意，活人。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 00E8:0400"
 msgid "All has been prepared according to your law, Mountain King. "
-msgstr ""
+msgstr "一切都已依照祢的律法準備妥當，山之王。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 00E8:044D"
 msgid "COME NOW TO ME, LOTHIAN. LET ME ENFOLD YOU IN MY ARMS. "
-msgstr ""
+msgstr "現在到我這裡來吧，羅西安。讓我將你擁入懷中。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 00E8:0534"
 msgid "can't reach "
-msgstr ""
+msgstr "構不到"
 
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 00E8"
+msgid "Kal Wis Corp!"
+msgstr "Kal Wis Corp！"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 00E8"
+msgid "Quas Corp!"
+msgstr "Quas Corp！"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 00E8"
+msgid "Rel Sanct Ylem!"
+msgstr "Rel Sanct Ylem！"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 00E8"
+msgid "Kal Corp Xen!"
+msgstr "Kal Corp Xen！"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 00E8"
+msgid "Des Por Ylem!"
+msgstr "Des Por Ylem！"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 00E8"
+msgid "In Ort Ylem Xen!"
+msgstr "In Ort Ylem Xen！"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 00E8"
+msgid "Vas An Corp!"
+msgstr "Vas An Corp！"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 00E8"
+msgid "In Vas Corp!"
+msgstr "In Vas Corp！"
+
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 00E8"
 msgid "Vas Por Ylem!"
-msgstr ""
+msgstr "Vas Por Ylem！"
 
-#. event 01 (use (talk))
-msgctxt "bark 00E8:0892"
-msgid "In Vas Corp!"
-msgstr ""
-
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 00E8:0943"
 msgid "Something's not right. "
-msgstr ""
+msgstr "有點不對勁。"

@@ -36,8 +36,18 @@ msgid "Yes, my most precious child? "
 msgstr ""
 
 #. event 01 (use (talk))
+msgctxt "ask 0181"
+msgid "I must have the Breath of Wind. "
+msgstr ""
+
+#. event 01 (use (talk))
 msgctxt "bark 0181:054C"
 msgid "My child, you have returned to me. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 0181"
+msgid "Who are your children? "
 msgstr ""
 
 #. event 01 (use (talk))
@@ -60,8 +70,7 @@ msgctxt "bark 0181:0774"
 msgid "Who am I? Ah, such a dear child. So very young in his knowledge. Why, he is no more than a babe. I am Stratos, Titan of Air, Giver of Life. To reach me took a great deal of courage. I wish to reward you. "
 msgstr ""
 
-#. event 01 (use (talk)), after "Titan of Air? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Who are you? "
 msgctxt "ask 0181"
 msgid "Titan of Air? "
 msgstr ""
@@ -74,12 +83,6 @@ msgstr ""
 #. event 01 (use (talk)), after "Reward me? "
 msgctxt "bark 0181:09EF"
 msgid "Take this Focus, Adept. With it you will be able to cast the Air Walk spell at will. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Who are your children? "
-#. answer compared by the conversation code
-msgctxt "ask 0181"
-msgid "Who are your children? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Who are your children? "
@@ -107,8 +110,7 @@ msgctxt "bark 0181:0CFE"
 msgid "The Breath of Wind is that through which I touch my children. It's location is known only to Honorable Stellos. "
 msgstr ""
 
-#. event 01 (use (talk)), after "May I have the Breath of Wind? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Tell me of the Breath of Wind. "
 msgctxt "ask 0181"
 msgid "May I have the Breath of Wind? "
 msgstr ""
@@ -116,12 +118,6 @@ msgstr ""
 #. event 01 (use (talk)), after "May I have the Breath of Wind? "
 msgctxt "bark 0181:0E0D"
 msgid "Oh, child, you know not what you ask. To take the Breath of Wind from me is to sever the link to my healers. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I must have the Breath of Wind. "
-#. answer compared by the conversation code
-msgctxt "ask 0181"
-msgid "I must have the Breath of Wind. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I must have the Breath of Wind. "

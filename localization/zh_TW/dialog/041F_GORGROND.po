@@ -82,24 +82,22 @@ msgstr ""
 
 #. event 01 (use (talk))
 msgctxt "ask 041F"
-msgid "It's none of your business. "
+msgid "Just your attention. "
 msgstr ""
 
-#. event 01 (use (talk)), after "Just your attention. "
-#. answer compared by the conversation code
+#. event 01 (use (talk))
 msgctxt "ask 041F"
-msgid "Just your attention. "
+msgid "I wish to speak to you. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041F"
+msgid "It's none of your business. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Just your attention. "
 msgctxt "bark 041F:069B"
 msgid "Who are you? "
-msgstr ""
-
-#. event 01 (use (talk)), after "I wish to speak to you. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "I wish to speak to you. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I wish to speak to you. "
@@ -120,6 +118,11 @@ msgstr ""
 
 #. event 01 (use (talk)), after "It's none of your business. "
 msgctxt "ask 041F"
+msgid "I cannot tell you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "It's none of your business. "
+msgctxt "ask 041F"
 msgid "You would not understand. "
 msgstr ""
 
@@ -130,14 +133,18 @@ msgid "Oh, greetings, {name}. I am Gorgrond. What do you need of me?"
 msgstr ""
 
 #. event 01 (use (talk)), after "I cannot tell you. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "I cannot tell you. "
+msgctxt "bark 041F:087D"
+msgid "Why not? "
 msgstr ""
 
 #. event 01 (use (talk)), after "I cannot tell you. "
-msgctxt "bark 041F:087D"
-msgid "Why not? "
+msgctxt "ask 041F"
+msgid "If I did, I would have to kill you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "ask 041F"
+msgid "What does it matter? "
 msgstr ""
 
 #. event 01 (use (talk)), after "I cannot tell you. "
@@ -146,20 +153,8 @@ msgid "I'm not sure. "
 msgstr ""
 
 #. event 01 (use (talk)), after "If I did, I would have to kill you. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "If I did, I would have to kill you. "
-msgstr ""
-
-#. event 01 (use (talk)), after "If I did, I would have to kill you. "
 msgctxt "bark 041F:098C"
 msgid "Ha, you'd find that hard to do. But I like you, you're funny. What do you want to know? "
-msgstr ""
-
-#. event 01 (use (talk)), after "What does it matter? "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "What does it matter? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What does it matter? "
@@ -175,6 +170,11 @@ msgstr ""
 
 #. event 01 (use (talk)), after "What does it matter? "
 msgctxt "ask 041F"
+msgid "That's your problem. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What does it matter? "
+msgctxt "ask 041F"
 msgid "You may call me Sir. "
 msgstr ""
 
@@ -182,12 +182,6 @@ msgstr ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:0AD4"
 msgid "Oh, greetings, {name}. I am Gorgrond. What do you need of me?"
-msgstr ""
-
-#. event 01 (use (talk)), after "That's your problem. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "That's your problem. "
 msgstr ""
 
 #. event 01 (use (talk)), after "That's your problem. "
@@ -203,24 +197,22 @@ msgstr ""
 
 #. event 01 (use (talk)), after "That's your problem. "
 msgctxt "ask 041F"
-msgid "You will die for your insolence! "
+msgid "Yes, that will do nicely. "
 msgstr ""
 
-#. event 01 (use (talk)), after "Yes, that will do nicely. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "That's your problem. "
 msgctxt "ask 041F"
-msgid "Yes, that will do nicely. "
+msgid "No, I won't abide that. "
+msgstr ""
+
+#. event 01 (use (talk)), after "That's your problem. "
+msgctxt "ask 041F"
+msgid "You will die for your insolence! "
 msgstr ""
 
 #. event 01 (use (talk)), after "Yes, that will do nicely. "
 msgctxt "bark 041F:0C58"
 msgid "Fine then. What do you want, Dungbreath? "
-msgstr ""
-
-#. event 01 (use (talk)), after "No, I won't abide that. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "No, I won't abide that. "
 msgstr ""
 
 #. event 01 (use (talk)), after "No, I won't abide that. "
@@ -236,6 +228,11 @@ msgstr ""
 
 #. event 01 (use (talk)), after "No, I won't abide that. "
 msgctxt "ask 041F"
+msgid "I don't care what you call me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I won't abide that. "
+msgctxt "ask 041F"
 msgid "That's it! You die! "
 msgstr ""
 
@@ -243,12 +240,6 @@ msgstr ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:0DB6"
 msgid "Oh, greetings, {name}. I am Gorgrond. What do you need of me?"
-msgstr ""
-
-#. event 01 (use (talk)), after "I don't care what you call me. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "I don't care what you call me. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I don't care what you call me. "
@@ -500,6 +491,11 @@ msgstr ""
 
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "ask 041F"
+msgid "I meant no offense. "
+msgstr ""
+
+#. event 01 (use (talk)), after "You would not understand. "
+msgctxt "ask 041F"
 msgid "Must you be so obstinate? "
 msgstr ""
 
@@ -516,12 +512,6 @@ msgstr ""
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "ask 041F"
 msgid "Nevermind. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I meant no offense. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "I meant no offense. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I meant no offense. "
@@ -656,18 +646,17 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Don't call me Dungbreath. "
 msgctxt "ask 041F"
+msgid "Why must you know? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Don't call me Dungbreath. "
+msgctxt "ask 041F"
 msgid "I will not tell you. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I will not tell you. "
 msgctxt "bark 041F:2996"
 msgid "That's much better. Now we can be on speaking terms. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Why must you know? "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "Why must you know? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Why must you know? "
@@ -709,12 +698,32 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Tell me about Sorcerer's Enclave. "
 msgctxt "ask 041F"
+msgid "You're not very bright, are you? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about Sorcerer's Enclave. "
+msgctxt "ask 041F"
+msgid "I see. That was helpful. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me about Sorcerer's Enclave. "
+msgctxt "ask 041F"
 msgid "What an... esoteric description. "
 msgstr ""
 
 #. event 01 (use (talk)), after "What can you say of Sorcerers? "
 msgctxt "bark 041F:2DD7"
 msgid "Oh, quite a bit. I am most knowledgeable, you know. I have studied here for a long time. Since I was a babe. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What can you say of Sorcerers? "
+msgctxt "ask 041F"
+msgid "Well... What can you say? "
+msgstr ""
+
+#. event 01 (use (talk)), after "What can you say of Sorcerers? "
+msgctxt "ask 041F"
+msgid "You were born here? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What can you say of Sorcerers? "
@@ -734,12 +743,6 @@ msgid "Smart enough not to speak to someone who insults me! "
 msgstr ""
 
 #. event 01 (use (talk)), after "I see. That was helpful. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "I see. That was helpful. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I see. That was helpful. "
 msgctxt "bark 041F:2FAF"
 msgid "Thank you. Glad to be of aid. Vardion always says that I am so mercifully free of cluttering thoughts. I'm not sure what he means, but he smiles when he says it. So it must be good. "
 msgstr ""
@@ -747,6 +750,16 @@ msgstr ""
 #. event 01 (use (talk)), after "I see. That was helpful. "
 msgctxt "ask 041F"
 msgid "Vardion? Tell me of him. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I see. That was helpful. "
+msgctxt "ask 041F"
+msgid "You -are- free of thought. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I see. That was helpful. "
+msgctxt "ask 041F"
+msgid "I think he means you are stupid. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I see. That was helpful. "
@@ -761,25 +774,18 @@ msgstr ""
 
 #. event 01 (use (talk)), after "What an... esoteric description. "
 msgctxt "ask 041F"
-msgid "Tell me what you know of Bane. "
+msgid "Nothing. Don't worry about it. "
 msgstr ""
 
-#. event 01 (use (talk)), after "Well... What can you say? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "What an... esoteric description. "
 msgctxt "ask 041F"
-msgid "Well... What can you say? "
+msgid "Tell me what you know of Bane. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Well... What can you say? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:31E7"
 msgid "Hmmm? About what, {varF8}?"
-msgstr ""
-
-#. event 01 (use (talk)), after "You were born here? "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "You were born here? "
 msgstr ""
 
 #. event 01 (use (talk)), after "You were born here? "
@@ -795,6 +801,11 @@ msgstr ""
 #. event 01 (use (talk)), after "Vardion? Tell me of him. "
 msgctxt "bark 041F:34D0"
 msgid "He is the greatest Pagan alive. Um, except for the Master, perhaps. He knows so many things. It hurts my head to even think about what he knows. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Vardion? Tell me of him. "
+msgctxt "ask 041F"
+msgid "Why is he so great? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Vardion? Tell me of him. "
@@ -825,6 +836,16 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Tell me what you know of Bane. "
 msgctxt "ask 041F"
+msgid "As a matter of fact, yes. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me what you know of Bane. "
+msgctxt "ask 041F"
+msgid "No, of course not. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me what you know of Bane. "
+msgctxt "ask 041F"
 msgid "Why do you ask? "
 msgstr ""
 
@@ -844,12 +865,6 @@ msgid "Tell me his plans. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I think he means you are stupid. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "I think he means you are stupid. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I think he means you are stupid. "
 msgctxt "bark 041F:37FB"
 msgid "And I think you are a dolt! "
 msgstr ""
@@ -860,21 +875,9 @@ msgid "Yes, and Vardion is the best friend to have. "
 msgstr ""
 
 #. event 01 (use (talk)), after "You -are- free of thought. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "You -are- free of thought. "
-msgstr ""
-
-#. event 01 (use (talk)), after "You -are- free of thought. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:390E"
 msgid "Thank you. But you are not very original, {varF8}."
-msgstr ""
-
-#. event 01 (use (talk)), after "Nothing. Don't worry about it. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "Nothing. Don't worry about it. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Nothing. Don't worry about it. "
@@ -895,6 +898,11 @@ msgstr ""
 
 #. event 01 (use (talk)), after "No. Your knowledge is suspect. "
 msgctxt "ask 041F"
+msgid "Do you know anything of value? "
+msgstr ""
+
+#. event 01 (use (talk)), after "No. Your knowledge is suspect. "
+msgctxt "ask 041F"
 msgid "That's it. I've had it. Goodbye! "
 msgstr ""
 
@@ -908,12 +916,6 @@ msgstr ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:3B45"
 msgid "Oh, yes. I was born in this room. {varF8} I don't remember anything about it though. So don't ask."
-msgstr ""
-
-#. event 01 (use (talk)), after "Why is he so great? "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "Why is he so great? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Why is he so great? "
@@ -948,24 +950,17 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Who is the Master. "
 msgctxt "ask 041F"
-msgid "How did Malchir become leader? "
+msgid "Tell me about Master Malchir. "
 msgstr ""
 
-#. event 01 (use (talk)), after "As a matter of fact, yes. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Who is the Master. "
 msgctxt "ask 041F"
-msgid "As a matter of fact, yes. "
+msgid "How did Malchir become leader? "
 msgstr ""
 
 #. event 01 (use (talk)), after "As a matter of fact, yes. "
 msgctxt "bark 041F:3EB3"
 msgid "Well, guard your back well. You would be suprised what might sprout from it, with her as your 'friend'. "
-msgstr ""
-
-#. event 01 (use (talk)), after "No, of course not. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "No, of course not. "
 msgstr ""
 
 #. event 01 (use (talk)), after "No, of course not. "
@@ -979,12 +974,6 @@ msgid "Because she is a back-stabbing, foul-tempered, mean-spirited wench. And s
 msgstr ""
 
 #. event 01 (use (talk)), after "Do you know anything of value? "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "Do you know anything of value? "
-msgstr ""
-
-#. event 01 (use (talk)), after "Do you know anything of value? "
 msgctxt "bark 041F:41BA"
 msgid "I know that you are beginning to irritate me. And that I don't have to listen to you. Leave me be. "
 msgstr ""
@@ -992,12 +981,6 @@ msgstr ""
 #. event 01 (use (talk)), after "Tell me his plans. "
 msgctxt "bark 041F:422E"
 msgid "No, I can't do that. You have to ask him yourself. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Tell me about Master Malchir. "
-#. answer compared by the conversation code
-msgctxt "ask 041F"
-msgid "Tell me about Master Malchir. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Tell me about Master Malchir. "

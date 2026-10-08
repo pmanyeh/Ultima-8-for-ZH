@@ -224,7 +224,8 @@ msgid "I am {name}."
 msgstr "我是{name}。"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "Hello "
+#. event 01 (use (talk)), after "Well, what can I do for ye today, stranger? "
+#. answer compared by the conversation code
 msgctxt "ask 0410"
 msgid "Well, what can I do for ye today, stranger? "
 msgstr "那麼，陌生人，今天有什麼能幫你的？"
@@ -238,21 +239,26 @@ msgstr "很高興認識你，我是奇蘭卓。我以前沒在這兒見過你。
 # P13 batch 2
 #. event 01 (use (talk)), after "Well, what can I do for ye today, stranger? "
 msgctxt "ask 0410"
-msgid "No "
-msgstr "不是"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Yes "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
 msgid "Yes "
 msgstr "是的"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Well, what can I do for ye today, stranger? "
+msgctxt "ask 0410"
+msgid "No "
+msgstr "不是"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Yes "
 msgctxt "bark 0410:1001"
 msgid "Well then, welcome. I don't get into town much, so I'm afraid I would be a poor guide there. But I can tell ye about the Sea of Rains. Been fishin' it for years. I knows it like the back of me hand. "
 msgstr "那麼，歡迎啊。我不常進城，所以恐怕當不了好嚮導。不過我可以跟你說說雨之海的事。我在那兒捕魚好多年了，對它熟得跟自己的手背一樣。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Yes "
+msgctxt "ask 0410"
+msgid "Tell me of the Sea of Rains. "
+msgstr "說說雨之海。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Yes "
@@ -269,28 +275,26 @@ msgstr "鬼魂？你說鬼魂？哎，你想知道鬼魂的事幹嘛？"
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me about ghosts. "
 msgctxt "ask 0410"
-msgid "No particular reason. "
-msgstr "沒什麼特別的原因。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "I'm looking for a ghost. "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
 msgid "I'm looking for a ghost. "
 msgstr "我在找一個鬼魂。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Tell me about ghosts. "
+msgctxt "ask 0410"
+msgid "I heard Orlok's ghost story. "
+msgstr "我聽了歐洛克的鬼故事。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Tell me about ghosts. "
+msgctxt "ask 0410"
+msgid "No particular reason. "
+msgstr "沒什麼特別的原因。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I'm looking for a ghost. "
 msgctxt "bark 0410:1309"
 msgid "Looking for a ghost, eh? That's a strange thing for a nice young man like yerself to be doing! There is one ghost I'd like to find, that of my daughter. If I could find her ghost, maybe I could find a way to bring her back. "
 msgstr "找鬼魂，是嗎？像你這樣的好青年，做這種事可真奇怪！我倒有一個想找的鬼魂，就是我女兒的。要是能找到她的鬼魂，也許我就能想辦法把她帶回來。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "I heard Orlok's ghost story. "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
-msgid "I heard Orlok's ghost story. "
-msgstr "我聽了歐洛克的鬼故事。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I heard Orlok's ghost story. "
@@ -319,6 +323,12 @@ msgstr "鑰匙？當然有啊。我有好幾把鑰匙。你是在找哪一把嗎
 # P13 batch 2
 #. event 01 (use (talk)), after "Do you know of a key? "
 msgctxt "ask 0410"
+msgid "A key to the door in the cavern. "
+msgstr "開洞穴裡那扇門的鑰匙。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Do you know of a key? "
+msgctxt "ask 0410"
 msgid "No key in particular. "
 msgstr "沒有特定哪一把。"
 
@@ -330,13 +340,6 @@ msgstr "真是個怪問題。我只有兩把鑰匙，一把開我家門，一把
 
 # P13 batch 2
 #. event 01 (use (talk)), after "A key to the door in the cavern. "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
-msgid "A key to the door in the cavern. "
-msgstr "開洞穴裡那扇門的鑰匙。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "A key to the door in the cavern. "
 msgctxt "bark 0410:18E2"
 msgid "A door in a cavern? Why would there be a door in a cavern? "
 msgstr "洞穴裡的門？洞穴裡怎麼會有門？"
@@ -344,15 +347,20 @@ msgstr "洞穴裡的門？洞穴裡怎麼會有門？"
 # P13 batch 2
 #. event 01 (use (talk)), after "A key to the door in the cavern. "
 msgctxt "ask 0410"
-msgid "John Blowhard's treasure is there. "
-msgstr "吹牛大王約翰的寶藏就在那裡。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "It was built by trolls. "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
 msgid "It was built by trolls. "
 msgstr "是巨魔建的。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "A key to the door in the cavern. "
+msgctxt "ask 0410"
+msgid "It leads to the Pit of Death. "
+msgstr "它通往死亡深坑。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "A key to the door in the cavern. "
+msgctxt "ask 0410"
+msgid "John Blowhard's treasure is there. "
+msgstr "吹牛大王約翰的寶藏就在那裡。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "It was built by trolls. "
@@ -371,13 +379,6 @@ msgstr "你認識歐洛克？"
 msgctxt "bark 0410:1BA5"
 msgid "'Course I know him. That old windbag. His story's are nothing but bunk. "
 msgstr "當然認識。那個老牛皮大王。他的故事全是胡扯。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "It leads to the Pit of Death. "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
-msgid "It leads to the Pit of Death. "
-msgstr "它通往死亡深坑。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "It leads to the Pit of Death. "
@@ -460,15 +461,20 @@ msgstr "嗯……看來我得多進城走走了。恐怕我認不出你來。你
 # P13 batch 2
 #. event 01 (use (talk)), after "No "
 msgctxt "ask 0410"
-msgid "I'm not from Tenebrae. "
-msgstr "我不是泰尼伯瑞人。"
+msgid "Lady Mordea "
+msgstr "莫爾迪亞夫人"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "Tell me of the Sea of Rains. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "No "
 msgctxt "ask 0410"
-msgid "Tell me of the Sea of Rains. "
-msgstr "說說雨之海。"
+msgid "No one important "
+msgstr "不是什麼重要人物"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "No "
+msgctxt "ask 0410"
+msgid "I'm not from Tenebrae. "
+msgstr "我不是泰尼伯瑞人。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me of the Sea of Rains. "
@@ -490,23 +496,9 @@ msgstr "那座城為什麼不好？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Lady Mordea "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
-msgid "Lady Mordea "
-msgstr "莫爾迪亞夫人"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Lady Mordea "
 msgctxt "bark 0410:26C1"
 msgid "Lady Mordea?! Ack, then I'll have none of ye! Get out of my sight! "
 msgstr "莫爾迪亞夫人？！呸，那我才不要理你！滾出我的視線！"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "No one important "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
-msgid "No one important "
-msgstr "不是什麼重要人物"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "No one important "
@@ -559,6 +551,12 @@ msgstr "她母親抱著她到宮殿的台階前，哀求見風暴使者一面。
 # P13 batch 2
 #. event 01 (use (talk)), after "What happened to the child? "
 msgctxt "ask 0410"
+msgid "Did the child recover? "
+msgstr "那孩子康復了嗎？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What happened to the child? "
+msgctxt "ask 0410"
 msgid "filthy gutter snipe!? "
 msgstr "骯髒的街頭野孩子？！"
 
@@ -567,13 +565,6 @@ msgstr "骯髒的街頭野孩子？！"
 msgctxt "bark 0410:2DDB"
 msgid "That's what he said. Can you believe that cold hearted weasel? "
 msgstr "他就是這麼說的。你能相信那個冷血的黃鼠狼嗎？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Did the child recover? "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
-msgid "Did the child recover? "
-msgstr "那孩子康復了嗎？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Did the child recover? "
@@ -614,15 +605,14 @@ msgstr "嗯，謝謝你的好意，不過不是你的錯，用不著道歉。那
 # P13 batch 2
 #. event 01 (use (talk)), after "I am so sorry. "
 msgctxt "ask 0410"
-msgid "Several months, at least. "
-msgstr "至少幾個月。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Not long "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
 msgid "Not long "
 msgstr "不會太久"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "I am so sorry. "
+msgctxt "ask 0410"
+msgid "Several months, at least. "
+msgstr "至少幾個月。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Not long "
@@ -681,6 +671,12 @@ msgstr "啊，你又回來了。有什麼能幫你的？"
 # P13 batch 2
 #. event 01 (use (talk)), after "Hello, Kilandra. "
 msgctxt "ask 0410"
+msgid "Tell me about your daughter. "
+msgstr "說說你女兒。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Hello, Kilandra. "
+msgctxt "ask 0410"
 msgid "The weather is certainly bad. "
 msgstr "這天氣真是糟透了。"
 
@@ -689,6 +685,12 @@ msgstr "這天氣真是糟透了。"
 msgctxt "bark 0410:3879"
 msgid "Ye'r telling me! Why I haven't seen rain like this in all my days. I haven't been able to put out to sea since it started. Why, even the fish didn't expect this, or I'm sure they'd have said something to me about it. That Tempest is certainly got a lot of explainin' to do! "
 msgstr "還用你說！哎，我這輩子從沒見過這樣的雨。從開始下雨到現在，我都沒辦法出海。哎，連魚兒們都沒料到，不然牠們一定會跟我說的。那位風暴使者可得好好解釋解釋！"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "The weather is certainly bad. "
+msgctxt "ask 0410"
+msgid "The fish tell you of weather? "
+msgstr "魚會告訴你天氣？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "The weather is certainly bad. "
@@ -728,23 +730,9 @@ msgstr "戴文？那小伙子現在是風暴使者了？哎呀。他是個好孩
 
 # P13 batch 2
 #. event 01 (use (talk)), after "The fish tell you of weather? "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
-msgid "The fish tell you of weather? "
-msgstr "魚會告訴你天氣？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "The fish tell you of weather? "
 msgctxt "bark 0410:3D6D"
 msgid "Of course. They tell me lots of things. In fact, ye ought to take the time out to talk to them yer'self! "
 msgstr "當然。牠們告訴我很多事。說真的，你該抽空自己去跟牠們聊聊！"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Tell me about your daughter. "
-#. answer compared by the conversation code
-msgctxt "ask 0410"
-msgid "Tell me about your daughter. "
-msgstr "說說你女兒。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me about your daughter. "

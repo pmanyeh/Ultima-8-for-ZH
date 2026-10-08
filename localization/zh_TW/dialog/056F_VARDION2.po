@@ -20,12 +20,36 @@ msgid "I am {name}."
 msgstr ""
 
 msgctxt "ask 056F"
+msgid "It is of little import. "
+msgstr ""
+
+msgctxt "ask 056F"
 msgid "It is my business, not yours. "
 msgstr ""
 
 #. , after ""
 msgctxt "bark 056F:01E9"
 msgid "I don't care what your name is. I want to know who you are that you feel free to enter into the Sorcerer's Enclave without -my- permission. "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 056F"
+msgid "What do you want from me? "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 056F"
+msgid "I merely seek knowledge. "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 056F"
+msgid "I am a great hero! "
+msgstr ""
+
+#. , after ""
+msgctxt "ask 056F"
+msgid "I go where I will. "
 msgstr ""
 
 #. , after ""
@@ -45,12 +69,6 @@ msgid "Avatar? Strange title. Now, what I want to know is why you feel free to e
 msgstr ""
 
 #. , after "It is of little import. "
-#. answer compared by the conversation code
-msgctxt "ask 056F"
-msgid "It is of little import. "
-msgstr ""
-
-#. , after "It is of little import. "
 msgctxt "bark 056F:0460"
 msgid "That's as it may be, but I will know who you are if you wish to remain here. "
 msgstr ""
@@ -61,20 +79,8 @@ msgid "Is that so? You try my patience, and I have no patience. Begone fool! "
 msgstr ""
 
 #. , after "What do you want from me? "
-#. answer compared by the conversation code
-msgctxt "ask 056F"
-msgid "What do you want from me? "
-msgstr ""
-
-#. , after "What do you want from me? "
 msgctxt "bark 056F:05B3"
 msgid "What I want is an intelligent response, intruder. "
-msgstr ""
-
-#. , after "I merely seek knowledge. "
-#. answer compared by the conversation code
-msgctxt "ask 056F"
-msgid "I merely seek knowledge. "
 msgstr ""
 
 #. , after "I merely seek knowledge. "
@@ -85,12 +91,6 @@ msgstr ""
 #. , after "Why do I need -your- permission? "
 msgctxt "bark 056F:070C"
 msgid "Because I run this place... for all intents and purposes. "
-msgstr ""
-
-#. , after "I go where I will. "
-#. answer compared by the conversation code
-msgctxt "ask 056F"
-msgid "I go where I will. "
 msgstr ""
 
 #. , after "I go where I will. "
@@ -109,25 +109,23 @@ msgid "I did not misspeak myself. You go where I allow you or you die. It's that
 msgstr ""
 
 #. , after "I am a great hero! "
-#. answer compared by the conversation code
-msgctxt "ask 056F"
-msgid "I am a great hero! "
-msgstr ""
-
-#. , after "I am a great hero! "
 msgctxt "bark 056F:0923"
 msgid "Maybe where you come from, but here you're nothing unless I say you're something. "
 msgstr ""
 
 #. , after "I am a great hero! "
 msgctxt "ask 056F"
-msgid "This from one who is nothing. "
+msgid "Ah, I see. "
 msgstr ""
 
-#. , after "No really, I am a great hero. "
-#. answer compared by the conversation code
+#. , after "I am a great hero! "
 msgctxt "ask 056F"
 msgid "No really, I am a great hero. "
+msgstr ""
+
+#. , after "I am a great hero! "
+msgctxt "ask 056F"
+msgid "This from one who is nothing. "
 msgstr ""
 
 #. , after "No really, I am a great hero. "
@@ -142,13 +140,12 @@ msgstr ""
 
 #. , after "This from one who is nothing. "
 msgctxt "ask 056F"
-msgid "Aye, exercise would do you good. "
+msgid "You take pleasure in pain? "
 msgstr ""
 
-#. , after "Ah, I see. "
-#. answer compared by the conversation code
+#. , after "This from one who is nothing. "
 msgctxt "ask 056F"
-msgid "Ah, I see. "
+msgid "Aye, exercise would do you good. "
 msgstr ""
 
 #. , after "Ah, I see. "
@@ -163,13 +160,12 @@ msgstr ""
 
 #. , after "Aye, exercise would do you good. "
 msgctxt "ask 056F"
-msgid "If only you had a mind. "
+msgid "I mean, perhaps you should eat less. "
 msgstr ""
 
-#. , after "You take pleasure in pain? "
-#. answer compared by the conversation code
+#. , after "Aye, exercise would do you good. "
 msgctxt "ask 056F"
-msgid "You take pleasure in pain? "
+msgid "If only you had a mind. "
 msgstr ""
 
 #. , after "You take pleasure in pain? "
@@ -179,13 +175,12 @@ msgstr ""
 
 #. , after "You take pleasure in pain? "
 msgctxt "ask 056F"
-msgid "You think you are my better? "
+msgid "I didn't know you cared. "
 msgstr ""
 
-#. , after "I didn't know you cared. "
-#. answer compared by the conversation code
+#. , after "You take pleasure in pain? "
 msgctxt "ask 056F"
-msgid "I didn't know you cared. "
+msgid "You think you are my better? "
 msgstr ""
 
 #. , after "I didn't know you cared. "
@@ -199,14 +194,13 @@ msgid "It is a true fact. You are a stranger, whereas I lead these people... for
 msgstr ""
 
 #. , after "I mean, perhaps you should eat less. "
-#. answer compared by the conversation code
-msgctxt "ask 056F"
-msgid "I mean, perhaps you should eat less. "
+msgctxt "bark 056F:0EF9"
+msgid "Are you insinuating that my physique is less than ideal? I could break you like a dry twig. "
 msgstr ""
 
 #. , after "I mean, perhaps you should eat less. "
-msgctxt "bark 056F:0EF9"
-msgid "Are you insinuating that my physique is less than ideal? I could break you like a dry twig. "
+msgctxt "ask 056F"
+msgid "What physique? I see no physique. "
 msgstr ""
 
 #. , after "I mean, perhaps you should eat less. "
@@ -215,14 +209,13 @@ msgid "Your physique is ideal... for a cow. "
 msgstr ""
 
 #. , after "What physique? I see no physique. "
-#. answer compared by the conversation code
-msgctxt "ask 056F"
-msgid "What physique? I see no physique. "
+msgctxt "bark 056F:1006"
+msgid "You play the fool to make jest at my expense, but be wary. I will not take more of your insolence. "
 msgstr ""
 
 #. , after "What physique? I see no physique. "
-msgctxt "bark 056F:1006"
-msgid "You play the fool to make jest at my expense, but be wary. I will not take more of your insolence. "
+msgctxt "ask 056F"
+msgid "I am not insolent, merely honest. "
 msgstr ""
 
 #. , after "What physique? I see no physique. "
@@ -241,14 +234,13 @@ msgid "I am a forgiving man, but you go too far. I will not take more of your is
 msgstr ""
 
 #. , after "I am not insolent, merely honest. "
-#. answer compared by the conversation code
-msgctxt "ask 056F"
-msgid "I am not insolent, merely honest. "
+msgctxt "bark 056F:129C"
+msgid "Honesty can be as deadly as deceit if it is not tempered by wisdom. "
 msgstr ""
 
 #. , after "I am not insolent, merely honest. "
-msgctxt "bark 056F:129C"
-msgid "Honesty can be as deadly as deceit if it is not tempered by wisdom. "
+msgctxt "ask 056F"
+msgid "Deceit... a thing you know well? "
 msgstr ""
 
 #. , after "I am not insolent, merely honest. "
@@ -259,12 +251,6 @@ msgstr ""
 #. , after "But I've just begun to be insolent. "
 msgctxt "bark 056F:13A5"
 msgid "Your skull will make a fine flagon when I'm done with you. Prepare to meet the Lord of Flame, infidel! "
-msgstr ""
-
-#. , after "Deceit... a thing you know well? "
-#. answer compared by the conversation code
-msgctxt "ask 056F"
-msgid "Deceit... a thing you know well? "
 msgstr ""
 
 #. , after "Deceit... a thing you know well? "
@@ -688,6 +674,11 @@ msgstr ""
 
 #. , after "What do you know of wisdom? "
 msgctxt "ask 056F"
+msgid "I must learn to hold my tongue. "
+msgstr ""
+
+#. , after "What do you know of wisdom? "
+msgctxt "ask 056F"
 msgid "Forgive me. I have offended you. "
 msgstr ""
 
@@ -704,12 +695,6 @@ msgstr ""
 #. , after "What do you know of wisdom? "
 msgctxt "ask 056F"
 msgid "Never mind. "
-msgstr ""
-
-#. , after "I must learn to hold my tongue. "
-#. answer compared by the conversation code
-msgctxt "ask 056F"
-msgid "I must learn to hold my tongue. "
 msgstr ""
 
 #. , after "I must learn to hold my tongue. "

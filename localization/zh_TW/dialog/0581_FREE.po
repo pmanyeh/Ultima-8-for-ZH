@@ -11,13 +11,48 @@ msgstr ""
 "Language: zh_TW\n"
 
 msgctxt "ask 0581"
+msgid "Empower offensive spell"
+msgstr ""
+
+msgctxt "ask 0581"
+msgid "Empower defensive spell"
+msgstr ""
+
+msgctxt "ask 0581"
+msgid "Empower other spell"
+msgstr ""
+
+msgctxt "ask 0581"
+msgid "Invoke Pentagram"
+msgstr ""
+
+msgctxt "ask 0581"
 msgid "Nevermind"
 msgstr ""
 
 #. , after "Empower offensive spell"
-#. answer compared by the conversation code
 msgctxt "ask 0581"
-msgid "Empower offensive spell"
+msgid "Flame Bolt"
+msgstr ""
+
+#. , after "Empower offensive spell"
+msgctxt "ask 0581"
+msgid "Create Fire"
+msgstr ""
+
+#. , after "Empower offensive spell"
+msgctxt "ask 0581"
+msgid "Explosion "
+msgstr ""
+
+#. , after "Empower offensive spell"
+msgctxt "ask 0581"
+msgid "Summon Daemon "
+msgstr ""
+
+#. , after "Empower offensive spell"
+msgctxt "ask 0581"
+msgid "Conflagration "
 msgstr ""
 
 #. , after "Empower offensive spell"
@@ -26,69 +61,38 @@ msgid "Nevermind "
 msgstr ""
 
 #. , after "Empower defensive spell"
-#. answer compared by the conversation code
-msgctxt "ask 0581"
-msgid "Empower defensive spell"
-msgstr ""
-
-#. , after "Empower other spell"
-#. answer compared by the conversation code
-msgctxt "ask 0581"
-msgid "Empower other spell"
-msgstr ""
-
-#. , after "Invoke Pentagram" or "Nevermind"
-#. answer compared by the conversation code
-msgctxt "ask 0581"
-msgid "Invoke Pentagram"
-msgstr ""
-
-#. , after "Ignite"
-#. answer compared by the conversation code
-msgctxt "ask 0581"
-msgid "Ignite"
-msgstr ""
-
-#. , after "Extinguish"
-#. answer compared by the conversation code
-msgctxt "ask 0581"
-msgid "Extinguish"
-msgstr ""
-
-#. , after "Flash"
-#. answer compared by the conversation code
-msgctxt "ask 0581"
-msgid "Flash"
-msgstr ""
-
-#. , after "Flame Bolt"
-#. answer compared by the conversation code
-msgctxt "ask 0581"
-msgid "Flame Bolt"
-msgstr ""
-
-#. , after "Endure Heat"
-#. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "Endure Heat"
 msgstr ""
 
-#. , after "Fire Shield"
-#. answer compared by the conversation code
+#. , after "Empower defensive spell"
 msgctxt "ask 0581"
 msgid "Fire Shield"
 msgstr ""
 
-#. , after "Armor Of Flames"
-#. answer compared by the conversation code
+#. , after "Empower defensive spell"
 msgctxt "ask 0581"
 msgid "Armor Of Flames"
 msgstr ""
 
-#. , after "Create Fire"
-#. answer compared by the conversation code
+#. , after "Empower defensive spell"
 msgctxt "ask 0581"
-msgid "Create Fire"
+msgid "Banish Daemon"
+msgstr ""
+
+#. , after "Empower other spell"
+msgctxt "ask 0581"
+msgid "Ignite"
+msgstr ""
+
+#. , after "Empower other spell"
+msgctxt "ask 0581"
+msgid "Extinguish"
+msgstr ""
+
+#. , after "Empower other spell"
+msgctxt "ask 0581"
+msgid "Flash"
 msgstr ""
 
 #. , after "Explosion"
@@ -101,18 +105,6 @@ msgstr ""
 #. answer compared by the conversation code
 msgctxt "ask 0581"
 msgid "Summon Daemon"
-msgstr ""
-
-#. , after "Banish Daemon"
-#. answer compared by the conversation code
-msgctxt "ask 0581"
-msgid "Banish Daemon"
-msgstr ""
-
-#. , after "Conflagration "
-#. answer compared by the conversation code
-msgctxt "ask 0581"
-msgid "Conflagration "
 msgstr ""
 
 #. , after "In Flam!"
@@ -277,13 +269,12 @@ msgstr ""
 
 #. , after "Conflagration"
 msgctxt "ask 0581"
-msgid "No. "
+msgid "Yes. "
 msgstr ""
 
-#. , after "Yes. "
-#. answer compared by the conversation code
+#. , after "Conflagration"
 msgctxt "ask 0581"
-msgid "Yes. "
+msgid "No. "
 msgstr ""
 
 #. value of {var08}: "Excellent! " | "Good. "

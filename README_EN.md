@@ -20,12 +20,12 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 ## Translation progress
 
 <!-- progress:start -->
-**Overall (by English characters): `█████████░░░░░░░░░░░` 42.8%** (3,062 / 6,944 entries, updated 2026-10-09)
+**Overall (by English characters): `███████████░░░░░░░░░` 52.7%** (4,034 / 6,995 entries, updated 2026-10-09)
 
 | Kind | Translated / total (entries) | English characters | Progress |
 |---|---|---|---|
-| Lines and item names | 2,109 / 4,828 | 375,387 | 56.5% |
-| Conversation answers | 922 / 1,811 | 35,841 | 51.8% |
+| Lines and item names | 2,761 / 4,827 | 375,375 | 69.1% |
+| Conversation answers | 1,242 / 1,863 | 36,829 | 69.2% |
 | Books | 1 / 87 | 116,622 | 0.2% |
 | Scrolls | 1 / 22 | 7,864 | 1.0% |
 | Gravestones | 2 / 67 | 2,609 | 1.1% |
@@ -33,7 +33,7 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 | Sentence pieces | 13 / 54 | 505 | 23.8% |
 | Interface | 12 / 12 | 152 | 100.0% |
 
-Characters and scenes done: Aramina, Basket, Bentic, Beren, Obsidian coins, Devon, Execution scene, Fight, Food, Gate guard, Guard10, Guard2, Guard3, Guard4, Guard5, Guard6, Guard7, Guard8, Guard9, Guardman, Guard_ew, Jenna, Kilandra, Korick, Mordea, Morefish, Mythran, Orlok, Rhian, Shaana, Tarna, Toran, Vividos, Winchns
+Characters and scenes done: Aramina, Arcadion, Basket, Bentic, Beren, Berenhch, Child, Obsidian coins, Cyrrus, Devon, Execution scene, Fight, Food, Gate guard, Guard10, Guard2, Guard3, Guard4, Guard5, Guard6, Guard7, Guard8, Guard9, Guardman, Guard_ew, Jenna, Keyonec, Kilandra, Korick, Mordea, Morefish, Mythran, Orlok, Pent, Pesant1, Pesant2, Pesant3, Rhian, Shaana, Stellos, Tarna, Toran, Torwin, Vividos, Winchns
 <!-- progress:end -->
 
 The translation follows the story: the first batch is the opening (Devon → the execution on the docks of Tenebrae). Names and terms are kept consistent in the [authority file](localization/zh_TW/authority.tsv).

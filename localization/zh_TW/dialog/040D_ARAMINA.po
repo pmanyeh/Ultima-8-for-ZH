@@ -199,6 +199,12 @@ msgstr "有什麼能為你效勞的，陌生人？"
 # P13 batch 2
 #. event 01 (use (talk))
 msgctxt "ask 040D"
+msgid "By what are you called? "
+msgstr "該怎麼稱呼你？"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 040D"
 msgid "bye "
 msgstr "告辭"
 
@@ -211,6 +217,18 @@ msgstr "你也早安。"
 # P13 batch 2
 #. event 01 (use (talk))
 msgctxt "ask 040D"
+msgid "Have you met Devon? "
+msgstr "你見過戴文嗎？"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 040D"
+msgid "What do you do here? "
+msgstr "你在這裡做什麼？"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 040D"
 msgid "What do you know of treasure? "
 msgstr "你知道寶藏的事嗎？"
 
@@ -219,6 +237,12 @@ msgstr "你知道寶藏的事嗎？"
 msgctxt "bark 040D:147A"
 msgid "Good day to you, stranger. "
 msgstr "日安，陌生人。"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 040D"
+msgid "What is your name? "
+msgstr "你叫什麼名字？"
 
 # P13 batch 2
 #. event 01 (use (talk))
@@ -241,13 +265,6 @@ msgstr "這天氣真糟。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "By what are you called? "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
-msgid "By what are you called? "
-msgstr "該怎麼稱呼你？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "By what are you called? "
 msgctxt "bark 040D:1689"
 msgid "Forgive me for not introducing myself earlier. My name is Aramina. "
 msgstr "請原諒我沒有早點自我介紹。我叫阿拉米娜。"
@@ -257,13 +274,6 @@ msgstr "請原諒我沒有早點自我介紹。我叫阿拉米娜。"
 msgctxt "bark 040D:16B6"
 msgid "My name is Aramina. "
 msgstr "我叫阿拉米娜。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What do you do here? "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
-msgid "What do you do here? "
-msgstr "你在這裡做什麼？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What do you do here? "
@@ -310,15 +320,20 @@ msgstr "為了保住她在這裡的權力，她不擇手段。什麼都做得出
 # P13 batch 2
 #. event 01 (use (talk)), after "Why do you say she is hard? "
 msgctxt "ask 040D"
-msgid "Tell me of the seneschal. "
-msgstr "說說那位總管。"
+msgid "She wishes to preserve power? "
+msgstr "她想保住權力？"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "Murder? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Why do you say she is hard? "
 msgctxt "ask 040D"
 msgid "Murder? "
 msgstr "謀殺？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Why do you say she is hard? "
+msgctxt "ask 040D"
+msgid "Tell me of the seneschal. "
+msgstr "說說那位總管。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Murder? "
@@ -352,13 +367,6 @@ msgstr "說說薩金德。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "She wishes to preserve power? "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
-msgid "She wishes to preserve power? "
-msgstr "她想保住權力？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "She wishes to preserve power? "
 msgctxt "bark 040D:1DF2"
 msgid "The power of the Tempestry, milord. The power to control the weather. This is, indeed, great power. "
 msgstr "風暴使者之力，大人。控制天氣的力量。這確實是很強大的力量。"
@@ -378,15 +386,14 @@ msgstr "風暴術，大人？您一定聽說過吧。那是透過風暴使者的
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me of the Tempestry. "
 msgctxt "ask 040D"
-msgid "What power is transferred? "
-msgstr "傳承的是什麼力量？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What do you mean by 'bloodline'? "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
 msgid "What do you mean by 'bloodline'? "
 msgstr "你說的「血脈」是什麼意思？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Tell me of the Tempestry. "
+msgctxt "ask 040D"
+msgid "What power is transferred? "
+msgstr "傳承的是什麼力量？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What do you mean by 'bloodline'? "
@@ -445,15 +452,14 @@ msgstr "他交給我困難的差事，然後以折磨我為樂，讓我幾乎無
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me of Salkind. "
 msgctxt "ask 040D"
-msgid "How does he torment you? "
-msgstr "他怎麼折磨你？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What difficult tasks does he give you? "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
 msgid "What difficult tasks does he give you? "
 msgstr "他交給你什麼困難的差事？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Tell me of Salkind. "
+msgctxt "ask 040D"
+msgid "How does he torment you? "
+msgstr "他怎麼折磨你？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What difficult tasks does he give you? "
@@ -470,15 +476,14 @@ msgstr "也許「折磨」這個詞太重了。其實他很愛開玩笑。比如
 # P13 batch 2
 #. event 01 (use (talk)), after "How does he torment you? "
 msgctxt "ask 040D"
-msgid "no "
-msgstr "不覺得"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "yes "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
 msgid "yes "
 msgstr "覺得"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "How does he torment you? "
+msgctxt "ask 040D"
+msgid "no "
+msgstr "不覺得"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "yes "
@@ -495,15 +500,14 @@ msgstr "不覺得？真的嗎？老實說，我也不覺得好笑。可是他覺
 # P13 batch 2
 #. event 01 (use (talk)), after "no "
 msgctxt "ask 040D"
-msgid "Slap him! "
-msgstr "賞他一巴掌！"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Speak up about it! "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
 msgid "Speak up about it! "
 msgstr "把這件事說出來！"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "no "
+msgctxt "ask 040D"
+msgid "Slap him! "
+msgstr "賞他一巴掌！"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Speak up about it! "
@@ -533,15 +537,14 @@ msgstr "這都要謝謝你。是你救了戴文，對吧？"
 # P13 batch 2
 #. event 01 (use (talk)), after "It is good to see you smile, Aramina. "
 msgctxt "ask 040D"
-msgid "Well, it was nothing, really. "
-msgstr "嗯，其實沒什麼。"
+msgid "Yes, I did. "
+msgstr "是的，我救了他。"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "What is your name? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "It is good to see you smile, Aramina. "
 msgctxt "ask 040D"
-msgid "What is your name? "
-msgstr "你叫什麼名字？"
+msgid "Well, it was nothing, really. "
+msgstr "嗯，其實沒什麼。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What is your name? "
@@ -562,13 +565,6 @@ msgstr "是的，我是{name}。"
 msgctxt "bark 040D:2FFB"
 msgid "Yes, I knew it was you. Did you really save him?"
 msgstr "是啊，我就知道是你。你真的救了他嗎？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Yes, I did. " or "Well, it was nothing, really. "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
-msgid "Yes, I did. "
-msgstr "是的，我救了他。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Yes, I did. " or "Well, it was nothing, really. "
@@ -602,13 +598,6 @@ msgstr "……還有那雙眼睛。你見過那樣的眼睛嗎？好藍好藍，
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Have you met Devon? "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
-msgid "Have you met Devon? "
-msgstr "你見過戴文嗎？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Have you met Devon? "
 msgctxt "bark 040D:340F"
 msgid "Devon? Well, I know him but I've never actually met him. But I think I'd like to. "
 msgstr "戴文？嗯，我知道他，但從來沒真正見過面。不過我想我會想見見他。"
@@ -616,15 +605,14 @@ msgstr "戴文？嗯，我知道他，但從來沒真正見過面。不過我想
 # P13 batch 2
 #. event 01 (use (talk)), after "Have you met Devon? "
 msgctxt "ask 040D"
-msgid "You know of him? "
-msgstr "你知道他？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "You'd like to meet him? "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
 msgid "You'd like to meet him? "
 msgstr "你想見他？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Have you met Devon? "
+msgctxt "ask 040D"
+msgid "You know of him? "
+msgstr "你知道他？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "You'd like to meet him? "
@@ -653,15 +641,14 @@ msgstr "真的嗎？噢，他是不是跟看起來一樣好？他的笑容好迷
 # P13 batch 2
 #. event 01 (use (talk)), after "I know Devon. "
 msgctxt "ask 040D"
-msgid "I'm sorry, I can not. "
-msgstr "抱歉，我不能。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Of course I will. "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
 msgid "Of course I will. "
 msgstr "當然會。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "I know Devon. "
+msgctxt "ask 040D"
+msgid "I'm sorry, I can not. "
+msgstr "抱歉，我不能。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Of course I will. "
@@ -684,6 +671,12 @@ msgstr "匕首？嗯，我見過一把匕首。莫爾迪亞把它放在她房裡
 # P13 batch 2
 #. event 01 (use (talk)), after "I'm looking for a dagger. "
 msgctxt "ask 040D"
+msgid "Yes! "
+msgstr "要！"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "I'm looking for a dagger. "
+msgctxt "ask 040D"
 msgid "No, thank you anyway. "
 msgstr "不用了，還是謝謝你。"
 
@@ -696,15 +689,14 @@ msgstr "匕首？我對匕首一無所知。我只是夫人的僕人。"
 # P13 batch 2
 #. event 01 (use (talk)), after "I'm looking for a dagger. "
 msgctxt "ask 040D"
-msgid "Are you certain? "
-msgstr "你確定嗎？"
+msgid "I need help. "
+msgstr "我需要幫忙。"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "Yes! "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "I'm looking for a dagger. "
 msgctxt "ask 040D"
-msgid "Yes! "
-msgstr "要！"
+msgid "Are you certain? "
+msgstr "你確定嗎？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Yes! "
@@ -717,13 +709,6 @@ msgstr "哎呀，那一定是把很重要的匕首，你才會這麼激動。算
 msgctxt "bark 040D:3C34"
 msgid "Suit yourself. "
 msgstr "隨你吧。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "I need help. "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
-msgid "I need help. "
-msgstr "我需要幫忙。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I need help. "
@@ -752,6 +737,12 @@ msgstr "是的，嗯……聽我說，我不想惹上任何麻煩，大人。拜
 # P13 batch 2
 #. event 01 (use (talk)), after "Are you certain? "
 msgctxt "ask 040D"
+msgid "You won't get into trouble. "
+msgstr "你不會惹上麻煩的。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Are you certain? "
+msgctxt "ask 040D"
 msgid "Never mind. "
 msgstr "算了。"
 
@@ -760,13 +751,6 @@ msgstr "算了。"
 msgctxt "bark 040D:3FA0"
 msgid "Very well, thank you. "
 msgstr "好的，謝謝你。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "You won't get into trouble. "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
-msgid "You won't get into trouble. "
-msgstr "你不會惹上麻煩的。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "You won't get into trouble. "
@@ -789,15 +773,14 @@ msgstr "是的，而且我有鑰匙。我可以把鑰匙給你，但你得保證
 # P13 batch 2
 #. event 01 (use (talk)), after "It's in a chest? "
 msgctxt "ask 040D"
-msgid "I can't promise that. "
-msgstr "這我不能保證。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "I promise. "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
 msgid "I promise. "
 msgstr "我保證。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "It's in a chest? "
+msgctxt "ask 040D"
+msgid "I can't promise that. "
+msgstr "這我不能保證。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I promise. "
@@ -832,15 +815,14 @@ msgstr "只知道從歐洛克那裡聽來的。而他說的話誰也不能信。
 # P13 batch 2
 #. event 01 (use (talk)), after "What do you know of treasure? "
 msgctxt "ask 040D"
-msgid "What magic hammer? "
-msgstr "什麼魔法鎚？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What did Salkind say? "
-#. answer compared by the conversation code
-msgctxt "ask 040D"
 msgid "What did Salkind say? "
 msgstr "薩金德說了什麼？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What do you know of treasure? "
+msgctxt "ask 040D"
+msgid "What magic hammer? "
+msgstr "什麼魔法鎚？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What did Salkind say? "

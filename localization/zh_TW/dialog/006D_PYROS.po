@@ -209,13 +209,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "ask 006D"
-msgid "The chant is useless. "
+msgid "In Sanct An Por"
 msgstr ""
 
-#. event 01 (use (talk)), after "In Sanct An Por"
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "ask 006D"
-msgid "In Sanct An Por"
+msgid "The chant is useless. "
 msgstr ""
 
 #. event 01 (use (talk)), after "In Sanct An Por"

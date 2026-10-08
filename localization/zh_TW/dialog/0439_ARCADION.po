@@ -167,15 +167,32 @@ msgstr "你從哪裡來？"
 # P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0439"
-msgid "It does not matter. "
-msgstr "那不重要。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "I am from this place. "
-#. answer compared by the conversation code
-msgctxt "ask 0439"
 msgid "I am from this place. "
 msgstr "我就是本地人。"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 0439"
+msgid "I come from Earth. "
+msgstr "我來自地球。"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 0439"
+msgid "Britannia is my home. "
+msgstr "不列顛尼亞是我的家。"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 0439"
+msgid "Most recently, Serpent Isle. "
+msgstr "最近是從巨蛇之島來的。"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 0439"
+msgid "It does not matter. "
+msgstr "那不重要。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "I am from this place. "
@@ -185,36 +202,15 @@ msgstr "你感覺不像佩根人，不過既然你想要我這麼相信，我就
 
 # P13 batch 4
 #. event 01 (use (talk)), after "I come from Earth. "
-#. answer compared by the conversation code
-msgctxt "ask 0439"
-msgid "I come from Earth. "
-msgstr "我來自地球。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "I come from Earth. "
 msgctxt "bark 0439:0C1F"
 msgid "Earth. Yes. Quite an interesting place. I visited there long ago. It would seem that there my kind are either revered as kin to the Dark Ones or feared as unholy assistants to some evil being or other. A silly people indeed. "
 msgstr "地球。是的，相當有趣的地方。我很久以前去過。那裡的人似乎要嘛把我的同類當成黑暗者的親族來崇敬，要嘛把我們當成某個邪惡存在的邪惡幫手來畏懼。真是群愚蠢的人。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Britannia is my home. "
-#. answer compared by the conversation code
-msgctxt "ask 0439"
-msgid "Britannia is my home. "
-msgstr "不列顛尼亞是我的家。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Britannia is my home. "
 msgctxt "bark 0439:0CB6"
 msgid "Britannia? I have never heard of such a place. It must be a truly out of the way realm. "
 msgstr "不列顛尼亞？我從沒聽過這個地方。那一定是個非常偏遠的國度。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Most recently, Serpent Isle. "
-#. answer compared by the conversation code
-msgctxt "ask 0439"
-msgid "Most recently, Serpent Isle. "
-msgstr "最近是從巨蛇之島來的。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Most recently, Serpent Isle. "
@@ -237,15 +233,14 @@ msgstr "我就把你的沉默當作回答。你想保持匿名。可以接受。
 # P13 batch 4
 #. event 01 (use (talk)), after "It does not matter. "
 msgctxt "ask 0439"
-msgid "We have met before. "
-msgstr "我們以前見過。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Don't you know me? "
-#. answer compared by the conversation code
-msgctxt "ask 0439"
 msgid "Don't you know me? "
 msgstr "你不認得我了嗎？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "It does not matter. "
+msgctxt "ask 0439"
+msgid "We have met before. "
+msgstr "我們以前見過。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "We have met before. "
@@ -256,15 +251,14 @@ msgstr "不，我們沒見過。至少我不認為我們見過。"
 # P13 batch 4
 #. event 01 (use (talk)), after "We have met before. "
 msgctxt "ask 0439"
-msgid "I crafted the Shade Blade for you. "
-msgstr "我為你打造過暗影之刃。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "You were bound to Erethian. "
-#. answer compared by the conversation code
-msgctxt "ask 0439"
 msgid "You were bound to Erethian. "
 msgstr "你曾受艾雷西安束縛。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "We have met before. "
+msgctxt "ask 0439"
+msgid "I crafted the Shade Blade for you. "
+msgstr "我為你打造過暗影之刃。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "You were bound to Erethian. "
@@ -366,6 +360,24 @@ msgstr "關於它，你想知道什麼？"
 # P13 batch 4
 #. event 01 (use (talk)), after "Tell me of the Obsidian Fortress. "
 msgctxt "ask 0439"
+msgid "Are you one of its guardians? "
+msgstr "你是它的守衛之一嗎？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Tell me of the Obsidian Fortress. "
+msgctxt "ask 0439"
+msgid "How was it created? "
+msgstr "它是怎麼建成的？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Tell me of the Obsidian Fortress. "
+msgctxt "ask 0439"
+msgid "What are the Trials? "
+msgstr "試煉是什麼？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Tell me of the Obsidian Fortress. "
+msgctxt "ask 0439"
 msgid "Where is Malchir's inner sanctum? "
 msgstr "馬爾奇爾的內殿在哪裡？"
 
@@ -432,36 +444,15 @@ msgstr "我……負責「迎接」那些想挑戰黑曜石要塞試煉的人。
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Are you one of its guardians? "
-#. answer compared by the conversation code
-msgctxt "ask 0439"
-msgid "Are you one of its guardians? "
-msgstr "你是它的守衛之一嗎？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Are you one of its guardians? "
 msgctxt "bark 0439:1CBD"
 msgid "Not really. I am merely a test. As you can see by the bones strewn about... many have not passed this test. "
 msgstr "不算是。我只是一項考驗。你看四處散落的骨頭就知道……很多人沒通過這項考驗。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "How was it created? "
-#. answer compared by the conversation code
-msgctxt "ask 0439"
-msgid "How was it created? "
-msgstr "它是怎麼建成的？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "How was it created? "
 msgctxt "bark 0439:1F9B"
 msgid "The first Sorcerers were revered by the people, but not so later generations. Eventually, fear and mistrust arose on both sides. The Master Sorcerer called upon the might of the Pyros who reluctantly came to his aid. The Lord of Flame in turn called upon his comrade, Lithos, and together they thrust the living rock up through a lake of lava that had formed in Daemon's Crag. Pyros then poured forth the excess lava into a river that blocked the path to the Sorcerer's Enclave. The cavern through which it flows, aptly called the Mouth of the Daemon, is the first obstacle for those who would disturb the mages of Sorcerer's Enclave."
 msgstr "最早的巫師受到人民崇敬，後來的幾代卻不然。最後，雙方都生出了恐懼與猜疑。大巫師召喚派羅斯的力量，派羅斯勉強前來相助。烈焰之主接著召喚他的同伴利索斯，兩者合力讓活岩從惡魔崖中形成的熔岩湖裡拔地而起。接著，派羅斯把多餘的熔岩傾瀉成一條河，擋住了通往巫師聚落的路。熔岩流經的洞穴被恰如其分地稱為惡魔之口，是想要打擾巫師聚落法師們的人所面臨的第一道障礙。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "What are the Trials? "
-#. answer compared by the conversation code
-msgctxt "ask 0439"
-msgid "What are the Trials? "
-msgstr "試煉是什麼？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "What are the Trials? "

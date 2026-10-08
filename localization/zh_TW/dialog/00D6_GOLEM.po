@@ -17,13 +17,42 @@ msgstr ""
 
 #. event 01 (use (talk))
 msgctxt "ask 00D6"
-msgid "Nothing "
+msgid "Follow "
 msgstr ""
 
-#. event 01 (use (talk)), after "Move "
-#. answer compared by the conversation code
+#. event 01 (use (talk))
+msgctxt "ask 00D6"
+msgid "Stop "
+msgstr ""
+
+#. event 01 (use (talk))
 msgctxt "ask 00D6"
 msgid "Move "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 00D6"
+msgid "Open "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 00D6"
+msgid "Attack "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 00D6"
+msgid "Leave "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 00D6"
+msgid "Grunt "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 00D6"
+msgid "Nothing "
 msgstr ""
 
 #. event 01 (use (talk)), after "Move "
@@ -31,43 +60,7 @@ msgctxt "bark 00D6:01DC"
 msgid "Ugh "
 msgstr ""
 
-#. event 01 (use (talk)), after "Open "
-#. answer compared by the conversation code
-msgctxt "ask 00D6"
-msgid "Open "
-msgstr ""
-
-#. event 01 (use (talk)), after "Follow "
-#. answer compared by the conversation code
-msgctxt "ask 00D6"
-msgid "Follow "
-msgstr ""
-
-#. event 01 (use (talk)), after "Attack "
-#. answer compared by the conversation code
-msgctxt "ask 00D6"
-msgid "Attack "
-msgstr ""
-
-#. event 01 (use (talk)), after "Leave "
-#. answer compared by the conversation code
-msgctxt "ask 00D6"
-msgid "Leave "
-msgstr ""
-
-#. event 01 (use (talk)), after "Grunt "
-#. answer compared by the conversation code
-msgctxt "ask 00D6"
-msgid "Grunt "
-msgstr ""
-
 #. event 01 (use (talk)), after "Grunt "
 msgctxt "bark 00D6:0397"
 msgid "Ugh "
-msgstr ""
-
-#. event 01 (use (talk)), after "Stop "
-#. answer compared by the conversation code
-msgctxt "ask 00D6"
-msgid "Stop "
 msgstr ""

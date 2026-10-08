@@ -67,15 +67,26 @@ msgstr "你想幹嘛，陌生人？"
 # P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0430"
-msgid "Bye "
-msgstr "再見"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Who are you? "
-#. answer compared by the conversation code
-msgctxt "ask 0430"
 msgid "Who are you? "
 msgstr "你是誰？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 0430"
+msgid "What is your duty? "
+msgstr "你的職責是什麼？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 0430"
+msgid "Where am I? "
+msgstr "這是哪裡？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 0430"
+msgid "Bye "
+msgstr "再見"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
@@ -91,13 +102,6 @@ msgstr "只有沒腦子的笨蛋，才會逢人就問名字。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "What is your duty? "
-#. answer compared by the conversation code
-msgctxt "ask 0430"
-msgid "What is your duty? "
-msgstr "你的職責是什麼？"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "What is your duty? "
 msgctxt "bark 0430:05DC"
 msgid "I watch over the new Tempest, Devon, of course. "
 msgstr "我當然是守護新的風暴使者戴文。"
@@ -107,13 +111,6 @@ msgstr "我當然是守護新的風暴使者戴文。"
 msgctxt "bark 0430:0622"
 msgid "I watch over her Ladyship Mordea, of course! "
 msgstr "我當然是守護莫爾迪亞夫人！"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Where am I? "
-#. answer compared by the conversation code
-msgctxt "ask 0430"
-msgid "Where am I? "
-msgstr "這是哪裡？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Where am I? "

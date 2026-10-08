@@ -52,13 +52,12 @@ msgstr ""
 
 #. event 01 (use (talk))
 msgctxt "ask 025F"
-msgid "Try to take me! "
+msgid "I'll go quietly. "
 msgstr ""
 
-#. event 01 (use (talk)), after "I'll go quietly. "
-#. answer compared by the conversation code
+#. event 01 (use (talk))
 msgctxt "ask 025F"
-msgid "I'll go quietly. "
+msgid "Try to take me! "
 msgstr ""
 
 #. event 01 (use (talk)), after "I'll go quietly. "

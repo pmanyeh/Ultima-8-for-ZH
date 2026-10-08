@@ -157,6 +157,11 @@ msgstr ""
 
 #. event 01 (use (talk))
 msgctxt "ask 040F"
+msgid "I -do- apologize, my lady. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 040F"
 msgid "Don't turn away from me, woman! "
 msgstr ""
 
@@ -167,13 +172,17 @@ msgstr ""
 
 #. event 01 (use (talk))
 msgctxt "ask 040F"
-msgid "Goodbye. "
+msgid "Hello, stranger. "
 msgstr ""
 
-#. event 01 (use (talk)), after "Hello, stranger. "
-#. answer compared by the conversation code
+#. event 01 (use (talk))
 msgctxt "ask 040F"
-msgid "Hello, stranger. "
+msgid "I hope I'm not intruding. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 040F"
+msgid "Goodbye. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Hello, stranger. "
@@ -183,13 +192,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Hello, stranger. "
 msgctxt "ask 040F"
-msgid "Quiet, woman! "
+msgid "I apologize, m'lady. "
 msgstr ""
 
-#. event 01 (use (talk)), after "I apologize, m'lady. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Hello, stranger. "
 msgctxt "ask 040F"
-msgid "I apologize, m'lady. "
+msgid "Quiet, woman! "
 msgstr ""
 
 #. event 01 (use (talk)), after "I apologize, m'lady. "
@@ -221,17 +229,22 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Don't turn away from me, woman! "
 msgctxt "ask 040F"
+msgid "So, you don't see many strangers? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Don't turn away from me, woman! "
+msgctxt "ask 040F"
+msgid "Corinth? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Don't turn away from me, woman! "
+msgctxt "ask 040F"
 msgid "What do you do? "
 msgstr ""
 
 #. event 01 (use (talk)), after "I would rather not say. "
 msgctxt "bark 040F:15BE"
 msgid "Very well, I shall not pry. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I would rather not say. "
-msgctxt "ask 040F"
-msgid "Corinth? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Quiet, woman! "
@@ -246,6 +259,11 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Corinth? "
 msgctxt "ask 040F"
+msgid "Father "
+msgstr ""
+
+#. event 01 (use (talk)), after "Corinth? "
+msgctxt "ask 040F"
 msgid "Mother "
 msgstr ""
 
@@ -255,14 +273,18 @@ msgid "Did you not hear me? I said that my mother is dead. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Father "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "Father "
+msgctxt "bark 040F:1880"
+msgid "Lleu was my father but he is dead now. Lleu was a fine herdsman but his devotion to his herd cost him dearly. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Father "
-msgctxt "bark 040F:1880"
-msgid "Lleu was my father but he is dead now. Lleu was a fine herdsman but his devotion to his herd cost him dearly. "
+msgctxt "ask 040F"
+msgid "He was a herdsman? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Father "
+msgctxt "ask 040F"
+msgid "Cost him? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Father "
@@ -277,13 +299,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Lleu "
 msgctxt "ask 040F"
-msgid "old name "
+msgid "Suited him? "
 msgstr ""
 
-#. event 01 (use (talk)), after "Suited him? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Lleu "
 msgctxt "ask 040F"
-msgid "Suited him? "
+msgid "old name "
 msgstr ""
 
 #. event 01 (use (talk)), after "Suited him? "
@@ -304,12 +325,6 @@ msgstr ""
 #. event 01 (use (talk)), after "Old values, huh? "
 msgctxt "ask 040F"
 msgid "our people's values "
-msgstr ""
-
-#. event 01 (use (talk)), after "I -do- apologize, my lady. "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "I -do- apologize, my lady. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I -do- apologize, my lady. "
@@ -363,31 +378,13 @@ msgid "Her Ladyship has given us peace and order. I am happy with that. "
 msgstr ""
 
 #. event 01 (use (talk)), after "He was a herdsman? "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "He was a herdsman? "
-msgstr ""
-
-#. event 01 (use (talk)), after "He was a herdsman? "
 msgctxt "bark 040F:2164"
 msgid "Lleu was a herdsman from the time that he was a boy. It was all that he knew. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Cost him? "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "Cost him? "
-msgstr ""
-
-#. event 01 (use (talk)), after "Cost him? "
 msgctxt "bark 040F:21FB"
 msgid "Yes, long ago Lleu's herd was attacked by a kith. The kith killed Lleu. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I hope I'm not intruding. "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "I hope I'm not intruding. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I hope I'm not intruding. "
@@ -421,8 +418,7 @@ msgctxt "bark 040F:253C"
 msgid "Very well, I am sure that you have your reasons for your secrecy. "
 msgstr ""
 
-#. event 01 (use (talk)), after "You think I'm a warrior? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "I prefer not to say. "
 msgctxt "ask 040F"
 msgid "You think I'm a warrior? "
 msgstr ""
@@ -439,18 +435,22 @@ msgstr ""
 
 #. event 01 (use (talk)), after "What do you do? "
 msgctxt "ask 040F"
-msgid "Your son? "
+msgid "Many things "
 msgstr ""
 
-#. event 01 (use (talk)), after "Many things "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "What do you do? "
 msgctxt "ask 040F"
-msgid "Many things "
+msgid "Your son? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Many things "
 msgctxt "bark 040F:2811"
 msgid "I take care of my husband, feed him, stitch his clothes and such. I also keep the house and help tend the torax from time to time. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Many things "
+msgctxt "ask 040F"
+msgid "Your husband? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Many things "
@@ -465,13 +465,17 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Your son? "
 msgctxt "ask 040F"
-msgid "Simple folk. "
+msgid "His father? "
 msgstr ""
 
-#. event 01 (use (talk)), after "His father? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Your son? "
 msgctxt "ask 040F"
-msgid "His father? "
+msgid "Great things? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Your son? "
+msgctxt "ask 040F"
+msgid "Simple folk. "
 msgstr ""
 
 #. event 01 (use (talk)), after "His father? "
@@ -496,13 +500,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "You've been here for generations? "
 msgctxt "ask 040F"
-msgid "What happened to the others? "
+msgid "Legacy? "
 msgstr ""
 
-#. event 01 (use (talk)), after "Legacy? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "You've been here for generations? "
 msgctxt "ask 040F"
-msgid "Legacy? "
+msgid "What happened to the others? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Legacy? "
@@ -552,6 +555,11 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Where did the people move? "
 msgctxt "ask 040F"
+msgid "This was before your time? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Where did the people move? "
+msgctxt "ask 040F"
 msgid "The city? You're kidding! "
 msgstr ""
 
@@ -561,14 +569,13 @@ msgid "No, I am quite serious. The city, like the valley has suffered much and m
 msgstr ""
 
 #. event 01 (use (talk)), after "This was before your time? "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "This was before your time? "
+msgctxt "bark 040F:3323"
+msgid "Oh yes, it was long ago. I have only heard stories. By the time I was born, there were only two families here in the valley, mine and Gwillim's. "
 msgstr ""
 
 #. event 01 (use (talk)), after "This was before your time? "
-msgctxt "bark 040F:3323"
-msgid "Oh yes, it was long ago. I have only heard stories. By the time I was born, there were only two families here in the valley, mine and Gwillim's. "
+msgctxt "ask 040F"
+msgid "What about when you go? "
 msgstr ""
 
 #. event 01 (use (talk)), after "This was before your time? "
@@ -593,13 +600,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Cursed? By a ghost, perhaps? "
 msgctxt "ask 040F"
-msgid "Can you tell me of the ghost? "
+msgid "I have heard tales. "
 msgstr ""
 
-#. event 01 (use (talk)), after "What about when you go? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Cursed? By a ghost, perhaps? "
 msgctxt "ask 040F"
-msgid "What about when you go? "
+msgid "Can you tell me of the ghost? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What about when you go? "
@@ -609,13 +615,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "What about when you go? "
 msgctxt "ask 040F"
-msgid "You blame -yourself-? "
+msgid "That is sad, indeed. "
 msgstr ""
 
-#. event 01 (use (talk)), after "That is sad, indeed. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "What about when you go? "
 msgctxt "ask 040F"
-msgid "That is sad, indeed. "
+msgid "You blame -yourself-? "
 msgstr ""
 
 #. event 01 (use (talk)), after "That is sad, indeed. "
@@ -630,13 +635,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "You blame -yourself-? "
 msgctxt "ask 040F"
-msgid "How could you blame yourself? "
+msgid "This is no trouble. "
 msgstr ""
 
-#. event 01 (use (talk)), after "This is no trouble. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "You blame -yourself-? "
 msgctxt "ask 040F"
-msgid "This is no trouble. "
+msgid "How could you blame yourself? "
 msgstr ""
 
 #. event 01 (use (talk)), after "This is no trouble. "
@@ -647,6 +651,11 @@ msgstr ""
 #. event 01 (use (talk)), after "How could you blame yourself? "
 msgctxt "bark 040F:3990"
 msgid "Well, there was an accident many years ago... You see, Cyrrus was not our only child. Oh dear, I can not believe that I am telling you all of this. "
+msgstr ""
+
+#. event 01 (use (talk)), after "How could you blame yourself? "
+msgctxt "ask 040F"
+msgid "It's ok, go on. "
 msgstr ""
 
 #. event 01 (use (talk)), after "How could you blame yourself? "
@@ -665,12 +674,6 @@ msgid "How tragic! "
 msgstr ""
 
 #. event 01 (use (talk)), after "It's ok, go on. "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "It's ok, go on. "
-msgstr ""
-
-#. event 01 (use (talk)), after "It's ok, go on. "
 msgctxt "bark 040F:3CEE"
 msgid "Yes, I shall. You see, when Cyrrus was still young, I gave birth to a baby girl. One day while the baby was still very young, I went into the barn to fetch a pale. I was only gone but for a moment, but while I was out of the house, a kith did come into the house and devour my baby. "
 msgstr ""
@@ -678,12 +681,6 @@ msgstr ""
 #. event 01 (use (talk)), after "How tragic! "
 msgctxt "bark 040F:3E4A"
 msgid "For years I have carried the shame and guilt of knowing that I was responsible for my baby's death. Gwillim has always been very kind and supportive. He tried to tell me that it was not my fault, yet always will have to live with this sadness. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I have heard tales. "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "I have heard tales. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I have heard tales. "
@@ -698,13 +695,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Can you tell me of the ghost? "
 msgctxt "ask 040F"
-msgid "Why is he reluctant to talk? "
+msgid "Gwillim's seen the ghost? "
 msgstr ""
 
-#. event 01 (use (talk)), after "Gwillim's seen the ghost? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Can you tell me of the ghost? "
 msgctxt "ask 040F"
-msgid "Gwillim's seen the ghost? "
+msgid "Why is he reluctant to talk? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Gwillim's seen the ghost? "
@@ -714,18 +710,22 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Gwillim's seen the ghost? "
 msgctxt "ask 040F"
-msgid "They both saw it? "
+msgid "What about the second time? "
 msgstr ""
 
-#. event 01 (use (talk)), after "What about the second time? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Gwillim's seen the ghost? "
 msgctxt "ask 040F"
-msgid "What about the second time? "
+msgid "They both saw it? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What about the second time? "
 msgctxt "bark 040F:42D2"
 msgid "The second time, the ghost was actually on the ground, in front of Gwillim. He said that the ghost appeared to dance around him, as though it was mocking Gwillim. He also said that it looked most unusual for a ghost. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What about the second time? "
+msgctxt "ask 040F"
+msgid "Where was it the second time? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What about the second time? "
@@ -756,12 +756,6 @@ msgstr ""
 #. event 01 (use (talk)), after "How is it different? "
 msgctxt "bark 040F:47E0"
 msgid "Well, most ghosts that people have seen are vaporous in appearance. According to Gwillim, this ghost here is invisible except for the armor which it bears. It is most unusual. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Where was it the second time? "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "Where was it the second time? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Where was it the second time? "
@@ -810,12 +804,6 @@ msgid "Not many people hunt them. But Gwillim is very good at it. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Your husband? "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "Your husband? "
-msgstr ""
-
-#. event 01 (use (talk)), after "Your husband? "
 msgctxt "bark 040F:4D47"
 msgid "Gwillim is my husband. He is a strong and goodly man. "
 msgstr ""
@@ -851,14 +839,13 @@ msgid "My father taught me to sacrifice to Hydros. All of my family has sacrific
 msgstr ""
 
 #. event 01 (use (talk)), after "Great things? "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "Great things? "
+msgctxt "bark 040F:50DE"
+msgid "Yes! Cyrrus has gone to study with the Theurgists. He will help many people as a Theurgist. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Great things? "
-msgctxt "bark 040F:50DE"
-msgid "Yes! Cyrrus has gone to study with the Theurgists. He will help many people as a Theurgist. "
+msgctxt "ask 040F"
+msgid "Theurgist "
 msgstr ""
 
 #. event 01 (use (talk)), after "Great things? "
@@ -867,14 +854,13 @@ msgid "Help people? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Theurgist "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "Theurgist "
+msgctxt "bark 040F:51BD"
+msgid "The Theurgists are the disciples of the Air Titan. Although Gwillim sacrifices to Lithos, I believe that Cyrrus was born to be a Theurgist. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Theurgist "
-msgctxt "bark 040F:51BD"
-msgid "The Theurgists are the disciples of the Air Titan. Although Gwillim sacrifices to Lithos, I believe that Cyrrus was born to be a Theurgist. "
+msgctxt "ask 040F"
+msgid "But what of Hydros? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Theurgist "
@@ -885,12 +871,6 @@ msgstr ""
 #. event 01 (use (talk)), after "Help people? "
 msgctxt "bark 040F:52A4"
 msgid "The Theurgists specialize in healing the sick. Some say that they can even bring back the dead. "
-msgstr ""
-
-#. event 01 (use (talk)), after "But what of Hydros? "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "But what of Hydros? "
 msgstr ""
 
 #. event 01 (use (talk)), after "But what of Hydros? "
@@ -920,6 +900,11 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Born to be a Theurgist? "
 msgctxt "ask 040F"
+msgid "Even animals? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Born to be a Theurgist? "
+msgctxt "ask 040F"
 msgid "Not at the farm "
 msgstr ""
 
@@ -935,18 +920,17 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Not at the farm "
 msgctxt "ask 040F"
+msgid "His future? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Not at the farm "
+msgctxt "ask 040F"
 msgid "His father's tradition. "
 msgstr ""
 
 #. event 01 (use (talk)), after "His father's tradition. "
 msgctxt "bark 040F:599B"
 msgid "All of Gwillim's kin have always been herdsmen. Gwillim takes great pride in working the land. As Cyrrus is our only son, Gwillim expected Cyrrus to carry on the family's traditions. "
-msgstr ""
-
-#. event 01 (use (talk)), after "So, you don't see many strangers? "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "So, you don't see many strangers? "
 msgstr ""
 
 #. event 01 (use (talk)), after "So, you don't see many strangers? "
@@ -975,20 +959,8 @@ msgid "Oh I don't not know them all. People claim that he knows magic. Some peop
 msgstr ""
 
 #. event 01 (use (talk)), after "His future? "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "His future? "
-msgstr ""
-
-#. event 01 (use (talk)), after "His future? "
 msgctxt "bark 040F:5E09"
 msgid "I knew that if Cyrrus became a farmer, he would be poor for the rest of life. Gwillim does not know that I convinced Cyrrus to seek the Theurgists, but I had to, for Cyrrus' sake. Now he can lead a life far richer than that of a farm man. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Even animals? "
-#. answer compared by the conversation code
-msgctxt "ask 040F"
-msgid "Even animals? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Even animals? "

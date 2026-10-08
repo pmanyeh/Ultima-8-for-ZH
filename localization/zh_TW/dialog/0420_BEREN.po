@@ -122,15 +122,14 @@ msgstr "我叫{name}。"
 # P13 batch 3
 #. event 01 (use (talk))
 msgctxt "ask 0420"
-msgid "I cannot tell you. "
-msgstr "我不能告訴你。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "It does not matter. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
 msgid "It does not matter. "
 msgstr "那不重要。"
+
+# P13 batch 3
+#. event 01 (use (talk))
+msgctxt "ask 0420"
+msgid "I cannot tell you. "
+msgstr "我不能告訴你。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "I cannot tell you. "
@@ -509,6 +508,12 @@ msgstr "往後若有我能幫忙的地方，儘管開口。"
 # P13 batch 3
 #. event 01 (use (talk)), after "I cannot tell you. "
 msgctxt "ask 0420"
+msgid "I am a stranger here, please forgive me. "
+msgstr "我初來乍到，請原諒我。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I cannot tell you. "
+msgctxt "ask 0420"
 msgid "Did I say something wrong? "
 msgstr "我說錯什麼了嗎？"
 
@@ -532,13 +537,6 @@ msgstr "算了。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "I am a stranger here, please forgive me. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "I am a stranger here, please forgive me. "
-msgstr "我初來乍到，請原諒我。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "I am a stranger here, please forgive me. "
 msgctxt "bark 0420:217B"
 msgid "Forgiven. What can I help you with? "
 msgstr "原諒你了。有什麼我能幫忙的？"
@@ -558,6 +556,18 @@ msgstr "「我」？連讓「你」鄙視都不配？我想從來沒有人這樣
 # P13 batch 3
 #. event 01 (use (talk)), after "You are beneath my contempt. "
 msgctxt "ask 0420"
+msgid "Get used to being spoken to that way. "
+msgstr "習慣一下別人這樣跟你說話吧。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "You are beneath my contempt. "
+msgctxt "ask 0420"
+msgid "I understand no such thing. "
+msgstr "我才不明白。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "You are beneath my contempt. "
+msgctxt "ask 0420"
 msgid "I'm sorry, I really meant no offense. "
 msgstr "對不起，我真的沒有冒犯的意思。"
 
@@ -569,23 +579,9 @@ msgstr "我要是想聽你的，我會把它從你身上燒出來！你要是再
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Get used to being spoken to that way. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Get used to being spoken to that way. "
-msgstr "習慣一下別人這樣跟你說話吧。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Get used to being spoken to that way. "
 msgctxt "bark 0420:250E"
 msgid "No, I don't think I ever will. And you won't get used to speaking to me that way, or any way, for that matter.* Now, be so kind as to die! "
 msgstr "不，我想我永遠不會習慣。而你也沒機會習慣這樣跟我說話了，或者說，不管怎樣都沒機會了。*現在，勞駕你去死吧！"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "I understand no such thing. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "I understand no such thing. "
-msgstr "我才不明白。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "I understand no such thing. "
@@ -602,15 +598,26 @@ msgstr "真可惜。我真的為你感到遺憾，因為我不能讓你的行為
 # P13 batch 3
 #. event 01 (use (talk)), after "I'm sorry, I really meant no offense. "
 msgctxt "ask 0420"
-msgid "You pitiful excuse for a mage! Kneel before me. "
-msgstr "你這可悲的冒牌法師！在我面前跪下。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "No, I guess not. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
 msgid "No, I guess not. "
 msgstr "不，我想不能。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I'm sorry, I really meant no offense. "
+msgctxt "ask 0420"
+msgid "Yes! We can! "
+msgstr "能！我們能！"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I'm sorry, I really meant no offense. "
+msgctxt "ask 0420"
+msgid "What crime? You -are- beneath my contempt. "
+msgstr "什麼罪？你「確實」連讓我鄙視都不配。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I'm sorry, I really meant no offense. "
+msgctxt "ask 0420"
+msgid "You pitiful excuse for a mage! Kneel before me. "
+msgstr "你這可悲的冒牌法師！在我面前跪下。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "No, I guess not. "
@@ -621,28 +628,26 @@ msgstr "很高興看到你這麼能接受。以你來說，倒是理智得出奇
 # P13 batch 3
 #. event 01 (use (talk)), after "No, I guess not. "
 msgctxt "ask 0420"
-msgid "Thank you. It is sad to have to die, though. "
-msgstr "謝謝你。不過不得不死，還是挺令人難過的。"
+msgid "No. I really am. "
+msgstr "不，我是說真的。"
 
 # P13 batch 3
-#. event 01 (use (talk)), after "Yes! We can! "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "No, I guess not. "
 msgctxt "ask 0420"
-msgid "Yes! We can! "
-msgstr "能！我們能！"
+msgid "Must we really battle? "
+msgstr "我們真的非打不可嗎？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "No, I guess not. "
+msgctxt "ask 0420"
+msgid "Thank you. It is sad to have to die, though. "
+msgstr "謝謝你。不過不得不死，還是挺令人難過的。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Yes! We can! "
 msgctxt "bark 0420:2968"
 msgid "No, I'm afraid we can't. And stop simpering like that. I just can't tolerate weakness in others.*Now then, It's time for your sad life to end... Goodbye. "
 msgstr "不，恐怕不能。別再那樣傻笑了，我就是受不了別人軟弱。*好了，你那可悲的一生該結束了……永別了。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "What crime? You -are- beneath my contempt. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "What crime? You -are- beneath my contempt. "
-msgstr "什麼罪？你「確實」連讓我鄙視都不配。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "What crime? You -are- beneath my contempt. "
@@ -658,23 +663,9 @@ msgstr "好，夠了。「你」死定了！"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "No. I really am. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "No. I really am. "
-msgstr "不，我是說真的。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "No. I really am. "
 msgctxt "bark 0420:2B20"
 msgid "I am also glad to see that you face your death with some humor. I for one would not. Prepare yourself for battle! "
 msgstr "我也很高興看到你能帶點幽默面對死亡。換作是我就不會。準備戰鬥吧！"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Must we really battle? "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Must we really battle? "
-msgstr "我們真的非打不可嗎？"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Must we really battle? "
@@ -691,21 +682,32 @@ msgstr "也許你不會死……雖然不太可能，但你也有可能打敗我
 # P13 batch 3
 #. event 01 (use (talk)), after "Thank you. It is sad to have to die, though. "
 msgctxt "ask 0420"
-msgid "Yes, I suppose your're right! "
-msgstr "是啊，我想你說得對！"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "No, you are a Sorcerer. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
 msgid "No, you are a Sorcerer. "
 msgstr "不，你是巫師。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Thank you. It is sad to have to die, though. "
+msgctxt "ask 0420"
+msgid "Yes, I suppose your're right! "
+msgstr "是啊，我想你說得對！"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "No, you are a Sorcerer. "
 msgctxt "bark 0420:2D05"
 msgid "I suppose you're right. Well, that's no challenge. What do you want of me? "
 msgstr "我想你說得對。嗯，那就沒什麼挑戰性了。你找我有什麼事？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "No, you are a Sorcerer. "
+msgctxt "ask 0420"
+msgid "Aren't you going to kill me? "
+msgstr "你不殺我了嗎？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "No, you are a Sorcerer. "
+msgctxt "ask 0420"
+msgid "Umm... Nothing right now. "
+msgstr "呃……現在沒什麼事。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "No, you are a Sorcerer. "
@@ -718,13 +720,6 @@ msgstr "等等，我還以為我們要打一場！"
 msgctxt "bark 0420:2E14"
 msgid "I have a habit of doing that. Being right I mean. Anyway, What did you want, anyway? "
 msgstr "我習慣如此，我是說，習慣說得對。總之，你到底要做什麼？"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Aren't you going to kill me? "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Aren't you going to kill me? "
-msgstr "你不殺我了嗎？"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Aren't you going to kill me? "
@@ -755,13 +750,6 @@ msgstr "我不喜歡被忽視，而如果你不是在忽視我，那就是腦袋
 msgctxt "bark 0420:3113"
 msgid "So we were. Have at you! "
 msgstr "確實是。看招！"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Umm... Nothing right now. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Umm... Nothing right now. "
-msgstr "呃……現在沒什麼事。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Nevermind."
@@ -857,6 +845,18 @@ msgstr "那麼，我們說到哪了？從頭開始吧。你為什麼會在這裡
 # P13 batch 3
 #. event 01 (use (talk)), after "Nevermind."
 msgctxt "ask 0420"
+msgid "Why are any of us here? "
+msgstr "我們每個人又為什麼在這裡？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "ask 0420"
+msgid "Because I wish to be! "
+msgstr "因為我想在這裡！"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Nevermind."
+msgctxt "ask 0420"
 msgid "I have been banished here. "
 msgstr "我是被放逐到這裡的。"
 
@@ -888,6 +888,12 @@ msgstr "我叫{name}。"
 # P13 batch 3
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "ask 0420"
+msgid "Call me what you like. "
+msgstr "隨你怎麼叫。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "ask 0420"
 msgid "Nevermind that. What do you do? "
 msgstr "那不重要。你是做什麼的？"
 
@@ -897,13 +903,6 @@ msgstr "那不重要。你是做什麼的？"
 msgctxt "bark 0420:3C39"
 msgid "Well met, {name}. What do you want?"
 msgstr "幸會，{name}。你要做什麼？"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Call me what you like. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Call me what you like. "
-msgstr "隨你怎麼叫。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Call me what you like. "
@@ -957,6 +956,12 @@ msgstr "沒什麼原因。我是{name}。"
 # P13 batch 3
 #. event 01 (use (talk)), after "How are you? "
 msgctxt "ask 0420"
+msgid "That is my own affair. "
+msgstr "那是我自己的事。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "How are you? "
+msgctxt "ask 0420"
 msgid "I don't talk to nosy strangers. "
 msgstr "我不跟好事的陌生人說話。"
 
@@ -965,13 +970,6 @@ msgstr "我不跟好事的陌生人說話。"
 msgctxt "bark 0420:4083"
 msgid "Thank you. I appreciate your candor, even if it was not offered initially. "
 msgstr "謝謝你。我很欣賞你的坦率，雖然一開始你並不坦率。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "That is my own affair. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "That is my own affair. "
-msgstr "那是我自己的事。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "That is my own affair. "
@@ -1005,23 +1003,9 @@ msgstr "我真的有很多心事。我們之間沒什麼事好談，我看不出
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Why are any of us here? "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Why are any of us here? "
-msgstr "我們每個人又為什麼在這裡？"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Why are any of us here? "
 msgctxt "bark 0420:4353"
 msgid "Please. There is no reason for philosophizing. Just answer my question. "
 msgstr "拜託，用不著談什麼哲學。回答我的問題就好。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Because I wish to be! "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Because I wish to be! "
-msgstr "因為我想在這裡！"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Because I wish to be! "
@@ -1038,15 +1022,20 @@ msgstr "噢，是嗎？是誰把你放逐到這裡的？"
 # P13 batch 3
 #. event 01 (use (talk)), after "I have been banished here. "
 msgctxt "ask 0420"
-msgid "A big red guy called the Guardian. "
-msgstr "一個叫守護者的紅色大個子。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "An evil being of immense power. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
 msgid "An evil being of immense power. "
 msgstr "一個力量強大的邪惡存在。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I have been banished here. "
+msgctxt "ask 0420"
+msgid "Why should I tell you? "
+msgstr "我為什麼要告訴你？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I have been banished here. "
+msgctxt "ask 0420"
+msgid "A big red guy called the Guardian. "
+msgstr "一個叫守護者的紅色大個子。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "An evil being of immense power. "
@@ -1059,13 +1048,6 @@ msgstr "這個邪惡的存在叫什麼名字？"
 msgctxt "ask 0420"
 msgid "He is called the Guardian. "
 msgstr "他叫守護者。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Why should I tell you? "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Why should I tell you? "
-msgstr "我為什麼要告訴你？"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Why should I tell you? "
@@ -1082,6 +1064,12 @@ msgstr "如果是守護者把你送來的，那你不是被放逐，而是受到
 # P13 batch 3
 #. event 01 (use (talk)), after "A big red guy called the Guardian. "
 msgctxt "ask 0420"
+msgid "That's what scares me. "
+msgstr "這正是讓我害怕的地方。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "A big red guy called the Guardian. "
+msgctxt "ask 0420"
 msgid "What do you mean by protected? "
 msgstr "你說的保護是什麼意思？"
 
@@ -1093,13 +1081,6 @@ msgstr "你這是褻瀆！守護者是對抗邪惡的力量。毀滅者降臨時
 
 # P13 batch 3
 #. event 01 (use (talk)), after "That's what scares me. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "That's what scares me. "
-msgstr "這正是讓我害怕的地方。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "That's what scares me. "
 msgctxt "bark 0420:4902"
 msgid "What did you say? "
 msgstr "你說什麼？"
@@ -1107,15 +1088,14 @@ msgstr "你說什麼？"
 # P13 batch 3
 #. event 01 (use (talk)), after "That's what scares me. "
 msgctxt "ask 0420"
-msgid "Nothing, nevermind. "
-msgstr "沒什麼，算了。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Do you think he cares about me. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
 msgid "Do you think he cares about me. "
 msgstr "你覺得他會在乎我嗎？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "That's what scares me. "
+msgctxt "ask 0420"
+msgid "Nothing, nevermind. "
+msgstr "沒什麼，算了。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Do you think he cares about me. "
@@ -1180,8 +1160,26 @@ msgstr "巫師是什麼？"
 # P13 batch 3
 #. event 01 (use (talk)), after "What can you say of yourself? "
 msgctxt "ask 0420"
+msgid "Tell me of the Acolytes. "
+msgstr "說說學徒們。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "What can you say of yourself? "
+msgctxt "ask 0420"
 msgid "The Cabal. What is that? "
 msgstr "密謀會？那是什麼？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "What can you say of yourself? "
+msgctxt "ask 0420"
+msgid "I am a warrior. "
+msgstr "我是戰士。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "What can you say of yourself? "
+msgctxt "ask 0420"
+msgid "I seek to leave this place. "
+msgstr "我想離開這個地方。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "What can you say of yourself? "
@@ -1191,16 +1189,21 @@ msgstr "這我不能透露。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "I am a warrior. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "I am a warrior. "
-msgstr "我是戰士。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "I am a warrior. "
 msgctxt "bark 0420:516C"
 msgid "I could tell by the marks on your hands that you were familiar with weapons. Have you also an interest in magic? "
 msgstr "從你手上的痕跡，我就看得出你熟悉武器。你對魔法也有興趣嗎？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I am a warrior. "
+msgctxt "ask 0420"
+msgid "Aye, I do. "
+msgstr "是的，我有興趣。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I am a warrior. "
+msgctxt "ask 0420"
+msgid "Nay, I do not. "
+msgstr "不，我沒興趣。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "I am a warrior. "
@@ -1214,13 +1217,6 @@ msgstr "你說的是什麼魔法？"
 msgctxt "ask 0420"
 msgid "Done. "
 msgstr "說完了。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Aye, I do. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Aye, I do. "
-msgstr "是的，我有興趣。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Aye, I do. "
@@ -1242,13 +1238,6 @@ msgstr "我見過貝恩。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Nay, I do not. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Nay, I do not. "
-msgstr "不，我沒興趣。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Nay, I do not. "
 msgctxt "bark 0420:5365"
 msgid "'Tis your loss then. More's the pity. "
 msgstr "那是你的損失。真可惜。"
@@ -1267,16 +1256,27 @@ msgstr "巫術是什麼？"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "I seek to leave this place. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "I seek to leave this place. "
-msgstr "我想離開這個地方。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "I seek to leave this place. "
 msgctxt "bark 0420:5519"
 msgid "Do you? Why? Does our land or people displease you so? "
 msgstr "是嗎？為什麼？我們的土地或人民讓你這麼不滿意嗎？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I seek to leave this place. "
+msgctxt "ask 0420"
+msgid "Your people are cruel. "
+msgstr "你們的人民很殘酷。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I seek to leave this place. "
+msgctxt "ask 0420"
+msgid "This land is unforgiving. "
+msgstr "這片土地很無情。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "I seek to leave this place. "
+msgctxt "ask 0420"
+msgid "Both are contrary. "
+msgstr "兩者都很乖戾。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "I seek to leave this place. "
@@ -1286,36 +1286,15 @@ msgstr "不，我想回到「我的」土地和人民身邊。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Your people are cruel. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Your people are cruel. "
-msgstr "你們的人民很殘酷。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Your people are cruel. "
 msgctxt "bark 0420:5628"
 msgid "The times are hard. I pray, do not judge us so harshly. "
 msgstr "時局艱難。拜託，別對我們評判得那麼嚴苛。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "This land is unforgiving. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "This land is unforgiving. "
-msgstr "這片土地很無情。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "This land is unforgiving. "
 msgctxt "bark 0420:5697"
 msgid "'Tis true, but we manage to survive, nonetheless. "
 msgstr "確實如此，但我們還是設法活下來了。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Both are contrary. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Both are contrary. "
-msgstr "兩者都很乖戾。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Both are contrary. "
@@ -1332,28 +1311,26 @@ msgstr "值得尊敬的目標。也許我們巫師能幫得上忙。"
 # P13 batch 3
 #. event 01 (use (talk)), after "No, I would return to -my- land and people. "
 msgctxt "ask 0420"
-msgid "I do not need your help. "
-msgstr "我不需要你的幫助。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "How so? "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
 msgid "How so? "
 msgstr "怎麼幫？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "No, I would return to -my- land and people. "
+msgctxt "ask 0420"
+msgid "I think not. "
+msgstr "我看不必了。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "No, I would return to -my- land and people. "
+msgctxt "ask 0420"
+msgid "I do not need your help. "
+msgstr "我不需要你的幫助。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "How so? "
 msgctxt "bark 0420:58B2"
 msgid "Seek out Bane. She will be able to help you. She is the most intellectual of us all. "
 msgstr "去找貝恩。她能幫你。她是我們之中最有學問的。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "I think not. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "I think not. "
-msgstr "我看不必了。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "I think not. "
@@ -1404,12 +1381,6 @@ msgid "A Sorcerer is a practitioner of the magic of Sorcery. I am an Acolyte Sor
 msgstr "巫師就是修習巫術魔法的人。我是密謀會的學徒巫師。"
 
 # P13 batch 3
-#. event 01 (use (talk)), after "What is a Sorcerer? "
-msgctxt "ask 0420"
-msgid "Tell me of the Acolytes. "
-msgstr "說說學徒們。"
-
-# P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the Acolytes. "
 msgctxt "bark 0420:5F76"
 msgid "Well, there are four of us... Vardion, First Acolyte, Gorgrond, his faithful pet, Bane the Red, and myself. We are the ones that Master Malchir calls upon to aid in his great rituals. "
@@ -1426,6 +1397,12 @@ msgstr "說說瓦爾迪恩和他的地位。"
 msgctxt "ask 0420"
 msgid "Who is Gorgrond. "
 msgstr "戈格隆德是誰？"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Tell me of the Acolytes. "
+msgctxt "ask 0420"
+msgid "Who is Master Malchir? "
+msgstr "馬爾奇爾大巫師是誰？"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Tell me of the Acolytes. "
@@ -1456,6 +1433,12 @@ msgstr "啊，那你就知道她的聰慧、她的美貌，還有她的力量了
 msgctxt "bark 0420:63D1"
 msgid "Sorcery is the art and craft of Fire. The Element that I have come here to study. Pyros, the Lord of Flame, is a powerful force in this world, and I would partake of that power. "
 msgstr "巫術是火的藝術與技藝，也是我來這裡研習的元素。烈焰之主派羅斯是這世上一股強大的力量，而我想分享那份力量。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "What is Sorcery? "
+msgctxt "ask 0420"
+msgid "Element of Fire. What is it? "
+msgstr "火元素？那是什麼？"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "What is Sorcery? "
@@ -1520,15 +1503,14 @@ msgstr "等天空再次稍微放晴時，我的族人大多已經死了。有的
 # P13 batch 3
 #. event 01 (use (talk)), after "Tell me of Daemon's Crag and Morgaelin. "
 msgctxt "ask 0420"
-msgid "Quite an interesting tale. "
-msgstr "真是個有趣的故事。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Your ancestors were deceived. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
 msgid "Your ancestors were deceived. "
 msgstr "你們的祖先被騙了。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Tell me of Daemon's Crag and Morgaelin. "
+msgctxt "ask 0420"
+msgid "Quite an interesting tale. "
+msgstr "真是個有趣的故事。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Your ancestors were deceived. "
@@ -1536,18 +1518,23 @@ msgctxt "bark 0420:6C45"
 msgid "What?... What do you mean? "
 msgstr "什麼？……你這是什麼意思？"
 
+# P13 batch 4
+#. event 01 (use (talk)), after "Your ancestors were deceived. "
+msgctxt "ask 0420"
+msgid "Nothing. Nevermind. "
+msgstr "沒什麼。算了。"
+
+# P13 batch 3
+#. event 01 (use (talk)), after "Your ancestors were deceived. "
+msgctxt "ask 0420"
+msgid "The Titans are evil. "
+msgstr "泰坦是邪惡的。"
+
 # P13 batch 3
 #. event 01 (use (talk)), after "Your ancestors were deceived. "
 msgctxt "ask 0420"
 msgid "The Guardian is the Destroyer. "
 msgstr "守護者就是毀滅者。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "The Titans are evil. "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "The Titans are evil. "
-msgstr "泰坦是邪惡的。"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "The Titans are evil. "
@@ -1560,6 +1547,18 @@ msgstr "不，不是邪惡，只是……不受約束。但我們已經各自用
 msgctxt "bark 0420:6DCF"
 msgid "You know not of what you speak. I will hear no more about it. "
 msgstr "你根本不知道自己在說什麼。我不想再聽了。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "The Guardian is the Destroyer. "
+msgctxt "ask 0420"
+msgid "But where I am from... "
+msgstr "可是在我來的地方……"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "The Guardian is the Destroyer. "
+msgctxt "ask 0420"
+msgid "You do not understand... "
+msgstr "你不明白……"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "The Guardian is the Destroyer. "
@@ -1617,13 +1616,6 @@ msgstr "一個無足輕重的學徒。他魔力雄厚，但他的腦袋不靈光
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Who is Master Malchir? "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Who is Master Malchir? "
-msgstr "馬爾奇爾大巫師是誰？"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Who is Master Malchir? "
 msgctxt "bark 0420:7374"
 msgid "He leads us in all things. Well,... he would if he were around more often. He remains busy with his own studies, leaving Vardion to lead us poorly. "
 msgstr "他在一切事務上領導我們。嗯……如果他常在的話。他一直忙於自己的研究，讓瓦爾迪恩來領導我們，結果領導得一塌糊塗。"
@@ -1633,13 +1625,6 @@ msgstr "他在一切事務上領導我們。嗯……如果他常在的話。他
 msgctxt "bark 0420:7486"
 msgid "That is a subject best left to discuss if you become one of us. Speak to Bane. She will assist you in these matters. "
 msgstr "那個話題最好等你成為我們的一員再談。去找貝恩吧，這些事她會協助你。"
-
-# P13 batch 3
-#. event 01 (use (talk)), after "Element of Fire. What is it? "
-#. answer compared by the conversation code
-msgctxt "ask 0420"
-msgid "Element of Fire. What is it? "
-msgstr "火元素？那是什麼？"
 
 # P13 batch 3
 #. event 01 (use (talk)), after "Element of Fire. What is it? "

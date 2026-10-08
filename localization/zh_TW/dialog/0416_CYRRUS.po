@@ -434,6 +434,12 @@ msgstr "歡迎來到我們的島。"
 # P13 batch 4
 #. event 01 (use (talk)), after "Good day to you. "
 msgctxt "ask 0416"
+msgid "By what are you called? "
+msgstr "該怎麼稱呼你？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Good day to you. "
+msgctxt "ask 0416"
 msgid "What place is this? "
 msgstr "這是什麼地方？"
 
@@ -448,13 +454,6 @@ msgstr "啊，你好，朋友。很高興見到你。"
 msgctxt "ask 0416"
 msgid "Where are you from? "
 msgstr "你從哪裡來？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "By what are you called? "
-#. answer compared by the conversation code
-msgctxt "ask 0416"
-msgid "By what are you called? "
-msgstr "該怎麼稱呼你？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "By what are you called? "
@@ -497,6 +496,12 @@ msgstr "現在請讓我一個人靜一靜，我需要休息。"
 msgctxt "bark 0416:256D"
 msgid "For certes. It is only the first step on the road to Enlightenment. It was not easy by any means. "
 msgstr "當然。那只是啟蒙之路的第一步，可一點也不容易。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Have you passed the Test of Wisdom? "
+msgctxt "ask 0416"
+msgid "Will you tell me the answers? "
+msgstr "你能告訴我答案嗎？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Have you passed the Test of Wisdom? "
@@ -562,6 +567,12 @@ msgstr "不，我沒看到。（其實我看到了）"
 # P13 batch 4
 #. event 01 (use (talk)), after "Have you seen Torwin? "
 msgctxt "ask 0416"
+msgid "Why are you covering up for him? "
+msgstr "你為什麼要掩護他？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Have you seen Torwin? "
+msgctxt "ask 0416"
 msgid "Where is he? "
 msgstr "他在哪裡？"
 
@@ -585,13 +596,6 @@ msgstr "我不知道。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Why are you covering up for him? "
-#. answer compared by the conversation code
-msgctxt "ask 0416"
-msgid "Why are you covering up for him? "
-msgstr "你為什麼要掩護他？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Why are you covering up for him? "
 msgctxt "bark 0416:2E73"
 msgid "I am not covering for him! (I think he is the one who took the Focus. I don't think he meant any harm by it, though. He is not a mean-spirited person) "
 msgstr "我沒有掩護他！（我想拿走法器的就是他。不過我不認為他有惡意，他不是心術不正的人）"
@@ -611,15 +615,14 @@ msgstr "那是史泰洛斯給我取的名字。大家都覺得這名字很氣派
 # P13 batch 4
 #. event 01 (use (talk)), after "Holy Cyrrus? "
 msgctxt "ask 0416"
-msgid "Everyone? "
-msgstr "大家？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "It is a grand name. "
-#. answer compared by the conversation code
-msgctxt "ask 0416"
 msgid "It is a grand name. "
 msgstr "這名字確實很氣派。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Holy Cyrrus? "
+msgctxt "ask 0416"
+msgid "Everyone? "
+msgstr "大家？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "It is a grand name. "
@@ -654,6 +657,12 @@ msgstr "我的家在泰尼伯瑞的山上。就算白銀之岩再怎麼華美，
 # P13 batch 4
 #. event 01 (use (talk)), after "Where are you from? "
 msgctxt "ask 0416"
+msgid "You miss the people of Tenebrae? "
+msgstr "你想念泰尼伯瑞的人？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Where are you from? "
+msgctxt "ask 0416"
 msgid "Why are you here? "
 msgstr "你為什麼在這裡？"
 
@@ -665,16 +674,15 @@ msgstr "我很小的時候，大家就發現我有治療的天分。我爸媽好
 
 # P13 batch 4
 #. event 01 (use (talk)), after "You miss the people of Tenebrae? "
-#. answer compared by the conversation code
-msgctxt "ask 0416"
-msgid "You miss the people of Tenebrae? "
-msgstr "你想念泰尼伯瑞的人？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "You miss the people of Tenebrae? "
 msgctxt "bark 0416:371A"
 msgid "It has been my home since birth. I miss the people. Darion with all his bluff and bluster, used to carry candy in his pocket for me. Bentic tutored both Jenna and I when we were young. Oh, my beloved Jenna. I try not to think of her, it pains me so. "
 msgstr "那是我從小生長的家。我想念那裡的人。總是虛張聲勢的達里恩，以前常在口袋裡放糖果給我。班提克在我們小時候教過珍娜和我讀書。噢，我心愛的珍娜。我盡量不去想她，因為一想就心痛。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "You miss the people of Tenebrae? "
+msgctxt "ask 0416"
+msgid "Tell me of Jenna. "
+msgstr "說說珍娜。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "You miss the people of Tenebrae? "
@@ -727,6 +735,12 @@ msgstr "噢不！告訴我這不是真的！天哪！你帶來了我家鄉的噩
 # P13 batch 4
 #. event 01 (use (talk)), after "Bentic is dead. "
 msgctxt "ask 0416"
+msgid "Mordea had him executed. "
+msgstr "莫爾迪亞處決了他。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Bentic is dead. "
+msgctxt "ask 0416"
 msgid "I know not "
 msgstr "我不知道"
 
@@ -738,16 +752,15 @@ msgstr "今天真是令我悲傷的一天。班提克是我親愛的朋友。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Mordea had him executed. "
-#. answer compared by the conversation code
-msgctxt "ask 0416"
-msgid "Mordea had him executed. "
-msgstr "莫爾迪亞處決了他。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Mordea had him executed. "
 msgctxt "bark 0416:3DAF"
 msgid "The Tempest? I knew she was a hard woman, but to execute someone as gentle and harmless as Bentic? What terrible thing did he do that would anger the Tempest so? "
 msgstr "風暴使者？我知道她是個冷酷的女人，可是竟然處決像班提克這麼溫和無害的人？他做了什麼可怕的事，讓風暴使者這麼生氣？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Mordea had him executed. "
+msgctxt "ask 0416"
+msgid "He conducted forbidden research. "
+msgstr "他進行了禁忌的研究。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Mordea had him executed. "
@@ -763,23 +776,9 @@ msgstr "我無法想像班提克犯了什麼大錯才會落得一死。他是個
 
 # P13 batch 4
 #. event 01 (use (talk)), after "He conducted forbidden research. "
-#. answer compared by the conversation code
-msgctxt "ask 0416"
-msgid "He conducted forbidden research. "
-msgstr "他進行了禁忌的研究。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "He conducted forbidden research. "
 msgctxt "bark 0416:3FBF"
 msgid "Research was what Bentic loved most. Ah, 'tis a sad day when good folks are executed for doing something which they love and brings harm to no one. "
 msgstr "研究是班提克最愛的事。唉，好人因為做了自己熱愛、又不傷害任何人的事而被處決，這真是悲哀的一天。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Tell me of Jenna. "
-#. answer compared by the conversation code
-msgctxt "ask 0416"
-msgid "Tell me of Jenna. "
-msgstr "說說珍娜。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Tell me of Jenna. "
@@ -832,15 +831,14 @@ msgstr "我聽說了。這真是個值得慶祝的時刻。現在你已經準備
 # P13 batch 4
 #. event 01 (use (talk)), after "I passed the Third Test. "
 msgctxt "ask 0416"
-msgid "The greatest feat? "
-msgstr "最偉大的壯舉？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Touch Stratos' power? "
-#. answer compared by the conversation code
-msgctxt "ask 0416"
 msgid "Touch Stratos' power? "
 msgstr "觸及史特拉托斯的力量？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "I passed the Third Test. "
+msgctxt "ask 0416"
+msgid "The greatest feat? "
+msgstr "最偉大的壯舉？"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Touch Stratos' power? "
@@ -886,13 +884,6 @@ msgstr "因為如果我與史特拉托斯的聯繫永遠斷了，我就再也無
 
 # P13 batch 4
 #. event 01 (use (talk)), after "Will you tell me the answers? "
-#. answer compared by the conversation code
-msgctxt "ask 0416"
-msgid "Will you tell me the answers? "
-msgstr "你能告訴我答案嗎？"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "Will you tell me the answers? "
 msgctxt "bark 0416:4CB6"
 msgid "Certainly not. That is an unthinkable thing. You must find the answers yourself as have all those seeking Enlightenment before you have. "
 msgstr "當然不行。那是想都不能想的事。你必須自己找出答案，就像你之前所有追求啟蒙的人一樣。"
@@ -912,15 +903,14 @@ msgstr "我的天哪。那是托溫的戒指！哎呀，那是他父親的遺物
 # P13 batch 4
 #. event 01 (use (talk)), after "I found this ring. "
 msgctxt "ask 0416"
-msgid "I don't think I will. "
-msgstr "我想我不會。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "I shall. "
-#. answer compared by the conversation code
-msgctxt "ask 0416"
 msgid "I shall. "
 msgstr "我會的。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "I found this ring. "
+msgctxt "ask 0416"
+msgid "I don't think I will. "
+msgstr "我想我不會。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "I shall. "

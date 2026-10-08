@@ -12,6 +12,66 @@ msgstr ""
 
 #. event 00 (look)
 msgctxt "ask 0401"
+msgid "Demo"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
+msgid "Spell Book"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
+msgid "Information"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
+msgid "Enemy Caster"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
+msgid "Time"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
+msgid "Key"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
+msgid "Staff"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
+msgid "Call Guards"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
+msgid "Blow up!"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
+msgid "Kill me"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
+msgid "EndGame"
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
+msgid "Jump ahead."
+msgstr ""
+
+#. event 00 (look)
+msgctxt "ask 0401"
 msgid "Done"
 msgstr ""
 
@@ -57,9 +117,13 @@ msgid "Create failed. "
 msgstr ""
 
 #. event 00 (look), after "EndGame"
-#. answer compared by the conversation code
 msgctxt "ask 0401"
-msgid "EndGame"
+msgid "Create Blackrock Fragments"
+msgstr ""
+
+#. event 00 (look), after "EndGame"
+msgctxt "ask 0401"
+msgid "Create Energized Fragments"
 msgstr ""
 
 #. event 00 (look), after "EndGame"
@@ -67,46 +131,54 @@ msgctxt "ask 0401"
 msgid "Nevermind"
 msgstr ""
 
-#. event 00 (look), after "Create Blackrock Fragments"
-#. answer compared by the conversation code
+#. event 00 (look), after "Demo"
 msgctxt "ask 0401"
-msgid "Create Blackrock Fragments"
-msgstr ""
-
-#. event 00 (look), after "Create Energized Fragments"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Create Energized Fragments"
+msgid "Run Pyros"
 msgstr ""
 
 #. event 00 (look), after "Demo"
-#. answer compared by the conversation code
 msgctxt "ask 0401"
-msgid "Demo"
+msgid "Run Daemon"
 msgstr ""
 
-#. event 00 (look), after "Malchir Death"
-#. answer compared by the conversation code
+#. event 00 (look), after "Demo"
 msgctxt "ask 0401"
-msgid "Malchir Death"
+msgid "After Daemon"
 msgstr ""
 
-#. event 00 (look), after "Make Symbols"
-#. answer compared by the conversation code
+#. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "Make Symbols"
 msgstr ""
 
-#. event 00 (look), after "Guardian"
-#. answer compared by the conversation code
+#. event 00 (look), after "Demo"
 msgctxt "ask 0401"
-msgid "Guardian"
+msgid "Pyros"
 msgstr ""
 
-#. event 00 (look), after "Casting"
-#. answer compared by the conversation code
+#. event 00 (look), after "Demo"
+msgctxt "ask 0401"
+msgid "Malchir Death"
+msgstr ""
+
+#. event 00 (look), after "Demo"
+msgctxt "ask 0401"
+msgid "Stratos"
+msgstr ""
+
+#. event 00 (look), after "Demo"
+msgctxt "ask 0401"
+msgid "Execution"
+msgstr ""
+
+#. event 00 (look), after "Demo"
 msgctxt "ask 0401"
 msgid "Casting"
+msgstr ""
+
+#. event 00 (look), after "Demo"
+msgctxt "ask 0401"
+msgid "Guardian"
 msgstr ""
 
 #. event 00 (look), after "Casting"
@@ -126,13 +198,67 @@ msgstr ""
 
 #. event 00 (look), after "Casting"
 msgctxt "ask 0401"
+msgid "Enter Cast"
+msgstr ""
+
+#. event 00 (look), after "Casting"
+msgctxt "ask 0401"
+msgid "Turn"
+msgstr ""
+
+#. event 00 (look), after "Casting"
+msgctxt "ask 0401"
+msgid "North"
+msgstr ""
+
+#. event 00 (look), after "Casting"
+msgctxt "ask 0401"
+msgid "Northeast"
+msgstr ""
+
+#. event 00 (look), after "Casting"
+msgctxt "ask 0401"
+msgid "East"
+msgstr ""
+
+#. event 00 (look), after "Casting"
+msgctxt "ask 0401"
+msgid "Southeast"
+msgstr ""
+
+#. event 00 (look), after "Casting"
+msgctxt "ask 0401"
+msgid "South"
+msgstr ""
+
+#. event 00 (look), after "Casting"
+msgctxt "ask 0401"
+msgid "Southwest"
+msgstr ""
+
+#. event 00 (look), after "Casting"
+msgctxt "ask 0401"
+msgid "West"
+msgstr ""
+
+#. event 00 (look), after "Casting"
+msgctxt "ask 0401"
 msgid "Northwest"
 msgstr ""
 
 #. event 00 (look), after "Enter Cast"
-#. answer compared by the conversation code
 msgctxt "ask 0401"
-msgid "Enter Cast"
+msgid "Exit Cast"
+msgstr ""
+
+#. event 00 (look), after "Enter Cast"
+msgctxt "ask 0401"
+msgid "Cast One"
+msgstr ""
+
+#. event 00 (look), after "Enter Cast"
+msgctxt "ask 0401"
+msgid "Cast Two"
 msgstr ""
 
 #. event 00 (look), after "Enter Cast"
@@ -140,76 +266,9 @@ msgctxt "ask 0401"
 msgid "Cast Three"
 msgstr ""
 
-#. event 00 (look), after "Cast One"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Cast One"
-msgstr ""
-
-#. event 00 (look), after "Cast Two"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Cast Two"
-msgstr ""
-
-#. event 00 (look), after "Exit Cast"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Exit Cast"
-msgstr ""
-
-#. event 00 (look), after "Turn"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Turn"
-msgstr ""
-
-#. event 00 (look), after "North"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "North"
-msgstr ""
-
-#. event 00 (look), after "Northeast"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Northeast"
-msgstr ""
-
-#. event 00 (look), after "East"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "East"
-msgstr ""
-
-#. event 00 (look), after "Southeast"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Southeast"
-msgstr ""
-
-#. event 00 (look), after "South"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "South"
-msgstr ""
-
-#. event 00 (look), after "Southwest"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Southwest"
-msgstr ""
-
-#. event 00 (look), after "West"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "West"
-msgstr ""
-
 #. event 00 (look), after "Run Pyros"
-#. answer compared by the conversation code
 msgctxt "ask 0401"
-msgid "Run Pyros"
+msgid "Bane dead"
 msgstr ""
 
 #. event 00 (look), after "Run Pyros"
@@ -217,27 +276,14 @@ msgctxt "ask 0401"
 msgid "Vardion dead"
 msgstr ""
 
-#. event 00 (look), after "Bane dead"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Bane dead"
-msgstr ""
-
 #. event 00 (look), after "After Daemon"
-#. answer compared by the conversation code
 msgctxt "ask 0401"
-msgid "After Daemon"
+msgid "Bane won."
 msgstr ""
 
 #. event 00 (look), after "After Daemon"
 msgctxt "ask 0401"
 msgid "Vardion won."
-msgstr ""
-
-#. event 00 (look), after "Bane won."
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Bane won."
 msgstr ""
 
 #. event 00 (look), after "Vardion won."
@@ -246,32 +292,8 @@ msgid "Done! "
 msgstr ""
 
 #. event 00 (look), after "Run Daemon"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Run Daemon"
-msgstr ""
-
-#. event 00 (look), after "Run Daemon"
 msgctxt "bark 0401:0FD3"
 msgid "Done! "
-msgstr ""
-
-#. event 00 (look), after "Pyros"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Pyros"
-msgstr ""
-
-#. event 00 (look), after "Stratos"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Stratos"
-msgstr ""
-
-#. event 00 (look), after "Execution"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Execution"
 msgstr ""
 
 #. event 00 (look), after "Destroy"
@@ -296,12 +318,6 @@ msgid "Destroy failed : No item. "
 msgstr ""
 
 #. event 00 (look), after "Enemy Caster"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Enemy Caster"
-msgstr ""
-
-#. event 00 (look), after "Enemy Caster"
 msgctxt "bark 0401:1365"
 msgid "Spell caster must be an Npc. "
 msgstr ""
@@ -316,140 +332,127 @@ msgctxt "bark 0401:13FC"
 msgid "Spell caster must be a Sorcerer. "
 msgstr ""
 
-#. event 00 (look), after "Ignite"
-#. answer compared by the conversation code
+#. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Ignite"
 msgstr ""
 
-#. event 00 (look), after "Extinguish"
-#. answer compared by the conversation code
+#. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Extinguish"
 msgstr ""
 
-#. event 00 (look), after "Flame Bolt"
-#. answer compared by the conversation code
+#. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Flame Bolt"
 msgstr ""
 
-#. event 00 (look), after "Fire Shield"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Fire Shield"
-msgstr ""
-
-#. event 00 (look), after "Create Fire"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Create Fire"
-msgstr ""
-
-#. event 00 (look), after "Endure Heat"
-#. answer compared by the conversation code
+#. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Endure Heat"
 msgstr ""
 
-#. event 00 (look), after "Explosion"
-#. answer compared by the conversation code
+#. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
-msgid "Explosion"
+msgid "Fire Shield"
 msgstr ""
 
-#. event 00 (look), after "Armor Of Flames"
-#. answer compared by the conversation code
+#. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Armor Of Flames"
 msgstr ""
 
-#. event 00 (look), after "Summon Daemon"
-#. answer compared by the conversation code
+#. event 00 (look), after "Enemy Caster"
+msgctxt "ask 0401"
+msgid "Create Fire"
+msgstr ""
+
+#. event 00 (look), after "Enemy Caster"
+msgctxt "ask 0401"
+msgid "Explosion"
+msgstr ""
+
+#. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Summon Daemon"
 msgstr ""
 
-#. event 00 (look), after "Banish Daemon"
-#. answer compared by the conversation code
+#. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Banish Daemon"
 msgstr ""
 
-#. event 00 (look), after "Conflagration"
-#. answer compared by the conversation code
+#. event 00 (look), after "Enemy Caster"
 msgctxt "ask 0401"
 msgid "Conflagration"
 msgstr ""
 
 #. event 00 (look), after "Spell Book"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Spell Book"
-msgstr ""
-
-#. event 00 (look), after "Earth"
-#. answer compared by the conversation code
 msgctxt "ask 0401"
 msgid "Earth"
 msgstr ""
 
-#. event 00 (look), after "Death Speak"
-#. answer compared by the conversation code
+#. event 00 (look), after "Spell Book"
+msgctxt "ask 0401"
+msgid "Air"
+msgstr ""
+
+#. event 00 (look), after "Spell Book"
+msgctxt "ask 0401"
+msgid "Fire"
+msgstr ""
+
+#. event 00 (look), after "Spell Book"
+msgctxt "ask 0401"
+msgid "Ether"
+msgstr ""
+
+#. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Death Speak"
 msgstr ""
 
-#. event 00 (look), after "Mask of Death"
-#. answer compared by the conversation code
+#. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Mask of Death"
 msgstr ""
 
-#. event 00 (look), after "Rock Flesh"
-#. answer compared by the conversation code
+#. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Rock Flesh"
 msgstr ""
 
-#. event 00 (look), after "Summon Undead"
-#. answer compared by the conversation code
+#. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Summon Undead"
 msgstr ""
 
-#. event 00 (look), after "Open Ground"
-#. answer compared by the conversation code
+#. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Open Ground"
 msgstr ""
 
-#. event 00 (look), after "Create Golem"
-#. answer compared by the conversation code
+#. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Create Golem"
 msgstr ""
 
-#. event 00 (look), after "Withstand Death"
-#. answer compared by the conversation code
+#. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Withstand Death"
 msgstr ""
 
-#. event 00 (look), after "Grant Peace"
-#. answer compared by the conversation code
+#. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Grant Peace"
 msgstr ""
 
-#. event 00 (look), after "Call Quake"
-#. answer compared by the conversation code
+#. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Call Quake"
 msgstr ""
 
-#. event 00 (look), after "Meteor Shower"
-#. answer compared by the conversation code
+#. event 00 (look), after "Earth"
 msgctxt "ask 0401"
 msgid "Meteor Shower"
 msgstr ""
@@ -461,127 +464,91 @@ msgid "Water"
 msgstr ""
 
 #. event 00 (look), after "Air"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Air"
-msgstr ""
-
-#. event 00 (look), after "Divination"
-#. answer compared by the conversation code
 msgctxt "ask 0401"
 msgid "Divination"
 msgstr ""
 
-#. event 00 (look), after "Healing Touch"
-#. answer compared by the conversation code
+#. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Healing Touch"
 msgstr ""
 
-#. event 00 (look), after "Aerial Servant"
-#. answer compared by the conversation code
+#. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Aerial Servant"
 msgstr ""
 
-#. event 00 (look), after "Restortation"
-#. answer compared by the conversation code
+#. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Restortation"
 msgstr ""
 
-#. event 00 (look), after "Fade From Sight"
-#. answer compared by the conversation code
+#. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Fade From Sight"
 msgstr ""
 
-#. event 00 (look), after "Air Walk"
-#. answer compared by the conversation code
+#. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Air Walk"
 msgstr ""
 
-#. event 00 (look), after "Hear Truth"
-#. answer compared by the conversation code
+#. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Hear Truth"
 msgstr ""
 
-#. event 00 (look), after "Intervention"
-#. answer compared by the conversation code
+#. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Intervention"
 msgstr ""
 
-#. event 00 (look), after "Reveal"
-#. answer compared by the conversation code
+#. event 00 (look), after "Air"
 msgctxt "ask 0401"
 msgid "Reveal"
 msgstr ""
 
 #. event 00 (look), after "Fire"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Fire"
-msgstr ""
-
-#. event 00 (look), after "Offense"
-#. answer compared by the conversation code
 msgctxt "ask 0401"
 msgid "Offense"
 msgstr ""
 
-#. event 00 (look), after "Defense and Other"
-#. answer compared by the conversation code
+#. event 00 (look), after "Fire"
 msgctxt "ask 0401"
 msgid "Defense and Other"
 msgstr ""
 
-#. event 00 (look), after "Flash"
-#. answer compared by the conversation code
+#. event 00 (look), after "Defense and Other"
 msgctxt "ask 0401"
 msgid "Flash"
 msgstr ""
 
 #. event 00 (look), after "Ether"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Ether"
-msgstr ""
-
-#. event 00 (look), after "Confusion Blast"
-#. answer compared by the conversation code
 msgctxt "ask 0401"
 msgid "Confusion Blast"
 msgstr ""
 
-#. event 00 (look), after "Summon Creature"
-#. answer compared by the conversation code
+#. event 00 (look), after "Ether"
 msgctxt "ask 0401"
 msgid "Summon Creature"
 msgstr ""
 
-#. event 00 (look), after "Death Blast"
-#. answer compared by the conversation code
+#. event 00 (look), after "Ether"
 msgctxt "ask 0401"
 msgid "Death Blast"
 msgstr ""
 
-#. event 00 (look), after "Call Destruction"
-#. answer compared by the conversation code
+#. event 00 (look), after "Ether"
 msgctxt "ask 0401"
 msgid "Call Destruction"
 msgstr ""
 
-#. event 00 (look), after "Etherial Travel"
-#. answer compared by the conversation code
+#. event 00 (look), after "Ether"
 msgctxt "ask 0401"
 msgid "Etherial Travel"
 msgstr ""
 
-#. event 00 (look), after "Devastation"
-#. answer compared by the conversation code
+#. event 00 (look), after "Ether"
 msgctxt "ask 0401"
 msgid "Devastation"
 msgstr ""
@@ -722,12 +689,6 @@ msgid "Not a container. "
 msgstr ""
 
 #. event 00 (look), after "Information"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Information"
-msgstr ""
-
-#. event 00 (look), after "Information"
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0401:2CE5"
 msgid "Map number: {num}~X: {num},~Y: {num},~Z: {num},*Type num: {num},~Egg type: {num},~Qual: {num},~Quan: {num},~Frame: {num} "
@@ -781,12 +742,6 @@ msgid "Not a valid item. "
 msgstr ""
 
 #. event 00 (look), after "Time"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Time"
-msgstr ""
-
-#. event 00 (look), after "Time"
 msgctxt "bark 0401:2D4D"
 msgid "Bloodwatch "
 msgstr ""
@@ -817,12 +772,6 @@ msgid "Eventide "
 msgstr ""
 
 #. event 00 (look), after "Key"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Key"
-msgstr ""
-
-#. event 00 (look), after "Key"
 msgctxt "bark 0401:2E8A"
 msgid "You no longer have the key. "
 msgstr ""
@@ -833,12 +782,6 @@ msgid "You now have the key. "
 msgstr ""
 
 #. event 00 (look), after "Staff"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Staff"
-msgstr ""
-
-#. event 00 (look), after "Staff"
 msgctxt "bark 0401:2F14"
 msgid "You haven't returned the staff. "
 msgstr ""
@@ -846,12 +789,6 @@ msgstr ""
 #. event 00 (look), after "Staff"
 msgctxt "bark 0401:2F56"
 msgid "You have returned the staff. "
-msgstr ""
-
-#. event 00 (look), after "Call Guards"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Call Guards"
 msgstr ""
 
 #. event 00 (look), after "Call Guards"
@@ -874,18 +811,6 @@ msgctxt "bark 0401:3132"
 msgid "No one can hear your screams. "
 msgstr ""
 
-#. event 00 (look), after "Blow up!"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Blow up!"
-msgstr ""
-
-#. event 00 (look), after "Kill me"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Kill me"
-msgstr ""
-
 #. event 00 (look), after "Kill me"
 msgctxt "bark 0401:31CC"
 msgid "Not an Npc. "
@@ -897,79 +822,63 @@ msgid "Not an valid item. "
 msgstr ""
 
 #. event 00 (look), after "Jump ahead."
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "Jump ahead."
-msgstr ""
-
-#. event 00 (look), after "Jump ahead."
 msgctxt "bark 0401:3263"
 msgid "Been there. Done that."
 msgstr ""
 
 #. event 00 (look), after "Jump ahead."
 msgctxt "ask 0401"
-msgid "Nevermind!"
-msgstr ""
-
-#. event 00 (look), after "ginaf"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
-msgid "ginaf"
-msgstr ""
-
-#. event 00 (look), after "gorf" or "qwlep" or "zmeket" or "drewmor" or "nwats" or "yzurov" or "igran" or "bledyup" or "bokchoi"
-#. answer compared by the conversation code
-msgctxt "ask 0401"
 msgid "gorf"
 msgstr ""
 
-#. event 00 (look), after "gorf" or "qwlep" or "zmeket" or "drewmor" or "nwats" or "yzurov" or "igran" or "bledyup" or "bokchoi"
-#. answer compared by the conversation code
+#. event 00 (look), after "Jump ahead."
 msgctxt "ask 0401"
 msgid "qwlep"
 msgstr ""
 
-#. event 00 (look), after "gorf" or "qwlep" or "zmeket" or "drewmor" or "nwats" or "yzurov" or "igran" or "bledyup" or "bokchoi"
-#. answer compared by the conversation code
+#. event 00 (look), after "Jump ahead."
 msgctxt "ask 0401"
 msgid "zmeket"
 msgstr ""
 
-#. event 00 (look), after "gorf" or "qwlep" or "zmeket" or "drewmor" or "nwats" or "yzurov" or "igran" or "bledyup" or "bokchoi"
-#. answer compared by the conversation code
+#. event 00 (look), after "Jump ahead."
 msgctxt "ask 0401"
 msgid "drewmor"
 msgstr ""
 
-#. event 00 (look), after "gorf" or "qwlep" or "zmeket" or "drewmor" or "nwats" or "yzurov" or "igran" or "bledyup" or "bokchoi"
-#. answer compared by the conversation code
+#. event 00 (look), after "Jump ahead."
 msgctxt "ask 0401"
 msgid "nwats"
 msgstr ""
 
-#. event 00 (look), after "gorf" or "qwlep" or "zmeket" or "drewmor" or "nwats" or "yzurov" or "igran" or "bledyup" or "bokchoi"
-#. answer compared by the conversation code
+#. event 00 (look), after "Jump ahead."
+msgctxt "ask 0401"
+msgid "ginaf"
+msgstr ""
+
+#. event 00 (look), after "Jump ahead."
 msgctxt "ask 0401"
 msgid "yzurov"
 msgstr ""
 
-#. event 00 (look), after "gorf" or "qwlep" or "zmeket" or "drewmor" or "nwats" or "yzurov" or "igran" or "bledyup" or "bokchoi"
-#. answer compared by the conversation code
+#. event 00 (look), after "Jump ahead."
 msgctxt "ask 0401"
 msgid "igran"
 msgstr ""
 
-#. event 00 (look), after "gorf" or "qwlep" or "zmeket" or "drewmor" or "nwats" or "yzurov" or "igran" or "bledyup" or "bokchoi"
-#. answer compared by the conversation code
+#. event 00 (look), after "Jump ahead."
 msgctxt "ask 0401"
 msgid "bledyup"
 msgstr ""
 
-#. event 00 (look), after "gorf" or "qwlep" or "zmeket" or "drewmor" or "nwats" or "yzurov" or "igran" or "bledyup" or "bokchoi"
-#. answer compared by the conversation code
+#. event 00 (look), after "Jump ahead."
 msgctxt "ask 0401"
 msgid "bokchoi"
+msgstr ""
+
+#. event 00 (look), after "Jump ahead."
+msgctxt "ask 0401"
+msgid "Nevermind!"
 msgstr ""
 
 #. event 00 (look), after "gorf" or "qwlep" or "zmeket" or "drewmor" or "nwats" or "yzurov" or "igran" or "bledyup" or "bokchoi"

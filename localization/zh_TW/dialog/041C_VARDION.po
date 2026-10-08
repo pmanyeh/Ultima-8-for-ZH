@@ -92,6 +92,16 @@ msgstr ""
 
 #. event 01 (use (talk))
 msgctxt "ask 041C"
+msgid "Yes, I am prepared. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041C"
+msgid "Let me think on it more. "
+msgstr ""
+
+#. event 01 (use (talk))
+msgctxt "ask 041C"
 msgid "I won't do your dirty work! "
 msgstr ""
 
@@ -113,6 +123,16 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Tell me of this place. "
 msgctxt "ask 041C"
+msgid "I am a stranger here. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of this place. "
+msgctxt "ask 041C"
+msgid "I know. I'm just asking you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me of this place. "
+msgctxt "ask 041C"
 msgid "Just answer my question. "
 msgstr ""
 
@@ -122,20 +142,8 @@ msgid "What?! How dare you! "
 msgstr ""
 
 #. event 01 (use (talk)), after "I know. I'm just asking you. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "I know. I'm just asking you. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I know. I'm just asking you. "
 msgctxt "bark 041C:0B4A"
 msgid "Fine then, you've no need to ask me your tiresome questions. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I am a stranger here. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "I am a stranger here. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I am a stranger here. "
@@ -178,6 +186,11 @@ msgctxt "bark 041C:0ED9"
 msgid "I am Vardion, First Acolyte of Sorcerer's Enclave. Keep this in mind, and we'll have no strife. "
 msgstr ""
 
+#. event 01 (use (talk)), after "Who are you? " or "What do you do? "
+msgctxt "ask 041C"
+msgid "What is an Acolyte? "
+msgstr ""
+
 #. event 01 (use (talk)), after "Tell me about Sorcerers. "
 msgctxt "bark 041C:102D"
 msgid "Sorcerers are practitioners of the element of Fire. We are not to be trifled with. "
@@ -205,18 +218,22 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Old ways? "
 msgctxt "ask 041C"
-msgid "Who is the Lord of Flame? "
+msgid "What rituals and ceremonies? "
 msgstr ""
 
-#. event 01 (use (talk)), after "What is an Acolyte? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Old ways? "
 msgctxt "ask 041C"
-msgid "What is an Acolyte? "
+msgid "Who is the Lord of Flame? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What is an Acolyte? "
 msgctxt "bark 041C:1353"
 msgid "Acolytes are chosen from amongst the Disciples to assist the Master in the old ways. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is an Acolyte? "
+msgctxt "ask 041C"
+msgid "What is a Disciple? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What is an Acolyte? "
@@ -236,6 +253,16 @@ msgstr ""
 
 #. event 01 (use (talk)), after "First Acolyte. What is that? "
 msgctxt "ask 041C"
+msgid "You have dealings with Tenebrae? "
+msgstr ""
+
+#. event 01 (use (talk)), after "First Acolyte. What is that? "
+msgctxt "ask 041C"
+msgid "What does the Master research? "
+msgstr ""
+
+#. event 01 (use (talk)), after "First Acolyte. What is that? "
+msgctxt "ask 041C"
 msgid "Spellcraft? Tell me more of this. "
 msgstr ""
 
@@ -246,13 +273,27 @@ msgstr ""
 
 #. event 01 (use (talk)), after "What is an element? "
 msgctxt "ask 041C"
-msgid "I come from another world. "
+msgid "You don't want to know. "
 msgstr ""
 
-#. event 01 (use (talk)), after "You don't want to know. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "What is an element? "
 msgctxt "ask 041C"
-msgid "You don't want to know. "
+msgid "Far away. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is an element? "
+msgctxt "ask 041C"
+msgid "The other side of the island. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is an element? "
+msgctxt "ask 041C"
+msgid "I sailed from another island. "
+msgstr ""
+
+#. event 01 (use (talk)), after "What is an element? "
+msgctxt "ask 041C"
+msgid "I come from another world. "
 msgstr ""
 
 #. event 01 (use (talk)), after "You don't want to know. "
@@ -281,20 +322,8 @@ msgid "Fine then, but I will remember this. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Far away. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "Far away. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Far away. "
 msgctxt "bark 041C:199E"
 msgid "That I can believe. Go on. "
-msgstr ""
-
-#. event 01 (use (talk)), after "The other side of the island. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "The other side of the island. "
 msgstr ""
 
 #. event 01 (use (talk)), after "The other side of the island. "
@@ -310,12 +339,6 @@ msgstr ""
 #. event 01 (use (talk)), after "The other side of the island. "
 msgctxt "bark 041C:1AB9"
 msgid "How am I to trust you if you keep attempting to deceive me. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I sailed from another island. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "I sailed from another island. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I sailed from another island. "
@@ -360,25 +383,22 @@ msgstr ""
 
 #. event 01 (use (talk)), after "I come from another world. "
 msgctxt "ask 041C"
-msgid "Who was your grandmother? "
-msgstr ""
-
-#. event 01 (use (talk)), after "Did she die? "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
 msgid "Did she die? "
 msgstr ""
 
-#. event 01 (use (talk)), after "What happened to her? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "I come from another world. "
 msgctxt "ask 041C"
 msgid "What happened to her? "
 msgstr ""
 
-#. event 01 (use (talk)), after "Where is she now? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "I come from another world. "
 msgctxt "ask 041C"
 msgid "Where is she now? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I come from another world. "
+msgctxt "ask 041C"
+msgid "Who was your grandmother? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Who was your grandmother? "
@@ -471,13 +491,12 @@ msgstr ""
 
 #. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "ask 041C"
-msgid "Perhaps. "
+msgid "I don't think so. "
 msgstr ""
 
-#. event 01 (use (talk)), after "I don't think so. " or "Perhaps. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Who was your grandmother? "
 msgctxt "ask 041C"
-msgid "I don't think so. "
+msgid "Perhaps. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I don't think so. " or "Perhaps. "
@@ -487,24 +506,22 @@ msgstr ""
 
 #. event 01 (use (talk)), after "I don't think so. " or "Perhaps. "
 msgctxt "ask 041C"
-msgid "I cannot say. "
+msgid "Earth. "
 msgstr ""
 
-#. event 01 (use (talk)), after "Earth. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "I don't think so. " or "Perhaps. "
 msgctxt "ask 041C"
-msgid "Earth. "
+msgid "Britannia. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't think so. " or "Perhaps. "
+msgctxt "ask 041C"
+msgid "I cannot say. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Earth. "
 msgctxt "bark 041C:21F8"
 msgid "How curious. Your world is named after one of the elements. This Earth must be a dark place indeed, filled with death. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Britannia. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "Britannia. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Britannia. "
@@ -527,15 +544,24 @@ msgctxt "bark 041C:23E9"
 msgid "The elements number four: Earth, Water, Air, and Fire. And each has a power intrinsic to it. "
 msgstr ""
 
+#. event 01 (use (talk)), after "I cannot say. "
+msgctxt "ask 041C"
+msgid "Tell me more of Earth. "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot say. "
+msgctxt "ask 041C"
+msgid "What can you say of Water? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I cannot say. "
+msgctxt "ask 041C"
+msgid "I wish to know about Air. "
+msgstr ""
+
 #. event 01 (use (talk)), after "Must you treat me like a child? "
 msgctxt "bark 041C:2552"
 msgid "While you are in my Enclave, I will treat you however I please. But in truth I seek only to give warning to those uninitiated in our ways. "
-msgstr ""
-
-#. event 01 (use (talk)), after "What rituals and ceremonies? "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "What rituals and ceremonies? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What rituals and ceremonies? "
@@ -554,12 +580,6 @@ msgid "Father of Daemons? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What is a Disciple? "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "What is a Disciple? "
-msgstr ""
-
-#. event 01 (use (talk)), after "What is a Disciple? "
 msgctxt "bark 041C:283B"
 msgid "A Disciple is a Sorcerer who has not been made an Acolyte. "
 msgstr ""
@@ -570,25 +590,18 @@ msgid "Master Malchir is the leader of our Enclave, but do not bother him with i
 msgstr ""
 
 #. event 01 (use (talk)), after "You have dealings with Tenebrae? "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "You have dealings with Tenebrae? "
-msgstr ""
-
-#. event 01 (use (talk)), after "You have dealings with Tenebrae? "
 msgctxt "bark 041C:2B17"
 msgid "Of course, dullard. Do you think we have the time to grow our own food? Make our own clothing? Craft our own buildings? We give Tenebrae the sure knowledge that the Lord of Flame will remain bound and that the volcano will remain dormant. In return they free us from the necessity of handling our more basic needs. "
 msgstr ""
 
 #. event 01 (use (talk)), after "You have dealings with Tenebrae? "
 msgctxt "ask 041C"
-msgid "Shrewd bargaining on both sides. "
+msgid "You extort from the Tenebraens. "
 msgstr ""
 
-#. event 01 (use (talk)), after "What does the Master research? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "You have dealings with Tenebrae? "
 msgctxt "ask 041C"
-msgid "What does the Master research? "
+msgid "Shrewd bargaining on both sides. "
 msgstr ""
 
 #. event 01 (use (talk)), after "What does the Master research? "
@@ -612,12 +625,6 @@ msgid "Spells are our means of releasing and controlling the power of Fire. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Tell me more of Earth. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "Tell me more of Earth. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Tell me more of Earth. "
 msgctxt "bark 041C:2FB5"
 msgid "Earth is useful to Fire. It forms the channels through which Fire flows and provides the fuel by which it burns. The Mountain King and Lord of Flame have almost no conflict of wills. "
 msgstr ""
@@ -628,12 +635,6 @@ msgid "Tell me of the Mountain King? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What can you say of Water? "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "What can you say of Water? "
-msgstr ""
-
-#. event 01 (use (talk)), after "What can you say of Water? "
 msgctxt "bark 041C:30E8"
 msgid "That element is anathema to Fire as the Lurker is the nemesis of the Lord of Flame. "
 msgstr ""
@@ -641,12 +642,6 @@ msgstr ""
 #. event 01 (use (talk)), after "What can you say of Water? "
 msgctxt "ask 041C"
 msgid "Tell me of the Lurker? "
-msgstr ""
-
-#. event 01 (use (talk)), after "I wish to know about Air. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "I wish to know about Air. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I wish to know about Air. "
@@ -661,18 +656,22 @@ msgstr ""
 
 #. event 01 (use (talk)), after "I wish to know about Air. "
 msgctxt "ask 041C"
+msgid "Hydros, who is that? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I wish to know about Air. "
+msgctxt "ask 041C"
+msgid "Who would Lithos be? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I wish to know about Air. "
+msgctxt "ask 041C"
 msgid "Tell me more of Stratos. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Father of Daemons? "
 msgctxt "bark 041C:3387"
 msgid "Yes. All Daemons owe allegiance to Pyros for they are born when a life is ended in flames. "
-msgstr ""
-
-#. event 01 (use (talk)), after "You extort from the Tenebraens. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "You extort from the Tenebraens. "
 msgstr ""
 
 #. event 01 (use (talk)), after "You extort from the Tenebraens. "
@@ -688,6 +687,21 @@ msgstr ""
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "bark 041C:3669"
 msgid "Excellent! I will personally see to your tutoring... that is after you perform one small service for me. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
+msgctxt "ask 041C"
+msgid "And what might that be? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
+msgctxt "ask 041C"
+msgid "I see. You need a lackey. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
+msgctxt "ask 041C"
+msgid "Wait. I only said I was intrigued. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
@@ -708,6 +722,11 @@ msgstr ""
 #. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
 msgctxt "bark 041C:38A9"
 msgid "So you have said before. Have you reconsidered your decision not to assist me? Will you seek the knowledge I wish? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Shrewd bargaining on both sides. "
+msgctxt "ask 041C"
+msgid "I am sorry, but I must decline. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Tell me of the Mountain King? "
@@ -736,20 +755,8 @@ msgid "Pyros is the name of the Lord of Flame, Titan of Fire. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Hydros, who is that? "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "Hydros, who is that? "
-msgstr ""
-
-#. event 01 (use (talk)), after "Hydros, who is that? "
 msgctxt "bark 041C:3DD3"
 msgid "That accursed name belongs to the Lurker, Titan of Water. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Who would Lithos be? "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "Who would Lithos be? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Who would Lithos be? "
@@ -762,10 +769,19 @@ msgctxt "bark 041C:3FB5"
 msgid "She is the Titan of Air and is followed by the Order of Enlightment. A group of misguided mages, called Theurgists, led by a blind, old man. "
 msgstr ""
 
-#. event 01 (use (talk)), after "And what might that be? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Tell me more of Stratos. "
 msgctxt "ask 041C"
-msgid "And what might that be? "
+msgid "Order of Enlightment? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me more of Stratos. "
+msgctxt "ask 041C"
+msgid "What do you know of Theurgists? "
+msgstr ""
+
+#. event 01 (use (talk)), after "Tell me more of Stratos. "
+msgctxt "ask 041C"
+msgid "Tell me of this 'blind, old man.' "
 msgstr ""
 
 #. event 01 (use (talk)), after "And what might that be? "
@@ -774,20 +790,8 @@ msgid "I will tell you only once a deal has been struck. Fear not. I won't make 
 msgstr ""
 
 #. event 01 (use (talk)), after "I see. You need a lackey. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "I see. You need a lackey. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I see. You need a lackey. "
 msgctxt "bark 041C:423A"
 msgid "I have no need of a lackey. The task I require to be fulfilled will take skill and guile. And if you think of yourself as a lackey, I have no need of you. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Wait. I only said I was intrigued. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "Wait. I only said I was intrigued. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Wait. I only said I was intrigued. "
@@ -811,12 +815,6 @@ msgid "Naught but that they provide a service to the people by keeping the storm
 msgstr ""
 
 #. event 01 (use (talk)), after "Order of Enlightment? "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "Order of Enlightment? "
-msgstr ""
-
-#. event 01 (use (talk)), after "Order of Enlightment? "
 msgctxt "bark 041C:4699"
 msgid "They style themselves as a religious order, following their Mystic Voice. "
 msgstr ""
@@ -827,31 +825,13 @@ msgid "What is this Mystic Voice? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What do you know of Theurgists? "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "What do you know of Theurgists? "
-msgstr ""
-
-#. event 01 (use (talk)), after "What do you know of Theurgists? "
 msgctxt "bark 041C:47D3"
 msgid "They practice healing arts and it is said that their leader can even bring the dead back to life. All in all, they are a coven of weak fools afraid to die for a cause. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Tell me of this 'blind, old man.' "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "Tell me of this 'blind, old man.' "
-msgstr ""
-
-#. event 01 (use (talk)), after "Tell me of this 'blind, old man.' "
 msgctxt "bark 041C:48F8"
 msgid "Stellos is his name and some say he's lived forever. I must give credit to this rumor, for he was an old man when I was a boy, and he hasn't changed a bit as I've become a man. "
-msgstr ""
-
-#. event 01 (use (talk)), after "Yes, I am prepared. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "Yes, I am prepared. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Yes, I am prepared. "
@@ -885,14 +865,13 @@ msgid "The possibility of losing control of the Lord of Flame will vastly increa
 msgstr ""
 
 #. event 01 (use (talk)), after "Let me think on it more. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "Let me think on it more. "
+msgctxt "bark 041C:4EF3"
+msgid "You will not! I will have my answer now. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Let me think on it more. "
-msgctxt "bark 041C:4EF3"
-msgid "You will not! I will have my answer now. "
+msgctxt "ask 041C"
+msgid "I cannot accept an unknown task. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Let me think on it more. "
@@ -921,20 +900,8 @@ msgid "It is the alias of Stratos. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I cannot accept an unknown task. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "I cannot accept an unknown task. "
-msgstr ""
-
-#. event 01 (use (talk)), after "I cannot accept an unknown task. "
 msgctxt "bark 041C:52C7"
 msgid "I can understand your qualms, but put them to rest. I only seek a specific piece of information. Will you aid me? "
-msgstr ""
-
-#. event 01 (use (talk)), after "I am sorry, but I must decline. "
-#. answer compared by the conversation code
-msgctxt "ask 041C"
-msgid "I am sorry, but I must decline. "
 msgstr ""
 
 #. event 01 (use (talk)), after "I am sorry, but I must decline. "

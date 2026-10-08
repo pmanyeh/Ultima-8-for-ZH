@@ -10,57 +10,92 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 4
 msgctxt "bark 04A7:020F"
 msgid "Foolish one. You have journeyed far to come to your death in this place. I can only assume that you were the idiot who sent torrents of water flowing through this cavern. And I suppose you were unaware that this chamber is our first deterrent against possible incursions from the outside world. You will die for your ignorance, knave! "
-msgstr ""
+msgstr "蠢貨。你千里迢迢來到這裡送死。我只能推測，就是你這個白痴讓大水灌進這個洞穴的。我想你也不知道，這個洞室是我們防範外界入侵的第一道屏障。你會為你的無知送命，無賴！"
 
+# P13 batch 4
 msgctxt "bark 04A7:02C3"
 msgid "I can only assume that by your presence here that you were the fool who caused torrents of water to come flowing through this chamber. "
-msgstr ""
+msgstr "看你出現在這裡，我只能推測，就是你這個蠢貨讓大水灌進這個洞室的。"
 
+# P13 batch 4
+msgctxt "ask 04A7"
+msgid "I did no such thing. "
+msgstr "我沒做那種事。"
+
+# P13 batch 4
+msgctxt "ask 04A7"
+msgid "You are the fool for your assumption. "
+msgstr "會這樣推測的你才是蠢貨。"
+
+# P13 batch 4
+msgctxt "ask 04A7"
+msgid "I am no fool, but I was the one. "
+msgstr "我不是蠢貨，但確實是我做的。"
+
+# P13 batch 4
 msgctxt "ask 04A7"
 msgid "I would be that fool. "
-msgstr ""
+msgstr "我就是那個蠢貨。"
 
+# P13 batch 4
 msgctxt "bark 04A7:042E"
 msgid "It does not matter, know that you are not welcome beyond this place. It is called the Mouth of the Daemon, and it rejects those it finds unworthy. No doubt you are without worth. "
-msgstr ""
+msgstr "無所謂，你要知道，這裡再過去不歡迎你。這裡叫做惡魔之口，它會拒絕它認為不配的人。你毫無疑問是不配的。"
 
+# P13 batch 4
 msgctxt "bark 04A7:05A0"
 msgid "I know not who you are, but you are quite resourceful to have come to this place. Welcome to the Mouth of the Daemon. This cavern was once the first test for those wishing to join the Sorcerer's Cabal. Someone... has rendered it mostly useless by directing an underground river this way. Quite a remarkable thing to do, don't you agree? "
-msgstr ""
+msgstr "我不知道你是誰，但你能來到這裡，可真是神通廣大。歡迎來到惡魔之口。這個洞穴曾是想加入巫師密謀會的人所面臨的第一道考驗。有人……把一條地下河引到這裡，讓它幾乎失去作用。這可真是了不起的事，你不覺得嗎？"
 
+# P13 batch 4
 msgctxt "ask 04A7"
-msgid "Thank you, I was the one. "
-msgstr ""
+msgid "Yes, quite. "
+msgstr "是啊，確實了不起。"
 
-#. , after "Are you insinuating that I did it? "
-#. answer compared by the conversation code
+# P13 batch 4
+msgctxt "ask 04A7"
+msgid "I wonder who could have done it. "
+msgstr "不知道是誰幹的。"
+
+# P13 batch 4
 msgctxt "ask 04A7"
 msgid "Are you insinuating that I did it? "
-msgstr ""
+msgstr "你是在暗示是我幹的嗎？"
 
+# P13 batch 4
+msgctxt "ask 04A7"
+msgid "Thank you, I was the one. "
+msgstr "謝謝，就是我做的。"
+
+# P13 batch 4
 #. , after "Thank you, I was the one. "
 msgctxt "bark 04A7:08FC"
 msgid "Of course not. Twould take more power than I believe you are capable of wielding.  Should you somehow find a way to fly to the point upon which I stand, you will soon find yourself in the home of the Sorcerers. I suggest that you seek out the Sorcerer known as Bane. She is quite knowledgable in our ways and might be persuaded to help you. "
-msgstr ""
+msgstr "當然不是。那需要的力量，我相信遠超過你所能駕馭的。如果你設法飛到我站的這個地方，很快就會來到巫師們的家園。我建議你去找一位名叫貝恩的巫師。她對我們的作風相當熟悉，或許能說服她幫你。"
 
+# P13 batch 4
 #. , after "Thank you, I was the one. "
 msgctxt "bark 04A7:08FC"
 msgid "An interesting solution to the first test of Sorcery. Perhaps, if you seek to enter into the Cabal, the Master will deem it proper that your next test be to restore this cavern to its prior functionality. Hmmmm?*  Should you somehow find a way to fly to the point upon which I stand, you will soon find yourself in the home of the Sorcerers. I suggest that you seek out the Sorcerer known as Bane. She is quite knowledgable in our ways and might be persuaded to help you. "
-msgstr ""
+msgstr "對巫術第一道考驗來說，這解法還真有意思。如果你想加入密謀會，也許大師會認為，你的下一道考驗應該是把這個洞穴恢復原狀。嗯？*如果你設法飛到我站的這個地方，很快就會來到巫師們的家園。我建議你去找一位名叫貝恩的巫師。她對我們的作風相當熟悉，或許能說服她幫你。"
 
+# P13 batch 4
 #. , after "Thank you, I was the one. "
 msgctxt "bark 04A7:08FC"
 msgid "No matter.  Should you somehow find a way to fly to the point upon which I stand, you will soon find yourself in the home of the Sorcerers. I suggest that you seek out the Sorcerer known as Bane. She is quite knowledgable in our ways and might be persuaded to help you. "
-msgstr ""
+msgstr "無所謂。如果你設法飛到我站的這個地方，很快就會來到巫師們的家園。我建議你去找一位名叫貝恩的巫師。她對我們的作風相當熟悉，或許能說服她幫你。"
 
+# P13 batch 4
 #. , after "Thank you, I was the one. "
 msgctxt "bark 04A7:091A"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 4
 #. , after "Thank you, I was the one. "
 msgctxt "bark 04A7:0C1F"
 msgid "Oh... I almost forgot to mention. Do be careful beyond this cavern. The Sorcerers there do not take kindly to insults, attitudes, or sometimes even posturing. Remember, you live at our pleasure when you are in our enclave. Fair warning. "
-msgstr ""
+msgstr "噢……我差點忘了提。過了這個洞穴之後務必小心。那裡的巫師可受不了侮辱、無禮，有時甚至連裝模作樣都受不了。記住，在我們的聚落裡，你的性命全憑我們高興。我可是先警告過你了。"

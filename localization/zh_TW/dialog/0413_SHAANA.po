@@ -109,6 +109,12 @@ msgstr "日安，陌生人。"
 # P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0413"
+msgid "Who are you? "
+msgstr "你是誰？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 0413"
 msgid "Nice axe. "
 msgstr "好斧頭。"
 
@@ -120,16 +126,15 @@ msgstr "再見。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
-#. answer compared by the conversation code
-msgctxt "ask 0413"
-msgid "Who are you? "
-msgstr "你是誰？"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 0413:0B09"
 msgid "Not that it is any of your concern, stranger, I am called Shaana. "
 msgstr "雖然這不關你的事，陌生人，我叫夏娜。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Who are you? "
+msgctxt "ask 0413"
+msgid "What do you do? "
+msgstr "你是做什麼的？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
@@ -164,15 +169,14 @@ msgstr "我剛才殺的那個人？你一定是個白痴，才會以為我知道
 # P13 batch 1
 #. event 01 (use (talk)), after "Who was the man I saw you kill? "
 msgctxt "ask 0413"
-msgid "I am simply curious. "
-msgstr "我只是好奇。"
+msgid "I am not. "
+msgstr "我沒有。"
 
 # P13 batch 1
-#. event 01 (use (talk)), after "What do you do? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Who was the man I saw you kill? "
 msgctxt "ask 0413"
-msgid "What do you do? "
-msgstr "你是做什麼的？"
+msgid "I am simply curious. "
+msgstr "我只是好奇。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "What do you do? "
@@ -182,16 +186,15 @@ msgstr "我想你是在開玩笑吧，看我這把劊子手的刀就知道，我
 
 # P13 batch 1
 #. event 01 (use (talk)), after "I am not. "
-#. answer compared by the conversation code
-msgctxt "ask 0413"
-msgid "I am not. "
-msgstr "我沒有。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "I am not. "
 msgctxt "bark 0413:10B9"
 msgid "Then by all means stop wasting my time. One would think you were employed by the scholar, the way you waste time with useless banter. "
 msgstr "那就請你別再浪費我的時間了。看你這樣說些沒用的廢話浪費時間，還以為你是那位學者僱來的。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "I am not. "
+msgctxt "ask 0413"
+msgid "Who is the scholar? "
+msgstr "那位學者是誰？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "I am not. "
@@ -213,13 +216,6 @@ msgstr "你錯了，陌生人。你在浪費的是我的時間。再會。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Who is the scholar? "
-#. answer compared by the conversation code
-msgctxt "ask 0413"
-msgid "Who is the scholar? "
-msgstr "那位學者是誰？"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Who is the scholar? "
 msgctxt "bark 0413:1517"
 msgid "If I am to be a source of information, I do not expect this to occupy too much of my time. The scholar, Bentic, is a rather long-winded individual who spends his days and nights buried in the pages of the many books he maintains. In fact, stranger, perhaps you should speak with him. His work -is- knowledge, after all, and I doubt the rest of us have time for this prattle. Then again, you seem the sort to be more interested in hearing rumors in a darkened tavern than the ramblings of a learned man. "
 msgstr "要我當你的消息來源，可別指望我花太多時間。那位學者叫班提克，是個說起話來沒完沒了的人，日日夜夜都埋首在他保管的那堆書裡。事實上，陌生人，也許你該去找他談談。畢竟知識就是他的工作，而我們其他人恐怕都沒空陪你閒扯。不過話說回來，你看起來更像是那種喜歡在昏暗酒館裡聽謠言，而不是聽學者長篇大論的人。"
@@ -227,15 +223,14 @@ msgstr "要我當你的消息來源，可別指望我花太多時間。那位學
 # P13 batch 1
 #. event 01 (use (talk)), after "Who is the scholar? "
 msgctxt "ask 0413"
-msgid "Where is the tavern? "
-msgstr "酒館在哪裡？"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Where is the scholar? "
-#. answer compared by the conversation code
-msgctxt "ask 0413"
 msgid "Where is the scholar? "
 msgstr "那位學者在哪裡？"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Who is the scholar? "
+msgctxt "ask 0413"
+msgid "Where is the tavern? "
+msgstr "酒館在哪裡？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Where is the scholar? "
@@ -258,6 +253,12 @@ msgstr "向我發誓，沒有正當理由就不會打擾他做研究，我就告
 # P13 batch 1
 #. event 01 (use (talk)), after "Who is this other? "
 msgctxt "ask 0413"
+msgid "Aye, I swear. "
+msgstr "好，我發誓。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Who is this other? "
+msgctxt "ask 0413"
 msgid "I swear nothing. "
 msgstr "我什麼也不發誓。"
 
@@ -272,13 +273,6 @@ msgstr "那我什麼也不說。"
 msgctxt "ask 0413"
 msgid "I apologize. I swear. "
 msgstr "抱歉。我發誓。"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Aye, I swear. "
-#. answer compared by the conversation code
-msgctxt "ask 0413"
-msgid "Aye, I swear. "
-msgstr "好，我發誓。"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Aye, I swear. "
@@ -314,6 +308,12 @@ msgstr "你對我們的文化知道得太少了，陌生人。我建議你改善
 # P13 batch 1
 #. event 01 (use (talk)), after "What pact? "
 msgctxt "ask 0413"
+msgid "Dead rising up? "
+msgstr "死者起來？"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "What pact? "
+msgctxt "ask 0413"
 msgid "The Mountain King? "
 msgstr "山之王？"
 
@@ -328,13 +328,6 @@ msgstr "那是利索斯應得的稱號，祂住在群山之中的大廳裡。不
 msgctxt "ask 0413"
 msgid "Which few? "
 msgstr "哪些人？"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Dead rising up? "
-#. answer compared by the conversation code
-msgctxt "ask 0413"
-msgid "Dead rising up? "
-msgstr "死者起來？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Dead rising up? "
@@ -514,8 +507,7 @@ msgid "Very well, stranger. You have a moment. What is it that you want? And I a
 msgstr "好吧，陌生人。我給你一點時間。你想要什麼？我想你總不會是來求我放下手邊差事的吧。"
 
 # P13 batch 1
-#. event 01 (use (talk)), after "What is your task? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Only a moment. "
 msgctxt "ask 0413"
 msgid "What is your task? "
 msgstr "你的差事是什麼？"
@@ -527,8 +519,7 @@ msgid "I think that you need not know such things. But let me assure you that no
 msgstr "我想你不需要知道這種事。不過我可以向你保證，我的人生並不全都圍繞著死亡打轉。大部分時候，有比無頭屍體有趣得多的東西可以研究。"
 
 # P13 batch 1
-#. event 01 (use (talk)), after "Only most of the time? " or "Yet you study other pursuits. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "What is your task? "
 msgctxt "ask 0413"
 msgid "Only most of the time? "
 msgstr "只是大部分時候？"
@@ -564,8 +555,7 @@ msgid "'Tis not right to let the body fall to The Lurker. It violates the pact, 
 msgstr "讓屍體落入潛伏者手中是不對的。那違反了契約，利索斯不太可能再容忍下去。"
 
 # P13 batch 1
-#. event 01 (use (talk)), after "Who is Lithos? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "With what do you disagree? "
 msgctxt "ask 0413"
 msgid "Who is Lithos? "
 msgstr "利索斯是誰？"

@@ -11,13 +11,11 @@ msgstr ""
 "Language: zh_TW\n"
 
 msgctxt "ask 057F"
-msgid "The tyrant Mordea has no birthright! "
+msgid "Devon is the rightful heir! "
 msgstr ""
 
-#. , after "Devon is the rightful heir! "
-#. answer compared by the conversation code
 msgctxt "ask 057F"
-msgid "Devon is the rightful heir! "
+msgid "The tyrant Mordea has no birthright! "
 msgstr ""
 
 #. , after "Devon is the rightful heir! "
@@ -75,6 +73,11 @@ msgctxt "bark 057F:043F"
 msgid "As you wish, my lady. "
 msgstr ""
 
+#. , after "Devon is the rightful heir! "
+msgctxt "ask 057F"
+msgid "I have proof! "
+msgstr ""
+
 #. , after "The tyrant Mordea has no birthright! "
 msgctxt "bark 057F:0649"
 msgid "You shall not blaspheme the Tempest! "
@@ -88,12 +91,6 @@ msgstr ""
 #. , after "The tyrant Mordea has no birthright! "
 msgctxt "bark 057F:06D7"
 msgid "I will rid us of this ill-mannered brute! "
-msgstr ""
-
-#. , after "I have proof! "
-#. answer compared by the conversation code
-msgctxt "ask 057F"
-msgid "I have proof! "
 msgstr ""
 
 #. , after "I have proof! "

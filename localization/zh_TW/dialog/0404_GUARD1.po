@@ -61,6 +61,18 @@ msgstr "啥！還有問題啊！"
 # P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0404"
+msgid "What is this city? "
+msgstr "這是什麼城市？"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 0404"
+msgid "Open the gate! "
+msgstr "開門！"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 0404"
 msgid "Bye "
 msgstr "再見"
 
@@ -70,6 +82,12 @@ msgstr "再見"
 msgctxt "ask 0404"
 msgid "I am {name}."
 msgstr "我是{name}。"
+
+# P13 batch 1
+#. event 01 (use (talk))
+msgctxt "ask 0404"
+msgid "I am the Avatar! "
+msgstr "我是聖者！"
 
 # P13 batch 1
 #. event 01 (use (talk))
@@ -102,12 +120,6 @@ msgid "Who might ya be? Ain't seen the likes of ya before in this here city. "
 msgstr "你又是哪位？在這城裡從沒見過你這號人物。"
 
 # P13 batch 1
-#. event 01 (use (talk)), after "What is your name? "
-msgctxt "ask 0404"
-msgid "I am the Avatar! "
-msgstr "我是聖者！"
-
-# P13 batch 1
 #. event 01 (use (talk)), after "I am the Avatar! "
 msgctxt "bark 0404:0671"
 msgid "The Avatar? Blimey, ya say it like ya think yer important or somethin'. "
@@ -120,8 +132,7 @@ msgid "Listen, bloke, if ya don't want to find yerself in the belly of the Lurke
 msgstr "聽好了，老兄，要是不想進潛伏者的肚子，你最好趕快改改你那口氣。"
 
 # P13 batch 1
-#. event 01 (use (talk)), after "The Lurker? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "I am the Avatar! "
 msgctxt "ask 0404"
 msgid "The Lurker? "
 msgstr "潛伏者？"
@@ -166,13 +177,6 @@ msgstr "還是說你根本沒注意到碼頭盡頭發生了啥事？俺勸你自
 
 # P13 batch 1
 #. event 01 (use (talk)), after "What is this city? "
-#. answer compared by the conversation code
-msgctxt "ask 0404"
-msgid "What is this city? "
-msgstr "這是什麼城市？"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "What is this city? "
 msgctxt "bark 0404:0AAA"
 msgid "What do ya mean, 'What is this city?' "
 msgstr "你說啥，「這是什麼城市」？"
@@ -200,13 +204,6 @@ msgstr "要是你連這是哪座城都不知道，那你就不該進這道城門
 msgctxt "bark 0404:0C2D"
 msgid "Everyone knows that it's Tenebrae, dolt! "
 msgstr "大家都知道這裡是泰尼伯瑞，笨蛋！"
-
-# P13 batch 1
-#. event 01 (use (talk)), after "Open the gate! "
-#. answer compared by the conversation code
-msgctxt "ask 0404"
-msgid "Open the gate! "
-msgstr "開門！"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Open the gate! "

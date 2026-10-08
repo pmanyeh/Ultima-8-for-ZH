@@ -158,15 +158,38 @@ msgstr "咱們有泰尼伯瑞麥酒，那是當然的；還有陳年黑酒、一
 # P13 batch 2
 #. event 11 (leaveFastArea)
 msgctxt "ask 040A"
-msgid "Nothing, thank you. "
-msgstr "不用了，謝謝。"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Tenebraen Ale "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
 msgid "Tenebraen Ale "
 msgstr "泰尼伯瑞麥酒"
+
+# P13 batch 2
+#. event 11 (leaveFastArea)
+msgctxt "ask 040A"
+msgid "Blackwine "
+msgstr "黑酒"
+
+# P13 batch 2
+#. event 11 (leaveFastArea)
+msgctxt "ask 040A"
+msgid "Hurricane "
+msgstr "颶風酒"
+
+# P13 batch 2
+#. event 11 (leaveFastArea)
+msgctxt "ask 040A"
+msgid "Breath o' Spirit "
+msgstr "靈息酒"
+
+# P13 batch 2
+#. event 11 (leaveFastArea)
+msgctxt "ask 040A"
+msgid "Cloven Hoof "
+msgstr "魔蹄酒"
+
+# P13 batch 2
+#. event 11 (leaveFastArea)
+msgctxt "ask 040A"
+msgid "Nothing, thank you. "
+msgstr "不用了，謝謝。"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Tenebraen Ale "
@@ -176,23 +199,9 @@ msgstr "兩枚黑曜石幣。就算賣兩倍價錢都算便宜！"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Blackwine "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "Blackwine "
-msgstr "黑酒"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Blackwine "
 msgctxt "bark 040A:0F46"
 msgid "Three obsidians, and ye'll not be disappointed. "
 msgstr "三枚黑曜石幣，包你不會失望。"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Hurricane "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "Hurricane "
-msgstr "颶風酒"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Hurricane "
@@ -202,23 +211,9 @@ msgstr "那就兩枚黑曜石幣。別的地方可找不到更便宜的了！"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Breath o' Spirit "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "Breath o' Spirit "
-msgstr "靈息酒"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Breath o' Spirit "
 msgctxt "bark 040A:106F"
 msgid "Two ladies, then. I haven't raised me prices in all the years I've been here, ye know. "
 msgstr "那就兩枚黑曜石幣。你知道嗎，我在這兒這麼多年，從來沒漲過價。"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Cloven Hoof "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "Cloven Hoof "
-msgstr "魔蹄酒"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Cloven Hoof "
@@ -237,6 +232,12 @@ msgstr "好吧，隨你便。"
 msgctxt "bark 040A:11AF"
 msgid "Oh, a quiet one. Well, suit yerself. "
 msgstr "喲，是個悶葫蘆。好吧，隨你便。"
+
+# P13 batch 2
+#. event 11 (leaveFastArea), after ""
+msgctxt "ask 040A"
+msgid "Here is the amount. "
+msgstr "錢在這裡。"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after ""
@@ -267,13 +268,6 @@ msgstr "好，就這麼辦。不過記住了，拖欠的帳我可是用鐵鉤來
 msgctxt "bark 040A:13A2"
 msgid "I can na' give ye yer drink with yer hands full. Put some of that down an' I'll be happy to serve ye! "
 msgstr "你兩手都滿了，我沒法把酒給你。先放下一些東西，我很樂意招待你！"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Here is the amount. "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "Here is the amount. "
-msgstr "錢在這裡。"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Here is the amount. "
@@ -315,15 +309,14 @@ msgstr "好，這樣你的帳就累積到{num}枚黑曜石幣了。要現在付�
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Put it on my tab. "
 msgctxt "ask 040A"
-msgid "No "
-msgstr "不要"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "Yes "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
 msgid "Yes "
 msgstr "好"
+
+# P13 batch 2
+#. event 11 (leaveFastArea), after "Put it on my tab. "
+msgctxt "ask 040A"
+msgid "No "
+msgstr "不要"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "Yes "
@@ -377,15 +370,14 @@ msgstr "你的帳已經累積到{num}了。你得先付清，我才能再招待�
 # P13 batch 2
 #. event 11 (leaveFastArea), after "No "
 msgctxt "ask 040A"
-msgid "Sorry, I won't pay. "
-msgstr "抱歉，我不付。"
-
-# P13 batch 2
-#. event 11 (leaveFastArea), after "All right, I'll pay. "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
 msgid "All right, I'll pay. "
 msgstr "好吧，我付。"
+
+# P13 batch 2
+#. event 11 (leaveFastArea), after "No "
+msgctxt "ask 040A"
+msgid "Sorry, I won't pay. "
+msgstr "抱歉，我不付。"
 
 # P13 batch 2
 #. event 11 (leaveFastArea), after "All right, I'll pay. "
@@ -416,6 +408,12 @@ msgstr "等你拿定主意，喊一聲就行。"
 msgctxt "ask 040A"
 msgid "Goodbye. "
 msgstr "再見。"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 040A"
+msgid "Tell me of your tales. "
+msgstr "說說你的故事。"
 
 # P13 batch 2
 #. event 01 (use (talk))
@@ -461,6 +459,18 @@ msgid "Greetings again {varF7}. Will ye be havin' another {call_0BCF}?"
 msgstr "又見面了，{varF7}。要再來一杯{call_0BCF}嗎？"
 
 # P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 040A"
+msgid "Yes, I believe so. "
+msgstr "好，我想是吧。"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 040A"
+msgid "No, I'm not thirsty. "
+msgstr "不，我不渴。"
+
+# P13 batch 2
 # P11 POC: dynamic strings (proposed terms, see authority.tsv)
 #. event 01 (use (talk))
 #. sentence template: keep the {placeholders}
@@ -498,6 +508,12 @@ msgstr "嗯，我看看。你一共欠{num}。要現在付清嗎？"
 # P13 batch 2
 #. event 01 (use (talk)), after "What is my tab? "
 msgctxt "ask 040A"
+msgid "I'll pay my tab. "
+msgstr "我要付帳。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What is my tab? "
+msgctxt "ask 040A"
 msgid "No, not now. "
 msgstr "不，現在不付。"
 
@@ -506,13 +522,6 @@ msgstr "不，現在不付。"
 msgctxt "bark 040A:224D"
 msgid "All right, but remember, I don't extend yer credit over 20 blacks. "
 msgstr "好吧，不過記住，賒帳最多只能到二十枚黑曜石幣。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "I'll pay my tab. "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "I'll pay my tab. "
-msgstr "我要付帳。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I'll pay my tab. "
@@ -579,13 +588,6 @@ msgstr "嘿，我是個酒保啊。要給你來一杯嗎？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "No, I'm not thirsty. "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "No, I'm not thirsty. "
-msgstr "不，我不渴。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "No, I'm not thirsty. "
 msgctxt "bark 040A:2871"
 msgid "Well, then, perhaps ye'd care to hear one of me tales. "
 msgstr "那麼，也許你會想聽聽我的故事。"
@@ -596,13 +598,6 @@ msgstr "那麼，也許你會想聽聽我的故事。"
 msgctxt "bark 040A:291B"
 msgid "It's just another way o' sayin' drink, {varF7}."
 msgstr "那只是「酒」的另一種說法啦，{varF7}。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Yes, I believe so. "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "Yes, I believe so. "
-msgstr "好，我想是吧。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I'll have a drink. "
@@ -636,16 +631,15 @@ msgstr "隨你便。不過你不知道自己錯過了什麼。我們這兒只賣
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me of your tales. "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "Tell me of your tales. "
-msgstr "說說你的故事。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Tell me of your tales. "
 msgctxt "bark 040A:2DCA"
 msgid "Aye, me bucco. I know a right frightful tale about a ghost that walks the hills above Tenebrae. Would ye like to hear that 'en? "
 msgstr "好啊，老弟。我知道一個挺嚇人的故事，說的是一個在泰尼伯瑞後山遊蕩的幽靈。想聽這個嗎？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Tell me of your tales. "
+msgctxt "ask 040A"
+msgid "That I would. "
+msgstr "我想聽。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me of your tales. "
@@ -662,14 +656,32 @@ msgstr "好啊，伙計，你真是個好傢伙。那麼，你想聽哪個故事
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me of your tales. "
 msgctxt "ask 040A"
+msgid "Tell me how you lost your eye. "
+msgstr "說說你是怎麼失去一隻眼睛的。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Tell me of your tales. "
+msgctxt "ask 040A"
 msgid "Tell me about your days at sea. "
 msgstr "說說你在海上的日子。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me of your tales. "
 msgctxt "ask 040A"
+msgid "Tell me about lost treasures. "
+msgstr "說說失落的寶藏。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Tell me of your tales. "
+msgctxt "ask 040A"
 msgid "Tell me how you lost your leg. "
 msgstr "說說你是怎麼失去一條腿的。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Tell me of your tales. "
+msgctxt "ask 040A"
+msgid "Tell me how you came to be at this inn. "
+msgstr "說說你是怎麼來到這間旅店的。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me of your tales. "
@@ -685,23 +697,9 @@ msgstr "好吧，隨你便。來杯酒怎麼樣？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "That I would. "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "That I would. "
-msgstr "我想聽。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "That I would. "
 msgctxt "bark 040A:35F0"
 msgid "Well, ye see, my great great great granpappy, John Blowhard spent most of his days on the sea. It is said that he came across the lost treasure of the ancient Kings. Gold, my friend, gold beyound yer wildest dreams. He brought that gold back here to Tenebrae with the idea of settling down and living out the rest of his life in comfort. Well, that was not to be, for he had no more found a comfortable place to live in, when the dreams began to plague him. Terrible nightmares, he'd have. Now, my great great great granpappy weren't afraid of nothing. He was the bravest man alive, but these dreams would wake him up screamin' and shakin' with fright. In his dreams, the ghosts of the ancient kings would visit him and demand their treasure back. Night after night these specters appeared, but my great great great granpappy wouldn't give up the treasure. One night, after a particularly frightful visit, he had an idea. He would take the treasure and hide it away where no one would ever find it. So he took a shovel and his treasure and disappeared into the hills ... never to be seen alive again. There're are some that say he is in those hills yet and can be seen patrolling the area where the treasure is hid. But no one yet has had the courage to find out."
 msgstr "是這樣的，我的曾曾曾祖父吹牛大王約翰，大半輩子都在海上度過。據說他找到了古代諸王失落的寶藏。黃金啊，朋友，多到你做夢都想不到的黃金。他把那些黃金帶回泰尼伯瑞，打算安頓下來，舒舒服服地過完下半輩子。可惜事與願違，他才剛找到舒適的住處，噩夢就開始纏上他了。好可怕的噩夢啊。我那曾曾曾祖父天不怕地不怕，是世上最勇敢的人，可這些夢卻讓他尖叫著驚醒、嚇得直發抖。在夢裡，古代諸王的鬼魂來找他，要他歸還寶藏。這些幽靈夜夜出現，但我那曾曾曾祖父就是不肯交出寶藏。有一晚，在一次特別嚇人的造訪之後，他想到一個主意：把寶藏藏到一個誰也找不到的地方。於是他扛起鏟子、帶著寶藏走進山裡……從此再也沒有人見過活著的他。有人說他至今仍在那片山裡，還能看見他在藏寶的地方巡邏。不過到現在，還沒有人有膽子去查個究竟。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Tell me how you lost your eye. "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "Tell me how you lost your eye. "
-msgstr "說說你是怎麼失去一隻眼睛的。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me how you lost your eye. "
@@ -738,13 +736,6 @@ msgstr "那時我已經旅行了好幾個禮拜。有一晚，我正準備紮營
 msgctxt "bark 040A:413B"
 msgid "(I didn't lose my eye. This is a fake patch I can actually see through.) "
 msgstr "（我的眼睛根本沒瞎。這是個假眼罩，其實看得穿。）"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Tell me about lost treasures. "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "Tell me about lost treasures. "
-msgstr "說說失落的寶藏。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me about lost treasures. "
@@ -889,13 +880,6 @@ msgstr "那可真是段好日子啊，伙計。啊，帶著鹹味的空氣，吹
 msgctxt "bark 040A:7286"
 msgid "(I've never been to sea. I have read about it, though, in books from Bentic's library.) "
 msgstr "（我從來沒出過海。不過我在班提克圖書館的書裡讀過。）"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Tell me how you came to be at this inn. "
-#. answer compared by the conversation code
-msgctxt "ask 040A"
-msgid "Tell me how you came to be at this inn. "
-msgstr "說說你是怎麼來到這間旅店的。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me how you came to be at this inn. "

@@ -55,15 +55,14 @@ msgstr "你好……"
 # P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 02C3"
-msgid "bye "
-msgstr "告辭"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "What is your name? "
-#. answer compared by the conversation code
-msgctxt "ask 02C3"
 msgid "What is your name? "
 msgstr "你叫什麼名字？"
+
+# P13 batch 4
+#. event 01 (use (talk))
+msgctxt "ask 02C3"
+msgid "bye "
+msgstr "告辭"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "What is your name? "
@@ -110,15 +109,14 @@ msgstr "打擾一下……"
 # P13 batch 4
 #. event 01 (use (talk)), after "bye "
 msgctxt "ask 02C3"
-msgid "bye. "
-msgstr "告辭。"
-
-# P13 batch 4
-#. event 01 (use (talk)), after "May I have a moment of your time? "
-#. answer compared by the conversation code
-msgctxt "ask 02C3"
 msgid "May I have a moment of your time? "
 msgstr "能耽誤你一點時間嗎？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "bye "
+msgctxt "ask 02C3"
+msgid "bye. "
+msgstr "告辭。"
 
 # P13 batch 4
 #. event 01 (use (talk)), after "May I have a moment of your time? "

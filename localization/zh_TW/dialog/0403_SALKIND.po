@@ -199,6 +199,12 @@ msgstr "等一下，薩金德……"
 # P13 batch 2
 #. event 01 (use (talk))
 msgctxt "ask 0403"
+msgid "May I ask your name? "
+msgstr "請問你的名字是？"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 0403"
 msgid "bye "
 msgstr "告辭"
 
@@ -229,6 +235,24 @@ msgstr "我沒空聽你胡扯。"
 # P13 batch 2
 #. event 01 (use (talk))
 msgctxt "ask 0403"
+msgid "Who is Lady Mordea? "
+msgstr "莫爾迪亞夫人是誰？"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 0403"
+msgid "What is a Tempest? "
+msgstr "風暴使者是什麼？"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 0403"
+msgid "What do you know about Bentic? "
+msgstr "你對班提克知道些什麼？"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 0403"
 msgid "What do you know about Devon? "
 msgstr "你對戴文知道些什麼？"
 
@@ -246,13 +270,6 @@ msgstr "你好。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "May I ask your name? "
-#. answer compared by the conversation code
-msgctxt "ask 0403"
-msgid "May I ask your name? "
-msgstr "請問你的名字是？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "May I ask your name? "
 msgctxt "bark 0403:12B9"
 msgid "Certainly, I am Salkind. And who might we be? "
 msgstr "當然，我是薩金德。那咱們又是哪位呢？"
@@ -264,22 +281,17 @@ msgctxt "ask 0403"
 msgid "I am {name}."
 msgstr "我是{name}。"
 
-#. event 01 (use (talk)), after "May I ask your name? "
-msgctxt "ask 0403"
-msgid "."
-msgstr ""
-
 # P13 batch 2
 #. event 01 (use (talk)), after "May I ask your name? "
 msgctxt "ask 0403"
 msgid "None of your concern. "
 msgstr "不關你的事。"
 
-# P13 batch 2
-#. event 01 (use (talk)), after "May I ask your name? "
+#. event 01 (use (talk)), after "."
+#. answer compared by the conversation code
 msgctxt "ask 0403"
-msgid "What do you know about Bentic? "
-msgstr "你對班提克知道些什麼？"
+msgid "."
+msgstr ""
 
 # P13 batch 2
 #. event 01 (use (talk)), after "."
@@ -328,8 +340,8 @@ msgstr "我是做什麼的？哎呀，咱們還真是個愛管閒事的小東西
 # P13 batch 2
 #. event 01 (use (talk)), after "What do you do? "
 msgctxt "ask 0403"
-msgid "Who is Lady Mordea? "
-msgstr "莫爾迪亞夫人是誰？"
+msgid "What is a seneschal? "
+msgstr "總管是什麼？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Who is Lady Mordea? "
@@ -345,13 +357,6 @@ msgstr "看來咱們根本沒好好學過禮貌。我絕不容忍這種無禮。
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What is a seneschal? "
-#. answer compared by the conversation code
-msgctxt "ask 0403"
-msgid "What is a seneschal? "
-msgstr "總管是什麼？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What is a seneschal? "
 msgctxt "bark 0403:19AE"
 msgid "Oh my, we aren't too up on titles are we? Yes, I am the seneschal. It is my duty to take care of running the day to day affairs of the city so that our Tempest, the Lady Mordea, can concentrate on more important things. "
 msgstr "哎呀，咱們對頭銜不太在行，是吧？沒錯，我就是總管。我的職責是打理這座城市的日常事務，好讓我們的風暴使者莫爾迪亞夫人能專心處理更重要的事。"
@@ -359,15 +364,14 @@ msgstr "哎呀，咱們對頭銜不太在行，是吧？沒錯，我就是總管
 # P13 batch 2
 #. event 01 (use (talk)), after "What is a seneschal? "
 msgctxt "ask 0403"
-msgid "What more important things? "
-msgstr "什麼更重要的事？"
+msgid "Tell me about Lady Mordea. "
+msgstr "說說莫爾迪亞夫人。"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "What is a Tempest? "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "What is a seneschal? "
 msgctxt "ask 0403"
-msgid "What is a Tempest? "
-msgstr "風暴使者是什麼？"
+msgid "What more important things? "
+msgstr "什麼更重要的事？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What is a Tempest? "
@@ -378,15 +382,14 @@ msgstr "你總該聽說過風暴使者吧？噢，我明白了，咱們只是來
 # P13 batch 2
 #. event 01 (use (talk)), after "What is a Tempest? "
 msgctxt "ask 0403"
-msgid "Who is Hydros? "
-msgstr "海德羅斯是誰？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What are the Tempest duties? "
-#. answer compared by the conversation code
-msgctxt "ask 0403"
 msgid "What are the Tempest duties? "
 msgstr "風暴使者的職責是什麼？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What is a Tempest? "
+msgctxt "ask 0403"
+msgid "Who is Hydros? "
+msgstr "海德羅斯是誰？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What are the Tempest duties? "
@@ -399,13 +402,6 @@ msgstr "咱們怎麼會不知道風暴使者呢？是咱們太忙了，還是腦
 msgctxt "bark 0403:1D6B"
 msgid "Ah, the great Water Titan, the Lurker. What ever title she goes by, she is the most powerful of the Titans. The Lady Mordea can use a bit of Hydro's power to control the weather and all things of water. "
 msgstr "啊，偉大的海洋泰坦，潛伏者。不論用哪個稱號稱呼她，她都是泰坦之中最強大的。莫爾迪亞夫人能運用海德羅斯的一小部分力量，控制天氣與一切和水有關的事物。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Tell me about Lady Mordea. "
-#. answer compared by the conversation code
-msgctxt "ask 0403"
-msgid "Tell me about Lady Mordea. "
-msgstr "說說莫爾迪亞夫人。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Tell me about Lady Mordea. "
@@ -464,15 +460,14 @@ msgstr "那個無賴！他在進行禁忌的研究。哼，真高興我們及時
 # P13 batch 2
 #. event 01 (use (talk)), after "What do you know about Bentic? "
 msgctxt "ask 0403"
-msgid "What is 'forbidden research'? "
-msgstr "什麼是「禁忌的研究」？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "You 'took care of him?' "
-#. answer compared by the conversation code
-msgctxt "ask 0403"
 msgid "You 'took care of him?' "
 msgstr "你們把他「處理掉」了？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What do you know about Bentic? "
+msgctxt "ask 0403"
+msgid "What is 'forbidden research'? "
+msgstr "什麼是「禁忌的研究」？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "You 'took care of him?' "
@@ -495,6 +490,12 @@ msgstr "是啊，在碼頭上。噢，這是最好的辦法。我們在碼頭上
 # P13 batch 2
 #. event 01 (use (talk)), after "Executed?! "
 msgctxt "ask 0403"
+msgid "What do you mean the 'best way'? "
+msgstr "你說「最好的辦法」是什麼意思？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Executed?! "
+msgctxt "ask 0403"
 msgid "What log book? "
 msgstr "什麼記事簿？"
 
@@ -503,13 +504,6 @@ msgstr "什麼記事簿？"
 msgctxt "bark 0403:29E9"
 msgid "Why, my log book. I have to keep records of these sorts of things, you know. Why, how else would we keep track of expenses and such? Lady Mordea requires a full accounting of these things. It's all part of the thankless job of the seneschal. But that's all right, just knowing that I've done my job to the best of my ability is all the reward I need. "
 msgstr "哎呀，就是我的記事簿嘛。你知道的，這類事情我都得留下紀錄。不然我們要怎麼掌握開銷之類的？莫爾迪亞夫人要求這些事都要有完整的帳目。這全是總管這份吃力不討好的工作的一部分。不過沒關係，只要知道自己已經盡力把工作做好，對我來說就是最好的回報了。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What do you mean the 'best way'? "
-#. answer compared by the conversation code
-msgctxt "ask 0403"
-msgid "What do you mean the 'best way'? "
-msgstr "你說「最好的辦法」是什麼意思？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What do you mean the 'best way'? "
@@ -550,15 +544,14 @@ msgstr "那麼，咱們學會禮貌了嗎？"
 # P13 batch 2
 #. event 01 (use (talk)), after "I would like to speak with you. "
 msgctxt "ask 0403"
-msgid "no "
-msgstr "沒有"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "yes, sir "
-#. answer compared by the conversation code
-msgctxt "ask 0403"
 msgid "yes, sir "
 msgstr "是的，大人"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "I would like to speak with you. "
+msgctxt "ask 0403"
+msgid "no "
+msgstr "沒有"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "yes, sir "

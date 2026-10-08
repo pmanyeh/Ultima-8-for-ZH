@@ -55,28 +55,32 @@ msgstr "太好了！我想你會發現我的護甲做工是最精良的。我有
 # P13 batch 2
 #. event 10 (enterFastArea)
 msgctxt "ask 0409"
-msgid "Shield "
-msgstr "盾牌"
-
-# P13 batch 2
-#. event 10 (enterFastArea), after "Leggings "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "Leggings "
 msgstr "護腿"
+
+# P13 batch 2
+#. event 10 (enterFastArea)
+msgctxt "ask 0409"
+msgid "Helmet "
+msgstr "頭盔"
+
+# P13 batch 2
+#. event 10 (enterFastArea)
+msgctxt "ask 0409"
+msgid "Arm guards "
+msgstr "護臂"
+
+# P13 batch 2
+#. event 10 (enterFastArea)
+msgctxt "ask 0409"
+msgid "Shield "
+msgstr "盾牌"
 
 # P13 batch 2
 #. event 10 (enterFastArea), after "Leggings "
 msgctxt "bark 0409:05CA"
 msgid "Very good! My leggings sell for 12 obsidian coins per pair. I'm sure that you'll find that quite a bargain considering their unmatched quality. "
 msgstr "很好！我的護腿一雙賣十二枚黑曜石幣。考慮到它們無與倫比的品質，我相信你會覺得很划算。"
-
-# P13 batch 2
-#. event 10 (enterFastArea), after "Arm guards "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "Arm guards "
-msgstr "護臂"
 
 # P13 batch 2
 #. event 10 (enterFastArea), after "Arm guards "
@@ -89,13 +93,6 @@ msgstr "好，我的護臂只要十一枚錢幣。"
 msgctxt "bark 0409:069E"
 msgid "So you are in need of a shield? Shields cost 12 Blacks. "
 msgstr "你需要盾牌嗎？盾牌十二枚黑曜石幣。"
-
-# P13 batch 2
-#. event 10 (enterFastArea), after "Helmet "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "Helmet "
-msgstr "頭盔"
 
 # P13 batch 2
 #. event 10 (enterFastArea), after "Helmet "
@@ -119,15 +116,14 @@ msgstr "隨你吧。"
 # P13 batch 2
 #. event 10 (enterFastArea), after "Nothing, thank you. "
 msgctxt "ask 0409"
-msgid "Never mind, thank you. "
-msgstr "算了，謝謝。"
-
-# P13 batch 2
-#. event 10 (enterFastArea), after "Here is the amount. "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "Here is the amount. "
 msgstr "錢在這裡。"
+
+# P13 batch 2
+#. event 10 (enterFastArea), after "Nothing, thank you. "
+msgctxt "ask 0409"
+msgid "Never mind, thank you. "
+msgstr "算了，謝謝。"
 
 # P13 batch 2
 #. event 10 (enterFastArea), after "Here is the amount. "
@@ -162,15 +158,38 @@ msgstr "好消息！我相信你會欣賞我武器的品質。你想要軍刀、
 # P13 batch 2
 #. event 10 (enterFastArea), after "Here is the amount. "
 msgctxt "ask 0409"
-msgid "Broadsword "
-msgstr "闊劍"
-
-# P13 batch 2
-#. event 10 (enterFastArea), after "Sabre "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "Sabre "
 msgstr "軍刀"
+
+# P13 batch 2
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "ask 0409"
+msgid "Scimitar "
+msgstr "彎刀"
+
+# P13 batch 2
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "ask 0409"
+msgid "Mace "
+msgstr "釘頭槌"
+
+# P13 batch 2
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "ask 0409"
+msgid "Dagger "
+msgstr "匕首"
+
+# P13 batch 2
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "ask 0409"
+msgid "Axe "
+msgstr "斧頭"
+
+# P13 batch 2
+#. event 10 (enterFastArea), after "Here is the amount. "
+msgctxt "ask 0409"
+msgid "Broadsword "
+msgstr "闊劍"
 
 # P13 batch 2
 #. event 10 (enterFastArea), after "Sabre "
@@ -180,23 +199,9 @@ msgstr "很好，一把軍刀只要七十五枚黑曜石幣。"
 
 # P13 batch 2
 #. event 10 (enterFastArea), after "Scimitar "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "Scimitar "
-msgstr "彎刀"
-
-# P13 batch 2
-#. event 10 (enterFastArea), after "Scimitar "
 msgctxt "bark 0409:0B81"
 msgid "A fine weapon. A scimiar will cost you 90 Blacks. "
 msgstr "好武器。一把彎刀九十枚黑曜石幣。"
-
-# P13 batch 2
-#. event 10 (enterFastArea), after "Mace "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "Mace "
-msgstr "釘頭槌"
 
 # P13 batch 2
 #. event 10 (enterFastArea), after "Mace "
@@ -206,23 +211,9 @@ msgstr "哎呀，你前頭一定有什麼粗重活要幹吧。我的釘頭槌只
 
 # P13 batch 2
 #. event 10 (enterFastArea), after "Dagger "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "Dagger "
-msgstr "匕首"
-
-# P13 batch 2
-#. event 10 (enterFastArea), after "Dagger "
 msgctxt "bark 0409:0C79"
 msgid "Something to keep in your boot, eh? A dagger is  but 5 coins. "
 msgstr "想在靴子裡藏點東西，是吧？一把匕首只要五枚錢幣。"
-
-# P13 batch 2
-#. event 10 (enterFastArea), after "Axe "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "Axe "
-msgstr "斧頭"
 
 # P13 batch 2
 #. event 10 (enterFastArea), after "Axe "
@@ -491,6 +482,12 @@ msgstr "聽好了，你要是想進「我的」地方，最好有禮貌一點。
 # P13 batch 2
 #. event 01 (use (talk))
 msgctxt "ask 0409"
+msgid "Yes, I'm sorry. "
+msgstr "是的，對不起。"
+
+# P13 batch 2
+#. event 01 (use (talk))
+msgctxt "ask 0409"
 msgid "Shove off, you windbag! "
 msgstr "滾開，你這個囉嗦鬼！"
 
@@ -544,6 +541,12 @@ msgid "Well, a new face in town. I am Korick, the smith here in Tenebrae. Have y
 msgstr "喲，城裡來了張新面孔。我是科里克，泰尼伯瑞的鐵匠。你是來買東西的嗎？"
 
 # P13 batch 2
+#. event 01 (use (talk)), after "Greetings to you. "
+msgctxt "ask 0409"
+msgid "A new face? "
+msgstr "新面孔？"
+
+# P13 batch 2
 #. event 01 (use (talk)), after "I'd like to buy something. "
 msgctxt "bark 0409:2734"
 msgid "I will be glad to sell you anything in my shop, but only when I am in it. Please stop by when I am there and I will be more than happy to help you. "
@@ -558,22 +561,14 @@ msgstr "太好了！你想買護甲還是武器？"
 # P13 batch 2
 #. event 01 (use (talk)), after "I'd like to buy something. "
 msgctxt "ask 0409"
-msgid "Weapons. "
-msgstr "武器。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Armor. "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "Armor. "
 msgstr "護甲。"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "Yes, I'm sorry. "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "I'd like to buy something. "
 msgctxt "ask 0409"
-msgid "Yes, I'm sorry. "
-msgstr "是的，對不起。"
+msgid "Weapons. "
+msgstr "武器。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Yes, I'm sorry. "
@@ -596,15 +591,14 @@ msgstr "噢對，我們剛才是在聊這個。聽著，你要是不想讓我知
 # P13 batch 2
 #. event 01 (use (talk)), after "Where I'm from. "
 msgctxt "ask 0409"
-msgid "Somewhere far away. "
-msgstr "很遠的地方。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "I'd rather not say. "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "I'd rather not say. "
 msgstr "我不想說。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Where I'm from. "
+msgctxt "ask 0409"
+msgid "Somewhere far away. "
+msgstr "很遠的地方。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I'd rather not say. "
@@ -626,16 +620,21 @@ msgstr "得了吧，我們又不是活在完美的世界裡。就我所知，你
 
 # P13 batch 2
 #. event 01 (use (talk)), after "A new face? "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "A new face? "
-msgstr "新面孔？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "A new face? "
 msgctxt "bark 0409:2CEA"
 msgid "You are certainly not from Tenebrae. Are from the country? "
 msgstr "你肯定不是泰尼伯瑞人。你是從鄉下來的嗎？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "A new face? "
+msgctxt "ask 0409"
+msgid "None of your business. "
+msgstr "不關你的事。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "A new face? "
+msgctxt "ask 0409"
+msgid "Not from Tenebrae. "
+msgstr "不是泰尼伯瑞人？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "A new face? "
@@ -645,16 +644,21 @@ msgstr "呃，鄉下。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Not from Tenebrae. "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "Not from Tenebrae. "
-msgstr "不是泰尼伯瑞人？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Not from Tenebrae. "
 msgctxt "bark 0409:2DFE"
 msgid "I may not be wealthy and important but I do believe that I know everyone in town and everything about this town. "
 msgstr "我或許不是什麼有錢有勢的人，但我相信城裡每個人我都認識，這座城的大小事我也都知道。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Not from Tenebrae. "
+msgctxt "ask 0409"
+msgid "You're not wealthy? "
+msgstr "你不是有錢人？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Not from Tenebrae. "
+msgctxt "ask 0409"
+msgid "You know everyone? "
+msgstr "你認識每個人？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Not from Tenebrae. "
@@ -689,21 +693,26 @@ msgstr "我很好，朋友。其實我今天完成了不少事。我得說，能
 # P13 batch 2
 #. event 01 (use (talk)), after "How are you, Korick? "
 msgctxt "ask 0409"
-msgid "You've got talented hands? "
-msgstr "你有一雙巧手？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What have you done? "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "What have you done? "
 msgstr "你做了些什麼？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "How are you, Korick? "
+msgctxt "ask 0409"
+msgid "You've got talented hands? "
+msgstr "你有一雙巧手？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What have you done? "
 msgctxt "bark 0409:342B"
 msgid "Oh nothing special. I have just had a productive day so far. I truly hate it when I have not had a productive day. If I do not accomplish something by the time I am ready to sleep, I feel that I have wasted a part of my life. We all must contribute, you know. "
 msgstr "噢，沒什麼特別的，只是到目前為止都過得很充實。我最討厭一天下來毫無成果。要是到了睡覺時還一事無成，我就覺得浪費了一部分人生。你知道的，我們都得有所貢獻。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What have you done? "
+msgctxt "ask 0409"
+msgid "I see that you like to work. "
+msgstr "看得出你喜歡工作。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What have you done? "
@@ -720,15 +729,14 @@ msgstr "我知道這麼說聽起來不太謙虛，但這「是」事實。再說
 # P13 batch 2
 #. event 01 (use (talk)), after "You've got talented hands? "
 msgctxt "ask 0409"
-msgid "Your talent with metal? "
-msgstr "你打造金屬的天分？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Creators? What creators? "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "Creators? What creators? "
 msgstr "造物者？什麼造物者？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "You've got talented hands? "
+msgctxt "ask 0409"
+msgid "Your talent with metal? "
+msgstr "你打造金屬的天分？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Creators? What creators? "
@@ -774,13 +782,6 @@ msgstr "是的，我一向很有打造金屬的天分。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I see that you like to work. "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "I see that you like to work. "
-msgstr "看得出你喜歡工作。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "I see that you like to work. "
 msgctxt "bark 0409:3B6D"
 msgid "Oh yes, my father taught me that you must work hard in order to be respected. No one respects a lazy person who does not carry their load. "
 msgstr "噢，是啊，我父親教我，要努力工作才會受人尊敬。沒有人會尊敬一個不盡本分的懶人。"
@@ -790,13 +791,6 @@ msgstr "噢，是啊，我父親教我，要努力工作才會受人尊敬。沒
 msgctxt "bark 0409:3CB1"
 msgid "Yes, we must all do our part in society. If we do not all pull our load, then others must take up the slack. When that happens, then unhappiness breeds and society will break down. Hard work keeps all of this from happening. "
 msgstr "是的，我們都得在社會上盡自己的一份力。如果大家不各盡其責，別人就得替你補上。一旦如此，不滿就會滋生，社會也會崩潰。辛勤工作能避免這一切發生。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "You're not wealthy? "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "You're not wealthy? "
-msgstr "你不是有錢人？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "You're not wealthy? "
@@ -819,15 +813,14 @@ msgstr "我是個簡單的人，擁有的足夠我在這世上過活。我最大
 # P13 batch 2
 #. event 01 (use (talk)), after "You never wanted riches? "
 msgctxt "ask 0409"
-msgid "A job well done. "
-msgstr "把工作做好。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "You have enough, eh? "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "You have enough, eh? "
 msgstr "你擁有的就夠了，是嗎？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "You never wanted riches? "
+msgctxt "ask 0409"
+msgid "A job well done. "
+msgstr "把工作做好。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "You have enough, eh? "
@@ -844,15 +837,14 @@ msgstr "對一個真正的工匠來說，最大的樂趣就是精進自己的手
 # P13 batch 2
 #. event 01 (use (talk)), after "A job well done. "
 msgctxt "ask 0409"
-msgid "How is the world changing? "
-msgstr "世界怎麼變了？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "You perfect your craft? "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "You perfect your craft? "
 msgstr "你在精進手藝？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "A job well done. "
+msgctxt "ask 0409"
+msgid "How is the world changing? "
+msgstr "世界怎麼變了？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "You perfect your craft? "
@@ -869,15 +861,14 @@ msgstr "是真的。以前人們彼此都很友善。你能相信嗎？不久前
 # P13 batch 2
 #. event 01 (use (talk)), after "How is the world changing? "
 msgctxt "ask 0409"
-msgid "People used to be friendly. "
-msgstr "以前人們很友善。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "What's a cutpurse? "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "What's a cutpurse? "
 msgstr "扒手是什麼？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "How is the world changing? "
+msgctxt "ask 0409"
+msgid "People used to be friendly. "
+msgstr "以前人們很友善。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "What's a cutpurse? "
@@ -888,15 +879,14 @@ msgstr "噢，抱歉。你真的不是本地人，是吧。扒手就是偷別人
 # P13 batch 2
 #. event 01 (use (talk)), after "What's a cutpurse? "
 msgctxt "ask 0409"
-msgid "A good thing you were there? "
-msgstr "幸好你在場？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "He attacked a lady? "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "He attacked a lady? "
 msgstr "他襲擊了一位女士？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "What's a cutpurse? "
+msgctxt "ask 0409"
+msgid "A good thing you were there? "
+msgstr "幸好你在場？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "He attacked a lady? "
@@ -925,15 +915,14 @@ msgstr "當然。城鎮巫師貝倫不知跑哪去了，所以我就親自收拾
 # P13 batch 2
 #. event 01 (use (talk)), after "You thrashed him? "
 msgctxt "ask 0409"
-msgid "Her Ladyship... do you mean Mordea? "
-msgstr "夫人……你是說莫爾迪亞？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "In jail, huh? "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
 msgid "In jail, huh? "
 msgstr "關在牢裡？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "You thrashed him? "
+msgctxt "ask 0409"
+msgid "Her Ladyship... do you mean Mordea? "
+msgstr "夫人……你是說莫爾迪亞？"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "In jail, huh? "
@@ -966,17 +955,28 @@ msgid "Well, I could never ply my trade in the country now, could I? There's not
 msgstr "這個嘛，我總不能在鄉下做我這行吧？鄉下需要鐵匠的人不夠多，撐不起我的生意。那麼，你是從哪裡來的？"
 
 # P13 batch 2
-#. event 01 (use (talk)), after "The Valley "
-#. answer compared by the conversation code
+#. event 01 (use (talk)), after "Why must you live in town? "
 msgctxt "ask 0409"
 msgid "The Valley "
 msgstr "山谷"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Why must you live in town? "
+msgctxt "ask 0409"
+msgid "Martin's Meadow "
+msgstr "馬丁草原"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "The Valley "
 msgctxt "bark 0409:4BDA"
 msgid "Strange, I've been there many times and I've never seen you. "
 msgstr "奇怪，我去過那裡很多次，從來沒見過你。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "The Valley "
+msgctxt "ask 0409"
+msgid "Many times "
+msgstr "很多次"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "The Valley "
@@ -992,13 +992,6 @@ msgstr "好吧，你要是不想告訴我，我能理解。每個人都有自己
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Many times "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "Many times "
-msgstr "很多次"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Many times "
 msgctxt "bark 0409:4E08"
 msgid "Yes, I have been there many, many times and the only people who have lived there for a very long time have been a herdsman and his wife. Frankly, I don't think that you're tellin' me the truth and I don't like that. I think that you'd better just leave here. "
 msgstr "是的，我去過那裡很多很多次，長久以來住在那裡的就只有一個牧民和他的妻子。老實說，我不認為你說的是實話，我不喜歡這樣。我看你最好還是離開這裡吧。"
@@ -1011,23 +1004,9 @@ msgstr "不，從來沒有。我不認為你說的是實話，我討厭被騙。
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Martin's Meadow "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "Martin's Meadow "
-msgstr "馬丁草原"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Martin's Meadow "
 msgctxt "bark 0409:5012"
 msgid "Martin's meadow? I've never heard of such a place. I think that you are lying to me and I don't have time to put up with that. I think that you ad better get goin'. "
 msgstr "馬丁草原？我從沒聽過這種地方。我看你是在騙我，我可沒時間陪你瞎扯。你最好趕快走吧。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "None of your business. "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "None of your business. "
-msgstr "不關你的事。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "None of your business. "
@@ -1067,13 +1046,6 @@ msgstr "再見，朋友。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "You know everyone? "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "You know everyone? "
-msgstr "你認識每個人？"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "You know everyone? "
 msgctxt "bark 0409:545F"
 msgid "Indeed I do. Everyone needs a smith now and then, you know. Those who are too high born to come into my shop personally are well known by everyone in town. Everyone else comes in here sooner or later. "
 msgstr "確實如此。你知道，每個人總有需要鐵匠的時候。那些出身太高貴、不屑親自上門的人，城裡人人都認得。其他人遲早都會來我這兒。"
@@ -1106,6 +1078,12 @@ msgstr "得了吧，朋友，我可不做白工。你要我幫你做東西，就
 # P13 batch 2
 #. event 01 (use (talk)), after "Umm, commission? "
 msgctxt "ask 0409"
+msgid "No, I want to make something in your shop. "
+msgstr "不，我想在你的店裡自己做點東西。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Umm, commission? "
+msgctxt "ask 0409"
 msgid "Sorry, forget about it. "
 msgstr "抱歉，當我沒說。"
 
@@ -1117,16 +1095,15 @@ msgstr "好吧，我奇怪的朋友，隨你高興。要是改變主意，歡迎
 
 # P13 batch 2
 #. event 01 (use (talk)), after "No, I want to make something in your shop. "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "No, I want to make something in your shop. "
-msgstr "不，我想在你的店裡自己做點東西。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "No, I want to make something in your shop. "
 msgctxt "bark 0409:58C4"
 msgid "My friend, what I do here may look like menial labor to some but what I do do is a craft. Shaping metals is more than simply banging away on an anvil. What I do takes a great deal of skill and practice. You can not simply walk in here and and make something. You must have skill and practice. "
 msgstr "朋友，我在這裡做的事，在某些人看來或許只是粗活，但這確實是一門手藝。打造金屬可不只是在鐵砧上敲敲打打而已，需要大量的技巧和練習。你不能就這麼走進來做東西，你得有技巧，還得經過練習。"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "No, I want to make something in your shop. "
+msgctxt "ask 0409"
+msgid "I -do- have experience in smithing. "
+msgstr "我「確實」有打鐵的經驗。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "No, I want to make something in your shop. "
@@ -1143,6 +1120,12 @@ msgstr "不，你才給我聽著！這是我的店，我絕不准「任何人」
 # P13 batch 2
 #. event 01 (use (talk)), after "Look, this is very damned important! "
 msgctxt "ask 0409"
+msgid "I'm sorry, Korick. I didn't mean to be so rude. "
+msgstr "對不起，科里克。我不是有意這麼無禮的。"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Look, this is very damned important! "
+msgctxt "ask 0409"
 msgid "Out of my way, peasant. I'm busy! "
 msgstr "讓開，鄉巴佬。我很忙！"
 
@@ -1154,16 +1137,15 @@ msgstr "在「我的」店裡，你可忙不了！"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I'm sorry, Korick. I didn't mean to be so rude. "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "I'm sorry, Korick. I didn't mean to be so rude. "
-msgstr "對不起，科里克。我不是有意這麼無禮的。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "I'm sorry, Korick. I didn't mean to be so rude. "
 msgctxt "bark 0409:5C4E"
 msgid "Your apology\tis accepted, my friend. There seems to be a great deal of pressure upon you. Would you like to talk about it? "
 msgstr "我接受你的道歉，朋友。你身上似乎背負著很大的壓力。想談談嗎？"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "I'm sorry, Korick. I didn't mean to be so rude. "
+msgctxt "ask 0409"
+msgid "Thanks, but I really need to make these items. "
+msgstr "謝謝，但我真的需要做出這些東西。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "I'm sorry, Korick. I didn't mean to be so rude. "
@@ -1191,13 +1173,6 @@ msgstr "我明白了。聽著，不管困擾你的是什麼，那都超出了我
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Thanks, but I really need to make these items. "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "Thanks, but I really need to make these items. "
-msgstr "謝謝，但我真的需要做出這些東西。"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "Thanks, but I really need to make these items. "
 msgctxt "bark 0409:5FE8"
 msgid "Well, I am not accustomed to letting people use my shop. Have you ever forged metal before? "
 msgstr "這個嘛，我不習慣讓別人用我的店。你以前鍛造過金屬嗎？"
@@ -1213,6 +1188,12 @@ msgstr "有，我曾經鍛造過一把非常強大的劍。"
 msgctxt "bark 0409:6153"
 msgid "Even so, you could not be as practiced as I am. This is my living, you know. How about this, what do you say that we make these things together? Would you like to do that? "
 msgstr "就算如此，你也不可能比我熟練。你知道，這可是我吃飯的本事。這樣吧，我們一起來做這些東西，你覺得怎麼樣？你願意嗎？"
+
+# P13 batch 4
+#. event 01 (use (talk)), after "Yes, I once forged a very mighty sword. "
+msgctxt "ask 0409"
+msgid "Yes, that would be fine. "
+msgstr "好，那樣很好。"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "Yes, I once forged a very mighty sword. "
@@ -1283,6 +1264,54 @@ msgstr "你需要哪一種法器？"
 # P13 batch 2
 #. event 01 (use (talk)), after "Make me a focus. "
 msgctxt "ask 0409"
+msgid "sextant "
+msgstr "六分儀"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "ask 0409"
+msgid "pointing hand "
+msgstr "指路之手"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "ask 0409"
+msgid "open hand "
+msgstr "開掌"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "ask 0409"
+msgid "bracer "
+msgstr "護腕"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "ask 0409"
+msgid "chain "
+msgstr "鎖鏈"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "ask 0409"
+msgid "fist "
+msgstr "拳頭"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "ask 0409"
+msgid "open eye "
+msgstr "睜眼"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "ask 0409"
+msgid "closed eye "
+msgstr "閉眼"
+
+# P13 batch 2
+#. event 01 (use (talk)), after "Make me a focus. "
+msgctxt "ask 0409"
 msgid "none "
 msgstr "都不要"
 
@@ -1291,62 +1320,6 @@ msgstr "都不要"
 msgctxt "bark 0409:6905"
 msgid "If you don't want a focus, don't ask me to make one! "
 msgstr "你不要法器，就別叫我做！"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "sextant "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "sextant "
-msgstr "六分儀"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "pointing hand "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "pointing hand "
-msgstr "指路之手"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "open hand "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "open hand "
-msgstr "開掌"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "bracer "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "bracer "
-msgstr "護腕"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "chain "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "chain "
-msgstr "鎖鏈"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "fist "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "fist "
-msgstr "拳頭"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "open eye "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "open eye "
-msgstr "睜眼"
-
-# P13 batch 2
-#. event 01 (use (talk)), after "closed eye "
-#. answer compared by the conversation code
-msgctxt "ask 0409"
-msgid "closed eye "
-msgstr "閉眼"
 
 # P13 batch 2
 #. event 01 (use (talk)), after "closed eye "
