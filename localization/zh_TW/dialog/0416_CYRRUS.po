@@ -10,789 +10,944 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0416:00B1"
 msgid "the late Cyrrus "
-msgstr ""
+msgstr "已故的席勒斯"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0416:00EE"
 msgid "Holy Cyrrus, the healer "
-msgstr ""
+msgstr "治療者聖席勒斯"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0416:0114"
 msgid "Cyrrus"
-msgstr ""
+msgstr "席勒斯"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0416:0139"
 msgid "monk "
-msgstr ""
+msgstr "修士"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0416:0156"
 msgid "man "
-msgstr ""
+msgstr "男人"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 0416:03DA"
 msgid "Aid me, Stratos! "
-msgstr ""
+msgstr "幫幫我，史特拉托斯！"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0579"
 msgid "What are you doing there...? "
-msgstr ""
+msgstr "你在那裡做什麼……？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:06A8"
 msgid "I must meditate! "
-msgstr ""
+msgstr "我必須冥想！"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0726"
 msgid "I feel refreshed now! "
-msgstr ""
+msgstr "我現在覺得神清氣爽！"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:08B2"
 msgid "Why are you still here? "
-msgstr ""
+msgstr "你怎麼還在這裡？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0915"
 msgid "Why are you here, stranger? "
-msgstr ""
+msgstr "你為什麼在這裡，陌生人？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:094B"
 msgid "Please, I'd like my privacy. "
-msgstr ""
+msgstr "拜託，我想要一點隱私。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:09C2"
 msgid "Are you here to rob me?! "
-msgstr ""
+msgstr "你是來搶劫我的嗎？！"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:09F7"
 msgid "Please, I need to be alone. "
-msgstr ""
+msgstr "拜託，我需要一個人靜一靜。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0A6E"
 msgid "What are you doing here? "
-msgstr ""
+msgstr "你在這裡做什麼？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0AA6"
 msgid "May I help you with something? "
-msgstr ""
+msgstr "有什麼我能幫忙的嗎？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0B35"
 msgid "I wonder if Torwin has supper plans? "
-msgstr ""
+msgstr "不知道托溫晚餐有沒有安排？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0B62"
 msgid "Gee, I miss Torwin. "
-msgstr ""
+msgstr "唉，我好想托溫。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0B89"
 msgid "Hmmmm... "
-msgstr ""
+msgstr "嗯……"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0BDE"
 msgid "I need to return to my studies. "
-msgstr ""
+msgstr "我得回去讀書了。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0C26"
 msgid "Perhaps I should travel home to Tenebrae. "
-msgstr ""
+msgstr "也許我該回泰尼伯瑞老家一趟。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0C7B"
 msgid "Then I could visit my true love, Jenna. "
-msgstr ""
+msgstr "這樣我就能去看我的真愛珍娜了。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0CE0"
 msgid "Curse these shoes. "
-msgstr ""
+msgstr "這雙該死的鞋。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0D38"
 msgid "I should tend to the garden. "
-msgstr ""
+msgstr "我該去照料花園了。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0D70"
 msgid "It is rather humid today. "
-msgstr ""
+msgstr "今天還真潮濕。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:0FD4"
 msgid "Do you require my assistance? "
-msgstr ""
+msgstr "你需要我幫忙嗎？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:103C"
 msgid "What do you need here, stranger? "
-msgstr ""
+msgstr "你來這裡需要什麼，陌生人？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:106A"
 msgid "What do you require? "
-msgstr ""
+msgstr "你需要什麼？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:10D7"
 msgid "Yes, stranger? "
-msgstr ""
+msgstr "什麼事，陌生人？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:10F5"
 msgid "Yes? "
-msgstr ""
+msgstr "什麼事？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:117D"
 msgid "I need to speak to the others. "
-msgstr ""
+msgstr "我得跟其他人談談。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:11B1"
 msgid "I need to speak to Torwin. "
-msgstr ""
+msgstr "我得跟托溫談談。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:11D5"
 msgid "Mmmmm "
-msgstr ""
+msgstr "嗯……"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:120E"
 msgid "I'm feeling a bit peckish. "
-msgstr ""
+msgstr "我有點餓了。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:124E"
 msgid "I should leave for Tenebrae soon. "
-msgstr ""
+msgstr "我應該盡快動身去泰尼伯瑞。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:1281"
 msgid "Blast these bunions. "
-msgstr ""
+msgstr "這些該死的拇趾外翻。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:12DB"
 msgid "I must remember to prune the garden. "
-msgstr ""
+msgstr "我得記得修剪花園。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:1307"
 msgid "Let me see... "
-msgstr ""
+msgstr "我看看……"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:1347"
 msgid "No, that's not it. "
-msgstr ""
+msgstr "不，不是這個。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:1625"
 msgid "Are you lost? "
-msgstr ""
+msgstr "你迷路了嗎？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:1683"
 msgid "Is it not lovely here? "
-msgstr ""
+msgstr "這裡很美吧？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:16BE"
 msgid "Do you want something, my friend? "
-msgstr ""
+msgstr "你需要什麼嗎，朋友？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:172D"
 msgid "Hello, stranger! "
-msgstr ""
+msgstr "你好，陌生人！"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:175A"
 msgid "Do you need something? "
-msgstr ""
+msgstr "你需要什麼嗎？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:179B"
 msgid "This is lovely, but I do miss Tenebrae. "
-msgstr ""
+msgstr "這裡很美，但我真的很想念泰尼伯瑞。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:180A"
 msgid "Are you in need? "
-msgstr ""
+msgstr "你需要幫忙嗎？"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:183B"
 msgid "I wish Jenna were here. "
-msgstr ""
+msgstr "真希望珍娜也在這裡。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:18B8"
 msgid "I wish I were in Tenebrae. "
-msgstr ""
+msgstr "真希望我在泰尼伯瑞。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:18DC"
 msgid "Ouch! "
-msgstr ""
+msgstr "好痛！"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:1907"
 msgid "Curse these insects! "
-msgstr ""
+msgstr "這些該死的蟲子！"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:195C"
 msgid "I should have brought my cloak. "
-msgstr ""
+msgstr "我應該帶斗篷來的。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:1991"
 msgid "Hummm, no birds today. "
-msgstr ""
+msgstr "嗯，今天沒有鳥。"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:19E5"
 msgid "The clouds are turning grey... "
-msgstr ""
+msgstr "雲變灰了……"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 0416:1A17"
 msgid "I think it's going to rain. "
-msgstr ""
+msgstr "我想要下雨了。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0416:1A5E"
 msgid "Pardon me. "
-msgstr ""
+msgstr "打擾一下。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "Hello, Cyrrus. "
-msgstr ""
+msgstr "你好，席勒斯。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "Hello. "
-msgstr ""
+msgstr "你好。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "I need healing. "
-msgstr ""
+msgstr "我需要治療。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "Have you passed the Test of Wisdom? "
-msgstr ""
+msgstr "你通過智慧考驗了嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "Is the Test of Centeredness difficult? "
-msgstr ""
+msgstr "專注考驗很難嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "I have passed the Tests of Wisdom and Centeredness. "
-msgstr ""
+msgstr "我通過智慧考驗和專注考驗了。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "I passed the Third Test. "
-msgstr ""
+msgstr "我通過第三考驗了。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "I have passed the Third Test and have my Foci. "
-msgstr ""
+msgstr "我通過第三考驗，也有了我的法器。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "Have you seen Torwin? "
-msgstr ""
+msgstr "你看到托溫了嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "I have heard the Mystic Voice. "
-msgstr ""
+msgstr "我聽見神秘之聲了。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "I found this ring. "
-msgstr ""
+msgstr "我找到了這枚戒指。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "I have the Breath of Wind. "
-msgstr ""
+msgstr "我拿到狂風之息了。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0416"
 msgid "Good day to you. "
-msgstr ""
+msgstr "祝你日安。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "bye "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "bye "
-msgstr ""
+msgstr "告辭"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Good day to you. "
 msgctxt "bark 0416:20A0"
 msgid "Welcome to our island. "
-msgstr ""
+msgstr "歡迎來到我們的島。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Good day to you. "
 msgctxt "ask 0416"
 msgid "What place is this? "
-msgstr ""
+msgstr "這是什麼地方？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Hello, Cyrrus. " or "Hello. "
 msgctxt "bark 0416:216D"
 msgid "Ah, hello my friend. I am pleased to see you. "
-msgstr ""
+msgstr "啊，你好，朋友。很高興見到你。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Hello, Cyrrus. " or "Hello. "
 msgctxt "ask 0416"
 msgid "Where are you from? "
-msgstr ""
+msgstr "你從哪裡來？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "By what are you called? "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "By what are you called? "
-msgstr ""
+msgstr "該怎麼稱呼你？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "By what are you called? "
 msgctxt "bark 0416:2239"
 msgid "I am called Holy Cyrrus but please, just call me Cyrrus. "
-msgstr ""
+msgstr "大家叫我聖席勒斯，不過請叫我席勒斯就好。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "By what are you called? "
 msgctxt "ask 0416"
 msgid "Holy Cyrrus? "
-msgstr ""
+msgstr "聖席勒斯？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I have heard the Mystic Voice. "
 msgctxt "bark 0416:2333"
 msgid "That is marvelous! You must be very excited. It is too bad that Torwin could not be here to share in your triumph... "
-msgstr ""
+msgstr "太了不起了！你一定很興奮。可惜托溫不能在這裡分享你的勝利……"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I need healing. "
 msgctxt "bark 0416:2406"
 msgid "I am sorry, but I do not have the strength to perform such a service. Come back later after I have rested. "
-msgstr ""
+msgstr "抱歉，我沒有力氣做這件事。等我休息過後再來吧。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I need healing. "
 msgctxt "bark 0416:245C"
 msgid "That is certainly no problem. "
-msgstr ""
+msgstr "那當然沒問題。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I need healing. "
 msgctxt "bark 0416:24B1"
 msgid "Please leave me now, I need to rest. "
-msgstr ""
+msgstr "現在請讓我一個人靜一靜，我需要休息。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Have you passed the Test of Wisdom? "
 msgctxt "bark 0416:256D"
 msgid "For certes. It is only the first step on the road to Enlightenment. It was not easy by any means. "
-msgstr ""
+msgstr "當然。那只是啟蒙之路的第一步，可一點也不容易。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Have you passed the Test of Wisdom? "
 msgctxt "ask 0416"
 msgid "Where did you get the answers? "
-msgstr ""
+msgstr "你從哪裡找到答案的？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "The Test of Centeredness was difficult? " or "Is the Test of Centeredness difficult? "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "The Test of Centeredness was difficult? "
-msgstr ""
+msgstr "專注考驗很難？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "The Test of Centeredness was difficult? " or "Is the Test of Centeredness difficult? "
 msgctxt "bark 0416:2738"
 msgid "Difficult? It was nearly the death of me! I fell at least five times. Fortunately Stratos saw fit to keep me and not send me to my death over the steep side. But, you'll see for yourself when you get there! "
-msgstr ""
+msgstr "難？我差點就死了！我至少摔了五次。幸好史特拉托斯決定留下我，沒讓我從陡坡摔下去送命。不過等你到了那裡，你就會親眼見識了！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I have passed the Tests of Wisdom and Centeredness. "
 msgctxt "bark 0416:28DD"
 msgid "You have? But you've just arrived on our island. I don't believe we've ever had anyone complete them this fast. Stratos will be so pleased with your accomplishments. Now you must find Stellos and begin on the next part of your journey. "
-msgstr ""
+msgstr "你通過了？可是你才剛來到我們島上。我想從來沒有人這麼快就完成。史特拉托斯一定會為你的成就感到高興。現在你必須去找史泰洛斯，開始你旅程的下一段。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I have passed the Third Test and have my Foci. "
 msgctxt "bark 0416:29A7"
 msgid "That is wonderful! You must be quite excited. "
-msgstr ""
+msgstr "太好了！你一定很興奮吧。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I have passed the Third Test and have my Foci. "
 msgctxt "bark 0416:2A35"
 msgid "I am sorry I can not celebrate with you, but a terrible thing has happened. Brother Xavier has lost one of his Foci. "
-msgstr ""
+msgstr "抱歉我不能跟你一起慶祝，因為發生了一件可怕的事。薩維爾修士弄丟了他的一個法器。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I have passed the Third Test and have my Foci. "
 msgctxt "ask 0416"
 msgid "How did it happen? "
-msgstr ""
+msgstr "怎麼發生的？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "How did it happen? "
 msgctxt "bark 0416:2B3C"
 msgid "It seems it was taken while he slept. I am sorry but I must be going. I have to help look for the missing Focus. "
-msgstr ""
+msgstr "好像是他睡覺時被拿走的。抱歉，我得走了。我得幫忙找那個不見的法器。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Have you seen Torwin? "
 msgctxt "bark 0416:2BC3"
 msgid "Why, no. And, may I add, what a cruel thing to ask! "
-msgstr ""
+msgstr "哎，沒有。而且容我說一句，問這種問題真殘忍！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Have you seen Torwin? "
 msgctxt "bark 0416:2BFF"
 msgid "No I have not. (yes I have) "
-msgstr ""
+msgstr "不，我沒看到。（其實我看到了）"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Have you seen Torwin? "
 msgctxt "ask 0416"
 msgid "Where is he? "
-msgstr ""
+msgstr "他在哪裡？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Have you seen Torwin? "
 msgctxt "bark 0416:2C75"
 msgid "No, I haven't seen him all day. "
-msgstr ""
+msgstr "沒有，我一整天都沒看到他。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Where is he? "
 msgctxt "bark 0416:2D33"
 msgid "I do not know. (He told me he was going to go to Windy Point today for something very important.) "
-msgstr ""
+msgstr "我不知道。（他跟我說他今天要去狂風角，辦一件非常重要的事。）"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Where is he? "
 msgctxt "bark 0416:2D75"
 msgid "I do not know. "
-msgstr ""
+msgstr "我不知道。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why are you covering up for him? "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "Why are you covering up for him? "
-msgstr ""
+msgstr "你為什麼要掩護他？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why are you covering up for him? "
 msgctxt "bark 0416:2E73"
 msgid "I am not covering for him! (I think he is the one who took the Focus. I don't think he meant any harm by it, though. He is not a mean-spirited person) "
-msgstr ""
+msgstr "我沒有掩護他！（我想拿走法器的就是他。不過我不認為他有惡意，他不是心術不正的人）"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why are you covering up for him? "
 msgctxt "bark 0416:2EE9"
 msgid "Pardon me? I am not covering up for him. That would go against all the teachings of Stratos. "
-msgstr ""
+msgstr "你說什麼？我沒有掩護他。那會違背史特拉托斯所有的教誨。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Holy Cyrrus? "
 msgctxt "bark 0416:2F96"
 msgid "That is the name given to me by Stellos. Everyone thinks it is a grand name. "
-msgstr ""
+msgstr "那是史泰洛斯給我取的名字。大家都覺得這名字很氣派。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Holy Cyrrus? "
 msgctxt "ask 0416"
 msgid "Everyone? "
-msgstr ""
+msgstr "大家？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "It is a grand name. "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "It is a grand name. "
-msgstr ""
+msgstr "這名字確實很氣派。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "It is a grand name. "
 msgctxt "bark 0416:3064"
 msgid "I am sure my father has bragged about it to everyone, including the torax! "
-msgstr ""
+msgstr "我敢說我父親已經跟每個人炫耀過了，連托拉克斯獸都沒放過！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "It is a grand name. "
 msgctxt "ask 0416"
 msgid "Your father is a herdsman? "
-msgstr ""
+msgstr "你父親是牧民？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Everyone? "
 msgctxt "bark 0416:311A"
 msgid "My mother and father, the others here... why, just everyone. "
-msgstr ""
+msgstr "我爸媽、這裡的其他人……哎，就是每個人。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Your father is a herdsman? "
 msgctxt "bark 0416:325A"
 msgid "Yes, and so I would be. It's birthing time back home. My favorite time of the year. Watching the beginning of a new life, helping that new life to stand... aahhh, it is one of greatest joys in my life. But that is all behind me now. "
-msgstr ""
+msgstr "是的，我本來也會是牧民。家鄉現在正是生小獸的季節，是我一年中最喜歡的時候。看著新生命的誕生，幫助那個新生命站起來……啊，那是我人生最大的樂趣之一。但那些都已經過去了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Where are you from? "
 msgctxt "bark 0416:3385"
 msgid "My home is in the hills of Tenebrae. Even Argent Rock with all its finery is but a pale shadow of the beauty of Tenebrae. The ocean, the hills, the people...I miss it so. "
-msgstr ""
+msgstr "我的家在泰尼伯瑞的山上。就算白銀之岩再怎麼華美，跟泰尼伯瑞的美景相比也黯然失色。大海、山丘、那裡的人……我好想念啊。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Where are you from? "
 msgctxt "ask 0416"
 msgid "Why are you here? "
-msgstr ""
+msgstr "你為什麼在這裡？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why are you here? "
 msgctxt "bark 0416:35BB"
 msgid "It was discovered when I was quite young that I had a talent for healing. My mother and father were so proud. They told everyone about their brilliant child who was going to heal the world. Then my sister was injured by a kith. No matter how I tried, my meager skills were no match for her injury. She died and I vowed it would never happen again. I left home and made my way here. I've been here ever since. "
-msgstr ""
+msgstr "我很小的時候，大家就發現我有治療的天分。我爸媽好驕傲，逢人就說他們有個將會治癒世界的聰明孩子。後來我妹妹被奇斯怪蛛弄傷了。不管我怎麼努力，我那點微薄的本事都治不好她的傷。她死了，我發誓這種事絕不再發生。我離開家，來到這裡，從此就一直待著。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You miss the people of Tenebrae? "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "You miss the people of Tenebrae? "
-msgstr ""
+msgstr "你想念泰尼伯瑞的人？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You miss the people of Tenebrae? "
 msgctxt "bark 0416:371A"
 msgid "It has been my home since birth. I miss the people. Darion with all his bluff and bluster, used to carry candy in his pocket for me. Bentic tutored both Jenna and I when we were young. Oh, my beloved Jenna. I try not to think of her, it pains me so. "
-msgstr ""
+msgstr "那是我從小生長的家。我想念那裡的人。總是虛張聲勢的達里恩，以前常在口袋裡放糖果給我。班提克在我們小時候教過珍娜和我讀書。噢，我心愛的珍娜。我盡量不去想她，因為一想就心痛。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You miss the people of Tenebrae? "
 msgctxt "ask 0416"
 msgid "Tell me of Darion. "
-msgstr ""
+msgstr "說說達里恩。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You miss the people of Tenebrae? "
 msgctxt "ask 0416"
 msgid "Bentic is dead. "
-msgstr ""
+msgstr "班提克死了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You miss the people of Tenebrae? "
 msgctxt "ask 0416"
 msgid "Tell me of Bentic. "
-msgstr ""
+msgstr "說說班提克。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Tell me of Bentic. "
 msgctxt "bark 0416:38AE"
 msgid "I miss him so. He is a kind and gentle man who's greatest loves in life are his books and his studies. He knows so much about so many things, he is fascinating to talk with. "
-msgstr ""
+msgstr "我好想他。他是個善良溫和的人，一生最愛的就是他的書和他的研究。他懂得好多好多事，跟他聊天很有意思。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Tell me of Darion. "
 msgctxt "bark 0416:3A71"
 msgid "He talked of the day I would join the guard. I told him many times I would be a herdsman like my father. 'Nonsense,' he would say, 'you're cut out to be a guard, you have the spirit for it.' I don't know why, the guard never does anything but hang around the castle hoping Aramina will bring them a sweet from the Tempest's table! He is Jenna's father, you know. "
-msgstr ""
+msgstr "他老是說我總有一天會加入衛隊。我跟他說過好多次，我要跟我父親一樣當牧民。他總是說：「胡說，你天生就是當衛兵的料，你有那股氣魄。」我不懂為什麼，衛隊除了在城堡附近閒晃、盼著阿拉米娜從風暴使者的餐桌上拿點甜點給他們之外，什麼事也沒做！你知道嗎，他是珍娜的父親。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Tell me of Darion. "
 msgctxt "ask 0416"
 msgid "Jenna's father? "
-msgstr ""
+msgstr "珍娜的父親？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Jenna's father? "
 msgctxt "bark 0416:3B38"
 msgid "Yes, and in my fondest dreams, he was to be my father- in-law, for I love Jenna so. "
-msgstr ""
+msgstr "是的，在我最美好的夢裡，他會是我的岳父，因為我好愛珍娜。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Bentic is dead. "
 msgctxt "bark 0416:3BE9"
 msgid "Oh no! Say it is not so! Oh dear! You bring me sad news of my home! Pray, how did this happen? "
-msgstr ""
+msgstr "噢不！告訴我這不是真的！天哪！你帶來了我家鄉的噩耗！請問，這是怎麼發生的？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Bentic is dead. "
 msgctxt "ask 0416"
 msgid "I know not "
-msgstr ""
+msgstr "我不知道"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I know not "
 msgctxt "bark 0416:3C9A"
 msgid "'Tis a sad day for me. Bentic was a dear friend. "
-msgstr ""
+msgstr "今天真是令我悲傷的一天。班提克是我親愛的朋友。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Mordea had him executed. "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "Mordea had him executed. "
-msgstr ""
+msgstr "莫爾迪亞處決了他。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Mordea had him executed. "
 msgctxt "bark 0416:3DAF"
 msgid "The Tempest? I knew she was a hard woman, but to execute someone as gentle and harmless as Bentic? What terrible thing did he do that would anger the Tempest so? "
-msgstr ""
+msgstr "風暴使者？我知道她是個冷酷的女人，可是竟然處決像班提克這麼溫和無害的人？他做了什麼可怕的事，讓風暴使者這麼生氣？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Mordea had him executed. "
 msgctxt "ask 0416"
 msgid "I do not know "
-msgstr ""
+msgstr "我不知道"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I do not know "
 msgctxt "bark 0416:3ECA"
 msgid "I cannot imagine what terrible wrong Bentic committed that would result in his death. He was a kind and good man. "
-msgstr ""
+msgstr "我無法想像班提克犯了什麼大錯才會落得一死。他是個善良的好人。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "He conducted forbidden research. "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "He conducted forbidden research. "
-msgstr ""
+msgstr "他進行了禁忌的研究。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "He conducted forbidden research. "
 msgctxt "bark 0416:3FBF"
 msgid "Research was what Bentic loved most. Ah, 'tis a sad day when good folks are executed for doing something which they love and brings harm to no one. "
-msgstr ""
+msgstr "研究是班提克最愛的事。唉，好人因為做了自己熱愛、又不傷害任何人的事而被處決，這真是悲哀的一天。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Tell me of Jenna. "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "Tell me of Jenna. "
-msgstr ""
+msgstr "說說珍娜。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Tell me of Jenna. "
 msgctxt "bark 0416:413A"
 msgid "Ah, you've met her, then. Isn't she a lovely creature? I have loved her from the moment I laid eyes on her. I always dreamed she would marry me and live with me in the hills, helping tend the torax. It is funny how things never work out like we expect. "
-msgstr ""
+msgstr "啊，那你見過她了。她很可愛吧？我從第一眼看到她就愛上她了。我一直夢想她會嫁給我，跟我一起住在山上，幫忙照顧托拉克斯獸。事情總是不如人意，說來也真好笑。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Tell me of Jenna. "
 msgctxt "bark 0416:41F0"
 msgid "She lives in Tenebrae. If you should travel there, stop in and see her. She is a lovely girl, so full of life. I would that I could marry her, but I cannot. "
-msgstr ""
+msgstr "她住在泰尼伯瑞。如果你去那裡，順道去看看她吧。她是個可愛的女孩，充滿活力。我真希望能娶她，可是我不能。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Tell me of Jenna. "
 msgctxt "ask 0416"
 msgid "Why not marry her? "
-msgstr ""
+msgstr "為什麼不能娶她？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why not marry her? "
 msgctxt "bark 0416:43D1"
 msgid "Look around you, my friend. There are few enough of us here on Argent Rock. Rare are those with the talent it takes to touch the power of Stratos and use it to heal. I am one of those few. To help the people of this land I must sacrifice that which I most dearly desire...to marry my beloved Jenna and live a simple herdsman's life in the hills above Tenebrae. "
-msgstr ""
+msgstr "看看你四周吧，朋友。我們在白銀之岩的人已經夠少了。有天分觸及史特拉托斯的力量並用來治療的人非常稀少，而我正是其中之一。為了幫助這片土地的人民，我必須犧牲我最渴望的事……娶我心愛的珍娜，在泰尼伯瑞的山上過著簡單的牧民生活。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What place is this? "
 msgctxt "bark 0416:4457"
 msgid "This is Argent Rock, home of the Theurgists. "
-msgstr ""
+msgstr "這裡是白銀之岩，神術師的家園。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What place is this? "
 msgctxt "ask 0416"
 msgid "Who are the Theurgists? "
-msgstr ""
+msgstr "神術師是什麼人？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Who are the Theurgists? "
 msgctxt "bark 0416:452E"
 msgid "Why we are the disciples of Stratos, the Great Titan of Air. We are healers. "
-msgstr ""
+msgstr "哎，我們就是偉大的天空泰坦史特拉托斯的門徒啊。我們是治療者。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I passed the Third Test. "
 msgctxt "bark 0416:4633"
 msgid "I have heard. This is certainly a great occasion. Now you are ready to attempt the greatest feat of your life...to reach out and touch the power that is Stratos. "
-msgstr ""
+msgstr "我聽說了。這真是個值得慶祝的時刻。現在你已經準備好挑戰你人生中最偉大的壯舉……伸出手，觸及史特拉托斯的力量。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I passed the Third Test. "
 msgctxt "ask 0416"
 msgid "The greatest feat? "
-msgstr ""
+msgstr "最偉大的壯舉？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Touch Stratos' power? "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "Touch Stratos' power? "
-msgstr ""
+msgstr "觸及史特拉托斯的力量？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Touch Stratos' power? "
 msgctxt "bark 0416:4766"
 msgid "The power that gives us the ability to heal people. It is a thrilling moment when you first touch the Titan. Certainly nothing you will ever forget. "
-msgstr ""
+msgstr "那股讓我們能治療人們的力量。第一次觸及泰坦時，那一刻令人激動不已，你絕對永生難忘。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "The greatest feat? "
 msgctxt "bark 0416:4800"
 msgid "You must go to Stellos. He will tell you how to reach Stratos. "
-msgstr ""
+msgstr "你必須去找史泰洛斯。他會告訴你怎麼找到史特拉托斯。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I have the Breath of Wind. "
 msgctxt "bark 0416:48C9"
 msgid "That explains it then. I felt a tremor in my link with Stratos, then it was broken. I am unable to heal. "
-msgstr ""
+msgstr "原來如此。我感覺到我與史特拉托斯的聯繫一陣震顫，接著就斷了。我無法治療了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I have the Breath of Wind. "
 msgctxt "ask 0416"
 msgid "You are unable to heal? "
-msgstr ""
+msgstr "你無法治療了？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You are unable to heal? "
 msgctxt "bark 0416:49F3"
 msgid "I hope that you use the Breath of Wind for a higher purpose, for it was taken at great sacrifice to the people of this land. It is a bitter sweet time for me. "
-msgstr ""
+msgstr "希望你是為了更崇高的目的使用狂風之息，因為拿走它，讓這片土地的人民付出了巨大的犧牲。對我來說，這是苦樂參半的時刻。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You are unable to heal? "
 msgctxt "ask 0416"
 msgid "Why bittersweet? "
-msgstr ""
+msgstr "為什麼苦樂參半？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why bittersweet? "
 msgctxt "bark 0416:4BCC"
 msgid "For if my link with Stratos is permanently broken then I can never heal the sick and injured of this land again. This would be a tragic thing for the people, however, it also would release me of my vow to Stratos, leaving me free to return to Tenebrae and marry my beloved Jenna. So while I mourn for the people, I thank you for giving my love to me. "
-msgstr ""
+msgstr "因為如果我與史特拉托斯的聯繫永遠斷了，我就再也無法醫治這片土地上的病患與傷者。這對人民來說是一場悲劇，但同時也解除了我對史特拉托斯的誓言，讓我能自由地回到泰尼伯瑞，娶我心愛的珍娜。所以，雖然我為人民哀悼，卻也感謝你把我的愛人還給了我。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Will you tell me the answers? "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "Will you tell me the answers? "
-msgstr ""
+msgstr "你能告訴我答案嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Will you tell me the answers? "
 msgctxt "bark 0416:4CB6"
 msgid "Certainly not. That is an unthinkable thing. You must find the answers yourself as have all those seeking Enlightenment before you have. "
-msgstr ""
+msgstr "當然不行。那是想都不能想的事。你必須自己找出答案，就像你之前所有追求啟蒙的人一樣。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Where did you get the answers? "
 msgctxt "bark 0416:4E18"
 msgid "From the library. Oh, the hours I spent in there pouring over the old texts until the candle I was using was burned to a nub. Yes, those were difficult days. But not as difficult as the Test of Centeredness. "
-msgstr ""
+msgstr "從圖書館。噢，我在那裡埋首古籍，一待就是好幾個鐘頭，直到蠟燭燒得只剩一小截。是啊，那段日子很辛苦，但還比不上專注考驗辛苦。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I found this ring. "
 msgctxt "bark 0416:4F7B"
 msgid "My goodness. That's Torwin's ring! Oh my, it belonged to his father. He showed it to everyone he met. Oh how terribly, terribly sad! You should take it to his mother. "
-msgstr ""
+msgstr "我的天哪。那是托溫的戒指！哎呀，那是他父親的遺物。他逢人就拿出來給人看。噢，真是太、太悲傷了！你應該把它交給他母親。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I found this ring. "
 msgctxt "ask 0416"
 msgid "I don't think I will. "
-msgstr ""
+msgstr "我想我不會。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I shall. "
 #. answer compared by the conversation code
 msgctxt "ask 0416"
 msgid "I shall. "
-msgstr ""
+msgstr "我會的。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I shall. "
 msgctxt "bark 0416:5053"
 msgid "I know she will be very happy. It is a kind thing you do. Give her my regards, will you? "
-msgstr ""
+msgstr "我知道她會很高興的。你真是好心。替我向她問好，好嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I don't think I will. "
 msgctxt "bark 0416:511C"
 msgid "Perhaps you are right. The shock and sadness might be too much for her. Still, I think it would be best to return it to her. "
-msgstr ""
+msgstr "也許你是對的。那種震驚和悲傷她可能承受不了。不過，我還是認為最好把它還給她。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "The Test of Centeredness was difficult? " or "Is the Test of Centeredness difficult? "
 msgctxt "bark 0416:5297"
 msgid "Difficult? It was nearly the death of me! I fell at least five times. Fortunately Stratos saw fit to keep me and not send me to my death over the steep side. But, you'll see for yourself when you get there! "
-msgstr ""
+msgstr "難？我差點就死了！我至少摔了五次。幸好史特拉托斯決定留下我，沒讓我從陡坡摔下去送命。不過等你到了那裡，你就會親眼見識了！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "bye "
 msgctxt "bark 0416:5329"
 msgid "Goodbye. "
-msgstr ""
+msgstr "再見。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "bye "
 msgctxt "bark 0416:53C4"
 msgid "Why is this wide open? "
-msgstr ""
+msgstr "這個怎麼大開著？"

@@ -10,152 +10,182 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0343:00ED"
 msgid "dead peasant "
-msgstr ""
+msgstr "死去的農民"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0343:010E"
 msgid "peasant "
-msgstr ""
+msgstr "農民"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 0343:0219"
 msgid "Help me!!! "
-msgstr ""
+msgstr "救命啊！！！"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 0343:0233"
 msgid "Argh! "
-msgstr ""
+msgstr "呃啊！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0295"
 msgid "Hello... "
-msgstr ""
+msgstr "你好……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:02B8"
 msgid "Greetings... "
-msgstr ""
+msgstr "你好……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:033B"
 msgid "Shhhhh! "
-msgstr ""
+msgstr "噓——！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:036F"
 msgid "People are trying to read! "
-msgstr ""
+msgstr "大家在看書！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:03CB"
 msgid "Whhaaaattt? "
-msgstr ""
+msgstr "什——麼——？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:03EC"
 msgid "Huh !?! "
-msgstr ""
+msgstr "啊？！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0420"
 msgid "Nevermind... "
-msgstr ""
+msgstr "算了……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0448"
 msgid "Forget it... "
-msgstr ""
+msgstr "當我沒說……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0509"
 msgid "That is so strange... "
-msgstr ""
+msgstr "真是奇怪……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0546"
 msgid "I see where this is heading... "
-msgstr ""
+msgstr "我知道這會怎麼發展了……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:057D"
 msgid "That proves my theory... "
-msgstr ""
+msgstr "這證明了我的理論……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:05BB"
 msgid "I always wondered about that... "
-msgstr ""
+msgstr "我一直對這個很好奇……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:05EA"
 msgid "Now I get it...! "
-msgstr ""
+msgstr "現在我懂了……！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0614"
 msgid "A Torax...? "
-msgstr ""
+msgstr "托拉克斯獸……？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0632"
 msgid "Why...? "
-msgstr ""
+msgstr "為什麼……？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0668"
 msgid "Now I am really lost... "
-msgstr ""
+msgstr "這下我真的搞糊塗了……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:069D"
 msgid "This makes no sense... "
-msgstr ""
+msgstr "這根本說不通……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0782"
 msgid "More grog... "
-msgstr ""
+msgstr "再來點烈酒……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:07AF"
 msgid "I feel sick... "
-msgstr ""
+msgstr "我想吐……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:07E3"
 msgid "I can't even stand... "
-msgstr ""
+msgstr "我連站都站不穩……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0810"
 msgid "Oh, my head... "
-msgstr ""
+msgstr "噢，我的頭……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0841"
 msgid "Where is Dicko...? "
-msgstr ""
+msgstr "迪克去哪了……？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:0876"
 msgid "I should be leaving... "
-msgstr ""
+msgstr "我該走了……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:08BB"
 msgid "After the next drink... "
-msgstr ""
+msgstr "喝完下一杯再走……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:08F8"
 msgid "Make the room stop spinning... "
-msgstr ""
+msgstr "叫這房間別再轉了……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0343:092A"
 msgid "Another round here! "
-msgstr ""
+msgstr "這桌再來一輪！"

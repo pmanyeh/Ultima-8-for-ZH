@@ -10,547 +10,654 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 041A:00B2"
 msgid "Torwin the ex-monk "
-msgstr ""
+msgstr "前修士托溫"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 041A:00E7"
 msgid "Torwin the monk "
-msgstr ""
+msgstr "修士托溫"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 041A:010D"
 msgid "Torwin"
-msgstr ""
+msgstr "托溫"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 041A:0132"
 msgid "monk "
-msgstr ""
+msgstr "修士"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 041A:014F"
 msgid "man "
-msgstr ""
+msgstr "男人"
 
+# P13 batch 4
 #. event 13 (justMoved)
 msgctxt "bark 041A:03FC"
 msgid "What are you doing there...? "
-msgstr ""
+msgstr "你在那裡做什麼……？"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:04BC"
 msgid "Stratos! Preserve me! "
-msgstr ""
+msgstr "史特拉托斯！保佑我！"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:069C"
 msgid "Excuse me? "
-msgstr ""
+msgstr "你說什麼？"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:0737"
 msgid "Can I help you? "
-msgstr ""
+msgstr "有什麼我能幫忙的嗎？"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:07F0"
 msgid "Ask if you need something! "
-msgstr ""
+msgstr "需要什麼就問！"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:0870"
 msgid "What do you want? "
-msgstr ""
+msgstr "你想幹嘛？"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:093C"
 msgid "Where is that old man? "
-msgstr ""
+msgstr "那個老頭子跑哪去了？"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:09BA"
 msgid "hmmmm... "
-msgstr ""
+msgstr "嗯……"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:0A31"
 msgid "Studying is such a waste of my time. "
-msgstr ""
+msgstr "讀書真是浪費我的時間。"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:0A66"
 msgid "Where is that book...? "
-msgstr ""
+msgstr "那本書在哪……？"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:0B2E"
 msgid "I know it is here somewhere... "
-msgstr ""
+msgstr "我知道它就在這附近……"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:0B62"
 msgid "I need to sit down... "
-msgstr ""
+msgstr "我得坐下來……"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:0BA5"
 msgid "I don't know why I put up with this. "
-msgstr ""
+msgstr "我真不知道自己為什麼要忍受這些。"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:0CE2"
 msgid "I must meditate! "
-msgstr ""
+msgstr "我必須冥想！"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:0D5A"
 msgid "I can't concentrate! "
-msgstr ""
+msgstr "我沒辦法專心！"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:0EAB"
 msgid "Excuse me! "
-msgstr ""
+msgstr "借過！"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:0F5D"
 msgid "Yes? "
-msgstr ""
+msgstr "什麼事？"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:1017"
 msgid "Humph. Some people...! "
-msgstr ""
+msgstr "哼。有些人真是……！"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:107A"
 msgid "Do you mind? "
-msgstr ""
+msgstr "你介意嗎？"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:114D"
 msgid "I must speak with Cyrrus. "
-msgstr ""
+msgstr "我得跟席勒斯談談。"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:11AF"
 msgid "hmmmm...  "
-msgstr ""
+msgstr "嗯……"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:122A"
 msgid "heh, heh... "
-msgstr ""
+msgstr "嘿嘿……"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:125D"
 msgid "Where is that focus? "
-msgstr ""
+msgstr "那個法器在哪？"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:130E"
 msgid "Damn... "
-msgstr ""
+msgstr "該死……"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:1357"
 msgid "I feel tired. "
-msgstr ""
+msgstr "我覺得累了。"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 041A:138B"
 msgid "I should take a walk. "
-msgstr ""
+msgstr "我該去散散步。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 041A:144A"
 msgid "Excuse me "
-msgstr ""
+msgstr "借過"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 041A:14CD"
 msgid "Will you be wasting more of my time? "
-msgstr ""
+msgstr "你還要浪費我更多時間嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 041A:1515"
 msgid "What do you want this time? "
-msgstr ""
+msgstr "這次又要做什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 041A:1555"
 msgid "I haven't much time. What do you need? "
-msgstr ""
+msgstr "我沒多少時間。你需要什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 041A"
 msgid "Hello, Torwin. "
-msgstr ""
+msgstr "你好，托溫。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 041A"
 msgid "Is your name not Torwin? "
-msgstr ""
+msgstr "你不是叫托溫嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 041A"
 msgid "I need healing "
-msgstr ""
+msgstr "我需要治療"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 041A"
 msgid "I have completed the Tests. "
-msgstr ""
+msgstr "我已經完成考驗了。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 041A:1647"
 msgid "Have I met you before? "
-msgstr ""
+msgstr "我見過你嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 041A"
 msgid "I don't believe we have met. "
-msgstr ""
+msgstr "我想我們沒見過。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 041A:1715"
 msgid "Torwin!"
-msgstr ""
+msgstr "托溫！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 041A:1813"
 msgid "Go away, leave me alone! "
-msgstr ""
+msgstr "走開，別煩我！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 041A"
 msgid "Someone's Focus is missing. "
-msgstr ""
+msgstr "有人的法器不見了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "bye "
 #. answer compared by the conversation code
 msgctxt "ask 041A"
 msgid "bye "
-msgstr ""
+msgstr "告辭"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Hello, Torwin. "
 msgctxt "bark 041A:18F7"
 msgid "Oh, I'm very bad with names. What was yours again? "
-msgstr ""
+msgstr "噢，我很不會記名字。你叫什麼來著？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Hello, Torwin. "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 041A"
 msgid "My name is {name}."
-msgstr ""
+msgstr "我叫{name}。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Hello, Torwin. "
 msgctxt "ask 041A"
 msgid "You don't need to know. "
-msgstr ""
+msgstr "你不需要知道。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Is your name not Torwin? "
 msgctxt "bark 041A:19CD"
 msgid "Yes, my name is Torwin. I'm very bad with names. What was yours again? "
-msgstr ""
+msgstr "是的，我叫托溫。我很不會記名字。你叫什麼來著？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Is your name not Torwin? "
 msgctxt "bark 041A:1A8E"
 msgid "Yes, well, I probably won't remember it next time I see you. What do you want? "
-msgstr ""
+msgstr "好吧，下次見到你時我大概也記不得。你要做什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Is your name not Torwin? "
 msgctxt "ask 041A"
 msgid "What do you do here? "
-msgstr ""
+msgstr "你在這裡做什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Is your name not Torwin? "
 msgctxt "ask 041A"
 msgid "Someone's focus is missing. "
-msgstr ""
+msgstr "有人的法器不見了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I don't believe we have met. "
 msgctxt "bark 041A:1B75"
 msgid "My name is Torwin. And yours? "
-msgstr ""
+msgstr "我叫托溫。你呢？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I don't believe we have met. "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 041A"
 msgid "I am {name}."
-msgstr ""
+msgstr "我是{name}。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You don't need to know. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041A:1C28"
 msgid "Well, anyway, hello, {name}. What brings you here?"
-msgstr ""
+msgstr "嗯，總之，你好，{name}。你來這裡做什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What do you do here? "
 msgctxt "bark 041A:1D70"
 msgid "For now I am only a healer. But that is just because they have not recognized my superior abilities, but they will. Believe me, they will. "
-msgstr ""
+msgstr "目前我只是個治療師。但那只是因為他們還沒認清我高人一等的能力，不過他們會的。相信我，他們會的。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What do you do here? "
 msgctxt "ask 041A"
 msgid "Who will recognize your abilities? "
-msgstr ""
+msgstr "誰會認清你的能力？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What superior abilities? "
 #. answer compared by the conversation code
 msgctxt "ask 041A"
 msgid "What superior abilities? "
-msgstr ""
+msgstr "什麼高人一等的能力？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What superior abilities? "
 msgctxt "bark 041A:1EBA"
 msgid "Why, my talent for magic, of course. I've passed all the tests, faster than anyone ever has before...and anyone ever will, I'm sure. "
-msgstr ""
+msgstr "哎，當然是我的魔法天分啊。我通過了所有的考驗，比以前任何人都快……我敢說以後也沒人比得上。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Who will recognize your abilities? "
 msgctxt "bark 041A:1FDF"
 msgid "Everyone, of course. I never make an error when I am casting the magic. I even constructed my foci correctly on the very first try. And it is the finest of all the foci, I might add. "
-msgstr ""
+msgstr "當然是每個人。我施法從來不出錯，連我的法器也是第一次就做對了。容我補充一句，那可是所有法器裡最精良的。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Who will recognize your abilities? "
 msgctxt "ask 041A"
 msgid "What is a Focus? "
-msgstr ""
+msgstr "法器是什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What is a Focus? "
 msgctxt "bark 041A:20C4"
 msgid "Oh, I could explain it, but I doubt you would understand. It's very complicated, magic and all. "
-msgstr ""
+msgstr "噢，我是可以解釋，但我懷疑你聽得懂。很複雜的，魔法什麼的。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You are a healer? "
 #. answer compared by the conversation code
 msgctxt "ask 041A"
 msgid "You are a healer? "
-msgstr ""
+msgstr "你是治療師？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You are a healer? "
 msgctxt "bark 041A:215C"
 msgid "Yes, why else would I be here? Anyway, are you in need of healing? "
-msgstr ""
+msgstr "是啊，不然我在這裡幹嘛？總之，你需要治療嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You are a healer? "
 msgctxt "ask 041A"
 msgid "nay "
-msgstr ""
+msgstr "不需要"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You don't need to know. "
 msgctxt "bark 041A:221E"
 msgid "If you are going to be rude, then I shall not take the time to assist you. "
-msgstr ""
+msgstr "你要是這麼無禮，我就不花時間幫你了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "aye " or "I need healing "
 #. answer compared by the conversation code
 msgctxt "ask 041A"
 msgid "aye "
-msgstr ""
+msgstr "需要"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "aye " or "I need healing "
 msgctxt "bark 041A:22E8"
 msgid "What? You look healthy enough to me! Begone! I do not have the time nor the patience for hangnails and paper cuts! "
-msgstr ""
+msgstr "什麼？我看你健康得很！滾吧！我可沒時間也沒耐心處理肉刺和紙割傷這種小事！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "aye " or "I need healing "
 msgctxt "bark 041A:2319"
 msgid "Wimp! "
-msgstr ""
+msgstr "膽小鬼！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "nay "
 msgctxt "bark 041A:2439"
 msgid "Actually, I'm relieved, for I do not wish to take precious time away from my studies. No one here has the raw talent and ability I have. And, I will suffer no one to surpass me. I -must- be the best, I -will- be the best! Now, if you will excuse me. "
-msgstr ""
+msgstr "其實我鬆了口氣，因為我不想從學業中抽出寶貴的時間。這裡沒人有我這樣的天分和能力。而且，我絕不容許任何人超越我。我「必須」是最好的，我「將會」是最好的！好了，失陪了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I have completed the Tests. "
 msgctxt "bark 041A:24F6"
 msgid "What?! That is not possible! No one has ever completed the tests faster than I! I will not stand for this! "
-msgstr ""
+msgstr "什麼？！不可能！從來沒有人比我更快完成考驗！我絕不容許！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Someone's Focus is missing. "
 msgctxt "bark 041A:257B"
 msgid "A missing focus? I know nothing about this matter. "
-msgstr ""
+msgstr "法器不見了？這件事我一無所知。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Someone's Focus is missing. "
 msgctxt "ask 041A"
 msgid "I believe you do. "
-msgstr ""
+msgstr "我相信你知道。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I believe you do. "
 msgctxt "bark 041A:2645"
 msgid "I know nothing, I tell you. Why I haven't even been near Brother Xavier! "
-msgstr ""
+msgstr "我跟你說了，我什麼都不知道。哎，我連薩維爾修士身邊都沒靠近過！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I believe you do. "
 msgctxt "ask 041A"
 msgid "But you knew it was Brother Xavier. "
-msgstr ""
+msgstr "可是你知道是薩維爾修士的。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "But you knew it was Brother Xavier. "
 msgctxt "bark 041A:2714"
 msgid "Well, I didn't steal it. I only meant to borrow it. "
-msgstr ""
+msgstr "呃，我沒有偷。我只是想借用一下。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "But you knew it was Brother Xavier. "
 msgctxt "ask 041A"
 msgid "Only borrowed it? "
-msgstr ""
+msgstr "只是借用？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Did not steal it? "
 #. answer compared by the conversation code
 msgctxt "ask 041A"
 msgid "Did not steal it? "
-msgstr ""
+msgstr "沒有偷？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Did not steal it? "
 msgctxt "bark 041A:27D0"
 msgid "I told you, I'm not a thief! "
-msgstr ""
+msgstr "我說了，我不是小偷！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Only borrowed it? "
 msgctxt "bark 041A:284E"
 msgid "I needed the magic in it for my father. "
-msgstr ""
+msgstr "我需要它的魔力，為了我父親。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Only borrowed it? "
 msgctxt "ask 041A"
 msgid "your father? "
-msgstr ""
+msgstr "你父親？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "the magic in it? "
 #. answer compared by the conversation code
 msgctxt "ask 041A"
 msgid "the magic in it? "
-msgstr ""
+msgstr "它的魔力？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "the magic in it? "
 msgctxt "bark 041A:297E"
 msgid "Foci are very strong lines to the great Stratos. I thought that perhaps with two, I might be able to draw twice as much power from the great Air Titan. "
-msgstr ""
+msgstr "法器是通往偉大的史特拉托斯的強大管道。我想，也許有兩個法器，我就能從偉大的天空泰坦那裡汲取兩倍的力量。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "your father? "
 msgctxt "bark 041A:2A4C"
 msgid "Yes, my father. His name is....er,..was Toran. He lived in Tenebrae, my home town. He's dead now, killed by that evil Mordea. "
-msgstr ""
+msgstr "是的，我父親。他叫……呃……他生前叫托蘭，住在泰尼伯瑞，我的家鄉。他現在死了，被那個邪惡的莫爾迪亞殺了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "your father? "
 msgctxt "ask 041A"
 msgid "Why did Mordea kill him? "
-msgstr ""
+msgstr "莫爾迪亞為什麼殺他？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Toran was your father? "
 #. answer compared by the conversation code
 msgctxt "ask 041A"
 msgid "Toran was your father? "
-msgstr ""
+msgstr "托蘭是你父親？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Toran was your father? "
 msgctxt "bark 041A:2B46"
 msgid "Yes. He was a good man, not afraid to speak out for what he believed...and he was killed for it. "
-msgstr ""
+msgstr "是的。他是個好人，敢為自己的信念發聲……卻也因此被殺。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why did Mordea kill him? "
 msgctxt "bark 041A:2C4B"
 msgid "That murdering bitch! She had him executed for simply speaking his mind. Is that right? Can a man's life be snuffed out for mere words? Is that right, I ask you!? "
-msgstr ""
+msgstr "那個殺人的賤人！只因為他說出心裡話，她就處決了他。這樣對嗎？一個人的性命能因為幾句話就被抹滅嗎？我問你，這樣對嗎！？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why did Mordea kill him? "
 msgctxt "ask 041A"
 msgid "I saw his execution. "
-msgstr ""
+msgstr "我目睹了他的處決。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why did Mordea kill him? "
 msgctxt "ask 041A"
 msgid "Mordea is dead. "
-msgstr ""
+msgstr "莫爾迪亞死了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I saw his execution. "
 msgctxt "bark 041A:2DD1"
 msgid "Then you saw as his head was severed from his body with the single swing of the executioner's ax. In that instant, the most important man in my life was taken from me, and I could do nothing about it... not then anyway. "
-msgstr ""
+msgstr "那你就看到了，劊子手的斧頭一揮，他的頭就和身體分了家。就在那一瞬間，我生命中最重要的人被奪走了，而我什麼也做不了……至少當時是這樣。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I saw his execution. "
 msgctxt "ask 041A"
 msgid "You could do nothing? "
-msgstr ""
+msgstr "你什麼也做不了？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I saw his execution. "
 msgctxt "ask 041A"
 msgid "You could do nothing about it? "
-msgstr ""
+msgstr "你對此什麼也做不了？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You could do nothing? "
 msgctxt "bark 041A:2FA9"
 msgid "I could do nothing, just as I could do nothing to stop you surpassing my deeds here at Argentrock. Until you arrived, I was the quickest learner and the most clever with the magic. You stole that from me, but I will still have my revenge. No, that is mine and mine alone. Do you hear me? "
-msgstr ""
+msgstr "我什麼也做不了，就像我無法阻止你在白銀之岩超越我的成就一樣。在你來之前，我是學得最快、魔法最靈巧的人。你從我這裡奪走了這一切，但我還是會報仇的。不，那是我的，只屬於我。你聽到了嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You could do nothing? "
 msgctxt "ask 041A"
 msgid "revenge "
-msgstr ""
+msgstr "報仇"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Mordea is dead. "
 msgctxt "bark 041A:3118"
 msgid "She is dead? This can not be! I was to kill her! ~You have stolen from me every thing. I was the best student here until you arrived. ~I was the quickest learner and the cleverest with the magic. ~You stole that from me, and now you have stolen my revenge! "
-msgstr ""
+msgstr "她死了？不可能！該由我來殺她的！~你從我這裡奪走了一切。在你來之前，我是這裡最好的學生。~我是學得最快、魔法最靈巧的人。~你奪走了這些，現在又奪走了我的復仇！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "revenge "
 msgctxt "bark 041A:31E9"
 msgid "I will still have my revenge! I will bring my father back to life! I will bring him back from the Pit of Death! "
-msgstr ""
+msgstr "我還是會報仇的！我要讓我父親復活！我要把他從死亡深坑帶回來！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "revenge "
 msgctxt "ask 041A"
 msgid "Your father is with the Lurker. "
-msgstr ""
+msgstr "你父親在潛伏者那裡。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Your father is with the Lurker. "
 msgctxt "bark 041A:32DD"
 msgid "YOU LIE! He is in the Pit of Death and I SHALL BRING HIM BACK! Do you hear? I shall! And I shall do it now! "
-msgstr ""
+msgstr "你說謊！他在死亡深坑，我「一定」會把他帶回來！你聽到了嗎？我一定會！而且現在就去！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Your father is with the Lurker. "
 msgctxt "bark 041A:331E"
 msgid "Why, I don't need this extra focus at all! "
-msgstr ""
+msgstr "哼，我根本不需要這個多出來的法器！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Your father is with the Lurker. "
 msgctxt "bark 041A:345E"
 msgid "I am strong enough to do it on my own... "
-msgstr ""
+msgstr "我自己就夠強了……"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Your father is with the Lurker. "
 msgctxt "bark 041A:349D"
 msgid "And I will! I'm coming for you, father!! "
-msgstr ""
+msgstr "我一定辦得到！我來找你了，父親！！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Your father is with the Lurker. "
 msgctxt "bark 041A:34DF"
 msgid "Torwin, wait! "
-msgstr ""
+msgstr "托溫，等等！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You could do nothing about it? "
 msgctxt "bark 041A:3583"
 msgid "Not then, but with what I have learned here, I will be able to make things right again! "
-msgstr ""
+msgstr "當時是不能，但憑著我在這裡學到的，我就能撥亂反正！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You could do nothing about it? "
 msgctxt "ask 041A"
 msgid "How will you make things right? "
-msgstr ""
+msgstr "你要怎麼撥亂反正？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "How will you make things right? "
 msgctxt "bark 041A:367D"
 msgid "I will use the magic from Stratos to bring my father back to life. I will have my revenge! "
-msgstr ""
+msgstr "我要用史特拉托斯的魔法讓我父親復活。我要報仇！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "bye "
 msgctxt "bark 041A:36F2"
 msgid "Goodbye. "
-msgstr ""
+msgstr "再見。"

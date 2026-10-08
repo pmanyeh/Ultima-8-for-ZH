@@ -10,417 +10,497 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0439:00ED"
 msgid "Arcadion the late daemon Sorcerer "
-msgstr ""
+msgstr "已故的惡魔巫師阿卡迪昂"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0439:011E"
 msgid "Arcadion the daemon Sorcerer "
-msgstr ""
+msgstr "惡魔巫師阿卡迪昂"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0439:015B"
 msgid "Arcadion the deceased "
-msgstr ""
+msgstr "已故的阿卡迪昂"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0439:0178"
 msgid "Arcadion "
-msgstr ""
+msgstr "阿卡迪昂"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0439:01B4"
 msgid "dead daemon Sorcerer "
-msgstr ""
+msgstr "死去的惡魔巫師"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0439:01D8"
 msgid "daemon Sorcerer "
-msgstr ""
+msgstr "惡魔巫師"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0439:0204"
 msgid "dead daemon "
-msgstr ""
+msgstr "死去的惡魔"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0439:021F"
 msgid "daemon "
-msgstr ""
+msgstr "惡魔"
 
+# P13 batch 4
 #. event 10 (enterFastArea)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0439:03DA"
 msgid "{num}"
-msgstr ""
+msgstr "{num}"
 
+# P13 batch 4
 #. event 10 (enterFastArea)
 msgctxt "bark 0439:0409"
 msgid "Back to the entrance. "
-msgstr ""
+msgstr "回到入口去。"
 
+# P13 batch 4
 #. event 10 (enterFastArea)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0439:0484"
 msgid "{num}"
-msgstr ""
+msgstr "{num}"
 
+# P13 batch 4
 #. event 10 (enterFastArea)
 msgctxt "bark 0439:04B1"
 msgid "Off to the gateway. "
-msgstr ""
+msgstr "去傳送門吧。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0439:06F3"
 msgid "You have somehow managed to defeat or evade the first guardians of the Obsidian Fortress, mortal. And now, you have shown an inkling of wisdom in not attempting to attack me. Perhaps you are worthy...* Perhaps not.*Regardless, in reward, I will assist you now by giving you access to the rest of the fortress and offering the use of my pentacle and sundry items you might need in preparing spells. "
-msgstr ""
+msgstr "凡人，你竟設法打敗或避開了黑曜石要塞的第一批守衛。而現在，你沒有試圖攻擊我，展現了一絲智慧。也許你夠格……*也許不夠。*不管怎樣，作為獎賞，我現在就協助你：讓你進入要塞的其他地方，並讓你使用我的五芒星陣，以及準備法術時可能用得到的各種物品。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0439:0753"
 msgid "What is it you need,{name}?"
-msgstr ""
+msgstr "你需要什麼，{name}？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0439:0794"
 msgid "{name}, how can I be of service?"
-msgstr ""
+msgstr "{name}，有什麼我能效勞的？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0439:07BF"
 msgid "What do you want? "
-msgstr ""
+msgstr "你想幹嘛？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0439:07F3"
 msgid "What is it you need? "
-msgstr ""
+msgstr "你需要什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0439:082D"
 msgid "How can I be of service? "
-msgstr ""
+msgstr "有什麼我能效勞的？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0439:0858"
 msgid "What do you want? "
-msgstr ""
+msgstr "你想幹嘛？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0439:0896"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0439:08C9"
 msgid "Prepare yourself. "
-msgstr ""
+msgstr "準備好吧。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0439:0903"
 msgid "Seek the Burning Path, Sorcerer. "
-msgstr ""
+msgstr "去尋找燃燒之道吧，巫師。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0439:0941"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0439:098C"
 msgid "If you do not wish to speak, then do not. "
-msgstr ""
+msgstr "你不想說話，那就別說。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0439:09C9"
 msgid "Where are you from? "
-msgstr ""
+msgstr "你從哪裡來？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 0439"
 msgid "It does not matter. "
-msgstr ""
+msgstr "那不重要。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I am from this place. "
 #. answer compared by the conversation code
 msgctxt "ask 0439"
 msgid "I am from this place. "
-msgstr ""
+msgstr "我就是本地人。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I am from this place. "
 msgctxt "bark 0439:0B02"
 msgid "You do not have the feel of a Pagan, but if that is what you wish me to believe, I will. "
-msgstr ""
+msgstr "你感覺不像佩根人，不過既然你想要我這麼相信，我就信吧。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I come from Earth. "
 #. answer compared by the conversation code
 msgctxt "ask 0439"
 msgid "I come from Earth. "
-msgstr ""
+msgstr "我來自地球。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I come from Earth. "
 msgctxt "bark 0439:0C1F"
 msgid "Earth. Yes. Quite an interesting place. I visited there long ago. It would seem that there my kind are either revered as kin to the Dark Ones or feared as unholy assistants to some evil being or other. A silly people indeed. "
-msgstr ""
+msgstr "地球。是的，相當有趣的地方。我很久以前去過。那裡的人似乎要嘛把我的同類當成黑暗者的親族來崇敬，要嘛把我們當成某個邪惡存在的邪惡幫手來畏懼。真是群愚蠢的人。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Britannia is my home. "
 #. answer compared by the conversation code
 msgctxt "ask 0439"
 msgid "Britannia is my home. "
-msgstr ""
+msgstr "不列顛尼亞是我的家。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Britannia is my home. "
 msgctxt "bark 0439:0CB6"
 msgid "Britannia? I have never heard of such a place. It must be a truly out of the way realm. "
-msgstr ""
+msgstr "不列顛尼亞？我從沒聽過這個地方。那一定是個非常偏遠的國度。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Most recently, Serpent Isle. "
 #. answer compared by the conversation code
 msgctxt "ask 0439"
 msgid "Most recently, Serpent Isle. "
-msgstr ""
+msgstr "最近是從巨蛇之島來的。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Most recently, Serpent Isle. "
 msgctxt "bark 0439:0D4A"
 msgid "I have never heard of this isle. It must be a truly out of the way realm. "
-msgstr ""
+msgstr "我從沒聽過這座島。那一定是個非常偏遠的國度。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "It does not matter. "
 msgctxt "bark 0439:0DAC"
 msgid "Yes. You are right. It does not. "
-msgstr ""
+msgstr "是的。你說得對。那不重要。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "It does not matter. "
 msgctxt "bark 0439:0E1B"
 msgid "I take your silence as a reply. You wish to remain unknown. That is acceptable. "
-msgstr ""
+msgstr "我就把你的沉默當作回答。你想保持匿名。可以接受。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "It does not matter. "
 msgctxt "ask 0439"
 msgid "We have met before. "
-msgstr ""
+msgstr "我們以前見過。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Don't you know me? "
 #. answer compared by the conversation code
 msgctxt "ask 0439"
 msgid "Don't you know me? "
-msgstr ""
+msgstr "你不認得我了嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "We have met before. "
 msgctxt "bark 0439:0F13"
 msgid "No. We have not met. At least, I do not think we have. "
-msgstr ""
+msgstr "不，我們沒見過。至少我不認為我們見過。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "We have met before. "
 msgctxt "ask 0439"
 msgid "I crafted the Shade Blade for you. "
-msgstr ""
+msgstr "我為你打造過暗影之刃。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You were bound to Erethian. "
 #. answer compared by the conversation code
 msgctxt "ask 0439"
 msgid "You were bound to Erethian. "
-msgstr ""
+msgstr "你曾受艾雷西安束縛。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "You were bound to Erethian. "
 msgctxt "bark 0439:104E"
 msgid "Erethian? I know of no one by that name. I have never been bound to anyone. Not even the Lord of Flame. I am alone in that respect, amongst daemonkind. "
-msgstr ""
+msgstr "艾雷西安？我不知道有誰叫這個名字。我從未受任何人束縛，連烈焰之主也不例外。在惡魔族之中，只有我是這樣。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "bark 0439:10D9"
 msgid "Shade Blade? What is that? I think you have mistaken me for another. "
-msgstr ""
+msgstr "暗影之刃？那是什麼？我想你把我錯認成別人了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "bark 0439:1110"
 msgid "What else would you speak of? "
-msgstr ""
+msgstr "你還想談什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "bark 0439:1208"
 msgid "Perhaps we shall meet again in the distant future. Time does strange things to those who travel the worlds, as you doubtless know. I shall have to try to remember what you have said. Now then... what can I assist you with? "
-msgstr ""
+msgstr "也許我們會在遙遠的未來再相遇。你一定知道，對於穿梭諸界的人來說，時間會做出奇怪的事。我得試著記住你說過的話。那麼……有什麼我能幫你的？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "bark 0439:123F"
 msgid "What else would you speak of? "
-msgstr ""
+msgstr "你還想談什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "bark 0439:12B6"
 msgid "Go now. Master Malchir is not a patient sort of man. "
-msgstr ""
+msgstr "現在就去吧。馬爾奇爾大巫師可不是有耐心的人。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "bark 0439:1321"
 msgid "Do you wish the master to be displeased with you? Go through the gateway. "
-msgstr ""
+msgstr "你想讓大師對你不滿嗎？穿過傳送門吧。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "bark 0439:136A"
 msgid "You must not waste time. The Master awaits you. "
-msgstr ""
+msgstr "你可不能浪費時間。大師在等你。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "bark 0439:1459"
 msgid "You have performed remarkably well, Disciple. Or rather, I should say, Acolyte. For if you please the Master, that is what you shall be. Go to him now. The gateway will take you to his inner sanctum now. "
-msgstr ""
+msgstr "你表現得非常出色，門徒。或者我該說，學徒。因為只要你讓大師滿意，你就會成為學徒。現在去見他吧。傳送門會帶你到他的內殿。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "ask 0439"
 msgid "Tell me of the Obsidian Fortress. "
-msgstr ""
+msgstr "說說黑曜石要塞。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "ask 0439"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "ask 0439"
 msgid "What are you? Why are you here? "
-msgstr ""
+msgstr "你是什麼？為什麼在這裡？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I crafted the Shade Blade for you. "
 msgctxt "ask 0439"
 msgid "Do I know you from somewhere? "
-msgstr ""
+msgstr "我是不是在哪裡見過你？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Farewell. "
 #. answer compared by the conversation code
 msgctxt "ask 0439"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Farewell. "
 msgctxt "bark 0439:159A"
 msgid "If there is nothing more, you should proceed with the trials. "
-msgstr ""
+msgstr "如果沒別的事了，你該繼續進行試煉。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Tell me of the Obsidian Fortress. "
 msgctxt "bark 0439:16ED"
 msgid "What would you know about it? "
-msgstr ""
+msgstr "關於它，你想知道什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Tell me of the Obsidian Fortress. "
 msgctxt "ask 0439"
 msgid "Where is Malchir's inner sanctum? "
-msgstr ""
+msgstr "馬爾奇爾的內殿在哪裡？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 0439:17D9"
 msgid "I am known as Arcadion. And who might you be? "
-msgstr ""
+msgstr "我名叫阿卡迪昂。那你又是哪位？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Who are you? "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 0439"
 msgid "I am {name}."
-msgstr ""
+msgstr "我是{name}。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "ask 0439"
 msgid "It is not your concern. "
-msgstr ""
+msgstr "不關你的事。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "It is not your concern. "
 msgctxt "bark 0439:186D"
 msgid "I recognize that name... "
-msgstr ""
+msgstr "這名字我好像聽過……"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "It is not your concern. "
 msgctxt "bark 0439:18CD"
 msgid "As you wish. Proceed with the Trials, and leave me be. "
-msgstr ""
+msgstr "隨你吧。繼續你的試煉，別來煩我。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "It is not your concern. "
 msgctxt "bark 0439:1901"
 msgid "I am known as Arcadion. "
-msgstr ""
+msgstr "我名叫阿卡迪昂。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What are you? Why are you here? "
 msgctxt "bark 0439:1A37"
 msgid "A curious sort, aren't you? I am a daemon Sorcerer. The only daemon Sorcerer as far as I know. I am here at the behest of Master Malchir. He is providing my training as a Sorcerer in exchange for my services. "
-msgstr ""
+msgstr "你還真好奇，對吧？我是惡魔巫師。據我所知，唯一的惡魔巫師。我在這裡是奉馬爾奇爾大巫師之命。他訓練我成為巫師，換取我的效勞。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What are you? Why are you here? "
 msgctxt "ask 0439"
 msgid "Services? What might they be? "
-msgstr ""
+msgstr "效勞？什麼樣的效勞？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Do I know you from somewhere? "
 msgctxt "bark 0439:1B1B"
 msgid "Perhaps... I have traveled extensively, in this realm and others. "
-msgstr ""
+msgstr "也許吧……我在這個國度和其他國度都遊歷甚廣。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Services? What might they be? "
 msgctxt "bark 0439:1BE3"
 msgid "I... welcome those who would attempt the Trials of the Obsidian Fortress. "
-msgstr ""
+msgstr "我……負責「迎接」那些想挑戰黑曜石要塞試煉的人。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Are you one of its guardians? "
 #. answer compared by the conversation code
 msgctxt "ask 0439"
 msgid "Are you one of its guardians? "
-msgstr ""
+msgstr "你是它的守衛之一嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Are you one of its guardians? "
 msgctxt "bark 0439:1CBD"
 msgid "Not really. I am merely a test. As you can see by the bones strewn about... many have not passed this test. "
-msgstr ""
+msgstr "不算是。我只是一項考驗。你看四處散落的骨頭就知道……很多人沒通過這項考驗。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "How was it created? "
 #. answer compared by the conversation code
 msgctxt "ask 0439"
 msgid "How was it created? "
-msgstr ""
+msgstr "它是怎麼建成的？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "How was it created? "
 msgctxt "bark 0439:1F9B"
 msgid "The first Sorcerers were revered by the people, but not so later generations. Eventually, fear and mistrust arose on both sides. The Master Sorcerer called upon the might of the Pyros who reluctantly came to his aid. The Lord of Flame in turn called upon his comrade, Lithos, and together they thrust the living rock up through a lake of lava that had formed in Daemon's Crag. Pyros then poured forth the excess lava into a river that blocked the path to the Sorcerer's Enclave. The cavern through which it flows, aptly called the Mouth of the Daemon, is the first obstacle for those who would disturb the mages of Sorcerer's Enclave."
-msgstr ""
+msgstr "最早的巫師受到人民崇敬，後來的幾代卻不然。最後，雙方都生出了恐懼與猜疑。大巫師召喚派羅斯的力量，派羅斯勉強前來相助。烈焰之主接著召喚他的同伴利索斯，兩者合力讓活岩從惡魔崖中形成的熔岩湖裡拔地而起。接著，派羅斯把多餘的熔岩傾瀉成一條河，擋住了通往巫師聚落的路。熔岩流經的洞穴被恰如其分地稱為惡魔之口，是想要打擾巫師聚落法師們的人所面臨的第一道障礙。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What are the Trials? "
 #. answer compared by the conversation code
 msgctxt "ask 0439"
 msgid "What are the Trials? "
-msgstr ""
+msgstr "試煉是什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What are the Trials? "
 msgctxt "bark 0439:212F"
 msgid "If I were to reveal that to you they wouldn't be much of a test of your capabilities, would they? Just walk through the pillars at the rear of this chamber, and the gateway will take you to the Trials. It will not bring you back here until you have collected the four special Sorcerer's symbols, so prepare well. "
-msgstr ""
+msgstr "要是我告訴你，那就算不上考驗你的能力了，不是嗎？只要穿過這個房間後方的柱子，傳送門就會帶你去試煉。在你蒐集到四個特殊的巫師符印之前，它不會帶你回來，所以好好準備吧。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What are the Trials? "
 msgctxt "ask 0439"
 msgid "What do the symbols look like? "
-msgstr ""
+msgstr "那些符印長什麼樣子？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Where is Malchir's inner sanctum? "
 msgctxt "bark 0439:22C5"
 msgid "Through the gateway beyond the pillars in the rear of the chamber, but not until you have succeeded in accomplishing the Trials. When you have done so, I will allow you to go to Malchir's inner sanctum. He awaits you even now, so be quick about your task. "
-msgstr ""
+msgstr "穿過房間後方柱子那頭的傳送門就到了，但必須等你成功完成試煉之後。等你完成了，我就讓你去馬爾奇爾的內殿。他現在就在等你，所以動作快點。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Where is Malchir's inner sanctum? "
 msgctxt "ask 0439"
 msgid "Let me go to him now. "
-msgstr ""
+msgstr "現在就讓我去見他。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "What do the symbols look like? "
 msgctxt "bark 0439:2382"
 msgid "You will know them when you see them. "
-msgstr ""
+msgstr "你看到就知道了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Let me go to him now. "
 msgctxt "bark 0439:24A0"
 msgid "Of course... What do you take me for? If I were to allow you to go to Malchir untested, he would be displeased. One does not live very long when one has displeased a Master Sorcerer. "
-msgstr ""
+msgstr "當然不行……你把我當成什麼了？要是我讓你未經考驗就去見馬爾奇爾，他會不高興的。讓大巫師不高興的人，可活不了多久。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0439:255D"
 msgid "Do not toy with me. What is it you want? "
-msgstr ""
+msgstr "別耍我。你到底要什麼？"

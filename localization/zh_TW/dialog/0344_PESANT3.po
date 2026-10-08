@@ -10,207 +10,248 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0344:00AB"
 msgid "dead beggar "
-msgstr ""
+msgstr "死去的乞丐"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 0344:00CB"
 msgid "beggar "
-msgstr ""
+msgstr "乞丐"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 0344:020A"
 msgid "Help! I'm being oppressed! "
-msgstr ""
+msgstr "救命！有人欺壓我！"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 0344:0238"
 msgid "Argh! I'm being attacked! "
-msgstr ""
+msgstr "呃啊！有人攻擊我！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:029A"
 msgid "Hello... "
-msgstr ""
+msgstr "你好……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:02BD"
 msgid "Greetings... "
-msgstr ""
+msgstr "你好……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0353"
 msgid "Do you have any old coins you don't want? "
-msgstr ""
+msgstr "你有不要的舊錢幣嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0394"
 msgid "How's about helpin' out a poor cripple? "
-msgstr ""
+msgstr "幫幫可憐的瘸子怎麼樣？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:042C"
 msgid "Here you go. "
-msgstr ""
+msgstr "拿去吧。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:046C"
 msgid "Thank you, my friend. "
-msgstr ""
+msgstr "謝謝你，朋友。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:04AD"
 msgid "And, as a word of warning remember this... "
-msgstr ""
+msgstr "還有，給你個忠告，記住這句話……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:04F0"
 msgid "Always look for traps within chests. "
-msgstr ""
+msgstr "開箱子時永遠要提防陷阱。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0526"
 msgid "No treasure is worth dying for. "
-msgstr ""
+msgstr "沒有什麼寶藏值得拿命去換。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0577"
 msgid "Do not use healing spells when you do not need to. "
-msgstr ""
+msgstr "不需要的時候別用治療法術。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:05B5"
 msgid "They will do you more damage than good. "
-msgstr ""
+msgstr "它們對你害處會比好處多。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:060D"
 msgid "Remember that sword is a friend in times of great danger, "
-msgstr ""
+msgstr "記住，危急時刻劍是你的好朋友，"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0664"
 msgid "but a well placed boot can also bring down an undead stranger... "
-msgstr ""
+msgstr "但踢得準的一腳，也能放倒不死的怪東西……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:06BB"
 msgid "Exploring the catacombs may be dangerous to your health. "
-msgstr ""
+msgstr "探索地下墓穴可能有害你的健康。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:070B"
 msgid "Take care to map your route, lest you seal your own doom! "
-msgstr ""
+msgstr "小心畫好你的路線，免得自尋死路！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0768"
 msgid "Never try to kill a skeleton, for they are already the undead. "
-msgstr ""
+msgstr "千萬別想殺死骷髏，因為它們本來就是不死者。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:07D3"
 msgid "Yellow shrooms with spots of green are very bad for your kidneys and spleen. "
-msgstr ""
+msgstr "黃傘綠斑的蘑菇，吃了腎脾都受苦。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0835"
 msgid "But yellow shrooms with spots of red will bring you back when you are dead. "
-msgstr ""
+msgstr "黃傘紅斑的蘑菇，死了也能讓你復甦。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0877"
 msgid "Children should be seen, not heard. "
-msgstr ""
+msgstr "小孩子有耳無嘴。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:08AC"
 msgid "Thank you kindly, stranger. "
-msgstr ""
+msgstr "多謝你了，陌生人。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:08E2"
 msgid "May Hydros find favor with you. "
-msgstr ""
+msgstr "願海德羅斯眷顧你。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0930"
 msgid "Sorry, I do not have any money. "
-msgstr ""
+msgstr "抱歉，我沒有錢。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0959"
 msgid "Maybe next time... "
-msgstr ""
+msgstr "下次吧……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:098F"
 msgid "Oooops! "
-msgstr ""
+msgstr "哎呀！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:09C7"
 msgid "Sorry, I do not have any money. "
-msgstr ""
+msgstr "抱歉，我沒有錢。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:09F0"
 msgid "Maybe next time... "
-msgstr ""
+msgstr "下次吧……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0A17"
 msgid "Thanks anyway... "
-msgstr ""
+msgstr "還是謝謝你……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0A4E"
 msgid "Peasant! "
-msgstr ""
+msgstr "鄉巴佬！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0A8F"
 msgid "May the Lurker take ya! "
-msgstr ""
+msgstr "讓潛伏者把你抓去吧！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0AE8"
 msgid "May the minions of Lithos suck the marrow from your bones! "
-msgstr ""
+msgstr "讓利索斯的爪牙吸乾你的骨髓！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0B33"
 msgid "May you roast in Pyros' flames for all time! "
-msgstr ""
+msgstr "讓你在派羅斯的烈焰裡永遠烤著！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0BFD"
 msgid "Hey... "
-msgstr ""
+msgstr "喂……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0C45"
 msgid "Over here... "
-msgstr ""
+msgstr "這邊……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0CA6"
 msgid "Pssst... "
-msgstr ""
+msgstr "噓……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0CCC"
 msgid "You...! "
-msgstr ""
+msgstr "你……！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0D0D"
 msgid "Come here...! "
-msgstr ""
+msgstr "過來……！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 0344:0D3D"
 msgid "Get over here...! "
-msgstr ""
+msgstr "給我過來……！"

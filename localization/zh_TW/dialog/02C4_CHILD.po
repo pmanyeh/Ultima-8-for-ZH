@@ -10,233 +10,277 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 02C4:00EB"
 msgid "dead child "
-msgstr ""
+msgstr "死去的小孩"
 
+# P13 batch 4
 #. event 00 (look)
 msgctxt "bark 02C4:010A"
 msgid "child "
-msgstr ""
+msgstr "小孩"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 02C4:01BC"
 msgid "Mommy! "
-msgstr ""
+msgstr "媽咪！"
 
+# P13 batch 4
 #. event 11 (leaveFastArea)
 msgctxt "bark 02C4:01DF"
 msgid "Ahhh! Bad man! "
-msgstr ""
+msgstr "啊啊！壞人！"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 02C4:024C"
 msgid "Hello... "
-msgstr ""
+msgstr "你好……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 02C4:026F"
 msgid "Greetings... "
-msgstr ""
+msgstr "你好……"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 02C4:02D5"
 msgid "I don't know you. "
-msgstr ""
+msgstr "我不認識你。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 02C4:0319"
 msgid "My mommie told me never to talk to strangers. "
-msgstr ""
+msgstr "我媽咪說不可以跟陌生人說話。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 02C4:0342"
 msgid "You're a stranger. "
-msgstr ""
+msgstr "你是陌生人。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 02C4:036D"
 msgid "I can't talk to you. "
-msgstr ""
+msgstr "我不能跟你說話。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "bark 02C4:03BD"
 msgid "What is your name? "
-msgstr ""
+msgstr "你叫什麼名字？"
 
+# P13 batch 4
 #. event 01 (use (talk))
 #. sentence template: keep the {placeholders}
 msgctxt "ask 02C4"
 msgid "I am {name}."
-msgstr ""
+msgstr "我是{name}。"
 
+# P13 batch 4
 #. event 01 (use (talk))
 msgctxt "ask 02C4"
 msgid "I am the Avatar! "
-msgstr ""
+msgstr "我是聖者！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Bye! "
 #. answer compared by the conversation code
 msgctxt "ask 02C4"
 msgid "Bye! "
-msgstr ""
+msgstr "掰掰！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I am the Avatar! " or "I am the Avatar! "
 msgctxt "bark 02C4:0441"
 msgid "Yeah? "
-msgstr ""
+msgstr "真的嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I am the Avatar! " or "I am the Avatar! "
 msgctxt "bark 02C4:046F"
 msgid "Where do you come from? "
-msgstr ""
+msgstr "你從哪裡來的？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I am the Avatar! " or "I am the Avatar! "
 msgctxt "ask 02C4"
 msgid "From another town. "
-msgstr ""
+msgstr "從別的城鎮來的。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "From another world. " or "From another town. "
 #. answer compared by the conversation code
 msgctxt "ask 02C4"
 msgid "From another world. "
-msgstr ""
+msgstr "從另一個世界來的。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "From another world. " or "From another town. "
 msgctxt "bark 02C4:04FD"
 msgid "Yeah? "
-msgstr ""
+msgstr "真的嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "From another world. " or "From another town. "
 msgctxt "bark 02C4:052A"
 msgid "What did you do there? "
-msgstr ""
+msgstr "你在那裡做什麼？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "From another world. " or "From another town. "
 msgctxt "ask 02C4"
 msgid "I baked bread. "
-msgstr ""
+msgstr "我烤麵包。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I fought monsters! " or "I helped people. " or "I baked bread. "
 #. answer compared by the conversation code
 msgctxt "ask 02C4"
 msgid "I fought monsters! "
-msgstr ""
+msgstr "我打怪物！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I fought monsters! " or "I helped people. " or "I baked bread. "
 #. answer compared by the conversation code
 msgctxt "ask 02C4"
 msgid "I helped people. "
-msgstr ""
+msgstr "我幫助別人。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I fought monsters! " or "I helped people. " or "I baked bread. "
 msgctxt "bark 02C4:05DC"
 msgid "Yeah? "
-msgstr ""
+msgstr "真的嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I fought monsters! " or "I helped people. " or "I baked bread. "
 msgctxt "bark 02C4:0607"
 msgid "Why are you so tall? "
-msgstr ""
+msgstr "你為什麼這麼高？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I fought monsters! " or "I helped people. " or "I baked bread. "
 msgctxt "ask 02C4"
 msgid "A troll stretched me! "
-msgstr ""
+msgstr "被巨魔拉長的！"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I was born this way. " or "A troll stretched me! "
 #. answer compared by the conversation code
 msgctxt "ask 02C4"
 msgid "I was born this way. "
-msgstr ""
+msgstr "我天生就這樣。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I was born this way. " or "A troll stretched me! "
 msgctxt "bark 02C4:069D"
 msgid "Yeah? "
-msgstr ""
+msgstr "真的嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I was born this way. " or "A troll stretched me! "
 msgctxt "bark 02C4:06C9"
 msgid "How did you get here? "
-msgstr ""
+msgstr "你是怎麼來這裡的？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I was born this way. " or "A troll stretched me! "
 msgctxt "ask 02C4"
 msgid "A big red hand dropped me. "
-msgstr ""
+msgstr "一隻紅色的大手把我丟下來的。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I walked. " or "I came by boat. " or "A big red hand dropped me. "
 #. answer compared by the conversation code
 msgctxt "ask 02C4"
 msgid "I walked. "
-msgstr ""
+msgstr "走路來的。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I walked. " or "I came by boat. " or "A big red hand dropped me. "
 #. answer compared by the conversation code
 msgctxt "ask 02C4"
 msgid "I came by boat. "
-msgstr ""
+msgstr "坐船來的。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I walked. " or "I came by boat. " or "A big red hand dropped me. "
 msgctxt "bark 02C4:077F"
 msgid "Yeah? "
-msgstr ""
+msgstr "真的嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I walked. " or "I came by boat. " or "A big red hand dropped me. "
 msgctxt "bark 02C4:07BC"
 msgid "Do you always wear that silly costume? "
-msgstr ""
+msgstr "你都一直穿那件好笑的衣服嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "I walked. " or "I came by boat. " or "A big red hand dropped me. "
 msgctxt "ask 02C4"
 msgid "You ask too many questions. "
-msgstr ""
+msgstr "你問題太多了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Yes, I do. " or "No, I do not. " or "What silly costume? " or "You ask too many questions. "
 #. answer compared by the conversation code
 msgctxt "ask 02C4"
 msgid "Yes, I do. "
-msgstr ""
+msgstr "是的，我想看。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Yes, I do. " or "No, I do not. " or "What silly costume? " or "You ask too many questions. "
 #. answer compared by the conversation code
 msgctxt "ask 02C4"
 msgid "No, I do not. "
-msgstr ""
+msgstr "不，我不想。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Yes, I do. " or "No, I do not. " or "What silly costume? " or "You ask too many questions. "
 #. answer compared by the conversation code
 msgctxt "ask 02C4"
 msgid "What silly costume? "
-msgstr ""
+msgstr "什麼好笑的衣服？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Yes, I do. " or "No, I do not. " or "What silly costume? " or "You ask too many questions. "
 msgctxt "bark 02C4:08A6"
 msgid "Yeah? "
-msgstr ""
+msgstr "真的嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Yes, I do. " or "No, I do not. " or "What silly costume? " or "You ask too many questions. "
 msgctxt "bark 02C4:08DB"
 msgid "Why are Toraxes big and brown? "
-msgstr ""
+msgstr "為什麼托拉克斯獸又大又是棕色的？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Yes, I do. " or "No, I do not. " or "What silly costume? " or "You ask too many questions. "
 msgctxt "ask 02C4"
 msgid "Why are they not blue and red? "
-msgstr ""
+msgstr "那牠們為什麼不是藍色和紅色的？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why are they not blue and red? "
 msgctxt "bark 02C4:0971"
 msgid "Because then they would be kith. "
-msgstr ""
+msgstr "因為那樣的話，牠們就變成奇斯怪蛛了。"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why are they not blue and red? "
 msgctxt "bark 02C4:098F"
 msgid "Yeah? "
-msgstr ""
+msgstr "真的嗎？"
 
+# P13 batch 4
 #. event 01 (use (talk)), after "Why are they not blue and red? "
 msgctxt "bark 02C4:09AB"
 msgid "Yeah! "
-msgstr ""
+msgstr "對啊！"
