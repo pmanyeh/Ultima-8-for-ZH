@@ -10,127 +10,152 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 0181:00B1"
 msgid "Stratos, the Air Titan "
-msgstr ""
+msgstr "史特拉托斯，天空泰坦"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 0181:00CF"
 msgid "Titan"
-msgstr ""
+msgstr "泰坦"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 0181:0491"
 msgid "Oh small one, you You have come to return the Breath of Wind. "
-msgstr ""
+msgstr "噢，小傢伙，你是來歸還狂風之息的。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 0181"
 msgid "bye "
-msgstr ""
+msgstr "告辭"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 0181:04DD"
 msgid "Yes, my most precious child? "
-msgstr ""
+msgstr "什麼事，我最珍貴的孩子？"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 0181"
 msgid "I must have the Breath of Wind. "
-msgstr ""
+msgstr "我必須得到狂風之息。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 0181:054C"
 msgid "My child, you have returned to me. "
-msgstr ""
+msgstr "我的孩子，你回到我身邊了。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 0181"
 msgid "Who are your children? "
-msgstr ""
+msgstr "你的孩子是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 0181"
 msgid "Reward me? "
-msgstr ""
+msgstr "獎賞我？"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 0181:062F"
 msgid "And yet another child is found. Please, small one, come closer. "
-msgstr ""
+msgstr "又找到了一個孩子。來吧，小傢伙，靠近一點。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 0181"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 0181:0774"
 msgid "Who am I? Ah, such a dear child. So very young in his knowledge. Why, he is no more than a babe. I am Stratos, Titan of Air, Giver of Life. To reach me took a great deal of courage. I wish to reward you. "
-msgstr ""
+msgstr "我是誰？啊，多可愛的孩子，知識這麼淺。哎呀，他簡直還是個嬰孩。我是史特拉托斯，天空泰坦，生命賜予者。來到我這裡需要很大的勇氣。我想獎賞你。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "ask 0181"
 msgid "Titan of Air? "
-msgstr ""
+msgstr "天空泰坦？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Titan of Air? "
 msgctxt "bark 0181:0949"
 msgid "I am the breeze which cools your cheek on a warm day. I am the raging wind which drives the waves before it. I am the fuel which feeds the tongues of flame to heat your supper and the teeth that bite you in a winter storm. With my help, my children can be cured of their illnesses and pain; without me, they die. "
-msgstr ""
+msgstr "我是暖日裡輕拂你臉頰的微風。我是推動浪濤的狂風。我是餵養火舌、為你加熱晚餐的燃料，也是冬日暴風雪中啃咬你的利齒。有我的幫助，我的孩子們的病痛就能痊癒；沒有我，他們就會死去。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Reward me? "
 msgctxt "bark 0181:09EF"
 msgid "Take this Focus, Adept. With it you will be able to cast the Air Walk spell at will. "
-msgstr ""
+msgstr "收下這個法器吧，行家法師。有了它，你就能隨心所欲地施展輕風漫步。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are your children? "
 msgctxt "bark 0181:0B30"
 msgid "All who live are my children. Do they not all partake of my gift of sweet air? Some have forgotten their mother. But they will return to me, they always do. When they are hurt or ailing, they will come to me for healing. "
-msgstr ""
+msgstr "所有活著的都是我的孩子。他們不都享用著我賜予的甘甜空氣嗎？有些人忘了他們的母親，但他們總會回到我身邊，一向如此。當他們受傷或生病時，就會來找我治療。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who are your children? "
 msgctxt "ask 0181"
 msgid "How are they healed? "
-msgstr ""
+msgstr "他們是怎麼被治好的？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "How are they healed? "
 msgctxt "bark 0181:0BF4"
 msgid "Through the Breath of Wind my Chosen Children heal those in need. "
-msgstr ""
+msgstr "我的選民透過狂風之息，治癒需要的人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "How are they healed? "
 msgctxt "ask 0181"
 msgid "Tell me of the Breath of Wind. "
-msgstr ""
+msgstr "說說狂風之息。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Breath of Wind. "
 msgctxt "bark 0181:0CFE"
 msgid "The Breath of Wind is that through which I touch my children. It's location is known only to Honorable Stellos. "
-msgstr ""
+msgstr "狂風之息是我觸及我的孩子們的媒介。它的所在只有尊貴的史泰洛斯知道。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me of the Breath of Wind. "
 msgctxt "ask 0181"
 msgid "May I have the Breath of Wind? "
-msgstr ""
+msgstr "能把狂風之息給我嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "May I have the Breath of Wind? "
 msgctxt "bark 0181:0E0D"
 msgid "Oh, child, you know not what you ask. To take the Breath of Wind from me is to sever the link to my healers. "
-msgstr ""
+msgstr "噢，孩子，你不知道自己在要求什麼。從我這裡拿走狂風之息，就是切斷我和我的治療者之間的聯繫。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I must have the Breath of Wind. "
 msgctxt "bark 0181:0F34"
 msgid "Without the Breath of Wind, many would die. Many would pay the price for your quest for power. No, Child, I cannot allow this. "
-msgstr ""
+msgstr "沒有狂風之息，很多人會死。很多人會為你追求力量付出代價。不，孩子，我不能允許。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "bye "
 msgctxt "bark 0181:0FCD"
 msgid "Take this Focus, Adept. With it you will be able to cast the Air Walk spell at will. "
-msgstr ""
+msgstr "收下這個法器吧，行家法師。有了它，你就能隨心所欲地施展輕風漫步。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "bye "
 msgctxt "bark 0181:1026"
 msgid "Farewell, my dear child. "
-msgstr ""
+msgstr "再會，我親愛的孩子。"

@@ -10,244 +10,292 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 006D:00A8"
 msgid "Pyros, Lord of Flame "
-msgstr ""
+msgstr "派羅斯，烈焰之主"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 006D:02AD"
 msgid "No! "
-msgstr ""
+msgstr "不！"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 006D:02E7"
 msgid "This is all wrong! "
-msgstr ""
+msgstr "全都不對！"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 006D:031B"
 msgid "What have I done? "
-msgstr ""
+msgstr "我做了什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:04D0"
 msgid "I have need of your knowledge, Pyros. "
-msgstr ""
+msgstr "我需要你的知識，派羅斯。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:0593"
 msgid "I command you to do my bidding! "
-msgstr ""
+msgstr "我命令你聽我差遣！"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:0655"
 msgid "I think not yet, my Lord. Now, about the information I require... "
-msgstr ""
+msgstr "我看還不行，大人。好了，關於我需要的情報……"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:0727"
 msgid "I have read legends of a great fire that once hung in the sky. "
-msgstr ""
+msgstr "我讀過傳說，說天空中曾經懸著一團巨大的火。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:084E"
 msgid "So. You have no knowledge of the sun. Very well. If your knowledge is limited, I will have some of your power, Daemon Lord. Give it to me! "
-msgstr ""
+msgstr "所以，你對太陽一無所知。很好。既然你的知識有限，那我就要你的一些力量，惡魔之主。給我！"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:08A8"
 msgid "Your power is almost too much for me! "
-msgstr ""
+msgstr "你的力量幾乎讓我承受不住！"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:0974"
 msgid "Strengthen your defense, Acolytes! He seeks to break our restraints! "
-msgstr ""
+msgstr "加強防禦，學徒們！他想掙脫我們的束縛！"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:0CE8"
 msgid "Guardian help us! Pyros is free! Flee for your lives! "
-msgstr ""
+msgstr "守護者救救我們！派羅斯掙脫了！快逃命！"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:0F2D"
 msgid "Guardian help us! Pyros is almost free! Channel your energy to me and we will try send him back! "
-msgstr ""
+msgstr "守護者救救我們！派羅斯快掙脫了！把你們的能量導向我，我們設法把他送回去！"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:1056"
 msgid "I have the Tongue of Flame! Yes! That's it! By its power, I banish you! Return to the Fire that spawned you! "
-msgstr ""
+msgstr "我有烈焰之舌！對！就是這樣！以它的力量，我驅逐你！回到孕育你的火焰中去吧！"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:11C5"
 msgid "We have barely managed to contain him. Channel your energy to me and we will try send him back. "
-msgstr ""
+msgstr "我們勉強壓制住他了。把你們的能量導向我，我們設法把他送回去。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:131C"
 msgid "No, Pyros! I have the Tongue of Flame! By its power, I banish you! Return to the Fire that spawned you! "
-msgstr ""
+msgstr "不，派羅斯！我有烈焰之舌！以它的力量，我驅逐你！回到孕育你的火焰中去吧！"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:1448"
 msgid "Well done, Acolytes. We have managed to contain him. Channel your energy to me and we will send him back. "
-msgstr ""
+msgstr "做得好，學徒們。我們壓制住他了。把你們的能量導向我，我們把他送回去。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:15D0"
 msgid "No, Pyros. You forget... I have the Tongue of Flame. By its power, I banish you. Return to the Fire that spawned you! "
-msgstr ""
+msgstr "不，派羅斯。你忘了……我有烈焰之舌。以它的力量，我驅逐你。回到孕育你的火焰中去吧！"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:15FB"
 msgid "Vas An Flam Bal Xen!"
-msgstr ""
+msgstr "Vas An Flam Bal Xen！"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:238A"
 msgid "Insolent fool! You will die for your insubordination! "
-msgstr ""
+msgstr "無禮的蠢貨！你要為你的抗命送命！"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:23F6"
 msgid "No, wait... "
-msgstr ""
+msgstr "不，等等……"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:294D"
 msgid "I am glad that you all were waiting for us. I hope I haven't inconvenienced any of you. "
-msgstr ""
+msgstr "很高興你們都在等我們。希望我沒給你們任何人添麻煩。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:2AA0"
 msgid "If I did, it is of no consequence. This is far more important. "
-msgstr ""
+msgstr "就算有，也無關緊要。這件事重要得多。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 006D:2AE5"
 msgid "Place your candles about the Great Pentacle. "
-msgstr ""
+msgstr "把你們的蠟燭放在大五芒星陣周圍。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 006D"
 msgid "I will not. "
-msgstr ""
+msgstr "我不要。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Master. "
 #. answer compared by the conversation code
 msgctxt "ask 006D"
 msgid "Yes, Master. "
-msgstr ""
+msgstr "是，大師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I do not have one. "
 #. answer compared by the conversation code
 msgctxt "ask 006D"
 msgid "I do not have one. "
-msgstr ""
+msgstr "我沒有蠟燭。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I do not have one. "
 msgctxt "bark 006D:324F"
 msgid "Good. Now Ignite the candles. "
-msgstr ""
+msgstr "很好。現在點燃蠟燭。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I do not have one. "
 msgctxt "ask 006D"
 msgid "Do it yourself. "
-msgstr ""
+msgstr "你自己點。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Do it yourself. "
 msgctxt "bark 006D:3756"
 msgid "Kneel before the Lord of Flame, Acolytes. "
-msgstr ""
+msgstr "在烈焰之主面前跪下，學徒們。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Do it yourself. "
 msgctxt "ask 006D"
 msgid "Must I? "
-msgstr ""
+msgstr "非跪不可嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "ask 006D"
 msgid "No, I will not. "
-msgstr ""
+msgstr "不，我不跪。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "bark 006D:3997"
 msgid "You will kneel, or you will die! Do you understand? "
-msgstr ""
+msgstr "要嘛跪下，要嘛死！明白嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "ask 006D"
 msgid "No, I do not. "
-msgstr ""
+msgstr "不，我不想。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "bark 006D:3A1A"
 msgid "Then die, fool. "
-msgstr ""
+msgstr "那就去死吧，蠢貨。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "bark 006D:3B40"
 msgid "Now... speak the words of the chant. You must concentrate on them throughout the ritual. "
-msgstr ""
+msgstr "現在……唸出咒文。整個儀式期間，你們都必須專注於咒文。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "bark 006D:3B7D"
 msgid "In Sanct An Por"
-msgstr ""
+msgstr "In Sanct An Por"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "bark 006D:3BB6"
 msgid "In Sanct An Por"
-msgstr ""
+msgstr "In Sanct An Por"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "bark 006D:3BED"
 msgid "In Sanct An Por"
-msgstr ""
+msgstr "In Sanct An Por"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "ask 006D"
 msgid "In Sanct An Por"
-msgstr ""
+msgstr "In Sanct An Por"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, Master. "
 msgctxt "ask 006D"
 msgid "The chant is useless. "
-msgstr ""
+msgstr "這咒文沒用。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "In Sanct An Por"
 msgctxt "bark 006D:3CCB"
 msgid "In Sanct An Por"
-msgstr ""
+msgstr "In Sanct An Por"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "In Sanct An Por"
 msgctxt "bark 006D:3D4F"
 msgid "I believe all is ready, my Acolytes. Prepare for the coming of Pyros, the Lord of Flame! "
-msgstr ""
+msgstr "我想一切都準備好了，我的學徒們。準備迎接烈焰之主派羅斯的降臨！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "In Sanct An Por"
 msgctxt "bark 006D:3D7B"
 msgid "Kal Vas Flam Bal Xen!"
-msgstr ""
+msgstr "Kal Vas Flam Bal Xen！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "In Sanct An Por"
 msgctxt "bark 006D:3FCB"
 msgid "Me? "
-msgstr ""
+msgstr "我？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "In Sanct An Por"
 msgctxt "bark 006D:43DB"
 msgid "Due to your gross insubordination, we nearly lost control of the Titan of Fire. My First Acolyte lies dead on the ground. Had we done so, all life on this isle would surely have died. Take that as a warning. *And take this as a reminder never to cross me again. "
-msgstr ""
+msgstr "由於你嚴重抗命，我們差點失去對火焰泰坦的控制。我的第一學徒倒在地上死了。要是真失控了，這座島上所有生命都必死無疑。把這當成警告吧。*再收下這個，提醒你永遠別再違抗我。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "In Sanct An Por"
 msgctxt "bark 006D:44F5"
 msgid "Due to your poor performance, I was not able to absorb as much power from Pyros as I would have liked. That irritates me.*Accept this as a reminder never to irritate me again. "
-msgstr ""
+msgstr "由於你表現差勁，我沒能從派羅斯那裡吸收到我想要的那麼多力量。這讓我很惱火。*收下這個，提醒你永遠別再惹我惱火。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "In Sanct An Por"
 msgctxt "bark 006D:4613"
 msgid "I thank you for your assistance in this matter. Know that I felt your power sustaining my Sorcery, and that I was truly greatful for its presence. Perhaps in time, you will aspire to the position of my First. "
-msgstr ""
+msgstr "謝謝你在這件事上的協助。要知道，我感覺到你的力量支撐著我的巫術，我真心感激。也許假以時日，你能爭取當我的第一學徒。"

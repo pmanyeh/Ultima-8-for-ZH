@@ -20,20 +20,20 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 ## Translation progress
 
 <!-- progress:start -->
-**Overall (by English characters): `███████████░░░░░░░░░` 52.7%** (4,034 / 6,995 entries, updated 2026-10-09)
+**Overall (by English characters): `██████████████░░░░░░` 70.4%** (5,449 / 6,995 entries, updated 2026-10-09)
 
 | Kind | Translated / total (entries) | English characters | Progress |
 |---|---|---|---|
-| Lines and item names | 2,761 / 4,827 | 375,375 | 69.1% |
-| Conversation answers | 1,242 / 1,863 | 36,829 | 69.2% |
+| Lines and item names | 3,738 / 4,827 | 375,375 | 92.0% |
+| Conversation answers | 1,672 / 1,863 | 36,829 | 95.4% |
 | Books | 1 / 87 | 116,622 | 0.2% |
 | Scrolls | 1 / 22 | 7,864 | 1.0% |
 | Gravestones | 2 / 67 | 2,609 | 1.1% |
 | Plaques | 2 / 63 | 1,410 | 2.3% |
-| Sentence pieces | 13 / 54 | 505 | 23.8% |
+| Sentence pieces | 21 / 54 | 505 | 38.6% |
 | Interface | 12 / 12 | 152 | 100.0% |
 
-Characters and scenes done: Aramina, Arcadion, Basket, Bentic, Beren, Berenhch, Child, Obsidian coins, Cyrrus, Devon, Execution scene, Fight, Food, Gate guard, Guard10, Guard2, Guard3, Guard4, Guard5, Guard6, Guard7, Guard8, Guard9, Guardman, Guard_ew, Jenna, Keyonec, Kilandra, Korick, Mordea, Morefish, Mythran, Orlok, Pent, Pesant1, Pesant2, Pesant3, Rhian, Shaana, Stellos, Tarna, Toran, Torwin, Vividos, Winchns
+Characters and scenes done: Aramina, Arcadion, Bane, Bane2, Basket, Bentic, Beren, Berenhch, Child, Obsidian coins, Corinth, Cyrrus, Devon, Execution scene, Fight, Food, Gorgrond, Gate guard, Guard10, Guard2, Guard3, Guard4, Guard5, Guard6, Guard7, Guard8, Guard9, Guardman, Guard_ew, Gwillim, Hydros, Jenna, Keyonec, Kilandra, Korick, Lithos, Malchir, Mordea, Morefish, Mythran, Orlok, Pent, Pesant1, Pesant2, Pesant3, Pyros, Rhian, Shaana, Stellos, Stratos, Tarna, Toran, Torwin, Vardion, Vardion2, Vividos, Winchns
 <!-- progress:end -->
 
 The translation follows the story: the first batch is the opening (Devon → the execution on the docks of Tenebrae). Names and terms are kept consistent in the [authority file](localization/zh_TW/authority.tsv).

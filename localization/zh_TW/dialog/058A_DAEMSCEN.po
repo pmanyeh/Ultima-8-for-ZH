@@ -10,499 +10,599 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 msgctxt "bark 058A:0750"
 msgid "How may I serve you, master? "
-msgstr ""
+msgstr "有何吩咐，主人？"
 
+# P13 batch 5
 msgctxt "bark 058A:0750"
 msgid "How may I serve you, mistress? "
-msgstr ""
+msgstr "有何吩咐，女主人？"
 
+# P13 batch 5
 msgctxt "bark 058A:0761"
 msgid "Find the one called Sabriane. Put an end to her life and then return from whence you came.*I command that you do this in Pyros' name. "
-msgstr ""
+msgstr "去找那個叫莎布莉安的人。結束她的性命，然後回到你來的地方。*我以派羅斯之名命令你這麼做。"
 
+# P13 batch 5
 msgctxt "bark 058A:0761"
 msgid "Find the one called Morduin. Put an end to his life and then return from whence you came.*I command that you do this in Pyros' name. "
-msgstr ""
+msgstr "去找那個叫莫杜因的人。結束他的性命，然後回到你來的地方。*我以派羅斯之名命令你這麼做。"
 
+# P13 batch 5
 #. sentence template: keep the {placeholders}
 msgctxt "bark 058A:0772"
 msgid "{varED}"
-msgstr ""
+msgstr "{varED}"
 
+# P13 batch 5
 msgctxt "bark 058A:0B63"
 msgid "There... it is done. "
-msgstr ""
+msgstr "好了……完成了。"
 
+# P13 batch 5
 msgctxt "bark 058A:0E3C"
 msgid "I have sensed a daemonic presence within the confines of the Enclave.*Vardion, what is the meaning of this?"
-msgstr ""
+msgstr "我感覺到聚落裡有惡魔的氣息。*瓦爾迪恩，這是怎麼回事？"
 
+# P13 batch 5
 msgctxt "bark 058A:0E3C"
 msgid "I have sensed a daemonic presence within the confines of the Enclave.*Bane, what is the meaning of this?"
-msgstr ""
+msgstr "我感覺到聚落裡有惡魔的氣息。*貝恩，這是怎麼回事？"
 
+# P13 batch 5
 #. sentence template: keep the {placeholders}
 msgctxt "bark 058A:0F2D"
 msgid "Forgive me, Master. {varF1} was planning to assassinate you.*With the aid of this stranger, I summoned a daemon to rid us of the threat. Surely you understand that I had to do something."
-msgstr ""
+msgstr "原諒我，大師。{varF1}計畫要暗殺您。*在這個陌生人的協助下，我召喚了一隻惡魔來除掉這個威脅。您一定能理解，我非做點什麼不可。"
 
+# P13 batch 5
 msgctxt "bark 058A:0F66"
 msgid "I understand no such thing*Get up! "
-msgstr ""
+msgstr "我才不理解*起來！"
 
+# P13 batch 5
 msgctxt "bark 058A:0FF3"
 msgid "You should have brought this to my attention before acting on your baseless suspicions. "
-msgstr ""
+msgstr "你應該先向我稟報，而不是憑著毫無根據的懷疑擅自行動。"
 
+# P13 batch 5
 msgctxt "bark 058A:1034"
 msgid "Yes, Master. I only sought to protect you. "
-msgstr ""
+msgstr "是，大師。我只是想保護您。"
 
+# P13 batch 5
 msgctxt "bark 058A:1174"
 msgid "Well, in your feeble attempt at guarding my person, you have destroyed a valuable Acolyte at a time when I need to call upon the Lord of Flame. "
-msgstr ""
+msgstr "哼，你這拙劣的護主之舉，讓我在需要召喚烈焰之主的時候，失去了一位寶貴的學徒。"
 
+# P13 batch 5
 msgctxt "bark 058A:11CC"
 msgid "How exactly do you propose to solve this dilemma, Vardion?"
-msgstr ""
+msgstr "你到底打算怎麼解決這個難題，瓦爾迪恩？"
 
+# P13 batch 5
 msgctxt "bark 058A:11CC"
 msgid "How exactly do you propose to solve this dilemma, Bane?"
-msgstr ""
+msgstr "你到底打算怎麼解決這個難題，貝恩？"
 
+# P13 batch 5
 msgctxt "bark 058A:12CB"
 msgid "If you will permit me to remain your First Acolyte, I believe that I can give you a fine Disciple to assist in the Ritual of Fire. That one there. "
-msgstr ""
+msgstr "如果您允許我繼續當您的第一學徒，我相信我能給您一位出色的門徒來協助火之儀式。就是那一位。"
 
+# P13 batch 5
 msgctxt "bark 058A:12CB"
 msgid "If you will allow me to become your First Acolyte, I believe that I can give you a fine Disciple to assist in the Ritual of Fire. That one there. "
-msgstr ""
+msgstr "如果您允許我成為您的第一學徒，我相信我能給您一位出色的門徒來協助火之儀式。就是那一位。"
 
+# P13 batch 5
 #. , after ""
 #. sentence template: keep the {placeholders}
 msgctxt "bark 058A:1379"
 msgid "He calls himself, {name}."
-msgstr ""
+msgstr "他自稱{name}。"
 
 #. , after ""
 msgctxt "bark 058A:1379"
 msgid "He calls himself, ."
 msgstr ""
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:13D0"
 msgid "His Sorcerous potential is truly great. Can you not feel it? "
-msgstr ""
+msgstr "他的巫術潛力真的很大。您感覺不到嗎？"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:1553"
 msgid "Of course I can! Do not presume to tell me my craft.* Teach him our ways, and keep in mind that while he is your Disciple, all his actions reflect upon you, First Acolyte. "
-msgstr ""
+msgstr "我當然感覺得到！別自以為能教我我的本行。*把我們的規矩教給他，記住，只要他是你的門徒，他的一切行為都會算在你頭上，第一學徒。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:15D9"
 msgid "Yes! I understand, my Master.*I will provide you with an excellent Acolyte. We will begin training immediately. "
-msgstr ""
+msgstr "是！我明白，我的大師。*我會給您一位出色的學徒。我們馬上開始訓練。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:167C"
 msgid "See that you do. And when he is ready, send him to me.* If he can survive the Obsidian Fortress, he will be ready for the Ritual of Flame. "
-msgstr ""
+msgstr "最好如此。等他準備好了，就送他來見我。*如果他能在黑曜石要塞活下來，就有資格參加烈焰儀式了。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:16BB"
 msgid "Yes, Master. "
-msgstr ""
+msgstr "是，大師。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:18CA"
 msgid "Well, Disciple. It's time to make an Acolyte out of you. Go and read the books of our library. They will show you how to become a Sorcerer. Come to me only if you have questions about Sorcery in general. "
-msgstr ""
+msgstr "好了，門徒。該把你培養成學徒了。去讀我們圖書館的書，它們會告訴你怎麼成為巫師。只有在你對巫術有一般性的問題時，才來找我。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:1944"
 msgid "Here's the key to the library.*Run along now. "
-msgstr ""
+msgstr "這是圖書館的鑰匙。*去吧。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:19A6"
 msgid "Come fetch the key to the library.*Then run along. "
-msgstr ""
+msgstr "過來拿圖書館的鑰匙。*然後去吧。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 058A"
 msgid "You lied to me! "
-msgstr ""
+msgstr "你騙了我！"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 058A"
 msgid "You are quite devious. "
-msgstr ""
+msgstr "你可真狡猾。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 058A"
 msgid "I would learn more about Sorcery. "
-msgstr ""
+msgstr "我想多學點巫術。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:1AB4"
 msgid "I cannot assist you during your test. Do you wish to forfeit? "
-msgstr ""
+msgstr "你考驗期間我不能幫你。你想放棄嗎？"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:1B28"
 msgid "You disappoint me, my Disciple. But, how may I assist you? "
-msgstr ""
+msgstr "你讓我失望，我的門徒。不過，有什麼我能幫你的？"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:1C3F"
 msgid "Very well. But you must hurry. You have not even started and Master Malchir will not wait forever. "
-msgstr ""
+msgstr "好吧。但你得快點。你連開始都還沒開始，而馬爾奇爾大巫師可不會一直等下去。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:1C3F"
 msgid "Very well. But you must hurry. You have made a good start but Master Malchir will not wait forever. "
-msgstr ""
+msgstr "好吧。但你得快點。你開了個好頭，但馬爾奇爾大巫師可不會一直等下去。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:1C3F"
 msgid "Very well. But you must hurry. You are almost done but Master Malchir will not wait forever. "
-msgstr ""
+msgstr "好吧。但你得快點。你快完成了，但馬爾奇爾大巫師可不會一直等下去。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:1C3F"
 msgid "Very well. But you must hurry. Master Malchir will not wait forever. "
-msgstr ""
+msgstr "好吧。但你得快點。馬爾奇爾大巫師可不會一直等下去。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "ask 058A"
 msgid "I am ready to be tested. "
-msgstr ""
+msgstr "我準備好接受考驗了。"
 
+# P13 batch 5
 #. , after "Farewell. "
 #. answer compared by the conversation code
 msgctxt "ask 058A"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 5
 #. , after "Farewell. "
 msgctxt "bark 058A:1D60"
 msgid "I must return to my work, Disciple. "
-msgstr ""
+msgstr "我得回去工作了，門徒。"
 
+# P13 batch 5
 #. , after "You lied to me! "
 msgctxt "bark 058A:1E31"
 msgid "And what of it? Are you here to bother me with your petty conscience? "
-msgstr ""
+msgstr "那又怎樣？你是來拿你那點可憐的良心煩我的嗎？"
 
+# P13 batch 5
 #. , after "You lied to me! "
 msgctxt "ask 058A"
 msgid "Obviously, you have none. "
-msgstr ""
+msgstr "顯然你根本沒有良心。"
 
+# P13 batch 5
 #. , after "You lied to me! "
 msgctxt "ask 058A"
 msgid "No, of course not. Forgive me. "
-msgstr ""
+msgstr "不，當然不是。原諒我。"
 
+# P13 batch 5
 #. , after "You are quite devious. "
 msgctxt "bark 058A:1F57"
 msgid "I thought you would see it that way. A job needed doing, and I was the one to do it. Very simple. Now, about your training. "
-msgstr ""
+msgstr "我就知道你會這麼想。有件事得有人做，而我就是做的那個人。很簡單。好了，說說你的訓練吧。"
 
+# P13 batch 5
 #. , after "Obviously, you have none. "
 msgctxt "bark 058A:20B5"
 msgid "That's right, Disciple. And if you know what's good for you, you'll lose yours. It gets in the way of Sorcery. If you can't handle this, you're no good to us, and if you're no good to us, then you must leave. "
-msgstr ""
+msgstr "沒錯，門徒。你要是識相，就把你的良心也扔了。它會妨礙巫術。你要是受不了，對我們就沒用；對我們沒用，你就得走。"
 
+# P13 batch 5
 #. , after "No, of course not. Forgive me. "
 msgctxt "bark 058A:21A5"
 msgid "Forgive you? You are the Disciple, I am your Sponsor. I give the orders. I will forgive you when you earn my forgiveness. You do that by becoming a competent Sorcerer. "
-msgstr ""
+msgstr "原諒你？你是門徒，我是你的保薦人。下命令的是我。等你配得上我的原諒時，我自然會原諒你。而要做到這一點，你就得成為稱職的巫師。"
 
+# P13 batch 5
 #. , after "I would learn more about Sorcery. "
 msgctxt "bark 058A:22F0"
 msgid "Would you? Well then, learn. What would you know? "
-msgstr ""
+msgstr "是嗎？那就學吧。你想知道什麼？"
 
+# P13 batch 5
 #. , after "I would learn more about Sorcery. "
 msgctxt "bark 058A:22F0"
 msgid "Excellent. Knowledge is the path to power. What would you know? "
-msgstr ""
+msgstr "很好。知識是通往力量之路。你想知道什麼？"
 
+# P13 batch 5
 #. , after "I would learn more about Sorcery. "
 msgctxt "bark 058A:22F0"
 msgid "Very well. I am here to teach. What would you know? "
-msgstr ""
+msgstr "好吧。我就是來教你的。你想知道什麼？"
 
+# P13 batch 5
 #. , after "I would learn more about Sorcery. "
 msgctxt "ask 058A"
 msgid "How will I be tested? "
-msgstr ""
+msgstr "我會接受什麼考驗？"
 
+# P13 batch 5
 #. , after "I would learn more about Sorcery. "
 msgctxt "ask 058A"
 msgid "Tell me about spellcasting. "
-msgstr ""
+msgstr "說說施法。"
 
+# P13 batch 5
 #. , after "I would learn more about Sorcery. "
 msgctxt "ask 058A"
 msgid "I wish to know about a spell. "
-msgstr ""
+msgstr "我想了解一道法術。"
 
+# P13 batch 5
 #. , after "I am ready to be tested. "
 msgctxt "bark 058A:248F"
 msgid "Are you? We shall see.*Your test will consist of enchanting a focus or foci, your choice, with the spells of Flash, Flame Bolt, and Endure Heat. If you find that you are not ready once the test begins, you may still leave, but the test will be forfeit. "
-msgstr ""
+msgstr "是嗎？我們走著瞧。*你的考驗是為一個或多個法器——隨你選——附上閃光術、烈焰箭和耐熱術。考驗開始後，要是你發現自己還沒準備好，還是可以離開，但考驗就算棄權。"
 
+# P13 batch 5
 #. , after "I am ready to be tested. "
 msgctxt "bark 058A:24C4"
 msgid "Do you wish to begin the test? "
-msgstr ""
+msgstr "你要開始考驗嗎？"
 
+# P13 batch 5
 #. , after "I am ready to be tested. "
 msgctxt "bark 058A:25BC"
 msgid "Your test begins now. Do not fail. I will not tolerate failure in one of my Disciples. "
-msgstr ""
+msgstr "你的考驗現在開始。別失敗。我不容許我的門徒失敗。"
 
+# P13 batch 5
 #. , after "I am ready to be tested. "
 msgctxt "bark 058A:2651"
 msgid "Very well. But learn quickly. The Master does not like to be kept waiting. "
-msgstr ""
+msgstr "好吧。但要學快點。大師不喜歡等人。"
 
+# P13 batch 5
 #. , after "I am ready to be tested. "
 msgctxt "bark 058A:26E9"
 msgid "I am busy right now, Disciple. I will test you when I am at my pentacle. "
-msgstr ""
+msgstr "我現在很忙，門徒。等我在我的五芒星陣那裡時再考你。"
 
+# P13 batch 5
 #. , after "What is the Ritual of Fire? "
 #. answer compared by the conversation code
 msgctxt "ask 058A"
 msgid "What is the Ritual of Fire? "
-msgstr ""
+msgstr "火之儀式是什麼？"
 
+# P13 batch 5
 #. , after "What is the Ritual of Fire? "
 msgctxt "bark 058A:27E2"
 msgid "That is the ceremony we use to call upon our patron Titan, Pyros, Lord of Flame. Your final test hinges upon how well you perform in that ritual. "
-msgstr ""
+msgstr "那是我們用來召喚守護泰坦——烈焰之主派羅斯——的儀式。你的最後考驗，就看你在那場儀式中的表現。"
 
+# P13 batch 5
 #. , after "What is the Ritual of Fire? "
 msgctxt "bark 058A:28C3"
 msgid "You will need to bring a red candle, that you will ignite by use of Sorcery. You will then kneel and begin the chant,~ 'In Sanct An Por'. Very simple, is it not? When it is over, you may do as you wish. "
-msgstr ""
+msgstr "你得帶一根紅蠟燭，用巫術點燃它。然後跪下，開始唸咒文：~「In Sanct An Por」。很簡單，不是嗎？等儀式結束，你想做什麼都行。"
 
+# P13 batch 5
 #. , after "How will I be tested? "
 msgctxt "bark 058A:29CD"
 msgid "First, I will test your ability to create and bind sorcerous energies to physical paraphernalia, when you can do this, I will pronounce you fit to become an Acolyte. "
-msgstr ""
+msgstr "首先，我要考驗你創造巫術能量並將它束縛在實體器具上的能力。等你辦得到，我就宣布你有資格成為學徒。"
 
+# P13 batch 5
 #. , after "How will I be tested? "
 msgctxt "bark 058A:2AC6"
 msgid "For your next test, I will give you the key of the Acolyte. It is not a physical key, as such, but the ability to enter into the Obsidian Fortress. Your test lies within. If you survive to find Master Malchir, you have passed. "
-msgstr ""
+msgstr "你的下一項考驗，我會給你學徒之鑰。它不是實體的鑰匙，而是進入黑曜石要塞的能力。你的考驗就在裡面。只要你活著找到馬爾奇爾大巫師，就算通過了。"
 
+# P13 batch 5
 #. , after "How will I be tested? "
 msgctxt "bark 058A:2B76"
 msgid "Your third test will be given by the Master himself. He will choose a spell for you to cast. Cast it successfully and you will be accepted as an Acolyte. "
-msgstr ""
+msgstr "你的第三項考驗會由大師親自主持。他會挑一道法術讓你施展。成功施展，你就會被接納為學徒。"
 
+# P13 batch 5
 #. , after "How will I be tested? "
 msgctxt "bark 058A:2C34"
 msgid "Your final test will be to assist in the Ritual of Fire. Do this competently, and your position as Acolyte, as well as my position as First Acolyte, will be confirmed. "
-msgstr ""
+msgstr "你的最後一項考驗是協助火之儀式。只要稱職地完成，你的學徒地位以及我的第一學徒地位就都確定了。"
 
+# P13 batch 5
 #. , after "Tell me about spellcasting. "
 msgctxt "bark 058A:2D98"
 msgid "Sorcerous spellcasting is a craft. It involves binding the power of Fire into a physical focus. The foci we use are: the pentacle symbol, a metal wand, rod, or staff, and a talisman in the form of a daemon's head. "
-msgstr ""
+msgstr "巫術施法是一門技藝，要把火焰的力量束縛在實體法器中。我們用的法器有：五芒星符印、金屬製的魔杖、權杖或法杖，以及惡魔頭形狀的護符。"
 
+# P13 batch 5
 #. , after "Tell me about spellcasting. "
 msgctxt "bark 058A:2E9C"
 msgid "A pentagram is required to contain the power channeled into the focus, candles are used to indicate the nature of the spell, and certain reagents, placed strategically near certain candles, unleash and shape the energies to be channeled. "
-msgstr ""
+msgstr "需要五芒星陣來容納導入法器的力量，用蠟燭來指示法術的性質，再把特定材料策略性地放在特定蠟燭附近，以釋放並塑造要導入的能量。"
 
+# P13 batch 5
 #. , after "Tell me about spellcasting. "
 msgctxt "ask 058A"
 msgid "Where do I place the candles? "
-msgstr ""
+msgstr "蠟燭要放在哪裡？"
 
+# P13 batch 5
 #. , after "Tell me about spellcasting. "
 msgctxt "ask 058A"
 msgid "Explain the foci. "
-msgstr ""
+msgstr "解釋一下法器。"
 
+# P13 batch 5
 #. , after "Tell me about spellcasting. "
 msgctxt "ask 058A"
 msgid "What are reagents? "
-msgstr ""
+msgstr "材料是什麼？"
 
+# P13 batch 5
 #. , after "I wish to know about a spell. "
 msgctxt "bark 058A:2FA9"
 msgid "You must find the spellbook with that knowledge and research its properties. Other than that, I cannot reveal to you. "
-msgstr ""
+msgstr "你必須找到記載那種知識的魔法書，研究它的特性。除此之外，我不能透露。"
 
+# P13 batch 5
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:309A"
 msgid "Each point of the pentacle has a small spike upon which a candle can be placed. These points have names associated with them. "
-msgstr ""
+msgstr "五芒星陣的每個角都有一根小尖釘，可以插蠟燭。這些角各有各的名稱。"
 
+# P13 batch 5
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:3107"
 msgid "The point farthest from the core of the volcano is called the Aphelion, and it lies... "
-msgstr ""
+msgstr "離火山核心最遠的那個角叫做遠日石柱，它在……"
 
+# P13 batch 5
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:31B9"
 msgid "...here. "
-msgstr ""
+msgstr "……這裡。"
 
+# P13 batch 5
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:3222"
 msgid "The next two candles are called Mesostelae. Mesostel Pa rests... "
-msgstr ""
+msgstr "接下來兩根蠟燭叫做中立石柱。派中立石柱在……"
 
+# P13 batch 5
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:32BF"
 msgid "...here. "
-msgstr ""
+msgstr "……這裡。"
 
+# P13 batch 5
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:3309"
 msgid "And its companion, Mesostel Ze sits across from it. "
-msgstr ""
+msgstr "而它的同伴澤中立石柱就在它對面。"
 
+# P13 batch 5
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:33E6"
 msgid "The final candles, closest to the volcano are appropriately named Perivolcanae. Perivolcan Pa lies... "
-msgstr ""
+msgstr "最後兩根離火山最近的蠟燭，名副其實地叫做環火石柱。派環火石柱在……"
 
+# P13 batch 5
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:3487"
 msgid "...here. "
-msgstr ""
+msgstr "……這裡。"
 
+# P13 batch 5
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:34AD"
 msgid "And its mate... "
-msgstr ""
+msgstr "而它的另一半……"
 
+# P13 batch 5
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:353B"
 msgid "...is placed here. "
-msgstr ""
+msgstr "……放在這裡。"
 
+# P13 batch 5
 #. , after "Where do I place the candles? "
 msgctxt "bark 058A:3655"
 msgid "This lesson will have to wait, Disciple. I am not prepared to teach it at the moment. Ask again when I am at my pentacle. "
-msgstr ""
+msgstr "這一課得等一等，門徒。我現在還沒準備好教。等我在五芒星陣那裡時再問吧。"
 
+# P13 batch 5
 #. , after "Explain the foci. "
 msgctxt "bark 058A:3740"
 msgid "A focus is designed to hold the energy of a spell. Each focus has different limitations as to the choice and power of the spell focused. "
-msgstr ""
+msgstr "法器是設計來容納法術能量的。每種法器能容納的法術種類與威力都有不同的限制。"
 
+# P13 batch 5
 #. , after "Explain the foci. "
 msgctxt "bark 058A:383C"
 msgid "The pentacle symbol is the least powerful, but quite possibly the most useful focus. It is designed to contain the energies of the Ignite and Extinguish spells, however, any other spell may be worked into its pattern for one use. "
-msgstr ""
+msgstr "五芒星符印是威力最弱、但很可能最有用的法器。它是設計來容納點燃術和熄火術的能量，不過其他任何法術也都能織入它的圖紋，用一次。"
 
+# P13 batch 5
 #. , after "Explain the foci. "
 msgctxt "bark 058A:396F"
 msgid "The wand can hold the Ignite, Extinguish, Flash, and Flame Bolt spells. The Rod holds all wand spells in addition to the protective spells of Endure Heat, Fire Shield, and Armor of Flames. The staff holds all of the wand and rod spells along with the Create Fire and Explosion spells. "
-msgstr ""
+msgstr "魔杖能容納點燃術、熄火術、閃光術和烈焰箭。權杖除了魔杖的所有法術外，還能容納耐熱術、火焰護盾和烈焰護甲這些防護法術。法杖能容納魔杖和權杖的所有法術，外加造火術和爆炸術。"
 
+# P13 batch 5
 #. , after "Explain the foci. "
 msgctxt "bark 058A:39E0"
 msgid "The daemon talisman holds only the Summon Daemon, Banish Daemon, and Conflagration spells. "
-msgstr ""
+msgstr "惡魔護符只能容納召喚惡魔、驅逐惡魔和烈焰焚燒這幾道法術。"
 
+# P13 batch 5
 #. , after "Explain the foci. "
 msgctxt "bark 058A:3A87"
 msgid "When you wish to enchant a focus, you merely place it at the center of a prepared pentacle, then concentrate your will upon the pentacle itself. "
-msgstr ""
+msgstr "想為法器附魔時，只要把它放在準備好的五芒星陣中央，然後把意志集中在五芒星陣本身。"
 
+# P13 batch 5
 #. , after "What are reagents? "
 msgctxt "bark 058A:3B51"
 msgid "They are all things which the Lord of Flame provides for us, and they each are imbued with different capabilities. "
-msgstr ""
+msgstr "它們全是烈焰之主賜給我們的東西，各自蘊含不同的能力。"
 
+# P13 batch 5
 #. , after "What are reagents? "
 msgctxt "bark 058A:3BD1"
 msgid "The simplest reagent is volcanic ash. Its purpose in Sorcery is to represent the spark that brings flame. "
-msgstr ""
+msgstr "最簡單的材料是火山灰。它在巫術中的作用，是代表引燃火焰的火花。"
 
+# P13 batch 5
 #. , after "What are reagents? "
 msgctxt "bark 058A:3C4D"
 msgid "Pumice is thrown far from the maw of the volcano, and has the property of giving distance to a spell. "
-msgstr ""
+msgstr "浮岩是從火山口拋射到遠處的，具有讓法術射得更遠的特性。"
 
+# P13 batch 5
 #. , after "What are reagents? "
 msgctxt "bark 058A:3D06"
 msgid "Obsidian is a very enduring substance. It can be worn down, to fine grains of sand, but if melted it resumes its former properties. It grants duration to a spell. "
-msgstr ""
+msgstr "黑曜石是非常耐久的物質。它可以被磨成細沙，但只要熔化，又會恢復原本的特性。它能讓法術維持得更久。"
 
+# P13 batch 5
 #. , after "What are reagents? "
 msgctxt "bark 058A:3D90"
 msgid "Raw iron, or pig iron, is strong yet flexible to work with. It lends this protective nature to sorcerous endeavors. "
-msgstr ""
+msgstr "生鐵堅固又容易加工。它能把這種防護性質賦予巫術。"
 
+# P13 batch 5
 #. , after "What are reagents? "
 msgctxt "bark 058A:3E35"
 msgid "Brimstone is a volatile substance, and confers this to Sorcerous enchantment in the form of raw power. Be careful in your use of this reagent. "
-msgstr ""
+msgstr "硫磺是一種不穩定的物質，它會以原始力量的形式把這種特性賦予巫術附魔。使用這種材料要小心。"
 
+# P13 batch 5
 #. , after "What are reagents? "
 msgctxt "bark 058A:3F21"
 msgid "Daemon bone, hard to aquire, and harder still to use. This, of course, is the reagent required to make spells dealing with the daemonic servants of Pyros. If you are not wary with its use, it will be your undoing. "
-msgstr ""
+msgstr "惡魔之骨，難以取得，更難使用。這當然是施展與派羅斯的惡魔僕從有關的法術所需的材料。使用時要是不夠謹慎，它就會毀了你。"
 
+# P13 batch 5
 #. , after "What are reagents? "
 msgctxt "bark 058A:3FD8"
 msgid "Reagents are placed about the candles to lend their particular properties to the spell. Other than proximity to the correct candle, their placement matters not. "
-msgstr ""
+msgstr "材料放在蠟燭周圍，把它們各自的特性賦予法術。只要靠近正確的蠟燭，怎麼擺都無所謂。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:413E"
 msgid "I believe something you said was incorrectly spelled. I don't know why I know this. It was as if giant, blue letters had appeared, blazing across the sky. "
-msgstr ""
+msgstr "我覺得你說的話裡有個字拼錯了。我也不知道我怎麼會知道。就好像有巨大的藍色字母出現，在天空中熊熊燃燒。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:4323"
 msgid "Well done, Disciple! You are now ready to seek out the Master. Go to the Obsidian Fortress. The gates will no longer bar you. In my eyes you are now an Acolyte, only Master Malchir has the right to revoke this should you fail his tests. "
-msgstr ""
+msgstr "做得好，門徒！你現在已經準備好去找大師了。前往黑曜石要塞吧，大門不會再阻擋你。在我眼中，你現在已經是學徒了。只有在你沒通過馬爾奇爾大巫師的考驗時，他才有權撤銷這個身分。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:43D2"
 msgid "I am sorry, Acolyte. I have no time for conversation. My duties as First Acolyte preclude idle discussion. "
-msgstr ""
+msgstr "抱歉，學徒。我沒時間聊天。身為第一學徒，我的職責讓我沒空閒談。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 058A:4464"
 msgid "Besides, I believe the Master still wishes to see you. Do not tarry overlong. Malchir is not known to be forgiving. "
-msgstr ""
+msgstr "再說，我想大師還想見你。別耽擱太久。馬爾奇爾可不是出了名的寬宏大量。"
 
+# P13 batch 5
 #. value of {varED}: "Yes, master. " | "Yes, mistress. "
 #. parameter value inserted into sentence templates
 msgctxt "param 058A:varED"
 msgid "Yes, master. "
-msgstr ""
+msgstr "是，主人。"
 
+# P13 batch 5
 #. value of {varED}: "Yes, master. " | "Yes, mistress. "
 #. parameter value inserted into sentence templates
 msgctxt "param 058A:varED"
 msgid "Yes, mistress. "
-msgstr ""
+msgstr "是，女主人。"
 
+# P13 batch 5
 #. value of {varF1}: "Bane" | "Vardion"
 #. parameter value inserted into sentence templates
 msgctxt "param 058A:varF1"
 msgid "Bane"
-msgstr ""
+msgstr "貝恩"
 
+# P13 batch 5
 #. value of {varF1}: "Bane" | "Vardion"
 #. parameter value inserted into sentence templates
 msgctxt "param 058A:varF1"
 msgid "Vardion"
-msgstr ""
+msgstr "瓦爾迪恩"

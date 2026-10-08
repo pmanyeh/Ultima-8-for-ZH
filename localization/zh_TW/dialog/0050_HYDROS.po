@@ -10,143 +10,171 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 0050:009F"
 msgid "Water Titan "
-msgstr ""
+msgstr "海洋泰坦"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 0050"
 msgid "Goodbye. "
-msgstr ""
+msgstr "再見。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 0050"
 msgid "Hydros? "
-msgstr ""
+msgstr "海德羅斯？"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 0050"
 msgid "I wish the power of Tempestry. "
-msgstr ""
+msgstr "我想要風暴術的力量。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 0050"
 msgid "Are you... Hydros? "
-msgstr ""
+msgstr "你是……海德羅斯？"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 0050:01E0"
 msgid "Who dares? "
-msgstr ""
+msgstr "誰敢來？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Are you... Hydros? "
 msgctxt "bark 0050:02D5"
 msgid "Indeed, piteous mortal, I am Hydros. Know that it is into -my- domain that you have trespassed. "
-msgstr ""
+msgstr "沒錯，可憐的凡人，我就是海德羅斯。要知道，你闖進的是「我的」領域。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Are you... Hydros? "
 msgctxt "bark 0050:030E"
 msgid "Why do you disturb my rest? "
-msgstr ""
+msgstr "你為何打擾我的安息？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Are you... Hydros? "
 msgctxt "bark 0050:037B"
 msgid "And I do not like intrusions. Begone! "
-msgstr ""
+msgstr "而我不喜歡被打擾。滾吧！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Hydros? "
 msgctxt "bark 0050:0436"
 msgid "I hope you have come to make amends. "
-msgstr ""
+msgstr "希望你是來賠罪的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Hydros? "
 msgctxt "ask 0050"
 msgid "I apologize. "
-msgstr ""
+msgstr "我道歉。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Hydros? "
 msgctxt "ask 0050"
 msgid "Never! "
-msgstr ""
+msgstr "休想！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Hydros? "
 msgctxt "bark 0050:04BA"
 msgid "There will be time for conversation when I am free. "
-msgstr ""
+msgstr "等我自由了，自然有時間交談。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Hydros? "
 msgctxt "bark 0050:0562"
 msgid "I have no desire for idle chatter. Find me when you are worthy of conversation. "
-msgstr ""
+msgstr "我沒興趣閒聊。等你配得上與我交談時再來找我。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I apologize. "
 msgctxt "bark 0050:0640"
 msgid "Very well, groundling, I accept your submission. Now go and reflect upon my generosity. "
-msgstr ""
+msgstr "很好，陸地人，我接受你的臣服。現在去好好體會我的寬宏大量吧。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I wish the power of Tempestry. "
 msgctxt "bark 0050:0798"
 msgid "Ah, a wise request from one who has made the difficult journey to my current home. But alas, your desire must go unfulfilled. Trapped here as I am, I cannot help you. "
-msgstr ""
+msgstr "啊，一個歷經艱辛來到我如今居所的人，提出了明智的請求。可惜，你的願望無法實現。我被困在這裡，幫不了你。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I wish the power of Tempestry. "
 msgctxt "ask 0050"
 msgid "What can I do? "
-msgstr ""
+msgstr "我能做什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I wish the power of Tempestry. "
 msgctxt "ask 0050"
 msgid "Too bad. "
-msgstr ""
+msgstr "那真可惜。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Too bad. "
 msgctxt "bark 0050:084D"
 msgid "You do not care for my plight? Why, I should... "
-msgstr ""
+msgstr "你不在乎我的困境？哼，我真該……"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Too bad. "
 msgctxt "bark 0050:08EE"
 msgid "Perhaps I was unclear. You see, should I become free, I would be able to grant you any powers you wish. "
-msgstr ""
+msgstr "也許我說得不夠清楚。你知道，只要我重獲自由，就能賜予你任何你想要的力量。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Too bad. "
 msgctxt "ask 0050"
 msgid "I will not help you. "
-msgstr ""
+msgstr "我不會幫你。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Never! "
 msgctxt "bark 0050:098A"
 msgid "You do not know what you say, groundling! Begone! "
-msgstr ""
+msgstr "你不知道自己在說什麼，陸地人！滾吧！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I will not help you. "
 msgctxt "bark 0050:0A4C"
 msgid "You do not know what you say, groundling! Begone! "
-msgstr ""
+msgstr "你不知道自己在說什麼，陸地人！滾吧！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can I do? " or "Could you repeat those instructions? "
 #. answer compared by the conversation code
 msgctxt "ask 0050"
 msgid "Could you repeat those instructions? "
-msgstr ""
+msgstr "你能再說一次該怎麼做嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can I do? " or "Could you repeat those instructions? "
 msgctxt "bark 0050:0BF2"
 msgid "Ah, you will assist me then. My gratitude will be boundless, mortal. The task is a simple one. Merely open the ground next to the gravestone of my captor's beloved, releasing the waters on the cliffside. Do that and I shall be free. "
-msgstr ""
+msgstr "啊，那你願意幫我了。我將對你感激不盡，凡人。這差事很簡單。只要在囚禁我之人的愛人墓碑旁裂開地面，讓懸崖邊的水流出來。這麼做，我就自由了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0050:0CD6"
 msgid "Farewell, my mortal friend. "
-msgstr ""
+msgstr "再會，我的凡人朋友。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0050:0D07"
 msgid "Begone, foolish mortal! "
-msgstr ""
+msgstr "滾吧，愚蠢的凡人！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0050:151C"
 msgid "Ah, I am now free! Thank you, foolish one, for your actions. Consider my gift of your wretched life as payment for your part. Now I will have my vengeance upon your pathetic kind! I will slay the descendant of my jailer! Let us see who can reach Devon first, groundling. "
-msgstr ""
+msgstr "啊，我終於自由了！謝謝你所做的一切，愚蠢的傢伙。饒你這條賤命，就當作是給你的報酬吧。現在我要向你們這些可悲的人類復仇！我要殺了囚禁我之人的後代！看看誰先找到戴文吧，陸地人。"
