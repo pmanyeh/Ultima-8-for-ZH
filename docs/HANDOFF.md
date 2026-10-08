@@ -1,7 +1,7 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
-**更新日期：** 2026-10-08（P12 完成後；權威檔審閱、名稱自動加註）
-**目前進度：** Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**下一步：Phase 13（Full Translation Campaign），需等使用者明確指示才開始。**
+**更新日期：** 2026-10-08（P13 第一批翻譯完成、兩個 repo 已上 GitHub）
+**目前進度：** Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**Phase 13（正式翻譯）進行中**：第一批（開場 → 碼頭處決 → 城內衛兵）已完成並經使用者試玩確認。下一步見 §8。
 
 給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.9，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
 
@@ -106,7 +106,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike，**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `e674111a51` | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`、名稱加註 `e674111a51`（P8 只有研究，無引擎修改） |
+| `ultima8-zh-tw-dev` | `1882ba7ba5` | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`、名稱加註 `e674111a51`、P13 選項句型 `1882ba7ba5`（P8 只有研究，無引擎修改） |
 
 建置目錄（`scummvm-src/` 內，gitignored）：`build-scummvm/`（原版）、`build-trace/`（Usecode trace）、`build-spike/`、**`build-dev/`（開發分支，Debug x64）**。
 
@@ -187,12 +187,16 @@ python tools/catalog/u8catalog.py terms zh_TW         # 更新權威檔候選詞
 python tools/catalog/u8catalog.py check zh_TW --font private_test/extra/Cubic_11.ttf
 python tools/catalog/u8catalog.py stats zh_TW         # 進度、重複、不一致（--csv 報表）
 python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extra/u8_zh_TW.mo
+python tools/catalog/batch.py dump zh_TW <class>...    # 依對話流程列出未翻條目（P13）
+python tools/catalog/batch.py apply zh_TW <file> --comment "P13 batch N"   # 套用譯文（檢查控制字元、佔位符號）
+python tools/catalog/progress.py zh_TW               # 更新 README / README_EN 的翻譯進度
 ```
 
 - **權威檔** `localization/zh_TW/authority.tsv`：欄位 category / english / translation / status / count / example / note。status：`keep`（保留英文）、`approved`、`proposed`、`todo`。`check` 依 keep / approved 檢查譯文。
 - 目前（2026-10-08）：756 詞，**使用者已翻譯全部譯名**：approved 17、proposed 720、ignore 19（不是專有名詞）。審閱修正：Lithos = 利索斯（潛伏者是 Hydros）、巫師 / 巫術、魔法書用法術全名等。使用者還在找舊版中文手冊，可能再調整。新欄位 `annotate`。
 - 譯名已全部決定（proposed）；正式翻譯時譯文一律用權威檔的中文名稱，不自己加英文（引擎會自動加註）。
-- 翻譯進度：6,841 條（含 ui）、英文約 54 萬字元，已翻約 1.2%（Devon 第一次見面 + 介面 + 讀物 POC + P11 動態句子 POC + P12 Guardian 3 句，共 108 條）。
+- 翻譯進度（2026-10-08）：6,944 條（含 ui），**已翻 1,003 條**（以英文字元計 11.2%）。README 的進度用 `python tools/catalog/progress.py zh_TW` 更新。
+- 權威檔 758 詞（P13 加 Nystul 尼斯圖、Pellgun 佩爾岡）。
 
 ---
 
@@ -234,13 +238,32 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 
 ---
 
-## 8. 下一步：Phase 13（Full Translation Campaign）
+## 8. Phase 13（正式翻譯）進行中
 
-規格見 Master Plan §32。技術前提已具備；開始前建議和使用者確認：
+### 已完成：第一批（使用者要錄影向同好宣告專案）
 
-1. **權威檔**：譯名已由使用者翻譯並審閱（2026-10-08）；使用者找到舊版中文手冊後可能再調整，調整後重跑 `check` 找出要一起改的譯文。
-2. **翻譯方式與順序**：例如依地區 / 劇情進度（Tenebrae → …）、先台詞與選項、書最後（書約 11.7 萬字元）；誰翻、如何審稿；POC 譯文（`# P11 POC`、`# P12 POC`）是否保留。
-3. 每批翻譯後：`u8catalog.py check`、`po_compile.py`、`measure.py`（頁數，§49 #27）、遊戲內抽查。
+範圍：新遊戲開場 → 走到泰尼伯瑞城門 → 碼頭處決 → 進城。使用者試玩兩次，log 確認路線上全部 HIT。
+
+| class | 內容 |
+|---|---|
+| 0402 戴文（全部）、0483 處決過場、0061 托蘭、0407 莫爾迪亞、0404 城門衛兵、0408 塔娜、0413 夏娜、0412 芮安 | 560 條 |
+| 04C3 碼頭審問、METHOD 057C 中處決 / 衛兵日誌的句子、Guardian 嘲諷全部 23 句（0401 event 15）、魚 / 籃子 / 絞盤等物品、含名字的選項 | 64 條 |
+| 泰尼伯瑞城內衛兵 GUARD2–10、GUARDMAN、GUARD_EW | 271 條 |
+
+譯文附譯者註解 `# P13 batch 1`。翻譯風格：莫爾迪亞傲慢、城門衛兵粗俗口語（俺）、芮安的 `-sob-` → （啜泣）、`-sniff-` → （抽噎）、`-強調-` 改用「」或語氣；貨幣 stones / blacks → 黑曜石幣；選項「Goodbye.」→「再見。」。英文原文誤打的 tab 在譯文中省略（check 會有 tab 警告，可忽略）。
+
+### P13 中修正的工具與引擎
+
+- **選項句型**：含玩家名字的選項（`I am {name}.`，全遊戲 36 個）→ `ask` context 也支援句型（引擎 `1882ba7ba5`、抽取工具、po_compile / check）。
+- **代為發話**：字串當參數傳給別的 class 的函式說出（`METHOD 057C:087D` 說出參數 → `bark 057C:088A`）。抽取工具以 `passed_strings()` / `param_bark_sites()` 追蹤，**新增 79 句過去完全沒抽到的台詞**（處決群眾、派羅斯召喚場景、法術咒語等），條目放在被呼叫的 class 檔（註解 `said for <caller>`）。
+- 翻譯小工具：`tools/catalog/batch.py`（dump / apply）；大量重複句子可用「英文 ||| 中文」對照表產生 blocks（本 session 用 scratchpad 腳本 `distinct.py`，需要時重寫）。
+
+### 下一步（使用者已授權由 Agent 決定翻譯順序）
+
+1. **依劇情繼續**：進城後的主要角色——班提克（Bentic，圖書館）、歐洛克（Orlok，碎裂頭骨酒館）、珍娜（Jenna）、薩金德（Salkind）、達里恩（Darion）、科里克（Korick）、奇蘭卓（Kilandra）、阿拉米娜（Aramina）等，以及他們的物品與書（日誌類可以晚一點）。
+2. 每批：`batch.py dump` → 閱讀上下文翻譯 → `apply` → `check` → `po_compile` → `progress.py` → commit；請使用者試玩，讀 log 補 MISS。
+3. 使用者要求時才 push（兩個 repo：主 repo `origin/main`，引擎 `origin/ultima8-zh-tw-dev`）。目前本機有尚未 push 的 commit。
+4. 其他待討論：ScummVM 專用版打包（Phase 14）、是否貢獻 upstream（使用者目前**不要**送到官方）、授權條款（README 寫「發布前決定」）。
 
 ### Master Plan §49 尚未完成的待辦
 
