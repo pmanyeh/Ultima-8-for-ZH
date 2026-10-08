@@ -10,340 +10,406 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 7
 #. event 00 (look)
 msgctxt "bark 00C5:009E"
 msgid "gravestone "
-msgstr ""
+msgstr "墓碑"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0118"
 msgid "SIVLE*THE MINSTREL*WANDERS NO MORE"
-msgstr ""
+msgstr "吟遊詩人西弗勒，從此不再流浪"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:016A"
 msgid "HERE LIES FRED*IN A QUARRY*HE WAS FOUND*DEAD"
-msgstr ""
+msgstr "弗雷德長眠於此，被人發現死在採石場"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:01BA"
 msgid "JUSTIN*HIS MURDER*WAS BETTER*LEFT UNSOLVED"
-msgstr ""
+msgstr "賈斯汀，他的命案還是別破的好"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:01F2"
 msgid "SHERRI'S*LAST PLOT"
-msgstr ""
+msgstr "雪莉的最後一塊地（也是最後一個陰謀）"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0233"
 msgid "STUPIDITY IS*ITS OWN REWARD"
-msgstr ""
+msgstr "愚蠢自有其報"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:027A"
 msgid "CORODIN*FIRST MASTER*OF THE CABAL"
-msgstr ""
+msgstr "科羅丁，密謀會第一任大師"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:02C8"
 msgid "MAEDRON*SORCERER AND*THE BANE OF*CORODIN"
-msgstr ""
+msgstr "梅德隆，巫師，科羅丁的剋星"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0329"
 msgid "A STUPID PAGAN*LIES HERE DEAD*IN HIS RELIGION*HE WAS MISLED"
-msgstr ""
+msgstr "愚蠢的佩根人長眠於此，一生信仰被誤導至此"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0370"
 msgid "HERE LIES*BEVERLY*DIED IN*REVELRY"
-msgstr ""
+msgstr "貝芙莉長眠於此，死於縱情狂歡"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:03CD"
 msgid "ENTOMBED IS KAI*TRUSTY AND WISE*TOILS AT WORK*THEN DIES"
-msgstr ""
+msgstr "凱安葬於此，忠實又睿智，埋頭苦幹，然後死去"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:041F"
 msgid "SIR TODD*I'M NOT DEAD YET*I'M GETTING*BETTER"
-msgstr ""
+msgstr "陶德爵士：我還沒死，我在好轉了"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0464"
 msgid "SIR DEE*TWAS JUST A*FLESH WOUND"
-msgstr ""
+msgstr "迪爵士：只不過是皮肉傷"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:04A2"
 msgid "MEL*HAS RETURNED*TO HELL"
-msgstr ""
+msgstr "梅爾已重返地獄"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:04FF"
 msgid "SIR ROBERT*TRIED TO FLY*FOUND GRAVITY A*UNFORGIVING FOE"
-msgstr ""
+msgstr "羅伯特爵士想飛，卻發現重力是個無情的對手"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:054A"
 msgid "SHELTON*MY BODY LIES*BUT STILL*I ROAM"
-msgstr ""
+msgstr "謝爾頓：我的身軀長眠，我卻仍在遊蕩"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:057F"
 msgid "OH NO*NOT AGAIN"
-msgstr ""
+msgstr "噢不，又來了"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:05E1"
 msgid "SAD BUT TRUE*HERE LIES PRIEST*PRACTICED ART*AND NOW DECEASED"
-msgstr ""
+msgstr "可悲卻是真，普里斯特在此長眠，鑽研技藝，如今已仙逝"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0635"
 msgid "HERE LIES CHEL*SOME SAY SHE*WAS A*LOVELY BELLE"
-msgstr ""
+msgstr "雪兒長眠於此，人們說她是位可愛的美人"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0693"
 msgid "HERE UNDERGROUND*LIES EDDIE*TOOK A KNIFE*NOW HE'S DEADIE"
-msgstr ""
+msgstr "艾迪埋在地底，挨了一刀，從此嗚呼哀哉"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:06E2"
 msgid "HERE LIES BRIAN*FELLED BY A*KILLER SPIDER"
-msgstr ""
+msgstr "布萊恩長眠於此，倒在殺人蜘蛛之下"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0722"
 msgid "PAMELA*SHE WORKED*TOO HARD"
-msgstr ""
+msgstr "潘蜜拉，她工作太拚了"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:075F"
 msgid "STEVE*CRUNCHED*TO DEATH"
-msgstr ""
+msgstr "史帝夫，被嘎吱嘎吱壓死了"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:07B4"
 msgid "WITH HIS HEAD*ASHAVE HE WAS*SO VERY BRAVE*STARR"
-msgstr ""
+msgstr "剃著光頭的他，是多麼勇敢——史塔"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:07F5"
 msgid "PERRY*JUST WENT*UP IN SMOKE"
-msgstr ""
+msgstr "派瑞，就這麼化成一縷青煙"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:084D"
 msgid "SIR DON*COULDNT SLING A*SWORD AS FAST*AS HIS DRINK"
-msgstr ""
+msgstr "唐爵士揮劍的速度，比不上他灌酒的速度"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0896"
 msgid "DO NOT*DRINK OUT OF*OTHERS GOBLETS*"
-msgstr ""
+msgstr "別用別人的酒杯喝酒"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:08DB"
 msgid "UNDERPAID*UNDER FED*UNDERGROUND"
-msgstr ""
+msgstr "薪水不足，糧食不足，如今入土"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:091A"
 msgid "ARNOLD*HASTA LAVISTA*BABY"
-msgstr ""
+msgstr "阿諾：後會無期了，寶貝"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0957"
 msgid "R I P*SWORDPROOF*VITTEK"
-msgstr ""
+msgstr "安息吧，刀槍不入的維泰克"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0996"
 msgid "ALWAYS*FULLY*COOK*SEAFOOD"
-msgstr ""
+msgstr "海鮮一定要煮熟"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:09D4"
 msgid "TEE*TOOK ONE*IN THE*DOME"
-msgstr ""
+msgstr "堤，腦門挨了一下"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0A22"
 msgid "BETTY*BLAH-BLAH*KILLED BY*TOO MANY WORDS"
-msgstr ""
+msgstr "碎碎念的貝蒂，死於話太多"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0A82"
 msgid "GLAD I AM GONE*DONE AND PAST*MARRIED 6 TIMES*PEACE AT LAST"
-msgstr ""
+msgstr "真高興我走了，一切都已過去，結了六次婚，終於得到安寧"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0ADA"
 msgid "MISS JONES*HAS NO MOANS*AND ALL ALONE*IS MR. JONES"
-msgstr ""
+msgstr "瓊斯太太再也不抱怨，瓊斯先生從此孤單一人"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0B2E"
 msgid "TIP YOUR LID*TO SIRE FOX*TAKEN AWAY*BY THE POX"
-msgstr ""
+msgstr "向福克斯大人脫帽致意，他被天花帶走了"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0B7E"
 msgid "HERE LIES*BURKE*LOST HIS LIFE*DODGING WORK"
-msgstr ""
+msgstr "柏克長眠於此，為了逃避工作丟了性命"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0BDC"
 msgid "OFF THE DOCK*DOVE SIR JIM*THEN HE FOUND*HE COULDN'T SWIM"
-msgstr ""
+msgstr "吉姆爵士從碼頭縱身一跳，這才發現自己不會游泳"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0C2B"
 msgid "SIR LOUDER*BLOWN APART*BY BLASTING*POWDER"
-msgstr ""
+msgstr "勞德爵士，被炸藥炸得粉身碎骨"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0C8A"
 msgid "ASHES TO ASHES*DUST TO DUST*HYDROS REFUSED*SO LITHOS MUST"
-msgstr ""
+msgstr "塵歸塵，土歸土，海德羅斯不收，只好由利索斯收"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0CE2"
 msgid "NO ONE IS HERE*NOT A POUND*LOST AT SEA*NEVER FOUND"
-msgstr ""
+msgstr "這裡沒人，一兩肉也沒有，葬身大海，屍骨無存"
 
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0D18"
 msgid "GET*OFF*MY*GRAVE"
 msgstr "別踩在我的墳上"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0D71"
 msgid "WHEN YOU PASS*SHED A TEAR*LITTLE EVA*IS BURIED HERE"
-msgstr ""
+msgstr "路過時請落一滴淚，小伊娃葬在這裡"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0DC6"
 msgid "GOOD-BYE FREDY*NOW GONE*WE REMEMBER*YOU IN SONG"
-msgstr ""
+msgstr "再見了弗雷迪，你雖已離去，我們會用歌聲懷念你"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0E14"
 msgid "WHY DO THINGS*ALWAYS HAPPEN*TO ME*DONNER"
-msgstr ""
+msgstr "為什麼倒楣事總是發生在我身上？——唐納"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0E6B"
 msgid "POOR GEORGE*TRIPPED AND FELL*INTO KINDRIC'S*FORGE"
-msgstr ""
+msgstr "可憐的喬治，絆了一跤，跌進金德里克的熔爐"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0EBC"
 msgid "DIED WHILE*RUNNING*WITH TOOTHBRUSH*IN MOUTH"
-msgstr ""
+msgstr "含著牙刷跑步時身亡"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0F08"
 msgid "HERE LIES*MOORE*GHOUL SLAYER*JUST FOUR"
-msgstr ""
+msgstr "摩爾長眠於此，食屍鬼殺手——只殺了四隻"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0F62"
 msgid "HERE LIES*CHRICHTON*ATTACK BY TORAX*THEIR ONE VICTIM"
-msgstr ""
+msgstr "克萊頓長眠於此，遭托拉克斯獸攻擊，是牠們唯一的受害者"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:0FAB"
 msgid "GLEN*WILL BE MISSED*BUT NOT*BY MANY"
-msgstr ""
+msgstr "葛倫，會有人懷念你的，只是不多"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:1007"
 msgid "SIR RICHARD*DIED OF FRIGHT*PLUNGED FROM*A GREAT HEIGHT"
-msgstr ""
+msgstr "理查爵士從高處墜落，活活嚇死"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:1051"
 msgid "ELAINA*HER MOTHERS*GREATEST*TREASURE"
-msgstr ""
+msgstr "艾蓮娜，她母親最珍貴的寶貝"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:11E1"
 msgid "HERE LIES HOFFMAN*KILLED BY BUGS"
-msgstr ""
+msgstr "霍夫曼長眠於此，死於蟲子之手"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:1223"
 msgid "HERE LIES LIZ*WIDOW OF PAGAN"
-msgstr ""
+msgstr "莉茲長眠於此，佩根的寡婦"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:1281"
 msgid "HERE LIES SEAN*BY THE SHORE*SAID TO DEATH*JUST ONE MORE!"
-msgstr ""
+msgstr "西恩長眠岸邊，對死神說：再一杯就好！"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:12C8"
 msgid "HERE LIES RYAN*CRUSHED*BY JOHNSON"
-msgstr ""
+msgstr "萊恩長眠於此，被強森壓扁"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:1312"
 msgid "B BILLS*THREE STRIKES*AND YOU'RE OUT"
-msgstr ""
+msgstr "B．比爾斯：三振出局"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:1357"
 msgid "GLANVILLE*CHEAP TRASH*LONG GONE"
-msgstr ""
+msgstr "格蘭維爾，廉價的垃圾，早已不見"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:1397"
 msgid "TARMONA*DONT KISS*AND TELL"
-msgstr ""
+msgstr "塔蒙娜：親了別到處說"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:13E2"
 msgid "DBEYER*LOVED HIS CUBS*THEN GOT*MAULED"
-msgstr ""
+msgstr "狄貝耶，疼愛他的幼崽，結果被撕成碎片"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:1432"
 msgid "MONTANA THOUGHT*TO BE IMMORTAL*WRONG AGAIN"
-msgstr ""
+msgstr "蒙大拿以為自己永生不死，又錯了"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:1476"
 msgid "HERE IS FONTES*MAULED*BY BEARS"
-msgstr ""
+msgstr "方提斯在此，被熊撕碎"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:14CC"
 msgid "ROB IS NOW DEAD*HE SHOULD NOT*HAVE GONE*TO LEGAS"
-msgstr ""
+msgstr "羅伯如今已死，他不該去雷加斯的"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:151C"
 msgid "BRENDAN WAS*KILLED FOR*LAUGHING TOO*LOUDLY"
-msgstr ""
+msgstr "布蘭登因為笑得太大聲而被殺"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:1564"
 msgid "ALEXIS*HER SPIRIT*TO LITHOS*I GIVE"
-msgstr ""
+msgstr "亞歷克西絲，我將她的靈魂交給利索斯"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:15BE"
 msgid "BURIED WITHIN*THE VERY BREAST*OF LITHOS*IS THE HEART"
-msgstr ""
+msgstr "埋藏在利索斯胸膛深處的，就是那顆心"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "grave 00C5:160A"
 msgid "AMREZHAR*BY THE*ANCIENT ONES*HE IS MET"
-msgstr ""
+msgstr "阿姆雷札，遠古眾神已與他相會"
 
 #. event 01 (use (talk))
 msgctxt "grave 00C5:165B"

@@ -86,8 +86,12 @@ def norm(text):
     return " ".join(text.split())
 
 
-def check_text(en, zh):
+def check_text(en, zh, ctx=""):
     for ch in CONTROL:
+        # gravestones and plaques: the translation is a subtitle, its line
+        # breaks need not follow the engraving (as in u8catalog check)
+        if ch == "*" and ctx.startswith(("grave ", "plaque ")):
+            continue
         if en.count(ch) != zh.count(ch):
             return f"'{ch}' {en.count(ch)} in English, {zh.count(ch)} in the translation"
     if "{" in en + zh:
@@ -117,7 +121,7 @@ def cmd_apply(a):
             errors.append(f"{where}: {len(found)} entries for {b['ctx']} {b.get('en', '')[:50]!r}")
             continue
         path, e = found[0]
-        err = check_text(e.msgid, b["zh"])
+        err = check_text(e.msgid, b["zh"], ctx)
         if err:
             errors.append(f"{where}: {err}")
             continue

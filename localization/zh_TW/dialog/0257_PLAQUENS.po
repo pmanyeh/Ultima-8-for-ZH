@@ -10,322 +10,384 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 7
 #. event 00 (look)
 msgctxt "bark 0257:009A"
 msgid "plaque "
-msgstr ""
+msgstr "牌匾"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0109"
 msgid "THE MONASTERY*OF THE*THEURGISTS "
-msgstr ""
+msgstr "神術師修道院"
 
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0149"
 msgid "THE PALACE*OF THE TEMPEST "
 msgstr "風暴使者宮殿"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0179"
 msgid "MESS HALL "
-msgstr ""
+msgstr "餐廳"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:01AF"
 msgid "PALACE*BARRACKS "
-msgstr ""
+msgstr "宮殿兵營"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:01E4"
 msgid "THE*ROYAL*HALL "
-msgstr ""
+msgstr "皇家大廳"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0224"
 msgid "AUTHORIZED*PERSONNEL*ONLY "
-msgstr ""
+msgstr "閒人勿進"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0260"
 msgid "WATERS*OF THE*TEMPEST "
-msgstr ""
+msgstr "風暴使者之水"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:029A"
 msgid "DANGER*DO NOT*ENTER "
-msgstr ""
+msgstr "危險，請勿進入"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:02DB"
 msgid "BLACKALLER*FINALLY RESTING "
-msgstr ""
+msgstr "布萊克勒，終於安息"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:031A"
 msgid "T'IS FAR*TOO LATE*FOR ME "
-msgstr ""
+msgstr "對我來說已經太遲了"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:035B"
 msgid "TOWARDS*FATE DO YOU*TRAVEL "
-msgstr ""
+msgstr "你正走向命運"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0395"
 msgid "KAYLITH*-TREASURER- "
-msgstr ""
+msgstr "凱莉絲——司庫——"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:03CA"
 msgid "MASTER OF KEYS "
-msgstr ""
+msgstr "鑰匙總管"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:03F6"
 msgid "JOHAH "
-msgstr ""
+msgstr "約哈"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:042C"
 msgid "HEGLAND HEGWOOD "
-msgstr ""
+msgstr "赫格蘭．赫格伍德"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0461"
 msgid "DON'T*LOOK*NOW "
-msgstr ""
+msgstr "現在別看"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0492"
 msgid "SCHOENROCK "
-msgstr ""
+msgstr "修恩洛克"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:04E7"
 msgid "HEAVRIN*ARCHITECT*LAID TO REST*IN HIS OWN PLAN "
-msgstr ""
+msgstr "建築師赫夫林，長眠於他自己設計的墓中"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0520"
 msgid "TO*LOWER CATACOMBS "
-msgstr ""
+msgstr "往下層地下墓穴"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:055A"
 msgid "R.E.M.*G.T.H.*A.S.T."
-msgstr ""
+msgstr "R.E.M.／G.T.H.／A.S.T."
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0590"
 msgid "JOHN*OF*GARLAND "
-msgstr ""
+msgstr "加蘭的約翰"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:05D4"
 msgid "LESIFER*BELOVED*SISTER*M.F.H. "
-msgstr ""
+msgstr "萊西弗，摯愛的姊妹，M.F.H."
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0608"
 msgid "GOOD RIDDANCE "
-msgstr ""
+msgstr "走了正好"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0642"
 msgid "JUST LOOK*AT ME*NOW "
-msgstr ""
+msgstr "看看我現在的樣子"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:067C"
 msgid "WHEW**I FEEL BETTER "
-msgstr ""
+msgstr "呼……我舒服多了"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:06D4"
 msgid "BITTER RAGE*FILLED WITH HATE*SO LIES*THIS INGRATE "
-msgstr ""
+msgstr "滿腔怨怒，充滿仇恨，這個忘恩負義的人就這樣躺在這裡"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0718"
 msgid "I TOLD YOU*IT WAS MY*ECHIDNAS "
-msgstr ""
+msgstr "我就說是我的針鼴嘛"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:074F"
 msgid "TENEBRAE*LIBRARY "
-msgstr ""
+msgstr "泰尼伯瑞圖書館"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0781"
 msgid "FIGHTMASTER "
-msgstr ""
+msgstr "武術教頭"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:07B4"
 msgid "DO*NOT*ENTER "
-msgstr ""
+msgstr "請勿進入"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:07F6"
 msgid "TEMPLE*OF THE*DIVINE*HYDROS "
-msgstr ""
+msgstr "神聖海德羅斯神廟"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0832"
 msgid "SALKIND*THE*SENESCHAL "
-msgstr ""
+msgstr "總管薩金德"
 
 #. event 01 (use (talk))
 msgctxt "plaque 0257:085E"
 msgid "QUIET "
 msgstr "安靜"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:08A1"
 msgid "SPRING*OF THE*ETERNAL*HYDROS "
-msgstr ""
+msgstr "永恆海德羅斯之泉"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:08E1"
 msgid "THE HALL*OF THE*SORCERERS "
-msgstr ""
+msgstr "巫師大廳"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:091E"
 msgid "THE*LIBRARY*OF SORCERY "
-msgstr ""
+msgstr "巫術圖書館"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0969"
 msgid "FIRST ACOLYTE*BANE "
-msgstr ""
+msgstr "第一學徒 貝恩"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:099A"
 msgid "FIRST ACOLYTE*VARDION "
-msgstr ""
+msgstr "第一學徒 瓦爾迪恩"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:09DF"
 msgid "DO*NOT*ENTER "
-msgstr ""
+msgstr "請勿進入"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0A07"
 msgid "ACOLYTE*BANE "
-msgstr ""
+msgstr "學徒 貝恩"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0A3B"
 msgid "ACOLYTE*BEREN "
-msgstr ""
+msgstr "學徒 貝倫"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0A72"
 msgid "ACOLYTE*GORGROND "
-msgstr ""
+msgstr "學徒 戈格隆德"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0AA7"
 msgid "FLAM POR*FLASH "
-msgstr ""
+msgstr "Flam Por：閃光術"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0AE0"
 msgid "AN FLAM*EXTINGUISH "
-msgstr ""
+msgstr "An Flam：熄火術"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0B1D"
 msgid "SANCT FLAM*ENDURE HEAT "
-msgstr ""
+msgstr "Sanct Flam：耐熱術"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0B62"
 msgid "VAS SANCT FLAM*ARMOR OF FLAMES "
-msgstr ""
+msgstr "Vas Sanct Flam：烈焰護甲"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0BBE"
 msgid "FORENCIA*BELOVED WIFE*DEVOTED MOTHER*DIED IN ACCIDENT "
-msgstr ""
+msgstr "佛倫西亞，摯愛的妻子，盡心的母親，死於意外"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0BF8"
 msgid "THE UPPER CATACOMBS "
-msgstr ""
+msgstr "上層地下墓穴"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0C2C"
 msgid "REST IN PEACE "
-msgstr ""
+msgstr "安息吧"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0C60"
 msgid "TO THE SHRINE "
-msgstr ""
+msgstr "往神殿"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0CB8"
 msgid "WHY ARE YOU*READING THIS*WHEN YOU CAN*BE FIGHTING "
-msgstr ""
+msgstr "能去打架的時候，你幹嘛在讀這個？"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0D06"
 msgid "GABRIEL*LOVELY DAUGHTER*LOVE OF MY LIFE "
-msgstr ""
+msgstr "嘉百麗，可愛的女兒，我一生的摯愛"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0D56"
 msgid "SYSAPHUS*EXECUTED*FOR MURDER*LEFT TO BURN "
-msgstr ""
+msgstr "西薩弗斯，因謀殺被處決，任其焚燒"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0D82"
 msgid "NORTH "
-msgstr ""
+msgstr "北"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0DAD"
 msgid "WEST "
-msgstr ""
+msgstr "西"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0DFD"
 msgid "MORATAIN*FAMILY*MAUSOLEUM*DO NOT DISTURB! "
-msgstr ""
+msgstr "莫拉坦家族陵墓，請勿打擾！"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0E39"
 msgid "*ADMIRE*BUT*TOUCH NOT "
-msgstr ""
+msgstr "只准欣賞，不准觸摸"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0E7B"
 msgid "SHOPLIFTERS*WILL BE*FLOGGED "
-msgstr ""
+msgstr "順手牽羊者將處以鞭刑"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0EB9"
 msgid "CONVENTICLE*OF THE*DEAD "
-msgstr ""
+msgstr "亡者集會所"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0EF4"
 msgid "MARIOTA*CONVENTICLER "
-msgstr ""
+msgstr "瑪麗歐塔，集會所長"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0F38"
 msgid "NOW ENTERING*THE PIT*OF DEATH "
-msgstr ""
+msgstr "即將進入死亡深坑"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0F78"
 msgid "THE*BIRTHPLACE*OF MORIENS "
-msgstr ""
+msgstr "摩瑞恩斯的誕生地"
 
+# P13 batch 7
 #. event 01 (use (talk))
 msgctxt "plaque 0257:0FB2"
 msgid "NO SOLICITING! "
-msgstr ""
+msgstr "謝絕推銷！"
