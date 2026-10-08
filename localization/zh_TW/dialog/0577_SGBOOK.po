@@ -10,62 +10,77 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 8
 msgctxt "book 0577:0893"
 msgid "THE SAGA OF BONE CRUSHER~~%And so it was in the early days of Pagan that the Titan of Earth, Lithos, declared that all who lived upon his lands should pay homage to him. With his mighty earthquakes, he demanded that the people of Tenebrae bow to him, lest he shake their houses down around them.~~%'But mighty Lithos,'said the Lord Elsmil, the Tempest, 'we are under the guidance of Hydros. From her we receive the rain for the crops and the fish for our table. We can not bow to you.' This greatly angered Lithos and to punish the people of Tenebrae, he sent a great army of undead skeletons to slaughter them. Lord Elsmil, went to Hydros. ~~%'Please,' he begged her. 'The people of your city are being slain by the minions of your brother, Lithos. We must have your help.' ~~Hydros heard the plea of her Tempest and gave to him a mighty hammer. 'You shall have this weapon called Bone Crusher and with it defeat the minions of Lithos.' she said. When Lord Elsmil arrived back at the battle, it was going poorly for the Tenebraens. They were fighting bravely, but were outnumbered two to one by the undead. Lord Elsmil let out a mighty roar and waded into the carnage wielding the mighty Bone Crusher. The skeletons fell before him like trees and the tide of the battle was turned. By evening the last of the skeletons were being hunted down in the woods and the town of Tenebrae was saved. ~~%However, Lord Elsmil was missing. The Tenebraens began to look for him. They finally found his crushed body on the battle field, but the wonderous Bone Crusher was nowhere to bee seen.They looked for it for many days and nights, but did not find it. Though several of the searchers found the prints of bony feet in the soft dirt of the western forest. By the looks of the prints, they said, the skeletons were dragging something heavy behind them.  A few of the searchers even say they caught a glimpse of bony white and the glint of light off something gold. ~~%To this day, intrepid treasure hunters continue to look for the hammer called Bone Crusher."
-msgstr ""
+msgstr "碎骨槌傳奇~~%在佩根的早期，大地泰坦利索斯宣告，凡住在他土地上的人都必須向他致敬。他用強大的地震，要求泰尼伯瑞的人民向他臣服，否則就震垮他們的房屋。~~%「可是偉大的利索斯，」風暴使者艾爾斯米爾大人說，「我們受海德羅斯的引導。我們從她那裡得到灌溉作物的雨水和餐桌上的魚。我們不能向你臣服。」這讓利索斯大為震怒，為了懲罰泰尼伯瑞的人民，他派出一支龐大的不死骷髏大軍去屠殺他們。艾爾斯米爾大人去找海德羅斯。~~%「求求您，」他哀求她，「您城裡的人民正遭到您兄弟利索斯的爪牙屠殺。我們必須得到您的幫助。」~~海德羅斯聽見她的風暴使者的懇求，給了他一把強大的鎚子。「這件武器名叫碎骨槌，你就用它打敗利索斯的爪牙吧。」她說。艾爾斯米爾大人回到戰場時，泰尼伯瑞人正節節敗退。他們英勇奮戰，但不死者的數量是他們的兩倍。艾爾斯米爾大人一聲怒吼，揮舞著強大的碎骨槌殺進戰場。骷髏在他面前像樹一樣倒下，戰局就此扭轉。到了傍晚，最後一批骷髏在樹林裡被一一追殺，泰尼伯瑞城得救了。~~%然而，艾爾斯米爾大人失蹤了。泰尼伯瑞人開始尋找他，終於在戰場上找到了他被壓碎的遺體，但那把神奇的碎骨槌卻不見蹤影。他們找了好幾天好幾夜，都沒有找到。不過，有幾個搜尋者在西方森林的軟泥中發現了骨頭腳印。他們說，從腳印看來，那些骷髏身後拖著某樣沉重的東西。有幾個搜尋者甚至說，他們瞥見了白骨，以及某個金色東西反射的光芒。~~%直到今天，仍有大膽的尋寶者在尋找那把名叫碎骨槌的鎚子。"
 
+# P13 batch 8
 msgctxt "book 0577:0AB9"
 msgid "Enemies of Tenebrae~ compiled by The Royal Seneschal,~ His Eminence, Salkind The following is a list of those citizens and former citizens of Tenebrae who are suspected to be involved in dealings or activities that may be construed to be dangerous or otherwise damaging to the City/State of Tenebrae. ~~% Aramina ~% Darion ~% Devon ~% Kilandra ~% Korick ~% Orlok ~% Rhian ~% Gwilliam ~% Corinth ~% Torwin ~% Cyrrus ~~These people are to be considered dangerous and will be constantly watched for suspicious activity."
-msgstr ""
+msgstr "泰尼伯瑞之敵~王室總管~薩金德閣下編纂。以下列出泰尼伯瑞的現任與前任市民中，涉嫌從事可能被視為危害或損及泰尼伯瑞城邦之交易或活動者。~~%阿拉米娜~%達里恩~%戴文~%奇蘭卓~%科里克~%歐洛克~%芮安~%威廉~%柯林斯~%托溫~%席勒斯~~以上人等應視為危險人物，並隨時監視其可疑活動。"
 
+# P13 batch 8
 msgctxt "book 0577:0CD0"
 msgid "WHAT THE FISH TELL ME ~by Kilandra ~Oh the fish tell me all sorts of things, ~like when there's sun and when there's rain, ~They are so nice and very smart, ~and bubbles come up when they fart. ~Oh the fish tell me all sorts of things, ~I like to listen to them sing. ~They sing of life beneath the sea ~But never mention if they pee. ~Oh the fish tell me all sorts of things, ~Like where they are and where they've been. ~I guess it all just goes to prove ~You can have your friends and eat them too!"
-msgstr ""
+msgstr "魚告訴我的事~奇蘭卓著~噢，魚兒告訴我好多事，~像是何時出太陽、何時雨綿綿，~牠們好親切又好聰明，~放屁時還會冒出泡泡圈圈。~噢，魚兒告訴我好多事，~我好愛聽牠們唱歌謠。~牠們唱著海底的生活，~卻從不提牠們在哪裡尿尿。~噢，魚兒告訴我好多事，~像是牠們在哪、去過哪裡。~我想這一切正好證明，~朋友可以交，也可以吃下肚裡！"
 
+# P13 batch 8
 msgctxt "book 0577:0E52"
 msgid "The Spell of Divination ~~The divination spell is a most practical spell. It allows the caster to know his exact location, the time of day, the day of the week, and the current month. The Focus necessary for casting this spell resembles a sextant. The spell also has a vocal aspect. The words that must be uttered at the moment of casting are 'In Wis.'"
-msgstr ""
+msgstr "占卜術~~占卜術是非常實用的法術。它能讓施法者知道自己的確切位置、一天中的時辰、一週中的哪一天，以及目前的月份。施展這道法術所需的法器形似六分儀。這道法術也需要唸咒，施法時必須唸出的咒文是「In Wis」。"
 
+# P13 batch 8
 msgctxt "book 0577:0F85"
 msgid "The Spell of Healing Touch~~This is the least powerful of the healing spells of Stratos and one of the first usually learned by Adepts. The Focus necessary to cast this spell represents a pointing hand. The words that must be uttered at the moment of casting are 'In Mani.'"
-msgstr ""
+msgstr "治癒之觸~~這是史特拉托斯的治療法術中威力最弱的一種，通常也是行家法師最先學會的法術之一。施展這道法術所需的法器象徵一隻指路之手。施法時必須唸出的咒文是「In Mani」。"
 
+# P13 batch 8
 msgctxt "book 0577:11DA"
 msgid "The spell of Aerial Servant~~One of the more impressive of the Theurgic spells, Aerial Servant is also one of the most versatile. Upon casting of the Aerial Servant spell, a whirling being of Air is called into existance. This being will accept the Theurgist's directives to manipulate or move any object. One of the more interesting aspects of this spell is that the Aerial Servant is able to move objects through another solid object, such as a door or wall. The Focus used to represent this spell represents an Arm Band and the casting words are 'Kal Ort Xen.'"
-msgstr ""
+msgstr "風之僕役~~風之僕役是神術法術中較令人印象深刻的一種，也是用途最廣的法術之一。施展風之僕役時，會召喚出一個旋轉的風之存在。這個存在會聽從神術師的指示，操縱或移動任何物體。這道法術較有趣的一點是，風之僕役能讓物體穿過門或牆之類的其他固體。代表這道法術的法器象徵一個臂環，施法咒文是「Kal Ort Xen」。"
 
+# P13 batch 8
 msgctxt "book 0577:139D"
 msgid "The Spell of Reveal~~This spell is a dissipation spell, meaning that it will actually dispell another type of magic, specifically the spell of invisibility. When the Theurgist casts this spell, a wave of energy moves away from the caster in ever increasing concentric circles. These energy waves will dispell all forms of invisibility. The Focus used for this spell is an open eye and the casting words are 'Ort Lor.'"
-msgstr ""
+msgstr "現形術~~這是一道驅散法術，也就是說它能驅散另一種魔法，特別是隱形法術。神術師施展這道法術時，一波能量會從施法者身上以不斷擴大的同心圓向外擴散。這些能量波能驅散一切形式的隱形。這道法術所用的法器是一隻睜眼，施法咒文是「Ort Lor」。"
 
+# P13 batch 8
 msgctxt "book 0577:1588"
 msgid "The Spell of Restoration~~One of the most powerful spells available to the Theurgist, this spell restores the recipient to full health, providing the recipient is still alive upon the beginning of the casting. It will eliminate wounds and maimings and will cure disease. This spell is one that the Theurgist will find in great demand. The Focus for this spell resembles an open hand. The words which must be uttered upon casting the spell are 'Vas In Mani.'"
-msgstr ""
+msgstr "復原術~~這是神術師所能使用最強大的法術之一。只要施法開始時對象仍然活著，這道法術就能讓他完全恢復健康。它能消除傷口與殘缺，也能治癒疾病。神術師會發現這道法術的需求非常大。這道法術的法器形似一隻張開的手。施法時必須唸出的咒文是「Vas In Mani」。"
 
+# P13 batch 8
 msgctxt "book 0577:16B8"
 msgid "The Spell of Fade From Sight~~This spell is another very versatile spell as it allows the caster to become invisible to the sight of nearly all mortal beings. The Focus representing this spell is a closed eye. The words to be spoken during the casting are 'Quas An Lor.'"
-msgstr ""
+msgstr "隱匿行蹤~~這是另一道用途非常廣的法術，它能讓施法者在幾乎所有凡人眼中隱形。代表這道法術的法器是一隻閉眼。施法時要唸的咒文是「Quas An Lor」。"
 
+# P13 batch 8
 msgctxt "book 0577:19D5"
 msgid "The spell of Air Walk~~The Air Walk spell is the most highly valued spell a Theurgist can learn, for it is only through the use of this spell that a Theurgist can reach Stratos and hear the Mystic Voice. When this spell is cast, the Theurgist is capable of jumping quite a great distance with the aid of the surrounding air. It is interesting to note, that the first time a Theurgist experiences this spell is when he has completed the Tests and seeks Stratos for the first time. If Stratos is pleased with the Theurgist, then she will grant the spell without the use of a Focus. From that point on, however, the Theurgist must have the Focus representing wings to cast this spell. Words of power must also be spoken. For this spell those words are 'Vas Hur Por.'"
-msgstr ""
+msgstr "輕風漫步~~輕風漫步是神術師所能學到最珍貴的法術，因為唯有透過這道法術，神術師才能抵達史特拉托斯身邊，聽見神秘之聲。施展這道法術時，神術師能藉著周遭空氣之助，跳躍相當遠的距離。值得一提的是，神術師第一次體驗這道法術，是在他完成考驗、首次尋找史特拉托斯的時候。如果史特拉托斯對這位神術師滿意，她就會在不使用法器的情況下賜予這道法術。不過從那時起，神術師就必須持有象徵雙翼的法器才能施展這道法術，還必須唸出力量之語。這道法術的咒文是「Vas Hur Por」。"
 
+# P13 batch 8
 msgctxt "book 0577:1B64"
 msgid "The Spell of Hear Truth~~A useful spell for any number of reasons. This spell allows the Theurgist to hear both what the speaker is saying and what the truth is. If the speaker is, indeed, speaking untruthfully, the truth will come to the caster as if carried on a breeze. The Focus for this spell resembles a chain. The words spoken upon casting are 'An Quas Lor.'"
-msgstr ""
+msgstr "聆聽真言~~這道法術基於種種原因都非常有用。它能讓神術師同時聽見說話者所說的話與真相。如果說話者確實在說謊，真相就會像隨風飄來一般傳到施法者耳中。這道法術的法器形似一條鎖鏈。施法時唸的咒文是「An Quas Lor」。"
 
+# P13 batch 8
 msgctxt "book 0577:1D16"
 msgid "The spell of Intervention~~A powerful spell, upon casting the spell of Intervention, the Theurgist calls into being a wall of Air that blocks all damaging forces. While this spell will protect the caster from all blows and striking attacks, it will not protect the caster from immersion in lava or drowning in Water. The Focus for this spell resembles a fist and the words used are 'In Sanct An Jux.'"
-msgstr ""
+msgstr "庇佑之光~~這是一道強大的法術。施展庇佑之光時，神術師會召喚出一道擋住一切傷害之力的風之牆。雖然這道法術能保護施法者免受一切毆打與攻擊，卻無法保護施法者免於落入熔岩或溺水。這道法術的法器形似一隻拳頭，所用的咒文是「In Sanct An Jux」。"
 
+# P13 batch 8
 msgctxt "book 0577:246E"
 msgid "The Spell of Resurrection~~As told to Cyrrus by Stellos~~ In all my time as the leader of the Theurgists on Argentrock Isle, I hold dearest to my heart the time I received the Spell of Resurrection from the Mystic Voice that is our dear Stratos.%I was no more than 60 when Kalen brought the body of his beloved to me. She had been dead for a number of days, and I knew there was not much I could do. However, I saw the love that burned in Kalen's eyes and knew I had to try. I took the body of the woman to Windy Point and begged Stratos to return the spirit to the body. Stratos told me that the price would be high. I agreed to it, without hesitation. At that point began the journey I will never forget.~% My spirit left my body and I began to fly. Oh, the glorious freedom, to fly above the clouds and soar the open skies. As I flew higher, the winds became stronger, soon it was a battle just to continue, but I struggled onward.~% Suddenly, before my eyes there was a shimmering cloud. It was on the edge of the sky and the Ethereal Void. Undaunted, I flew into the cloud, and what did I behold but a brilliant ball of fire and light. Stratos whispered to me that I beheld what hadn't been seen by a Pagan in years...something called the sun.~% At that moment, my body back on the ground opened its mouth and breathed the Breath of Life into the body of Keldan's betrothed.~% The next thing I new, I was surrounded by darkness and back in my body. I asked what had happened and why it was so dark. At that, Keldan began to weep. It was then I knew that in viewing this wonderful sun, I had lost my sight. But I know it was a small price to pay, for Keldan's betrothed put her soft hand in mine and thanked me for returning her to Keldan. This is a price I would ask no other to pay and therefore, there is no focus or words of power for it."
-msgstr ""
+msgstr "復活術~~史泰洛斯口述，席勒斯記錄~~在我擔任白銀之岩島神術師領袖的這些年裡，我心中最珍視的，是從我們親愛的史特拉托斯——也就是神秘之聲——那裡得到復活術的那一刻。%那時我不過六十歲，卡倫把他心愛之人的遺體帶到我面前。她已經死了好幾天，我知道我能做的不多。然而，我看見卡倫眼中燃燒的愛，知道我必須一試。我把那女子的遺體帶到狂風角，懇求史特拉托斯讓她的靈魂回到身體裡。史特拉托斯告訴我，代價會很高。我毫不猶豫地答應了。就從那一刻起，展開了一段我永生難忘的旅程。~%我的靈魂離開身體，開始飛翔。噢，那光輝的自由，飛越雲端，翱翔於廣闊的天空。我飛得越高，風就越強，很快就連繼續前進都要奮力搏鬥，但我仍掙扎著往前飛。~%突然間，我眼前出現一片閃爍的雲，就在天空與以太虛空的交界處。我毫不畏懼地飛進雲中，看見的竟是一顆燦爛的火與光之球。史特拉托斯低聲告訴我，我所見到的，是佩根人多年來不曾見過的東西……一種叫做太陽的東西。~%就在那一刻，我留在地面上的身體張開了口，把生命之息吹進了凱爾丹未婚妻的身體裡。~%接下來我只知道，我被黑暗包圍，回到了自己的身體裡。我問發生了什麼事，為什麼這麼暗。聽到這話，凱爾丹哭了起來。那時我才明白，因為看見了那美妙的太陽，我失去了視力。但我知道這代價很小，因為凱爾丹的未婚妻把她柔軟的手放在我手中，謝謝我把她還給了凱爾丹。這是我不會要求任何人付出的代價，因此，這道法術沒有法器，也沒有力量之語。"
 
+# P13 batch 8
 msgctxt "book 0577:2D3E"
 msgid "My dearest Prevan,~~%I regret to tell you that I will not be home from this visit as soon as I had thought. My healing services will be needed here for some time as a terrible thing has happened to this small village. Two nights ago, as I had just finished my evening rituals, I heard a horrible commotion from the town square. I ran out to see what the trouble was, only to find the town overrun by trolls. ~~%The trolls had come in search of their favorite meal, human children. From house to house they went, ripping doors off and brushing aside the men as if they were no more than flies. Mothers wailed as babes were torn from their breasts and fathers cried in anguish as one by one their children were eaten alive. The bloody procession went on and on, and I fear the screams and sobs will ring in my darkest dreams forever.~~%And then, a miracle occured. From the final house, came not a cry of torment, but one of victory. We raced down the street to the house. We found the inside strewn with the bodies of the trolls and there in the middle stood Nehdra, a young woman who had just given birth a few days before. She had her newborn clutched in one arm, in the other was a magnificent silver sword. She told us thatas the trolls burst in, she had grabbed the only weapon she had, a knitting needle, and had cried out to Stratos to protect her child. Instantly, in answer to her plea, the great Stratos turned the needle into a magnificent sword. She said the sword fairly danced in her hand, slaying the trolls left and right until none were left alive.~~%While I can find some solace in the miracle Stratos performed, I am afraid the task ahead of me is almost overwhelming. I do what I can to ease the hurts, but wounds of the mind Stratos gives no power to heal. I will stay until I have done all I can, then I will carry the sword, now called 'Protector' to Argentrock Isle. There I will prepare a small shrine for it in the catacombs beneath the monastery.~~%I do miss you, my love, and ask that you watch over our dear little Stellos until I can return. It is sad his mother must be away from him so soon after his birth, but I must serve where I am needed. I am sure you understand.~~ All my love,~ Veras"
-msgstr ""
+msgstr "我最親愛的普雷凡：~~%很遺憾要告訴你，這趟出診我無法像原本預期的那麼快回家。這個小村莊發生了一件可怕的事，這裡會需要我的治療一段時間。兩天前的夜裡，我才剛做完晚間的儀式，就聽到鎮上廣場傳來一陣可怕的騷動。我跑出去看出了什麼事，卻發現整個鎮都被巨魔占領了。~~%巨魔是來找牠們最愛的食物——人類小孩。牠們挨家挨戶地闖，扯下房門，把男人像撥開蒼蠅一樣推到一旁。嬰兒從母親懷中被搶走，母親們哀號不已；孩子一個接一個被活活吃掉，父親們痛苦地哭喊。這血腥的行進一直持續下去，我怕那些尖叫與啜泣，將永遠在我最黑暗的夢中迴盪。~~%然後，奇蹟發生了。從最後一間屋子裡傳來的不是痛苦的哭喊，而是勝利的歡呼。我們沿街跑到那間屋子，發現屋裡滿地都是巨魔的屍體，而站在中間的，是幾天前才剛生產的年輕女子奈德拉。她一手緊抱著新生兒，另一手握著一把華麗的銀劍。她告訴我們，巨魔衝進來時，她抓起身邊唯一的武器——一根織毛衣的棒針——向史特拉托斯呼喊，求祂保護她的孩子。偉大的史特拉托斯立刻回應了她的懇求，把那根棒針變成了一把華麗的劍。她說那把劍在她手中簡直像在跳舞，左右揮砍，直到巨魔一隻不剩。~~%雖然史特拉托斯施展的奇蹟讓我得到些許安慰，但恐怕眼前的工作幾乎讓我招架不住。我盡我所能撫平傷痛，但心靈的傷口，史特拉托斯並沒有賜予治癒的力量。我會留下來，直到做完我能做的一切，然後把這把如今名為「守護者之劍」的劍帶到白銀之岩島。我會在修道院底下的地下墓穴為它準備一座小神龕。~~%我真的很想你，我的愛，請你照顧我們親愛的小史泰洛斯，直到我回來。他才剛出生不久，母親就得離開他，令人難過，但我必須在需要我的地方服務。我相信你能理解。~~獻上我所有的愛，~維拉斯"
 
+# P13 batch 8
 msgctxt "book 0577:31E4"
 msgid "THE CHRONICLE OF PAGAN~~A treatise on the Glorious History of this Foremost Society~~There is little in the world more refreshing to me than knowledge. I remember in my youth hearing tales of legendary times, unexplored places and fantastic beasts. I constantly pestered my parents and instructors with an endless number of questions. How does this work? Why did they act in such a manner? Where can I find these plants? My thirst for information was -- nay, still is -- insatiable. I spent hours at a time investigating all I could about my surroundings. ~~Unfortunately, as I realized early in life, I lacked much in the way of physical prowess, making exploration difficult. Imagine my pleasure when I discovered that not only did life itself teach me things great and wonderous, but the myriad ancient tomes could offer nearly as much. It was then that I elected to dedicate this humble life to filling my mind and library with all the knowledge I could. Thus, I humbly add these words to the collection of wisdom that already fills the multitude of bookshelves throughout the land. I hope my work may someday imbue curiosity into the hearts of others."
-msgstr ""
+msgstr "佩根編年史~~論此卓越社會之光輝歷史~~世上沒有什麼比知識更令我神清氣爽。我記得年輕時聽過許多傳說時代、未經探索之地與奇妙野獸的故事。我總是拿無數的問題纏著父母和老師：這是怎麼運作的？他們為什麼那樣做？我在哪裡能找到這些植物？我對知識的渴求曾經——不，至今仍然——永不滿足。我常常花上好幾個鐘頭，盡我所能地探究周遭的一切。~~可惜我很早就發現，自己的體能遠遠不足，讓探險變得困難。想像一下，當我發現不只生活本身能教我偉大而奇妙的事物，無數古籍也幾乎能給我同樣多的東西時，我有多麼高興。就在那時，我決定把這卑微的一生，奉獻給用一切可能的知識填滿我的頭腦與藏書室。因此，我謹將這些文字，添入這片土地上無數書架早已收藏的智慧之中。但願我的作品有朝一日，能在他人心中注入好奇心。"
