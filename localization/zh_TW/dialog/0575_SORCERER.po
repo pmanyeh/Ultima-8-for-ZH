@@ -10,298 +10,354 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 #. , after "Cardas"
 #. answer compared by the conversation code
 msgctxt "ask 0575"
 msgid "Cardas"
-msgstr ""
+msgstr "卡達斯"
 
+# P13 batch 5
 #. , after "Daemos"
 #. answer compared by the conversation code
 msgctxt "ask 0575"
 msgid "Daemos"
-msgstr ""
+msgstr "戴摩斯"
 
+# P13 batch 5
 #. , after "Kothius"
 #. answer compared by the conversation code
 msgctxt "ask 0575"
 msgid "Kothius"
-msgstr ""
+msgstr "柯修斯"
 
+# P13 batch 5
 #. , after "Mentar"
 #. answer compared by the conversation code
 msgctxt "ask 0575"
 msgid "Mentar"
-msgstr ""
+msgstr "門塔"
 
+# P13 batch 5
 #. , after "Tallon"
 #. answer compared by the conversation code
 msgctxt "ask 0575"
 msgid "Tallon"
-msgstr ""
+msgstr "塔隆"
 
+# P13 batch 5
 #. , after "Emrichol"
 #. answer compared by the conversation code
 msgctxt "ask 0575"
 msgid "Emrichol"
-msgstr ""
+msgstr "艾姆里柯"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:04BC"
 msgid ", the late Sorcerer"
-msgstr ""
+msgstr "，已故的巫師"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:04E6"
 msgid ", the Sorcerer"
-msgstr ""
+msgstr "，巫師"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:0521"
 msgid ", the deceased"
-msgstr ""
+msgstr "，已故者"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:056D"
 msgid "dead Sorcerer "
-msgstr ""
+msgstr "死去的巫師"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:058F"
 msgid "Sorcerer "
-msgstr ""
+msgstr "巫師"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:05BE"
 msgid "dead mage "
-msgstr ""
+msgstr "死去的法師"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:05DC"
 msgid "mage "
-msgstr ""
+msgstr "法師"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:0809"
 msgid "Tis a horrible way to go, consumed by a daemon. I am not so sure I should have started down the Burning Path. Forgive me. I cannot speak right now. "
-msgstr ""
+msgstr "被惡魔吞噬，真是可怕的死法。我不確定我當初該不該走上燃燒之道。原諒我，我現在說不出話來。"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:0898"
 msgid "I shall have to learn how to banish daemons as soon as possible. I suggest you do the same. Farewell for now. "
-msgstr ""
+msgstr "我得盡快學會怎麼驅逐惡魔。我建議你也一樣。暫且告辭了。"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:0968"
 msgid "I wonder what happens when a Sorcerer summons a daemon to fight another daemon. Perhaps that is the best defense against a daemon attack. I must go now. Perhaps we shall speak later. "
-msgstr ""
+msgstr "不知道巫師召喚一隻惡魔去對付另一隻惡魔會怎麼樣。也許那是對抗惡魔攻擊的最佳防禦。我得走了。也許晚點再聊。"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:0A59"
 msgid "Pyros below! The Master! I am just a lowly Disciple. I did not mean to arouse your wrath. If you will permit me to live, I will bother you no more. "
-msgstr ""
+msgstr "派羅斯在下！是大師！我只是個卑微的門徒。我無意惹您發怒。如果您肯饒我一命，我再也不會打擾您。"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:0B48"
 msgid "Since there is no reason why you would want to speak to me, I must assume that you wish to punish me. I do not know what I have done to deserve your punishment, but I submit myself to your justice. "
-msgstr ""
+msgstr "既然您沒有理由想跟我說話，我只能認為您是要懲罰我。我不知道自己做了什麼該受您懲罰，但我甘願接受您的裁決。"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:0BE7"
 msgid "Greetings, stranger. What do you want? "
-msgstr ""
+msgstr "你好，陌生人。你要做什麼？"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:0C19"
 msgid "Yes. What is it? "
-msgstr ""
+msgstr "是的。什麼事？"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:0C4E"
 msgid "What do you need, stranger. "
-msgstr ""
+msgstr "你需要什麼，陌生人？"
 
+# P13 batch 5
 #. , after "Emrichol"
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0575:0CA2"
 msgid "Greetings, {name}. What do you want?"
-msgstr ""
+msgstr "你好，{name}。你要做什麼？"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "bark 0575:0CD4"
 msgid "Yes? What is it? "
-msgstr ""
+msgstr "嗯？什麼事？"
 
+# P13 batch 5
 #. , after "Emrichol"
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0575:0D0B"
 msgid "What do you need, {name}?"
-msgstr ""
+msgstr "你需要什麼，{name}？"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "ask 0575"
 msgid "Tell me of this place. "
-msgstr ""
+msgstr "說說這個地方。"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "ask 0575"
 msgid "What are you called? "
-msgstr ""
+msgstr "你叫什麼名字？"
 
+# P13 batch 5
 #. , after "Emrichol"
 msgctxt "ask 0575"
 msgid "What do you do? "
-msgstr ""
+msgstr "你是做什麼的？"
 
+# P13 batch 5
 #. , after "Farewell. "
 #. answer compared by the conversation code
 msgctxt "ask 0575"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 5
 #. , after "Farewell. "
 msgctxt "bark 0575:0DEC"
 msgid "Is there something else you would ask about? "
-msgstr ""
+msgstr "還有別的想問的嗎？"
 
+# P13 batch 5
 #. , after "Tell me of this place. "
 msgctxt "bark 0575:0F6A"
 msgid "Well... as a Disciple, it is not my place to inform newcomers of this place. Suffice it to say, it is called Sorcerer's Enclave, and it sits in Daemon's Crag. "
-msgstr ""
+msgstr "嗯……身為門徒，向新來的人介紹這裡不是我的分內事。只能說，這裡叫巫師聚落，坐落在惡魔崖。"
 
+# P13 batch 5
 #. , after "Tell me of this place. "
 msgctxt "ask 0575"
 msgid "Why is it called an enclave? "
-msgstr ""
+msgstr "為什麼叫聚落？"
 
+# P13 batch 5
 #. , after "Tell me of this place. "
 msgctxt "ask 0575"
 msgid "Tell me of Daemon's Crag. "
-msgstr ""
+msgstr "說說惡魔崖。"
 
+# P13 batch 5
 #. , after "Tell me of this place. "
 msgctxt "ask 0575"
 msgid "What is a Sorcerer? "
-msgstr ""
+msgstr "巫師是什麼？"
 
+# P13 batch 5
 #. , after "Tell me of this place. "
 msgctxt "ask 0575"
 msgid "Disciple? What is that? "
-msgstr ""
+msgstr "門徒？那是什麼？"
 
 #. , after "What are you called? "
 msgctxt "bark 0575:1070"
 msgid "My name is . And you are? "
 msgstr ""
 
+# P13 batch 5
 #. , after "What are you called? "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 0575"
 msgid "I am {name}."
-msgstr ""
+msgstr "我是{name}。"
 
+# P13 batch 5
 #. , after "What are you called? "
 msgctxt "ask 0575"
 msgid "It does not matter. "
-msgstr ""
+msgstr "那不重要。"
 
+# P13 batch 5
 #. , after "What do you do? "
 msgctxt "bark 0575:1117"
 msgid "I am a Sorcerer. A Disciple to be specific. "
-msgstr ""
+msgstr "我是巫師。確切地說，是門徒。"
 
+# P13 batch 5
 #. , after "What do you do? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0575:11D3"
 msgid "Well met, {name}."
-msgstr ""
+msgstr "幸會，{name}。"
 
+# P13 batch 5
 #. , after "It does not matter. "
 msgctxt "bark 0575:129E"
 msgid "True enough. I do like to know who I am speaking to, but it doesn't really matter who you are. "
-msgstr ""
+msgstr "說得也是。我是喜歡知道自己在跟誰說話，不過你是誰其實也無所謂。"
 
+# P13 batch 5
 #. , after "Why is it called an enclave? "
 msgctxt "bark 0575:13DE"
 msgid "There was a time when we Sorcerers were feared by the others. Our kind were outcasts amongst them. And so, many ages ago, the Cabal made the enclave to protect ourselves... as well as the others from misunderstandings. "
-msgstr ""
+msgstr "曾經有段時間，我們巫師受到其他人畏懼，我們這類人在他們之中是被排斥的。所以很久很久以前，密謀會建立了這個聚落，保護我們自己……也讓其他人免於誤解。"
 
+# P13 batch 5
 #. , after "Why is it called an enclave? "
 msgctxt "ask 0575"
 msgid "What is the Cabal. "
-msgstr ""
+msgstr "密謀會是什麼？"
 
+# P13 batch 5
 #. , after "Tell me of Daemon's Crag. "
 msgctxt "bark 0575:14BF"
 msgid "I don't know very much about it. My studies of Sorcery preclude much outside research. "
-msgstr ""
+msgstr "我對它所知不多。我專心研習巫術，沒什麼時間研究其他的事。"
 
+# P13 batch 5
 #. , after "Tell me of Daemon's Crag. "
 msgctxt "ask 0575"
 msgid "What use is Sorcery? "
-msgstr ""
+msgstr "巫術有什麼用？"
 
+# P13 batch 5
 #. , after "What is a Sorcerer? "
 msgctxt "bark 0575:15A3"
 msgid "A Sorcerer... strange that you should ask. Nevermind. A Sorcerer is a mage who studies the Fire. "
-msgstr ""
+msgstr "巫師……你會問這個真奇怪。算了。巫師就是研究火焰的法師。"
 
+# P13 batch 5
 #. , after "What is a Sorcerer? "
 msgctxt "ask 0575"
 msgid "Tell me of the Fire. "
-msgstr ""
+msgstr "說說火焰。"
 
+# P13 batch 5
 #. , after "Disciple? What is that? "
 msgctxt "bark 0575:1698"
 msgid "A Disciple is a follower of the Burning Path. And before you ask, the Burning Path is the study of Fire. "
-msgstr ""
+msgstr "門徒是燃燒之道的追隨者。在你問之前先告訴你，燃燒之道就是研究火焰的學問。"
 
+# P13 batch 5
 #. , after "What is the Cabal. "
 msgctxt "bark 0575:174E"
 msgid "That is the word we use for all Sorcerers. "
-msgstr ""
+msgstr "那是我們對所有巫師的統稱。"
 
+# P13 batch 5
 #. , after "What use is Sorcery? "
 msgctxt "bark 0575:1804"
 msgid "If you have to ask that, it will never be of use to you. And so, my answer wouldn't either. "
-msgstr ""
+msgstr "要是你得問這種問題，巫術對你就永遠沒有用。所以，我的回答對你也一樣沒用。"
 
+# P13 batch 5
 #. , after "Tell me of the Fire. "
 msgctxt "bark 0575:1906"
 msgid "I cannot... it fills my being. I sleep and it washes over my dreams, I wake and it is all around me. It is my desire to command and serve it for the rest of my days. "
-msgstr ""
+msgstr "我說不出來……它充滿了我的存在。我睡著時，它淹沒我的夢；我醒來時，它就在我四周。我渴望在餘生中駕馭它、侍奉它。"
 
+# P13 batch 5
 #. , after "Farewell. "
 msgctxt "bark 0575:1976"
 msgid "Goodbye. "
-msgstr ""
+msgstr "再見。"
 
+# P13 batch 5
 #. , after "Farewell. "
 msgctxt "bark 0575:19A1"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 5
 #. , after "Farewell. "
 msgctxt "bark 0575:19D1"
 msgid "Until we meet again... "
-msgstr ""
+msgstr "後會有期……"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 0575:1A2F"
 msgid "Come again when you truly wish to speak. "
-msgstr ""
+msgstr "等你真的想說話時再來吧。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 0575:1A7A"
 msgid "This is like talking to a torax. Goodbye. "
-msgstr ""
+msgstr "這跟對著托拉克斯獸說話沒兩樣。再見。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 0575:1AEC"
 msgid "When you wish to talk, you may seek me out. I must return to what I was doing. Farewell. "
-msgstr ""
+msgstr "你想說話時可以來找我。我得回去做我的事了。再會。"
 
+# P13 batch 5
 #. , after ""
 msgctxt "bark 0575:1B3E"
 msgid "I do not understand. What did you say? "
-msgstr ""
+msgstr "我不明白。你說什麼？"

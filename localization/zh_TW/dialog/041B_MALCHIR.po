@@ -10,107 +10,128 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041B:013E"
 msgid "Malchir the late Master Sorcerer "
-msgstr ""
+msgstr "已故的大巫師馬爾奇爾"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041B:016E"
 msgid "Malchir the Master Sorcerer "
-msgstr ""
+msgstr "大巫師馬爾奇爾"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041B:01AA"
 msgid "Malchir the deceased "
-msgstr ""
+msgstr "已故的馬爾奇爾"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041B:01C5"
 msgid "Malchir"
-msgstr ""
+msgstr "馬爾奇爾"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041B:0201"
 msgid "dead Master Sorcerer "
-msgstr ""
+msgstr "死去的大巫師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041B:0225"
 msgid "Master Sorcerer "
-msgstr ""
+msgstr "大巫師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041B:024F"
 msgid "dead mage "
-msgstr ""
+msgstr "死去的法師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041B:0268"
 msgid "mage "
-msgstr ""
+msgstr "法師"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:04DD"
 msgid "Ah, I see you have endured the trials of the Obsidian Fortress, which means that you must have nearly completed your training. I will test you now, Disciple, to see if you are worthy to be an Acolyte. "
-msgstr ""
+msgstr "啊，我看你熬過了黑曜石要塞的試煉，這表示你的訓練一定快完成了。門徒，現在我要考驗你，看看你是否配當學徒。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:05BE"
 msgid "In order to become one, you must first cast three spells. You may use my pentacle, one of my staves, and my reagents to prepare them. I will be the target of each. Fear not, for they will do me no harm. "
-msgstr ""
+msgstr "要成為學徒，你必須先施展三道法術。你可以用我的五芒星陣、我的一根法杖和我的材料來準備。每道法術都以我為目標。別擔心，它們傷不了我。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:0699"
 msgid "First, cast the Flame Bolt spell, then the Explosion spell, and finally, summon a Daemon to assault me. Do this in order. Failure at this point will cost your life... and there is no turning back. "
-msgstr ""
+msgstr "首先施展烈焰箭，然後是爆炸術，最後召喚一隻惡魔來攻擊我。照這個順序做。到了這一步，失敗就會賠上你的命……而且沒有回頭路。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:06C6"
 msgid "The test begins now... "
-msgstr ""
+msgstr "考驗現在開始……"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:073D"
 msgid "Cast the Flame Bolt spell at me. "
-msgstr ""
+msgstr "對我施展烈焰箭。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:0780"
 msgid "Cast the Explosion spell at me. "
-msgstr ""
+msgstr "對我施展爆炸術。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:07C1"
 msgid "Summon a daemon to attack me. "
-msgstr ""
+msgstr "召喚一隻惡魔來攻擊我。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:07F7"
 msgid "Banish the daemon. "
-msgstr ""
+msgstr "驅逐那隻惡魔。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:082A"
 msgid "Drop the staff. "
-msgstr ""
+msgstr "放下法杖。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:0866"
 msgid "Do it now. "
-msgstr ""
+msgstr "現在就做。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:08E2"
 msgid "This is your last chance. You are about to fail... and that means your death. "
-msgstr ""
+msgstr "這是你最後的機會。你就要失敗了……而失敗就意味著死亡。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:09C2"
 msgid "I did not send for you, insolent child. This fortress is my refuge, and for breaking its sanctity, you must die. "
-msgstr ""
+msgstr "我沒有召你來，無禮的孩子。這座要塞是我的庇護所，你褻瀆了它的神聖，就必須死。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041B:0A41"
 msgid "Come, Acolyte. We must begin the ceremony. "
-msgstr ""
+msgstr "來吧，學徒。我們必須開始儀式了。"

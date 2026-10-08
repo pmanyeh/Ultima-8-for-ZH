@@ -10,1050 +10,1252 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041F:0139"
 msgid "You will pay for that it with your life! "
-msgstr ""
+msgstr "你要為此付出性命！"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041F:0187"
 msgid "Leave that alone. "
-msgstr ""
+msgstr "別碰那個。"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041F:01D4"
 msgid "I said, leave my things alone! "
-msgstr ""
+msgstr "我說了，別碰我的東西！"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041F:022F"
 msgid "I will kill you if you move my things again! "
-msgstr ""
+msgstr "你要是再動我的東西，我就殺了你！"
 
+# P13 batch 5
 #. event 13 (justMoved)
 msgctxt "bark 041F:025D"
 msgid "Now you die! "
-msgstr ""
+msgstr "現在你死定了！"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041F:02CF"
 msgid "Gorgrond the late Sorcerer "
-msgstr ""
+msgstr "已故的巫師戈格隆德"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041F:02F9"
 msgid "Gorgrond the Sorcerer "
-msgstr ""
+msgstr "巫師戈格隆德"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041F:0336"
 msgid "the deceased Gorgrond "
-msgstr ""
+msgstr "已故的戈格隆德"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041F:0352"
 msgid "Gorgrond"
-msgstr ""
+msgstr "戈格隆德"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041F:0387"
 msgid "dead Sorcerer "
-msgstr ""
+msgstr "死去的巫師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041F:03A4"
 msgid "Sorcerer "
-msgstr ""
+msgstr "巫師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041F:03CE"
 msgid "dead mage "
-msgstr ""
+msgstr "死去的法師"
 
+# P13 batch 5
 #. event 00 (look)
 msgctxt "bark 041F:03E7"
 msgid "mage "
-msgstr ""
+msgstr "法師"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "bark 041F:05E4"
 msgid "What do you want, stranger? "
-msgstr ""
+msgstr "你想幹嘛，陌生人？"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041F"
 msgid "Just your attention. "
-msgstr ""
+msgstr "只是想引起你的注意。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041F"
 msgid "I wish to speak to you. "
-msgstr ""
+msgstr "我想跟你談談。"
 
+# P13 batch 5
 #. event 01 (use (talk))
 msgctxt "ask 041F"
 msgid "It's none of your business. "
-msgstr ""
+msgstr "不關你的事。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Just your attention. "
 msgctxt "bark 041F:069B"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I wish to speak to you. "
 msgctxt "bark 041F:06E3"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "It's none of your business. "
 msgctxt "bark 041F:0737"
 msgid "Alright, then leave! "
-msgstr ""
+msgstr "好啊，那就走！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "It's none of your business. "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 041F"
 msgid "I am called {name}."
-msgstr ""
+msgstr "我叫{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "It's none of your business. "
 msgctxt "ask 041F"
 msgid "I cannot tell you. "
-msgstr ""
+msgstr "我不能告訴你。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "It's none of your business. "
 msgctxt "ask 041F"
 msgid "You would not understand. "
-msgstr ""
+msgstr "你不會懂的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:0832"
 msgid "Oh, greetings, {name}. I am Gorgrond. What do you need of me?"
-msgstr ""
+msgstr "噢，你好，{name}。我是戈格隆德。你找我有什麼事？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot tell you. "
 msgctxt "bark 041F:087D"
 msgid "Why not? "
-msgstr ""
+msgstr "為什麼不能？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot tell you. "
 msgctxt "ask 041F"
 msgid "If I did, I would have to kill you. "
-msgstr ""
+msgstr "要是我說了，我就得殺了你。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot tell you. "
 msgctxt "ask 041F"
 msgid "What does it matter? "
-msgstr ""
+msgstr "那有什麼關係？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I cannot tell you. "
 msgctxt "ask 041F"
 msgid "I'm not sure. "
-msgstr ""
+msgstr "我不確定。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "If I did, I would have to kill you. "
 msgctxt "bark 041F:098C"
 msgid "Ha, you'd find that hard to do. But I like you, you're funny. What do you want to know? "
-msgstr ""
+msgstr "哈，你會發現那很難辦到。不過我喜歡你，你很有趣。你想知道什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What does it matter? "
 msgctxt "bark 041F:09F8"
 msgid "Well, what do I call you if I don't know your name? "
-msgstr ""
+msgstr "嗯，不知道你的名字，我要怎麼叫你？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What does it matter? "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 041F"
 msgid "Good question. I am {name}."
-msgstr ""
+msgstr "好問題。我是{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What does it matter? "
 msgctxt "ask 041F"
 msgid "That's your problem. "
-msgstr ""
+msgstr "那是你的問題。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What does it matter? "
 msgctxt "ask 041F"
 msgid "You may call me Sir. "
-msgstr ""
+msgstr "你可以叫我閣下。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You may call me Sir. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:0AD4"
 msgid "Oh, greetings, {name}. I am Gorgrond. What do you need of me?"
-msgstr ""
+msgstr "噢，你好，{name}。我是戈格隆德。你找我有什麼事？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "That's your problem. "
 msgctxt "bark 041F:0B4B"
 msgid "Fine then, I'll call you Dungbreath. Will that do? "
-msgstr ""
+msgstr "那好，我就叫你臭糞之息。這樣行嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "That's your problem. "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 041F"
 msgid "No, please call me {name}."
-msgstr ""
+msgstr "不，請叫我{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "That's your problem. "
 msgctxt "ask 041F"
 msgid "Yes, that will do nicely. "
-msgstr ""
+msgstr "行，那很好。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "That's your problem. "
 msgctxt "ask 041F"
 msgid "No, I won't abide that. "
-msgstr ""
+msgstr "不，我不能接受。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "That's your problem. "
 msgctxt "ask 041F"
 msgid "You will die for your insolence! "
-msgstr ""
+msgstr "你會為你的無禮送命！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Yes, that will do nicely. "
 msgctxt "bark 041F:0C58"
 msgid "Fine then. What do you want, Dungbreath? "
-msgstr ""
+msgstr "那好。你要做什麼，臭糞之息？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No, I won't abide that. "
 msgctxt "bark 041F:0CD8"
 msgid "Well, it's too bad you couldn't give me your name, Dungbreath. "
-msgstr ""
+msgstr "嗯，可惜你不肯告訴我你的名字，臭糞之息。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No, I won't abide that. "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 041F"
 msgid "I will! It's {name}."
-msgstr ""
+msgstr "我說！我叫{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No, I won't abide that. "
 msgctxt "ask 041F"
 msgid "I don't care what you call me. "
-msgstr ""
+msgstr "我不在乎你怎麼叫我。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No, I won't abide that. "
 msgctxt "ask 041F"
 msgid "That's it! You die! "
-msgstr ""
+msgstr "夠了！你死定了！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "That's it! You die! "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:0DB6"
 msgid "Oh, greetings, {name}. I am Gorgrond. What do you need of me?"
-msgstr ""
+msgstr "噢，你好，{name}。我是戈格隆德。你找我有什麼事？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I don't care what you call me. "
 msgctxt "bark 041F:0E33"
 msgid "Good. Dungbreath it is. What do you seek here? "
-msgstr ""
+msgstr "很好。那就叫臭糞之息了。你來這裡找什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "That's it! You die! "
 msgctxt "bark 041F:0ED9"
 msgid "I do not think so, fool. My Sorcery will bring you to your knees, then I will feed you to my pet daemon! "
-msgstr ""
+msgstr "我可不這麼想，蠢貨。我的巫術會讓你跪地求饒，然後我要把你拿去餵我養的惡魔！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I do not think so, fool. My Sorcery will bring you to your knees, then I will feed you to my pet daemon! "
 #. answer compared by the conversation code
 msgctxt "ask 041F"
 msgid "I do not think so, fool. My Sorcery will bring you to your knees, then I will feed you to my pet daemon! "
-msgstr ""
+msgstr "我可不這麼想，蠢貨。我的巫術會讓你跪地求饒，然後我要把你拿去餵我養的惡魔！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I do not think so, fool. My Sorcery will bring you to your knees, then I will feed you to my pet daemon! "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:0F43"
 msgid "Fine then. What do you want, {name}?"
-msgstr ""
+msgstr "那好。你要做什麼，{name}？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You will die for your insolence! "
 msgctxt "bark 041F:0FA8"
 msgid "It is you who will die, peasant! "
-msgstr ""
+msgstr "要死的是你，鄉巴佬！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You may call me Sir. "
 msgctxt "bark 041F:102A"
 msgid "And you may call me your death, knave! "
-msgstr ""
+msgstr "那你可以叫我你的死神，無賴！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I'm not sure. "
 msgctxt "bark 041F:1100"
 msgid "Are you simple minded? Should I speak slower? Why... can't... you... tell... me... your... name? Oh, nevermind. What do you want? "
-msgstr ""
+msgstr "你腦筋簡單嗎？要我說慢一點嗎？你……為……什……麼……不……能……告……訴……我……你……的……名……字？噢，算了。你要做什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:11F3"
 msgid "Do you take me for a fool? I am not a simplemind! My Sorcery is strong, as you will see if you anger me further. Go away now, before I loose my anger upon you. "
-msgstr ""
+msgstr "你把我當傻瓜嗎？我可不是頭腦簡單的人！我的巫術很強，你要是再惹我生氣就會見識到。現在就走，免得我把怒火發在你身上。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:1421"
 msgid "You die, fool! "
-msgstr ""
+msgstr "去死吧，蠢貨！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:14DC"
 msgid "What, {varFA}? What do you want? "
-msgstr ""
+msgstr "什麼事，{varFA}？你要做什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:14DC"
 msgid "Must you pester me? What do you want? "
-msgstr ""
+msgstr "你非得來煩我嗎？你要做什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:14DC"
 msgid "I am not a sage. I have no great information to give to you. What do you want? "
-msgstr ""
+msgstr "我又不是賢者，沒什麼了不起的情報可以給你。你要做什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:14DC"
 msgid "Go away! I do not wish to speak with you. "
-msgstr ""
+msgstr "走開！我不想跟你說話。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:14DC"
 msgid "I don't like you. Leave me be! "
-msgstr ""
+msgstr "我不喜歡你。別來煩我！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:14DC"
 msgid "Disturb me no longer. "
-msgstr ""
+msgstr "別再打擾我了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:14DC"
 msgid "Hello again, {varFA}. What do you want?"
-msgstr ""
+msgstr "又見面了，{varFA}。你要做什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:14DC"
 msgid "What do you want of me now, {varFA}?"
-msgstr ""
+msgstr "你這次又要找我做什麼，{varFA}？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:14DC"
 msgid "Greetings again. What do you need? "
-msgstr ""
+msgstr "又見面了。你需要什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "Leave me, Dungbreath."
-msgstr ""
+msgstr "離我遠點，臭糞之息。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "Go away! "
-msgstr ""
+msgstr "走開！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "Have a care, Dungbreath. I am no gentle giant."
-msgstr ""
+msgstr "小心點，臭糞之息。我可不是溫柔的巨人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "I can see that you will not survive long here, Dungbreath. Good luck to you. With your tongue, you'll need it."
-msgstr ""
+msgstr "我看你在這裡活不久，臭糞之息。祝你好運。憑你那張嘴，你會需要好運的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "My temper will be kept only for so long. Go now while you still may. "
-msgstr ""
+msgstr "我的脾氣可忍不了多久。趁還走得了，快走吧。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "I have held my temper long enough!... No, I will not destroy you yet. But be warned, you have crossed the threshold into dangerous territory. Few have survived where you go. "
-msgstr ""
+msgstr "我忍夠了！……不，我還不會毀了你。但我警告你，你已經踏進危險地帶了。走你這條路的人，很少有活下來的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "Goodbye, Dungbreath."
-msgstr ""
+msgstr "再見，臭糞之息。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "Farewell."
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:17C5"
 msgid "Leave me, {name}."
-msgstr ""
+msgstr "離我遠點，{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:17C5"
 msgid "Have a care, {name}. I am no gentle giant."
-msgstr ""
+msgstr "小心點，{name}。我可不是溫柔的巨人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:17C5"
 msgid "I can see that you will not survive long here, {name}. Good luck to you. With your tongue, you'll need it."
-msgstr ""
+msgstr "我看你在這裡活不久，{name}。祝你好運。憑你那張嘴，你會需要好運的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:17C5"
 msgid "Goodbye, {name}."
-msgstr ""
+msgstr "再見，{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "Leave me, stranger."
-msgstr ""
+msgstr "離我遠點，陌生人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "Have a care, stranger. I am no gentle giant."
-msgstr ""
+msgstr "小心點，陌生人。我可不是溫柔的巨人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "I can see that you will not survive long here, stranger. Good luck to you. With your tongue, you'll need it."
-msgstr ""
+msgstr "我看你在這裡活不久，陌生人。祝你好運。憑你那張嘴，你會需要好運的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:17C5"
 msgid "Goodbye, stranger."
-msgstr ""
+msgstr "再見，陌生人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:1A41"
 msgid "This is boring, I will not wait upon your slow wit. "
-msgstr ""
+msgstr "真無聊，我可不等你這個慢半拍的傢伙。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:1A41"
 msgid "Well, Dungbreath, I cannot wait here forever."
-msgstr ""
+msgstr "喂，臭糞之息，我可不能在這裡一直等下去。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:1A41"
 msgid "I find you irritating. Go now, Dungbreath, and do not return."
-msgstr ""
+msgstr "我覺得你很煩。現在就走，臭糞之息，別再回來。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:1A41"
 msgid "I will not kill you yet, fool. But if you ever speak to me again, you will risk death. "
-msgstr ""
+msgstr "我還不會殺你，蠢貨。但你要是再跟我說話，就是在拿命冒險。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:1A41"
 msgid "Perhaps your thoughts are too much for your little mind. Think less, Dungbreath, it will serve you well."
-msgstr ""
+msgstr "也許你那點小腦袋裝不下你的想法。少想一點吧，臭糞之息，這對你有好處。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:1A41"
 msgid "If you wish to speak, you must first open your mouth, dullard. "
-msgstr ""
+msgstr "想說話就得先張開嘴，笨蛋。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:1A41"
 msgid "Well, {name}, I cannot wait here forever."
-msgstr ""
+msgstr "喂，{name}，我可不能在這裡一直等下去。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:1A41"
 msgid "I find you irritating. Go now, {name}, and do not return."
-msgstr ""
+msgstr "我覺得你很煩。現在就走，{name}，別再回來。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:1A41"
 msgid "Perhaps your thoughts are too much for your little mind. Think less, {name}, it will serve you well."
-msgstr ""
+msgstr "也許你那點小腦袋裝不下你的想法。少想一點吧，{name}，這對你有好處。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:1A41"
 msgid "Well, stranger, I cannot wait here forever."
-msgstr ""
+msgstr "喂，陌生人，我可不能在這裡一直等下去。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:1A41"
 msgid "I find you irritating. Go now, stranger, and do not return."
-msgstr ""
+msgstr "我覺得你很煩。現在就走，陌生人，別再回來。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "bark 041F:1A41"
 msgid "Perhaps your thoughts are too much for your little mind. Think less, stranger, it will serve you well."
-msgstr ""
+msgstr "也許你那點小腦袋裝不下你的想法。少想一點吧，陌生人，這對你有好處。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "ask 041F"
 msgid "I meant no offense. "
-msgstr ""
+msgstr "我沒有冒犯的意思。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "ask 041F"
 msgid "Must you be so obstinate? "
-msgstr ""
+msgstr "你非得這麼固執嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "ask 041F"
 msgid "You will tell me what I want to know! "
-msgstr ""
+msgstr "你非告訴我我想知道的事不可！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "ask 041F"
 msgid "I will crush you! "
-msgstr ""
+msgstr "我要把你捏碎！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You would not understand. "
 msgctxt "ask 041F"
 msgid "Nevermind. "
-msgstr ""
+msgstr "算了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I meant no offense. "
 msgctxt "bark 041F:1C1E"
 msgid "Some was taken, but I am a forgiving sort. What do you want of me? "
-msgstr ""
+msgstr "是有點冒犯到我，不過我這人很大度。你找我有什麼事？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Must you be so obstinate? "
 msgctxt "bark 041F:1C98"
 msgid "Only to those of a churlish nature. "
-msgstr ""
+msgstr "只對粗魯的人這樣。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You will tell me what I want to know! "
 msgctxt "bark 041F:1D04"
 msgid "Leave... here... now. Else die. "
-msgstr ""
+msgstr "離開……這裡……現在。不然就死。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You are not worthy to live! "
 #. answer compared by the conversation code
 msgctxt "ask 041F"
 msgid "You are not worthy to live! "
-msgstr ""
+msgstr "你不配活著！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You are not worthy to live! "
 msgctxt "bark 041F:1DAA"
 msgid "You are wrong, it is you who are not worthy, and I shall prove it upon your body, knave! "
-msgstr ""
+msgstr "你錯了，不配的是你，我會在你身上證明這一點，無賴！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "bark 041F:1F16"
 msgid "Do you know what you have done? You have allowed Bane to destroy one of the most powerful, resourceful, and courageous Sorcerers this isle has ever known. I shall never forgive you for it, even though Malchir has. Leave me be. "
-msgstr ""
+msgstr "你知道你做了什麼嗎？你讓貝恩毀了這座島上前所未有、最強大、最機智、最勇敢的巫師。就算馬爾奇爾原諒了你，我也永遠不會原諒你。別來煩我。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "bark 041F:1F91"
 msgid "Go! You have killed my closest comrade! What else would you have of me? Leave me alone! "
-msgstr ""
+msgstr "走！你殺了我最親密的同伴！你還想從我這裡得到什麼？別來煩我！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "bark 041F:2021"
 msgid "If you speak to me again, I shall allow you to feel the agony that you visited upon my friend! Leave or die! "
-msgstr ""
+msgstr "你要是再跟我說話，我就讓你嘗嘗你加諸在我朋友身上的痛苦！走，不然就死！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "bark 041F:2102"
 msgid "Now that Vardion has allowed you to join us, you should learn as much from him as you can. Vardion always says that a moment spent in study is worth a day spent at play. "
-msgstr ""
+msgstr "既然瓦爾迪恩讓你加入我們了，你就該盡量跟他學。瓦爾迪恩總說，用功片刻勝過玩樂一整天。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "bark 041F:21A8"
 msgid "I thank you for helping to destroy that conniving kith, Bane. She would have driven the Sorcerers into open war with the Tenebraens. "
-msgstr ""
+msgstr "謝謝你幫忙除掉貝恩那隻工於心計的奇斯怪蛛。她原本會讓巫師們跟泰尼伯瑞人公開開戰。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "bark 041F:2239"
 msgid "Prepare for the Trials of the Obsidian Fortress as best as you can. You are not allowed to leave once you have entered. "
-msgstr ""
+msgstr "盡你所能準備黑曜石要塞試煉吧。一旦進去，就不准出來。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "bark 041F:22B2"
 msgid "Forgive me, for I can speak no more at the moment, matters weigh heavily upon my mind... Farewell. "
-msgstr ""
+msgstr "原諒我，我現在沒辦法多說，有事壓在我心頭……再會。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "bark 041F:23AA"
 msgid "Master! I am not worthy. Forgive my lack of attentiveness. I will return to my studies. There is no need for punishment. I promise that my performance will improve. You'll see. "
-msgstr ""
+msgstr "大師！我不配。原諒我的疏忽。我會回去研習的。不必懲罰我。我保證我的表現會進步。您會看到的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "bark 041F:2453"
 msgid "Forgive me. I have offended you. I never seem to do things right. I will redouble my efforts to make your faith in me not seem misplaced. "
-msgstr ""
+msgstr "原諒我。我冒犯了您。我好像總是做不好事情。我會加倍努力，不讓您對我的信任落空。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "ask 041F"
 msgid "What can you tell me of this place? "
-msgstr ""
+msgstr "關於這個地方，你能告訴我什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "ask 041F"
 msgid "What do you do here? "
-msgstr ""
+msgstr "你在這裡做什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nevermind. "
 msgctxt "ask 041F"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Farewell. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:25FE"
 msgid "Is there anything else, {varF8}?"
-msgstr ""
+msgstr "還有別的事嗎，{varF8}？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can you tell me of this place? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:275B"
 msgid "Well, {varF8}, this is the Sorcerer's Enclave."
-msgstr ""
+msgstr "嗯，{varF8}，這裡是巫師聚落。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can you tell me of this place? "
 msgctxt "ask 041F"
 msgid "Tell me about Sorcerer's Enclave. "
-msgstr ""
+msgstr "說說巫師聚落。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can you tell me of this place? "
 msgctxt "ask 041F"
 msgid "What can you say of Sorcerers? "
-msgstr ""
+msgstr "關於巫師，你能說些什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What do you do here? "
 msgctxt "bark 041F:2815"
 msgid "I am a Sorcerer. "
-msgstr ""
+msgstr "我是巫師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Don't call me Dungbreath. "
 #. answer compared by the conversation code
 msgctxt "ask 041F"
 msgid "Don't call me Dungbreath. "
-msgstr ""
+msgstr "別叫我臭糞之息。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Don't call me Dungbreath. "
 msgctxt "bark 041F:28D0"
 msgid "Tell me your name, and I won't. "
-msgstr ""
+msgstr "告訴我你的名字，我就不叫。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Don't call me Dungbreath. "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 041F"
 msgid "I am called, {name}."
-msgstr ""
+msgstr "我叫{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Don't call me Dungbreath. "
 msgctxt "ask 041F"
 msgid "Why must you know? "
-msgstr ""
+msgstr "你為什麼非知道不可？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Don't call me Dungbreath. "
 msgctxt "ask 041F"
 msgid "I will not tell you. "
-msgstr ""
+msgstr "我不告訴你。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I will not tell you. "
 msgctxt "bark 041F:2996"
 msgid "That's much better. Now we can be on speaking terms. "
-msgstr ""
+msgstr "這樣好多了。現在我們可以好好說話了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why must you know? "
 msgctxt "bark 041F:2A37"
 msgid "I don't, I just will continue to call you Dungbreath until I know a name to call you. "
-msgstr ""
+msgstr "我不是非知道不可，只是在知道怎麼叫你之前，我會一直叫你臭糞之息。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why must you know? "
 #. sentence template: keep the {placeholders}
 msgctxt "ask 041F"
 msgid "Fine then, call me, {name}."
-msgstr ""
+msgstr "好吧，那就叫我{name}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why must you know? "
 msgctxt "ask 041F"
 msgid "You will never know. "
-msgstr ""
+msgstr "你永遠別想知道。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You will never know. "
 msgctxt "bark 041F:2AED"
 msgid "That's much better. Now we can be on speaking terms. "
-msgstr ""
+msgstr "這樣好多了。現在我們可以好好說話了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You will never know. "
 msgctxt "bark 041F:2B4C"
 msgid "Fine, Dungbreath. "
-msgstr ""
+msgstr "好啊，臭糞之息。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I will not tell you. "
 msgctxt "bark 041F:2BBB"
 msgid "Fine, Dungbreath. "
-msgstr ""
+msgstr "好啊，臭糞之息。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about Sorcerer's Enclave. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:2CAA"
 msgid "Let me see, {varF8}. It's in a ravine. It's filled with lava. Hmmm... Yes, that's about it."
-msgstr ""
+msgstr "我想想，{varF8}。它在一道峽谷裡。裡面滿是熔岩。嗯……對，大概就這樣。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about Sorcerer's Enclave. "
 msgctxt "ask 041F"
 msgid "You're not very bright, are you? "
-msgstr ""
+msgstr "你不太聰明，對吧？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about Sorcerer's Enclave. "
 msgctxt "ask 041F"
 msgid "I see. That was helpful. "
-msgstr ""
+msgstr "我懂了。真是幫了大忙。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about Sorcerer's Enclave. "
 msgctxt "ask 041F"
 msgid "What an... esoteric description. "
-msgstr ""
+msgstr "好一個……深奧的描述。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can you say of Sorcerers? "
 msgctxt "bark 041F:2DD7"
 msgid "Oh, quite a bit. I am most knowledgeable, you know. I have studied here for a long time. Since I was a babe. "
-msgstr ""
+msgstr "噢，可多了。你知道，我可是很博學的。我在這裡學了很久，從還是個嬰兒時就開始了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can you say of Sorcerers? "
 msgctxt "ask 041F"
 msgid "Well... What can you say? "
-msgstr ""
+msgstr "那……你能說些什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can you say of Sorcerers? "
 msgctxt "ask 041F"
 msgid "You were born here? "
-msgstr ""
+msgstr "你是在這裡出生的？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What can you say of Sorcerers? "
 msgctxt "ask 041F"
 msgid "I find that hard to believe. "
-msgstr ""
+msgstr "我很難相信。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Not really very bright, are you? "
 #. answer compared by the conversation code
 msgctxt "ask 041F"
 msgid "Not really very bright, are you? "
-msgstr ""
+msgstr "你真的不太聰明，對吧？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Not really very bright, are you? "
 msgctxt "bark 041F:2EB2"
 msgid "Smart enough not to speak to someone who insults me! "
-msgstr ""
+msgstr "聰明到不跟侮辱我的人說話！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I see. That was helpful. "
 msgctxt "bark 041F:2FAF"
 msgid "Thank you. Glad to be of aid. Vardion always says that I am so mercifully free of cluttering thoughts. I'm not sure what he means, but he smiles when he says it. So it must be good. "
-msgstr ""
+msgstr "謝謝。很高興能幫上忙。瓦爾迪恩總說我「幸好沒有雜亂的念頭」。我不太懂他的意思，不過他說的時候都在笑，所以一定是好話。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I see. That was helpful. "
 msgctxt "ask 041F"
 msgid "Vardion? Tell me of him. "
-msgstr ""
+msgstr "瓦爾迪恩？說說他。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I see. That was helpful. "
 msgctxt "ask 041F"
 msgid "You -are- free of thought. "
-msgstr ""
+msgstr "你「確實」什麼念頭都沒有。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I see. That was helpful. "
 msgctxt "ask 041F"
 msgid "I think he means you are stupid. "
-msgstr ""
+msgstr "我想他是說你很笨。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I see. That was helpful. "
 msgctxt "ask 041F"
 msgid "It is good to have friends. "
-msgstr ""
+msgstr "有朋友真好。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What an... esoteric description. "
 msgctxt "bark 041F:3114"
 msgid "Do you think so? What's esso?... Bane uses that word sometimes. She's not nice like Vardion. What do you mean? "
-msgstr ""
+msgstr "你這麼覺得嗎？什麼是深……？貝恩有時會用這個詞。她不像瓦爾迪恩那麼好。你是什麼意思？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What an... esoteric description. "
 msgctxt "ask 041F"
 msgid "Nothing. Don't worry about it. "
-msgstr ""
+msgstr "沒什麼。別在意。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What an... esoteric description. "
 msgctxt "ask 041F"
 msgid "Tell me what you know of Bane. "
-msgstr ""
+msgstr "告訴我你對貝恩知道些什麼。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Well... What can you say? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:31E7"
 msgid "Hmmm? About what, {varF8}?"
-msgstr ""
+msgstr "嗯？關於什麼，{varF8}？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You were born here? "
 msgctxt "bark 041F:32E4"
 msgid "Of course. Are you a simpleton? All Pagans are born on this island. Not very smart, are you? "
-msgstr ""
+msgstr "當然。你是笨蛋嗎？所有佩根人都是在這座島上出生的。你不太聰明，對吧？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I find that hard to believe. "
 msgctxt "bark 041F:33A2"
 msgid "No, really. I was a child at one time. "
-msgstr ""
+msgstr "不，真的。我以前也當過小孩。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Vardion? Tell me of him. "
 msgctxt "bark 041F:34D0"
 msgid "He is the greatest Pagan alive. Um, except for the Master, perhaps. He knows so many things. It hurts my head to even think about what he knows. "
-msgstr ""
+msgstr "他是世上最偉大的佩根人。呃，也許除了大師以外。他知道好多事情。光是想他知道的那些事，我的頭就痛。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Vardion? Tell me of him. "
 msgctxt "ask 041F"
 msgid "Why is he so great? "
-msgstr ""
+msgstr "他為什麼這麼偉大？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Vardion? Tell me of him. "
 msgctxt "ask 041F"
 msgid "Can you tell me what he knows? "
-msgstr ""
+msgstr "你能告訴我他知道些什麼嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Vardion? Tell me of him. "
 msgctxt "ask 041F"
 msgid "Who is the Master. "
-msgstr ""
+msgstr "大師是誰？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "About Sorcerer's Enclave! "
 #. answer compared by the conversation code
 msgctxt "ask 041F"
 msgid "About Sorcerer's Enclave! "
-msgstr ""
+msgstr "關於巫師聚落！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "About Sorcerer's Enclave! "
 msgctxt "bark 041F:35AD"
 msgid "I can tell you this... You are beginning to anger me! "
-msgstr ""
+msgstr "我可以告訴你……你開始惹我生氣了！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me what you know of Bane. "
 msgctxt "bark 041F:3621"
 msgid "Why, is she a friend of yours? "
-msgstr ""
+msgstr "怎麼，她是你的朋友嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me what you know of Bane. "
 msgctxt "ask 041F"
 msgid "As a matter of fact, yes. "
-msgstr ""
+msgstr "事實上，是的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me what you know of Bane. "
 msgctxt "ask 041F"
 msgid "No, of course not. "
-msgstr ""
+msgstr "不，當然不是。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me what you know of Bane. "
 msgctxt "ask 041F"
 msgid "Why do you ask? "
-msgstr ""
+msgstr "你為什麼這麼問？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me what you know of Bane. "
 msgctxt "bark 041F:36E3"
 msgid "I have already told you. She is a back-stabbing, foul-tempered, mean-spirited wench. "
-msgstr ""
+msgstr "我已經跟你說過了。她是個背後捅刀、脾氣暴躁、心腸惡毒的女人。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me what you know of Bane. "
 msgctxt "bark 041F:3745"
 msgid "Vardion has plans for her. "
-msgstr ""
+msgstr "瓦爾迪恩對她另有打算。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me what you know of Bane. "
 msgctxt "ask 041F"
 msgid "Tell me his plans. "
-msgstr ""
+msgstr "告訴我他的打算。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I think he means you are stupid. "
 msgctxt "bark 041F:37FB"
 msgid "And I think you are a dolt! "
-msgstr ""
+msgstr "我看你才是蠢材！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "It is good to have friends. "
 msgctxt "bark 041F:3872"
 msgid "Yes, and Vardion is the best friend to have. "
-msgstr ""
+msgstr "是啊，而瓦爾迪恩是最好的朋友。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "You -are- free of thought. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:390E"
 msgid "Thank you. But you are not very original, {varF8}."
-msgstr ""
+msgstr "謝謝。不過你也沒什麼新意，{varF8}。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Nothing. Don't worry about it. "
 msgctxt "bark 041F:3993"
 msgid "I won't. "
-msgstr ""
+msgstr "我不會在意的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No. Your knowledge is suspect. "
 #. answer compared by the conversation code
 msgctxt "ask 041F"
 msgid "No. Your knowledge is suspect. "
-msgstr ""
+msgstr "不。你的知識很可疑。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No. Your knowledge is suspect. "
 msgctxt "bark 041F:3A16"
 msgid "A suspect of what? "
-msgstr ""
+msgstr "是什麼的嫌疑犯？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No. Your knowledge is suspect. "
 msgctxt "ask 041F"
 msgid "Do you know anything of value? "
-msgstr ""
+msgstr "你知道什麼有價值的事嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No. Your knowledge is suspect. "
 msgctxt "ask 041F"
 msgid "That's it. I've had it. Goodbye! "
-msgstr ""
+msgstr "夠了。我受夠了。再見！"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I meant, here in the Enclave. "
 #. answer compared by the conversation code
 msgctxt "ask 041F"
 msgid "I meant, here in the Enclave. "
-msgstr ""
+msgstr "我是說，在這個聚落裡出生。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "I meant, here in the Enclave. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:3B45"
 msgid "Oh, yes. I was born in this room. {varF8} I don't remember anything about it though. So don't ask."
-msgstr ""
+msgstr "噢，是啊。我就是在這個房間出生的。{varF8}不過那時的事我什麼都不記得了，所以別問。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is he so great? "
 msgctxt "bark 041F:3BF5"
 msgid "Because he is the First Acolyte, and... because he said so. "
-msgstr ""
+msgstr "因為他是第一學徒，而且……因為他自己這麼說。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is he so great? "
 msgctxt "ask 041F"
 msgid "What is a First Acolyte? "
-msgstr ""
+msgstr "第一學徒是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is he so great? "
 msgctxt "ask 041F"
 msgid "Acolyte? What is that? "
-msgstr ""
+msgstr "學徒？那是什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why is he so great? "
 msgctxt "ask 041F"
 msgid "Do you believe everything he says? "
-msgstr ""
+msgstr "他說什麼你都信？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Can you tell me what he knows? "
 msgctxt "bark 041F:3CFB"
 msgid "No! I told you it hurts to even think about it. You must be deaf. "
-msgstr ""
+msgstr "不能！我跟你說了，光想就頭痛。你一定是聾了。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is the Master. "
 msgctxt "bark 041F:3D8E"
 msgid "Master Malchir is the leader of the Sorcerers. "
-msgstr ""
+msgstr "馬爾奇爾大巫師是巫師們的領袖。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is the Master. "
 msgctxt "ask 041F"
 msgid "Tell me about Master Malchir. "
-msgstr ""
+msgstr "說說馬爾奇爾大巫師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Who is the Master. "
 msgctxt "ask 041F"
 msgid "How did Malchir become leader? "
-msgstr ""
+msgstr "馬爾奇爾是怎麼成為領袖的？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "As a matter of fact, yes. "
 msgctxt "bark 041F:3EB3"
 msgid "Well, guard your back well. You would be suprised what might sprout from it, with her as your 'friend'. "
-msgstr ""
+msgstr "那你可要小心你的背後。有她這種「朋友」，你背上長出什麼東西來，可別太驚訝。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "No, of course not. "
 msgctxt "bark 041F:3F5A"
 msgid "Well, you should know that Vardion has some plans concerning her. "
-msgstr ""
+msgstr "那你應該知道，瓦爾迪恩對她另有打算。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Why do you ask? "
 msgctxt "bark 041F:40A0"
 msgid "Because she is a back-stabbing, foul-tempered, mean-spirited wench. And she hates me. I don't know why, but now I hate her too. Again, is she your friend? "
-msgstr ""
+msgstr "因為她是個背後捅刀、脾氣暴躁、心腸惡毒的女人。而且她討厭我。我不知道為什麼，但現在我也討厭她了。我再問一次，她是你的朋友嗎？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Do you know anything of value? "
 msgctxt "bark 041F:41BA"
 msgid "I know that you are beginning to irritate me. And that I don't have to listen to you. Leave me be. "
-msgstr ""
+msgstr "我知道你開始惹我心煩了，也知道我不必聽你的。別來煩我。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me his plans. "
 msgctxt "bark 041F:422E"
 msgid "No, I can't do that. You have to ask him yourself. "
-msgstr ""
+msgstr "不，我不能說。你得自己去問他。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Tell me about Master Malchir. "
 msgctxt "bark 041F:4315"
 msgid "Why should I? You aren't a Sorcerer. And if you want to be one, you should talk to Vardion. I don't have the patience to train you. "
-msgstr ""
+msgstr "我為什麼要說？你又不是巫師。如果你想當巫師，就該去找瓦爾迪恩。我可沒耐心訓練你。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "How did Malchir become leader? "
 msgctxt "bark 041F:44AC"
 msgid "How should I know? He was Master when I started learning to walk. In my first memories, I remember hearing him say that I would be a strong Acolyte one day. This seemed to bring him great pleasure. "
-msgstr ""
+msgstr "我怎麼會知道？我開始學走路時，他就已經是大師了。在我最早的記憶裡，我記得聽到他說我有一天會成為強大的學徒。這似乎讓他非常高興。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What is a First Acolyte? "
 msgctxt "bark 041F:45AD"
 msgid "That is the Sorcerer who runs the Enclave in the Master's absence. Really, that's just about all the time. "
-msgstr ""
+msgstr "就是大師不在時管理聚落的巫師。說真的，大師幾乎一直都不在。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Acolyte? What is that? "
 msgctxt "bark 041F:464E"
 msgid "You're looking at one. "
-msgstr ""
+msgstr "你眼前就是一個。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Acolyte? What is that? "
 msgctxt "ask 041F"
 msgid "What does being an Acolyte entail? "
-msgstr ""
+msgstr "當學徒要做什麼？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "Do you believe everything he says? "
 msgctxt "bark 041F:471D"
 msgid "Yes. He has never lied to me yet. He told me so. "
-msgstr ""
+msgstr "是的。他從來沒騙過我。是他自己告訴我的。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What does being an Acolyte entail? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 041F:47FB"
 msgid "We assist the Master with his rituals, {varF8}. He draws upon our power to replace his when it wanes."
-msgstr ""
+msgstr "我們協助大師舉行儀式，{varF8}。他的力量衰退時，就汲取我們的力量來補充。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What does being an Acolyte entail? "
 msgctxt "ask 041F"
 msgid "What rituals? "
-msgstr ""
+msgstr "什麼儀式？"
 
+# P13 batch 5
 #. event 01 (use (talk)), after "What rituals? "
 msgctxt "bark 041F:48BC"
 msgid "I can't tell you. You are not a Sorcerer. "
-msgstr ""
+msgstr "我不能告訴你。你又不是巫師。"
 
+# P13 batch 5
 #. event 01 (use (talk)), after ""
 msgctxt "bark 041F:49A6"
 msgid "I can't understand you. What did you say? "
-msgstr ""
+msgstr "我聽不懂。你說什麼？"
 
+# P13 batch 5
 #. value of {varF8}: "Dungbreath" | "stranger" | {name}
 #. parameter value inserted into sentence templates
 msgctxt "param 041F:varF8"
 msgid "Dungbreath"
-msgstr ""
+msgstr "臭糞之息"
 
+# P13 batch 5
 #. value of {varF8}: "Dungbreath" | "stranger" | {name}
 #. parameter value inserted into sentence templates
 msgctxt "param 041F:varF8"
 msgid "stranger"
-msgstr ""
+msgstr "陌生人"
 
+# P13 batch 5
 #. value of {varFA}: "Dungbreath" | "stranger" | {name}
 #. parameter value inserted into sentence templates
 msgctxt "param 041F:varFA"
 msgid "Dungbreath"
-msgstr ""
+msgstr "臭糞之息"
 
+# P13 batch 5
 #. value of {varFA}: "Dungbreath" | "stranger" | {name}
 #. parameter value inserted into sentence templates
 msgctxt "param 041F:varFA"
 msgid "stranger"
-msgstr ""
+msgstr "陌生人"
