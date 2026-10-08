@@ -1,6 +1,6 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
-**更新日期：** 2026-10-07（P12 完成後）
+**更新日期：** 2026-10-08（P12 完成後；權威檔審閱、名稱自動加註）
 **目前進度：** Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**下一步：Phase 13（Full Translation Campaign），需等使用者明確指示才開始。**
 
 給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.9，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
@@ -106,7 +106,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike，**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `91c8b8598a` | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`（P8 只有研究，無引擎修改） |
+| `ultima8-zh-tw-dev` | `e674111a51` | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`、名稱加註 `e674111a51`（P8 只有研究，無引擎修改） |
 
 建置目錄（`scummvm-src/` 內，gitignored）：`build-scummvm/`（原版）、`build-trace/`（Usecode trace）、`build-spike/`、**`build-dev/`（開發分支，Debug x64）**。
 
@@ -190,8 +190,8 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 ```
 
 - **權威檔** `localization/zh_TW/authority.tsv`：欄位 category / english / translation / status / count / example / note。status：`keep`（保留英文）、`approved`、`proposed`、`todo`。`check` 依 keep / approved 檢查譯文。
-- 目前：725 詞；**proposed 17**（P12 加 Pagan、Britannia、Guardian：暫保留英文）；P11 的 14（P11 POC：黑酒、Tenebrae 麥酒、颶風酒、靈息酒、魔蹄酒、黑曜石、血、碎骨、泥土、木頭、點燃、爆炸，待使用者確認）；**keep 8**（Devon、Bentic、Mordea、Lithos、Hydros、Tenebrae、Tempest、Lurker）、**approved 6**（Avatar → 聖者、Sea of Rains → 雨之海、Necromancer(s) → 死靈法師、Titan → 泰坦、Mountain King → 山之王），其餘 697 個 todo；分類是自動猜的，需人工確認（例如 Bloodwatch、Firstebb 是時段名稱）。
-- **建議**：正式翻譯前先決定高頻詞（Mordea 124、Lithos 123、Sorcerer 105、Tempest 100、Titans 90、Stratos 84…），並和使用者確認「專有名詞保留英文」的原則是否維持。
+- 目前（2026-10-08）：756 詞，**使用者已翻譯全部譯名**：approved 17、proposed 720、ignore 19（不是專有名詞）。審閱修正：Lithos = 利索斯（潛伏者是 Hydros）、巫師 / 巫術、魔法書用法術全名等。使用者還在找舊版中文手冊，可能再調整。新欄位 `annotate`。
+- 譯名已全部決定（proposed）；正式翻譯時譯文一律用權威檔的中文名稱，不自己加英文（引擎會自動加註）。
 - 翻譯進度：6,841 條（含 ui）、英文約 54 萬字元，已翻約 1.2%（Devon 第一次見面 + 介面 + 讀物 POC + P11 動態句子 POC + P12 Guardian 3 句，共 108 條）。
 
 ---
@@ -217,6 +217,8 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 ### 使用者已做的決定
 
 - 翻譯檔用 PO、英文原文放進 repo（ADR-002）。
+- **專有名詞改用中文**（2026-10-08，使用者翻譯了整份權威檔）：不再保留英文（原本的 keep 已改為中文譯名）。
+- **名稱自動加註**（2026-10-08）：同一次對話中第一次出現的名稱顯示「中文(English)」，之後只顯示中文；書 / 捲軸每次打開重新計算；**對話選項不加註**（使用者決定）；半形括號。由權威檔的 `annotate` 欄決定（空白 = person / place / faction 加註），`po_compile.py` 編成 `term` 條目，設定 `localization_annotate`。
 - 字型 Cubic 11（12px、關閉反鋸齒）。
 - 讀檔後正在顯示的那一句 / 選項以英文顯示：可接受。
 - 含玩家名字的句子：P7 一併處理（已完成）。
@@ -236,7 +238,7 @@ python tools/catalog/po_compile.py zh_TW localization/zh_TW -o private_test/extr
 
 規格見 Master Plan §32。技術前提已具備；開始前建議和使用者確認：
 
-1. **權威檔**（§49 #26、#28）：使用者正在找舊版中文手冊；高頻詞（Mordea、Lithos、Sorcerer、Tempest、Titans、Stratos…）的譯名，以及「專有名詞保留英文」的原則是否維持。
+1. **權威檔**：譯名已由使用者翻譯並審閱（2026-10-08）；使用者找到舊版中文手冊後可能再調整，調整後重跑 `check` 找出要一起改的譯文。
 2. **翻譯方式與順序**：例如依地區 / 劇情進度（Tenebrae → …）、先台詞與選項、書最後（書約 11.7 萬字元）；誰翻、如何審稿；POC 譯文（`# P11 POC`、`# P12 POC`）是否保留。
 3. 每批翻譯後：`u8catalog.py check`、`po_compile.py`、`measure.py`（頁數，§49 #27）、遊戲內抽查。
 
