@@ -977,120 +977,140 @@ msgctxt "bark 0401:3635"
 msgid "Bzzzzt! Thank you for playing!"
 msgstr ""
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3BF5"
 msgid "I -really- do appreciate your plight, Avatar. "
-msgstr ""
+msgstr "我可是「真心」體諒你的處境啊，聖者。"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3C50"
 msgid "Ah, Avatar, the thrill of conquest is so... invigorating. "
-msgstr ""
+msgstr "啊，聖者，征服的快感真是……令人精神百倍。"
 
-#. event 15 (guardianBark)
 # P12 POC: Guardian taunt with speech (E666.FLX)
+#. event 15 (guardianBark)
 msgctxt "bark 0401:3C96"
 msgid "Enjoying your stay on Pagan, Avatar? "
 msgstr "在佩根過得還愉快嗎，聖者？"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3CEB"
 msgid "Hark! Is that the sweet song of lamentation I hear? "
-msgstr ""
+msgstr "聽！我聽見的是哀嘆的美妙歌聲嗎？"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3D30"
 msgid "I do so enjoy the cries of torment. "
-msgstr ""
+msgstr "我真是愛極了痛苦的哀號。"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3D6F"
 msgid "Yes, Avatar, seek a way home. "
-msgstr ""
+msgstr "是啊，聖者，去找回家的路吧。"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3DB7"
 msgid "There is no escape from -this- prison! "
-msgstr ""
+msgstr "「這座」牢籠，你是逃不出去的！"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3E2E"
 msgid "Hurry, Avatar. After all, you have only -all- -of- -eternity- to complete your tasks. "
-msgstr ""
+msgstr "快點啊，聖者。畢竟你只有「整個永恆」可以完成你的任務。"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3E70"
 msgid "Nystul sends his best, Avatar... "
-msgstr ""
+msgstr "尼斯圖向你問好呢，聖者……"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3EBD"
 msgid "You should hear the pleas for help, Avatar. "
-msgstr ""
+msgstr "你真該聽聽那些求救的哀求聲，聖者。"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3F04"
 msgid "At this very moment, Britannia burns. "
-msgstr ""
+msgstr "就在此刻，不列顛尼亞正在燃燒。"
 
-#. event 15 (guardianBark)
 # P12 POC: Guardian taunt with speech (E666.FLX)
+#. event 15 (guardianBark)
 msgctxt "bark 0401:3F7C"
 msgid "One world lies in ruin, nothing more than a charred shell. The other will soon follow. "
 msgstr "一個世界已成廢墟，只剩焦黑的空殼。另一個也將步上後塵。"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:3FBF"
 msgid "Perhaps I should destroy you now. "
-msgstr ""
+msgstr "也許我該現在就毀了你。"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:400D"
 msgid "Care you no more for your own world, Avatar? "
-msgstr ""
+msgstr "你不再關心你自己的世界了嗎，聖者？"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:4057"
 msgid "Will your precious Earth fall so easily? "
-msgstr ""
+msgstr "你珍貴的地球也會這麼輕易淪陷嗎？"
 
-#. event 15 (guardianBark)
 # P12 POC: Guardian taunt with speech (E666.FLX)
+#. event 15 (guardianBark)
 msgctxt "bark 0401:410E"
 msgid "Soon I shall be able to call Britannia mine. It seems, Avatar, that you are missed here. Why, I believe I hear Lord British crying out for you now... "
 msgstr "很快我就能把不列顛尼亞據為己有了。看來，聖者，這裡的人很想念你呢。哎呀，我好像聽見不列顛王正在呼喚你了……"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:417B"
 msgid "Your treasured Britannia succumbs easily. Soon -all- the land will be mine. "
-msgstr ""
+msgstr "你珍愛的不列顛尼亞輕易就屈服了。很快，「整片」大地都將屬於我。"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:41C1"
 msgid "Ouch! -That- must have hurt, Avatar! "
-msgstr ""
+msgstr "哎喲！「那一下」一定很痛吧，聖者！"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:4201"
 msgid "Do not go near -that-, Avatar. "
-msgstr ""
+msgstr "別靠近「那個」，聖者。"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:422E"
 msgid "ha hahahaha "
-msgstr ""
+msgstr "哈哈哈哈哈"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:425B"
 msgid "he he he he "
-msgstr ""
+msgstr "嘿嘿嘿嘿"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:428B"
 msgid "Feel my wrath! "
-msgstr ""
+msgstr "感受我的怒火吧！"
 
+# P13 batch 1
 #. event 15 (guardianBark)
 msgctxt "bark 0401:42D3"
 msgid "Let the darkness come for you, Avatar. "
-msgstr ""
+msgstr "讓黑暗來吞噬你吧，聖者。"

@@ -10,122 +10,146 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:02FB"
 msgid "All right, one more time... "
-msgstr ""
+msgstr "好，再問一次……"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:032C"
 msgid "Where were you last night? "
-msgstr ""
+msgstr "你昨晚在哪裡？"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:0373"
 msgid "Really, I was at home with my poor, sick mother. "
-msgstr ""
+msgstr "真的，我在家陪我可憐的病母親。"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:03B6"
 msgid "Why have you not paid your taxes? "
-msgstr ""
+msgstr "你為什麼沒繳稅？"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:03EE"
 msgid "Please sir, I have no more money. "
-msgstr ""
+msgstr "求求您，大人，我真的沒錢了。"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:0432"
 msgid "I should throw you in the dungeon! "
-msgstr ""
+msgstr "我該把你丟進地牢！"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:046B"
 msgid "But-but who will feed my children? "
-msgstr ""
+msgstr "可、可是誰來養我的孩子？"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:04AB"
 msgid "I know that you were in on it! "
-msgstr ""
+msgstr "我知道你也有份！"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:04E7"
 msgid "Confess, and I shall not torture you! "
-msgstr ""
+msgstr "招供吧，我就不對你用刑！"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:052D"
 msgid "I beg of you, sir! "
-msgstr ""
+msgstr "求求您，大人！"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:0555"
 msgid "Please let me go! "
-msgstr ""
+msgstr "求求您放了我吧！"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:05A9"
 msgid "Right, I shall torture you then! "
-msgstr ""
+msgstr "好，那我就對你用刑！"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:0603"
 msgid "I swear on my mother's grave that I had no part in that. "
-msgstr ""
+msgstr "我以我母親的墳墓發誓，我跟那件事毫無關係。"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:0621"
 msgid "Really? "
-msgstr ""
+msgstr "是嗎？"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:0663"
 msgid "I thought you said your mother was sick...? "
-msgstr ""
+msgstr "你剛才不是說你母親生病了嗎……？"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:0681"
 msgid "Well... "
-msgstr ""
+msgstr "呃……"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:06B5"
 msgid "She...she is sick. Very sick. "
-msgstr ""
+msgstr "她……她是病了。病得很重。"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:06E4"
 msgid "She will be dead soon... "
-msgstr ""
+msgstr "她很快就會死了……"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:073F"
 msgid "Tell me what I need to know! "
-msgstr ""
+msgstr "把我想知道的事說出來！"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:0772"
 msgid "I grow tired of your lies... "
-msgstr ""
+msgstr "我聽膩你的謊話了……"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:07E0"
 msgid "Please, I beg mercy in the name of the Tempest! "
-msgstr ""
+msgstr "求求您，看在風暴使者的分上，饒了我吧！"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:0819"
 msgid "You know Mordea never shows mercy! "
-msgstr ""
+msgstr "你知道莫爾迪亞從不手下留情！"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:0872"
 msgid "She may feed you to the Lurker rather than put you in the dungeon! "
-msgstr ""
+msgstr "她可能不會把你關進地牢，而是直接丟去餵潛伏者！"
 
+# P13 batch 1
 #. event 0F (calledFromAnim)
 msgctxt "bark 04C3:08B0"
 msgid "Please, I beg of you, have mercy on me! "
-msgstr ""
+msgstr "求求您，可憐可憐我吧！"

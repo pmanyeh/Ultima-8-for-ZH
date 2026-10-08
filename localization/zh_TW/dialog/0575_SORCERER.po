@@ -190,6 +190,12 @@ msgid "My name is . And you are? "
 msgstr ""
 
 #. , after "What are you called? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0575"
+msgid "I am {name}."
+msgstr ""
+
+#. , after "What are you called? "
 msgctxt "ask 0575"
 msgid "It does not matter. "
 msgstr ""

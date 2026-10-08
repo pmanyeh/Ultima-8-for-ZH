@@ -179,6 +179,13 @@ def evaluate(rows, events, on_assign=None, params=None, emit=None, catalog=None,
         elif op == 0x6B and stack:                     # string to pointer
             bark_arg = stack.pop(); pending = bool(stack)
         elif op == 0x0E and stack and last_lit is not None:  # one-element list
+            # answers built with the player's name ("I am {name}.") are
+            # sentence templates in the list
+            if emit:
+                for e in stack[-args[1]:]:
+                    if not e.is_literal() and "name" in e.vars():
+                        emit(f"  + option \"{e.template()}\"")
+                        catalog.append(("ask", f"{cls:04X}", e.template(), "template", where))
             stack.pop(); pending = False
             if emit:
                 nxt = rows[i + 1][1] if i + 1 < len(rows) else None
@@ -403,6 +410,56 @@ def site_variants(rows, params, cls, max_states=MAX_STATES_PER_PC, max_variants=
                     locals_t = back_t
                 i, facts = nxt[0]
     return found, limited, returns
+
+
+def param_bark_sites(rows):
+    """{function offset: [calli pc]}: functions that bark one of their
+    parameters (e.g. METHOD 057C:087D barks the text its caller passes)."""
+    out, start = {}, rows[0][0] if rows else 0
+    for i, (pc, op, args, _) in enumerate(rows):
+        if i and rows[i - 1][1] == 0x79:
+            start = pc
+        if op == 0x69 and args[0] < 0x80:       # positive BP offset: a parameter
+            for j in range(i + 1, min(i + 4, len(rows))):
+                r = rows[j]
+                if r[1] == 0x0F and (r[2][1] | (r[2][2] << 8)) == BARK:
+                    out.setdefault(start, []).append(r[0])
+                    break
+    return out
+
+
+def passed_strings(rows, events):
+    """[(class, function offset, text, note)]: string literals passed to a
+    spawned or called usecode function (push_str + string-to-pointer)."""
+    out, last, where = [], None, ""
+    for i, (pc, op, args, s) in enumerate(rows):
+        if pc in events:
+            ev = events[pc]
+            where = f"event {ev:02X} ({EVENT_NAMES.get(ev, '?')})"
+        if op == 0x0D and i + 1 < len(rows) and rows[i + 1][1] == 0x6B:
+            last = lit(s)
+        elif op in (0x57, 0x11):                 # spawn / call
+            c, o = struct.unpack_from("<HH", args, 2 if op == 0x57 else 0)
+            if last is not None:
+                out.append((c, o, last, where))
+            last = None
+        elif op == 0x0F and ((args[1] | (args[2] << 8)) in (BARK, ASK) or
+                             (args[1] | (args[2] << 8)) in READERS):
+            last = None
+    return out
+
+
+def class_rows(cls, data, ents):
+    cd = u8dis.obj(data, ents, cls + 2)
+    if len(cd) < 0x8C:
+        return [], {}
+    rows = list(u8dis.disasm(cd[0x0C:]))
+    events = {}
+    for e in range(32):
+        off = struct.unpack_from("<I", cd, 12 + 4 * e)[0]
+        if off:
+            events[off] = e
+    return rows, events
 
 
 def part_match(tmpl, text):

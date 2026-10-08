@@ -463,6 +463,12 @@ msgid "I am Aramina, my friend. I work here in the palace for Devon. You're {nam
 msgstr ""
 
 #. event 01 (use (talk)), after "What is your name? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 040D"
+msgid "Yes, I am {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
 msgctxt "bark 040D:2FFB"
 msgid "Yes, I knew it was you. Did you really save him?"
 msgstr ""

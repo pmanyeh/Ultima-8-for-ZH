@@ -217,6 +217,12 @@ msgid "Certainly, I am Salkind. And who might we be? "
 msgstr ""
 
 #. event 01 (use (talk)), after "May I ask your name? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0403"
+msgid "I am {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "May I ask your name? "
 msgctxt "ask 0403"
 msgid "."
 msgstr ""
@@ -247,8 +253,20 @@ msgid "Et en quoi puis-je t'estre utile aujourd'hui, hmmmm?"
 msgstr ""
 
 #. event 01 (use (talk)), after "."
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0403"
+msgid "Je suis {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "."
 msgctxt "bark 0403:157C"
 msgid "Ah, wirklich ein schöner Name, den wir da haben. Und? Was gibt es noch zu fragen?"
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0403"
+msgid "Ich heiße {name}."
 msgstr ""
 
 #. event 01 (use (talk)), after "What do you do? "

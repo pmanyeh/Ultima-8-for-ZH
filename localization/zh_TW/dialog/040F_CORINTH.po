@@ -198,6 +198,12 @@ msgid "Apology accepted, sir. I hope that I was not too terse in my response. We
 msgstr ""
 
 #. event 01 (use (talk)), after "I apologize, m'lady. "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 040F"
+msgid "I'm called {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "I apologize, m'lady. "
 msgctxt "ask 040F"
 msgid "I would rather not say. "
 msgstr ""

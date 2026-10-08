@@ -317,6 +317,12 @@ msgid "I am known as Arcadion. And who might you be? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Who are you? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0439"
+msgid "I am {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
 msgctxt "ask 0439"
 msgid "It is not your concern. "
 msgstr ""

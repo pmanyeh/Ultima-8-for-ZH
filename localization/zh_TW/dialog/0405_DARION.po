@@ -414,6 +414,12 @@ msgid "Who are the Palace Guards? "
 msgstr ""
 
 #. event 01 (use (talk)), after "May I know your name? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0405"
+msgid "I am {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "May I know your name? "
 msgctxt "ask 0405"
 msgid "."
 msgstr ""
@@ -442,8 +448,20 @@ msgstr ""
 
 #. event 01 (use (talk)), after "."
 #. sentence template: keep the {placeholders}
+msgctxt "ask 0405"
+msgid "Ich heiße {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+#. sentence template: keep the {placeholders}
 msgctxt "bark 0405:2473"
 msgid "Enchanté, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0405"
+msgid "Je suis {name}."
 msgstr ""
 
 #. event 01 (use (talk)), after "Good morrow, Captain Darion. " or "Yes, just terrible, Captain Darion. "

@@ -146,6 +146,13 @@ msgstr "你是什麼人，竟敢跟風暴使者說話？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "Yes, I am. "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0407"
+msgid "I am {name}."
+msgstr "我是{name}。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "Yes, I am. "
 msgctxt "ask 0407"
 msgid "Tell me of the Tempestry. "
 msgstr "請告訴我風暴術的事。"

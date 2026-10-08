@@ -577,6 +577,12 @@ msgid "You may ask indeed, stranger. I am Mythran. By what name do you go, young
 msgstr ""
 
 #. event 01 (use (talk)), after "May I ask your name? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0421"
+msgid "I am called {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "May I ask your name? "
 msgctxt "ask 0421"
 msgid "I do not wish to say."
 msgstr ""

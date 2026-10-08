@@ -183,6 +183,12 @@ msgid "Well, what can I do for ye today, stranger? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Hello "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0410"
+msgid "I am {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello "
 msgctxt "ask 0410"
 msgid "Well, what can I do for ye today, stranger? "
 msgstr ""

@@ -20,12 +20,12 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 ## Translation progress
 
 <!-- progress:start -->
-**Overall (by English characters): `██░░░░░░░░░░░░░░░░░░` 8.8%** (668 / 6,841 entries, updated 2026-10-08)
+**Overall (by English characters): `██░░░░░░░░░░░░░░░░░░` 9.1%** (732 / 6,944 entries, updated 2026-10-08)
 
 | Kind | Translated / total (entries) | English characters | Progress |
 |---|---|---|---|
-| Lines and item names | 457 / 4,761 | 374,230 | 11.6% |
-| Conversation answers | 180 / 1,775 | 35,238 | 9.5% |
+| Lines and item names | 517 / 4,828 | 375,387 | 12.1% |
+| Conversation answers | 184 / 1,811 | 35,841 | 9.5% |
 | Books | 1 / 87 | 116,622 | 0.2% |
 | Scrolls | 1 / 22 | 7,864 | 1.0% |
 | Gravestones | 2 / 67 | 2,609 | 1.1% |
@@ -33,7 +33,7 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 | Sentence pieces | 13 / 54 | 505 | 23.8% |
 | Interface | 12 / 12 | 152 | 100.0% |
 
-Characters and scenes done: Obsidian coins, Devon, Execution scene, Gate guard, Mordea, Rhian, Shaana, Tarna, Toran
+Characters and scenes done: Basket, Obsidian coins, Devon, Execution scene, Fight, Food, Gate guard, Mordea, Morefish, Rhian, Shaana, Tarna, Toran, Winchns
 <!-- progress:end -->
 
 The translation follows the story: the first batch is the opening (Devon → the execution on the docks of Tenebrae). Names and terms are kept consistent in the [authority file](localization/zh_TW/authority.tsv).

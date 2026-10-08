@@ -26,6 +26,11 @@ msgctxt "bark 0595:0239"
 msgid "Your silence is understood, but fear not, I intend you no harm.*What might you be called, my friend? "
 msgstr ""
 
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0595"
+msgid "I am {name}."
+msgstr ""
+
 msgctxt "ask 0595"
 msgid "You are not my friend, lady. "
 msgstr ""

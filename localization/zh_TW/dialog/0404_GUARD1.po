@@ -66,6 +66,13 @@ msgstr "再見"
 
 # P13 batch 1
 #. event 01 (use (talk))
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0404"
+msgid "I am {name}."
+msgstr "我是{name}。"
+
+# P13 batch 1
+#. event 01 (use (talk))
 msgctxt "ask 0404"
 msgid "What is your name? "
 msgstr "你叫什麼名字？"

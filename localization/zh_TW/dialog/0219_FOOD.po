@@ -10,27 +10,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0219:00AB"
 msgid "fish "
-msgstr ""
+msgstr "魚"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0219:00D8"
 msgid "cooked fish "
-msgstr ""
+msgstr "烤魚"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0219:0104"
 msgid "Torax ribs "
-msgstr ""
+msgstr "托拉克斯肋排"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0219:0137"
 msgid "cooked Torax ribs "
-msgstr ""
+msgstr "烤托拉克斯肋排"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0219:0166"
 msgid "Mmmm... "
-msgstr ""
+msgstr "嗯……好吃。"

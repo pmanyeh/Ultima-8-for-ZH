@@ -456,6 +456,12 @@ msgid "Me name's Orlok. And what might be yours, friend? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What is your name? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 040A"
+msgid "My name is {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
 msgctxt "ask 040A"
 msgid "I can't give you my name. "
 msgstr ""

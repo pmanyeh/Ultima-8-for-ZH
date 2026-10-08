@@ -242,6 +242,12 @@ msgid "Oh, I'm very bad with names. What was yours again? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Hello, Torwin. "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 041A"
+msgid "My name is {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Hello, Torwin. "
 msgctxt "ask 041A"
 msgid "You don't need to know. "
 msgstr ""
@@ -269,6 +275,12 @@ msgstr ""
 #. event 01 (use (talk)), after "I don't believe we have met. "
 msgctxt "bark 041A:1B75"
 msgid "My name is Torwin. And yours? "
+msgstr ""
+
+#. event 01 (use (talk)), after "I don't believe we have met. "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 041A"
+msgid "I am {name}."
 msgstr ""
 
 #. event 01 (use (talk)), after "You don't need to know. "

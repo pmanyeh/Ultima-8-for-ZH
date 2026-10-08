@@ -455,6 +455,13 @@ msgstr "現在回答我的問題！"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "What just happened here? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0408"
+msgid "I go by {name}."
+msgstr "我叫{name}。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "What just happened here? "
 msgctxt "ask 0408"
 msgid "I do not remember. "
 msgstr "我不記得了。"

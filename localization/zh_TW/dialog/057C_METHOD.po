@@ -54,3 +54,344 @@ msgstr ""
 msgctxt "bark 057C:0FAF"
 msgid "Is someone there...? "
 msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Vardion!"
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Bane!"
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "No, of course not Master. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Well, just a little. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Hmmm? What do you mean? "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Nothing Gorgrond. Just be quiet. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Yes, Master. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Vardion..."
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Bane..."
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Provide the -Acolyte- with a candle. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "I told him... "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Do it. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Thank you, First Acolyte. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "You are most gracious, Master. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Resume your position. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Fool! I will do it myself. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "I said kneel, Acolyte! "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Acolytes... you are dismissed. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Except for you. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Yes, you. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Wait, I'm going... "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Yes, you are. "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "If I could just ask... "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "I said begone! "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Master, I must speak with you... "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "No, you musn't. Begone! "
+msgstr ""
+
+#. said for PYROS (006D), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Farewell, Acolyte. "
+msgstr ""
+
+#. said for PENT (007C), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "Something's wrong. "
+msgstr ""
+
+#. said for PENT (007C), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "I've come for you, Sorcerer! "
+msgstr ""
+
+#. said for BOTTLE (00B4), event 01 (use (talk))
+msgctxt "bark 057C:088A"
+msgid "hic... "
+msgstr ""
+
+#. said for AVATAR (0401), event 00 (look)
+msgctxt "bark 057C:088A"
+msgid "Choose the Guardian speech. (0 exits)"
+msgstr ""
+
+#. said for AVATAR (0401), event 00 (look)
+msgctxt "bark 057C:088A"
+msgid "Select spell caster. "
+msgstr ""
+
+# P13 batch 1
+#. said for EXCUTION (0483), event 07 (hatch)
+msgctxt "bark 057C:088A"
+msgid "No!!!!  "
+msgstr "不！！！！"
+
+# P13 batch 1
+#. said for EXCUTION (0483), event 07 (hatch)
+msgctxt "bark 057C:088A"
+msgid "Back, woman! "
+msgstr "退後，女人！"
+
+# P13 batch 1
+#. said for EXCUTION (0483), event 07 (hatch)
+msgctxt "bark 057C:088A"
+msgid "No... "
+msgstr "不……"
+
+# P13 batch 1
+#. said for LOGBOOK2 (0580)
+msgctxt "bark 057C:088A"
+msgid "Oh, no! "
+msgstr "噢，不！"
+
+# P13 batch 1
+#. said for LOGBOOK2 (0580)
+msgctxt "bark 057C:088A"
+msgid "...One execution at a time. "
+msgstr "……處決一個一個來。"
+
+# P13 batch 1
+#. said for LOGBOOK2 (0580)
+msgctxt "bark 057C:088A"
+msgid "Very well. Carry on with the execution! "
+msgstr "很好。繼續行刑！"
+
+#. said for FREE (0581)
+msgctxt "bark 057C:088A"
+msgid "An Flam Ort!"
+msgstr ""
+
+#. said for ETHRSPEL (0585)
+msgctxt "bark 057C:088A"
+msgid "In Quas Wis!"
+msgstr ""
+
+#. said for ETHRSPEL (0585)
+msgctxt "bark 057C:088A"
+msgid "Kal Des Flam Ylem!"
+msgstr ""
+
+#. said for ETHRSPEL (0585)
+msgctxt "bark 057C:088A"
+msgid "Kal Xen!"
+msgstr ""
+
+#. said for ETHRSPEL (0585)
+msgctxt "bark 057C:088A"
+msgid "Who shall I destroy, Master? "
+msgstr ""
+
+#. said for ETHRSPEL (0585)
+msgctxt "bark 057C:088A"
+msgid "Yes, Master? "
+msgstr ""
+
+#. said for ETHRSPEL (0585)
+msgctxt "bark 057C:088A"
+msgid "You will be my victim! "
+msgstr ""
+
+#. said for ETHRSPEL (0585)
+msgctxt "bark 057C:088A"
+msgid "Kal Vas Grav Corp!"
+msgstr ""
+
+#. said for ETHRSPEL (0585)
+msgctxt "bark 057C:088A"
+msgid "Ort Grav Por!"
+msgstr ""
+
+#. said for ETHRSPEL (0585)
+msgctxt "bark 057C:088A"
+msgid "In Vas Ort Corp!"
+msgstr ""
+
+#. said for ETHRSPEL (0585)
+msgctxt "bark 057C:088A"
+msgid "What have I done? "
+msgstr ""
+
+#. said for ERTHSPEL (0586)
+msgctxt "bark 057C:088A"
+msgid "Kal Corp Xen!"
+msgstr ""
+
+#. said for DAEMSCEN (058A)
+msgctxt "bark 057C:088A"
+msgid "AAAAAAAAUUUUUUUUGH! "
+msgstr ""
+
+#. said for DAEMSCEN (058A)
+msgctxt "bark 057C:088A"
+msgid "Aaaaauuuuuuugh! "
+msgstr ""
+
+#. said for DAEMSCEN (058A)
+msgctxt "bark 057C:088A"
+msgid "In Flam!"
+msgstr ""
+
+#. said for DAEMSCEN (058A)
+msgctxt "bark 057C:088A"
+msgid "Kal Flam Bal Zen!"
+msgstr ""
+
+#. said for DAEMSCEN (058A)
+msgctxt "bark 057C:088A"
+msgid "An Flam!"
+msgstr ""
+
+#. said for CALGUARD (058B)
+msgctxt "bark 057C:088A"
+msgid "No, wait... I can explain! "
+msgstr ""
+
+#. said for CALGUARD (058B)
+msgctxt "bark 057C:088A"
+msgid "This one? "
+msgstr ""
+
+#. said for ? (0596)
+msgctxt "bark 057C:088A"
+msgid "In Wis"
+msgstr ""
+
+#. said for ? (0596)
+msgctxt "bark 057C:088A"
+msgid "In Mani"
+msgstr ""
+
+#. said for ? (0596)
+msgctxt "bark 057C:088A"
+msgid "Kal Ort Xen"
+msgstr ""
+
+#. said for ? (0596)
+msgctxt "bark 057C:088A"
+msgid "Vas In Mani"
+msgstr ""
+
+#. said for ? (0596)
+msgctxt "bark 057C:088A"
+msgid "Quas An Lor"
+msgstr ""
+
+#. said for ? (0596)
+msgctxt "bark 057C:088A"
+msgid "An Vas Hur Por"
+msgstr ""
+
+#. said for ? (0596)
+msgctxt "bark 057C:088A"
+msgid "Vas Hur Por"
+msgstr ""
+
+#. said for ? (0596)
+msgctxt "bark 057C:088A"
+msgid "An Quas Lor"
+msgstr ""
+
+#. said for ? (0596)
+msgctxt "bark 057C:088A"
+msgid "In Sanct An Jux"
+msgstr ""
+
+#. said for ? (0596)
+msgctxt "bark 057C:088A"
+msgid "Ort Lor"
+msgstr ""

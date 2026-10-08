@@ -96,6 +96,12 @@ msgid "Greetings stranger. I am called Beren, and you? "
 msgstr ""
 
 #. event 01 (use (talk))
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0420"
+msgid "My name is {name}."
+msgstr ""
+
+#. event 01 (use (talk))
 msgctxt "ask 0420"
 msgid "I cannot tell you. "
 msgstr ""
@@ -735,6 +741,12 @@ msgid "My name is Beren. And yours is? "
 msgstr ""
 
 #. event 01 (use (talk)), after "Who are you? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0420"
+msgid "I am called {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Who are you? "
 msgctxt "ask 0420"
 msgid "Nevermind that. What do you do? "
 msgstr ""
@@ -784,6 +796,12 @@ msgstr ""
 #. event 01 (use (talk)), after "How are you? "
 msgctxt "bark 0420:3F95"
 msgid "For what reason do you refuse to tell me your name? "
+msgstr ""
+
+#. event 01 (use (talk)), after "How are you? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0420"
+msgid "No reason. I am {name}."
 msgstr ""
 
 #. event 01 (use (talk)), after "How are you? "

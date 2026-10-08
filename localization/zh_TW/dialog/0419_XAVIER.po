@@ -383,6 +383,12 @@ msgid "Healing? "
 msgstr ""
 
 #. event 01 (use (talk)), after "And a fair day to you. "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0419"
+msgid "My name is {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "And a fair day to you. "
 msgctxt "ask 0419"
 msgid "."
 msgstr ""
@@ -401,8 +407,20 @@ msgstr ""
 
 #. event 01 (use (talk)), after "."
 #. sentence template: keep the {placeholders}
+msgctxt "ask 0419"
+msgid "Je m'appelle {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+#. sentence template: keep the {placeholders}
 msgctxt "bark 0419:2318"
 msgid "Freut mich, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "."
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0419"
+msgid "Ich heiße {name}."
 msgstr ""
 
 #. event 01 (use (talk)), after "Hello, Brother Xavier. "

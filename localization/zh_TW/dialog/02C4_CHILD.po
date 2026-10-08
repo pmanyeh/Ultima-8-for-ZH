@@ -66,6 +66,12 @@ msgid "What is your name? "
 msgstr ""
 
 #. event 01 (use (talk))
+#. sentence template: keep the {placeholders}
+msgctxt "ask 02C4"
+msgid "I am {name}."
+msgstr ""
+
+#. event 01 (use (talk))
 msgctxt "ask 02C4"
 msgid "I am the Avatar! "
 msgstr ""

@@ -145,6 +145,25 @@ def extract_all(classes=None):
             items.append((ctx, text, notes))
         if items:
             out[cls] = (name, items)
+
+    # text a class passes to a function of another class that barks it
+    # (e.g. EXCUTION -> METHOD 057C:087D): an entry of the barking class
+    sites = {}
+    for caller in range(len(ents) - 2):
+        rows, events = u8extract.class_rows(caller, data, ents)
+        for target, off, text, note in u8extract.passed_strings(rows, events):
+            if classes is not None and target not in classes:
+                continue
+            if target not in sites:
+                trows, _ = u8extract.class_rows(target, data, ents)
+                sites[target] = u8extract.param_bark_sites(trows) if trows else {}
+            for pc in sites[target].get(off, []):
+                name, items = out.setdefault(target, (names.get(target, "?"), []))
+                ctx = f"bark {target:04X}:{pc:04X}"
+                if any(i[0] == ctx and i[1] == text for i in items):
+                    continue
+                items.append((ctx, text, [f"said for {names.get(caller, '?')} ({caller:04X})" +
+                                          (f", {note}" if note else "")]))
     return out
 
 
@@ -485,7 +504,7 @@ def cmd_check(a):
                 errors.append(f"{where}: stale: {ctx} {e.msgid[:50]!r} is not in the game text")
             if not e.msgstr:
                 continue
-            if ctx.startswith("bark ") and "{" in e.msgid + e.msgstr:
+            if ctx.startswith(("bark ", "ask ")) and "{" in e.msgid + e.msgstr:
                 err = placeholder_error(e.msgid, e.msgstr)
                 if err:
                     errors.append(f"{where}: {err}")

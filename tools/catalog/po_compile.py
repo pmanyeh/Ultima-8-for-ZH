@@ -302,7 +302,7 @@ def collect(lang, inputs):
             if e.msgstr == "":
                 stats["untranslated"] += 1
                 continue
-            if ctx.startswith("bark ") and "{" in e.msgid + e.msgstr:
+            if ctx.startswith(("bark ", "ask ")) and "{" in e.msgid + e.msgstr:
                 err = placeholder_error(e.msgid, e.msgstr)
                 if err:
                     errors.append(f"{e.where()}: {err}")

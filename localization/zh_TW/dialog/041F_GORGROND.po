@@ -113,6 +113,12 @@ msgid "Alright, then leave! "
 msgstr ""
 
 #. event 01 (use (talk)), after "It's none of your business. "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 041F"
+msgid "I am called {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "It's none of your business. "
 msgctxt "ask 041F"
 msgid "You would not understand. "
 msgstr ""
@@ -162,6 +168,12 @@ msgid "Well, what do I call you if I don't know your name? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What does it matter? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 041F"
+msgid "Good question. I am {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "What does it matter? "
 msgctxt "ask 041F"
 msgid "You may call me Sir. "
 msgstr ""
@@ -181,6 +193,12 @@ msgstr ""
 #. event 01 (use (talk)), after "That's your problem. "
 msgctxt "bark 041F:0B4B"
 msgid "Fine then, I'll call you Dungbreath. Will that do? "
+msgstr ""
+
+#. event 01 (use (talk)), after "That's your problem. "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 041F"
+msgid "No, please call me {name}."
 msgstr ""
 
 #. event 01 (use (talk)), after "That's your problem. "
@@ -208,6 +226,12 @@ msgstr ""
 #. event 01 (use (talk)), after "No, I won't abide that. "
 msgctxt "bark 041F:0CD8"
 msgid "Well, it's too bad you couldn't give me your name, Dungbreath. "
+msgstr ""
+
+#. event 01 (use (talk)), after "No, I won't abide that. "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 041F"
+msgid "I will! It's {name}."
 msgstr ""
 
 #. event 01 (use (talk)), after "No, I won't abide that. "
@@ -625,6 +649,12 @@ msgid "Tell me your name, and I won't. "
 msgstr ""
 
 #. event 01 (use (talk)), after "Don't call me Dungbreath. "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 041F"
+msgid "I am called, {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "Don't call me Dungbreath. "
 msgctxt "ask 041F"
 msgid "I will not tell you. "
 msgstr ""
@@ -643,6 +673,12 @@ msgstr ""
 #. event 01 (use (talk)), after "Why must you know? "
 msgctxt "bark 041F:2A37"
 msgid "I don't, I just will continue to call you Dungbreath until I know a name to call you. "
+msgstr ""
+
+#. event 01 (use (talk)), after "Why must you know? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 041F"
+msgid "Fine then, call me, {name}."
 msgstr ""
 
 #. event 01 (use (talk)), after "Why must you know? "

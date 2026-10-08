@@ -683,6 +683,13 @@ msgstr "我叫芮安，你呢？"
 
 # P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0412"
+msgid "I am {name}."
+msgstr "我是{name}。"
+
+# P13 batch 1
+#. event 01 (use (talk)), after "What is your name? "
 msgctxt "ask 0412"
 msgid "None of your business. "
 msgstr "不關你的事。"

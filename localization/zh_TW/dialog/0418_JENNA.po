@@ -515,6 +515,12 @@ msgid "My name is Jenna, and yours? "
 msgstr ""
 
 #. event 01 (use (talk)), after "What is your name? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 0418"
+msgid "My name is {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
 msgctxt "ask 0418"
 msgid "Why do you carry a sword? "
 msgstr ""

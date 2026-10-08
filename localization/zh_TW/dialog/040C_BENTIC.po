@@ -114,6 +114,12 @@ msgid "My name is Bentic. It is a word of Pagan derivation. I think it originall
 msgstr ""
 
 #. event 01 (use (talk)), after "What is your name? "
+#. sentence template: keep the {placeholders}
+msgctxt "ask 040C"
+msgid "My name is {name}."
+msgstr ""
+
+#. event 01 (use (talk)), after "What is your name? "
 msgctxt "ask 040C"
 msgid "What is 'Pagan'? "
 msgstr ""

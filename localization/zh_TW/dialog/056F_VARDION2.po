@@ -14,6 +14,11 @@ msgctxt "bark 056F:00AB"
 msgid "Who are you? "
 msgstr ""
 
+#. sentence template: keep the {placeholders}
+msgctxt "ask 056F"
+msgid "I am {name}."
+msgstr ""
+
 msgctxt "ask 056F"
 msgid "It is my business, not yours. "
 msgstr ""
