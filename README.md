@@ -70,7 +70,7 @@
 ## 你需要準備
 
 - **合法的 Ultima VIII 遊戲資料**（例如 GOG 版 Ultima VIII Gold Edition，英文版）。本 repo **不包含**任何遊戲資料檔、音樂、語音或存檔。
-- 修改過的 ScummVM：引擎的修改目前在本機的 ScummVM 分支上開發，**尚未公開**；之後會以 ScummVM fork 的形式發布，屆時會補上建置與安裝說明。
+- 修改過的 ScummVM：引擎的修改在 [pmanyeh/scummvm 的 `ultima8-zh-tw-dev` 分支](https://github.com/pmanyeh/scummvm/tree/ultima8-zh-tw-dev)（GPL，原始碼公開）。目前需要自行建置；之後會提供建置好的專用版與安裝說明。
 
 ## 參與翻譯
 

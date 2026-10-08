@@ -70,7 +70,7 @@ game (usecode) ── English strings ──▶ dialogue, comparisons, speech, s
 ## What you need
 
 - **Your own legal copy of Ultima VIII** (e.g. the GOG *Ultima VIII Gold Edition*, English). This repository contains **no** game data files, music, speech or savegames.
-- The modified ScummVM: the engine changes are developed on a local ScummVM branch and are **not public yet**; they will be published as a ScummVM fork, together with build and installation instructions.
+- The modified ScummVM: the engine changes are on the [`ultima8-zh-tw-dev` branch of pmanyeh/scummvm](https://github.com/pmanyeh/scummvm/tree/ultima8-zh-tw-dev) (GPL, source available). For now you have to build it yourself; ready-made builds and installation instructions will follow.
 
 ## Contributing translations
 

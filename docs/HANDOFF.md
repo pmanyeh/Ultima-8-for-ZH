@@ -13,7 +13,7 @@
 |---|---|
 | **一律用正體中文回覆** | 程式碼、檔名、ID 可維持原樣。報告與文件沿用「繁中 + 英文術語」風格 |
 | **Phase Gate** | 每個 Phase 做完就 STOP、寫報告（`docs/reports/P<n>-*.md`），**等使用者明確指示才進下一個 Phase**。使用者說「繼續」「開始 Phase N」即為指示 |
-| **push** | 主 repo 已公開於 GitHub：https://github.com/pmanyeh/Ultima-8-for-ZH（2026-10-08 起，使用者要求時才 push）。`scummvm-src` 仍只在本機 commit（尚未建立 ScummVM fork）。README 的翻譯進度用 `tools/catalog/progress.py zh_TW` 更新 |
+| **push** | 主 repo 已公開於 GitHub：https://github.com/pmanyeh/Ultima-8-for-ZH（2026-10-08 起，使用者要求時才 push）。`scummvm-src` 的開發分支推到使用者的 fork：https://github.com/pmanyeh/scummvm（`ultima8-zh-tw-dev`）。**絕不 push 到官方 upstream**：遠端 `upstream` = scummvm/scummvm（push 網址已設成無效），`origin` = 使用者的 fork；也不要從 fork 建立 PR（預設目標是官方）。README 的翻譯進度用 `tools/catalog/progress.py zh_TW` 更新 |
 | **commit** | 每個 Phase 完成時 commit：`scummvm-src`（引擎）與主 repo（報告、工具、翻譯檔）分別 commit |
 | **計劃可依實證調整** | Master Plan 會依實際情形修訂；有落差時更新計劃並在修訂紀錄中說明 |
 | **遊戲內測試由使用者操作** | 使用者偏好自己操作遊戲：給出明確的步驟（啟動檔、主控台指令、要看什麼），測完再由 Agent 讀 log / 存檔驗證。使用者可能同時在用桌面，**不要自行操作遊戲視窗**，除非使用者要求；啟動後立刻關閉的 `startup_check.ps1` 可以用 |
