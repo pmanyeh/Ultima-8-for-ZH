@@ -10,212 +10,253 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0404:00B0"
 msgid "dead guardsman "
-msgstr ""
+msgstr "死去的衛兵"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0404:00D3"
 msgid "guardsman "
-msgstr ""
+msgstr "衛兵"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0404:0175"
 msgid "Guardsman! "
-msgstr ""
+msgstr "衛兵！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0404:01F6"
 msgid "Halt, stranger! "
-msgstr ""
+msgstr "站住，陌生人！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0404:02D0"
 msgid "Blimey, not again... "
-msgstr ""
+msgstr "天哪，又來了……"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0404:02FC"
 msgid "What is it this time? "
-msgstr ""
+msgstr "這次又怎麼啦？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0404:0340"
 msgid "What can I do ya for? "
-msgstr ""
+msgstr "有啥事要俺幫忙？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0404:036F"
 msgid "What! More questions! "
-msgstr ""
+msgstr "啥！還有問題啊！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0404"
 msgid "Bye "
-msgstr ""
+msgstr "再見"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0404"
 msgid "What is your name? "
-msgstr ""
+msgstr "你叫什麼名字？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0404:047E"
 msgid "I have seen many strange things in my time, but I've never seen the likes of ya. "
-msgstr ""
+msgstr "俺這輩子見過不少怪事，可從沒見過像你這樣的傢伙。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0404:04B0"
 msgid "What be yer name, stranger? "
-msgstr ""
+msgstr "你叫啥名字，陌生人？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "bark 0404:0559"
 msgid "Who am I? I'll tell ya who am I! I'm the one who's asking tha questions here! "
-msgstr ""
+msgstr "俺是誰？俺告訴你俺是誰！俺就是在這裡負責問問題的人！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "bark 0404:05B5"
 msgid "Who might ya be? Ain't seen the likes of ya before in this here city. "
-msgstr ""
+msgstr "你又是哪位？在這城裡從沒見過你這號人物。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "ask 0404"
 msgid "I am the Avatar! "
-msgstr ""
+msgstr "我是聖者！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am the Avatar! "
 msgctxt "bark 0404:0671"
 msgid "The Avatar? Blimey, ya say it like ya think yer important or somethin'. "
-msgstr ""
+msgstr "聖者？天哪，聽你說得好像自己是什麼大人物似的。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am the Avatar! "
 msgctxt "bark 0404:06F8"
 msgid "Listen, bloke, if ya don't want to find yerself in the belly of the Lurker yer'll soon change that tone of yers. "
-msgstr ""
+msgstr "聽好了，老兄，要是不想進潛伏者的肚子，你最好趕快改改你那口氣。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The Lurker? "
 #. answer compared by the conversation code
 msgctxt "ask 0404"
 msgid "The Lurker? "
-msgstr ""
+msgstr "潛伏者？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The Lurker? "
 msgctxt "bark 0404:07FA"
 msgid "Say, ya don't know what tha Lurker is? "
-msgstr ""
+msgstr "喂，你連潛伏者是啥都不知道？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The Lurker? "
 msgctxt "bark 0404:0863"
 msgid "Best ya check out what's at the end of the dock, lest ya become fish bait yerself. "
-msgstr ""
+msgstr "你最好去碼頭盡頭瞧瞧，免得自己也變成魚餌。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Best ya check out what's at the end of the dock, lest ya become fish bait yerself. "
 #. answer compared by the conversation code
 msgctxt "ask 0404"
 msgid "Best ya check out what's at the end of the dock, lest ya become fish bait yerself. "
-msgstr ""
+msgstr "你最好去碼頭盡頭瞧瞧，免得自己也變成魚餌。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Best ya check out what's at the end of the dock, lest ya become fish bait yerself. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0404:08D1"
 msgid "All right, {name}, now I know ya. Now get lost!"
-msgstr ""
+msgstr "好啦，{name}，俺現在認識你了。快滾吧！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Best ya check out what's at the end of the dock, lest ya become fish bait yerself. "
 msgctxt "bark 0404:094D"
 msgid "I don't need Lady Mordea catching me chatting with some pauper. She's not in a right good mood today. "
-msgstr ""
+msgstr "俺可不想讓莫爾迪亞夫人撞見俺跟個窮鬼閒聊。她今天心情可不太好。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Best ya check out what's at the end of the dock, lest ya become fish bait yerself. "
 msgctxt "bark 0404:09FE"
 msgid "Or maybe ya haven't noticed what goin' on at the end of tha dock. I'd advise ya to go see for yerself. "
-msgstr ""
+msgstr "還是說你根本沒注意到碼頭盡頭發生了啥事？俺勸你自己去看看。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is this city? "
 #. answer compared by the conversation code
 msgctxt "ask 0404"
 msgid "What is this city? "
-msgstr ""
+msgstr "這是什麼城市？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is this city? "
 msgctxt "bark 0404:0AAA"
 msgid "What do ya mean, 'What is this city?' "
-msgstr ""
+msgstr "你說啥，「這是什麼城市」？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is this city? "
 msgctxt "bark 0404:0B16"
 msgid "Do ya have brain fever, lad? It's only tha largest pile of bricks in the known world! "
-msgstr ""
+msgstr "你腦子燒壞了嗎，小子？這可是全世界最大的一堆磚頭！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is this city? "
 msgctxt "bark 0404:0B5E"
 msgid "Tenebrae it is! And don't ya go now forgetin' it. "
-msgstr ""
+msgstr "這裡是泰尼伯瑞！可別給俺忘了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is this city? "
 msgctxt "bark 0404:0BEE"
 msgid "If you don't know what this city is, then you ought not be entering its gates. "
-msgstr ""
+msgstr "要是你連這是哪座城都不知道，那你就不該進這道城門。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is this city? "
 msgctxt "bark 0404:0C2D"
 msgid "Everyone knows that it's Tenebrae, dolt! "
-msgstr ""
+msgstr "大家都知道這裡是泰尼伯瑞，笨蛋！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Open the gate! "
 #. answer compared by the conversation code
 msgctxt "ask 0404"
 msgid "Open the gate! "
-msgstr ""
+msgstr "開門！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Open the gate! "
 msgctxt "bark 0404:0CFF"
 msgid "Look, I've already told ya once, this gate is not gonna open til I see that axe come down on the back of Toran's neck! "
-msgstr ""
+msgstr "聽著，俺已經跟你說過一次了，不親眼看到斧頭砍在托蘭的脖子上，這道門是不會開的！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Open the gate! "
 msgctxt "bark 0404:0D84"
 msgid "Those are me lady's orders, and ya ain't gonna find the likes of me disobeyin' them, less my neck be tha next! "
-msgstr ""
+msgstr "這是夫人的命令，像俺這種人可不敢違抗，除非俺想當下一個掉腦袋的！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Open the gate! "
 msgctxt "bark 0404:0DBB"
 msgid "Bugger off! "
-msgstr ""
+msgstr "滾一邊去！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Open the gate! "
 msgctxt "bark 0404:0DF5"
 msgid "Oh! Ya want me to open this gate? "
-msgstr ""
+msgstr "噢！你要俺開這道門？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Open the gate! "
 msgctxt "bark 0404:0E92"
 msgid "Sure I will! In fact, I'll not only just fling them open for ya, I'll scoop ya up in me lovin' arms and carry ya into the city meself! "
-msgstr ""
+msgstr "當然好啊！事實上，俺不但會幫你把門打開，還會把你捧在俺溫暖的懷裡，親自抱你進城呢！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Open the gate! "
 msgctxt "bark 0404:0EE6"
 msgid "No! I'll -not- be openin' this gate! Not under pain of death! "
-msgstr ""
+msgstr "才不！俺絕對不會開這道門！打死都不開！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Open the gate! "
 msgctxt "bark 0404:0F36"
 msgid "This gate ain't gonna be openin' til after the execution! "
-msgstr ""
+msgstr "處決結束以前，這道門是不會開的！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Open the gate! "
 msgctxt "bark 0404:0F93"
 msgid "Ya can enter the city after they behead poor Toran, but not till then. "
-msgstr ""
+msgstr "等他們砍了可憐的托蘭的頭，你就能進城了，在那之前可不行。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Open the gate! "
 msgctxt "bark 0404:0FD5"
 msgid "Come back later! "
-msgstr ""
+msgstr "晚點再來！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bye "
 msgctxt "bark 0404:1008"
 msgid "Yeah, yeah... "
-msgstr ""
+msgstr "是是是……"

@@ -10,564 +10,672 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0408:009F"
 msgid "Tarna"
-msgstr ""
+msgstr "塔娜"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0408:00BE"
 msgid "guard "
-msgstr ""
+msgstr "衛兵"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0408:02AD"
 msgid "Run, you fool! The Titans have been angered. No one is safe from their wrath. "
-msgstr ""
+msgstr "快逃啊，笨蛋！泰坦們被激怒了。誰都躲不過他們的怒火。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0408:033E"
 msgid "Be off with you. There is no time for conversation when the walking dead march upon the city! "
-msgstr ""
+msgstr "快走開。活死人都要攻進城了，哪有時間聊天！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0408"
 msgid "Goodbye. "
-msgstr ""
+msgstr "再見。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0408:03FE"
 msgid "I told you to move along! Bother me with your questions later. "
-msgstr ""
+msgstr "我叫你走開！有問題晚點再來煩我。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0408"
 msgid "Hello, Tarna. "
-msgstr ""
+msgstr "你好，塔娜。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0408"
 msgid "What is your name? "
-msgstr ""
+msgstr "你叫什麼名字？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0408:04B9"
 msgid "Greetings, {name}."
-msgstr ""
+msgstr "你好，{name}。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0408:04DB"
 msgid "Greetings. "
-msgstr ""
+msgstr "你好。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "bark 0408:05F1"
 msgid "I am Tarna, guardswoman of Tenebrae. Please tell me what it is you wish to know so that I might get on with my business. "
-msgstr ""
+msgstr "我是塔娜，泰尼伯瑞的衛兵。請告訴我你想知道什麼，我好繼續辦我的事。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "ask 0408"
 msgid "Tell me about your job. "
-msgstr ""
+msgstr "說說你的工作。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "ask 0408"
 msgid "Tell me about Tenebrae. "
-msgstr ""
+msgstr "說說泰尼伯瑞。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Hello, Tarna. " or "Hello. "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "Hello. "
-msgstr ""
+msgstr "你好。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Hello, Tarna. " or "Hello. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0408:0764"
 msgid "You are, of course, staying out of trouble I trust, {name}."
-msgstr ""
+msgstr "我相信你當然沒給自己惹麻煩吧，{name}。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Hello, Tarna. " or "Hello. "
 msgctxt "bark 0408:07B1"
 msgid "You are, of course, staying out of trouble I trust. "
-msgstr ""
+msgstr "我相信你當然沒給自己惹麻煩吧。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Hello, Tarna. " or "Hello. "
 msgctxt "bark 0408:07FC"
 msgid "Have you stopped me to chat or for more information? "
-msgstr ""
+msgstr "你攔住我是想聊天，還是想打聽消息？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Hello, Tarna. " or "Hello. "
 msgctxt "ask 0408"
 msgid "Information. "
-msgstr ""
+msgstr "打聽消息。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0408:0889"
 msgid "Waste not my time! If you have need to speak, then do so. "
-msgstr ""
+msgstr "別浪費我的時間！有話要說就快說。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0408:08AD"
 msgid "Be off! "
-msgstr ""
+msgstr "走開！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "A chat. "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "A chat. "
-msgstr ""
+msgstr "聊聊天。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "A chat. "
 msgctxt "bark 0408:0942"
 msgid "I am sorry but I have not the time for such pleasantries. Good day. "
-msgstr ""
+msgstr "抱歉，我沒空閒聊。再會。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Information. "
 msgctxt "bark 0408:0A36"
 msgid "I have no time to talk. Now that the Theurgists have lost their healing powers, the guards are on extra duty to insure no trouble breaks out. "
-msgstr ""
+msgstr "我沒空說話。神術師們失去了治癒的力量，衛兵都得加班執勤，以防出亂子。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Information. "
 msgctxt "bark 0408:0ACD"
 msgid "I am sorry, but with the change in rule, I am too busy dealing with Devon to answer your questions. "
-msgstr ""
+msgstr "抱歉，政權更替之後，我忙著應付戴文的事，沒空回答你的問題。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Information. "
 msgctxt "ask 0408"
 msgid "Who is Orlok? "
-msgstr ""
+msgstr "歐洛克是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Information. "
 msgctxt "bark 0408:0BE1"
 msgid "I am sorry but I have not the time for such pleasantries. Good day. "
-msgstr ""
+msgstr "抱歉，我沒空閒聊。再會。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Information. "
 msgctxt "bark 0408:0CCE"
 msgid "What information would you like? Surely by now you have seen enough of the city to have learned where everything is. Or was the Shattered Skull too busy for Orlok to tell you one of his tales? "
-msgstr ""
+msgstr "你想打聽什麼？你在城裡也待得夠久了，應該早就知道什麼東西在哪裡了吧。還是說碎裂頭骨酒館太忙，歐洛克沒空跟你講他的故事？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is Orlok? "
 msgctxt "bark 0408:0E62"
 msgid "Orlok is the bartender at the tavern. Though his stories are rather long on time and short on truth, they are quite entertaining. And, better yet, he fills his tankards to the top. However, watch how many you have. If you cause too much trouble, you might get thrown out -- if not by Jenna, then by me. "
-msgstr ""
+msgstr "歐洛克是酒館的酒保。他的故事雖然又臭又長、沒幾句是真的，倒是挺有趣的。更棒的是，他倒酒總是倒得滿滿的。不過你得注意自己喝了幾杯。要是惹出太多麻煩，你可能會被轟出去——不是被珍娜，就是被我。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is Orlok? "
 msgctxt "ask 0408"
 msgid "Who is Jenna? "
-msgstr ""
+msgstr "珍娜是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where is the tavern? "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "Where is the tavern? "
-msgstr ""
+msgstr "酒館在哪裡？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where is the tavern? "
 msgctxt "bark 0408:0F60"
 msgid "It is in the Southwest part of town. 'Tis hard to miss, it's such a large building. "
-msgstr ""
+msgstr "在城的西南邊。那棟建築那麼大，很難錯過的。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is Jenna? "
 msgctxt "bark 0408:108C"
 msgid "The barmaid? She is the daughter of the Captain of the Guard. She is feisty -- more like her father than he would care to admit. Judging the likes of you, she would come out the better in a fight. "
-msgstr ""
+msgstr "那個女侍？她是衛兵隊長的女兒。她脾氣很衝——比她父親願意承認的還要像他。照你這副模樣看來，真打起來，贏的會是她。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Tell me about Tenebrae. "
 msgctxt "bark 0408:1202"
 msgid "I suppose that should not be too difficult, since I have lived here my entire life. Some say Tenebrae does not need to be anything more than a bastion of security, since there is no other measure of civilization around, but I disagree. Give me my home and my blade and I'll protect her -- Tenebrae -- with my life. "
-msgstr ""
+msgstr "這應該不難，畢竟我這輩子都住在這裡。有人說，既然周圍沒有其他像樣的文明，泰尼伯瑞只要當個安全的堡壘就夠了，但我不這麼認為。只要給我我的家園和我的劍，我就會用性命守護她——守護泰尼伯瑞。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Tell me about Tenebrae. "
 msgctxt "ask 0408"
 msgid "No other measure? "
-msgstr ""
+msgstr "沒有其他文明？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bastion of security from what? "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "Bastion of security from what? "
-msgstr ""
+msgstr "防禦什麼的堡壘？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bastion of security from what? "
 msgctxt "bark 0408:142F"
 msgid "Well, initially, from the Zealans. That is why the city is divided into three sections. The rulers wanted addition defenses for the palace should the outer walls be breached.  Now, however, the walls are little more than divisions between the decent people and\tthe Necromancers. Not to, ah, imply that you or the Necromancers are -indecent- or any such thing, of course. "
-msgstr ""
+msgstr "嗯，起初是為了防禦澤蘭人。所以這座城才分成三個區域。統治者希望外牆萬一被攻破，宮殿還有額外的防線。不過現在，這些城牆差不多只是把正派人士和死靈法師隔開而已。當然，呃，我可沒有暗示你或死靈法師「不正派」之類的意思。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bastion of security from what? "
 msgctxt "bark 0408:1579"
 msgid "Well, initially, from the Zealans. That is why the city is divided into three sections. The rulers wanted additional defenses for the palace should the outer walls be breached. Now, however, the walls are nothing more than divisions between the classes and boundaries for the weather... and the cemetery. "
-msgstr ""
+msgstr "嗯，起初是為了防禦澤蘭人。所以這座城才分成三個區域。統治者希望外牆萬一被攻破，宮殿還有額外的防線。不過現在，這些城牆只不過是區隔階級、劃分天氣的界線……還有墓地。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Bastion of security from what? "
 msgctxt "ask 0408"
 msgid "What about the cemetery? "
-msgstr ""
+msgstr "墓地怎麼了？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Zealans? "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "Zealans? "
-msgstr ""
+msgstr "澤蘭人？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Zealans? "
 msgctxt "bark 0408:17A8"
 msgid "Indeed, you are a stranger not to know of the despicable Zealans. They are, or -were-, an insane collection of people who were too blind to recognize the power of the Titans. They foolishly and tenaciously held on to an archaic set of beliefs, and when the Titans demonstrated their might and authority, the Zealans refused to acknowledge the truth. "
-msgstr ""
+msgstr "連可鄙的澤蘭人都不知道，你果然是外地人。他們是——或者說曾經是——一群瘋子，盲目到認不清泰坦的力量。他們愚蠢又頑固地死守著一套古老的信仰，當泰坦展現了他們的威能與權柄時，澤蘭人仍拒絕承認事實。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Zealans? "
 msgctxt "ask 0408"
 msgid "Boundary for the weather? "
-msgstr ""
+msgstr "劃分天氣的界線？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Boundary for the weather? "
 msgctxt "bark 0408:19C4"
 msgid "As long as we show proper reverence for The Lady Mordea, she shall bless us with skies of peace and calm. Cross her, however, and she shall call upon the might of Hydros, raining down upon the people a tempest the likes of which have never been felt before. Yet the Lady does not extend her kindness without the city walls, traveler beware. "
-msgstr ""
+msgstr "只要我們對莫爾迪亞夫人保持應有的敬畏，她就會賜給我們風平浪靜的天空。但要是違逆她，她就會召喚海德羅斯的力量，降下一場前所未見的暴風雨給人民。不過夫人的恩惠不會延伸到城牆之外，旅人可要當心。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What about the cemetery? "
 msgctxt "bark 0408:1AF9"
 msgid "'Tis home to more than the dead it is. In accordance with our pact, we bring the lifeless corpses of our friends and brethren to the Necromancers there, and only they and Lithos know what happens after that. "
-msgstr ""
+msgstr "那裡住的可不只是死人。依照我們的契約，我們會把朋友和同胞的遺體送到那裡交給死靈法師，之後會發生什麼事，只有他們和利索斯知道。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What about the cemetery? "
 msgctxt "ask 0408"
 msgid "Tell me about the Necromancers. "
-msgstr ""
+msgstr "說說死靈法師。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What pact? "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "What pact? "
-msgstr ""
+msgstr "什麼契約？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What pact? "
 msgctxt "bark 0408:1CB1"
 msgid "Eons ago, our forebears formed a covenant with Lithos. He would cease his angry rumblings if we agreed to send our dead to him. There, deep in the heart of Pagan, the dead exist solely to serve the Mountain King's very wishes. And sometimes, Lithos has them wander the surface world as well! "
-msgstr ""
+msgstr "很久很久以前，我們的祖先與利索斯立下了盟約。只要我們同意把死者送給他，他就會平息憤怒的震動。在佩根的深處，死者只為了實現山之王的心願而存在。有時候，利索斯還會讓他們在地面上遊蕩！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What pact? "
 msgctxt "ask 0408"
 msgid "Wander up here? "
-msgstr ""
+msgstr "在地面上遊蕩？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Wander up here? "
 msgctxt "bark 0408:1E37"
 msgid "Aye, in the cemetery the undead wander, doing the bidding of the Necromancers, always ready to take the living down to the very depths of the Mountain King's domain. I would avoid the cemetery at all costs, I would.  Keep your business far from there. "
-msgstr ""
+msgstr "沒錯，不死者就在墓地裡遊蕩，聽從死靈法師的差遣，隨時準備把活人拖進山之王領域的最深處。換作是我，無論如何都會避開墓地。別去那裡辦事。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "How do you send the dead? "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "How do you send the dead? "
-msgstr ""
+msgstr "你們怎麼送走死者？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "How do you send the dead? "
 msgctxt "bark 0408:1EFB"
 msgid "How in the blazes do you expect me to know? Burying them does it I suppose.  Why not ask a Necromancer? "
-msgstr ""
+msgstr "我怎麼會知道？大概是把他們埋了就行了吧。你何不去問死靈法師？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Tell me about the Necromancers. "
 msgctxt "bark 0408:208F"
 msgid "I'll tell you what I can. They say Necromancers deal with death. Well, I say that is not true -- Necromancers -are- death as far as I am concerned! I suppose someone must be responsible for maintaining our end of the pact, but how anyone can choose to do so willingly is beyond my comprehension. "
-msgstr ""
+msgstr "我知道多少就說多少。人們說死靈法師是和死亡打交道的人。我倒認為不是這樣——在我看來，死靈法師根本就是死亡本身！我想總得有人負責履行我們這一方的契約，可是怎麼會有人心甘情願做這種事，我實在無法理解。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "No other measure? "
 msgctxt "bark 0408:2140"
 msgid "Well, we've seen neither hide nor hair of another community, save the mages. "
-msgstr ""
+msgstr "嗯，除了那些法師以外，我們從沒見過其他聚落的蹤影。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "No other measure? "
 msgctxt "ask 0408"
 msgid "The mages? "
-msgstr ""
+msgstr "法師？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The mages? "
 msgctxt "bark 0408:21CD"
 msgid "Aye. The healers and the Sorcerers! "
-msgstr ""
+msgstr "沒錯。治療師和巫師！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The mages? "
 msgctxt "ask 0408"
 msgid "What Sorcerers? "
-msgstr ""
+msgstr "什麼巫師？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Describe the healers. "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "Describe the healers. "
-msgstr ""
+msgstr "說說治療師。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Describe the healers. "
 msgctxt "bark 0408:23B7"
 msgid "They call themselves Theurgists -- whatever -that- means. All I know is that they provide a valuable service to us here in the city, so I care not how it is done. I am grateful they do not require that we head to their home, Argentrock Isle, for such help. I consider it only too kind that the healers are willing to travel here. "
-msgstr ""
+msgstr "他們自稱神術師——天曉得那是什麼意思。我只知道他們為城裡提供了寶貴的服務，所以我不在乎他們是怎麼辦到的。我很感激他們不要求我們跑到他們的家鄉白銀之岩島去求助。治療師願意親自來這裡，我覺得真是太好心了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Describe the healers. "
 msgctxt "ask 0408"
 msgid "How do the Theurgists arrive? "
-msgstr ""
+msgstr "神術師是怎麼來的？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "How do the Theurgists arrive? "
 msgctxt "bark 0408:2502"
 msgid "A good question, that one, and one for which I have no answer. Rumor tells of magical devices that permit all the mages to teleport about Pagan, but I have seen no such thing, myself. "
-msgstr ""
+msgstr "問得好，可惜我答不出來。傳聞有一種魔法裝置，能讓法師們在佩根各地傳送，但我自己從沒見過這種東西。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What Sorcerers? "
 msgctxt "bark 0408:268F"
 msgid "Ah, the black ones, followers of the Lord of Flame. The Necromancers may deal with death, but oft times I wonder whether the followers of Pyros are not the true representatives of evil. I do know this: Ask not too many questions of the Town Sorcerer, Beren, for our peace with him is tenuous at best. "
-msgstr ""
+msgstr "啊，那些黑衣人，烈焰之主的信徒。死靈法師或許是和死亡打交道，但我常常懷疑，派羅斯的信徒才是真正的邪惡化身。我只知道一件事：別向城裡的巫師貝倫問太多問題，我們和他之間的和平頂多只是勉強維持。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Tell me about your job. "
 msgctxt "bark 0408:27C8"
 msgid "I see. Very well, 'tis my lot to take care of my fellow Tenebraens, though I suspect that would include you as well, so long as you stay out of trouble. I keep the peace within and the war without, if you know what I mean. "
-msgstr ""
+msgstr "我明白了。好吧，照顧泰尼伯瑞的同胞是我的職責，只要你不惹麻煩，我想你也算在內。我負責維持城內的和平，抵禦城外的戰事，你懂我的意思吧。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Tell me about your job. "
 msgctxt "ask 0408"
 msgid "What about the executions? "
-msgstr ""
+msgstr "那些處決呢？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The war without? "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "The war without? "
-msgstr ""
+msgstr "城外的戰事？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The war without? "
 msgctxt "bark 0408:2998"
 msgid "Well, I suppose that would seem a bit obscure -now-. However, 'twas not that long ago when the Zealans still attempted to scale our walls. Of course, the raids actually ceased nearly a century ago, but defending the city from invaders is still an integral part of a guard's training! "
-msgstr ""
+msgstr "嗯，現在聽起來大概有點難懂吧。不過，不久以前，澤蘭人還想爬上我們的城牆呢。當然，那些襲擊其實在將近一百年前就停止了，但保衛城市、抵禦入侵者，仍然是衛兵訓練中不可或缺的一環！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The war without? "
 msgctxt "ask 0408"
 msgid "What are Zealans? "
-msgstr ""
+msgstr "澤蘭人是什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What about the executions? "
 msgctxt "bark 0408:2B0D"
 msgid "They were part of maintaining order under Mordea's iron grip. I am glad there are fewer under Devon's rule. "
-msgstr ""
+msgstr "在莫爾迪亞的鐵腕統治下，處決是維持秩序的手段之一。我很高興在戴文的統治下，處決變少了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What about the executions? "
 msgctxt "bark 0408:2B87"
 msgid "What about them? They are a necessary part of maintaining order. Nothing more, but nothing less. "
-msgstr ""
+msgstr "處決怎麼了？那是維持秩序必要的手段。不多也不少，就是這樣。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What are Zealans? "
 msgctxt "bark 0408:2D1A"
 msgid "Indeed, you are a stranger not to know of the despicable Zealans. They are, or -were-, an insane collection of people who were too blind to recognize the power of the Titans. They foolishly and tenaciously held on to an archaic set of beliefs, and when the Titans demonstrated their might and authority, the Zealans refused to acknowledge the truth. "
-msgstr ""
+msgstr "連可鄙的澤蘭人都不知道，你果然是外地人。他們是——或者說曾經是——一群瘋子，盲目到認不清泰坦的力量。他們愚蠢又頑固地死守著一套古老的信仰，當泰坦展現了他們的威能與權柄時，澤蘭人仍拒絕承認事實。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "bark 0408:2E68"
 msgid "Halt! I have never seen you before, stranger. Identify yourself and your business in Tenebrae. "
-msgstr ""
+msgstr "站住！我從沒見過你，陌生人。報上你的身分，還有你來泰尼伯瑞做什麼。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Goodbye. "
 msgctxt "ask 0408"
 msgid "What just happened here? "
-msgstr ""
+msgstr "剛才這裡發生了什麼事？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What just happened here? "
 msgctxt "bark 0408:2FBA"
 msgid "The execution is none of your business. Just be glad that a treasonous, despicable criminal has been properly punished. "
-msgstr ""
+msgstr "處決的事與你無關。你只要慶幸一個可鄙的叛國罪犯得到了應有的懲罰就好。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What just happened here? "
 msgctxt "bark 0408:30A9"
 msgid "Now answer the question! "
-msgstr ""
+msgstr "現在回答我的問題！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What just happened here? "
 msgctxt "ask 0408"
 msgid "I do not remember. "
-msgstr ""
+msgstr "我不記得了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not remember. "
 msgctxt "bark 0408:3148"
 msgid "Well now, that's a little more like it. "
-msgstr ""
+msgstr "嗯，這樣才像話一點。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not remember. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0408:317F"
 msgid "Well met, {name}."
-msgstr ""
+msgstr "幸會，{name}。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not remember. "
 msgctxt "bark 0408:31AF"
 msgid "And where do you hail from? "
-msgstr ""
+msgstr "那你是從哪裡來的？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not remember. "
 msgctxt "ask 0408"
 msgid "Another world. "
-msgstr ""
+msgstr "另一個世界。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I come in peace. "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "I come in peace. "
-msgstr ""
+msgstr "我沒有惡意。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I come in peace. "
 msgctxt "bark 0408:32FD"
 msgid "Well now, that's a little more like it. "
-msgstr ""
+msgstr "嗯，這樣才像話一點。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I come in peace. "
 msgctxt "bark 0408:3374"
 msgid "'Tis good to hear, stranger. I am certain that will not change. Do not prove me wrong, stranger. "
-msgstr ""
+msgstr "很高興聽你這麼說，陌生人。我相信這一點不會改變。別讓我看走眼，陌生人。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I come in peace. "
 msgctxt "bark 0408:33AF"
 msgid "Now tell me, where do you hail from? "
-msgstr ""
+msgstr "現在告訴我，你是從哪裡來的？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "My business, not yours. "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "My business, not yours. "
-msgstr ""
+msgstr "那是我的事，與你無關。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "My business, not yours. "
 msgctxt "bark 0408:35C3"
 msgid "If you truly believe that, then you are sadly mistaken. For every moment you spend in Tenebrae, what you are doing and where you are doing it is exactly my business as guard of the royal household! Now I repeat, state your name and business. "
-msgstr ""
+msgstr "你要是真這麼想，那就大錯特錯了。你在泰尼伯瑞的每一刻，你在做什麼、在哪裡做，正是我這個王室衛兵該管的事！我再說一次，報上你的名字和來意。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I said, not your concern! "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "I said, not your concern! "
-msgstr ""
+msgstr "我說了，不關你的事！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I said, not your concern! "
 msgctxt "bark 0408:3736"
 msgid "You won't last long here with an attitude like that. For the final time, will you tell me your name and business here in Tenebrae? "
-msgstr ""
+msgstr "用這種態度，你在這裡撐不了多久的。我最後再問一次，你要不要說出你的名字，還有你來泰尼伯瑞做什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I said, not your concern! "
 msgctxt "ask 0408"
 msgid "No. "
-msgstr ""
+msgstr "不要。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Yes. "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "Yes. "
-msgstr ""
+msgstr "好。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Yes. "
 msgctxt "bark 0408:37BE"
 msgid "Well, what is it then? "
-msgstr ""
+msgstr "那麼，說吧？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "No. "
 msgctxt "bark 0408:3841"
 msgid "Then prepare to answer to my blade! "
-msgstr ""
+msgstr "那就準備嚐嚐我的劍吧！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not remember. "
 msgctxt "bark 0408:38C3"
 msgid "Well now, that's a little more like it. "
-msgstr ""
+msgstr "嗯，這樣才像話一點。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not remember. "
 msgctxt "bark 0408:395C"
 msgid "Had a bit too much of Orlok's brew, eh? Well, you just watch yourself and stay out of trouble, and we'll have no quarrel with you. "
-msgstr ""
+msgstr "喝多了歐洛克的酒，是吧？好吧，你自己小心點，別惹麻煩，我們就不會找你麻煩。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not remember. "
 msgctxt "bark 0408:3997"
 msgid "Now tell me, where do you hail from? "
-msgstr ""
+msgstr "現在告訴我，你是從哪裡來的？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The beach. "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "The beach. "
-msgstr ""
+msgstr "海灘。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The beach. "
 msgctxt "bark 0408:3B2F"
 msgid "A fisherman, then? You do not dress like one who makes his living pulling nets from the sea. Then your business in the city is...? "
-msgstr ""
+msgstr "那麼，你是漁夫？你的穿著可不像靠撒網捕魚維生的人。那你來城裡是要……？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The beach. "
 msgctxt "ask 0408"
 msgid "To make money. "
-msgstr ""
+msgstr "賺錢。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "A place far away. "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "A place far away. "
-msgstr ""
+msgstr "很遠的地方。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "A place far away. "
 msgctxt "bark 0408:3CCD"
 msgid "Another island? I admit your clothing is unusual, but I was not aware there were other cities. Well, I suggest you quickly learn the laws and customs of -this- city. What is your business in the city? "
-msgstr ""
+msgstr "別的島嶼？我承認你的衣著很不尋常，但我不知道還有其他城市。好吧，我建議你趕快學會這座城的法律和習俗。你來城裡做什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Another world. "
 msgctxt "bark 0408:3E97"
 msgid "I may appear to be just a simple guard to you, but I outgrew such fairytales years ago. I suggest you change your tone with me or I will see your worthless hide resting on the inside of a jail! Now, if you would, tell me your business in the city. "
-msgstr ""
+msgstr "在你眼中我或許只是個普通的衛兵，但我早就過了相信這種童話的年紀了。我建議你改改說話的口氣，否則我就讓你這個沒用的傢伙去蹲大牢！現在，請你告訴我，你來城裡做什麼。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not know. "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "I do not know. "
-msgstr ""
+msgstr "我不知道。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not know. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0408:401A"
 msgid "Well you had best find out, {name}. We do not like trouble in the city."
-msgstr ""
+msgstr "那你最好趕快弄清楚，{name}。我們不喜歡城裡有麻煩。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not know. "
 msgctxt "bark 0408:407D"
 msgid "Well you had best find out, stranger. We do not like trouble in the city. "
-msgstr ""
+msgstr "那你最好趕快弄清楚，陌生人。我們不喜歡城裡有麻煩。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not know. "
 msgctxt "bark 0408:4112"
 msgid "You may go about your business. Please move along and do not disturb the widow until after I have escorted her from the docks. "
-msgstr ""
+msgstr "你可以去辦你的事了。請繼續走吧，在我護送那位寡婦離開碼頭之前，別去打擾她。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "To return home. " or "To leave this place. "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "To return home. "
-msgstr ""
+msgstr "回家。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "To return home. " or "To leave this place. "
 #. answer compared by the conversation code
 msgctxt "ask 0408"
 msgid "To leave this place. "
-msgstr ""
+msgstr "離開這裡。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "To return home. " or "To leave this place. "
 msgctxt "bark 0408:4240"
 msgid "Then what in the Lady's name are you doing wandering around here? I suggest you quickly find your way. "
-msgstr ""
+msgstr "那你看在夫人的分上，到底在這裡閒晃什麼？我建議你趕快找到你的路。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "To return home. " or "To leave this place. "
 msgctxt "bark 0408:42D5"
 msgid "You may go about your business. Please move along and do not disturb the widow until after I have escorted her from the docks. "
-msgstr ""
+msgstr "你可以去辦你的事了。請繼續走吧，在我護送那位寡婦離開碼頭之前，別去打擾她。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "To make money. "
 msgctxt "bark 0408:43CB"
 msgid "Whose business is not? While you are at it, buy yourself some better attire. "
-msgstr ""
+msgstr "誰不是呢？順便給自己買件像樣點的衣服吧。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "To make money. "
 msgctxt "bark 0408:4460"
 msgid "You may go about your business. Please move along and do not disturb the widow until after I have escorted her from the docks. "
-msgstr ""
+msgstr "你可以去辦你的事了。請繼續走吧，在我護送那位寡婦離開碼頭之前，別去打擾她。"

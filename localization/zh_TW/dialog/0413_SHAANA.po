@@ -10,531 +10,634 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0413:00BB"
 msgid "The late executioner Shaana "
-msgstr ""
+msgstr "已故的劊子手夏娜"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0413:00E2"
 msgid "Shaana "
-msgstr ""
+msgstr "夏娜"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0413:010E"
 msgid "executioner "
-msgstr ""
+msgstr "劊子手"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0413:012D"
 msgid "woman "
-msgstr ""
+msgstr "女人"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0413:044F"
 msgid "En guard! "
-msgstr ""
+msgstr "看招！"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0413:0474"
 msgid "Watch this! "
-msgstr ""
+msgstr "看好了！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0413:0647"
 msgid "I am much too busy to talk to you now. Out of my way! "
-msgstr ""
+msgstr "我現在忙得很，沒空跟你說話。讓開！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0413:06B5"
 msgid "Aaagh... "
-msgstr ""
+msgstr "啊啊……"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0413:06D5"
 msgid "Ooooo... "
-msgstr ""
+msgstr "喔喔喔……"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0413:0794"
 msgid "You fool! I have no time for conversation. The Titans are angry. You had best find permanent cover! "
-msgstr ""
+msgstr "蠢貨！我沒空聊天。泰坦們發怒了。你最好找個能長久躲藏的地方！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0413:0889"
 msgid "I speak to no one when the living dead walk the streets. If you are dead, then return to where you once rested. And if you are alive, you had best find shelter from the rampaging ghouls and the quaking ground! "
-msgstr ""
+msgstr "活死人走在街上的時候，我不跟任何人說話。你要是死人，就回到你原本安息的地方。你要是活人，最好找個地方躲避橫行的食屍鬼和震動的大地！"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0413:093E"
 msgid "ooouuu..."
-msgstr ""
+msgstr "嗚嗚嗚……"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0413:0960"
 msgid "auuggh..."
-msgstr ""
+msgstr "啊呃……"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0413:0998"
 msgid "Pardon me... "
-msgstr ""
+msgstr "打擾一下……"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0413"
 msgid "Why are you here? "
-msgstr ""
+msgstr "你為什麼在這裡？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0413:0A01"
 msgid "Good day, stranger. "
-msgstr ""
+msgstr "日安，陌生人。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0413"
 msgid "Nice axe. "
-msgstr ""
+msgstr "好斧頭。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0413"
 msgid "Goodbye. "
-msgstr ""
+msgstr "再見。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "Who are you? "
-msgstr ""
+msgstr "你是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 0413:0B09"
 msgid "Not that it is any of your concern, stranger, I am called Shaana. "
-msgstr ""
+msgstr "雖然這不關你的事，陌生人，我叫夏娜。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "ask 0413"
 msgid "Who was the man I saw you kill? "
-msgstr ""
+msgstr "我看到你殺的那個人是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Nice axe. "
 msgctxt "bark 0413:0BBC"
 msgid "Yes, stranger, it is. "
-msgstr ""
+msgstr "是啊，陌生人，確實是。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0413:0CA6"
 msgid "I would advise you to listen when I speak, lest I I tire of being ignored. "
-msgstr ""
+msgstr "我勸你在我說話時仔細聽，免得我厭倦了被人當耳邊風。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0413:0CEE"
 msgid "I do not waste time with mindless toraxen! "
-msgstr ""
+msgstr "我才不跟沒腦子的托拉克斯獸浪費時間！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who was the man I saw you kill? "
 msgctxt "bark 0413:0E3B"
 msgid "The man I just killed? You must be an imbecile to think that I have any knowledge -- or desire for the knowledge -- of whom I execute. Even were I interested, there are too many to remember. Why are you so concerned about me and my victims? "
-msgstr ""
+msgstr "我剛才殺的那個人？你一定是個白痴，才會以為我知道——或想知道——自己處決的是誰。就算我有興趣，人數也多到記不住。你為什麼這麼在意我和我的犧牲者？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who was the man I saw you kill? "
 msgctxt "ask 0413"
 msgid "I am simply curious. "
-msgstr ""
+msgstr "我只是好奇。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you do? "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "What do you do? "
-msgstr ""
+msgstr "你是做什麼的？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you do? "
 msgctxt "bark 0413:0F91"
 msgid "I assume you are speaking in jest, for it is obvious by my executioner's blade that I... remove heads to earn my keep. Why are you so concerned about my name and occupation? "
-msgstr ""
+msgstr "我想你是在開玩笑吧，看我這把劊子手的刀就知道，我是靠……砍人頭維生的。你為什麼這麼在意我的名字和職業？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am not. "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "I am not. "
-msgstr ""
+msgstr "我沒有。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am not. "
 msgctxt "bark 0413:10B9"
 msgid "Then by all means stop wasting my time. One would think you were employed by the scholar, the way you waste time with useless banter. "
-msgstr ""
+msgstr "那就請你別再浪費我的時間了。看你這樣說些沒用的廢話浪費時間，還以為你是那位學者僱來的。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am not. "
 msgctxt "ask 0413"
 msgid "I am not wasting time. "
-msgstr ""
+msgstr "我沒有浪費時間。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am simply curious. "
 msgctxt "bark 0413:11F4"
 msgid "I am not here to satisfy an idle curiosity, stranger. One would think you were employed by the scholar, the way you waste time with useless banter. "
-msgstr ""
+msgstr "我可不是來滿足你無聊的好奇心的，陌生人。看你這樣說些沒用的廢話浪費時間，還以為你是那位學者僱來的。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am not wasting time. "
 msgctxt "bark 0413:12D6"
 msgid "You are wrong, stranger. You are wasting mine. Farewell. "
-msgstr ""
+msgstr "你錯了，陌生人。你在浪費的是我的時間。再會。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is the scholar? "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "Who is the scholar? "
-msgstr ""
+msgstr "那位學者是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is the scholar? "
 msgctxt "bark 0413:1517"
 msgid "If I am to be a source of information, I do not expect this to occupy too much of my time. The scholar, Bentic, is a rather long-winded individual who spends his days and nights buried in the pages of the many books he maintains. In fact, stranger, perhaps you should speak with him. His work -is- knowledge, after all, and I doubt the rest of us have time for this prattle. Then again, you seem the sort to be more interested in hearing rumors in a darkened tavern than the ramblings of a learned man. "
-msgstr ""
+msgstr "要我當你的消息來源，可別指望我花太多時間。那位學者叫班提克，是個說起話來沒完沒了的人，日日夜夜都埋首在他保管的那堆書裡。事實上，陌生人，也許你該去找他談談。畢竟知識就是他的工作，而我們其他人恐怕都沒空陪你閒扯。不過話說回來，你看起來更像是那種喜歡在昏暗酒館裡聽謠言，而不是聽學者長篇大論的人。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is the scholar? "
 msgctxt "ask 0413"
 msgid "Where is the tavern? "
-msgstr ""
+msgstr "酒館在哪裡？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where is the scholar? "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "Where is the scholar? "
-msgstr ""
+msgstr "那位學者在哪裡？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where is the scholar? "
 msgctxt "bark 0413:172D"
 msgid "So it -is- the knowledge you seek. Then you may find Bentic in the northeastern part of town. He is wise and knows much, and he will impart that which you wish and more. I will tell you this, stranger: if he cannot answer your query then only one other might. But I am loath to tell you who for fear you would waste his precious time like you have mine. "
-msgstr ""
+msgstr "所以你要找的果然是知識。那麼你可以在城的東北邊找到班提克。他很有智慧，見多識廣，會告訴你想知道的事，甚至更多。我告訴你吧，陌生人：如果連他都答不出你的問題，那就只剩另一個人可能答得出來。但我不太想告訴你是誰，免得你像浪費我的時間一樣，浪費他寶貴的時間。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where is the scholar? "
 msgctxt "ask 0413"
 msgid "Who is this other? "
-msgstr ""
+msgstr "另一個人是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is this other? "
 msgctxt "bark 0413:1804"
 msgid "Swear to me you will not disturb his study without due cause and I will name him. Agreed? "
-msgstr ""
+msgstr "向我發誓，沒有正當理由就不會打擾他做研究，我就告訴你他的名字。同意嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is this other? "
 msgctxt "ask 0413"
 msgid "I swear nothing. "
-msgstr ""
+msgstr "我什麼也不發誓。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I swear nothing. "
 msgctxt "bark 0413:18A1"
 msgid "Then I tell nothing. "
-msgstr ""
+msgstr "那我什麼也不說。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I swear nothing. "
 msgctxt "ask 0413"
 msgid "I apologize. I swear. "
-msgstr ""
+msgstr "抱歉。我發誓。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Aye, I swear. "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "Aye, I swear. "
-msgstr ""
+msgstr "好，我發誓。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Aye, I swear. "
 msgctxt "bark 0413:19FD"
 msgid "Very well. His name is Mythran. You may find him outside the city walls. His wisdom is great, but I warn you not to visit him for idle prattle such as this. I swear myself that you do not wish to see me angered. "
-msgstr ""
+msgstr "很好。他叫米斯蘭。你可以在城牆外找到他。他的智慧非凡，但我警告你，別為了這種閒話去找他。我也向你發誓，你絕不會想看到我發怒。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I apologize. I swear. "
 msgctxt "bark 0413:1B82"
 msgid "I hope for your sake you speak the truth. I swear myself that you do not wish to see me angered. Very well. His name is Mythran. You may find him outside the city walls. His wisdom is great, but I warn you not to visit him for idle prattle such as this. "
-msgstr ""
+msgstr "為了你好，希望你說的是真話。我也向你發誓，你絕不會想看到我發怒。很好。他叫米斯蘭。你可以在城牆外找到他。他的智慧非凡，但我警告你，別為了這種閒話去找他。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where is the tavern? "
 msgctxt "bark 0413:1C79"
 msgid "The Shattered Skull is the large building in the center of town. Orlok is the man you seek. I am certain his tales of seafaring will amuse you to no end. "
-msgstr ""
+msgstr "碎裂頭骨酒館是城中心那棟大建築。你要找的人是歐洛克。我相信他的航海故事會讓你聽得樂不可支。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What pact? "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "What pact? "
-msgstr ""
+msgstr "什麼契約？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What pact? "
 msgctxt "bark 0413:1E16"
 msgid "You know very little of our culture, stranger. I suggest that change. The pact is one forged ages ago between Lithos and our people. Our duty from the covenant is to send our dead to Lithos. Yet Lady Mordea elects to give them to her patron, Hydros. 'Tis only a matter of time before the dead rise up and avenge the Mountain King. "
-msgstr ""
+msgstr "你對我們的文化知道得太少了，陌生人。我建議你改善這一點。那份契約是很久以前利索斯與我們的人民所訂下的。依照盟約，我們的責任是把死者送給利索斯。然而莫爾迪亞夫人卻選擇把他們交給她的守護神海德羅斯。死者起來為山之王復仇，只是遲早的事。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What pact? "
 msgctxt "ask 0413"
 msgid "The Mountain King? "
-msgstr ""
+msgstr "山之王？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The Mountain King? "
 msgctxt "bark 0413:1F17"
 msgid "'Tis the earned title for Lithos, He who resides in the great Hall within the mountains. However, few have ever been there. "
-msgstr ""
+msgstr "那是利索斯應得的稱號，祂住在群山之中的大廳裡。不過，去過那裡的人寥寥無幾。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The Mountain King? "
 msgctxt "ask 0413"
 msgid "Which few? "
-msgstr ""
+msgstr "哪些人？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Dead rising up? "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "Dead rising up? "
-msgstr ""
+msgstr "死者起來？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Dead rising up? "
 msgctxt "bark 0413:20D5"
 msgid "Aye, so the story goes. When he is angry, Lithos will set upon us our long lost kindred which he has willed to live again. Well, 'tis hardly living, but legend holds that they walk and fight like men. I have seen such wander about inside the confines of the cemetery, though even -I- have not dared to enter within. "
-msgstr ""
+msgstr "沒錯，傳說是這麼說的。利索斯發怒時，會讓我們早已逝去的親人重新活過來襲擊我們。嗯，那幾乎稱不上是活著，但傳說他們能像人一樣走路和戰鬥。我曾看過那種東西在墓地裡遊蕩，就連我也不敢踏進去。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Dead rising up? "
 msgctxt "ask 0413"
 msgid "Why do you avoid the cemetery? "
-msgstr ""
+msgstr "你為什麼避開墓地？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Which few? "
 msgctxt "bark 0413:2178"
 msgid "The Necromancers. "
-msgstr ""
+msgstr "死靈法師。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Which few? "
 msgctxt "ask 0413"
 msgid "Who are the Necromancers? "
-msgstr ""
+msgstr "死靈法師是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are the Necromancers? "
 msgctxt "bark 0413:232A"
 msgid "I tire of these questions. They are common to all Tenebraeans, yet to me do you pose them. The Necromancers are the line of mages who carry out our half of the pact with Lithos. Their duties are quite distasteful, but they are necessary. If you are truly interested in them, why not speak to them yourself. "
-msgstr ""
+msgstr "這些問題我聽膩了。每個泰尼伯瑞人都知道答案，你卻偏偏來問我。死靈法師是一脈相傳的法師，負責履行我們這一方與利索斯的契約。他們的職責令人相當反感，卻是必要的。你要是真對他們有興趣，何不自己去找他們談談。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are the Necromancers? "
 msgctxt "ask 0413"
 msgid "Are they in the cemetery? "
-msgstr ""
+msgstr "他們在墓地裡嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Are they in the cemetery? "
 msgctxt "bark 0413:248E"
 msgid "Do not tell me you are so much a fool as to take me seriously! I will grant you this, stranger, you are indeed brave if not equally senseless! Aye, the Necromancers reside in the graveyard. Beware where you tread. "
-msgstr ""
+msgstr "別告訴我你蠢到把我的話當真了！不過我得承認，陌生人，你確實很勇敢，雖然也同樣沒腦子！沒錯，死靈法師就住在墓地裡。走路小心點。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why do you avoid the cemetery? "
 msgctxt "bark 0413:2561"
 msgid "An odd question, stranger. I do not wish audience with the dead. That is the realm of the Necromancers. "
-msgstr ""
+msgstr "真是個奇怪的問題，陌生人。我可不想跟死人打交道。那是死靈法師的領域。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you study? "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "What do you study? "
-msgstr ""
+msgstr "你在研究什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you study? "
 msgctxt "bark 0413:2692"
 msgid "My dear stranger, if I have not yet made it perfectly clear that my business is none of your concern, let me do so now. My business, -is- none of your concern. "
-msgstr ""
+msgstr "親愛的陌生人，如果我還沒說清楚我的事與你無關，那我現在就說清楚。我的事，與你無關。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you study? "
 msgctxt "bark 0413:2788"
 msgid "My dear stranger, if I have not yet made it perfectly clear that my business is none of your concern, let me do so now. As far as you need know, I am but an executioner. Nothing more, but nothing less. "
-msgstr ""
+msgstr "親愛的陌生人，如果我還沒說清楚我的事與你無關，那我現在就說清楚。你只需要知道，我不過是個劊子手。不多也不少，就是這樣。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you study? "
 msgctxt "ask 0413"
 msgid "Yet you study other pursuits. "
-msgstr ""
+msgstr "但你還鑽研其他東西。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why was Bentic killed? "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "Why was Bentic killed? "
-msgstr ""
+msgstr "班提克為什麼被殺？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why was Bentic killed? "
 msgctxt "bark 0413:287D"
 msgid "'Tis not mine to judge the condemned. I simply carry out The Lady's commands. If you have issue with that, I suggest you speak with her. Goodbye. "
-msgstr ""
+msgstr "審判死囚不是我的事。我只是執行夫人的命令。你要是有意見，建議你去跟她說。再見。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why are you here? "
 msgctxt "bark 0413:295C"
 msgid "'Twould be best for you, stranger, to ignore such things.\tTell no one of seeing me here... or you, yourself, shall feel my axe upon your scrawny neck. "
-msgstr ""
+msgstr "陌生人，你最好別管這種事。不准告訴任何人你在這裡見過我……否則你那細瘦的脖子，就要嚐嚐我的斧頭了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Goodbye. " or "No, sorry. Goodbye. "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "No, sorry. Goodbye. "
-msgstr ""
+msgstr "不了，抱歉。再見。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Goodbye. " or "No, sorry. Goodbye. "
 msgctxt "bark 0413:2A4A"
 msgid "Hello again, Shaana. "
-msgstr ""
+msgstr "又見面了，夏娜。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Goodbye. " or "No, sorry. Goodbye. "
 msgctxt "bark 0413:2A72"
 msgid "Hello again. "
-msgstr ""
+msgstr "又見面了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Goodbye. " or "No, sorry. Goodbye. "
 msgctxt "ask 0413"
 msgid "May we speak? "
-msgstr ""
+msgstr "我們可以談談嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are you? "
 msgctxt "bark 0413:2BCC"
 msgid "Not that it is any of your concern, stranger, I am called Shaana. "
-msgstr ""
+msgstr "雖然這不關你的事，陌生人，我叫夏娜。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0413:2C6B"
 msgid "I would advise you to listen when I speak, lest I I tire of being ignored. "
-msgstr ""
+msgstr "我勸你在我說話時仔細聽，免得我厭倦了被人當耳邊風。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after ""
 msgctxt "bark 0413:2CB3"
 msgid "I do not waste time with mindless toraxen! "
-msgstr ""
+msgstr "我才不跟沒腦子的托拉克斯獸浪費時間！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "May we speak? "
 msgctxt "bark 0413:2D44"
 msgid "Greetings again, stranger. I suppose you wish more of my time? "
-msgstr ""
+msgstr "又見面了，陌生人。我想你又要佔用我的時間了吧？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "May we speak? "
 msgctxt "ask 0413"
 msgid "Only a moment. "
-msgstr ""
+msgstr "只要一下子。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "May we speak? "
 msgctxt "bark 0413:2E5A"
 msgid "You display considerable courage speaking to me after wasting my time when we last spoke. Too much courage. I am still not impressed. Perhaps another time I will be more inclined to hear your words. "
-msgstr ""
+msgstr "上次浪費了我的時間，你還敢來跟我說話，真是勇氣可嘉。勇氣太多了。我還是不以為然。也許改天我會比較願意聽你說話。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Only a moment. "
 msgctxt "bark 0413:2F56"
 msgid "Enough of this, fool! I am not here to act as your source for information. If you feel the need for idle gossip, go and listen to Orlok's grand stories. "
-msgstr ""
+msgstr "夠了，蠢貨！我可不是來給你當消息來源的。你要是想聽閒話，就去聽歐洛克的偉大故事吧。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Only a moment. "
 msgctxt "bark 0413:2FFE"
 msgid "Enough of this, fool! I am not here to act as your source for information. If your question needs answering, find the scholar and disturb him! "
-msgstr ""
+msgstr "夠了，蠢貨！我可不是來給你當消息來源的。你的問題要是需要答案，就去找那位學者，打擾他去吧！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Only a moment. "
 msgctxt "bark 0413:30A2"
 msgid "Have you nothing more to do than have me answer your questions?\tDo you not think I have work elsewhere to do? "
-msgstr ""
+msgstr "你除了要我回答問題以外，就沒別的事可做了嗎？你難道不覺得我還有別的工作要做嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Only a moment. "
 msgctxt "bark 0413:313B"
 msgid "Very well, stranger. You have a moment. What is it that you want? And I assume it is not to beg me away from an appointed task. "
-msgstr ""
+msgstr "好吧，陌生人。我給你一點時間。你想要什麼？我想你總不會是來求我放下手邊差事的吧。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your task? "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "What is your task? "
-msgstr ""
+msgstr "你的差事是什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your task? "
 msgctxt "bark 0413:329B"
 msgid "I think that you need not know such things. But let me assure you that not all of my life revolves around death. Most times there are far more interesting things to study than a decapitated body. "
-msgstr ""
+msgstr "我想你不需要知道這種事。不過我可以向你保證，我的人生並不全都圍繞著死亡打轉。大部分時候，有比無頭屍體有趣得多的東西可以研究。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Only most of the time? " or "Yet you study other pursuits. "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "Only most of the time? "
-msgstr ""
+msgstr "只是大部分時候？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Only most of the time? " or "Yet you study other pursuits. "
 msgctxt "bark 0413:3438"
 msgid "I have warned you not to pry into my affairs. Do not fool yourself into thinking that I am incapable of performing the duties of my position -- even when the victims are not bound. I have -no- qualms about slaying someone who deserves to die. "
-msgstr ""
+msgstr "我警告過你別打探我的事。別自欺欺人，以為我無法履行我的職責——就算對方沒被綁著也一樣。殺一個該死的人，我可是毫無顧忌。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Only most of the time? " or "Yet you study other pursuits. "
 msgctxt "bark 0413:34AE"
 msgid "Though I do not necessarily agree with the Lady's methods. "
-msgstr ""
+msgstr "雖然我不見得同意夫人的做法。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Only most of the time? " or "Yet you study other pursuits. "
 msgctxt "ask 0413"
 msgid "With what do you disagree? "
-msgstr ""
+msgstr "你不同意什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "With what do you disagree? "
 msgctxt "bark 0413:3629"
 msgid "'Tis a moot point, considering she is no longer alive, but it was not right to let the body fall to The Lurker. It violated the pact, something which Lithos was not likely to tolerate much longer. "
-msgstr ""
+msgstr "既然她已經不在人世，再說也沒意義了，但讓屍體落入潛伏者手中是不對的。那違反了契約，利索斯不太可能再容忍下去。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "With what do you disagree? "
 msgctxt "bark 0413:36C9"
 msgid "'Tis not right to let the body fall to The Lurker. It violates the pact, something for which Lithos will not likely stand much longer. "
-msgstr ""
+msgstr "讓屍體落入潛伏者手中是不對的。那違反了契約，利索斯不太可能再容忍下去。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is Lithos? "
 #. answer compared by the conversation code
 msgctxt "ask 0413"
 msgid "Who is Lithos? "
-msgstr ""
+msgstr "利索斯是誰？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who is Lithos? "
 msgctxt "bark 0413:3826"
 msgid "I know not from where you hail, stranger, but I wonder about a man who does not know of the Titans. Speak to the scholar.  He will show you the answer to your question. I assume you -do- know how to read. "
-msgstr ""
+msgstr "我不知道你是從哪裡來的，陌生人，但連泰坦都不知道的人實在令我納悶。去找那位學者吧。他會告訴你答案。我想你總該識字吧。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What pact? "
 msgctxt "bark 0413:39C3"
 msgid "You know very little of our culture, stranger. I suggest that change. The pact is one forged ages ago between Lithos and our people.\tOur duty from the covenant is to send our dead to Lithos. Yet Lady Mordea elects to give them to her patron, Hydros. 'Tis only a matter of time before the dead rise up and avenge the Mountain King. "
-msgstr ""
+msgstr "你對我們的文化知道得太少了，陌生人。我建議你改善這一點。那份契約是很久以前利索斯與我們的人民所訂下的。依照盟約，我們的責任是把死者送給利索斯。然而莫爾迪亞夫人卻選擇把他們交給她的守護神海德羅斯。死者起來為山之王復仇，只是遲早的事。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "The Mountain King? "
 msgctxt "bark 0413:3ACA"
 msgid "'Tis the earned title for Lithos, He who resides in the great Hall within the mountains. However, few have ever been there. "
-msgstr ""
+msgstr "那是利索斯應得的稱號，祂住在群山之中的大廳裡。不過，去過那裡的人寥寥無幾。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Dead rising up? "
 msgctxt "bark 0413:3C88"
 msgid "Aye, so the story goes. When he is angry, Lithos will set upon us our long lost kindred which he has willed to live again. Well, 'tis hardly living, but legend holds that they walk and fight like men. I have seen such wander about inside the confines of the cemetery, though even -I- have not dared to enter within. "
-msgstr ""
+msgstr "沒錯，傳說是這麼說的。利索斯發怒時，會讓我們早已逝去的親人重新活過來襲擊我們。嗯，那幾乎稱不上是活著，但傳說他們能像人一樣走路和戰鬥。我曾看過那種東西在墓地裡遊蕩，就連我也不敢踏進去。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Which few? "
 msgctxt "bark 0413:3D2B"
 msgid "The Necromancers. "
-msgstr ""
+msgstr "死靈法師。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Who are the Necromancers? "
 msgctxt "bark 0413:3EDD"
 msgid "I tire of these questions. They are common to all Tenebraeans, yet to me do you pose them. The Necromancers are the line of mages who carry out our half of the pact with Lithos. Their duties are quite distasteful, but they are necessary. If you are truly interested in them, why not speak to them yourself. "
-msgstr ""
+msgstr "這些問題我聽膩了。每個泰尼伯瑞人都知道答案，你卻偏偏來問我。死靈法師是一脈相傳的法師，負責履行我們這一方與利索斯的契約。他們的職責令人相當反感，卻是必要的。你要是真對他們有興趣，何不自己去找他們談談。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Are they in the cemetery? "
 msgctxt "bark 0413:4041"
 msgid "Do not tell me you are so much a fool as to take me seriously! I will grant you this, stranger, you are indeed brave if not equally senseless! Aye, the Necromancers reside in the graveyard. Beware where you tread. "
-msgstr ""
+msgstr "別告訴我你蠢到把我的話當真了！不過我得承認，陌生人，你確實很勇敢，雖然也同樣沒腦子！沒錯，死靈法師就住在墓地裡。走路小心點。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why do you avoid the cemetery? "
 msgctxt "bark 0413:4114"
 msgid "An odd question, stranger. I do not wish audience with the dead. That is the realm of the Necromancers. "
-msgstr ""
+msgstr "真是個奇怪的問題，陌生人。我可不想跟死人打交道。那是死靈法師的領域。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you study? "
 msgctxt "bark 0413:4245"
 msgid "My dear stranger, if I have not yet made it perfectly clear that my business is none of your concern, let me do so now. My business, -is- none of your concern. "
-msgstr ""
+msgstr "親愛的陌生人，如果我還沒說清楚我的事與你無關，那我現在就說清楚。我的事，與你無關。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you study? "
 msgctxt "bark 0413:433B"
 msgid "My dear stranger, if I have not yet made it perfectly clear that my business is none of your concern, let me do so now. As far as you need know, I am but an executioner. Nothing more, but nothing less. "
-msgstr ""
+msgstr "親愛的陌生人，如果我還沒說清楚我的事與你無關，那我現在就說清楚。你只需要知道，我不過是個劊子手。不多也不少，就是這樣。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why was Bentic killed? "
 msgctxt "bark 0413:443D"
 msgid "'Tis not mine to judge the condemned. I simply carry out The Lady's commands. If you have issue with that, I suggest you speak with her. Goodbye. "
-msgstr ""
+msgstr "審判死囚不是我的事。我只是執行夫人的命令。你要是有意見，建議你去跟她說。再見。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why are you here? "
 msgctxt "bark 0413:451C"
 msgid "'Twould be best for you, stranger, to ignore such things.\tTell no one of seeing me here... or you, yourself, shall feel my axe upon your scrawny neck. "
-msgstr ""
+msgstr "陌生人，你最好別管這種事。不准告訴任何人你在這裡見過我……否則你那細瘦的脖子，就要嚐嚐我的斧頭了。"

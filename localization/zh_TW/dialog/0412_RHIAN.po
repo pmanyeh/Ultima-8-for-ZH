@@ -10,854 +10,1020 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0412:00B1"
 msgid "the body of Rhian "
-msgstr ""
+msgstr "芮安的遺體"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0412:00E7"
 msgid "Rhian the weaver "
-msgstr ""
+msgstr "織工芮安"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0412:010C"
 msgid "Rhian"
-msgstr ""
+msgstr "芮安"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0412:0133"
 msgid "weaver "
-msgstr ""
+msgstr "織工"
 
+# P13 batch 1
 #. event 00 (look)
 msgctxt "bark 0412:0155"
 msgid "woman "
-msgstr ""
+msgstr "女人"
 
+# P13 batch 1
 #. event 13 (justMoved)
 msgctxt "bark 0412:0249"
 msgid "I would not do that if I were you! "
-msgstr ""
+msgstr "換作是我，可不會那麼做！"
 
+# P13 batch 1
 #. event 13 (justMoved)
 msgctxt "bark 0412:027F"
 msgid "Stop! Thief! "
-msgstr ""
+msgstr "站住！小偷！"
 
+# P13 batch 1
 #. event 13 (justMoved)
 msgctxt "bark 0412:02D5"
 msgid "I saw that! "
-msgstr ""
+msgstr "我看到了！"
 
+# P13 batch 1
 #. event 13 (justMoved)
 msgctxt "bark 0412:0321"
 msgid "Stop that, or I'll call the guard! "
-msgstr ""
+msgstr "住手，不然我要叫衛兵了！"
 
+# P13 batch 1
 #. event 13 (justMoved)
 msgctxt "bark 0412:0365"
 msgid "This is your last warning! "
-msgstr ""
+msgstr "這是最後一次警告！"
 
+# P13 batch 1
 #. event 11 (leaveFastArea)
 msgctxt "bark 0412:04FE"
 msgid "Help me, Beren! "
-msgstr ""
+msgstr "救救我，貝倫！"
 
+# P13 batch 1
 #. event 11 (leaveFastArea)
 msgctxt "bark 0412:0526"
 msgid "Town Sorcerer! "
-msgstr ""
+msgstr "城鎮巫師！"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0664"
 msgid "boo-hoo... "
-msgstr ""
+msgstr "嗚嗚……"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0683"
 msgid "-sob- "
-msgstr ""
+msgstr "（啜泣）"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:071A"
 msgid "-sob- "
-msgstr ""
+msgstr "（啜泣）"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:073B"
 msgid "-sniff- "
-msgstr ""
+msgstr "（抽噎）"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:08EA"
 msgid "Why, hello, friend. "
-msgstr ""
+msgstr "哎呀，你好，朋友。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0953"
 msgid "What do you want here, stranger? "
-msgstr ""
+msgstr "你來這裡做什麼，陌生人？"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:09B7"
 msgid "Looking for something? "
-msgstr ""
+msgstr "在找什麼嗎？"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0A1F"
 msgid "Please look around. "
-msgstr ""
+msgstr "請隨意看看。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0A86"
 msgid "Please, do not touch anything. "
-msgstr ""
+msgstr "請不要亂碰東西。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0B05"
 msgid "What am I to do? "
-msgstr ""
+msgstr "我該怎麼辦？"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0B6C"
 msgid "I must carry on some how. "
-msgstr ""
+msgstr "我總得想辦法撐下去。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0BC4"
 msgid "Woe is me! "
-msgstr ""
+msgstr "我好命苦啊！"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0C3C"
 msgid "I must be strong! "
-msgstr ""
+msgstr "我一定要堅強！"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0CBC"
 msgid "Oh, these tired old hands... "
-msgstr ""
+msgstr "唉，這雙疲憊的老手……"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0D27"
 msgid "Perhaps I should take a walk. "
-msgstr ""
+msgstr "也許我該出去走走。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0D73"
 msgid "I'm just so tired, maybe later. "
-msgstr ""
+msgstr "我好累，晚點再說吧。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0DB1"
 msgid "The days are growing longer. "
-msgstr ""
+msgstr "日子越來越難熬了。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:0E41"
 msgid "Oh, Toran! "
-msgstr ""
+msgstr "噢，托蘭！"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:10E0"
 msgid "Good day, my friend. "
-msgstr ""
+msgstr "日安，我的朋友。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:1129"
 msgid "Excuse me, please. "
-msgstr ""
+msgstr "不好意思，借過。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:1164"
 msgid "Need some assistance? "
-msgstr ""
+msgstr "需要幫忙嗎？"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:11B2"
 msgid "Stranger, are you lost? "
-msgstr ""
+msgstr "陌生人，你迷路了嗎？"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:1235"
 msgid "Pardon me, I did not mean to stare... "
-msgstr ""
+msgstr "抱歉，我不是有意盯著你看……"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:12E4"
 msgid "Storm clouds are brewing. "
-msgstr ""
+msgstr "暴風雨的烏雲正在聚集。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:133D"
 msgid "The winds are growing colder. "
-msgstr ""
+msgstr "風越來越冷了。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:138C"
 msgid "I should be going home... "
-msgstr ""
+msgstr "我該回家了……"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:13E2"
 msgid "but there is nothing for me there. "
-msgstr ""
+msgstr "可是家裡已經什麼都沒有了。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:1448"
 msgid "I can find no beauty in the world anymore. "
-msgstr ""
+msgstr "這世界在我眼中再也沒有美好了。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:14C8"
 msgid "What am I to do? "
-msgstr ""
+msgstr "我該怎麼辦？"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:150E"
 msgid "I must find a way. "
-msgstr ""
+msgstr "我一定得想個辦法。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:157D"
 msgid "Well, I'm afraid I do not know much about gems. What do you have to offer? "
-msgstr ""
+msgstr "嗯，恐怕我對寶石不太懂。你有什麼要賣的？"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:159C"
 msgid "Hmmmm... "
-msgstr ""
+msgstr "嗯……"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0412:163B"
 msgid "For this gem you have I can only offer you {num} coins."
-msgstr ""
+msgstr "你這顆寶石，我只能出 {num} 枚錢幣。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0412:16A7"
 msgid "For these {num} gems you have I can only offer you {num} coins."
-msgstr ""
+msgstr "你這 {num} 顆寶石，我只能出 {num} 枚錢幣。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:16DA"
 msgid "Is this an acceptable offer? "
-msgstr ""
+msgstr "這個價錢你能接受嗎？"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:1729"
 msgid "Very good. Here is your stone... "
-msgstr ""
+msgstr "很好。這是你的錢……"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:1773"
 msgid "...and I'll take this. Thank you. "
-msgstr ""
+msgstr "……這個我收下了。謝謝你。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:17E9"
 msgid "That's fine, that's fine. I do not wish to push you. "
-msgstr ""
+msgstr "沒關係，沒關係。我不想勉強你。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:1835"
 msgid "Hmmmm... It seems you have misplaced your gems. "
-msgstr ""
+msgstr "嗯……看來你把寶石放錯地方了。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:1874"
 msgid "When you find them please bring them by. "
-msgstr ""
+msgstr "等你找到了，請再拿過來。"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "bark 0412:18FD"
 msgid "Certainly. I have diamonds, rubies, gemstone necklaces and gemstone rings. In which are you interested? "
-msgstr ""
+msgstr "當然。我有鑽石、紅寶石、寶石項鍊和寶石戒指。你對哪一種有興趣？"
 
+# P13 batch 1
 #. event 10 (enterFastArea)
 msgctxt "ask 0412"
 msgid "Nothing, thank you. "
-msgstr ""
+msgstr "不用了，謝謝。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "A diamond "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "A diamond "
-msgstr ""
+msgstr "鑽石"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "A diamond "
 msgctxt "bark 0412:1A42"
 msgid "This is lovely. It was one of Toran favorites.-sniff- I'm sorry, I don't really know what it is worth. He was going to sell if for 45 stones. Are you interested? "
-msgstr ""
+msgstr "這顆很美。它是托蘭最喜歡的寶石之一。（抽噎）抱歉，我其實不知道它值多少。他原本打算賣 45 枚黑曜石幣。你有興趣嗎？"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "A ruby "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "A ruby "
-msgstr ""
+msgstr "紅寶石"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "A ruby "
 msgctxt "bark 0412:1ABE"
 msgid "Oh, my son, Torwin, liked this one so much. -sob- The price is 20 stones. "
-msgstr ""
+msgstr "噢，我兒子托溫好喜歡這一顆。（啜泣）價錢是 20 枚黑曜石幣。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Gemstone necklace "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "Gemstone necklace "
-msgstr ""
+msgstr "寶石項鍊"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Gemstone necklace "
 msgctxt "bark 0412:1B6F"
 msgid "Oh, I was there when he bought this from a young miner. The price is only 36 blacks. Quite a deal, don't you think? "
-msgstr ""
+msgstr "噢，他向一個年輕礦工買下這條項鍊時，我也在場。只要 36 枚黑曜石幣。很划算吧，你不覺得嗎？"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Gemstone ring "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "Gemstone ring "
-msgstr ""
+msgstr "寶石戒指"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Gemstone ring "
 msgctxt "bark 0412:1C3C"
 msgid "This is my favorite piece. -sob- I am loath to part with it, it reminds me of Toran. But times are hard for a -snif- widow. The price is 22 stones. "
-msgstr ""
+msgstr "這是我最喜歡的一件。（啜泣）我真捨不得賣掉它，它讓我想起托蘭。可是對一個（抽噎）寡婦來說，日子實在太難過了。價錢是 22 枚黑曜石幣。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Nothing, thank you. "
 msgctxt "bark 0412:1C88"
 msgid "As you wish. "
-msgstr ""
+msgstr "隨你吧。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Nothing, thank you. "
 msgctxt "bark 0412:1CBD"
 msgid "Perhaps some other time. "
-msgstr ""
+msgstr "也許下次吧。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Nothing, thank you. "
 msgctxt "ask 0412"
 msgid "Never mind, thank you. "
-msgstr ""
+msgstr "算了，謝謝。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Here is the amount. "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "Here is the amount. "
-msgstr ""
+msgstr "錢在這裡。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Here is the amount. "
 msgctxt "bark 0412:1D91"
 msgid "Thank you. Thank you so much. "
-msgstr ""
+msgstr "謝謝你。真的非常謝謝你。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Here is the amount. "
 msgctxt "bark 0412:1E2C"
 msgid "Oh. I'm so sorry. It seems times are hard for you, as well. Perhaps this will still be here when you have a little more to spend. "
-msgstr ""
+msgstr "噢。真抱歉。看來你的日子也不好過。等你手頭寬裕一點時，也許這件東西還在。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Here is the amount. "
 msgctxt "bark 0412:1EA0"
 msgid "Oh, your hands are full! I will keep this until you have room for it. "
-msgstr ""
+msgstr "噢，你手上拿滿東西了！我先幫你收著，等你有空位再來拿。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Here is the amount. "
 msgctxt "bark 0412:1ED9"
 msgid "I understand. Thank you anyway. "
-msgstr ""
+msgstr "我明白。還是謝謝你。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0412:1F25"
 msgid "Perhaps you need time to think about it. "
-msgstr ""
+msgstr "也許你需要時間考慮一下。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0412:201A"
 msgid "Certainly, I have only rough cloth to work with, so I'm afraid it will be nothing like some of the rich Kith silk you are used to. I have cloaks, shirts, vests and robes. Which would you be interested in? "
-msgstr ""
+msgstr "當然。我手邊只有粗布可用，恐怕比不上你習慣穿的那些華貴奇斯蛛絲。我有斗篷、襯衫、背心和長袍。你對哪一種有興趣？"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "A cloak "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "A cloak "
-msgstr ""
+msgstr "斗篷"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "A cloak "
 msgctxt "bark 0412:20CC"
 msgid "I have a nice warm cloak. The price is 6 stones. "
-msgstr ""
+msgstr "我有一件溫暖的好斗篷。價錢是 6 枚黑曜石幣。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "A shirt "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "A shirt "
-msgstr ""
+msgstr "襯衫"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "A shirt "
 msgctxt "bark 0412:2120"
 msgid "I have shirts for 4 stones each. "
-msgstr ""
+msgstr "我的襯衫每件 4 枚黑曜石幣。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Vest "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "Vest "
-msgstr ""
+msgstr "背心"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Vest "
 msgctxt "bark 0412:2190"
 msgid "A vest would look very imposing on you. Their cost is 7 stones. "
-msgstr ""
+msgstr "你穿上背心一定很有威嚴。每件 7 枚黑曜石幣。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Nothing, thank you. "
 msgctxt "bark 0412:21DC"
 msgid "As you wish. "
-msgstr ""
+msgstr "隨你吧。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Nothing, thank you. "
 msgctxt "bark 0412:2225"
 msgid "Well, I guess you are really not interested. "
-msgstr ""
+msgstr "好吧，看來你真的沒興趣。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Here is the amount. "
 msgctxt "bark 0412:22F9"
 msgid "Thank you. Thank you so much. "
-msgstr ""
+msgstr "謝謝你。真的非常謝謝你。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Here is the amount. "
 msgctxt "bark 0412:2394"
 msgid "Oh. I'm so sorry. It seems times are hard for you, as well. Perhaps this will still be here when you have a little more to spend. "
-msgstr ""
+msgstr "噢。真抱歉。看來你的日子也不好過。等你手頭寬裕一點時，也許這件東西還在。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Here is the amount. "
 msgctxt "bark 0412:2408"
 msgid "Oh, your hands are full! I will keep this until you have room for it. "
-msgstr ""
+msgstr "噢，你手上拿滿東西了！我先幫你收著，等你有空位再來拿。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after "Here is the amount. "
 msgctxt "bark 0412:2441"
 msgid "I understand. Thank you anyway. "
-msgstr ""
+msgstr "我明白。還是謝謝你。"
 
+# P13 batch 1
 #. event 10 (enterFastArea), after ""
 msgctxt "bark 0412:248E"
 msgid "Perhaps you are not interested after all. "
-msgstr ""
+msgstr "也許你終究是沒興趣吧。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:250C"
 msgid "Excuse me. "
-msgstr ""
+msgstr "打擾了。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:252F"
 msgid "Hello there. "
-msgstr ""
+msgstr "你好。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:25D9"
 msgid "My husband,-sob-  oh, my husband, what shall I do? What shall become of me? Oh no, no, no! -sob- "
-msgstr ""
+msgstr "我的丈夫，（啜泣）噢，我的丈夫，我該怎麼辦？我以後該怎麼辦？噢，不，不，不！（啜泣）"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:2650"
 msgid "Oh, forgive me. "
-msgstr ""
+msgstr "噢，請原諒我。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:266C"
 msgid "-sob- "
-msgstr ""
+msgstr "（啜泣）"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:269D"
 msgid "I can not bear such grief. "
-msgstr ""
+msgstr "我承受不了這樣的悲痛。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:26C8"
 msgid "Please, leave me. "
-msgstr ""
+msgstr "求求你，讓我一個人靜一靜。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:26F2"
 msgid "I can not talk now. "
-msgstr ""
+msgstr "我現在沒辦法說話。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:2798"
 msgid "Yes? "
-msgstr ""
+msgstr "有事嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0412"
 msgid "What is your name? "
-msgstr ""
+msgstr "你叫什麼名字？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:27FA"
 msgid "Greetings again. "
-msgstr ""
+msgstr "又見面了。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:281A"
 msgid "Hello. "
-msgstr ""
+msgstr "你好。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0412"
 msgid "Hello, Rhian. "
-msgstr ""
+msgstr "你好，芮安。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0412"
 msgid "What do you sell here? "
-msgstr ""
+msgstr "你在這裡賣什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0412"
 msgid "I found this ring. "
-msgstr ""
+msgstr "我找到了這枚戒指。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0412"
 msgid "I'm sorry, but your son won't be back. "
-msgstr ""
+msgstr "很遺憾，你的兒子不會回來了。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "ask 0412"
 msgid "Tell me again of your son. "
-msgstr ""
+msgstr "再跟我說說你兒子的事。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:2975"
 msgid "Oh, forgive me. "
-msgstr ""
+msgstr "噢，請原諒我。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:2991"
 msgid "-sob- "
-msgstr ""
+msgstr "（啜泣）"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:29C2"
 msgid "I can not bear such grief. "
-msgstr ""
+msgstr "我承受不了這樣的悲痛。"
 
+# P13 batch 1
 #. event 01 (use (talk))
 msgctxt "bark 0412:29EC"
 msgid "I can not talk now. "
-msgstr ""
+msgstr "我現在沒辦法說話。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Farewell. "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "Farewell. "
-msgstr ""
+msgstr "再會。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "bark 0412:2B2C"
 msgid "Strange, I thought I told you. Oh, in my grief, I must have forgotten to tell you my name. I am so sorry. My name is Rhian, that is it, just Rhian. "
-msgstr ""
+msgstr "真奇怪，我以為我說過了。噢，我太傷心了，一定是忘了告訴你我的名字。真對不起。我叫芮安，就這樣，只是芮安。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "ask 0412"
 msgid "What do you do? "
-msgstr ""
+msgstr "你是做什麼的？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "bark 0412:2BBF"
 msgid "My name is Rhian, and yours? "
-msgstr ""
+msgstr "我叫芮安，你呢？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is your name? "
 msgctxt "ask 0412"
 msgid "None of your business. "
-msgstr ""
+msgstr "不關你的事。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Hello, Rhian. "
 msgctxt "bark 0412:2C71"
 msgid "Hello, my friend. What can I help you with today? "
-msgstr ""
+msgstr "你好，我的朋友。今天有什麼需要幫忙的嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Hello, Rhian. "
 msgctxt "ask 0412"
 msgid "I am interested in purchasing clothing. "
-msgstr ""
+msgstr "我想買衣服。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Hello, Rhian. "
 msgctxt "ask 0412"
 msgid "I am interested in gems. "
-msgstr ""
+msgstr "我對寶石有興趣。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "None of your business. "
 msgctxt "bark 0412:2DAE"
 msgid "I'm sorry if I have offended you. I meant no harm. Please forgive me. I am very sorry. "
-msgstr ""
+msgstr "如果冒犯了你，我很抱歉。我沒有惡意。請原諒我。真的很對不起。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I found this ring. "
 msgctxt "bark 0412:2F64"
 msgid "Oh, oh dear, oh dear dear. -sob- This was my husband's. He gave it to our son upon his 16 birthday.-sob- Torwin never -sniff- took it off, oh, I can hardly bear to look at it. You are so kind to bring it to me. Now I have something to remember them by. Now, if you'll excuse me. "
-msgstr ""
+msgstr "噢，天哪，噢，天哪天哪。（啜泣）這是我丈夫的。他在我們兒子十六歲生日時把它送給了他。（啜泣）托溫從來沒有（抽噎）把它拿下來過，噢，我幾乎不忍心看它。你真好心，把它帶來給我。現在我有東西可以紀念他們了。現在，請容我失陪。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I found this ring. "
 msgctxt "bark 0412:3012"
 msgid "This...this is my son's ring. -sniff- Toran gave it to him for his 16 birthday. Torwin never took it off. How did you come by it? "
-msgstr ""
+msgstr "這……這是我兒子的戒指。（抽噎）托蘭在他十六歲生日時送給他的。托溫從來沒有把它拿下來過。你是怎麼得到它的？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I found this ring. "
 msgctxt "ask 0412"
 msgid "I found it. "
-msgstr ""
+msgstr "我撿到的。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I found it. "
 msgctxt "bark 0412:31AA"
 msgid "Oh, this does not bode well. This ring was Torwin's pride and joy. This is not good at all. Something must have happened to him. Oh no, I can not bear the thought. What if something dreadful has happened? What if he is ill or injured? This is just terrible! "
-msgstr ""
+msgstr "噢，這可不是好兆頭。這枚戒指是托溫最珍愛的東西。這太不妙了。他一定出事了。噢不，我連想都不敢想。要是發生了什麼可怕的事怎麼辦？要是他生病或受傷了怎麼辦？這太可怕了！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you do? " or "What do you sell here? "
 msgctxt "bark 0412:32DC"
 msgid "I'm a weaver. I make clothing. And...and because of, I, oh I can not say it without crying...-sniff- my husband's -sob- execution -sob sob-, I have taken over the running of my husband's gem shop. "
-msgstr ""
+msgstr "我是織工。我做衣服。還有……還有因為，我，噢，我一說就忍不住要哭……（抽噎）我丈夫被（啜泣）處決了（啜泣不止），所以我接手經營我丈夫的寶石店。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you do? " or "What do you sell here? "
 msgctxt "ask 0412"
 msgid "Do you sell clothing? "
-msgstr ""
+msgstr "你賣衣服嗎？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What do you do? " or "What do you sell here? "
 msgctxt "ask 0412"
 msgid "Why do you cry? "
-msgstr ""
+msgstr "你為什麼哭？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Your husband's shop? "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "Your husband's shop? "
-msgstr ""
+msgstr "你丈夫的店？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Your husband's shop? "
 msgctxt "bark 0412:341E"
 msgid "Toran was the gem cutter here in town. As my son is no longer here, I am left to run the shop. "
-msgstr ""
+msgstr "托蘭是城裡的寶石匠。我兒子已經不在這裡了，只好由我來經營這家店。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Do you sell clothing? "
 msgctxt "bark 0412:34C3"
 msgid "I sell those that I make. "
-msgstr ""
+msgstr "我賣自己做的衣服。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am interested in gems. "
 msgctxt "bark 0412:3589"
 msgid "Would you like to buy or sell gems? "
-msgstr ""
+msgstr "你想買寶石，還是賣寶石？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am interested in gems. "
 msgctxt "ask 0412"
 msgid "sell gems "
-msgstr ""
+msgstr "賣寶石"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am interested in gems. "
 msgctxt "bark 0412:3640"
 msgid "I'm sorry but all my wares are at my shop. Please come by there a little later. "
-msgstr ""
+msgstr "抱歉，我的貨都在店裡。請晚一點再到店裡來。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "buy gems "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "buy gems "
-msgstr ""
+msgstr "買寶石"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am interested in purchasing clothing. "
 msgctxt "bark 0412:3813"
 msgid "I have many things in my shop. Please come by there when I am open for business. "
-msgstr ""
+msgstr "我店裡有很多東西。請在我開店的時候過來看看。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I am interested in purchasing clothing. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0412:38BE"
 msgid "Hello, {name}, - sob- I am afraid I am not good company at this terrible time."
-msgstr ""
+msgstr "你好，{name}，（啜泣）在這種可怕的時候，我恐怕沒辦法好好陪你說話。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why do you cry? "
 msgctxt "bark 0412:39F7"
 msgid "I'm sorry if my tears upset you, but -sob- it is so sad. I was once the wife of Toran. But now he is gone and my son is gone...whatever shall I do? "
-msgstr ""
+msgstr "如果我的眼淚讓你難過，我很抱歉，可是（啜泣）這實在太令人傷心了。我曾經是托蘭的妻子。但現在他走了，我兒子也走了……我到底該怎麼辦？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why do you cry? "
 msgctxt "ask 0412"
 msgid "Where is your son? "
-msgstr ""
+msgstr "你兒子在哪裡？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Toran was your husband? "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "Toran was your husband? "
-msgstr ""
+msgstr "托蘭是你的丈夫？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Toran was your husband? "
 msgctxt "bark 0412:3AD0"
 msgid "Yes and he was executed by the Tempest, Lady Mordea. -sob-. "
-msgstr ""
+msgstr "是的，他被風暴使者莫爾迪亞夫人處決了。（啜泣）"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Toran was your husband? "
 msgctxt "ask 0412"
 msgid "Why was he executed? "
-msgstr ""
+msgstr "他為什麼被處決？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why was he executed? "
 msgctxt "bark 0412:3C01"
 msgid "I tried to warn him about speaking his mind so openly, but he would laugh and say that no man need fear the truth. In the end 'twas Mordea's wrath that he should have feared. "
-msgstr ""
+msgstr "我曾試著勸他別那麼直言不諱，可他總是笑著說，沒有人需要害怕真相。到頭來，他該害怕的是莫爾迪亞的怒火。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Why was he executed? "
 msgctxt "ask 0412"
 msgid "He was an outspoken man? "
-msgstr ""
+msgstr "他是個直言不諱的人？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Feared Mordea's wrath? "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "Feared Mordea's wrath? "
-msgstr ""
+msgstr "害怕莫爾迪亞的怒火？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Feared Mordea's wrath? "
 msgctxt "bark 0412:3D3D"
 msgid "She does not take kindly to things said about her. It will cost you your life, as it did my poor Toran, -sob- but I should not burden you with my troubles. "
-msgstr ""
+msgstr "她容不得別人議論她。那會讓你賠上性命，就像我可憐的托蘭一樣，（啜泣）不過我不該拿我的煩惱來麻煩你。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "He was an outspoken man? "
 msgctxt "bark 0412:3E8B"
 msgid "Toran feared no one, not even the Tempest. Of late, he had begun to question the need for these executions. He was in the tavern when the guards came for him... oh, I tried to warn him, -sob-  Now I have no one, not even my son. -sob-. "
-msgstr ""
+msgstr "托蘭誰也不怕，連風暴使者都不怕。最近他開始質疑這些處決是否有必要。衛兵來抓他的時候，他正在酒館裡……噢，我曾試著警告他，（啜泣）現在我什麼人都沒有了，連兒子都不在身邊。（啜泣）"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where is your son? " or "Tell me again of your son. "
 msgctxt "bark 0412:3F89"
 msgid "My son, Torwin, left home to become a Theurgist. "
-msgstr ""
+msgstr "我的兒子托溫離家去當神術師了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Where is your son? " or "Tell me again of your son. "
 msgctxt "ask 0412"
 msgid "What is a Theurgist? "
-msgstr ""
+msgstr "神術師是什麼？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is a Theurgist? "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0412:4116"
 msgid "A Theurgist is a healer. Oh, please do not misunderstand me, friend {name}, I think it is grand that my son should want to be a healer. Why I'm thrilled, but I am concerned by the suddenness of his decision."
-msgstr ""
+msgstr "神術師是治療師。噢，請別誤會，{name}朋友，我兒子想當治療師，我覺得很了不起。我當然很高興，只是他突然做出這個決定，讓我很擔心。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "What is a Theurgist? "
 msgctxt "ask 0412"
 msgid "You question his decision? "
-msgstr ""
+msgstr "你懷疑他的決定？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "You question his decision? "
 msgctxt "bark 0412:4329"
 msgid "I'm sorry if I appear to be a terrible mother by questioning his decision, but he never showed any sign of wanting to be a healer when he was growing up. He just wanted to be a gemcutter like his father. -sob- And now that he is gone, I am left alone with no one to support me. But, at least I know he is alive and well. -sniffle- I can always hope he will return to his poor widowed mother. "
-msgstr ""
+msgstr "我懷疑他的決定，或許顯得我是個糟糕的母親，真抱歉，可是他從小到大從沒表現出想當治療師的樣子。他只想跟他父親一樣當個寶石匠。（啜泣）現在他走了，留下我孤零零一個人，沒有人可以依靠。不過，至少我知道他平安健康。（抽噎）我總還能盼望他回到他可憐的寡母身邊。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "You question his decision? "
 msgctxt "ask 0412"
 msgid "I've met your son. "
-msgstr ""
+msgstr "我見過你的兒子。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "You question his decision? "
 msgctxt "ask 0412"
 msgid "I hope he returns to you. "
-msgstr ""
+msgstr "希望他能回到你身邊。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I hope he returns to you. "
 msgctxt "bark 0412:44A8"
 msgid "That would be wonderful. Oh, how I'd love to see him again. Even...even if just for a short visit. -sob-, Oh, to see his face again! "
-msgstr ""
+msgstr "那就太好了。噢，我多想再見他一面。就算……就算只是短短回來看看也好。（啜泣）噢，好想再看看他的臉！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I've met your son. "
 msgctxt "bark 0412:45EF"
 msgid "Oh, is he well? Does he speak of me? I am sure he must be the finest healer on Argentrock. Oh, -sob- his father would be so proud... if only my husband could hear this, but he never will. He will never know... oh, no, no, no! -sob- "
-msgstr ""
+msgstr "噢，他好嗎？他有提到我嗎？我相信他一定是白銀之岩上最優秀的治療師。噢，（啜泣）他父親一定會非常驕傲……要是我丈夫能聽到這些就好了，可是他再也聽不到了。他永遠不會知道了……噢，不，不，不！（啜泣）"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I'm sorry, but your son won't be back. "
 msgctxt "bark 0412:4666"
 msgid "What?! What do you mean?! "
-msgstr ""
+msgstr "什麼？！你這是什麼意思？！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I'm sorry, but your son won't be back. "
 msgctxt "ask 0412"
 msgid "Your son had an accident. "
-msgstr ""
+msgstr "你兒子出了意外。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Your son committed suicide. "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "Your son committed suicide. "
-msgstr ""
+msgstr "你兒子自殺了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Your son committed suicide. "
 msgctxt "bark 0412:47CF"
 msgid "But..but, that can't be true, oh no, no, no, it just can't be. Oh my son, my little boy.... How can this be? -sob-, please tell me! "
-msgstr ""
+msgstr "可……可是，那不可能是真的，噢不，不，不，這不可能。噢，我的兒子，我的小寶貝……怎麼會這樣？（啜泣）求求你告訴我！"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Your son committed suicide. "
 msgctxt "ask 0412"
 msgid "He couldn't pass the Theurgists tests. "
-msgstr ""
+msgstr "他沒能通過神術師的考驗。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not know. "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "I do not know. "
-msgstr ""
+msgstr "我不知道。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "I do not know. "
 msgctxt "bark 0412:4944"
 msgid "Oh, I don't think I can bear it. My heart will break in two. -sob- I'm sorry, I fear I can speak no more of it. "
-msgstr ""
+msgstr "噢，我想我承受不了。我的心都要碎了。（啜泣）對不起，我恐怕再也說不下去了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "You son passed away. "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "You son passed away. "
-msgstr ""
+msgstr "你兒子過世了。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "You son passed away. "
 msgctxt "bark 0412:4A32"
 msgid "He passed away? He was so young! Oh my, I can't believe it, I just can't.-sob- He mustn't be dead. No, no, no, he mustn't. I can't go on! Oh, no,no,no. "
-msgstr ""
+msgstr "他過世了？他還那麼年輕！噢，天哪，我不敢相信，我真的不敢相信。（啜泣）他不可能死了。不，不，不，他不能死。我活不下去了！噢，不，不，不。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Your son had an accident. "
 msgctxt "bark 0412:4B1A"
 msgid "An accident? No, I should never have let him go. Oh, now I am alone forever. What ever shall I do? What ever shall I do? No, no, no, no..... "
-msgstr ""
+msgstr "意外？不，我當初就不該讓他走。噢，現在我永遠孤單一人了。我到底該怎麼辦？我到底該怎麼辦？不，不，不，不……"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "He was trying to resurrect his father. "
 #. answer compared by the conversation code
 msgctxt "ask 0412"
 msgid "He was trying to resurrect his father. "
-msgstr ""
+msgstr "他想讓他父親復活。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "He was trying to resurrect his father. "
 msgctxt "bark 0412:4BFE"
 msgid "Oh, -sob- my brave, sweet boy.-sob- He loved his father so. Now they are both lost to me, what shall I do? What shall I do? "
-msgstr ""
+msgstr "噢，（啜泣）我勇敢又貼心的孩子。（啜泣）他那麼愛他的父親。現在他們兩個都離我而去了，我該怎麼辦？我該怎麼辦？"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "He couldn't pass the Theurgists tests. "
 msgctxt "bark 0412:4CFD"
 msgid "I don't believe you! My boy is so smart. He could not have failed! -sob- He could have done it...now he does not have a chance to try again...oh no... "
-msgstr ""
+msgstr "我不相信你！我的孩子那麼聰明。他不可能失敗的！（啜泣）他一定做得到……現在他再也沒有機會重試了……噢不……"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "He couldn't pass the Theurgists tests. "
 msgctxt "bark 0412:4D47"
 msgid "Perhaps we shall speak later. "
-msgstr ""
+msgstr "也許我們晚點再談吧。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Farewell. "
 #. sentence template: keep the {placeholders}
 msgctxt "bark 0412:4DA0"
 msgid "Farewell,  {name}."
-msgstr ""
+msgstr "再會，{name}。"
 
+# P13 batch 1
 #. event 01 (use (talk)), after "Farewell. "
 msgctxt "bark 0412:4DD5"
 msgid "Farewell "
-msgstr ""
+msgstr "再會"
