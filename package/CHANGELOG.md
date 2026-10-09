@@ -8,6 +8,7 @@
 - 專有名詞第一次出現時附英文，可在遊戲選項關閉。
 - ScummVM 遊戲選項：「Traditional Chinese translation (繁體中文)」開關（預設開啟）。
 - 中文字型 Cubic 11；可換字型，並可調整字距、中英文間距、行距（`scummvm.ini`）。
+- 高解析中文字（遊戲選項，預設關閉）：中文以視窗解析度繪製，字型 jf open 粉圓。
 - 存檔與英文版完全相容。
 
 已知問題見 `README.zh-TW.md`。

@@ -37,11 +37,13 @@ New-Item -ItemType Directory -Force $out, "$out\extra" | Out-Null   # ScummVM cr
 Copy-Item (Join-Path $rel 'scummvm.exe'), (Join-Path $rel '*.dll') $out
 Copy-Item (Join-Path $crt '*.dll') $out
 
-# translation catalog (fresh) and font
+# translation catalog (fresh) and fonts (Cubic 11; jf open huninn for the
+# high-res text layer)
 $env:PYTHONIOENCODING = 'utf-8'
 python (Join-Path $root 'tools\catalog\po_compile.py') zh_TW (Join-Path $root 'localization\zh_TW') -o "$out\extra\u8_zh_TW.mo"
 if ($LASTEXITCODE) { throw 'po_compile failed' }
-Copy-Item (Join-Path $font 'Cubic_11.ttf'), (Join-Path $font 'Cubic_11-OFL.txt') "$out\extra"
+Copy-Item (Join-Path $font 'Cubic_11.ttf'), (Join-Path $font 'Cubic_11-OFL.txt'),
+          (Join-Path $font 'jf-openhuninn-2.1.ttf'), (Join-Path $font 'jf-openhuninn-OFL.txt') "$out\extra"
 
 # portable config: its presence next to scummvm.exe turns on portable mode
 @"
@@ -53,6 +55,10 @@ font_cjk_antialiasing=false
 font_cjk_letter_spacing=1
 font_cjk_latin_spacing=3
 font_cjk_line_spacing=0
+font_cjk_hd_file=jf-openhuninn-2.1.ttf
+font_cjk_hd_letter_spacing=0.3
+font_cjk_hd_latin_spacing=1
+font_cjk_hd_line_spacing=0
 "@ | Set-Content -Encoding ascii "$out\scummvm.ini"
 
 # launcher: the relative extrapath needs the package folder as working directory

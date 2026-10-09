@@ -34,6 +34,7 @@ ScummVM 輸出（1:1，不再由 backend 縮放）
 | 字型 | `FontManager` 另存一組 high-res override（`_hdOverrides`），只有 `TextWidget` 與片頭字幕使用；其他地方（製作人員名單、狀態欄、日記輸入框等）仍用原本的 12 px 字型，畫在遊戲層 |
 | `TextWidget` | 字型量測以視窗像素、widget 尺寸與存檔欄位以遊戲像素（`textToGameX/Y`、`textTargetWidth/Height`）。**存檔內容不變**（`_targetWidth/_targetHeight` 仍存遊戲像素） |
 | 片頭字幕 | `SKFPlayer::paintComposited`，由 `MovieGump::PaintComposited` 呼叫 |
+| 屬性頁標籤 | P9 因 9 px 列距放不下中文而維持英文；高解析層下改用 8 遊戲像素的小字（`FontManager::HD_SMALL_CJK_FONT`）畫「力量／智力／敏捷／護甲／生命／魔力／負重」（`ui/engine.po`），數字維持原本字型。未開高解析時仍是英文 |
 | 圖層 | 高解析文字在整個遊戲畫完後才畫，所以 modal 視窗（選單、書、日記）**下方**的文字不畫（`DesktopGump::PaintCompositing`），避免浮在選單上 |
 | 合成順序 | 修正 Pentagram 原本由上往下的走訪順序，改為與繪製相同的順序 |
 
@@ -43,7 +44,7 @@ ScummVM 輸出（1:1，不再由 backend 縮放）
 |---|---|---|
 | `hd_text` | `false` | 高解析中文字（遊戲選項勾選框「High-resolution Chinese text（高解析中文字）」）；啟動遊戲時生效 |
 | `hd_text_size` | （自動） | 高解析畫面大小，例如 `1920x1440` |
-| `font_cjk_hd_file` | 同 `font_cjk_file` | 高解析用的字型檔 |
+| `font_cjk_hd_file` | `jf-openhuninn-2.1.ttf` | 高解析用的字型檔（使用者選定 jf open 粉圓，打包附上） |
 | `font_cjk_hd_size` | 同 `font_cjk_size` | 字級 |
 | `font_cjk_hd_antialiasing` | `true` | 反鋸齒 |
 | `font_cjk_hd_border` | 原本黑框的一半 | 黑框粗細 |
@@ -62,6 +63,7 @@ ScummVM 輸出（1:1，不再由 backend 縮放）
 | 名字輸入（書本） | 「請報上你的名字：」高解析；輸入框維持原本字型 |
 | 戴文第一次見面 | 台詞（多行、名稱加註「戴文(Devon)」、玩家名字）與選項皆高解析；點選選項正確進入分支 |
 | 主選單（存檔 1 讀檔後按 Esc） | 中文按鈕與玩家名字高解析 |
+| 屬性頁（存檔 1，按 z） | 中文標籤高解析，與數字對齊 |
 | 效能（Debug 版，1440×1080） | 遊戲層 1.7–2.5 ms、高解析層 2–5 ms／幀 |
 
 測試方式：自動化腳本啟動遊戲，以 PostMessage 對該視窗送按鍵 / 點擊（不搶焦點），用 ScummVM 的截圖熱鍵（Alt+S）存出實際輸出畫面（`PrintWindow` 對 OpenGL 視窗會拿到過時畫面，不可用）。
@@ -78,11 +80,11 @@ ScummVM 輸出（1:1，不再由 backend 縮放）
 
 ## 尚待使用者確認
 
-1. 預設附哪個高解析字型（見下節），以及打包版是否預設開啟。
+1. ~~預設附哪個高解析字型~~：**jf open 粉圓**（使用者 2026-10-09 選定；打包附字型與 OFL 授權檔）。打包版是否預設開啟：待定。
 2. 試玩：書、捲軸、墓碑 / 牌匾字幕、日記、死亡畫面、選項的滑鼠移過變色、多個 NPC 同時說話、世界翻轉（Inverter）時的台詞位置、全螢幕。
 
 ## Known Limitations
 
 - 視窗大小在遊戲中改變時，高解析畫面維持啟動時的大小，由 ScummVM 縮放（重新啟動遊戲即可重新配合）。
 - modal 視窗下方的台詞暫時不顯示（原本會被選單蓋住一部分）。
-- 狀態欄、製作人員名單、日記輸入框、`[fontoverride]` 以外的字型維持原本解析度。
+- 製作人員名單、日記輸入框、`[fontoverride]` 以外的字型維持原本解析度。

@@ -63,3 +63,33 @@ msgstr "旅程的開端……"
 msgctxt "ui"
 msgid "HERE LIES*THE AVATAR*REST IN PEACE"
 msgstr "聖者長眠於此，願其安息"
+
+#. status panel (paperdoll) labels; translated only with the high-res
+#. text layer (the game's 9 pixel rows are too small for Chinese)
+msgctxt "ui"
+msgid "STR"
+msgstr "力量"
+
+msgctxt "ui"
+msgid "INT"
+msgstr "智力"
+
+msgctxt "ui"
+msgid "DEX"
+msgstr "敏捷"
+
+msgctxt "ui"
+msgid "ARMR"
+msgstr "護甲"
+
+msgctxt "ui"
+msgid "HITS"
+msgstr "生命"
+
+msgctxt "ui"
+msgid "MANA"
+msgstr "魔力"
+
+msgctxt "ui"
+msgid "WGHT"
+msgstr "負重"

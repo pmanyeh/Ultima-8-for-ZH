@@ -298,7 +298,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - 設定：`hd_text`（勾選框，預設關閉）、`hd_text_size`、`font_cjk_hd_file` / `_size` / `_antialiasing` / `_border` / `_letter_spacing` / `_latin_spacing` / `_line_spacing`（**單位是遊戲像素，可有小數**）。細節見 P15 報告。
 - `FontManager::_hdOverrides`：只有 `TextWidget`（`getGameFont(n, true, true)`）與 `SKFPlayer` 用；其他地方仍用 12 px 字型。HD 開啟時一般字型的 `isHighRes()` 為 false。
 - 自動測試：scratchpad 的 `hdshot.ps1`（需要時重寫）：啟動 → 等 log 出現某行 → PostMessage 按鍵 / 點擊 → Alt+S 截圖（`[scummvm] screenshotpath`）。**`PrintWindow` 對 OpenGL 視窗會拿到過時畫面**。
-- 待決定：預設附哪個向量字型、打包版是否預設開啟。
+- 使用者選定高解析字型 **jf open 粉圓**（引擎預設、打包附上，授權檔 `private_test/extra/jf-openhuninn-OFL.txt`）。屬性頁標籤在高解析層下翻成中文（使用者要求）。待決定：打包版是否預設開啟。
 
 ### Master Plan §49 尚未完成的待辦
 

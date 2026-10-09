@@ -26,6 +26,7 @@
 |---|---|
 | Traditional Chinese translation (繁體中文) | 中文化開關（預設開啟）。取消勾選就是原版英文。 |
 | Show the English after names (名稱加註英文) | 專有名詞第一次出現時附上英文（預設開啟）。 |
+| High-resolution Chinese text (高解析中文字) | 中文字以視窗解析度繪製（字型 jf open 粉圓），畫面其他部分不變。重新啟動遊戲後生效。 |
 
 字型、字距等進階設定寫在本資料夾的 `scummvm.ini` 的 `[scummvm]` 區段（請在 ScummVM 關閉時修改）：
 
@@ -39,6 +40,18 @@
 | `font_cjk_line_spacing` | `0` | 行距多加的像素 |
 
 字距或行距加大後，每頁能顯示的字會變少，對話頁數會增加。
+
+高解析中文字另有一組設定（數值的單位是遊戲像素，可以有小數，例如 `0.3`；與視窗大小無關）：
+
+| 設定 | 預設 | 說明 |
+|---|---|---|
+| `font_cjk_hd_file` | `jf-openhuninn-2.1.ttf` | 高解析用的字型檔，建議用向量字型 |
+| `font_cjk_hd_size` | 同 `font_cjk_size` | 字級 |
+| `font_cjk_hd_letter_spacing` | `0.3` | 字與字之間多加的間距 |
+| `font_cjk_hd_latin_spacing` | `1` | 中文與英文字母 / 數字之間再多加的間距 |
+| `font_cjk_hd_line_spacing` | `0` | 行距多加的間距 |
+| `font_cjk_hd_border` | 原本黑框的一半 | 黑框粗細 |
+| `hd_text_size` | 符合視窗 | 高解析畫面大小，例如 `1920x1440` |
 
 ## 已知問題
 

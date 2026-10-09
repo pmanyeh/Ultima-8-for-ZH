@@ -22,6 +22,7 @@
 ## 字型
 
 - Cubic 11（俐方體 11 號）：SIL Open Font License 1.1，見 `extra/Cubic_11-OFL.txt`。
+- jf open 粉圓（jf open huninn）2.1，justfont 發行：SIL Open Font License 1.1，見 `extra/jf-openhuninn-OFL.txt`。
 
 ## ScummVM 使用的第三方函式庫
 

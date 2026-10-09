@@ -14,6 +14,7 @@
 ## 字型
 
 - [Cubic 11（俐方體 11 號）](https://github.com/ACh-K/Cubic-11)，ACh-K 製作。
+- [jf open 粉圓](https://justfont.com/huninn/)，justfont 發行（高解析中文字）。
 
 ## 原作
 
