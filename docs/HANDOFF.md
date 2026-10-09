@@ -48,7 +48,7 @@
 
 - **PO**，每個 Usecode class 一檔：`localization/zh_TW/dialog/CCCC_NAME.po`（394 檔、6,829 條），依對話流程排列；`ui/engine.po`（12 條）。**英文原文放進 repo**（使用者決策，ADR-002）。
 - 執行時讀編譯後的單一檔 `u8_zh_TW.mo`（gettext MO；英文 key 以 CP437 編碼，與遊戲的 byte 一致）。
-- 設定（game domain）：`localization=off|zh_TW`、`localization_file`（預設 `u8_<語言>.mo`）、`font_cjk_file`（預設 `Cubic_11.ttf`）、`font_cjk_size`（12）、`font_cjk_antialiasing`（false）。**CJK 字型只在 localization 啟用時載入**；只替換 `[fontoverride]` 中的字型 0、5–9。
+- 設定（game domain）：`localization=off|zh_TW`、`localization_file`（預設 `u8_<語言>.mo`）、`font_cjk_file`（預設 `Cubic_11.ttf`）、`font_cjk_size`（12）、`font_cjk_antialiasing`（false）、`font_cjk_letter_spacing` / `font_cjk_latin_spacing`（中文與英數之間）/ `font_cjk_line_spacing`（額外像素，預設 0；引擎 2026-10-09 加入）。**CJK 字型只在 localization 啟用時載入**；只替換 `[fontoverride]` 中的字型 0、5–9。
 
 ### 引擎程式（`scummvm-src/engines/ultima/ultima8/`）
 
