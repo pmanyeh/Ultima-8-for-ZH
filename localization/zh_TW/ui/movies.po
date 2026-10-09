@@ -1,0 +1,33 @@
+# Ultima VIII: Pagan - Traditional Chinese translation
+# Movie subtitles (STATIC/EINTRO.SKF), shown by the engine (context "ui").
+# ENDGAME.SKF has no subtitles.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+#. intro: the Guardian
+msgctxt "ui"
+msgid "You have been a thorn in my side for far too long, Avatar..."
+msgstr "你當我的眼中釘已經太久了，聖者……"
+
+#. intro: the Guardian
+msgctxt "ui"
+msgid "Your two worlds will be crushed... Britannia first, then Earth!"
+msgstr "你的兩個世界都將被粉碎……先是不列顛尼亞，然後是地球！"
+
+#. intro: the Guardian
+msgctxt "ui"
+msgid "I shall parade you before their conquered peoples, as the fallen idol of a pathetic ideal!"
+msgstr "我要把你押到那些被征服的人民面前遊街示眾，當作一個可悲理想的殞落偶像！"
+
+#. intro: the Guardian
+msgctxt "ui"
+msgid "I banish you to the world of Pagan!"
+msgstr "我要把你放逐到佩根的世界！"
+
+#. intro: the Guardian
+msgctxt "ui"
+msgid "No one here knows of the AVATAR!"
+msgstr "這裡沒有人知道「聖者」是誰！"
