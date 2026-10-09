@@ -2,7 +2,7 @@
 
 ## ScummVM Ultima8 Engine / Traditional Chinese Localization
 
-**文件狀態：** Master Plan v2.9（2026-10-07；v2 依 Phase 0–2 實證修訂，v2.1–v2.9 為 Phase 4–12 的結果，見 Revision Log）  
+**文件狀態：** Master Plan v3.0（2026-10-09；v2 依 Phase 0–2 實證修訂，v2.1–v3.0 為 Phase 4–15 的結果，見 Revision Log）  
 **目標遊戲：** Ultima VIII: Pagan  
 **主要 Runtime：** ScummVM — Ultima8 Engine  
 **架構來源：** Pentagram → ScummVM Ultima8  
@@ -47,7 +47,18 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ✅ PASS · P12 ✅ PASS · P13 ✅ PASS · P14 ✅ PASS · P15 ⏳ 待開始
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ✅ PASS · P12 ✅ PASS · P13 ✅ PASS · P14 ✅ PASS · P15 🔄 實作完成，待試玩
+
+## v3.0 — 2026-10-09（Phase 15 高解析文字層）
+
+依據：[docs/reports/P15-hd-text-layer.md](docs/reports/P15-hd-text-layer.md)
+
+| 章節 | 修訂內容 |
+|---|---|
+| §18.1 | P15 實作完成 |
+| §34 | HD 文字層的實際做法：恢復 Pentagram 的縮放 + 合成架構（遊戲層不變） |
+| §48 | 長期方案已實作；向量字型的選擇待使用者決定 |
+| §49 | #12 實作完成 |
 
 ## v2.9 — 2026-10-07（Phase 12 完成後）
 
@@ -1123,6 +1134,7 @@ P15 Optional Enhancements
 | P12 Save / Speech / Regression Hardening | ✅ PASS（2026-10-07） | `docs/reports/P12-save-speech-regression.md` |
 | P13 Full Translation Campaign | ✅ PASS（2026-10-09）— 99.8%，6,949 條 | `docs/reports/P13-full-translation.md` |
 | P14 Packaging | ✅ PASS（2026-10-09，使用者驗收）— Windows 免安裝包、GPL-3.0、勾選框預設開啟 | `docs/reports/P14-packaging.md` |
+| P15 HD Text Layer | 🔄 實作完成（2026-10-09），待使用者試玩 | `docs/reports/P15-hd-text-layer.md` |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
 
@@ -2531,6 +2543,8 @@ voice replacement
 
 v2：其中「larger high-resolution dialogue / HD font profiles」是讓向量中文字型清晰顯示的根本解法（見 §48）。ScummVM 移除了 Pentagram 的 ScalerGump，需要新增一層以視窗解析度繪製文字的機制。第一版以像素字型因應。
 
+v3.0（P15）：已實作 HD 文字層（`hd_text`）。遊戲仍畫在 320×200，每幀放大到視窗解析度，再以 Pentagram 留下的 `PaintCompositing` 把高解析字型的文字畫上去；滑鼠座標換回遊戲座標，存檔不受影響。見 [P15 報告](docs/reports/P15-hd-text-layer.md)。
+
 ---
 
 # 35. Player Name / Chinese Input
@@ -3042,7 +3056,7 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 
 - **第一版：** 像素字型 Cubic 11（SIL OFL），12px，關閉反鋸齒。
 - **必要工具：** 字集覆蓋檢查（P3），確認譯文用字都在字型內，並規劃缺字的 fallback 字型。
-- **長期（P15）：** 以視窗解析度繪製文字的 HD 文字層，屆時改用向量字型（Noto Sans TC 等）。
+- **長期（P15）：** 以視窗解析度繪製文字的 HD 文字層，屆時改用向量字型（Noto Sans TC 等）。**v3.0 已實作**（`hd_text` + `font_cjk_hd_*`），預設字型待使用者決定。
 - 中文字型的大小與顏色沿用原版 `u8game.ini` `[fontoverride]` 的顏色與黑框設定。
 
 ---
@@ -3062,7 +3076,7 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 9 | 共用 class（例如 `METHOD 057C`）代為發話時的對話脈絡 | P10 |
 | 10 | ~~BookGump 的 `_TL_()` 書本修正與新翻譯層並存~~ ✅ 有譯文時不套用英文修正（P10） | P10 |
 | 11 | 建立 ScummVM fork 並改為 submodule | P3 之前或期間 |
-| 12 | HD 文字層 | P15 |
+| 12 | HD 文字層 — ✅ 實作完成（`hd_text`，P15 報告），待試玩 | P15 |
 | 13 | ~~是否只在 localization 開啟時載入 CJK 字型~~ ✅ 是（OFF 時與原版完全相同）。開啟時未翻譯的英文仍會以像素字型顯示 | P4 |
 | 14 | 原版換行在字元比行寬時無限迴圈 → 已在 P3 修正，可考慮回報 upstream | — |
 | 15 | 遊戲選項 GUI 的語言選單（ScummVM game option 只有勾選框，需要自訂 widget） | P9 或之後 |
