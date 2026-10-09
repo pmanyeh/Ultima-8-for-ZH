@@ -26,7 +26,7 @@
 |---|---|
 | Traditional Chinese translation (繁體中文) | 中文化開關（預設開啟）。取消勾選就是原版英文。 |
 | Show the English after names (名稱加註英文) | 專有名詞第一次出現時附上英文（預設開啟）。 |
-| High-resolution Chinese text (高解析中文字) | 中文字以視窗解析度繪製（字型 jf open 粉圓），畫面其他部分不變。重新啟動遊戲後生效。 |
+| High-resolution Chinese text (高解析中文字) | 中文字以視窗解析度繪製（字型 jf open 粉圓），畫面其他部分不變（預設開啟）。重新啟動遊戲後生效。 |
 
 字型、字距等進階設定寫在本資料夾的 `scummvm.ini` 的 `[scummvm]` 區段（請在 ScummVM 關閉時修改）：
 
