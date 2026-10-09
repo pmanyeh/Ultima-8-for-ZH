@@ -1,4 +1,4 @@
-# Startup regression (Phase 12, recreates the Phase 4 scenarios): start the dev
+﻿# Startup regression (Phase 12, recreates the Phase 4 scenarios): start the dev
 # build with each configuration until "-- Game Initialized --", close it and
 # print the localization log lines. The game window is not touched.
 #
@@ -11,8 +11,10 @@
 #   D broken         catalog truncated by 40 bytes
 #   E language       catalog header says ja_JP
 #   F no font        font_cjk_file=p12test_missing.ttf
-#   G unset          no localization key
+#   G unset          no localization key (P14: defaults to zh_TW)
 #   H no override    localization=zh_TW, font_override=false
+#   J checkbox off   localization_zh_tw=false overrides localization=zh_TW (P14)
+#   K checkbox on    localization_zh_tw=true, no localization key (P14)
 #   I English ini    private_test\scummvm-dev-en.ini
 # Test catalogs are written to private_test\extra\p12test_* and removed again.
 param([string]$Work = '')
@@ -32,7 +34,7 @@ $ja = [Text.Encoding]::GetEncoding(28591).GetBytes($text.Replace('Language: zh_T
 [IO.File]::WriteAllBytes((Join-Path $extra 'p12test_ja.mo'), $ja)
 
 function New-Config([string]$name, [string]$base, [hashtable]$set, [string[]]$remove = @()) {
-    $keys = @($set.Keys) + $remove
+    $keys = @($set.Keys) + $remove + 'localization_zh_tw'   # checkbox key only where a scenario sets it
     $out = foreach ($l in (Get-Content -LiteralPath $base)) {
         $k = ($l -split '=', 2)[0]
         if ($keys -contains $k -or $k -eq 'lastSave') { continue }
@@ -54,6 +56,8 @@ $scenarios = [ordered]@{
     'F-nofont'     = New-Config 'F-nofont' $zh @{ localization = 'zh_TW'; font_cjk_file = 'p12test_missing.ttf' }
     'G-unset'      = New-Config 'G-unset' $zh @{} @('localization')
     'H-nooverride' = New-Config 'H-nooverride' $zh @{ localization = 'zh_TW'; font_override = 'false' }
+    'J-checkoff'   = New-Config 'J-checkoff' $zh @{ localization = 'zh_TW'; localization_zh_tw = 'false' }
+    'K-checkon'    = New-Config 'K-checkon' $zh @{ localization_zh_tw = 'true' } @('localization')
     'I-english'    = New-Config 'I-english' (Join-Path $priv 'scummvm-dev-en.ini') @{}
 }
 foreach ($s in $scenarios.GetEnumerator()) {

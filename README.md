@@ -86,7 +86,7 @@ python tools/catalog/progress.py zh_TW             # 更新本頁的翻譯進度
 
 - Ultima VIII: Pagan 及其文字的著作權屬於原權利人（Origin Systems / Electronic Arts）。翻譯檔中保留的英文原文，僅作為對照翻譯之用。
 - 中文字型 Cubic 11 採用 SIL Open Font License 1.1。
-- 本專案的授權條款將在正式發布前決定。
+- 本專案（譯文、權威檔、工具）以 GNU General Public License v3.0 或更新版本授權，全文見 [LICENSE](LICENSE)；引擎修改沿用 ScummVM 的 GPL-3.0。
 
 ## 致謝
 

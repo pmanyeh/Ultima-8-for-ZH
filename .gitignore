@@ -20,3 +20,6 @@ __pycache__/
 .vscode/
 Thumbs.db
 desktop.ini
+
+# Release packages (tools/package/make_package.ps1)
+/dist/

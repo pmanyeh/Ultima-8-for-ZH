@@ -86,7 +86,7 @@ python tools/catalog/progress.py zh_TW             # update the progress on this
 
 - *Ultima VIII: Pagan* and its text are copyright of their owners (Origin Systems / Electronic Arts). The English text kept in the translation files is quoted for reference while translating.
 - The Cubic 11 font is licensed under the SIL Open Font License 1.1.
-- The license of this project will be decided before the first release.
+- This project (translations, authority file, tools) is licensed under the GNU General Public License v3.0 or later, see [LICENSE](LICENSE); the engine changes follow ScummVM's GPL-3.0.
 
 ## Thanks
 
