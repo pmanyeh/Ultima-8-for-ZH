@@ -1,7 +1,7 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
-**更新日期：** 2026-10-09（P15 高解析文字層：實作完成，待使用者試玩與決定預設字型）
-**目前進度：** Phase 0–13 ✅ PASS（P13 報告 `docs/reports/P13-full-translation.md`），Phase 14（打包）✅ PASS（報告 `docs/reports/P14-packaging.md`，產生方式見 §8 末）。**P15 高解析文字層進行中**（報告 `docs/reports/P15-hd-text-layer.md`，見 §8 末）。其他待使用者決定：Release 呈現方式（使用者想參考「叛變克朗多」專案的 `dist/release_v100_zh`）、Mac 版（GitHub Actions）、P15 高解析文字層（Master Plan §34、§48）。舊摘要：Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**Phase 13（正式翻譯）進行中**：第一批（開場 → 碼頭處決 → 城內衛兵）已完成並經使用者試玩確認。下一步見 §8。
+**更新日期：** 2026-10-10（P15 高解析文字層 PASS，打包 v0.9.1-beta，已 push）
+**目前進度：** Phase 0–13 ✅ PASS（P13 報告 `docs/reports/P13-full-translation.md`），Phase 14（打包）✅ PASS（報告 `docs/reports/P14-packaging.md`，產生方式見 §8 末）。**P15 高解析文字層 ✅ PASS**（報告 `docs/reports/P15-hd-text-layer.md`，見 §8 末）。其他待使用者決定：Release 呈現方式（使用者想參考「叛變克朗多」專案的 `dist/release_v100_zh`）、Mac 版（GitHub Actions）、P15 高解析文字層（Master Plan §34、§48）。舊摘要：Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**Phase 13（正式翻譯）進行中**：第一批（開場 → 碼頭處決 → 城內衛兵）已完成並經使用者試玩確認。下一步見 §8。
 
 給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.9，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
 
@@ -292,7 +292,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - 套件只附 Cubic 11；使用者自用的細明體（`chinese.ttf`）不可散布。
 - 使用者已驗收（2026-10-09：運作良好，中文顯示正常）。待決定：發布管道（GitHub Releases 等，需使用者同意才上傳）。
 
-### P15 高解析文字層（2026-10-09，待使用者試玩）
+### P15 高解析文字層（2026-10-10 PASS）
 
 - 遊戲照舊畫在 320×200，每幀最近鄰放大到視窗大小的 `_hdScreen`，再由 `PaintCompositing` 畫高解析字型的 `TextWidget` 與片頭字幕。滑鼠座標在 `handleEvent` 換回遊戲座標；游標圖放大。
 - 設定：`hd_text`（勾選框，**預設開啟**）、`hd_text_size`、`font_cjk_hd_file` / `_size` / `_antialiasing` / `_border` / `_letter_spacing` / `_latin_spacing` / `_line_spacing`（**單位是遊戲像素，可有小數**）。細節見 P15 報告。
@@ -306,7 +306,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 |---|---|---|
 | 8–9 | 5 個無法自動解析的 bark（PYROS、SORCERER ×2、METHOD ×2，文字來自呼叫端參數）、共用 class 的對話脈絡 | 翻譯時 |
 | 11 | 建立 ScummVM fork 並改為 submodule | 待使用者決定 |
-| 12 | HD 文字層 | P15 實作完成（待試玩） |
+| 12 | HD 文字層 | ✅ P15 PASS |
 | 14 | 原版換行無限迴圈的修正可回報 upstream | — |
 | 15 | 遊戲選項 GUI 的語言選單 | 之後 |
 | 16 | 翻譯檔加入遊戲資料版本（`EUSECODE.FLX` 雜湊） | 待定 |

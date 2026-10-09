@@ -15,12 +15,13 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 - **Dynamic sentences**: sentences built from the player's name, quantities or item kinds (e.g. "50 piles of wood", "wand of ignite with 3 uses remaining") are translated correctly.
 - **Speech and subtitles**: speaking characters keep their English voice with Chinese subtitles, pages follow the speech.
 - **Chinese font**: the [Cubic 11](https://github.com/ACh-K/Cubic-11) pixel font (SIL OFL 1.1), close to the look of the original; Chinese line breaking and punctuation rules.
+- **High-resolution Chinese text**: the game keeps its original 320×200 picture, while the Chinese text is drawn at the window resolution in [jf open huninn](https://justfont.com/huninn/), which also makes room for a Chinese status panel (on by default, can be turned off in the game options).
 - **Safe fallback**: a missing translation, a broken catalog or a missing font always shows the English text — never garbage or a crash.
 
 ## Translation progress
 
 <!-- progress:start -->
-**Overall (by English characters): `████████████████████` 99.8%** (6,949 / 7,000 entries, updated 2026-10-09)
+**Overall (by English characters): `████████████████████` 99.8%** (6,956 / 7,007 entries, updated 2026-10-10)
 
 | Kind | Translated / total (entries) | English characters | Progress |
 |---|---|---|---|
@@ -31,7 +32,7 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 | Gravestones | 67 / 67 | 2,609 | 100.0% |
 | Plaques | 63 / 63 | 1,410 | 100.0% |
 | Sentence pieces | 54 / 54 | 505 | 100.0% |
-| Interface | 17 / 17 | 432 | 100.0% |
+| Interface | 24 / 24 | 457 | 100.0% |
 
 Characters and scenes done: Abacus, Agware, Airfocus, Altar, Altar_ew, Amostat, Anctones, Anvil, Aorta, Apastat, Appear, Aramina, Arcadion, Armguard, Armor, Axe, Axe2, Axeblade, Backpack, Bag, Bane, Bane2, Barentry, Barrel, Basebook, Basescrl, Basket, Bathstuf, Bellows, Benchew, Bentic, Beren, Berenhch, Bgate, Bigdemst, Bigugly, Bladstrk, Blankets, Boat, Bones, Bones2, Bones3, Bones4, Book1, Bookbloo, Bookmark, Bottle, Branches, Bribook, Bribook2, Bribook3, Bribook4, Bribook5, Bribook6, Brock, Brokchar, Broken, Brokstf1, Bug, Burndout, Calguard, Campfire, Candlbra, Candle, Canopy, Canopyew, Canopytp, Cauldron, Chair, Chest_ew, Chest_ns, Child, Chimney, Chopblk, Cloth, Clothes, Clothing, Codew, Codns, Obsidian coins, Corinth, Cuffs, Cup, Cusion, Cyrrus, Daemspel, Dagger, Dagger2, Dart, Dartbord, Deadcloz, Deadew, Deadns, Deathdis, Deceiver, Demnstat, Demon, Deskew, Deskns, Deskpict, Devon, Door_ns, Dtable, Dummy, Earthmag, Ebrock, Endgate, Endgate2, Endhydro, Endlamp, Endlith, Endskul, Endstrat, Erthitem, Erthreag, Erthspel, Ethereag, Evilsorc, Ewbpaint, Ewcrops, Ewhollog, Ewlamptp, Ewshelf, Ewshfsid, Ewspaint, Execution scene, Eye, Fallrock, Fan, Febarsew, Febarsns, Fenalia, Fgrenade, Fight, Firefeld, Fireglob, Fireitem, Firepit, Fireplac, Fireplew, Fireplns, Firereag, Fireshld, Fireshro, Firespel, Fireswmp, Firewood, Fish, Fish2, Fishbonz, Fishnet, Fishpole, Flamstng, Flask, Floatin, Flour, Food, Free, Ftableew, Ftablens, Gargoyle, Gateskul, Gemofpro, Ghost, Ghosthed, Ghoul, Girlsstu, Golem, Gorgrond, Graveii, Grave_ew, Grave_ns, Greentre, Grenade, Grimoire, Gate guard, Guard10, Guard2, Guard3, Guard4, Guard5, Guard6, Guard7, Guard8, Guard9, Guardman, Guard_ew, Gwillim, Hammer, Hamostr, Hay, Helmet, Hourglas, Hydros, Intern, Ironman, Jbox, Jenna, Jewelry, Jug, Kegew, Kegns, Key, Keyonec, Keyring, Kilandra, Kingbdew, Kingbdns, Kith, Korgfang, Korick, Lamp1, Lamp2, Lamp3, Lamppost, Lava, Lavasink, Layghoul, Lchst_ew, Lchst_ns, Legging, Legs, Lever, Lithos, Litlmush, Logbook, Logbook2, Logbook3, Logbook4, Logo, Loom, Lothalt, Lothcorp, Lothlay, Mace, Mace2, Magarm, Magarmr2, Magarms, Maghelm, Maglegs, Magscrol, Magshld, Malchir, Marble, Melbook, Method, Mir, Monfast, Mordea, Mordeabe, Mordstat, Morebrok, Morefish, Morefood, Move, Mushcap, Mushgrup, Mushroom, Mythran, Nec1, Nitstand, Nsbpaint, Nscrops, Nshollog, Nslamptp, Nsrunwod, Nsshelf, Nsshfsid, Nsspaint, Nssticks, Oaktblew, Oaktblns, Odistat, Offsup, Opnbdrol, Orlok, Oven, Pedestal, Pent, Pesant1, Pesant2, Pesant3, Plaqueew, Plaquens, Platefoo, Pole, Potion, Potplant, Potspans, Protectr, Pulchnew, Pulchnns, Pyros, Rainbarl, Rat, Recall, Rhian, Rope, Sabre, Salklog, Schair, Scimitar, Scimokg, Screamer, Scroll1, Scroll2, Sgargl, Sgbook, Shaana, Shchimne, Shield, Shortmsh, Silvore, Sinking, Skeleton, Skulcand, Skullhea, Skulz, Slayer, Smalmush, Sorchat, Spelcmbt, Spider, Spiky, Spitter, Spout, Stalag, Statue, Statue1, Statuet, Stellos, Stevbook, Stmite, Stovpipe, Strathat, Stratos, Straw, Sword, Sword2, Tablware, Tallcand, Tankard, Tapestew, Tapestns, Tarna, Thurgist, Tomb, Toran, Torax, Torch, Tortchar, Tortrack, Torwin, Tossrock, Toys, Trap, Tree, Trialhat, Tring, Troll, Troodle, Troughew, Troughns, Trowel, Vanish, Vardion, Vardion2, Vase, Vivalter, Vivdagr, Vividos, Wallswit, Wardew, Wardns, Wbench, Well, Winchew, Winchns, Wool, Woundtor, Wtable, Wtableew, Wthrone, _
 <!-- progress:end -->
@@ -85,11 +86,12 @@ python tools/catalog/progress.py zh_TW             # update the progress on this
 ## Copyright and license
 
 - *Ultima VIII: Pagan* and its text are copyright of their owners (Origin Systems / Electronic Arts). The English text kept in the translation files is quoted for reference while translating.
-- The Cubic 11 font is licensed under the SIL Open Font License 1.1.
+- The Cubic 11 and jf open huninn fonts are licensed under the SIL Open Font License 1.1.
 - This project (translations, authority file, tools) is licensed under the GNU General Public License v3.0 or later, see [LICENSE](LICENSE); the engine changes follow ScummVM's GPL-3.0.
 
 ## Thanks
 
 - [ScummVM](https://www.scummvm.org/) and the Pentagram team for the Ultima 8 engine
 - [Cubic 11](https://github.com/ACh-K/Cubic-11)
+- [jf open huninn](https://justfont.com/huninn/) (justfont)
 - All Ultima fans

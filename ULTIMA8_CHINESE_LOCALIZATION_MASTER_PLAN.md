@@ -47,7 +47,7 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ✅ PASS · P12 ✅ PASS · P13 ✅ PASS · P14 ✅ PASS · P15 🔄 實作完成，待試玩
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ✅ PASS · P12 ✅ PASS · P13 ✅ PASS · P14 ✅ PASS · P15 ✅ PASS
 
 ## v3.0 — 2026-10-09（Phase 15 高解析文字層）
 
@@ -55,7 +55,7 @@
 
 | 章節 | 修訂內容 |
 |---|---|
-| §18.1 | P15 實作完成 |
+| §18.1 | P15 PASS（2026-10-10） |
 | §34 | HD 文字層的實際做法：恢復 Pentagram 的縮放 + 合成架構（遊戲層不變） |
 | §48 | 長期方案已實作；向量字型的選擇待使用者決定 |
 | §49 | #12 實作完成 |
@@ -1134,7 +1134,7 @@ P15 Optional Enhancements
 | P12 Save / Speech / Regression Hardening | ✅ PASS（2026-10-07） | `docs/reports/P12-save-speech-regression.md` |
 | P13 Full Translation Campaign | ✅ PASS（2026-10-09）— 99.8%，6,949 條 | `docs/reports/P13-full-translation.md` |
 | P14 Packaging | ✅ PASS（2026-10-09，使用者驗收）— Windows 免安裝包、GPL-3.0、勾選框預設開啟 | `docs/reports/P14-packaging.md` |
-| P15 HD Text Layer | 🔄 實作完成（2026-10-09），待使用者試玩 | `docs/reports/P15-hd-text-layer.md` |
+| P15 HD Text Layer | ✅ PASS（2026-10-10，使用者驗收）— 高解析中文字預設開啟、jf open 粉圓、屬性頁中文 | `docs/reports/P15-hd-text-layer.md` |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
 
@@ -3076,7 +3076,7 @@ Ultima VIII 以 **320×200** 繪製，再由 ScummVM 放大到視窗（例如 14
 | 9 | 共用 class（例如 `METHOD 057C`）代為發話時的對話脈絡 | P10 |
 | 10 | ~~BookGump 的 `_TL_()` 書本修正與新翻譯層並存~~ ✅ 有譯文時不套用英文修正（P10） | P10 |
 | 11 | 建立 ScummVM fork 並改為 submodule | P3 之前或期間 |
-| 12 | HD 文字層 — ✅ 實作完成（`hd_text`，P15 報告），待試玩 | P15 |
+| 12 | ~~HD 文字層~~ ✅ `hd_text`（P15 報告） | P15 |
 | 13 | ~~是否只在 localization 開啟時載入 CJK 字型~~ ✅ 是（OFF 時與原版完全相同）。開啟時未翻譯的英文仍會以像素字型顯示 | P4 |
 | 14 | 原版換行在字元比行寬時無限迴圈 → 已在 P3 修正，可考慮回報 upstream | — |
 | 15 | 遊戲選項 GUI 的語言選單（ScummVM game option 只有勾選框，需要自訂 widget） | P9 或之後 |

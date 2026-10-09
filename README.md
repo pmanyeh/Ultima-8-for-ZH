@@ -15,12 +15,13 @@
 - **動態句子**：含玩家名字、數量、物品種類的句子（例如「50 堆木頭」「點燃術魔杖（剩 3 次）」）都能正確翻譯。
 - **語音與字幕**：有語音的角色播放英文原音，配上中文字幕，翻頁與語音同步。
 - **中文字型**：[Cubic 11（俐方體 11 號）](https://github.com/ACh-K/Cubic-11)點陣字型（SIL OFL 1.1），風格貼近原作；支援中文換行與標點禁則。
+- **高解析中文字**：遊戲畫面維持原版的 320×200，中文則以視窗解析度、[jf open 粉圓](https://justfont.com/huninn/)字型繪製，清晰易讀；屬性頁也因此能顯示中文（預設開啟，可在遊戲選項關閉）。
 - **安全退回**：找不到譯文、翻譯檔損壞或缺字型時，一律顯示英文原文，不會出現亂碼或當機。
 
 ## 翻譯進度
 
 <!-- progress:start -->
-**整體進度（以英文字元計）：`████████████████████` 99.8%**（6,949 / 7,000 條，更新於 2026-10-09）
+**整體進度（以英文字元計）：`████████████████████` 99.8%**（6,956 / 7,007 條，更新於 2026-10-10）
 
 | 類別 | 已翻譯 / 全部（條） | 英文字元 | 進度 |
 |---|---|---|---|
@@ -31,7 +32,7 @@
 | 墓碑 | 67 / 67 | 2,609 | 100.0% |
 | 牌匾 | 63 / 63 | 1,410 | 100.0% |
 | 句子參數 | 54 / 54 | 505 | 100.0% |
-| 介面文字 | 17 / 17 | 432 | 100.0% |
+| 介面文字 | 24 / 24 | 457 | 100.0% |
 
 已完成的角色與場景：Abacus、Agware、Airfocus、Altar、Altar_ew、Amostat、Anctones、Anvil、Aorta、Apastat、Appear、阿拉米娜、阿卡迪昂、Armguard、Armor、Axe、Axe2、Axeblade、Backpack、Bag、貝恩、Bane2、Barentry、Barrel、Basebook、Basescrl、Basket、Bathstuf、Bellows、Benchew、班提克、貝倫、Berenhch、Bgate、Bigdemst、Bigugly、Bladstrk、Blankets、Boat、Bones、Bones2、Bones3、Bones4、Book1、Bookbloo、Bookmark、Bottle、Branches、Bribook、Bribook2、Bribook3、Bribook4、Bribook5、Bribook6、Brock、Brokchar、Broken、Brokstf1、Bug、Burndout、Calguard、Campfire、Candlbra、Candle、Canopy、Canopyew、Canopytp、Cauldron、Chair、Chest_ew、Chest_ns、Child、Chimney、Chopblk、Cloth、Clothes、Clothing、Codew、Codns、黑曜石幣、柯林斯、Cuffs、Cup、Cusion、席勒斯、Daemspel、Dagger、Dagger2、Dart、Dartbord、Deadcloz、Deadew、Deadns、Deathdis、Deceiver、Demnstat、Demon、Deskew、Deskns、Deskpict、戴文、Door_ns、Dtable、Dummy、Earthmag、Ebrock、Endgate、Endgate2、Endhydro、Endlamp、Endlith、Endskul、Endstrat、Erthitem、Erthreag、Erthspel、Ethereag、Evilsorc、Ewbpaint、Ewcrops、Ewhollog、Ewlamptp、Ewshelf、Ewshfsid、Ewspaint、處決場景、Eye、Fallrock、Fan、Febarsew、Febarsns、Fenalia、Fgrenade、Fight、Firefeld、Fireglob、Fireitem、Firepit、Fireplac、Fireplew、Fireplns、Firereag、Fireshld、Fireshro、Firespel、Fireswmp、Firewood、Fish、Fish2、Fishbonz、Fishnet、Fishpole、Flamstng、Flask、Floatin、Flour、Food、Free、Ftableew、Ftablens、Gargoyle、Gateskul、Gemofpro、Ghost、Ghosthed、Ghoul、Girlsstu、Golem、戈格隆德、Graveii、Grave_ew、Grave_ns、Greentre、Grenade、Grimoire、城門衛兵、Guard10、Guard2、Guard3、Guard4、Guard5、Guard6、Guard7、Guard8、Guard9、Guardman、Guard_ew、威廉、Hammer、Hamostr、Hay、Helmet、Hourglas、海德羅斯、Intern、Ironman、Jbox、珍娜、Jewelry、Jug、Kegew、Kegns、Key、Keyonec、Keyring、奇蘭卓、Kingbdew、Kingbdns、Kith、Korgfang、科里克、Lamp1、Lamp2、Lamp3、Lamppost、Lava、Lavasink、Layghoul、Lchst_ew、Lchst_ns、Legging、Legs、Lever、利索斯、Litlmush、Logbook、Logbook2、Logbook3、Logbook4、Logo、Loom、Lothalt、Lothcorp、Lothlay、Mace、Mace2、Magarm、Magarmr2、Magarms、Maghelm、Maglegs、Magscrol、Magshld、馬爾奇爾、Marble、Melbook、Method、Mir、Monfast、莫爾迪亞、Mordeabe、Mordstat、Morebrok、Morefish、Morefood、Move、Mushcap、Mushgrup、Mushroom、米斯蘭、Nec1、Nitstand、Nsbpaint、Nscrops、Nshollog、Nslamptp、Nsrunwod、Nsshelf、Nsshfsid、Nsspaint、Nssticks、Oaktblew、Oaktblns、Odistat、Offsup、Opnbdrol、歐洛克、Oven、Pedestal、Pent、Pesant1、Pesant2、Pesant3、Plaqueew、Plaquens、Platefoo、Pole、Potion、Potplant、Potspans、Protectr、Pulchnew、Pulchnns、派羅斯、Rainbarl、Rat、Recall、芮安、Rope、Sabre、Salklog、Schair、Scimitar、Scimokg、Screamer、Scroll1、Scroll2、Sgargl、Sgbook、夏娜、Shchimne、Shield、Shortmsh、Silvore、Sinking、Skeleton、Skulcand、Skullhea、Skulz、Slayer、Smalmush、Sorchat、Spelcmbt、Spider、Spiky、Spitter、Spout、Stalag、Statue、Statue1、Statuet、史泰洛斯、Stevbook、Stmite、Stovpipe、Strathat、史特拉托斯、Straw、Sword、Sword2、Tablware、Tallcand、Tankard、Tapestew、Tapestns、塔娜、Thurgist、Tomb、托蘭、Torax、Torch、Tortchar、Tortrack、托溫、Tossrock、Toys、Trap、Tree、Trialhat、Tring、Troll、Troodle、Troughew、Troughns、Trowel、Vanish、瓦爾迪恩、Vardion2、Vase、Vivalter、Vivdagr、維維多斯、Wallswit、Wardew、Wardns、Wbench、Well、Winchew、Winchns、Wool、Woundtor、Wtable、Wtableew、Wthrone、_
 <!-- progress:end -->
@@ -85,11 +86,12 @@ python tools/catalog/progress.py zh_TW             # 更新本頁的翻譯進度
 ## 版權與授權
 
 - Ultima VIII: Pagan 及其文字的著作權屬於原權利人（Origin Systems / Electronic Arts）。翻譯檔中保留的英文原文，僅作為對照翻譯之用。
-- 中文字型 Cubic 11 採用 SIL Open Font License 1.1。
+- 中文字型 Cubic 11、jf open 粉圓採用 SIL Open Font License 1.1。
 - 本專案（譯文、權威檔、工具）以 GNU General Public License v3.0 或更新版本授權，全文見 [LICENSE](LICENSE)；引擎修改沿用 ScummVM 的 GPL-3.0。
 
 ## 致謝
 
 - [ScummVM](https://www.scummvm.org/) 與 Pentagram 團隊的 Ultima 8 引擎
 - [Cubic 11（俐方體 11 號）](https://github.com/ACh-K/Cubic-11)
+- [jf open 粉圓](https://justfont.com/huninn/)（justfont）
 - 所有 Ultima 同好
