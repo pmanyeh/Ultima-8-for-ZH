@@ -1,7 +1,7 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
 **更新日期：** 2026-10-09（P13 第二～八批：全遊戲翻譯完成，99.8%，待試玩）
-**目前進度：** Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**Phase 13（正式翻譯）進行中**：第一批（開場 → 碼頭處決 → 城內衛兵）已完成並經使用者試玩確認。下一步見 §8。
+**目前進度：** Phase 0–13 ✅ PASS（P13 報告 `docs/reports/P13-full-translation.md`），**P14（打包）進行中**。舊摘要：Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**Phase 13（正式翻譯）進行中**：第一批（開場 → 碼頭處決 → 城內衛兵）已完成並經使用者試玩確認。下一步見 §8。
 
 給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.9，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
 

@@ -1121,6 +1121,8 @@ P15 Optional Enhancements
 | P10 Extraction & Toolchain | ✅ PASS（2026-10-06） | `docs/reports/P10-extraction-toolchain.md` |
 | P11 Dynamic Strings / Pagination / Timing | ✅ PASS（2026-10-07） | `docs/reports/P11-dynamic-strings-pagination-timing.md` |
 | P12 Save / Speech / Regression Hardening | ✅ PASS（2026-10-07） | `docs/reports/P12-save-speech-regression.md` |
+| P13 Full Translation Campaign | ✅ PASS（2026-10-09）— 99.8%，6,949 條 | `docs/reports/P13-full-translation.md` |
+| P14 Packaging | 🔄 進行中（2026-10-09 起） | — |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
 
