@@ -47,7 +47,7 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ✅ PASS · P12 ✅ PASS · P13 ✅ PASS · P14 🔄 待驗收
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ✅ PASS · P12 ✅ PASS · P13 ✅ PASS · P14 ✅ PASS · P15 ⏳ 待開始
 
 ## v2.9 — 2026-10-07（Phase 12 完成後）
 
@@ -1122,7 +1122,7 @@ P15 Optional Enhancements
 | P11 Dynamic Strings / Pagination / Timing | ✅ PASS（2026-10-07） | `docs/reports/P11-dynamic-strings-pagination-timing.md` |
 | P12 Save / Speech / Regression Hardening | ✅ PASS（2026-10-07） | `docs/reports/P12-save-speech-regression.md` |
 | P13 Full Translation Campaign | ✅ PASS（2026-10-09）— 99.8%，6,949 條 | `docs/reports/P13-full-translation.md` |
-| P14 Packaging | 🔄 待使用者驗收（2026-10-09）— Windows 免安裝包、GPL-3.0、勾選框預設開啟 | `docs/reports/P14-packaging.md` |
+| P14 Packaging | ✅ PASS（2026-10-09，使用者驗收）— Windows 免安裝包、GPL-3.0、勾選框預設開啟 | `docs/reports/P14-packaging.md` |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
 

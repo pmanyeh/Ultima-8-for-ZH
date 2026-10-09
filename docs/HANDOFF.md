@@ -1,7 +1,7 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
-**更新日期：** 2026-10-09（P14 打包：Windows 免安裝包已產生，待使用者驗收）
-**目前進度：** Phase 0–13 ✅ PASS（P13 報告 `docs/reports/P13-full-translation.md`），**P14（打包）待使用者驗收**（報告 `docs/reports/P14-packaging.md`，產生方式見 §8 末）。舊摘要：Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**Phase 13（正式翻譯）進行中**：第一批（開場 → 碼頭處決 → 城內衛兵）已完成並經使用者試玩確認。下一步見 §8。
+**更新日期：** 2026-10-09（P14 打包 PASS：使用者已驗收 Windows 免安裝包）
+**目前進度：** Phase 0–13 ✅ PASS（P13 報告 `docs/reports/P13-full-translation.md`），Phase 14（打包）✅ PASS（報告 `docs/reports/P14-packaging.md`，產生方式見 §8 末）。**下一步待使用者決定**：Release 呈現方式（使用者想參考「叛變克朗多」專案的 `dist/release_v100_zh`）、Mac 版（GitHub Actions）、P15 高解析文字層（Master Plan §34、§48）。舊摘要：Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**Phase 13（正式翻譯）進行中**：第一批（開場 → 碼頭處決 → 城內衛兵）已完成並經使用者試玩確認。下一步見 §8。
 
 給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.9，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
 
@@ -290,7 +290,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - 使用者決定：Windows 免安裝包、全專案 GPL-3.0（根目錄 `LICENSE`）、ScummVM 遊戲選項勾選框 `localization_zh_tw` / `localization_annotate`（預設開啟；未設定任何語言鍵時也預設 zh_TW）。
 - 產生：`tools\build\build_release.bat`（Release x64）→ `tools\package\make_package.ps1 [-Version 0.9.0-beta] [-Test]` → `dist\Ultima8-zhTW-<版本>\` 與 zip。玩家文件原稿在 `package/`。
 - 套件只附 Cubic 11；使用者自用的細明體（`chinese.ttf`）不可散布。
-- 待辦：使用者驗收（乾淨資料夾解壓 → Add Game 指到 GOG 的 `ENGLISH` → 試玩）；決定發布管道（GitHub Releases 等，需使用者同意才上傳）。
+- 使用者已驗收（2026-10-09：運作良好，中文顯示正常）。待決定：發布管道（GitHub Releases 等，需使用者同意才上傳）。
 
 ### Master Plan §49 尚未完成的待辦
 
