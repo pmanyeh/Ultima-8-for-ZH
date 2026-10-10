@@ -49,6 +49,9 @@ GAME_ENCODING = "cp437"
 # to list one by one). Every sentence the code can build must match one of the
 # templates (most literal text wins, as in the engine) or the "skip" pattern;
 # the texts matched by each {partN} become "param CCCC:partN" entries.
+# "values" lists the values of a piece the function gets from its caller (a
+# string argument, empty in the sentences enumerated here).
+SORCERER_DISCIPLES = ["Cardas", "Daemos", "Kothius", "Mentar", "Tallon", "Emrichol"]
 PART_TEMPLATES = {
     # FIREITEM: item kind x spell x charges (singular / plural / none).
     # skip: the code's fall-through cases, an item without kind or spell
@@ -59,6 +62,12 @@ PART_TEMPLATES = {
     # time focus: hour x weekday x month
     (0x0596, 0x0B87): {"templates": ["Also it reads that the hour is currently  {part1},  "
                                      "the day is  {part2}, the {num} day of the month of {part3}. "]},
+    # SORCERER: a disciple's name, chosen by the caller from the list the
+    # class compares it with
+    (0x0575, 0x04BC): {"templates": ["{part1}, the late Sorcerer"],
+                       "values": {"part1": SORCERER_DISCIPLES}},
+    (0x0575, 0x1070): {"templates": ["My name is {part1}. And you are? "],
+                       "values": {"part1": SORCERER_DISCIPLES}},
 }
 PART_RE = re.compile(r"\{part[0-9]+\}")
 PART_MAX_VARIANTS = 2000   # sentences enumerated to check a PART_TEMPLATES site
@@ -512,7 +521,8 @@ def part_split(texts, spec, site):
     skip = re.compile(spec["skip"]) if "skip" in spec else None
     literal = lambda t: len(PART_RE.sub("", t))
     order = sorted(templates, key=literal, reverse=True)      # most literal text first
-    values, dropped = {}, []
+    fixed = spec.get("values", {})
+    values, dropped = {name: list(vals) for name, vals in fixed.items()}, []
     for text in texts:
         if skip and skip.search(text):
             continue
@@ -525,6 +535,9 @@ def part_split(texts, spec, site):
                         lst.append(v)
                 break
         else:
+            # a piece from the caller is empty in the enumerated sentence
+            if fixed and any(PART_RE.sub("", t) == text for t in templates):
+                continue
             dropped.append(text)
     # sentences that fit no template are listed as they are
     return list(templates) + dropped, values

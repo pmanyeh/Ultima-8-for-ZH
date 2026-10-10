@@ -105,9 +105,10 @@ msgid "He calls himself, {name}."
 msgstr "他自稱{name}。"
 
 #. , after ""
+# never shown: the code says it only when the name is not empty
 msgctxt "bark 058A:1379"
 msgid "He calls himself, ."
-msgstr ""
+msgstr "他自稱……。"
 
 # P13 batch 5
 #. , after ""

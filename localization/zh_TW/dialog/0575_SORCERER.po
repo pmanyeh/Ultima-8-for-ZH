@@ -54,9 +54,10 @@ msgstr "艾姆里柯"
 
 # P13 batch 5
 #. , after "Emrichol"
+#. sentence template: keep the {placeholders}
 msgctxt "bark 0575:04BC"
-msgid ", the late Sorcerer"
-msgstr "，已故的巫師"
+msgid "{part1}, the late Sorcerer"
+msgstr "{part1}，已故的巫師"
 
 # P13 batch 5
 #. , after "Emrichol"
@@ -224,9 +225,10 @@ msgid "Disciple? What is that? "
 msgstr "門徒？那是什麼？"
 
 #. , after "What are you called? "
+#. sentence template: keep the {placeholders}
 msgctxt "bark 0575:1070"
-msgid "My name is . And you are? "
-msgstr ""
+msgid "My name is {part1}. And you are? "
+msgstr "我叫{part1}。你呢？"
 
 # P13 batch 5
 #. , after "What are you called? "
@@ -361,3 +363,39 @@ msgstr "你想說話時可以來找我。我得回去做我的事了。再會。
 msgctxt "bark 0575:1B3E"
 msgid "I do not understand. What did you say? "
 msgstr "我不明白。你說什麼？"
+
+#. value of {part1}: one of 6 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0575:part1"
+msgid "Cardas"
+msgstr "卡達斯"
+
+#. value of {part1}: one of 6 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0575:part1"
+msgid "Daemos"
+msgstr "戴摩斯"
+
+#. value of {part1}: one of 6 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0575:part1"
+msgid "Kothius"
+msgstr "柯修斯"
+
+#. value of {part1}: one of 6 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0575:part1"
+msgid "Mentar"
+msgstr "門塔"
+
+#. value of {part1}: one of 6 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0575:part1"
+msgid "Tallon"
+msgstr "塔隆"
+
+#. value of {part1}: one of 6 pieces
+#. parameter value inserted into sentence templates
+msgctxt "param 0575:part1"
+msgid "Emrichol"
+msgstr "艾姆里柯"
