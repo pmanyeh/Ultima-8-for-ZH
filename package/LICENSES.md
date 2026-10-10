@@ -23,6 +23,7 @@
 
 - Cubic 11（俐方體 11 號）：SIL Open Font License 1.1，見 `extra/Cubic_11-OFL.txt`。
 - jf open 粉圓（jf open huninn）2.1，justfont 發行：SIL Open Font License 1.1，見 `extra/jf-openhuninn-OFL.txt`。
+- 王漢宗魏碑體（繁），王漢宗教授（中原大學）捐贈的「王漢宗自由字型」之一：GNU General Public License 第 2 版，見 `extra/WangHanZong-GPLv2.txt`。字型檔內的版權聲明是原商業版的聲明。字型是獨立的檔案，與本中文化一同散布（aggregate）。
 
 ## ScummVM 使用的第三方函式庫
 

@@ -15,6 +15,7 @@
 
 - [Cubic 11（俐方體 11 號）](https://github.com/ACh-K/Cubic-11)，ACh-K 製作。
 - [jf open 粉圓](https://justfont.com/huninn/)，justfont 發行（高解析中文字）。
+- 王漢宗魏碑體，王漢宗教授捐贈的王漢宗自由字型（墓碑、牌匾）。
 
 ## 原作
 

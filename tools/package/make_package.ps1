@@ -38,12 +38,13 @@ Copy-Item (Join-Path $rel 'scummvm.exe'), (Join-Path $rel '*.dll') $out
 Copy-Item (Join-Path $crt '*.dll') $out
 
 # translation catalog (fresh) and fonts (Cubic 11; jf open huninn for the
-# high-res text layer)
+# high-res text layer; Wang Han-Tzong Wei Bei for engravings)
 $env:PYTHONIOENCODING = 'utf-8'
 python (Join-Path $root 'tools\catalog\po_compile.py') zh_TW (Join-Path $root 'localization\zh_TW') -o "$out\extra\u8_zh_TW.mo"
 if ($LASTEXITCODE) { throw 'po_compile failed' }
 Copy-Item (Join-Path $font 'Cubic_11.ttf'), (Join-Path $font 'Cubic_11-OFL.txt'),
-          (Join-Path $font 'jf-openhuninn-2.1.ttf'), (Join-Path $font 'jf-openhuninn-OFL.txt') "$out\extra"
+          (Join-Path $font 'jf-openhuninn-2.1.ttf'), (Join-Path $font 'jf-openhuninn-OFL.txt'),
+          (Join-Path $font 'WangHanZongWeiBeiTiFan-2.ttf'), (Join-Path $font 'WangHanZong-GPLv2.txt') "$out\extra"
 
 # portable config: its presence next to scummvm.exe turns on portable mode.
 # package\scummvm.ini has the settings with comments (UTF-8; ScummVM keeps
