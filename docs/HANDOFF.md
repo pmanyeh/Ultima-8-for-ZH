@@ -1,6 +1,6 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
-**更新日期：** 2026-10-10（P16 快捷圖示列 PASS；P15 高解析文字層 PASS，打包 v0.9.1-beta）
+**更新日期：** 2026-10-10（P17 自動走近使用 PASS；P16 快捷圖示列＋作弊圖示組 PASS；P15 高解析文字層 PASS；打包 v0.9.2-beta）
 **目前進度：** Phase 0–13 ✅ PASS（P13 報告 `docs/reports/P13-full-translation.md`），Phase 14（打包）✅ PASS（報告 `docs/reports/P14-packaging.md`，產生方式見 §8 末）。**P15 高解析文字層 ✅ PASS**（報告 `docs/reports/P15-hd-text-layer.md`，見 §8 末）。其他待使用者決定：Release 呈現方式（使用者想參考「叛變克朗多」專案的 `dist/release_v100_zh`）、Mac 版（GitHub Actions）、P15 高解析文字層（Master Plan §34、§48）。舊摘要：Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**Phase 13（正式翻譯）進行中**：第一批（開場 → 碼頭處決 → 城內衛兵）已完成並經使用者試玩確認。下一步見 §8。
 
 給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.9，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
@@ -307,6 +307,11 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - 報告 `docs/reports/P16-quick-bar.md`。右下角 5×2 圖示（背包、屬性、戰鬥、地圖、選單、鑰匙圈、召回石、睡袋、存檔、讀檔），呼叫與按鍵相同的 `handleActionDown`；滑鼠移到右下角才出現；中文提示；不存檔。設定 `quick_bar`（預設開）、`quick_bar_autohide`。
 - 自動化測試限制：PostMessage 送的滑鼠移動不會真的移動遊戲游標（點擊有時有效），懸停相關的行為要請使用者試玩。測試時用 `quick_bar_autohide=false` 讓圖示常駐；截圖後要多等幾秒再關遊戲，否則截圖與 log 尾端會沒寫完（`.tmp`）。
 - 作弊圖示組（左下角，`cheat=true` 時才出現）：同一個 `QuickBarGump`，種類 `CHEATS`；屬性全滿、體力恢復、無敵、hackMover。穿牆（clipping）只對 ScummVM 的快速移動模式有效、一般走路無效，所以沒放。
+
+### P17 自動走近使用（2026-10-10 PASS）
+
+- 報告 `docs/reports/P17-walk-to-use.md`。雙擊太遠的物品 → `PathfinderProcess(avatar, item, false, 16)` → `GameMapGump::run` 檢查，到了就 `use()`，到不了就搖頭；玩家移動／戰鬥／對話取消。設定 `walk_to_use`（預設開）。
+- 原本的「走向物品」尋路判斷（`checkItem`）以主角最遠角比較，從門的正面等側永遠不成立；新增 `Pathfinder::setReachTarget`（框間隙）只給這個功能用，不寫進存檔。可考慮回報官方（需使用者同意）。
 
 ### Master Plan §49 尚未完成的待辦
 

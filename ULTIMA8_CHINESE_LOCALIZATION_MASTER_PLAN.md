@@ -2,7 +2,7 @@
 
 ## ScummVM Ultima8 Engine / Traditional Chinese Localization
 
-**文件狀態：** Master Plan v3.1（2026-10-10；v2 依 Phase 0–2 實證修訂，v2.1–v3.1 為 Phase 4–16 的結果，見 Revision Log）  
+**文件狀態：** Master Plan v3.2（2026-10-10；v2 依 Phase 0–2 實證修訂，v2.1–v3.2 為 Phase 4–17 的結果，見 Revision Log）  
 **目標遊戲：** Ultima VIII: Pagan  
 **主要 Runtime：** ScummVM — Ultima8 Engine  
 **架構來源：** Pentagram → ScummVM Ultima8  
@@ -47,7 +47,16 @@
 | 新增 §48 | 字型與解析度策略 |
 | 新增 §49 | 已知待辦項目總表 |
 
-**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ✅ PASS · P12 ✅ PASS · P13 ✅ PASS · P14 ✅ PASS · P15 ✅ PASS · P16 ✅ PASS
+**Phase 狀態：** P0 ✅ PASS · P1 ✅ PASS · P2 ✅ PASS（GO）· P3 ✅ PASS · P4 ✅ PASS · P5 ✅ PASS · P6 ✅ PASS · P7 ✅ PASS（**Core Localization Architecture proven**）· P8 ✅ PASS · P9 ✅ PASS · P10 ✅ PASS · P11 ✅ PASS · P12 ✅ PASS · P13 ✅ PASS · P14 ✅ PASS · P15 ✅ PASS · P16 ✅ PASS · P17 ✅ PASS
+
+## v3.2 — 2026-10-10（Phase 17 自動走近使用）
+
+依據：[docs/reports/P17-walk-to-use.md](docs/reports/P17-walk-to-use.md)
+
+| 章節 | 修訂內容 |
+|---|---|
+| §18.1 | 新增 P17（自動走近使用）PASS；P16 追加作弊圖示組 |
+| §49 | #27 台詞框可調整；#32 字型快取 bug 修正 |
 
 ## v3.1 — 2026-10-10（Phase 16 快捷圖示列）
 
@@ -1144,7 +1153,8 @@ P15 Optional Enhancements
 | P13 Full Translation Campaign | ✅ PASS（2026-10-09）— 99.8%，6,949 條 | `docs/reports/P13-full-translation.md` |
 | P14 Packaging | ✅ PASS（2026-10-09，使用者驗收）— Windows 免安裝包、GPL-3.0、勾選框預設開啟 | `docs/reports/P14-packaging.md` |
 | P15 HD Text Layer | ✅ PASS（2026-10-10，使用者驗收）— 高解析中文字預設開啟、jf open 粉圓、屬性頁中文 | `docs/reports/P15-hd-text-layer.md` |
-| P16 Quick Action Icons | ✅ PASS（2026-10-10，使用者驗收）— 右下角快捷圖示列（仿 Exult），預設開啟 | `docs/reports/P16-quick-bar.md` |
+| P16 Quick Action Icons | ✅ PASS（2026-10-10，使用者驗收）— 右下角快捷圖示列（仿 Exult），預設開啟；左下角作弊圖示組 | `docs/reports/P16-quick-bar.md` |
+| P17 Walk to Use | ✅ PASS（2026-10-10，使用者驗收）— 雙擊太遠的物品時自動走近再使用，預設開啟 | `docs/reports/P17-walk-to-use.md` |
 
 **注意：** P3–P6 雖然已由 P2 spike 驗證可行性，仍需依各 Phase 的規格重新寫成正式實作（加上 unit test、fallback、存檔處理），不得直接合併 spike。
 
