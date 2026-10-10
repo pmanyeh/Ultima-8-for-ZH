@@ -14,6 +14,7 @@
 | Traditional Chinese translation (繁體中文) | 開 | 中文化開關。取消勾選就是原版英文 |
 | Show the English after names (名稱加註英文) | 開 | 人名、地名等專有名詞第一次出現時附上英文，例如「戴文(Devon)」 |
 | High-resolution Chinese text (高解析中文字) | 開 | 中文以視窗解析度、jf open 粉圓字型繪製，清晰易讀；遊戲畫面本身不變。**重新啟動遊戲後生效** |
+| Walk to use (自動走近使用) | 開 | 雙擊太遠的門、箱子、書等物品時，聖者會自動走過去再使用；走不到時會搖頭。途中自己移動、戰鬥或對話就會取消 |
 | Quick action icons (快捷圖示列) | 開 | 滑鼠移到畫面右下角時出現的快捷圖示（背包、屬性、戰鬥、地圖、選單、鑰匙圈、召回石、睡袋、存檔、讀檔） |
 
 ## 二、修改 `scummvm.ini`

@@ -26,6 +26,7 @@
 |---|---|
 | Traditional Chinese translation (繁體中文) | 中文化開關（預設開啟）。取消勾選就是原版英文。 |
 | Show the English after names (名稱加註英文) | 專有名詞第一次出現時附上英文（預設開啟）。 |
+| Walk to use (自動走近使用) | 雙擊太遠的門、箱子、書等物品時，聖者會自動走過去再使用（預設開啟）。 |
 | Quick action icons (快捷圖示列) | 滑鼠移到畫面右下角時出現的快捷圖示：背包、屬性、戰鬥、地圖、選單、鑰匙圈、召回石、睡袋、存檔、讀檔（預設開啟）。在 `scummvm.ini` 加上 `quick_bar_autohide=false` 可讓它常駐顯示。 |
 | High-resolution Chinese text (高解析中文字) | 中文字以視窗解析度繪製（字型 jf open 粉圓），畫面其他部分不變（預設開啟）。重新啟動遊戲後生效。 |
 
