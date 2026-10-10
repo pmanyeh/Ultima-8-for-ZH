@@ -1,6 +1,6 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
-**更新日期：** 2026-10-10（P15 高解析文字層 PASS，打包 v0.9.1-beta，已 push）
+**更新日期：** 2026-10-10（P16 快捷圖示列 PASS；P15 高解析文字層 PASS，打包 v0.9.1-beta）
 **目前進度：** Phase 0–13 ✅ PASS（P13 報告 `docs/reports/P13-full-translation.md`），Phase 14（打包）✅ PASS（報告 `docs/reports/P14-packaging.md`，產生方式見 §8 末）。**P15 高解析文字層 ✅ PASS**（報告 `docs/reports/P15-hd-text-layer.md`，見 §8 末）。其他待使用者決定：Release 呈現方式（使用者想參考「叛變克朗多」專案的 `dist/release_v100_zh`）、Mac 版（GitHub Actions）、P15 高解析文字層（Master Plan §34、§48）。舊摘要：Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**Phase 13（正式翻譯）進行中**：第一批（開場 → 碼頭處決 → 城內衛兵）已完成並經使用者試玩確認。下一步見 §8。
 
 給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.9，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
@@ -299,6 +299,11 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - `FontManager::_hdOverrides`：只有 `TextWidget`（`getGameFont(n, true, true)`）與 `SKFPlayer` 用；其他地方仍用 12 px 字型。HD 開啟時一般字型的 `isHighRes()` 為 false。
 - 自動測試：scratchpad 的 `hdshot.ps1`（需要時重寫）：啟動 → 等 log 出現某行 → PostMessage 按鍵 / 點擊 → Alt+S 截圖（`[scummvm] screenshotpath`）。**`PrintWindow` 對 OpenGL 視窗會拿到過時畫面**。
 - 使用者選定高解析字型 **jf open 粉圓**（引擎預設、打包附上，授權檔 `private_test/extra/jf-openhuninn-OFL.txt`）。屬性頁標籤在高解析層下翻成中文（使用者要求）。打包版預設開啟（使用者 2026-10-10）。
+
+### P16 快捷圖示列（2026-10-10 PASS）
+
+- 報告 `docs/reports/P16-quick-bar.md`。右下角 5×2 圖示（背包、屬性、戰鬥、地圖、選單、鑰匙圈、召回石、睡袋、存檔、讀檔），呼叫與按鍵相同的 `handleActionDown`；滑鼠移到右下角才出現；中文提示；不存檔。設定 `quick_bar`（預設開）、`quick_bar_autohide`。
+- 自動化測試限制：PostMessage 送的滑鼠移動不會真的移動遊戲游標（點擊有時有效），懸停相關的行為要請使用者試玩。
 
 ### Master Plan §49 尚未完成的待辦
 

@@ -16,6 +16,7 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 - **Speech and subtitles**: speaking characters keep their English voice with Chinese subtitles, pages follow the speech.
 - **Chinese font**: the [Cubic 11](https://github.com/ACh-K/Cubic-11) pixel font (SIL OFL 1.1), close to the look of the original; Chinese line breaking and punctuation rules.
 - **High-resolution Chinese text**: the game keeps its original 320×200 picture, while the Chinese text is drawn at the window resolution in [jf open huninn](https://justfont.com/huninn/), which also makes room for a Chinese status panel (on by default, can be turned off in the game options).
+- **Quick action icons**: icons in the bottom right corner, shown when the mouse is there (as in Exult), for the backpack, inventory, map, menu, saving and loading, combat, keyring and recall.
 - **Safe fallback**: a missing translation, a broken catalog or a missing font always shows the English text — never garbage or a crash.
 
 ## Translation progress
