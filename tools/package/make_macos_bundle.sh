@@ -20,6 +20,7 @@ OUT="$ROOT/dist/$NAME"
 cd "$SRC"
 cp scummvm scummvm-static
 rm -rf ScummVM.app
+make scummvm.docktileplugin
 make bundle-pack
 APP="$SRC/ScummVM.app"
 
