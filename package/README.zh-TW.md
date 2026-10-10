@@ -29,37 +29,7 @@
 | Quick action icons (快捷圖示列) | 滑鼠移到畫面右下角時出現的快捷圖示：背包、屬性、戰鬥、地圖、選單、鑰匙圈、召回石、睡袋、存檔、讀檔（預設開啟）。在 `scummvm.ini` 加上 `quick_bar_autohide=false` 可讓它常駐顯示。 |
 | High-resolution Chinese text (高解析中文字) | 中文字以視窗解析度繪製（字型 jf open 粉圓），畫面其他部分不變（預設開啟）。重新啟動遊戲後生效。 |
 
-字型、字距等進階設定寫在本資料夾的 `scummvm.ini` 的 `[scummvm]` 區段（請在 ScummVM 關閉時修改）：
-
-| 設定 | 預設 | 說明 |
-|---|---|---|
-| `font_cjk_file` | `Cubic_11.ttf` | 中文字型檔，放在 `extra` 資料夾 |
-| `font_cjk_size` | `12` | 字級（像素） |
-| `font_cjk_antialiasing` | `false` | 反鋸齒；點陣字型請關閉，一般向量字型建議開啟 |
-| `font_cjk_letter_spacing` | `1` | 字與字之間多加的像素 |
-| `font_cjk_latin_spacing` | `3` | 中文與英文字母 / 數字之間再多加的像素 |
-| `font_cjk_line_spacing` | `0` | 行距多加的像素 |
-
-字距或行距加大後，每頁能顯示的字會變少，對話頁數會增加。
-
-高解析中文字另有一組設定（數值的單位是遊戲像素，可以有小數，例如 `0.3`；與視窗大小無關）：
-
-| 設定 | 預設 | 說明 |
-|---|---|---|
-| `font_cjk_hd_file` | `jf-openhuninn-2.1.ttf` | 高解析用的字型檔，建議用向量字型 |
-| `font_cjk_hd_size` | 同 `font_cjk_size` | 字級 |
-| `font_cjk_hd_letter_spacing` | `0.3` | 字與字之間多加的間距 |
-| `font_cjk_hd_latin_spacing` | `1` | 中文與英文字母 / 數字之間再多加的間距 |
-| `font_cjk_hd_line_spacing` | `0` | 行距多加的間距 |
-| `font_cjk_hd_border` | 原本黑框的一半 | 黑框粗細 |
-| `hd_text_size` | 符合視窗 | 高解析畫面大小，例如 `1920x1440` |
-
-台詞框（只影響中文台詞；英文維持原版）：
-
-| 設定 | 預設 | 說明 |
-|---|---|---|
-| `bark_lines` | 高解析開啟時 `4`；否則原版高度（3 行） | 每頁行數，框的高度依字型自動計算；最高約半個畫面 |
-| `bark_width` | `194` | 台詞框寬度（遊戲像素，畫面寬 320），最大 `300`。寬一點換行就少一點 |
+字型、字級、字距、行距、台詞框的行數與寬度、快捷圖示列是否常駐等細部調整，寫在本資料夾的 `scummvm.ini`（每個設定都有中文註解）。完整說明與調整範例見 [SETTINGS.zh-TW.md](SETTINGS.zh-TW.md)。
 
 ## 已知問題
 

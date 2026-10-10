@@ -45,21 +45,10 @@ if ($LASTEXITCODE) { throw 'po_compile failed' }
 Copy-Item (Join-Path $font 'Cubic_11.ttf'), (Join-Path $font 'Cubic_11-OFL.txt'),
           (Join-Path $font 'jf-openhuninn-2.1.ttf'), (Join-Path $font 'jf-openhuninn-OFL.txt') "$out\extra"
 
-# portable config: its presence next to scummvm.exe turns on portable mode
-@"
-[scummvm]
-extrapath=extra
-font_cjk_file=Cubic_11.ttf
-font_cjk_size=12
-font_cjk_antialiasing=false
-font_cjk_letter_spacing=1
-font_cjk_latin_spacing=3
-font_cjk_line_spacing=0
-font_cjk_hd_file=jf-openhuninn-2.1.ttf
-font_cjk_hd_letter_spacing=0.3
-font_cjk_hd_latin_spacing=1
-font_cjk_hd_line_spacing=0
-"@ | Set-Content -Encoding ascii "$out\scummvm.ini"
+# portable config: its presence next to scummvm.exe turns on portable mode.
+# package\scummvm.ini has the settings with comments (UTF-8; ScummVM keeps
+# "#" comment lines when it writes the file again)
+Copy-Item (Join-Path $root 'package\scummvm.ini') "$out\scummvm.ini"
 
 # launcher: the relative extrapath needs the package folder as working directory
 "@echo off`r`ncd /d `"%~dp0`"`r`nstart `"`" scummvm.exe %*`r`n" |

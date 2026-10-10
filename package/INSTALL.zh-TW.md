@@ -26,18 +26,18 @@
 | 狀況 | 處理 |
 |---|---|
 | 畫面上都是英文 | 確認「Traditional Chinese translation」已勾選；確認用的是**英文版**資料；確認 `extra` 資料夾裡有 `u8_zh_TW.mo` 和 `Cubic_11.ttf`。 |
-| 中文顯示成方塊或亂碼 | 你換用的字型缺字，改回 `font_cjk_file=Cubic_11.ttf`。 |
+| 中文顯示成方塊或亂碼 | 你換用的字型缺字，改回 `font_cjk_hd_file=jf-openhuninn-2.1.ttf`（高解析中文字關閉時則是 `font_cjk_file=Cubic_11.ttf`）。 |
 | 找不到 `extra` 裡的檔案 | 請從資料夾裡直接執行 `scummvm.exe` 或用附的 `.bat` 啟動（不要從捷徑以其他「開始位置」執行）。 |
 | 想看英文原文 | 取消勾選「Traditional Chinese translation」即可，存檔不受影響。 |
 
-## 換字型
+## 換字型、調整字級與台詞框
 
-把字型檔（`.ttf` / `.otf`）放進 `extra` 資料夾，在 ScummVM 關閉時編輯 `scummvm.ini` 的 `[scummvm]` 區段：
+把字型檔（`.ttf` / `.otf`）放進 `extra` 資料夾，在 ScummVM 關閉時編輯 `scummvm.ini`：
 
 ```ini
-font_cjk_file=你的字型.ttf
-font_cjk_size=12
-font_cjk_antialiasing=true
+font_cjk_hd_file=你的字型.ttf
 ```
+
+字級、字距、行距、台詞框的行數與寬度等所有設定，見 [SETTINGS.zh-TW.md](SETTINGS.zh-TW.md)；`scummvm.ini` 裡每個設定也都有中文註解。
 
 注意：Windows 內建的字型（例如細明體、微軟正黑體）**不能**隨本包散布，但你可以把自己電腦上的字型複製到 `extra` 自用。
