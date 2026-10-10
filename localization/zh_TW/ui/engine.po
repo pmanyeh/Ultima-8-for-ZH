@@ -93,3 +93,44 @@ msgstr "魔力"
 msgctxt "ui"
 msgid "WGHT"
 msgstr "負重"
+
+#. quick action icons (bottom right corner): tooltips, followed by the key
+msgctxt "ui"
+msgid "Backpack"
+msgstr "背包"
+
+msgctxt "ui"
+msgid "Inventory"
+msgstr "人物與屬性"
+
+msgctxt "ui"
+msgid "Combat"
+msgstr "戰鬥模式"
+
+msgctxt "ui"
+msgid "Map"
+msgstr "地圖"
+
+msgctxt "ui"
+msgid "Menu"
+msgstr "選單"
+
+msgctxt "ui"
+msgid "Keyring"
+msgstr "鑰匙圈"
+
+msgctxt "ui"
+msgid "Recall"
+msgstr "召回石"
+
+msgctxt "ui"
+msgid "Bedroll"
+msgstr "睡袋"
+
+msgctxt "ui"
+msgid "Save Game"
+msgstr "寫入日記（存檔）"
+
+msgctxt "ui"
+msgid "Load Game"
+msgstr "讀取日記（讀檔）"
