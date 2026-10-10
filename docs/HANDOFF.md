@@ -318,6 +318,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 | 28 | P11 POC 的 14 個 proposed 譯名：使用者同意先使用，之後依舊版中文手冊調整 | 使用者查手冊後 |
 | 29 | 全語音 / 中文語音（使用者的想法） | P15，條件成熟時 |
 | 30 | upstream：`--save-slot` 讀檔前的自動存檔嘗試失敗後延後 5 分鐘（不影響遊戲） | — |
+| 31 | upstream：按住右鍵跑步時連點左鍵連續跳躍，撞到障礙物會卡住（`Seem to be stuck in process loop`，主角動不了，可讀檔恢復）或穿出地圖（主角 Z < 0，被地圖蓋住）。官方原版（P0 建置）同樣發生（使用者 2026-10-10 確認；重現：存檔 9）。開發版的警告已加上 process 資訊 | 待使用者決定（自行修正或回報） |
 
 ---
 
