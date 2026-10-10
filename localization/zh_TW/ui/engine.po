@@ -134,3 +134,20 @@ msgstr "寫入日記（存檔）"
 msgctxt "ui"
 msgid "Load Game"
 msgstr "讀取日記（讀檔）"
+
+#. cheat icons (bottom left corner, only while cheats are enabled): tooltips
+msgctxt "ui"
+msgid "Max Stats"
+msgstr "屬性全滿"
+
+msgctxt "ui"
+msgid "Heal"
+msgstr "體力恢復"
+
+msgctxt "ui"
+msgid "Invincibility"
+msgstr "無敵模式（切換）"
+
+msgctxt "ui"
+msgid "Move Anything"
+msgstr "神力模式：可搬動任何物品（切換）"

@@ -176,6 +176,7 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 7. **`TTFont::renderText` 原本會寫出圖片範圍**（游標在行尾），P9 已修正。
 8. Git 全域 `core.autocrlf=true`：主 repo 用 `.gitattributes`（`eol=lf`，`.bat` 為 crlf）；`scummvm-src` 的部分檔案是 CRLF，修改腳本要保留原本的換行。
 9. 主控台輸出中文會變亂碼（cp950），驗證時用 `ascii()` 或寫檔比對。
+10. **增量連結可能沒把新程式連進 `scummvm.exe`**（2026-10-10 發生：改了圖示的圖框，畫面一直不變；obj 與 `ultima.lib` 是新的，exe 是舊的）。畫面或行為不符合預期時，先刪掉 `build-dev/Debugx64/ultima.lib` 和 `scummvm.exe` 再建置。
 
 ---
 
@@ -304,7 +305,8 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 ### P16 快捷圖示列（2026-10-10 PASS）
 
 - 報告 `docs/reports/P16-quick-bar.md`。右下角 5×2 圖示（背包、屬性、戰鬥、地圖、選單、鑰匙圈、召回石、睡袋、存檔、讀檔），呼叫與按鍵相同的 `handleActionDown`；滑鼠移到右下角才出現；中文提示；不存檔。設定 `quick_bar`（預設開）、`quick_bar_autohide`。
-- 自動化測試限制：PostMessage 送的滑鼠移動不會真的移動遊戲游標（點擊有時有效），懸停相關的行為要請使用者試玩。
+- 自動化測試限制：PostMessage 送的滑鼠移動不會真的移動遊戲游標（點擊有時有效），懸停相關的行為要請使用者試玩。測試時用 `quick_bar_autohide=false` 讓圖示常駐；截圖後要多等幾秒再關遊戲，否則截圖與 log 尾端會沒寫完（`.tmp`）。
+- 作弊圖示組（左下角，`cheat=true` 時才出現）：同一個 `QuickBarGump`，種類 `CHEATS`；屬性全滿、體力恢復、無敵、hackMover。穿牆（clipping）只對 ScummVM 的快速移動模式有效、一般走路無效，所以沒放。
 
 ### Master Plan §49 尚未完成的待辦
 
