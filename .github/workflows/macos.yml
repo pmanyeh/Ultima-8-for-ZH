@@ -1,0 +1,64 @@
+# Build the macOS packages (Apple Silicon and Intel): ScummVM with the
+# Ultima engine from the localization branch of the engine fork, the
+# translation and the fonts. Run by hand (Actions > macOS > Run workflow)
+# or for a version tag; the packages are the run's artifacts.
+name: macOS
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version in the package name
+        default: dev
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+env:
+  ENGINE_REPO: pmanyeh/scummvm
+  ENGINE_REF: ultima8-zh-tw-dev
+
+jobs:
+  macos:
+    name: macOS ${{ matrix.arch }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: macos-15
+            arch: arm64
+          - runner: macos-15-intel
+            arch: x86_64
+    runs-on: ${{ matrix.runner }}
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Checkout the engine
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.ENGINE_REPO }}
+          ref: ${{ env.ENGINE_REF }}
+          path: scummvm-src
+      - name: Install packages
+        run: brew install sdl2 sdl2_net freetype fribidi libpng jpeg-turbo libogg libvorbis flac fluid-synth dylibbundler
+      - name: Configure
+        working-directory: scummvm-src
+        run: ./configure --disable-all-engines --enable-engine=ultima --enable-release
+      - name: Build
+        working-directory: scummvm-src
+        run: make -j"$(sysctl -n hw.ncpu)"
+      - name: Package
+        run: |
+          VERSION="${{ github.event.inputs.version }}"
+          if [ -z "$VERSION" ]; then VERSION="${GITHUB_REF_NAME#v}"; fi
+          tools/package/make_macos_bundle.sh "$VERSION" "${{ matrix.arch }}"
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ultima8-zhTW-macOS-${{ matrix.arch }}
+          path: dist/*.zip

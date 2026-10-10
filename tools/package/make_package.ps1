@@ -2,8 +2,8 @@
 #
 #   make_package.ps1 [-Version 0.9.0-beta] [-NoZip] [-Test]
 #
-# Needs: the Release build (tools\build\build_release.bat), Python, the font in
-# private_test\extra. The catalog is compiled fresh from localization\zh_TW.
+# Needs: the Release build (tools\build\build_release.bat) and Python. The fonts
+# are in package\fonts; the catalog is compiled fresh from localization\zh_TW.
 # -Test copies the package to private_test\package_test, adds the game from
 # private_test\scummvm-dev.ini to its scummvm.ini (portable mode, nothing else
 # on the command line), starts it once, closes it and prints the log.
@@ -18,7 +18,6 @@ $root = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $src = Join-Path $root 'scummvm-src'
 $rel = Join-Path $src 'build-dev\Releasex64'
 $crt = 'C:\Program Files\Microsoft Visual Studio\18\Community\VC\Redist\MSVC\14.51.36231\x64\Microsoft.VC145.CRT'
-$font = Join-Path $root 'private_test\extra'
 $name = "Ultima8-zhTW-$Version"
 $dist = Join-Path $root 'dist'
 $out = Join-Path $dist $name
@@ -42,9 +41,7 @@ Copy-Item (Join-Path $crt '*.dll') $out
 $env:PYTHONIOENCODING = 'utf-8'
 python (Join-Path $root 'tools\catalog\po_compile.py') zh_TW (Join-Path $root 'localization\zh_TW') -o "$out\extra\u8_zh_TW.mo"
 if ($LASTEXITCODE) { throw 'po_compile failed' }
-Copy-Item (Join-Path $font 'Cubic_11.ttf'), (Join-Path $font 'Cubic_11-OFL.txt'),
-          (Join-Path $font 'jf-openhuninn-2.1.ttf'), (Join-Path $font 'jf-openhuninn-OFL.txt'),
-          (Join-Path $font 'WangHanZongWeiBeiTiFan-2.ttf'), (Join-Path $font 'WangHanZong-GPLv2.txt') "$out\extra"
+Copy-Item (Join-Path $root 'package\fonts\*') "$out\extra"
 
 # portable config: its presence next to scummvm.exe turns on portable mode.
 # package\scummvm.ini has the settings with comments (UTF-8; ScummVM keeps
@@ -56,7 +53,7 @@ Copy-Item (Join-Path $root 'package\scummvm.ini') "$out\scummvm.ini"
     Set-Content -Encoding ascii -NoNewline (Join-Path $out ([char]0x555F + [char]0x52D5 + ' Ultima 8.bat'))
 
 # documents and licenses
-Copy-Item (Join-Path $root 'package\*.md') $out
+Copy-Item (Join-Path $root 'package\*.md') $out -Exclude 'INSTALL-macOS*'
 (Get-Content -Raw -Encoding utf8 "$out\CHANGELOG.md").Replace('{ENGINE_COMMIT}', $engineCommit).Replace('{MAIN_COMMIT}', $mainCommit) |
     Set-Content -Encoding utf8 -NoNewline "$out\CHANGELOG.md"
 Copy-Item (Join-Path $src 'COPYING') "$out\COPYING.txt"
