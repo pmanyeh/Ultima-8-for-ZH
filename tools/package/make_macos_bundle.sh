@@ -20,7 +20,14 @@ OUT="$ROOT/dist/$NAME"
 cd "$SRC"
 cp scummvm scummvm-static
 rm -rf ScummVM.app
-make scummvm.docktileplugin
+# the dock tile plugin, built here: ScummVM's Intel rule targets macOS
+# 10.6, which current Xcode no longer links
+if [ "$ARCH" = arm64 ]; then MINOS=11.0; else MINOS=10.13; fi
+rm -rf scummvm.docktileplugin
+mkdir -p scummvm.docktileplugin/Contents/MacOS
+cp dists/macosx/dockplugin/Info.plist scummvm.docktileplugin/Contents/
+c++ -mmacosx-version-min=$MINOS -arch "$ARCH" -O2 -bundle -framework Foundation -framework AppKit -fobjc-link-runtime backends/taskbar/macosx/dockplugin/dockplugin.m -o scummvm.docktileplugin/Contents/MacOS/ScummVMDockTilePlugin
+chmod 644 scummvm.docktileplugin/Contents/MacOS/ScummVMDockTilePlugin
 make bundle-pack
 APP="$SRC/ScummVM.app"
 
