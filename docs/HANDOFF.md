@@ -198,6 +198,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - 譯名已全部決定（proposed）；正式翻譯時譯文一律用權威檔的中文名稱，不自己加英文（引擎會自動加註）。
 - 翻譯進度（2026-10-08）：6,944 條（含 ui），**已翻 1,003 條**（以英文字元計 11.2%）。README 的進度用 `python tools/catalog/progress.py zh_TW` 更新。
 - 權威檔 758 詞（P13 加 Nystul 尼斯圖、Pellgun 佩爾岡）。
+- 2026-10-10 一致性檢查：專有名詞的譯法一致（標出的差異都是合理的縮寫或語境，例如「聚落」「雨之海」「奇斯蛛絲」）。補進 45 個名詞（書與對話中的人名、門徒六人、黑夫人號、星期與月份），每個都先確認翻譯檔裡的實際譯法。檢查腳本在 scratchpad（`termcheck.py`、`addterms.py`），需要時重寫。
 
 ---
 
@@ -324,7 +325,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 | 15 | 遊戲選項 GUI 的語言選單 | 之後 |
 | 16 | 翻譯檔加入遊戲資料版本（`EUSECODE.FLX` 雜湊） | 待定 |
 | 20 | 墓碑、牌匾、死亡畫面：方案 A，之後評估全中文 | 待使用者評估 |
-| 23 | `EditWidget` 用 high-res CJK 字型時位置錯誤 | 之後再修 |
+| 23 | ~~`EditWidget` 用 high-res CJK 字型時位置錯誤~~ 不適用（2026-10-10）：日記字型（4）不換成中文（使用者不需要中文輸入），P15 起非高解析字型也不走 high-res 路徑；使用者確認輸入框位置正常 | — |
 | 24 | `TTFont::renderText` 越界修正可回報 upstream | — |
 | 26 | 權威檔分類與 697 個待決定譯名需人工整理 | 正式翻譯前 |
 | 27 | ~~台詞框行數~~ ✅ 2026-10-10：設定 `bark_lines`（每頁行數，高解析開啟時預設 4）、`bark_width`（預設 194），上限 300×100 遊戲像素；只影響中文台詞，存檔仍寫入原版 194×55（引擎 `63622f587d`） | — |

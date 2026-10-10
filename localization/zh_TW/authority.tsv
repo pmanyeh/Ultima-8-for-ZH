@@ -771,3 +771,45 @@ other	Vol		ignore	3	bark 0265:108D	volume in book title
 other	Walk	漫步	proposed	4	bark 0120:0B2A		
 other	Water	水	proposed	8	bark 041C:23E9		
 other	Writing		ignore	3	book 017A:0C32	word in Salkind's logbook	
+person	Cekar	瑟卡	proposed	1	bark 040A:4D6D	in Orlok's tale	
+person	Elaina	艾蓮娜	proposed	3	grave 00C5:1051	grave	
+person	Arianna	艾莉安娜	proposed	2	bark 041D:12E3	mentioned by Bane	
+person	Karpese	卡佩斯	proposed	1	bark 040F:43E4	mentioned by Corinth	
+person	Bentos	班托斯	proposed	2	bark 026F:0B33	necromancer	
+person	Shelby	雪比	proposed	2	bark 040E:06A6	Gwillim's torax	
+person	Pono	波諾	proposed	2	bark 040E:06A6	Gwillim's torax	
+person	Cardas	卡達斯	proposed	2	ask 0575	sorcerer disciple	
+person	Daemos	戴摩斯	proposed	2	ask 0575	sorcerer disciple	
+person	Kothius	柯修斯	proposed	2	ask 0575	sorcerer disciple	
+person	Mentar	門塔	proposed	2	ask 0575	sorcerer disciple	
+person	Tallon	塔隆	proposed	2	ask 0575	sorcerer disciple	
+person	Emrichol	艾姆里柯	proposed	2	ask 0575	sorcerer disciple	
+person	Yradan	伊拉丹	proposed	2	scroll 057A:1B81	scroll	
+person	Drokar	德洛卡	proposed	1	scroll 057A:1B81	scroll	
+person	Trecaste	特雷卡斯特	proposed	1	scroll 057A:1B81	scroll	
+person	Nadayr	納戴爾	proposed	1	book 0593:5C06	book	
+person	Nolandru	諾蘭德魯	proposed	1	book 0593:8B74	book author	
+person	Vintros	溫特羅斯	proposed	1	book 0593:B2ED	book author	
+person	Tordaem	托戴姆	proposed	1	book 0593:39B9	book	
+person	Trixter	崔克斯特	proposed	2	book 0592:01B5	Adventure Quarterly	
+person	Sladek	史拉戴克	proposed	1	book 0592:174F	Adventure Quarterly	
+person	Brogdan	布羅格丹	proposed	1	book 0592:1E1E	Adventure Quarterly	
+person	Brother Grim	格林修士	proposed	1	book 0592:293B	Adventure Quarterly	
+person	Robin Dudley	羅賓．達德利	proposed	1	book 057D:06A1	book	
+person	Magethief Vermin	法師盜賊弗明	proposed	3	scroll 0579:103E	scroll author (not the creature vermin)	
+person	Vittek	維泰克	proposed	3	grave 00C5:0957	grave	
+person	Khumash-Gor	庫馬許·戈爾	proposed	7	bark 0335:00AB	ancient necromancer	
+other	Dark Lady	黑夫人號	proposed	1	bark 040A:5167	Orlok's ship	
+other	Guarday	守護日	proposed	1	param 0596:part2	Pagan calendar: weekday	
+other	Earthday	大地日	proposed	1	param 0596:part2	Pagan calendar: weekday	
+other	Waterday	海洋日	proposed	1	param 0596:part2	Pagan calendar: weekday	
+other	Airday	天空日	proposed	1	param 0596:part2	Pagan calendar: weekday	
+other	Fireday	火焰日	proposed	1	param 0596:part2	Pagan calendar: weekday	
+other	Blackday	黑暗日	proposed	1	param 0596:part2	Pagan calendar: weekday	
+other	GuardDay	守護日	proposed	1	param 0596:part2	Pagan calendar: weekday	
+other	Stonemark	石痕月	proposed	2	param 0596:part3	Pagan calendar: month	
+other	Skyrock	天岩月	proposed	1	param 0596:part3	Pagan calendar: month	
+other	Windbreak	斷風月	proposed	1	param 0596:part3	Pagan calendar: month	
+other	Stormpeak	暴峰月	proposed	1	param 0596:part3	Pagan calendar: month	
+other	Firefall	落火月	proposed	1	param 0596:part3	Pagan calendar: month	
+other	DarkFlame	暗焰月	proposed	1	param 0596:part3	Pagan calendar: month	
