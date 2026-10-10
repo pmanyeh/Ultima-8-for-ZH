@@ -37,9 +37,9 @@ jobs:
         shell: bash
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Checkout the engine
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ env.ENGINE_REPO }}
           ref: ${{ env.ENGINE_REF }}
@@ -58,7 +58,7 @@ jobs:
           if [ -z "$VERSION" ]; then VERSION="${GITHUB_REF_NAME#v}"; fi
           tools/package/make_macos_bundle.sh "$VERSION" "${{ matrix.arch }}"
       - name: Upload
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: Ultima8-zhTW-macOS-${{ matrix.arch }}
           path: dist/*.zip

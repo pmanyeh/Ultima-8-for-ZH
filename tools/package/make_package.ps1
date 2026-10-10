@@ -1,6 +1,6 @@
 # Build the Windows portable package (P14) into dist\Ultima8-zhTW-<Version>\ and a zip.
 #
-#   make_package.ps1 [-Version 0.9.0-beta] [-NoZip] [-Test]
+#   make_package.ps1 [-Version 1.0.0] [-NoZip] [-Test]
 #
 # Needs: the Release build (tools\build\build_release.bat) and Python. The fonts
 # are in package\fonts; the catalog is compiled fresh from localization\zh_TW.
@@ -9,7 +9,7 @@
 # on the command line), starts it once, closes it and prints the log.
 # The game window is not touched.
 param(
-    [string]$Version = '0.9.0-beta',
+    [string]$Version = '1.0.0',
     [switch]$NoZip,
     [switch]$Test
 )

@@ -1,5 +1,11 @@
 # 更新紀錄
 
+## v1.0.0（2026-10-11）
+
+第一個正式版。
+
+- 新增 macOS 版：Apple Silicon（arm64）與 Intel（x86_64）各一包，由 GitHub Actions 自動建置，安裝方式見 `INSTALL-macOS.zh-TW.md`。功能、翻譯、字型與 Windows 版相同。
+
 ## v0.9.3-beta（2026-10-10）
 
 - 墓碑牌匾全中文（遊戲選項「Chinese engravings (墓碑牌匾全中文)」，預設開啟）：墓碑、牌匾與死亡畫面直接刻上中文，使用王漢宗魏碑體與雕刻陰影效果。
