@@ -318,7 +318,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 | 28 | P11 POC 的 14 個 proposed 譯名：使用者同意先使用，之後依舊版中文手冊調整 | 使用者查手冊後 |
 | 29 | 全語音 / 中文語音（使用者的想法） | P15，條件成熟時 |
 | 30 | upstream：`--save-slot` 讀檔前的自動存檔嘗試失敗後延後 5 分鐘（不影響遊戲） | — |
-| 31 | ~~upstream：跳躍撞牆卡住 / 穿出地圖~~ ✅ 已修正（2026-10-10）：`AnimationTracker::step` 大步移動撞到物件時，`GetInterpolatedCoords(end, start)` 起點終點傳反，主角被放進物件裡；之後每個動作立刻失敗，主角移動控制在同一 tick 無限重跑（被 kernel 保護機制終止而卡死），或落下時掉到 Z < 0。改為 `(start, end)`，使用者確認不再卡住、不再穿牆。官方原版同樣有此 bug（可考慮回報 upstream，需使用者同意） | — |
+| 31 | ~~upstream：跳躍撞牆卡住 / 穿出地圖~~ ✅ 已修正（2026-10-10）：`AnimationTracker::step` 大步移動撞到物件時，`GetInterpolatedCoords(end, start)` 起點終點傳反，主角被放進物件裡；之後每個動作立刻失敗，主角移動控制在同一 tick 無限重跑（被 kernel 保護機制終止而卡死），或落下時掉到 Z < 0。改為 `(start, end)`，使用者確認不再卡住、不再穿牆。官方原版同樣有此 bug；使用者要求回報，已送出 [PR #7979](https://github.com/scummvm/scummvm/pull/7979)（分支 `ultima8-fix-jump-into-wall`，2026-10-10） | — |
 
 ---
 
