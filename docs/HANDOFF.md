@@ -290,6 +290,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - 使用者決定：Windows 免安裝包、全專案 GPL-3.0（根目錄 `LICENSE`）、ScummVM 遊戲選項勾選框 `localization_zh_tw` / `localization_annotate`（預設開啟；未設定任何語言鍵時也預設 zh_TW）。
 - 產生：`tools\build\build_release.bat`（Release x64）→ `tools\package\make_package.ps1 [-Version 0.9.0-beta] [-Test]` → `dist\Ultima8-zhTW-<版本>\` 與 zip。玩家文件原稿在 `package/`。
 - 套件只附 Cubic 11；使用者自用的細明體（`chinese.ttf`）不可散布。
+- 2026-10-10：套件另附 jf open 粉圓（高解析用）。可攜設定改由 `package/scummvm.ini` 複製（UTF-8、每個設定一行中文 `#` 註解；ScummVM 改寫時保留註解但重排順序，所以註解要自成一句，可選設定列在 `[scummvm]` 之前的區段說明）。玩家設定說明 `package/SETTINGS.zh-TW.md`。最新包：**v0.9.2-beta**（`dist/`，未上傳）。
 - 使用者已驗收（2026-10-09：運作良好，中文顯示正常）。待決定：發布管道（GitHub Releases 等，需使用者同意才上傳）。
 
 ### P15 高解析文字層（2026-10-10 PASS）
