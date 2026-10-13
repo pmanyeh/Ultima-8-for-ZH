@@ -26,11 +26,11 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 ## Translation progress
 
 <!-- progress:start -->
-**Overall (by English characters): `████████████████████` 99.8%** (6,978 / 7,027 entries, updated 2026-10-12)
+**Overall (by English characters): `████████████████████` 99.8%** (6,986 / 7,035 entries, updated 2026-10-13)
 
 | Kind | Translated / total (entries) | English characters | Progress |
 |---|---|---|---|
-| Lines and item names | 4,819 / 4,827 | 375,389 | 99.8% |
+| Lines and item names | 4,827 / 4,835 | 375,445 | 99.8% |
 | Conversation answers | 1,822 / 1,863 | 36,829 | 99.8% |
 | Books | 87 / 87 | 116,622 | 100.0% |
 | Scrolls | 22 / 22 | 7,864 | 100.0% |
