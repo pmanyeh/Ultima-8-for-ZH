@@ -2,7 +2,7 @@
 
 本包含有加入中文化功能的 ScummVM（`ScummVM.app`），翻譯檔與字型都已放在 app 裡，不需要另外安裝任何東西。
 
-- 下載的檔名結尾 `arm64` 是 Apple Silicon（M 系列晶片）用，`x86_64` 是 Intel Mac 用。
+- 下載的檔名結尾 `arm64` 是 Apple Silicon（M 系列晶片）用，需要 macOS 11 以上；`x86_64` 是 Intel Mac 用，需要 macOS 13 以上。
 - **本包不含遊戲資料。** 你需要擁有正版的 Ultima VIII 英文版資料（例如 GOG 的 *Ultima 8 Gold Edition*）。
 
 ## 第一次開啟
@@ -28,6 +28,10 @@
 遊戲設定（Game Options… →「遊戲」分頁）裡的中文化、高解析中文字、快捷圖示列等開關，以及往下捲動的中文設定（字型、字級、字距等），都和 Windows 版相同，說明見 [SETTINGS.zh-TW.md](SETTINGS.zh-TW.md)。
 
 ScummVM 的介面語言預設跟隨系統。想要正體中文介面：「全域設定」（Global Options…）→「雜項」（Misc）→「介面語言」（GUI language）選擇「Chinese (Traditional)」。
+
+## 音樂音源
+
+macOS 版沒有 FluidSynth。`SETTINGS.zh-TW.md`「音樂音源」一節說的 SoundFont，在 macOS 上改用 macOS 內建的音源（`CoreAudio`，設定檔寫 `music_driver=core`）：在「MIDI」分頁的「SoundFont」選擇 `.sf2` 檔，macOS 內建音源就會用它播放。AdLib、Roland MT-32 和 Windows 版相同。
 
 ## 進階設定檔的位置
 

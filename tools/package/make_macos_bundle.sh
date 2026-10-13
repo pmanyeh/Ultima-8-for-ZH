@@ -1,16 +1,20 @@
 #!/bin/bash
 # Build the macOS package: ScummVM.app with the translation and the fonts,
-# the Homebrew libraries inside, and the player documents, into
+# SDL2 and FreeType inside, and the player documents, into
 # dist/Ultima8-zhTW-<version>-macOS-<arch>/ and a zip.
 #
-#   tools/package/make_macos_bundle.sh <version> <arch>
+#   tools/package/make_macos_bundle.sh <version> <arch> <deps prefix>
 #
-# Needs: scummvm-src configured and built (make), dylibbundler, python3.
+# Needs: the libraries built by tools/build/build_macos_deps.sh into the
+# prefix, scummvm-src configured with them and built (make),
+# MACOSX_DEPLOYMENT_TARGET as for both, python3.
 # Run on macOS (the GitHub Actions workflow .github/workflows/macos.yml).
 set -euo pipefail
 
 VERSION=${1:-dev}
 ARCH=${2:-$(uname -m)}
+DEPS=$(cd "$3" && pwd)
+: "${MACOSX_DEPLOYMENT_TARGET:?set MACOSX_DEPLOYMENT_TARGET}"
 ROOT=$(cd "$(dirname "$0")/../.." && pwd)
 SRC="$ROOT/scummvm-src"
 NAME="Ultima8-zhTW-$VERSION-macOS-$ARCH"
@@ -22,7 +26,7 @@ cp scummvm scummvm-static
 rm -rf ScummVM.app
 # the dock tile plugin, built here: ScummVM's Intel rule targets macOS
 # 10.6, which current Xcode no longer links
-if [ "$ARCH" = arm64 ]; then MINOS=11.0; else MINOS=10.13; fi
+MINOS=$MACOSX_DEPLOYMENT_TARGET
 rm -rf scummvm.docktileplugin
 mkdir -p scummvm.docktileplugin/Contents/MacOS
 cp dists/macosx/dockplugin/Info.plist scummvm.docktileplugin/Contents/
@@ -39,17 +43,20 @@ cp "$ROOT"/package/fonts/*.ttf "$APP/Contents/Resources/"
 mkdir -p "$APP/Contents/Resources/licenses"
 cp "$ROOT"/package/fonts/*.txt "$APP/Contents/Resources/licenses/"
 
-# the Homebrew libraries inside the bundle, then sign it again (ad hoc)
-dylibbundler -od -b -x "$APP/Contents/MacOS/scummvm" \
-	-d "$APP/Contents/libs" -p @executable_path/../libs
-# Homebrew's SDL2 is sdl2-compat, which dlopens SDL3 from @loader_path at
-# startup; dylibbundler can't see a dlopen, so bundle it by hand. --deep
-# doesn't re-sign dylibs in libs/, so sign it on its own
-cp "$(brew --prefix sdl3)/lib/libSDL3.0.dylib" "$APP/Contents/libs/libSDL3.dylib"
-chmod u+w "$APP/Contents/libs/libSDL3.dylib"
-install_name_tool -id @loader_path/libSDL3.dylib "$APP/Contents/libs/libSDL3.dylib"
-codesign -s - --force "$APP/Contents/libs/libSDL3.dylib"
+# SDL2 and FreeType inside the bundle (their install names point to
+# Contents/libs), then sign it again (ad hoc); --deep doesn't re-sign
+# dylibs in libs/, so sign them on their own
+mkdir -p "$APP/Contents/libs"
+cp "$DEPS/lib/libSDL2-2.0.0.dylib" "$APP/Contents/libs/"
+cp "$DEPS/lib/libfreetype.6.dylib" "$APP/Contents/libs/"
+codesign -s - --force "$APP"/Contents/libs/*.dylib
 codesign -s - --deep --force "$APP"
+# nothing else outside the system may be linked
+if otool -L "$APP/Contents/MacOS/scummvm" "$APP"/Contents/libs/*.dylib \
+	| grep -vE '^/|^[[:space:]]+(/System/|/usr/lib/|@executable_path/\.\./libs/)'; then
+	echo "unexpected library" >&2
+	exit 1
+fi
 
 # the package
 rm -rf "$OUT"

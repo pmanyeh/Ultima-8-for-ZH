@@ -29,9 +29,15 @@ jobs:
         include:
           - runner: macos-15
             arch: arm64
+            minos: '11.0'
           - runner: macos-15-intel
             arch: x86_64
+            minos: '13.0'
     runs-on: ${{ matrix.runner }}
+    env:
+      # the oldest macOS the package runs on
+      MACOSX_DEPLOYMENT_TARGET: ${{ matrix.minos }}
+      DEPS: ${{ github.workspace }}/macos-deps
     defaults:
       run:
         shell: bash
@@ -45,10 +51,22 @@ jobs:
           ref: ${{ env.ENGINE_REF }}
           path: scummvm-src
       - name: Install packages
-        run: brew install sdl2 sdl2_net freetype fribidi libpng jpeg-turbo libogg libvorbis flac fluid-synth dylibbundler
+        run: brew install cmake pkgconf
+      # SDL2 and FreeType built for MACOSX_DEPLOYMENT_TARGET; Homebrew's
+      # libraries only run on the runner's macOS or newer
+      - name: Build libraries
+        run: tools/build/build_macos_deps.sh "$DEPS"
+      # only the libraries built above; the rest isn't needed by Ultima 8
       - name: Configure
         working-directory: scummvm-src
-        run: ./configure --disable-all-engines --enable-engine=ultima,ultima8 --enable-release
+        run: >
+          PATH="$DEPS/bin:/usr/bin:/bin:/usr/sbin:/sbin" PKG_CONFIG_LIBDIR="$DEPS/lib/pkgconfig"
+          ./configure --disable-all-engines --enable-engine=ultima,ultima8 --enable-release
+          --with-sdl-prefix="$DEPS"
+          --disable-ogg --disable-vorbis --disable-tremor --disable-mad --disable-fribidi --disable-flac
+          --disable-jpeg --disable-png --disable-gif --disable-theoradec --disable-vpx --disable-faad
+          --disable-fluidsynth --disable-fluidlite --disable-sonivox --disable-sparkle --disable-readline
+          --disable-sdlnet --disable-libcurl --disable-enet --disable-discord --disable-cloud
       - name: Build
         working-directory: scummvm-src
         run: make -j"$(sysctl -n hw.ncpu)"
@@ -56,7 +74,7 @@ jobs:
         run: |
           VERSION="${{ github.event.inputs.version }}"
           if [ -z "$VERSION" ]; then VERSION="${GITHUB_REF_NAME#v}"; fi
-          tools/package/make_macos_bundle.sh "$VERSION" "${{ matrix.arch }}"
+          tools/package/make_macos_bundle.sh "$VERSION" "${{ matrix.arch }}" "$DEPS"
       - name: Upload
         uses: actions/upload-artifact@v5
         with:
