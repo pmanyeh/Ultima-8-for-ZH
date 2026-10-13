@@ -3,6 +3,7 @@
 ## v1.0.2（未發布）
 
 - **修正 macOS 版無法執行**：v1.0.0、v1.0.1 的 macOS 版沒有編入 Ultima 8 引擎（出現「Game id not supported」），也缺少 SDL3（一開啟就結束）。感謝 IsleFan 找出原因並修正。
+- macOS 版改為自行編譯 SDL2 與 FreeType，不再依賴 Homebrew：Apple Silicon 版支援 macOS 11 以上，Intel 版支援 macOS 13 以上（感謝 IsleFan）。macOS 版沒有 FluidSynth，SoundFont 改由 macOS 內建音源載入，見 `INSTALL-macOS.zh-TW.md`。
 - 譯名改依 1993 年軟體世界中文版手冊：魔法學派（降靈術、役水術、神通術、奇術）、元素泰坦（里索斯、海特蘿、史卓拉透絲）、人物與地名（泰納布利、莫迪雅、摩蓋林等）、稱號、法術名與藥材。遊戲標題沿用《創世紀 VIII：異教徒》，遊戲中的世界名稱仍是「佩根」。
 - 女性角色的譯名改用女性化的字：珂林絲、洛西安、綺蘭朵、翠西安、艾莉兒。
 - 對話時點畫面任何地方都會翻頁，和 Ultima VII 相同（原版要點在文字上）。

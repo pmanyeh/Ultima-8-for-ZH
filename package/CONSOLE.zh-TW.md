@@ -130,7 +130,7 @@ MainActor::teleport <egg>                傳送到目前地圖的傳送點
 | `Ultima8Engine::toggleShowTouchingItems` | `[on\|off]` | 標示與聖者接觸的物品 |
 | `GameMapGump::toggleFootpads` | `[on\|off]` | 顯示物品佔用的地面範圍 |
 | `GameMapGump::gridlines` | `[on\|off\|<間距>]` | 顯示格線 |
-| `GameMapGump::dumpMap` | `[地圖編號]` | 把整張地圖存成圖片（`map_NNN.png`，Windows 版存在本包資料夾）。會先自動存檔，完成後讀回 |
+| `GameMapGump::dumpMap` | `[地圖編號]` | 把整張地圖存成圖片（Windows 版存成 `map_NNN.png`，放在本包資料夾；macOS 版存成 `map_NNN.bmp`）。會先自動存檔，完成後讀回 |
 | `GameMapGump::dumpAllMaps` | — | 所有地圖都存成圖片（需要很久） |
 | `MiniMapGump::generate` | `[檔名]` | 重新產生小地圖；加檔名則同時存成圖片 |
 | `MiniMapGump::clear` | — | 清除小地圖 |
