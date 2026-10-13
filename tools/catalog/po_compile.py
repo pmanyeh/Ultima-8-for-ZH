@@ -209,6 +209,14 @@ def header_fields(entry):
 
 
 def canonical_context(ctx):
+    # "bark CCCC:IIII#frame": an entry for one frame of the barking item
+    # (one shape with several kinds, like the potions)
+    if ctx and ctx.startswith("bark ") and "#" in ctx:
+        base, frame = ctx.split("#", 1)
+        if not frame.isdigit() or len(frame) > 3:
+            return None
+        base = canonical_context(base)
+        return f"{base}#{int(frame)}" if base else None
     m = CONTEXT_RE.match(ctx or "")
     if not m:
         return None

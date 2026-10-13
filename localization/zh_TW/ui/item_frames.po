@@ -1,0 +1,51 @@
+# Ultima VIII: Pagan - Traditional Chinese translation
+# Names for one frame of an item: "bark CCCC:IIII#frame" is used before
+# "bark CCCC:IIII" when the barking item has that frame. Kept by hand (not
+# extracted); the base entry is in dialog/.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+
+# POTION (02FE): the frame is the colour, and the colour is the effect
+# (usecode 02FE event 01). Frame 0 is an empty bottle.
+#. potion, frame 0: empty
+msgctxt "bark 02FE:009A#0"
+msgid "potion "
+msgstr "空藥瓶"
+
+#. potion, frame 1, red: full healing
+msgctxt "bark 02FE:009A#1"
+msgid "potion "
+msgstr "治療藥水"
+
+#. potion, frame 2, orange: restores mana
+msgctxt "bark 02FE:009A#2"
+msgid "potion "
+msgstr "法力藥水"
+
+#. potion, frame 3, yellow: heals a little
+msgctxt "bark 02FE:009A#3"
+msgid "potion "
+msgstr "輕度治療藥水"
+
+#. potion, frame 4, green: hurts the drinker
+msgctxt "bark 02FE:009A#4"
+msgid "potion "
+msgstr "毒藥"
+
+#. potion, frame 5, purple: "I feel like fighting!", invulnerable for a while
+msgctxt "bark 02FE:009A#5"
+msgid "potion "
+msgstr "無敵藥水"
+
+#. potion, frame 6, blue: "Zzzzz..."
+msgctxt "bark 02FE:009A#6"
+msgid "potion "
+msgstr "沉睡藥水"
+
+#. potion, frame 7, black: invisible for a while
+msgctxt "bark 02FE:009A#7"
+msgid "potion "
+msgstr "隱形藥水"

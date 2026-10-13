@@ -500,7 +500,8 @@ def cmd_check(a):
                 e.msgid.encode(po_compile.GAME_ENCODING)
             except UnicodeEncodeError:
                 errors.append(f"{where}: msgid not representable in the game code page")
-            if current is not None and ctx != "ui" and (ctx, e.msgid) not in current:
+            # a frame entry (bark ...#frame) is current when its bark is
+            if current is not None and ctx != "ui" and (ctx.split("#")[0], e.msgid) not in current:
                 errors.append(f"{where}: stale: {ctx} {e.msgid[:50]!r} is not in the game text")
             if not e.msgstr:
                 continue
