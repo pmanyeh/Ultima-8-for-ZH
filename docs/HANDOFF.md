@@ -1,9 +1,35 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
-**更新日期：** 2026-10-11（**v1.0.1**：自動走近使用修正、玩家版主控台說明；**v1.0.0**：Windows 版與 macOS 版 arm64 / x86_64；macOS 由 GitHub Actions 建置；P17 自動走近使用 PASS；P16、P15 PASS）
-**目前進度：** Phase 0–13 ✅ PASS（P13 報告 `docs/reports/P13-full-translation.md`），Phase 14（打包）✅ PASS（報告 `docs/reports/P14-packaging.md`，產生方式見 §8 末）。**P15 高解析文字層 ✅ PASS**（報告 `docs/reports/P15-hd-text-layer.md`，見 §8 末）。其他待使用者決定：Release 呈現方式（使用者想參考「叛變克朗多」專案的 `dist/release_v100_zh`）、Mac 版（GitHub Actions）、P15 高解析文字層（Master Plan §34、§48）。舊摘要：Phase 0–12 ✅ PASS（**核心 localization 架構已證明**，P7）。**Phase 13（正式翻譯）進行中**：第一批（開場 → 碼頭處決 → 城內衛兵）已完成並經使用者試玩確認。下一步見 §8。
+**更新日期：** 2026-10-14
+**目前進度：** Phase 0–19 ✅ PASS。全遊戲翻譯完成（99.8%，6,986 條；未翻的 49 條是刻意保留的數字、密碼、座標）。v1.0.2 已打包（Windows、macOS arm64 / x86_64，在 `dist/`），**GitHub Release 尚未建立**。
 
-給接手的 Agent：請先完整閱讀本文件，再讀 [Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（目前 v2.9，開頭有修訂紀錄，§18.1 有進度表，§49 是待辦總表）。翻譯檔的格式與流程見 [localization/README.md](../localization/README.md)。
+給接手的 Agent：請先讀 **§0（目前狀態與下一輪待辦）** 與 §1（合作規則），再依需要讀其他章節、[Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（§49 是早期的待辦總表）與 [localization/README.md](../localization/README.md)。
+
+---
+
+## 0. 目前狀態與下一輪待辦
+
+### 待辦（使用者交代）
+
+1. **下次打包時，ScummVM 遊戲選項的「高解析度」（`usehighres`，640×480）預設開啟**（使用者 2026-10-14）。做法：`engines/ultima/metaengine.cpp` 的 `GAMEOPTION_HIGH_RESOLUTION` 把 `defaultState` 改為 `true`，並讓 `Ultima8Engine::startupGame()` 在沒有 `usehighres` 鍵時預設 `_highRes = true`（目前只在有鍵時讀）。只寫在 `package/scummvm.ini` 的 `[scummvm]` 不夠：勾選框只看遊戲區段與 `defaultState`，會顯示成未勾選。注意：高解析度下介面（背包等）會變小，見下方 P20。改完要更新 CHANGELOG 與 `SETTINGS.zh-TW.md`。
+2. **使用者正在試玩 v1.0.2**，可能還有要調整的地方；之後再 push、重新打包、發布。
+3. **GitHub Release v1.0.2**：三個 zip 都在 `dist/`；建立前先問使用者（公開動作）。朋友（IsleFan）在測 Mac 版。
+
+### 尚未 push / 尚未打包
+
+- 引擎 `999f98fc7d`（聖者移動程序每 tick 最多執行 8 次，防止撞到屍體時卡死）只在本機；`dist/` 的 v1.0.2 不含它。使用者說先不 push、不重新打包。
+- 其餘都已 push：主 repo `main` @ `2f35d9e`、引擎 fork `ultima8-zh-tw-dev` @ `b5281180bb`。
+
+### 已研究、暫緩（使用者決定）
+
+- **P20 高解析度的介面放大**：開啟 `usehighres` 後背包、台詞框等介面只有一半大。可行做法：在桌面加一個 2 倍的「介面層」（所有非地圖 gump 放進去，`ParentToGump` / `GumpToParent` 換算 ×2，畫到暫存 surface 再放大）。拖曳時物品在背包裡由背包畫（2 倍）、到地圖上由地圖畫（原大小），使用者 U7 專案要求的「拖出背包要縮回」會自然成立。主要風險：高解析中文字的大小與位置（`TextWidget::PaintComposited`、`hdToGame` 換算要改以介面層為基準）、跟著人物的 gump（台詞、傷害數字）的位置、`MoveOnScreen` 的邊界。建議分兩步：先介面層與拖放，再處理高解析中文字。
+- 敵人血條（傷害數字的方案 D）：先不做。
+
+### 其他可考慮
+
+- 「揮空」與魔法 / 投擲物的傷害數字（目前只顯示聖者近戰打中）。
+- 踏腳石下沉時暫停（P19 只改落點，下沉是原版機關）。
+- 可回報 upstream 的修正（需使用者同意，**不要自行從 fork 建 PR**）：自動走近使用的 reach target、移動程序同 tick 迴圈保護、`TTFont::renderText` 越界、原版換行無限迴圈。
 
 ---
 
@@ -62,6 +88,10 @@
 | `gumps/menu_gump.cpp`、`quit_gump.cpp`、`u8_save_gump.cpp`、`world/actors/avatar_death_process.*` | 介面文字（P9） |
 | `gfx/fonts/font.*`、`tt_font.*`、`font_manager.*`、`games/game_data.*` | UTF-8 / CJK 字型（P3）、`isUTF8()`、CJK override |
 | `misc/debugger.*` | 主控台指令（§4） |
+| `misc/options_widget.*` | 遊戲設定的中文設定頁（P18） |
+| `gumps/quick_bar_gump.*`、`gumps/damage_gump.*` | 快捷圖示列與作弊圖示（P16）、傷害數字（P19） |
+| `world/actors/u8_avatar_mover_process.cpp`、`avatar_mover_process.cpp` | 輔助跳躍（P19）、同 tick 迴圈保護 |
+| `gumps/game_map_gump.cpp`、`world/actors/pathfinder*.cpp` | 自動走近使用（P17）、對話時點任何地方翻頁 |
 
 ---
 
@@ -72,7 +102,9 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 ├── ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md   ← v2.9
 ├── docs/
 │   ├── HANDOFF.md                        ← 本文件
-│   ├── reports/P0..P12-*.md              ← 各 Phase 報告
+│   ├── reports/P0..P19-*.md              ← 各 Phase 報告
+│   ├── research/manual-1993-terms.md     ← 1993 中文手冊譯名對照與使用者的決定
+│   ├── console-commands.md               ← 主控台 85 個指令的中文對照（開發用；玩家版在 package/CONSOLE.zh-TW.md）
 │   ├── research/u8-text-pipeline.md      ← P1 文字流程研究
 │   ├── research/text-surface-inventory.md ← P8 全部文字 surface 盤點（26 類）與 Phase 分配
 │   └── architecture/ADR-001（ID）, ADR-002（格式、工具鏈、權威檔）
@@ -80,7 +112,8 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 │   ├── README.md                         ← 翻譯檔格式、要保留的符號、流程（給譯者）
 │   └── zh_TW/
 │       ├── dialog/CCCC_NAME.po           ← 394 個 class（自動產生 + 合併）
-│       ├── ui/engine.po                  ← 介面文字
+│       ├── ui/engine.po、movies.po        ← 介面文字、片頭字幕
+│       ├── ui/item_frames.po             ← 依物品畫格的名稱（藥水，手動維護）
 │       └── authority.tsv                 ← 權威檔
 ├── tools/
 │   ├── catalog/u8catalog.py              ← update（抽取 + 合併）/ check / stats / terms
@@ -93,7 +126,9 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 │   ├── validate/font_coverage.py         ← 字集覆蓋檢查
 │   ├── validate/save_text_check.py       ← 存檔中有 CJK 文字就失敗
 │   ├── validate/save_compare.py          ← 存檔逐區段比較（P12，只檢查遊戲資料區段的中文）
-│   ├── build/                            ← 建置與測試腳本（§4）
+│   ├── build/                            ← 建置與測試腳本（§4）；build_macos_deps.sh（macOS 自編 SDL2 / FreeType）
+│   ├── package/                          ← make_package.ps1（Windows）、make_macos_bundle.sh（macOS）
+│   ├── gui/make_zh_hant.py               ← ScummVM 正體中文介面翻譯（由簡中轉換）
 │   └── automation/scummvm_window.ps1、startup_check.ps1、save_matrix.ps1、regression_startup.ps1（P12）
 ├── Ultima 8/          （gitignored）GOG 遊戲資料，唯讀；英文版在 Ultima 8\ENGLISH\
 ├── private_test/      （gitignored）啟動檔、設定檔、字型、u8_zh_TW.mo、存檔、log
@@ -106,7 +141,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike，**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `1882ba7ba5` | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`、名稱加註 `e674111a51`、P13 選項句型 `1882ba7ba5`（P8 只有研究，無引擎修改） |
+| `ultima8-zh-tw-dev` | `999f98fc7d`（本機；fork 上是 `b5281180bb`） | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`、名稱加註 `e674111a51`、P13 選項句型 `1882ba7ba5`、P17 自動走近使用修正 `55465bc361`、對話翻頁與 Esc `d3d312092a`、P18 `e1220ab65f` `0da37d5d54`、P19 `31870b3ae0` `b5c29c98cf` `b5281180bb`、移動程序迴圈保護 `999f98fc7d`（P8 只有研究，無引擎修改） |
 
 建置目錄（`scummvm-src/` 內，gitignored）：`build-scummvm/`（原版）、`build-trace/`（Usecode trace）、`build-spike/`、**`build-dev/`（開發分支，Debug x64）**。
 
@@ -130,7 +165,7 @@ MSVC 的 `--tests` 模式會停用所有引擎，所以在 WSL 跑（**用 Power
 wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 ```
 
-- 目前 **483 項全部 OK**。本專案的測試：`test/engines/ultima/ultima8/gfx/font_utf8.h`（P3）、`misc/translation_catalog.h`（P4–P10）。
+- 目前 **485 項全部 OK**（2026-10-13）。本專案的測試：`test/engines/ultima/ultima8/gfx/font_utf8.h`（P3）、`misc/translation_catalog.h`（P4–P10）。
 - **MSVC 與 g++ 都要建置**：MSVC 把 C4701（可能未初始化）當錯誤。
 - **單元測試只能用不依賴 `Kernel` 的物件檔**，否則靜態函式庫會拉進整個引擎與 GUI 而無法連結。gump / widget 只能在遊戲中測。
 
@@ -139,6 +174,7 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 | 啟動檔 | 內容 |
 |---|---|
 | `launch-dev.bat [slot\|new] [en\|nosub\|mute]` | **開發分支**，`--debugflags=Localization`。`new` = 新遊戲（一開始就進入與 Devon 的第一次見面）；`en` = localization off（`scummvm-dev-en.ini`，共用存檔）；`nosub` = 關字幕、`mute` = 關語音（P12） |
+| `launch-launcher.bat` | 開發分支，停在 ScummVM 啟動器（測試遊戲設定與中文設定頁，P18） |
 | `launch-p0.bat`、`launch-trace.bat`、`launch-spike.bat` | 原版、Usecode trace、P2 spike |
 
 - 設定檔：`scummvm-dev.ini`（`localization=zh_TW`、`font_cjk_file=Cubic_11.ttf`、`originalsaveload=true`）。ScummVM 會自動改寫 ini，屬正常。
@@ -173,12 +209,14 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 2. **`_UTF8` 是 Windows 系統標頭的巨集**：變數命名避開（用 `_utf8`）。
 3. **原版英文含 CP437 字元**（4 句德文 / 法文）：字型以 CP437 逐 byte 解碼不合法的 UTF-8；PO 以 UTF-8 存放，編譯時 key 轉回 CP437。
 4. **對話中無法存檔**（`setAvatarInStasis`），原版設計。
-5. **ScummVM 預設用自己的存讀檔畫面**：要 `originalsaveload=true` 才會用 U8 原版日記。ScummVM **沒有繁中介面翻譯**（`po/zh_Hant.po` 是空的），ScummVM 自己的選單是簡中或英文，不在本專案範圍。
+5. **ScummVM 預設用自己的存讀檔畫面**：要 `originalsaveload=true` 才會用 U8 原版日記。官方的 `po/zh_Hant.po` 是空的；P18 起由 `tools/gui/make_zh_hant.py` 從簡中轉換產生，`gui/themes/translations.dat` 要用 WSL 編譯 `devtools/create_translations` 重建（Windows 執行檔會內嵌它，改了要 touch `dists/scummvm.rc` 再建置）。
 6. **`EditWidget` 用 high-res CJK 字型時文字畫到錯誤位置**（§49 #23，使用者：之後再修）。目前日記字型（4）不替換。
 7. **`TTFont::renderText` 原本會寫出圖片範圍**（游標在行尾），P9 已修正。
 8. Git 全域 `core.autocrlf=true`：主 repo 用 `.gitattributes`（`eol=lf`，`.bat` 為 crlf）；`scummvm-src` 的部分檔案是 CRLF，修改腳本要保留原本的換行。
 9. 主控台輸出中文會變亂碼（cp950），驗證時用 `ascii()` 或寫檔比對。
 10. **增量連結可能沒把新程式連進 `scummvm.exe`**（2026-10-10 發生：改了圖示的圖框，畫面一直不變；obj 與 `ultima.lib` 是新的，exe 是舊的）。畫面或行為不符合預期時，先刪掉 `build-dev/Debugx64/ultima.lib` 和 `scummvm.exe` 再建置。
+11. `module.mk` 有 CRLF 也有 LF 的行，用腳本插入新的 `.o` 時兩種都要試（P18、P19 都踩到）。
+12. GitHub 有時很慢：`gh` 指令加 `timeout 100`，長時間等待用背景執行 `gh run watch`。
 
 ---
 
@@ -196,9 +234,9 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 ```
 
 - **權威檔** `localization/zh_TW/authority.tsv`：欄位 category / english / translation / status / count / example / note。status：`keep`（保留英文）、`approved`、`proposed`、`todo`。`check` 依 keep / approved 檢查譯文。
-- 目前（2026-10-08）：756 詞，**使用者已翻譯全部譯名**：approved 17、proposed 720、ignore 19（不是專有名詞）。審閱修正：Lithos = 利索斯（潛伏者是 Hydros）、巫師 / 巫術、魔法書用法術全名等。使用者還在找舊版中文手冊，可能再調整。新欄位 `annotate`。
+- 2026-10-11 依 1993 中文手冊調整大量譯名（見 §7 使用者的決定）。早期（2026-10-08）：756 詞，**使用者已翻譯全部譯名**：approved 17、proposed 720、ignore 19（不是專有名詞）。審閱修正：Lithos = 利索斯（潛伏者是 Hydros）、巫師 / 巫術、魔法書用法術全名等。使用者還在找舊版中文手冊，可能再調整。新欄位 `annotate`。
 - 譯名已全部決定（proposed）；正式翻譯時譯文一律用權威檔的中文名稱，不自己加英文（引擎會自動加註）。
-- 翻譯進度（2026-10-08）：6,944 條（含 ui），**已翻 1,003 條**（以英文字元計 11.2%）。README 的進度用 `python tools/catalog/progress.py zh_TW` 更新。
+- 翻譯進度（2026-10-14）：6,986 條已翻（99.8%），49 條刻意不翻。README 的進度用 `python tools/catalog/progress.py zh_TW` 更新（push 前跑）。
 - 權威檔 758 詞（P13 加 Nystul 尼斯圖、Pellgun 佩爾岡）。
 - 2026-10-10 一致性檢查：專有名詞的譯法一致（標出的差異都是合理的縮寫或語境，例如「聚落」「雨之海」「奇斯蛛絲」）。補進 45 個名詞（書與對話中的人名、門徒六人、黑夫人號、星期與月份），每個都先確認翻譯檔裡的實際譯法。檢查腳本在 scratchpad（`termcheck.py`、`addterms.py`），需要時重寫。
 
@@ -221,6 +259,13 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 | P10 Extraction & Toolchain | 全遊戲翻譯檔、合併 / 檢查 / 統計、權威檔、讀物 | [P10](reports/P10-extraction-toolchain.md) |
 | P11 Dynamic Strings / Pagination / Timing | 依分支列舉句子、`{partN}`、酒名等參數；顯示時間改為 reading length；分頁量測（不調整版面） | [P11](reports/P11-dynamic-strings-pagination-timing.md) |
 | P12 Save / Speech / Regression | 存讀檔矩陣（中英互換，邏輯區段一致）、語音矩陣、啟動回歸 9 情境；日文計時修正 | [P12](reports/P12-save-speech-regression.md) |
+| P13 Full Translation | 全遊戲翻譯 99.8%；代為發話、選項句型 | [P13](reports/P13-full-translation.md) |
+| P14 Packaging | Windows 免安裝包、GPL-3.0、玩家文件 | [P14](reports/P14-packaging.md) |
+| P15 HD Text Layer | 中文以視窗解析度繪製（jf open 粉圓） | [P15](reports/P15-hd-text-layer.md) |
+| P16 Quick Bar | 右下角快捷圖示列、作弊圖示組 | [P16](reports/P16-quick-bar.md) |
+| P17 Walk to Use | 雙擊太遠的物品自動走過去使用 | [P17](reports/P17-walk-to-use.md) |
+| P18 Chinese Settings / GUI | 遊戲設定的中文設定頁、ScummVM 正體中文介面 | [P18](reports/P18-chinese-settings-gui.md) |
+| P19 Gameplay Assists | 輔助跳躍、傷害數字、藥水依效果命名 | [P19](reports/P19-gameplay-assists.md) |
 
 ### 使用者已做的決定
 
@@ -239,42 +284,21 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - P11：分頁增加約 8%，不調整版面（測試通過）；顯示時間 CJK 字算 3 個英文字母。
 - #27：目前不調整；之後可縮小行距或只在中文時加大台詞框。#28：14 個 proposed 譯名先使用，使用者會依舊版中文手冊再調整。
 - P12：語音四種情境都自然。「全語音 / 中文語音」是使用者之後的想法（§49 #29，條件成熟再說）。
+- **墓碑牌匾**：後來改為預設全中文（`engraving_chinese`，王漢宗魏碑體雕刻效果），英文雕刻加字幕仍可選。
+- **1993 中文手冊譯名**（2026-10-11，`docs/research/manual-1993-terms.md`）：魔法學派、元素泰坦、人物、地名、稱號、法術、藥材依手冊；種族組織、法器、介面文字、Adept（行家法師，與使用者 U7 一致）維持現行。**Pagan**：遊戲標題「異教徒」，遊戲內世界名「佩根」。女性角色用女性化的字（珂林絲、洛西安、綺蘭朵、翠西安、艾莉兒）。
+- 結局動畫沒有字幕；製作人員名單與語錄不翻；49 條刻意不翻的條目維持（使用者 2026-10-11）。
+- 對話時點任何地方翻頁、Esc 先關最上層容器、輔助跳躍、傷害數字：預設開啟，可在中文設定頁關閉。血條不做。
 
 ---
 
-## 8. Phase 13（正式翻譯）進行中
+## 8. 開發紀錄（P13 之後）
 
-### 已完成：第一批（使用者要錄影向同好宣告專案）
+### P13 正式翻譯（完成）
 
-範圍：新遊戲開場 → 走到泰尼伯瑞城門 → 碼頭處決 → 進城。使用者試玩兩次，log 確認路線上全部 HIT。
-
-| class | 內容 |
-|---|---|
-| 0402 戴文（全部）、0483 處決過場、0061 托蘭、0407 莫爾迪亞、0404 城門衛兵、0408 塔娜、0413 夏娜、0412 芮安 | 560 條 |
-| 04C3 碼頭審問、METHOD 057C 中處決 / 衛兵日誌的句子、Guardian 嘲諷全部 23 句（0401 event 15）、魚 / 籃子 / 絞盤等物品、含名字的選項 | 64 條 |
-| 泰尼伯瑞城內衛兵 GUARD2–10、GUARDMAN、GUARD_EW | 271 條 |
-
-### 已完成：第二～六批（2026-10-09，尚未試玩）
-
-所有對話角色與物品文字已翻完（進度 76.1%，6,692 / 6,995 條）：泰尼伯瑞主要角色（班提克、歐洛克、珍娜、薩金德、達里恩、科里克、奇蘭卓、阿拉米娜）、平民 / 小孩 / 乞丐、米斯蘭、維維多斯與地下墓穴的古代死靈法師、托溫、白銀之岩（史泰洛斯、席勒斯、薩維爾、神術師）、牧民夫婦威廉與柯林斯、巫師聚落（貝倫、貝恩、瓦爾迪恩、戈格隆德、馬爾奇爾、阿卡迪昂、門徒）、四泰坦、派羅斯召喚、戴文的審判、物品名稱、作弊選單。譯者註解 `# P13 batch 2`～`6`。
-
-- 風格：歐洛克海盜腔、括號裡的「真心話」是聆聽真言法術的效果；薩金德用「咱們」的居高臨下語氣；貝恩給主角取的真名「戴蒙」意為「天空之火」，罵人的「戴蒙癡」= 腦中之火；咒語（In Flam! 等）保留原文、驚嘆號改全形。
-- 文字雙關改寫：歐洛克「What's yer poison?」→「想來點什麼毒藥？」；阿拉米娜 murder→mother 改成「謀殺／模範」。
-- 新出現的人名（未加入權威檔，只出現一兩次）：瑟卡（Cekar）、艾蓮娜（Elaina）、艾莉安娜（Arianna）、卡佩斯（Karpese）、班托斯（Bentos）、雪比／波諾（托拉克斯獸）、門徒名 卡達斯／戴摩斯／柯修斯／門塔／塔隆／艾姆里柯；船名（黑夫人號等）；週日名（守護日、大地日…）、月名（石痕月…）。
-- **第七、八批**（同日）：墓碑、牌匾（字幕不必照雕刻的 `*` 換行，batch.py 已比照 check 放寬）、全部的書與捲軸。進度 **99.8%（6,944 / 6,995）**。剩下 51 條是刻意不翻的：作弊選單的亂碼密碼與座標資訊、數字選項 0–9、`.`、0575 / 058A 名字缺漏的兩句。
-- **片頭動畫字幕**（EINTRO.SKF，守護者的 5 句）存在動畫檔裡，原本沒抽到也沒查表：引擎 `skf_player.cpp` 改用 `Localization::uiText`，譯文在 `localization/zh_TW/ui/movies.po`（ENDGAME.SKF 沒有字幕）。
-- 字型 Cubic 11 缺「愫」「懨」，已改用其他字；之後新增譯文請看 check 的 font 警告。
-- 書中新名字（未加入權威檔）：伊拉丹、納戴爾、諾蘭德魯、溫特羅斯、托戴姆、崔克斯特、史拉戴克、布羅格丹、格林修士、傑利（Jelly，人名，非權威檔的肉凍）、維泰克中尉、德洛卡、特雷卡斯特、羅賓．達德利等。
-
-### 第二～六批發現的抽取問題
-
-- **已修正**：清單一次放入多個選項時只抽到最後一個（薩維爾的智慧考驗選項、五芒星陣與死靈法師之鑰的咒語、貝倫的魔鬼之口等，新增 51 條）。`site_variants()` 現在也沿分支列舉選項清單（貝恩的「Please forgive me」+「, kind lady.」/「, Bane.」）。
-- **未修正**：巫師門徒（0575 SORCERER）用清單隨機取名（Cardas…），名字存在 local 裡，抽取工具沒把它當參數，`My name is {名字}. And you are?`、`{名字}, the late Sorcerer` 會顯示英文；058A 的 `He calls himself, .` 同樣原因（名字缺）。需要讓抽取工具把「從清單取值的 local」當成參數。
-- 0575 的 Cardas 等名字被當成選項抽出（其實是取名清單），無害。
-
-翻譯工具：`tools/catalog/table.py`（prefill / view / fill，用法見檔頭）——對照表方式一批可處理數百條。
-
-譯文附譯者註解 `# P13 batch 1`。翻譯風格：莫爾迪亞傲慢、城門衛兵粗俗口語（俺）、芮安的 `-sob-` → （啜泣）、`-sniff-` → （抽噎）、`-強調-` 改用「」或語氣；貨幣 stones / blacks → 黑曜石幣；選項「Goodbye.」→「再見。」。英文原文誤打的 tab 在譯文中省略（check 會有 tab 警告，可忽略）。
+- 全部對話、物品、書、捲軸、墓碑、牌匾、片頭字幕都已翻譯（99.8%）。片頭字幕（EINTRO.SKF）在 `ui/movies.po`，引擎 `skf_player.cpp` 走 `Localization::uiText`；結局動畫沒有字幕。
+- 巫師門徒自我介紹的名字已補上（抽取工具支援由呼叫端傳入的值）。
+- 新增譯文要看 `check --font` 的缺字警告（Cubic 11 缺少少數字，例如「愫」「懨」；王漢宗魏碑體缺「祢」「嘞」，只有墓碑牌匾用到時才有影響）。
+- 譯文附譯者註解 `# P13 batch 1`。翻譯風格：莫爾迪亞傲慢、城門衛兵粗俗口語（俺）、芮安的 `-sob-` → （啜泣）、`-sniff-` → （抽噎）、`-強調-` 改用「」或語氣；貨幣 stones / blacks → 黑曜石幣；選項「Goodbye.」→「再見。」。英文原文誤打的 tab 在譯文中省略（check 會有 tab 警告，可忽略）。
 
 ### P13 中修正的工具與引擎
 
@@ -282,20 +306,13 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - **代為發話**：字串當參數傳給別的 class 的函式說出（`METHOD 057C:087D` 說出參數 → `bark 057C:088A`）。抽取工具以 `passed_strings()` / `param_bark_sites()` 追蹤，**新增 79 句過去完全沒抽到的台詞**（處決群眾、派羅斯召喚場景、法術咒語等），條目放在被呼叫的 class 檔（註解 `said for <caller>`）。
 - 翻譯小工具：`tools/catalog/batch.py`（dump / apply）；大量重複句子可用「英文 ||| 中文」對照表產生 blocks（本 session 用 scratchpad 腳本 `distinct.py`，需要時重寫）。
 
-### 下一步（使用者已授權由 Agent 決定翻譯順序）
+### 打包與發布
 
-1. **請使用者試玩**（泰尼伯瑞全城、高原、墓地、白銀之岩、巫師聚落、書），讀 log 補 MISS；修抽取工具的「清單取名」缺口（見上）。之後可做全文校潤、權威檔補新人名、P14 打包。
-2. 每批：`batch.py dump` → 閱讀上下文翻譯 → `apply` → `check` → `po_compile` → `progress.py` → commit；請使用者試玩，讀 log 補 MISS。
-3. 使用者要求時才 push（兩個 repo：主 repo `origin/main`，引擎 `origin/ultima8-zh-tw-dev`）。目前本機有尚未 push 的 commit。
-4. 其他待討論：是否貢獻 upstream（使用者目前**不要**送到官方）。
-
-### P14 打包（2026-10-09）
-
-- 使用者決定：Windows 免安裝包、全專案 GPL-3.0（根目錄 `LICENSE`）、ScummVM 遊戲選項勾選框 `localization_zh_tw` / `localization_annotate`（預設開啟；未設定任何語言鍵時也預設 zh_TW）。
-- 產生：`tools\build\build_release.bat`（Release x64）→ `tools\package\make_package.ps1 [-Version 0.9.0-beta] [-Test]` → `dist\Ultima8-zhTW-<版本>\` 與 zip。玩家文件原稿在 `package/`。
-- 套件只附 Cubic 11；使用者自用的細明體（`chinese.ttf`）不可散布。
-- 2026-10-10：套件另附 jf open 粉圓（高解析用）。可攜設定改由 `package/scummvm.ini` 複製（UTF-8、每個設定一行中文 `#` 註解；ScummVM 改寫時保留註解但重排順序，所以註解要自成一句，可選設定列在 `[scummvm]` 之前的區段說明）。玩家設定說明 `package/SETTINGS.zh-TW.md`。最新包：**v1.0.1**（2026-10-11，Windows 版在 `dist/`；自動走近使用修正、玩家版主控台說明 `package/CONSOLE.zh-TW.md`、音樂音源說明。macOS 兩包由 Actions run 38117541510 建置；三包都在 `dist/`。README 已改為正式版、下載指向 GitHub Releases，Release 尚未建立）。**macOS 版 v1.0.0、v1.0.1 都無法執行**（2026-10-11 IsleFan 的 PR #1 修正，已合併）：`--disable-all-engines --enable-engine=ultima` 不會開啟子引擎 ultima8（建置紀錄 `Ultima []`），要寫 `ultima,ultima8`；Homebrew 的 sdl2 是 sdl2-compat，執行時才 dlopen SDL3，dylibbundler 收不到，要手動放進 `Contents/libs/libSDL3.dylib` 並單獨簽章。建置後確認紀錄有 `Ultima [Ultima VIII - Pagan]`。**2026-10-13 PR #2（IsleFan）**：不再用 Homebrew 的函式庫，`tools/build/build_macos_deps.sh` 依 `MACOSX_DEPLOYMENT_TARGET` 自行編譯 SDL2 2.32.10 與 FreeType 2.13.3（arm64 最低 macOS 11、Intel 最低 13），configure 停用 Ultima 8 用不到的函式庫（含 FluidSynth、PNG），打包腳本檢查主程式與 dylib 只連結系統與 `Contents/libs/`。下一版 v1.0.2（含 1993 手冊譯名，`docs/research/manual-1993-terms.md`）。v1.0.2 另含：女性角色譯名（珂林絲、洛西安、綺蘭朵、翠西安、艾莉兒）；對話時點任何地方翻頁（`bark_click_anywhere`，`GameMapGump::onMouseDown` 在聖者 stasis 時交給最前面的 BarkGump）、Esc 先關最前面的 ContainerGump（`esc_closes_gumps`，`Gump::FindFrontChild`），引擎 `d3d312092a`，使用者試玩 OK。**P18 PASS（2026-10-12）**：遊戲設定的中文設定頁（`ultima8/misc/options_widget.*`）與 ScummVM 正體中文介面（`po/zh_Hant.po` 由 `tools/gui/make_zh_hant.py` 產生、`gui/themes/translations.dat` 重建），報告 `docs/reports/P18-chinese-settings-gui.md`。測試啟動器用 `private_test/launch-launcher.bat`。**P19 PASS（2026-10-13）**：輔助跳躍（`assisted_jump`，`U8AvatarMoverProcess::jump`）、傷害數字（`damage_numbers`，`gumps/damage_gump.*`、字型 `CJK_DAMAGE_FONT`）、藥水依畫格命名（`bark CCCC:IIII#frame`，`localization/zh_TW/ui/item_frames.po`），報告 `docs/reports/P19-gameplay-assists.md`。高解析度的介面放大（介面層 2 倍）已研究，使用者決定暫緩。
-- 使用者已驗收（2026-10-09：運作良好，中文顯示正常）。待決定：發布管道（GitHub Releases 等，需使用者同意才上傳）。
+- Windows：`tools\build\build_release.bat`（Release x64；改了 `translations.dat` 要先 touch `dists\scummvm.rc`）→ `tools\package\make_package.ps1 [-Version X]`（預設版本在腳本裡）→ `dist\Ultima8-zhTW-<版本>\` 與 zip。玩家文件在 `package/`（README、INSTALL、INSTALL-macOS、SETTINGS、CONSOLE、CHANGELOG、LICENSES、TRANSLATION_CREDITS）；`package/scummvm.ini` 是可攜設定（中文 `#` 註解、`gui_language=zh_Hant`）。
+- 套件附 Cubic 11、jf open 粉圓、王漢宗魏碑體（各附授權）；使用者自用的細明體（`chinese.ttf`）不可散布。ROM（MT-32）不可附，`make_package.ps1` 每次都重建資料夾。
+- macOS：`.github/workflows/macos.yml`（手動觸發 `gh workflow run macos.yml -R pmanyeh/Ultima-8-for-ZH -f version=X`，或推 `v*` 標籤），引擎取自 fork 的 `ultima8-zh-tw-dev`（**引擎改動要先 push**）。2026-10-13 起（IsleFan 的 PR #2）用 `tools/build/build_macos_deps.sh` 依 `MACOSX_DEPLOYMENT_TARGET` 自編 SDL2 與 FreeType：arm64 最低 macOS 11、Intel 最低 13；configure 要 `--enable-engine=ultima,ultima8`（PR #1：只寫 ultima 不會編入子引擎）；沒有 FluidSynth（SoundFont 走 CoreAudio）、沒有 PNG（`dumpMap` 存 BMP）。建置後檢查：紀錄有 `Ultima [] [Ultima VIII - Pagan]`、zip 的 `Contents/libs/` 只有 libSDL2 與 libfreetype。
+- gh CLI 已登入使用者帳號（`C:/Program Files/GitHub CLI/gh.exe`，有 workflow 權限）。
+- 版本：v1.0.0、v1.0.1 的 Mac 版無法執行（未發布）；v1.0.2 是第一個三平台都可用的版本，CHANGELOG 有完整內容。
 
 ### P15 高解析文字層（2026-10-10 PASS）
 
@@ -316,12 +333,16 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - 報告 `docs/reports/P17-walk-to-use.md`。雙擊太遠的物品 → `PathfinderProcess(avatar, item, false, 16)` → `GameMapGump::run` 檢查，到了就 `use()`，到不了就搖頭；玩家移動／戰鬥／對話取消。設定 `walk_to_use`（預設開）。
 - 原本的「走向物品」尋路判斷（`checkItem`）以主角最遠角比較，從門的正面等側永遠不成立；新增 `Pathfinder::setReachTarget`（框間隙）只給這個功能用，不寫進存檔。可考慮回報官方（需使用者同意）。
 
-### macOS 版（2026-10-11，GitHub Actions）
+### P18 中文設定頁與正體中文介面（2026-10-12 PASS）
 
-- `.github/workflows/macos.yml`：手動觸發（Actions → macOS → Run workflow，輸入版本）或推送 `v*` 標籤；macos-15（arm64）與 macos-15-intel（x86_64）各一包，產物是 run 的 artifact。引擎取自 `pmanyeh/scummvm` 的 `ultima8-zh-tw-dev`（**引擎改動要先 push 那個分支**）。
-- 打包腳本 `tools/package/make_macos_bundle.sh`：`make bundle-pack`（用動態版 `scummvm` 充當 `scummvm-static`）、mo 與字型放 `Contents/Resources`、`dylibbundler` 收 Homebrew 函式庫、ad hoc 簽章、`ditto` 壓縮。Dock 外掛由腳本自己編（ScummVM 的 Intel 規則以 macOS 10.6 為目標，新版 Xcode 無法連結；改用 10.13 / arm64 11.0）。
-- gh CLI 已安裝並以使用者帳號登入（`C:/Program Files/GitHub CLI/gh.exe`，有 workflow 權限）：`gh workflow run macos.yml -R pmanyeh/Ultima-8-for-ZH -f version=X`、`gh run watch`、`gh run download`。
-- **尚未在真正的 Mac 上試玩**（使用者沒有 Mac 或尚未測試）；有回報再修。
+- 報告 `docs/reports/P18-chinese-settings-gui.md`。`UltimaMetaEngine::buildEngineOptionsWidget` 對 ultima8 回傳 `Ultima8::OptionsWidget`（`misc/options_widget.*`）：上方原本的勾選框，下方字型、字級、間距、台詞框、操作方式；只寫入和繼承值不同的設定；關閉設定視窗時引擎重新建立字型，即時生效。
+- 新選項要同時加：`ultima8.cpp` 的 `registerDefault`、設定頁的 `addBool` / `addNumber`、`tools/gui/make_zh_hant.py` 的 ULTIMA 譯文（重新產生 po 與 `translations.dat`）、`SETTINGS.zh-TW.md`。
+
+### P19 遊玩輔助（2026-10-13 PASS）
+
+- 報告 `docs/reports/P19-gameplay-assists.md`。輔助跳躍（`assisted_jump`，`U8AvatarMoverProcess::jump`，落點置中、被擋時找附近空位，debug 1 log `Assisted jump:`）；傷害數字（`damage_numbers`，`gumps/damage_gump.*`，字型 `CJK_DAMAGE_FONT` / `font_cjk_damage_*`）；藥水依畫格命名（`bark CCCC:IIII#frame`，`ui/item_frames.po`）。
+- 踏腳石（usecode `020F SINKING`）會定時下沉，是原版機關，沒有改。
+- 2026-10-14：撞到屍體卡死（kernel「stuck in process loop」，原版也有）→ `AvatarMoverProcess::run` 每 tick 最多 8 次（`999f98fc7d`，未 push）。使用者再試沒有重現，保護未觸發；若再發生，請使用者存檔或 `MainActor::mark` 記位置。
 
 ### Master Plan §49 尚未完成的待辦
 
