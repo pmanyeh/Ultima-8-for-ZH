@@ -1,8 +1,8 @@
 # P20 戰鬥輔助：攻擊滑鼠所指的對象、傷害數字擴充、血條
 
 **日期：** 2026-10-14
-**結果：** ⏳ 待使用者試玩
-**引擎：** `ultima8-zh-tw-dev` @ `2138432ebc`（本機，未 push）
+**結果：** ✅ PASS（使用者試玩：攻擊鎖定、聖者與敵人的傷害數字、血條都正常）
+**引擎：** `ultima8-zh-tw-dev` @ `2138432ebc`、`bc801a8ae7`（本機，未 push）
 
 使用者與朋友討論後提出四項：敵人血條（可開關）、聖者受傷也顯示數字、揮空與魔法 / 投擲物的傷害數字、攻擊時自動面向點到的對象。使用者決定：血條在**被打後顯示幾秒**；傷害數字顯示**畫面上所有人物**受傷；編號 P20（原本的「高解析介面放大」順延為 P21）。
 
@@ -34,6 +34,15 @@
 - `gumps/health_bar_gump.*`：`ItemRelativeGump`（不存檔），在被打的人頭上畫 24×4 遊戲像素的條：黑框、暗紅底，生命值 > 1/2 綠、> 1/4 黃、其餘紅。
 - 被打中後顯示約 4 秒（144 幀）；再被打中重新計時（每個人物只有一條，`g_healthBars` 對照表）。人物死亡、離開 fast area 就關閉。聖者不顯示。
 - 生命值即時讀取 `getHP()` / `getMaxHP()`，喝藥水等變化也會反映。
+
+## 試玩中修正的兩個問題
+
+1. **有傷害時數字與血條立刻消失**（「格擋」看得到）：人物受傷時 `receiveHitU8` 以 `killAllButCombatProcesses` / `killAllButFallAnims` 結束他身上的程序，連 gump 的 `GumpNotifyProcess`（owner = 該人物）也被結束，gump 隨即關閉。0 傷害不走這段，所以「格擋」可見。修正：兩個 gump 覆寫 `CreateNotifier()` 不建立通知程序，改在 `run()` 自行檢查人物是否還在。
+2. **怪物沒有血條**：`Actor::getMaxHP()` 是 `2 × STR`，怪物的生命值來自 `MonsterInfo`（`_minHp`–`_maxHp` 隨機），STR 常為 0 → 滿血值 0 → 不畫。修正：有 `MonsterInfo` 的人物，以**第一次被打（扣血前）的生命值**為滿血值並記住（`g_fullHP`，死亡時清除）；其他人物用 `max(HP, getMaxHP())`。限制：被打前就受過傷的怪物，第一次的血條會是滿的。
+
+除錯：新增主控台指令 `Localization::damage <objid> [damage]`（只顯示數字與血條，不扣血；-1 = 揮空）；debug 1 log `Damage: <n> over <id>`、`Health bar over <id>: <hp> of <full>`。
+
+試玩 log：`Attack target 138: direction 4 (mouse 0)`、`142: direction 8 (mouse 12)`、`direction 6 (mouse 10)` —— 滑鼠方向與實際方向差 1–2 格的情形都已修正。揮空、魔法傷害未特別回報，之後遊玩時留意。
 
 ## 設定與文件
 

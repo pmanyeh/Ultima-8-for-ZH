@@ -1,7 +1,7 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
 **更新日期：** 2026-10-14
-**目前進度：** Phase 0–19 ✅ PASS；**P20 戰鬥輔助已實作，待使用者試玩**。全遊戲翻譯完成（99.8%，6,986 條；未翻的 49 條是刻意保留的數字、密碼、座標）。v1.0.2 已打包（Windows、macOS arm64 / x86_64，在 `dist/`），**GitHub Release 尚未建立**。
+**目前進度：** Phase 0–20 ✅ PASS。全遊戲翻譯完成（99.8%，6,986 條；未翻的 49 條是刻意保留的數字、密碼、座標）。v1.0.2 已打包（Windows、macOS arm64 / x86_64，在 `dist/`），**GitHub Release 尚未建立**。
 
 給接手的 Agent：請先讀 **§0（目前狀態與下一輪待辦）** 與 §1（合作規則），再依需要讀其他章節、[Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（§49 是早期的待辦總表）與 [localization/README.md](../localization/README.md)。
 
@@ -11,7 +11,6 @@
 
 ### 待辦（使用者交代）
 
-0. **P20 戰鬥輔助：等使用者試玩**（[報告](reports/P20-combat-assists.md)，含試玩步驟）。攻擊滑鼠所指的對象（`attack_target`）、傷害數字顯示所有人物 / 聖者橘黃 / 揮空、血條（`health_bars`，被打後約 4 秒）。測完讀 `private_test/dev-*.log` 的 `Attack target` 行；PASS 後報告改 ✅、§7 表格補一列。
 1. **下次打包時，ScummVM 遊戲選項的「高解析度」（`usehighres`，640×480）預設開啟**（使用者 2026-10-14）。做法：`engines/ultima/metaengine.cpp` 的 `GAMEOPTION_HIGH_RESOLUTION` 把 `defaultState` 改為 `true`，並讓 `Ultima8Engine::startupGame()` 在沒有 `usehighres` 鍵時預設 `_highRes = true`（目前只在有鍵時讀）。只寫在 `package/scummvm.ini` 的 `[scummvm]` 不夠：勾選框只看遊戲區段與 `defaultState`，會顯示成未勾選。注意：高解析度下介面（背包等）會變小，見下方 P21。改完要更新 CHANGELOG 與 `SETTINGS.zh-TW.md`。
 2. **使用者正在試玩 v1.0.2**，可能還有要調整的地方；之後再 push、重新打包、發布。
 3. **GitHub Release v1.0.2**：三個 zip 都在 `dist/`；建立前先問使用者（公開動作）。朋友（IsleFan）在測 Mac 版。
@@ -140,7 +139,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike，**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `2138432ebc`（本機；fork 上是 `b5281180bb`） | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`、名稱加註 `e674111a51`、P13 選項句型 `1882ba7ba5`、P17 自動走近使用修正 `55465bc361`、對話翻頁與 Esc `d3d312092a`、P18 `e1220ab65f` `0da37d5d54`、P19 `31870b3ae0` `b5c29c98cf` `b5281180bb`、移動程序迴圈保護 `999f98fc7d`、P20 `2138432ebc`（P8 只有研究，無引擎修改） |
+| `ultima8-zh-tw-dev` | `bc801a8ae7`（本機；fork 上是 `b5281180bb`） | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`、名稱加註 `e674111a51`、P13 選項句型 `1882ba7ba5`、P17 自動走近使用修正 `55465bc361`、對話翻頁與 Esc `d3d312092a`、P18 `e1220ab65f` `0da37d5d54`、P19 `31870b3ae0` `b5c29c98cf` `b5281180bb`、移動程序迴圈保護 `999f98fc7d`、P20 `2138432ebc` `bc801a8ae7`（P8 只有研究，無引擎修改） |
 
 建置目錄（`scummvm-src/` 內，gitignored）：`build-scummvm/`（原版）、`build-trace/`（Usecode trace）、`build-spike/`、**`build-dev/`（開發分支，Debug x64）**。
 
@@ -197,6 +196,7 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 | `Cheat::toggle`、`Cheat::items` | 背包放入金幣、試劑等（查看即走真實 Usecode，P11 用來測 `{num}`） |
 | `Localization::read book\|scroll\|grave\|plaque <class>:<ip>` | 直接開啟讀物（不必走到物品旁） |
 | `Localization::gravestone` | 只顯示死亡墓碑（主角不會死） |
+| `Localization::damage <objid> [n]` | 在人物頭上顯示傷害數字與血條（不扣血；0 = 格擋、-1 = 揮空；1 = 聖者）（P20） |
 | `Localization::guardianBark <1-23>` | Guardian 的嘲諷（有語音 `E666.FLX`），測語音 / 字幕；3 / 12 / 16 有 POC 譯文 |
 | `Ultima8Engine::barkTestFile p3_test_strings.txt <n>` | 字型繪製測試 |
 
@@ -216,6 +216,8 @@ wsl -d Ubuntu -- bash "/mnt/d/git/Ultima 8 for ZH/tools/build/wsl_unit_tests.sh"
 10. **增量連結可能沒把新程式連進 `scummvm.exe`**（2026-10-10 發生：改了圖示的圖框，畫面一直不變；obj 與 `ultima.lib` 是新的，exe 是舊的）。畫面或行為不符合預期時，先刪掉 `build-dev/Debugx64/ultima.lib` 和 `scummvm.exe` 再建置。
 11. `module.mk` 有 CRLF 也有 LF 的行，用腳本插入新的 `.o` 時兩種都要試（P18、P19 都踩到）。
 12. GitHub 有時很慢：`gh` 指令加 `timeout 100`，長時間等待用背景執行 `gh run watch`。
+13. **跟著人物的 gump 會被受傷關掉**（P20）：有 owner 的 gump 預設建立 `GumpNotifyProcess`（item = owner），人物受傷時 `killAllButCombatProcesses` 會結束它而關閉 gump。不該被打斷的 gump 要覆寫 `CreateNotifier()`（`DamageGump`、`HealthBarGump`）。
+14. 怪物的 `getMaxHP()`（2 × STR）不是真的滿血值，生命值來自 `MonsterInfo` 隨機（P20）。
 
 ---
 
@@ -265,6 +267,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 | P17 Walk to Use | 雙擊太遠的物品自動走過去使用 | [P17](reports/P17-walk-to-use.md) |
 | P18 Chinese Settings / GUI | 遊戲設定的中文設定頁、ScummVM 正體中文介面 | [P18](reports/P18-chinese-settings-gui.md) |
 | P19 Gameplay Assists | 輔助跳躍、傷害數字、藥水依效果命名 | [P19](reports/P19-gameplay-assists.md) |
+| P20 Combat Assists | 攻擊滑鼠所指的對象、傷害數字（所有人物、揮空）、血條 | [P20](reports/P20-combat-assists.md) |
 
 ### 使用者已做的決定
 
@@ -286,7 +289,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - **墓碑牌匾**：後來改為預設全中文（`engraving_chinese`，王漢宗魏碑體雕刻效果），英文雕刻加字幕仍可選。
 - **1993 中文手冊譯名**（2026-10-11，`docs/research/manual-1993-terms.md`）：魔法學派、元素泰坦、人物、地名、稱號、法術、藥材依手冊；種族組織、法器、介面文字、Adept（行家法師，與使用者 U7 一致）維持現行。**Pagan**：遊戲標題「異教徒」，遊戲內世界名「佩根」。女性角色用女性化的字（珂林絲、洛西安、綺蘭朵、翠西安、艾莉兒）。
 - 結局動畫沒有字幕；製作人員名單與語錄不翻；49 條刻意不翻的條目維持（使用者 2026-10-11）。
-- 對話時點任何地方翻頁、Esc 先關最上層容器、輔助跳躍、傷害數字：預設開啟，可在中文設定頁關閉。血條不做。
+- 對話時點任何地方翻頁、Esc 先關最上層容器、輔助跳躍、傷害數字、攻擊滑鼠所指的對象、血條（被打後約 4 秒）：預設開啟，可在中文設定頁關閉。
 
 ---
 

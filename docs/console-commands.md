@@ -33,6 +33,7 @@ ScummVM Ultima 8 引擎的除錯主控台指令，依 `scummvm-src/engines/ultim
 | `Localization::say` | `<class>:<ip> <英文>` | 主角以該呼叫點說出任意英文，用來測句型與參數是否套得上。主控台會回報 `Translated` 或 `No translation, English is shown` |
 | `Localization::read` | `book\|scroll\|grave\|plaque <class>:<ip>` | 直接打開書、捲軸、墓碑、牌匾，不必走到物品旁 |
 | `Localization::gravestone` | — | 只顯示死亡畫面的墓碑（主角不會死） |
+| `Localization::damage` | `<物件編號> [傷害]` | 在人物頭上顯示傷害數字與血條，不扣血（0 = 格擋、-1 = 揮空；1 = 聖者）（P20） |
 | `Localization::guardianBark` | `<1-23>` | 守護者的嘲諷（有語音），測語音與字幕 |
 | `Ultima8Engine::barkTestFile` | `<檔案> [行號]` | 主角說出文字檔中的第 n 行（預設第 1 行，`#` 開頭的行略過），測字型繪製。例：`Ultima8Engine::barkTestFile p3_test_strings.txt 3` |
 
