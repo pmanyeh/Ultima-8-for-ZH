@@ -1,7 +1,7 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
 **更新日期：** 2026-10-14
-**目前進度：** Phase 0–19 ✅ PASS。全遊戲翻譯完成（99.8%，6,986 條；未翻的 49 條是刻意保留的數字、密碼、座標）。v1.0.2 已打包（Windows、macOS arm64 / x86_64，在 `dist/`），**GitHub Release 尚未建立**。
+**目前進度：** Phase 0–19 ✅ PASS；**P20 戰鬥輔助已實作，待使用者試玩**。全遊戲翻譯完成（99.8%，6,986 條；未翻的 49 條是刻意保留的數字、密碼、座標）。v1.0.2 已打包（Windows、macOS arm64 / x86_64，在 `dist/`），**GitHub Release 尚未建立**。
 
 給接手的 Agent：請先讀 **§0（目前狀態與下一輪待辦）** 與 §1（合作規則），再依需要讀其他章節、[Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（§49 是早期的待辦總表）與 [localization/README.md](../localization/README.md)。
 
@@ -11,23 +11,21 @@
 
 ### 待辦（使用者交代）
 
-1. **下次打包時，ScummVM 遊戲選項的「高解析度」（`usehighres`，640×480）預設開啟**（使用者 2026-10-14）。做法：`engines/ultima/metaengine.cpp` 的 `GAMEOPTION_HIGH_RESOLUTION` 把 `defaultState` 改為 `true`，並讓 `Ultima8Engine::startupGame()` 在沒有 `usehighres` 鍵時預設 `_highRes = true`（目前只在有鍵時讀）。只寫在 `package/scummvm.ini` 的 `[scummvm]` 不夠：勾選框只看遊戲區段與 `defaultState`，會顯示成未勾選。注意：高解析度下介面（背包等）會變小，見下方 P20。改完要更新 CHANGELOG 與 `SETTINGS.zh-TW.md`。
+0. **P20 戰鬥輔助：等使用者試玩**（[報告](reports/P20-combat-assists.md)，含試玩步驟）。攻擊滑鼠所指的對象（`attack_target`）、傷害數字顯示所有人物 / 聖者橘黃 / 揮空、血條（`health_bars`，被打後約 4 秒）。測完讀 `private_test/dev-*.log` 的 `Attack target` 行；PASS 後報告改 ✅、§7 表格補一列。
+1. **下次打包時，ScummVM 遊戲選項的「高解析度」（`usehighres`，640×480）預設開啟**（使用者 2026-10-14）。做法：`engines/ultima/metaengine.cpp` 的 `GAMEOPTION_HIGH_RESOLUTION` 把 `defaultState` 改為 `true`，並讓 `Ultima8Engine::startupGame()` 在沒有 `usehighres` 鍵時預設 `_highRes = true`（目前只在有鍵時讀）。只寫在 `package/scummvm.ini` 的 `[scummvm]` 不夠：勾選框只看遊戲區段與 `defaultState`，會顯示成未勾選。注意：高解析度下介面（背包等）會變小，見下方 P21。改完要更新 CHANGELOG 與 `SETTINGS.zh-TW.md`。
 2. **使用者正在試玩 v1.0.2**，可能還有要調整的地方；之後再 push、重新打包、發布。
 3. **GitHub Release v1.0.2**：三個 zip 都在 `dist/`；建立前先問使用者（公開動作）。朋友（IsleFan）在測 Mac 版。
 
 ### 尚未 push / 尚未打包
 
-- 引擎 `999f98fc7d`（聖者移動程序每 tick 最多執行 8 次，防止撞到屍體時卡死）只在本機；`dist/` 的 v1.0.2 不含它。使用者說先不 push、不重新打包。
+- 引擎 `999f98fc7d`（聖者移動程序每 tick 最多執行 8 次，防止撞到屍體時卡死）與 P20 的引擎 commit 只在本機；`dist/` 的 v1.0.2 不含它們。使用者說先不 push、不重新打包。CHANGELOG 已有「下一版（未發布）」一節。
 - 其餘都已 push：主 repo `main` @ `2f35d9e`、引擎 fork `ultima8-zh-tw-dev` @ `b5281180bb`。
 
 ### 已研究、暫緩（使用者決定）
 
-- **P20 高解析度的介面放大**：開啟 `usehighres` 後背包、台詞框等介面只有一半大。可行做法：在桌面加一個 2 倍的「介面層」（所有非地圖 gump 放進去，`ParentToGump` / `GumpToParent` 換算 ×2，畫到暫存 surface 再放大）。拖曳時物品在背包裡由背包畫（2 倍）、到地圖上由地圖畫（原大小），使用者 U7 專案要求的「拖出背包要縮回」會自然成立。主要風險：高解析中文字的大小與位置（`TextWidget::PaintComposited`、`hdToGame` 換算要改以介面層為基準）、跟著人物的 gump（台詞、傷害數字）的位置、`MoveOnScreen` 的邊界。建議分兩步：先介面層與拖放，再處理高解析中文字。
-- 敵人血條（傷害數字的方案 D）：先不做。
-
+- **P21 高解析度的介面放大**（原 P20，2026-10-14 順延）：開啟 `usehighres` 後背包、台詞框等介面只有一半大。可行做法：在桌面加一個 2 倍的「介面層」（所有非地圖 gump 放進去，`ParentToGump` / `GumpToParent` 換算 ×2，畫到暫存 surface 再放大）。拖曳時物品在背包裡由背包畫（2 倍）、到地圖上由地圖畫（原大小），使用者 U7 專案要求的「拖出背包要縮回」會自然成立。主要風險：高解析中文字的大小與位置（`TextWidget::PaintComposited`、`hdToGame` 換算要改以介面層為基準）、跟著人物的 gump（台詞、傷害數字）的位置、`MoveOnScreen` 的邊界。建議分兩步：先介面層與拖放，再處理高解析中文字。
 ### 其他可考慮
 
-- 「揮空」與魔法 / 投擲物的傷害數字（目前只顯示聖者近戰打中）。
 - 踏腳石下沉時暫停（P19 只改落點，下沉是原版機關）。
 - 可回報 upstream 的修正（需使用者同意，**不要自行從 fork 建 PR**）：自動走近使用的 reach target、移動程序同 tick 迴圈保護、`TTFont::renderText` 越界、原版換行無限迴圈。
 
@@ -89,8 +87,9 @@
 | `gfx/fonts/font.*`、`tt_font.*`、`font_manager.*`、`games/game_data.*` | UTF-8 / CJK 字型（P3）、`isUTF8()`、CJK override |
 | `misc/debugger.*` | 主控台指令（§4） |
 | `misc/options_widget.*` | 遊戲設定的中文設定頁（P18） |
-| `gumps/quick_bar_gump.*`、`gumps/damage_gump.*` | 快捷圖示列與作弊圖示（P16）、傷害數字（P19） |
-| `world/actors/u8_avatar_mover_process.cpp`、`avatar_mover_process.cpp` | 輔助跳躍（P19）、同 tick 迴圈保護 |
+| `gumps/quick_bar_gump.*`、`gumps/damage_gump.*`、`gumps/health_bar_gump.*` | 快捷圖示列與作弊圖示（P16）、傷害數字（P19，P20 擴充：所有人物、揮空）、血條（P20） |
+| `world/actors/u8_avatar_mover_process.cpp`、`avatar_mover_process.cpp` | 輔助跳躍（P19）、攻擊滑鼠所指的對象（P20 `attack`）、同 tick 迴圈保護 |
+| `world/actors/actor.cpp`（`receiveHitU8`）、`actor_anim_process.cpp` | 傷害數字與血條的掛點、揮空（P20） |
 | `gumps/game_map_gump.cpp`、`world/actors/pathfinder*.cpp` | 自動走近使用（P17）、對話時點任何地方翻頁 |
 
 ---
@@ -141,7 +140,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike，**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `999f98fc7d`（本機；fork 上是 `b5281180bb`） | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`、名稱加註 `e674111a51`、P13 選項句型 `1882ba7ba5`、P17 自動走近使用修正 `55465bc361`、對話翻頁與 Esc `d3d312092a`、P18 `e1220ab65f` `0da37d5d54`、P19 `31870b3ae0` `b5c29c98cf` `b5281180bb`、移動程序迴圈保護 `999f98fc7d`（P8 只有研究，無引擎修改） |
+| `ultima8-zh-tw-dev` | `2138432ebc`（本機；fork 上是 `b5281180bb`） | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`、名稱加註 `e674111a51`、P13 選項句型 `1882ba7ba5`、P17 自動走近使用修正 `55465bc361`、對話翻頁與 Esc `d3d312092a`、P18 `e1220ab65f` `0da37d5d54`、P19 `31870b3ae0` `b5c29c98cf` `b5281180bb`、移動程序迴圈保護 `999f98fc7d`、P20 `2138432ebc`（P8 只有研究，無引擎修改） |
 
 建置目錄（`scummvm-src/` 內，gitignored）：`build-scummvm/`（原版）、`build-trace/`（Usecode trace）、`build-spike/`、**`build-dev/`（開發分支，Debug x64）**。
 
