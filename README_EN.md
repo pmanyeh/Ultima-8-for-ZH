@@ -4,7 +4,7 @@
 
 A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds on the Ultima 8 engine of [ScummVM](https://www.scummvm.org/) and shows conversations, answers, books, scrolls, gravestones and the interface in Chinese — without modifying the original game data.
 
-> **Status: version 1.0.1.** The whole game is translated (99.8%). Ready-to-run packages for Windows and macOS (Apple Silicon and Intel) are available, see [Download and install](#download-and-install).
+> **Status: version 1.0.3.** The whole game is translated (99.8%). Ready-to-run packages for Windows and macOS (Apple Silicon and Intel) are available, see [Download and install](#download-and-install).
 
 ## Features
 
@@ -20,13 +20,14 @@ A fan project to play *Ultima VIII: Pagan* in **Traditional Chinese**. It builds
 - **Quick action icons**: icons in the bottom right corner, shown when the mouse is there (as in Exult), for the backpack, inventory, map, menu, saving and loading, combat, keyring and recall.
 - **Walk to use**: double-clicking a door, chest or book out of reach makes the Avatar walk there and use it.
 - **Conversations and windows**: in a conversation a click anywhere turns the page (as in Ultima VII); Escape closes the frontmost container or inventory before it opens the menu.
+- **Play and combat assists**: targeted jumps land on the middle of the target; in combat a double click on an enemy turns the Avatar to him and strikes; damage numbers (with Blocked and Miss) and enemy health bars; potions named by their effect. Each can be turned off on the Chinese settings page.
 - **Settings**: font, size, spacing, the size of the speech bubbles and the music device (General MIDI, AdLib, Roland MT-32) can be adjusted; the common ones on a Chinese settings page of the game options (popups and sliders), and the ScummVM interface is in Traditional Chinese.
 - **Safe fallback**: a missing translation, a broken catalog or a missing font always shows the English text — never garbage or a crash.
 
 ## Translation progress
 
 <!-- progress:start -->
-**Overall (by English characters): `████████████████████` 99.8%** (6,986 / 7,035 entries, updated 2026-10-13)
+**Overall (by English characters): `████████████████████` 99.8%** (6,986 / 7,035 entries, updated 2026-10-14)
 
 | Kind | Translated / total (entries) | English characters | Progress |
 |---|---|---|---|

@@ -1,7 +1,7 @@
 # Handoff — Ultima VIII 繁體中文化專案
 
 **更新日期：** 2026-10-14
-**目前進度：** Phase 0–20 ✅ PASS。全遊戲翻譯完成（99.8%，6,986 條；未翻的 49 條是刻意保留的數字、密碼、座標）。v1.0.2 已打包（Windows、macOS arm64 / x86_64，在 `dist/`），**GitHub Release 尚未建立**。
+**目前進度：** Phase 0–20 ✅ PASS。全遊戲翻譯完成（99.8%，6,986 條；未翻的 49 條是刻意保留的數字、密碼、座標）。**v1.0.3** 已打包（Windows 在 `dist/`；macOS 由 GitHub Actions 建置），**GitHub Release 尚未建立**（v1.0.2 已打包但從未發布，由 v1.0.3 取代）。
 
 給接手的 Agent：請先讀 **§0（目前狀態與下一輪待辦）** 與 §1（合作規則），再依需要讀其他章節、[Master Plan](../ULTIMA8_CHINESE_LOCALIZATION_MASTER_PLAN.md)（§49 是早期的待辦總表）與 [localization/README.md](../localization/README.md)。
 
@@ -11,14 +11,13 @@
 
 ### 待辦（使用者交代）
 
-1. **下次打包時，ScummVM 遊戲選項的「高解析度」（`usehighres`，640×480）預設開啟**（使用者 2026-10-14）。做法：`engines/ultima/metaengine.cpp` 的 `GAMEOPTION_HIGH_RESOLUTION` 把 `defaultState` 改為 `true`，並讓 `Ultima8Engine::startupGame()` 在沒有 `usehighres` 鍵時預設 `_highRes = true`（目前只在有鍵時讀）。只寫在 `package/scummvm.ini` 的 `[scummvm]` 不夠：勾選框只看遊戲區段與 `defaultState`，會顯示成未勾選。注意：高解析度下介面（背包等）會變小，見下方 P21。改完要更新 CHANGELOG 與 `SETTINGS.zh-TW.md`。
-2. **使用者正在試玩 v1.0.2**，可能還有要調整的地方；之後再 push、重新打包、發布。
-3. **GitHub Release v1.0.2**：三個 zip 都在 `dist/`；建立前先問使用者（公開動作）。朋友（IsleFan）在測 Mac 版。
+1. **GitHub Release v1.0.3**：Windows zip 在 `dist/`，macOS 兩個 zip 由 `macos.yml`（`-f version=1.0.3`）建置後下載到 `dist/`；建立前先問使用者（公開動作）。朋友（IsleFan）在測 Mac 版。
+2. 使用者持續試玩，可能還有要調整的地方。
 
-### 尚未 push / 尚未打包
+### v1.0.3 內容（2026-10-14）
 
-- 引擎 `999f98fc7d`（聖者移動程序每 tick 最多執行 8 次，防止撞到屍體時卡死）與 P20 的引擎 commit 只在本機；`dist/` 的 v1.0.2 不含它們。使用者說先不 push、不重新打包。CHANGELOG 已有「下一版（未發布）」一節。
-- 其餘都已 push：主 repo `main` @ `2f35d9e`、引擎 fork `ultima8-zh-tw-dev` @ `b5281180bb`。
+- P20 戰鬥輔助、聖者移動程序同 tick 迴圈保護、**高解析度（`usehighres`，640×400）預設開啟**（引擎 `e3556dfa57`：`metaengine.cpp` 的 `GAMEOPTION_HIGH_RESOLUTION` `defaultState = true`，`startupGame()` 沒有鍵時 `_highRes = true`；已驗證無鍵時以 640×400 啟動）。高解析度下介面會變小，見下方 P21。
+- 全部已 push：引擎 fork `ultima8-zh-tw-dev` @ `e3556dfa57`；主 repo 見 git log。
 
 ### 已研究、暫緩（使用者決定）
 
@@ -139,7 +138,7 @@ D:\git\Ultima 8 for ZH\                  ← 主 repo（git, branch main，最�
 |---|---|---|
 | `master` | `71cb05b1c0` | upstream 基準（2026-10-05） |
 | `exp/u8-p2-identity-spike` | `2063e25a89` | P2 spike，**只供參考，不合併** |
-| `ultima8-zh-tw-dev` | `bc801a8ae7`（本機；fork 上是 `b5281180bb`） | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`、名稱加註 `e674111a51`、P13 選項句型 `1882ba7ba5`、P17 自動走近使用修正 `55465bc361`、對話翻頁與 Esc `d3d312092a`、P18 `e1220ab65f` `0da37d5d54`、P19 `31870b3ae0` `b5c29c98cf` `b5281180bb`、移動程序迴圈保護 `999f98fc7d`、P20 `2138432ebc` `bc801a8ae7`（P8 只有研究，無引擎修改） |
+| `ultima8-zh-tw-dev` | `e3556dfa57`（已 push） | **正式開發分支**（目前 checkout）。P3 `96bfc46318`、P4 `b0efb70a44` `d6192426af`、P5 `a1a2282aae`、P6 `b04657abfb`、P7 `5a8b1e7e5b`、P9 `cb69291575`、P10 `47541ad4bb`、P11 `4ce1d3e434`、P12 `91c8b8598a`、名稱加註 `e674111a51`、P13 選項句型 `1882ba7ba5`、P17 自動走近使用修正 `55465bc361`、對話翻頁與 Esc `d3d312092a`、P18 `e1220ab65f` `0da37d5d54`、P19 `31870b3ae0` `b5c29c98cf` `b5281180bb`、移動程序迴圈保護 `999f98fc7d`、P20 `2138432ebc` `bc801a8ae7`、高解析度預設開啟 `e3556dfa57`（P8 只有研究，無引擎修改） |
 
 建置目錄（`scummvm-src/` 內，gitignored）：`build-scummvm/`（原版）、`build-trace/`（Usecode trace）、`build-spike/`、**`build-dev/`（開發分支，Debug x64）**。
 
@@ -314,7 +313,7 @@ python tools/catalog/progress.py zh_TW               # 更新 README / README_EN
 - 套件附 Cubic 11、jf open 粉圓、王漢宗魏碑體（各附授權）；使用者自用的細明體（`chinese.ttf`）不可散布。ROM（MT-32）不可附，`make_package.ps1` 每次都重建資料夾。
 - macOS：`.github/workflows/macos.yml`（手動觸發 `gh workflow run macos.yml -R pmanyeh/Ultima-8-for-ZH -f version=X`，或推 `v*` 標籤），引擎取自 fork 的 `ultima8-zh-tw-dev`（**引擎改動要先 push**）。2026-10-13 起（IsleFan 的 PR #2）用 `tools/build/build_macos_deps.sh` 依 `MACOSX_DEPLOYMENT_TARGET` 自編 SDL2 與 FreeType：arm64 最低 macOS 11、Intel 最低 13；configure 要 `--enable-engine=ultima,ultima8`（PR #1：只寫 ultima 不會編入子引擎）；沒有 FluidSynth（SoundFont 走 CoreAudio）、沒有 PNG（`dumpMap` 存 BMP）。建置後檢查：紀錄有 `Ultima [] [Ultima VIII - Pagan]`、zip 的 `Contents/libs/` 只有 libSDL2 與 libfreetype。
 - gh CLI 已登入使用者帳號（`C:/Program Files/GitHub CLI/gh.exe`，有 workflow 權限）。
-- 版本：v1.0.0、v1.0.1 的 Mac 版無法執行（未發布）；v1.0.2 是第一個三平台都可用的版本，CHANGELOG 有完整內容。
+- 版本：v1.0.0、v1.0.1 的 Mac 版無法執行（未發布）；v1.0.2 打包過但未發布；v1.0.3 是要發布的版本，CHANGELOG 有完整內容。
 
 ### P15 高解析文字層（2026-10-10 PASS）
 

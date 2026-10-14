@@ -17,8 +17,9 @@
 | 自動走近使用 | 開 | 雙擊太遠的門、箱子、書等物品時，聖者會自動走過去再使用；走不到時會搖頭。途中自己移動、戰鬥或對話就會取消 |
 | 墓碑牌匾全中文 | 開 | 墓碑與牌匾直接刻上中文（王漢宗魏碑體，雕刻效果）。關閉時為英文雕刻加中文字幕 |
 | 快捷圖示列 | 開 | 滑鼠移到畫面右下角時出現的快捷圖示（背包、屬性、戰鬥、地圖、選單、鑰匙圈、召回石、睡袋、存檔、讀檔） |
+| 高解析度 | 開 | ScummVM 原有的選項：遊戲以 640×400 執行，看得到的範圍比原版 320×200 大。背包、台詞框等介面會變成原本的一半大；覺得太小可以取消勾選。**重新啟動遊戲後生效** |
 
-這些勾選框在 `scummvm.ini` 的 `[ultima8]` 區段裡依序是 `localization_zh_tw`、`localization_annotate`、`hd_text`、`walk_to_use`、`engraving_chinese`、`quick_bar`（`true` 為開、`false` 為關）。平常在介面切換即可；macOS 版或想直接改設定檔時，可以用這些名稱。
+這些勾選框在 `scummvm.ini` 的 `[ultima8]` 區段裡依序是 `localization_zh_tw`、`localization_annotate`、`hd_text`、`walk_to_use`、`engraving_chinese`、`quick_bar`、`usehighres`（`true` 為開、`false` 為關）。平常在介面切換即可；macOS 版或想直接改設定檔時，可以用這些名稱。
 
 ### 中文設定
 
