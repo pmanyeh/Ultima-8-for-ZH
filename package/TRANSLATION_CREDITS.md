@@ -4,6 +4,7 @@
 
 - **專案主持、譯名審定、試玩**：pmanyeh
 - **翻譯與程式**：Claude（Anthropic 的 AI 助理），在 pmanyeh 的指導與審閱下完成
+- **中文手冊提供者**：Dawson De-Shiuan Chiou、小南（1993 年軟體世界中文版手冊，魔法學派、人物、地名、法術、藥材等譯名的依據）
 - 譯名以專案的權威檔（`localization/zh_TW/authority.tsv`）為準，人名、地名、物品、法術、怪物共約 760 個。
 
 ## 引擎與工具
